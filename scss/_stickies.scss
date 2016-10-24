@@ -1,0 +1,204 @@
+.side .usertext-body .md ol {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin: 0 30px 0 0;
+    padding: 0;
+    z-index: 99;
+}
+
+.md-container-small .md {
+    .-text,
+    li,
+    p,
+    pre>code,
+    td,
+    th {
+        list-style: none;
+    }
+}
+
+.side {
+    .md {
+        .-text,
+        li,
+        p,
+        pre>code,
+        td,
+        th {
+            list-style: none;
+        }
+    }
+    .usertext-body .md ol a {
+        background-color: #57b5ff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 5px 6px 0;
+        text-decoration: none;
+        margin-bottom: 3px;
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .md>ol li a[href$='#special'] {
+        &:after,
+        &:before {
+            margin: 0 5px 0 0;
+            font-weight: 700;
+            padding: 5px 6px;
+        }
+    }
+    .usertext-body .md ol a {
+        &[href$='#special'] {
+            border: 2px solid #fefefe;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 5px 5px 6px 0;
+            text-decoration: none;
+            margin-bottom: 3px;
+            transition: opacity .5s;
+            background-color: #1686f0;
+            opacity: 0.8;
+            &:before {
+                margin: 0 5px 0 0;
+                font-weight: 700;
+                padding: 5px 6px;
+                background-color: $color-bg-main;
+                content: "Event";
+                color: #fff;
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
+        &[href$='#achieve'] {
+            border: 2px solid #fefefe;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 5px 5px 6px 0;
+            text-decoration: none;
+            margin-bottom: 3px;
+            transition: opacity .5s;
+            background-color: #28bc07;
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .md>ol li a[href$='#sticky'] {
+        &:after,
+        &:before {
+            margin: 0 5px 0 0;
+            font-weight: 700;
+            padding: 5px 6px;
+        }
+    }
+    .usertext-body .md ol a {
+        &[href$='#achieve']:before,
+        &[href$='#sticky']:before {
+            margin: 0 5px 0 0;
+            font-weight: 700;
+            padding: 5px 6px;
+        }
+        &[href$='#achieve']:before {
+            background-color: #0d9605;
+            content: "Achievement unlocked";
+            color: #fff;
+        }
+        &[href$='#sticky'],
+        &[href$='#stickyg'] {
+            font-weight: 400;
+            padding: 5px 5px 6px 0;
+            margin-bottom: 3px;
+            border: 2px solid #fefefe;
+            display: inline-block;
+            font-size: 12px;
+            transition: opacity .5s;
+            text-decoration: none;
+        }
+        &[href$='#sticky'] {
+            background-color: #1686f0;
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        &[href$='#stickyg']:hover {
+            opacity: 1;
+        }
+        &[href$='#sticky']:before {
+            background-color: $color-bg-main;
+            content: "Sticky";
+            color: #fff;
+        }
+        &[href$='#stickyg'] {
+            background-color: #28bc07;
+            opacity: 0.8;
+        }
+    }
+    .md>ol li a {
+        &[href$='#achieve'] {
+            &:after,
+            &:before {
+                margin: 0 5px 0 0;
+                font-weight: 700;
+                padding: 5px 6px;
+            }
+        }
+        &[href$='#update'] {
+            &:after,
+            &:before {
+                margin: 0 5px 0 0;
+                font-weight: 700;
+                padding: 5px 6px;
+            }
+        }
+    }
+    .usertext-body .md ol a {
+        &[href$='#stickyg']:before,
+        &[href$='#update']:before {
+            margin: 0 5px 0 0;
+            font-weight: 700;
+            padding: 5px 6px;
+        }
+        &[href$='#stickyg']:before {
+            background-color: #0d9605;
+            content: "Sticky";
+            color: #fff;
+        }
+        &[href$='#update'] {
+            border: 2px solid #fefefe;
+            background-color: #1686f0;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 400;
+            padding: 5px 5px 6px 0;
+            text-decoration: none;
+            margin-bottom: 3px;
+            opacity: .8;
+            transition: opacity 0.5s;
+            &:before {
+                background-color: $color-bg-main;
+                content: "Update";
+                color: #fff;
+            }
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .md del {
+        color: #fff;
+        text-decoration: none;
+        font-style: bold;
+    }
+}
+
+.md a:hover {
+    color: $color-bg-secondary;
+}

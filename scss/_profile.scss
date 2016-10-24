@@ -1,0 +1,231 @@
+#header #header-bottom-right {
+    background: 0 0;
+    bottom: -18px;
+    top: auto;
+    padding: 3px;
+    height: 59px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+#header-bottom-right {
+    .separator {
+        display: none;
+    }
+    .user {
+        position: relative;
+        top: 0;
+        width: 119px;
+        padding-left: 42px;
+        padding-top: 5px;
+        font-size: 13px;
+        color: #eaeaea;
+        line-height: 170%;
+        background: url(%%profilestuff%%) 0 -168px no-repeat $color-bg-main;
+        float: left;
+        border: 2px solid #fff;
+    }
+}
+
+#beta-help,
+.beta-hint a {
+    position: absolute !important;
+}
+
+#header-bottom-right {
+    .user {
+        >a {
+            text-indent: 4px;
+            color: #FFF;
+            display: block;
+            line-height: 12px;
+            white-space: nowrap;
+        }
+        span a {
+            color: #fff;
+        }
+    }
+    #mail {
+        top: 0;
+        top: 0 !important;
+        width: 42px;
+        height: 42px;
+        display: inline-block;
+    }
+    #modmail {
+        position: absolute;
+        right: 326px;
+        top: 3px;
+        padding-left: 26px;
+        padding-top: 5px;
+        font-size: 12px;
+        color: #eaeaea;
+        line-height: 170%;
+        background: url(%%profilestuff%%) 0 -42px no-repeat $color-bg-main;
+        border: 2px solid #fff;
+    }
+}
+
+#modmail.havemail {
+    background: url(%%profilestuff%%) 0 -42px #ff4500 !important;
+}
+
+#header #header-bottom-right {
+    #modmail:hover,
+    .choice:hover,
+    .user:hover {
+        background-color: $color-bg-secondary;
+    }
+    .logout {
+        display: inline-block;
+    }
+    #mail,
+    .choice,
+    .logout a {
+        margin-left: 5px;
+        width: 42px;
+        width: 42px !important;
+        height: 42px;
+        display: inline-block;
+        text-indent: 50px;
+        overflow: hidden;
+        transition: background-color 0.5s;
+    }
+    #mail {
+        &.nohavemail {
+            background: url(%%profilestuff%%) 0 -84px no-repeat $color-bg-main;
+            border-radius: 1px;
+            border: 2px solid #fff;
+        }
+        &.havemail {
+            background: url(%%profilestuff%%) 0 -84px no-repeat #ff4500;
+        }
+    }
+}
+
+.res #header #header-bottom-right #mail.havemail {
+    background: url(%%profilestuff%%) 0 -84px no-repeat #ff4500;
+}
+
+#header #header-bottom-right {
+    #mail.havemail {
+        border-radius: 1px;
+        border: 2px solid #fff;
+    }
+    .choice {
+        background: url(%%profilestuff%%) 0 -126px no-repeat $color-bg-main;
+        border-radius: 1px;
+        border: 2px solid #fff;
+    }
+}
+
+.beta-hint {
+    opacity: 1;
+    transition: background-color 0.5s;
+    a {
+        top: 0;
+        left: -78px;
+        color: transparent !important;
+        background-color: $color-bg-main;
+        background-size: 32px !important;
+        background-image: url(%%beta-flask%%) !important;
+        background-repeat: no-repeat !important;
+        background-position: center center;
+        width: 42px;
+        height: 42px;
+        border-radius: 1px;
+        border: 2px solid #fff;
+        &:hover {
+            background-color: green !important;
+        }
+    }
+}
+
+#beta-help {
+    background: #FFFFE1 !important;
+    color: #000 !important;
+    left: 1200px !important;
+    top: 170px !important;
+}
+
+.res .beta-hint a {
+    display: none;
+}
+
+#header #header-bottom-right {
+    .logout a {
+        background: url(%%profilestuff%%) no-repeat $color-bg-main;
+        border-radius: 1px;
+        border: 2px solid #fff;
+    }
+    #mail {
+        &.havemail,
+        &.nohavemail {
+            border-bottom: none;
+        }
+    }
+    .choice,
+    .logout a {
+        border-bottom: none;
+    }
+}
+
+#header-bottom-right {
+    #modmail,
+    .user {
+        border-bottom: none;
+    }
+}
+
+.user .userkarma {
+    border-bottom: none;
+}
+
+#header #header-bottom-right {
+    #mail:hover,
+    .choice:hover,
+    .user:hover {
+        background-color: $color-bg-secondary;
+    }
+    .logout a:hover {
+        text-indent: -99999px;
+        color: #fff;
+        background: url(%%profilestuff%%) no-repeat #ce352c;
+    }
+}
+
+#openRESPrefs {
+    position: absolute;
+    right: 365px;
+    top: 22px;
+}
+
+#mailCount {
+    position: absolute;
+    left: 208px;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.message-count {
+    background: $color-bg-secondary;
+    height: 42px;
+    font-size: medium;
+    line-height: 42px !important;
+    margin-left: -4px;
+    vertical-align: top;
+    display: none;
+}
+
+.user .userkarma {
+    cursor: help;
+}
+
+#RESAccountSwitcherIcon,
+#RESAccountSwitcherIconOverlay {
+    float: right;
+    margin-right: 7px;
+    margin-top: 0;
+    background: url(%%w-icons%%) -5px -91px no-repeat !important;
+}

@@ -1,0 +1,82 @@
+.footer {
+  border-bottom: 1px solid $color-bg-main;
+  &::after {
+    border-bottom: 1px solid $color-bg-main;
+  }
+}
+.footer {
+  div.col {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 176px;
+    height: auto;
+    font-family: Arial, sans-serif;
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 8px;
+      color: #fff;
+      background: $color-bg-main;
+      max-height: 18px;
+    }
+    a {
+      display: block;
+      margin: 5px;
+      padding: 3px 4px 3px 7px;
+      color: #000;
+      &:hover {
+        color: #000;
+        text-decoration: none;
+        background: #fff;
+      }
+    }
+  }
+  p.bottommenu {
+    font-weight: 700;
+    color: #FFF;
+    a {
+      font-weight: 700;
+      color: #FFF;
+    }
+    clear: left;
+    padding: 6px;
+  }
+}
+
+.debuginfo {
+  background: #F6F6F6;
+}
+
+.footer {
+  padding: 0;
+  border-left: 1px solid $color-bg-main;
+  display: flex !important;
+  display: -webkit-flex;
+  max-width: 600px;
+}
+
+.rounded {
+  border-radius: 0;
+}
+
+.footer {
+  .col {
+    border-left: none !important;
+  }
+  &::after {
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by Jaskys";
+    text-transform: none;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border-top: 34px solid $color-bg-main;
+    border-right: 1px solid $color-bg-main;
+    margin-bottom: -1px;
+    width: 90px;
+  }
+}
