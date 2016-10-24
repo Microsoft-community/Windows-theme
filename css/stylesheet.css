@@ -2,6 +2,10 @@
   height: 165px;
   background: #0057A6;
   border-bottom: none !important; }
+  #header [href$="/rising/"],
+  #header [href$="/controversial/"],
+  #header [href$="/ads/"] {
+    display: none !important; }
   #header .redditname a {
     font-size: 0;
     background: url(%%w-header%%) -5px -5px !important;
@@ -712,23 +716,12 @@ div.side span.subscribers {
   border-radius: 0;
   font-weight: 400;
   margin: 0 5px 0 0; }
-
-.side .titlebox > .fancy-toggle-button {
-  display: block !important; }
-
 div.side div.tagline {
-  display: block !important; }
+  display: block !important;
+  padding-top: 0;
+  border-top: none; }
 div.side span.subscribers {
   display: block !important; }
-
-.side .titlebox div.subButtons,
-.side .titlebox h1.redditname + div,
-.side .titlebox > .fancy-toggle-button {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: none;
-  border-bottom: none; }
-
 div.side div.leavemoderator {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -745,14 +738,6 @@ div.side span.subscribers {
   padding-bottom: 5px;
   border-top: none;
   border-bottom: none; }
-div.side div.tagline {
-  padding-top: 0;
-  border-top: none; }
-
-.side .titlebox div.subButtons,
-.side .titlebox > .fancy-toggle-button {
-  width: 269px; }
-
 div.side span.subscribers span {
   vertical-align: middle; }
   div.side span.subscribers span.number:before {
@@ -768,6 +753,18 @@ div.side span.subscribers span {
   margin: 0;
   padding-left: 30px;
   background: 0 0; }
+  .side .titlebox div.subButtons,
+  .side .titlebox > .fancy-toggle-button {
+    width: 269px; }
+  .side .titlebox div.subButtons,
+  .side .titlebox h1.redditname + div,
+  .side .titlebox > .fancy-toggle-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+    border-bottom: none; }
+  .side titlebox > .fancy-toggle-button {
+    display: block !important; }
 
 #search input[type=text] {
   width: 295px !important;
@@ -779,11 +776,6 @@ div.side span.subscribers span {
 
 .md {
   overflow: visible; }
-
-div.titlebox .md h3:before {
-  content: "+";
-  color: #fff;
-  padding-right: 5px; }
 
 .sidecontentbox .title {
   border-left: 5px solid #1992FF;
@@ -806,6 +798,10 @@ div.titlebox .md h4 {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
+div.titlebox .md h3:before {
+  content: "+";
+  color: #fff;
+  padding-right: 5px; }
 div.titlebox h1 {
   border-left: 5px solid #1992FF;
   background-color: #0057A6;
@@ -837,26 +833,6 @@ div.titlebox .md h4:after {
   border-style: solid;
   content: "";
   margin-left: -25px; }
-div.titlebox h1:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
-  border-width: 10px;
-  border-style: solid;
-  content: "";
-  margin-left: -25px; }
-
-.leavemoderator,
-.subscribers .word,
-.users-online {
-  display: none; }
-
-.sidecontentbox .title h1,
-.sidecontentbox a.helplink {
-  color: #fff;
-  font-size: 13px; }
-
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
@@ -867,13 +843,31 @@ div.titlebox .md h4 {
   div.titlebox .md h4 a {
     color: #fff;
     font-size: 13px; }
-div.titlebox h1 {
+div.titlebox .md h1 {
   color: #fff;
   font-size: 13px; }
-  div.titlebox h1 a {
+  div.titlebox .md h1:after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-color: transparent #d7ecff transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    content: "";
+    margin-left: -25px; }
+  div.titlebox .md h1 a {
     color: #fff;
     font-size: 13px; }
 
+.leavemoderator,
+.subscribers .word,
+.users-online {
+  display: none; }
+
+.sidecontentbox .title h1,
+.sidecontentbox a.helplink {
+  color: #fff;
+  font-size: 13px; }
 .sidecontentbox a.helplink {
   margin-right: 5px; }
 
@@ -899,14 +893,13 @@ div.titlebox h1 {
 #RESShortcutsSort,
 #RESShortcutsTrash {
   background-color: transparent !important; }
-
-#RESShortcutsAdd:hover,
-#RESShortcutsEditContainer:hover,
-#RESShortcutsLeft:hover,
-#RESShortcutsRight:hover,
-#RESShortcutsSort:hover,
-#RESShortcutsTrash:hover {
-  color: #f0f0f0 !important; }
+  #RESShortcutsAdd:hover,
+  #RESShortcutsEditContainer:hover,
+  #RESShortcutsLeft:hover,
+  #RESShortcutsRight:hover,
+  #RESShortcutsSort:hover,
+  #RESShortcutsTrash:hover {
+    color: #f0f0f0 !important; }
 
 .sidecontentbox .content .RESUserTagImage::after {
   display: none !important; }
@@ -916,6 +909,14 @@ div.titlebox h1 {
 .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .noncollapsed .RES-keyNav-activeElement.entry {
   background: 0 0 !important; }
+.res .RESDashboardToggle,
+.res .RESshortcutside {
+  background: 0 0 !important;
+  border: none;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 .titlebox .md h3 + ul:hover, .titlebox .md h3:hover + ul {
   max-height: 600px; }
@@ -979,6 +980,16 @@ div.commentarea .infobar p {
     margin-top: 0;
     padding: 7px 10px 10px; }
 
+.date:after {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-color: transparent #d7ecff transparent transparent;
+  border-width: 10px;
+  border-style: solid;
+  content: "";
+  margin-left: -16px;
+  margin-top: -29px; }
 .date:before {
   content: "Date ";
   display: block;
@@ -992,29 +1003,13 @@ div.commentarea .infobar p {
   margin-bottom: 6px;
   margin-left: -10px;
   font: 400 small verdana, arial, helvetica, sans-serif; }
-.date span {
-  display: block;
-  background-color: #fff; }
-
-.totalvotes {
-  display: block;
-  background-color: #fff; }
-
 .date span,
 .date time {
   color: #494949;
   font-size: 8pt; }
-.date:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
-  border-width: 10px;
-  border-style: solid;
-  content: "";
-  margin-left: -16px;
-  margin-top: -29px; }
 .date span {
+  display: block;
+  background-color: #fff;
   padding: 7px 0 10px 10px;
   border-left: 5px solid #d7ecff;
   border-bottom: 1px solid #d7ecff;
@@ -1025,13 +1020,9 @@ div.commentarea .infobar p {
   top: 257px;
   right: 94px; }
 
-.linkinfo .shortlink input {
-  height: 10px;
-  border: none;
-  width: 181px;
-  font-size: 13px; }
-
 .totalvotes {
+  display: block;
+  background-color: #fff;
   color: #494949 !important;
   font-weight: 600;
   text-transform: capitalize;
@@ -1043,14 +1034,11 @@ div.commentarea .infobar p {
   font-size: 8pt !important;
   margin-right: 5px; }
 
-.res .RESDashboardToggle,
-.res .RESshortcutside {
-  background: 0 0 !important;
+.linkinfo .shortlink input {
+  height: 10px;
   border: none;
-  color: #000;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none; }
+  width: 181px;
+  font-size: 13px; }
 
 .submit-page .side:before {
   content: "Use search before posting";
@@ -1058,18 +1046,17 @@ div.commentarea .infobar p {
   color: #E54661;
   margin-left: 27px; }
 
-.link .domain a {
-  visibility: visible;
-  position: relative;
-  top: -1px;
-  color: #b1b1b1;
-  transition: all .15s ease; }
-
 .domain {
   display: inline-block !important; }
 
 .link .domain {
   visibility: hidden; }
+  .link .domain a {
+    visibility: visible;
+    position: relative;
+    top: -1px;
+    color: #b1b1b1;
+    transition: all .15s ease; }
 
 #siteTable_organic {
   background: rgba(6, 102, 178, 0.1);
@@ -1088,72 +1075,65 @@ div.commentarea .infobar p {
 .organic-listing .link.promotedlink {
   margin-left: -1px; }
 
-#header [href$="/rising/"],
-#header [href$="/controversial/"],
-#header [href$="/ads/"] {
-  display: none !important; }
-
-.footer div.col {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 176px;
-  height: auto;
-  font-family: Arial, sans-serif; }
-  .footer div.col .title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px;
-    color: #fff;
-    background: #0057A6;
-    max-height: 18px; }
-  .footer div.col a {
-    display: block;
-    margin: 5px;
-    padding: 3px 4px 3px 7px;
-    color: #000; }
-    .footer div.col a:hover {
-      color: #000;
-      text-decoration: none;
-      background: #fff; }
-.footer p.bottommenu {
-  font-weight: 700;
-  color: #FFF;
-  clear: left;
-  padding: 6px; }
-  .footer p.bottommenu a {
-    font-weight: 700;
-    color: #FFF; }
-
-.debuginfo {
-  background: #F6F6F6; }
-
 .footer {
   padding: 0;
   border-left: 1px solid #0057A6;
   display: flex !important;
   display: -webkit-flex;
   max-width: 600px; }
+  .footer::after {
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by Jaskys";
+    text-transform: none;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border-top: 34px solid #0057A6;
+    border-right: 1px solid #0057A6;
+    margin-bottom: -1px;
+    width: 90px; }
+  .footer div.col {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 176px;
+    height: auto;
+    font-family: Arial, sans-serif; }
+    .footer div.col .title {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 8px;
+      color: #fff;
+      background: #0057A6;
+      max-height: 18px; }
+    .footer div.col a {
+      display: block;
+      margin: 5px;
+      padding: 3px 4px 3px 7px;
+      color: #000; }
+      .footer div.col a:hover {
+        color: #000;
+        text-decoration: none;
+        background: #fff; }
+  .footer p.bottommenu {
+    font-weight: 700;
+    color: #FFF;
+    clear: left;
+    padding: 6px; }
+    .footer p.bottommenu a {
+      font-weight: 700;
+      color: #FFF; }
+  .footer .col {
+    border-left: none !important; }
+
+.debuginfo {
+  background: #F6F6F6; }
 
 .rounded {
   border-radius: 0; }
-
-.footer .col {
-  border-left: none !important; }
-.footer::after {
-  display: block;
-  margin-top: 0;
-  padding: 10px;
-  padding-top: 8px !important;
-  color: #000;
-  content: "Designed by Jaskys";
-  text-transform: none;
-  font-size: 16px;
-  font-family: arial, sans-serif;
-  border-top: 34px solid #0057A6;
-  border-right: 1px solid #0057A6;
-  margin-bottom: -1px;
-  width: 90px; }
 
 .flairselector {
   border: 1px solid #0057A6 !important; }
@@ -1168,18 +1148,17 @@ div.commentarea .infobar p {
     text-transform: capitalize;
     padding-bottom: 6px; }
 
-.flairoptionpane li,
-.flairoptionpane ul {
-  min-width: 120px;
-  padding: 3px; }
+.flairoptionpane {
+  max-height: 304px; }
+  .flairoptionpane li,
+  .flairoptionpane ul {
+    min-width: 120px;
+    padding: 3px; }
 
 .flairselector .linkflair {
   border-left: none !important;
   background: 0 0;
   width: 110px; }
-
-.flairoptionpane {
-  max-height: 304px; }
 
 .flairselector form {
   border-top: solid 1px #0057A6;
@@ -1243,15 +1222,6 @@ div.commentarea .infobar p {
     content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
     color: #fff;
     font-family: "Segoe UI", sans-serif; }
-
-.formtabs-content {
-  width: 520px;
-  border-top: none;
-  padding-top: 10px; }
-
-form .spacer + .spacer {
-  margin: 0; }
-
 .submit-page .roundfield {
   padding: 16px;
   width: 524px;
@@ -1260,6 +1230,14 @@ form .spacer + .spacer {
   .submit-page .roundfield span.title {
     color: #4d5763;
     text-transform: capitalize; }
+
+.formtabs-content {
+  width: 520px;
+  border-top: none;
+  padding-top: 10px; }
+
+form .spacer + .spacer {
+  margin: 0; }
 
 .content.submit .info-notice {
   background-color: #fff;
@@ -1442,16 +1420,15 @@ body > .content #siteTable .thing .thumbnail.default {
     color: #fff;
     font: 400 small verdana, arial, helvetica, sans-serif; }
 
-.link .title,
-.submit-page #newlink.submit.content .btn,
-a[href*="#icon-more"] {
-  font-family: "Segoe UI", sans-serif; }
-
 .link {
   margin-bottom: 2px;
   padding: 5px 5px 2px 0;
   padding: 10px 0;
   margin: 0 0 0 20px; }
+  .link .title,
+  .link .submit-page #newlink.submit.content .btn,
+  .link a[href*="#icon-more"] {
+    font-family: "Segoe UI", sans-serif; }
   .link .title {
     color: #0057A6;
     padding: 0 !important; }
@@ -1493,11 +1470,6 @@ a[href*="#icon-more"] {
 .titlebox .bottom {
   display: none; }
 
-.link .score.likes {
-  color: #0078d7; }
-.link .score.dislikes {
-  color: #7f7f7f; }
-
 .linkinfo .totalvotes {
   color: #494949 !important; }
 
@@ -1524,7 +1496,14 @@ body:not(.res-nightmode) .linklisting {
 
 .link {
   border-left: 3px solid #fff;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  .link.last-clicked {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  .link .score.likes {
+    color: #0078d7; }
+  .link .score.dislikes {
+    color: #7f7f7f; }
 
 #siteTable .thing {
   margin-left: -5px !important;
@@ -1602,11 +1581,6 @@ body:not(.res-nightmode) .linklisting {
 
 .panestack-title a.title-button {
   color: #fff !important; }
-
-.link {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
-  .link.last-clicked {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
 
 .thing.stickied a.title {
   font-weight: 700 !important;
@@ -1845,16 +1819,15 @@ div.commentarea .infobar {
   display: block;
   clear: both;
   margin-bottom: 10px; }
+  .comments-page .usertext-edit div textarea:focus {
+    background: #FFF !important;
+    opacity: 1;
+    border-color: #0078D6 !important; }
 
 #suggested-reddits,
 .submit-page .content h1,
 a[href*='#icon'] + .keyNavAnnotation {
   display: none; }
-
-.comments-page .usertext-edit div textarea:focus {
-  background: #FFF !important;
-  opacity: 1;
-  border-color: #0078D6 !important; }
 
 .commentarea .md {
   margin-bottom: 0; }
@@ -2137,15 +2110,14 @@ html:lang(nh) .linkflair-bug,
 html:lang(nh) .linkflair-help {
   display: none !important; }
 
-.linkflairlabel:lang(nf) {
-  display: none; }
-
-.flairselector {
-  background-color: #fff; }
-
 .linkflairlabel {
   border-width: 3px;
   border-radius: 1px; }
+  .linkflairlabel:lang(nf) {
+    display: none; }
+
+.flairselector {
+  background-color: #fff; }
 
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
@@ -2332,6 +2304,11 @@ a[href*="#icon-day"] {
 .side a[href*='#official']:hover, .side a[href*='#news']:hover, .side a[href*='#help']:hover, .side a[href*='#solved']:hover, .side a[href*='#unresolved']:hover, .side a[href*='#bug']:hover, .side a[href*='#feature']:hover, .side a[href*='#discussion']:hover, .side a[href*='#hardware']:hover, .side a[href*='#tip']:hover, .side a[href*='#meta']:hover, .side a[href*='#gaming']:hover, .side a[href*='#app']:hover, .side a[href*='#original%20content']:hover, .side a[href*='#concept']:hover, .side a[href*='#request']:hover, .side a[href*='#question']:hover, .side a[href*='#update']:hover, .side a[href='']:hover {
   opacity: .8; }
 
+.sheets ::-webkit-scrollbar {
+  background-color: #0f0f0f !important; }
+.sheets ::-webkit-scrollbar-thumb,
+.sheets ::-webkit-scrollbar-corner {
+  background: #313131 !important; }
 .sheets .col textarea {
   width: 98%;
   background: #1d1f21;
@@ -2343,12 +2320,6 @@ a[href*="#icon-day"] {
 a[href*="#tech"] {
   font-family: "Segoe UI", sans-serif;
   text-align: center; }
-
-.sheets ::-webkit-scrollbar {
-  background-color: #0f0f0f !important; }
-.sheets ::-webkit-scrollbar-thumb,
-.sheets ::-webkit-scrollbar-corner {
-  background: #313131 !important; }
 
 .panestack-title a.title-button.gold {
   color: #6a4d00 !important; }
