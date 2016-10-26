@@ -599,7 +599,7 @@ a {
     margin: 5px 0;
     transition: all 0.5s;
     &:hover {
-      background: #0081ba;
+      background: $color-bg-secondary;
       color: #fff;
     }
   }

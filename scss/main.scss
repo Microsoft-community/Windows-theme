@@ -1,3 +1,4 @@
+    /* O26 */
     $color-bg-main: #0057A6;
     $color-bg-secondary: #0078D7;
     #header .hover a:hover,
@@ -210,17 +211,14 @@
         overflow: hidden;
         transition: background-color 0.5s;
       }
-    }
-    
-    #header-bottom-left .tabmenu li a:active {
-      background-color: #1686f0 !important;
-    }
-    
-    #header-bottom-right {
       #modmail:active,
       .user:active {
         background-color: #1686f0 !important;
       }
+    }
+    
+    #header-bottom-left .tabmenu li a:active {
+      background-color: #1686f0 !important;
     }
     
     .btn:active,
@@ -681,13 +679,6 @@
         font-weight: 400;
         margin: 0 5px 0 0;
       }
-    }
-    
-    .side .titlebox>.fancy-toggle-button {
-      display: block !important;
-    }
-    
-    div.side {
       div.tagline {
         display: block !important;
       }
@@ -700,21 +691,7 @@
       span.subscribers {
         display: block !important;
       }
-    }
-    
-    .side .titlebox {
-      div.subButtons,
-      h1.redditname+div,
-      >.fancy-toggle-button {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-top: none;
-        border-bottom: none;
-      }
-    }
-    
-    div.side {
-      div.leavemoderator {
+            div.leavemoderator {
         padding-top: 5px;
         padding-bottom: 5px;
         border-top: none;
@@ -739,6 +716,21 @@
       div.tagline {
         padding-top: 0;
         border-top: none;
+      }
+    }
+    
+    .side .titlebox>.fancy-toggle-button {
+      display: block !important;
+    }
+    
+    .side .titlebox {
+      div.subButtons,
+      h1.redditname+div,
+      >.fancy-toggle-button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: none;
+        border-bottom: none;
       }
     }
     
@@ -926,15 +918,9 @@
     #RESShortcutsSort,
     #RESShortcutsTrash {
       background-color: transparent !important;
-    }
-    
-    #RESShortcutsAdd:hover,
-    #RESShortcutsEditContainer:hover,
-    #RESShortcutsLeft:hover,
-    #RESShortcutsRight:hover,
-    #RESShortcutsSort:hover,
-    #RESShortcutsTrash:hover {
+      &:hover {
       color: #f0f0f0 !important;
+    }
     }
     
     .sidecontentbox .content .RESUserTagImage::after {
@@ -1358,7 +1344,7 @@
         width: 30px !important;
       }
     }
-    
+    // high dpi
     @media only screen and (min-resolution: 2dppx),
     only screen and (-webkit-min-device-pixel-ratio: 2) {
       .expando-button {
@@ -2001,7 +1987,7 @@
         animation-name: pulsate;
       }
     }
-    
+    //pulse anim
     @-webkit-keyframes pulsate {
       0%,
       100% {

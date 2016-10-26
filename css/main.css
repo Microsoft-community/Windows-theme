@@ -1,3 +1,4 @@
+/* O26 */
 #header .hover a:hover,
 .redditname a:hover:after {
   color: #fff !important; }
@@ -157,12 +158,11 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
   border-radius: 1px;
   overflow: hidden;
   transition: background-color 0.5s; }
-
-#header-bottom-left .tabmenu li a:active {
-  background-color: #1686f0 !important; }
-
 #header-bottom-right #modmail:active,
 #header-bottom-right .user:active {
+  background-color: #1686f0 !important; }
+
+#header-bottom-left .tabmenu li a:active {
   background-color: #1686f0 !important; }
 
 .btn:active,
@@ -513,25 +513,12 @@ div.side span.subscribers {
   border-radius: 0;
   font-weight: 400;
   margin: 0 5px 0 0; }
-
-.side .titlebox > .fancy-toggle-button {
-  display: block !important; }
-
 div.side div.tagline {
   display: block !important; }
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   display: block !important; }
 div.side span.subscribers {
   display: block !important; }
-
-.side .titlebox div.subButtons,
-.side .titlebox h1.redditname + div,
-.side .titlebox > .fancy-toggle-button {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: none;
-  border-bottom: none; }
-
 div.side div.leavemoderator {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -551,6 +538,17 @@ div.side span.subscribers {
 div.side div.tagline {
   padding-top: 0;
   border-top: none; }
+
+.side .titlebox > .fancy-toggle-button {
+  display: block !important; }
+
+.side .titlebox div.subButtons,
+.side .titlebox h1.redditname + div,
+.side .titlebox > .fancy-toggle-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: none;
+  border-bottom: none; }
 
 .side .titlebox div.subButtons,
 .side .titlebox > .fancy-toggle-button {
@@ -698,14 +696,13 @@ div.titlebox h1 {
 #RESShortcutsSort,
 #RESShortcutsTrash {
   background-color: transparent !important; }
-
-#RESShortcutsAdd:hover,
-#RESShortcutsEditContainer:hover,
-#RESShortcutsLeft:hover,
-#RESShortcutsRight:hover,
-#RESShortcutsSort:hover,
-#RESShortcutsTrash:hover {
-  color: #f0f0f0 !important; }
+  #RESShortcutsAdd:hover,
+  #RESShortcutsEditContainer:hover,
+  #RESShortcutsLeft:hover,
+  #RESShortcutsRight:hover,
+  #RESShortcutsSort:hover,
+  #RESShortcutsTrash:hover {
+    color: #f0f0f0 !important; }
 
 .sidecontentbox .content .RESUserTagImage::after {
   display: none !important; }
@@ -2060,7 +2057,7 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   margin: 5px 0;
   transition: all 0.5s; }
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
-    background: #0081ba;
+    background: #0078D7;
     color: #fff; }
 
 a[href*="#Donsiders"]:hover {
