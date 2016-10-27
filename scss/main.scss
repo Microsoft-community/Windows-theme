@@ -666,7 +666,6 @@
           margin: 0 5px 0 0;
         }
       }
-      p.users-online,
       span.subscribers {
         padding: 10px;
         border: 1px solid #d7ecff;
@@ -678,6 +677,8 @@
         border-radius: 0;
         font-weight: 400;
         margin: 0 5px 0 0;
+        border-top: none;
+        padding: 7px 10px 10px;
       }
       div.tagline {
         display: block !important;
@@ -685,7 +686,7 @@
       form {
         &.flairtoggle,
         &.leavecontributor-button {
-          display: block !important;
+          display: block;
         }
       }
       span.subscribers {
@@ -737,7 +738,7 @@
     .side .titlebox {
       div.subButtons,
       >.fancy-toggle-button {
-        width: 269px;
+        width: 269.3px;
       }
     }
     
@@ -831,6 +832,7 @@
     
     div.titlebox {
       .md {
+        h1:after,
         h2:after,
         h3:after,
         h4:after {
@@ -841,24 +843,15 @@
           border-width: 10px;
           border-style: solid;
           content: "";
-          margin-left: -25px;
+          margin-left: -24px;
         }
-      }
-      h1:after {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        border-color: transparent #d7ecff transparent transparent;
-        border-width: 10px;
-        border-style: solid;
-        content: "";
-        margin-left: -25px;
       }
     }
     
     .leavemoderator,
     .subscribers .word,
-    .users-online {
+    .users-online,
+    .leavecontributor-button {
       display: none;
     }
     
@@ -1344,7 +1337,7 @@
         width: 30px !important;
       }
     }
-    // high dpi
+    // high dpi spaghetios
     @media only screen and (min-resolution: 2dppx),
     only screen and (-webkit-min-device-pixel-ratio: 2) {
       .expando-button {
@@ -1809,7 +1802,9 @@
     
     #suggested-reddits,
     .submit-page .content h1,
-    a[href*='#icon']+.keyNavAnnotation {
+    a[href*='#icon']+.keyNavAnnotation,
+    a[href*='#/RES_SR_Config/NightModeCompatible']
+     {
       display: none;
     }
     
@@ -2201,7 +2196,7 @@
     }
     
     @import 'windows',
-    'footer',
+    'stickies',
     'nightmode',
     'profile',
-    'stickies';
+    'footer';

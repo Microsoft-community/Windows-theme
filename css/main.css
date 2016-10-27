@@ -501,7 +501,6 @@ div.side form.flairtoggle, div.side form.leavecontributor-button {
   border-radius: 0;
   font-weight: 400;
   margin: 0 5px 0 0; }
-div.side p.users-online,
 div.side span.subscribers {
   padding: 10px;
   border: 1px solid #d7ecff;
@@ -512,11 +511,13 @@ div.side span.subscribers {
   font-size: 8pt;
   border-radius: 0;
   font-weight: 400;
-  margin: 0 5px 0 0; }
+  margin: 0 5px 0 0;
+  border-top: none;
+  padding: 7px 10px 10px; }
 div.side div.tagline {
   display: block !important; }
 div.side form.flairtoggle, div.side form.leavecontributor-button {
-  display: block !important; }
+  display: block; }
 div.side span.subscribers {
   display: block !important; }
 div.side div.leavemoderator {
@@ -552,7 +553,7 @@ div.side div.tagline {
 
 .side .titlebox div.subButtons,
 .side .titlebox > .fancy-toggle-button {
-  width: 269px; }
+  width: 269.3px; }
 
 div.side span.subscribers span {
   vertical-align: middle; }
@@ -627,6 +628,7 @@ div.titlebox h1 {
   content: "";
   margin-left: -25px; }
 
+div.titlebox .md h1:after,
 div.titlebox .md h2:after,
 div.titlebox .md h3:after,
 div.titlebox .md h4:after {
@@ -637,20 +639,12 @@ div.titlebox .md h4:after {
   border-width: 10px;
   border-style: solid;
   content: "";
-  margin-left: -25px; }
-div.titlebox h1:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
-  border-width: 10px;
-  border-style: solid;
-  content: "";
-  margin-left: -25px; }
+  margin-left: -24px; }
 
 .leavemoderator,
 .subscribers .word,
-.users-online {
+.users-online,
+.leavecontributor-button {
   display: none; }
 
 .sidecontentbox .title h1,
@@ -1383,7 +1377,8 @@ div.commentarea .infobar {
 
 #suggested-reddits,
 .submit-page .content h1,
-a[href*='#icon'] + .keyNavAnnotation {
+a[href*='#icon'] + .keyNavAnnotation,
+a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none; }
 
 .comments-page .usertext-edit div textarea:focus {
@@ -2055,17 +2050,21 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   border: 1px solid #0081ba;
   padding: 10px 13px;
   margin: 5px 0;
-  transition: all 0.5s; }
+  transition: all 0.5s;
+  border-radius: 1px; }
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
     background: #0078D7;
-    color: #fff; }
+    color: #fff;
+    transform: scale(1.02); }
 
-a[href*="#Donsiders"]:hover {
-  background: #0078D7;
-  color: #fff; }
+a[href*="#Donsiders"] {
+  background: #009e7e; }
+  a[href*="#Donsiders"]:hover {
+    background: #0078D7;
+    color: #fff; }
 a[href*="#btn"] {
-  background: #fff;
-  color: #0081ba; }
+  color: #fff;
+  background: #0057a6; }
 
 .side .md [href$="#butt"] {
   display: inline-block !important;
@@ -2234,72 +2233,152 @@ a .edit-stylesheet.choice {
 .subscribers .number:after {
   content: " users enrolling into WI program"; }
 
-.footer {
-  border-bottom: 1px solid #0057A6; }
-  .footer::after {
-    border-bottom: 1px solid #0057A6; }
-
-.footer div.col {
-  position: relative;
-  margin: 0;
+.side .usertext-body .md ol {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  margin: 0 30px 0 0;
   padding: 0;
-  width: 176px;
-  height: auto;
-  font-family: Arial, sans-serif; }
-  .footer div.col .title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px;
-    color: #fff;
-    background: #0057A6;
-    max-height: 18px; }
-  .footer div.col a {
-    display: block;
-    margin: 5px;
-    padding: 3px 4px 3px 7px;
-    color: #000; }
-    .footer div.col a:hover {
-      color: #000;
-      text-decoration: none;
-      background: #fff; }
-.footer p.bottommenu {
+  z-index: 99; }
+
+.md-container-small .md .-text,
+.md-container-small .md li,
+.md-container-small .md p,
+.md-container-small .md pre > code,
+.md-container-small .md td,
+.md-container-small .md th {
+  list-style: none; }
+
+.side .md .-text,
+.side .md li,
+.side .md p,
+.side .md pre > code,
+.side .md td,
+.side .md th {
+  list-style: none; }
+.side .usertext-body .md ol a {
+  background-color: #57b5ff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 5px 6px 0;
+  text-decoration: none;
+  margin-bottom: 3px;
+  opacity: 0.8; }
+  .side .usertext-body .md ol a:hover {
+    opacity: 1; }
+.side .md > ol li a[href$='#special']:after, .side .md > ol li a[href$='#special']:before {
+  margin: 0 5px 0 0;
   font-weight: 700;
-  color: #FFF;
-  clear: left;
-  padding: 6px; }
-  .footer p.bottommenu a {
+  padding: 5px 6px; }
+.side .usertext-body .md ol a[href$='#special'] {
+  border: 2px solid #fefefe;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 5px 6px 0;
+  text-decoration: none;
+  margin-bottom: 3px;
+  transition: opacity .5s;
+  background-color: #1686f0;
+  opacity: 0.8; }
+  .side .usertext-body .md ol a[href$='#special']:before {
+    margin: 0 5px 0 0;
     font-weight: 700;
-    color: #FFF; }
+    padding: 5px 6px;
+    background-color: #0057A6;
+    content: "Event";
+    color: #fff; }
+  .side .usertext-body .md ol a[href$='#special']:hover {
+    opacity: 1; }
+.side .usertext-body .md ol a[href$='#achieve'] {
+  border: 2px solid #fefefe;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 5px 6px 0;
+  text-decoration: none;
+  margin-bottom: 3px;
+  transition: opacity .5s;
+  background-color: #28bc07;
+  opacity: 0.8; }
+  .side .usertext-body .md ol a[href$='#achieve']:hover {
+    opacity: 1; }
+.side .md > ol li a[href$='#sticky']:after, .side .md > ol li a[href$='#sticky']:before {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  padding: 5px 6px; }
+.side .usertext-body .md ol a[href$='#achieve']:before, .side .usertext-body .md ol a[href$='#sticky']:before {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  padding: 5px 6px; }
+.side .usertext-body .md ol a[href$='#achieve']:before {
+  background-color: #0d9605;
+  content: "Achievement unlocked";
+  color: #fff; }
+.side .usertext-body .md ol a[href$='#sticky'], .side .usertext-body .md ol a[href$='#stickyg'] {
+  font-weight: 400;
+  padding: 5px 5px 6px 0;
+  margin-bottom: 3px;
+  border: 2px solid #fefefe;
+  display: inline-block;
+  font-size: 12px;
+  transition: opacity .5s;
+  text-decoration: none; }
+.side .usertext-body .md ol a[href$='#sticky'] {
+  background-color: #1686f0;
+  opacity: 0.8; }
+  .side .usertext-body .md ol a[href$='#sticky']:hover {
+    opacity: 1; }
+.side .usertext-body .md ol a[href$='#stickyg']:hover {
+  opacity: 1; }
+.side .usertext-body .md ol a[href$='#sticky']:before {
+  background-color: #0057A6;
+  content: "Sticky";
+  color: #fff; }
+.side .usertext-body .md ol a[href$='#stickyg'] {
+  background-color: #28bc07;
+  opacity: 0.8; }
+.side .md > ol li a[href$='#achieve']:after, .side .md > ol li a[href$='#achieve']:before {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  padding: 5px 6px; }
+.side .md > ol li a[href$='#update']:after, .side .md > ol li a[href$='#update']:before {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  padding: 5px 6px; }
+.side .usertext-body .md ol a[href$='#stickyg']:before, .side .usertext-body .md ol a[href$='#update']:before {
+  margin: 0 5px 0 0;
+  font-weight: 700;
+  padding: 5px 6px; }
+.side .usertext-body .md ol a[href$='#stickyg']:before {
+  background-color: #0d9605;
+  content: "Sticky";
+  color: #fff; }
+.side .usertext-body .md ol a[href$='#update'] {
+  border: 2px solid #fefefe;
+  background-color: #1686f0;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 5px 6px 0;
+  text-decoration: none;
+  margin-bottom: 3px;
+  opacity: .8;
+  transition: opacity 0.5s; }
+  .side .usertext-body .md ol a[href$='#update']:before {
+    background-color: #0057A6;
+    content: "Update";
+    color: #fff; }
+  .side .usertext-body .md ol a[href$='#update']:hover {
+    opacity: 1; }
+.side .md del {
+  color: #fff;
+  text-decoration: none;
+  font-style: bold; }
 
-.debuginfo {
-  background: #F6F6F6; }
-
-.footer {
-  padding: 0;
-  border-left: 1px solid #0057A6;
-  display: flex !important;
-  display: -webkit-flex;
-  max-width: 600px; }
-
-.rounded {
-  border-radius: 0; }
-
-.footer .col {
-  border-left: none !important; }
-.footer::after {
-  display: block;
-  margin-top: 0;
-  padding: 10px;
-  padding-top: 8px !important;
-  color: #000;
-  content: "Designed by Jaskys";
-  text-transform: none;
-  font-size: 16px;
-  font-family: arial, sans-serif;
-  border-top: 34px solid #0057A6;
-  border-right: 1px solid #0057A6;
-  margin-bottom: -1px;
-  width: 90px; }
+.md a:hover {
+  color: #0078D7; }
 
 .res-nightmode .comment .md {
   color: #ddd !important; }
@@ -2965,7 +3044,7 @@ html[lang^=nm] .link.last-clicked {
   display: inline-block; }
 #header-bottom-right #modmail {
   position: absolute;
-  right: 326px;
+  right: 323px;
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
@@ -3099,151 +3178,66 @@ html[lang^=nm] .link.last-clicked {
   margin-top: 0;
   background: url(%%w-icons%%) -5px -91px no-repeat !important; }
 
-.side .usertext-body .md ol {
-  position: absolute;
-  top: 30px;
-  right: 0;
-  margin: 0 30px 0 0;
+.footer {
+  border-bottom: 1px solid #0057A6; }
+  .footer::after {
+    border-bottom: 1px solid #0057A6; }
+
+.footer div.col {
+  position: relative;
+  margin: 0;
   padding: 0;
-  z-index: 99; }
-
-.md-container-small .md .-text,
-.md-container-small .md li,
-.md-container-small .md p,
-.md-container-small .md pre > code,
-.md-container-small .md td,
-.md-container-small .md th {
-  list-style: none; }
-
-.side .md .-text,
-.side .md li,
-.side .md p,
-.side .md pre > code,
-.side .md td,
-.side .md th {
-  list-style: none; }
-.side .usertext-body .md ol a {
-  background-color: #57b5ff;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 5px 5px 6px 0;
-  text-decoration: none;
-  margin-bottom: 3px;
-  opacity: 0.8; }
-  .side .usertext-body .md ol a:hover {
-    opacity: 1; }
-.side .md > ol li a[href$='#special']:after, .side .md > ol li a[href$='#special']:before {
-  margin: 0 5px 0 0;
-  font-weight: 700;
-  padding: 5px 6px; }
-.side .usertext-body .md ol a[href$='#special'] {
-  border: 2px solid #fefefe;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 5px 5px 6px 0;
-  text-decoration: none;
-  margin-bottom: 3px;
-  transition: opacity .5s;
-  background-color: #1686f0;
-  opacity: 0.8; }
-  .side .usertext-body .md ol a[href$='#special']:before {
-    margin: 0 5px 0 0;
+  width: 176px;
+  height: auto;
+  font-family: "Segoe UI", arial,sans-serif; }
+  .footer div.col .title {
+    font-size: 16px;
     font-weight: 700;
-    padding: 5px 6px;
-    background-color: #0057A6;
-    content: "Event";
-    color: #fff; }
-  .side .usertext-body .md ol a[href$='#special']:hover {
-    opacity: 1; }
-.side .usertext-body .md ol a[href$='#achieve'] {
-  border: 2px solid #fefefe;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 5px 5px 6px 0;
-  text-decoration: none;
-  margin-bottom: 3px;
-  transition: opacity .5s;
-  background-color: #28bc07;
-  opacity: 0.8; }
-  .side .usertext-body .md ol a[href$='#achieve']:hover {
-    opacity: 1; }
-.side .md > ol li a[href$='#sticky']:after, .side .md > ol li a[href$='#sticky']:before {
-  margin: 0 5px 0 0;
+    padding: 8px;
+    color: #fff;
+    background: #0057A6;
+    max-height: 18px; }
+  .footer div.col a {
+    display: block;
+    margin: 5px;
+    padding: 3px 4px 3px 7px;
+    color: #000; }
+    .footer div.col a:hover {
+      color: #000;
+      text-decoration: none;
+      background: #fff; }
+.footer p.bottommenu {
   font-weight: 700;
-  padding: 5px 6px; }
-.side .usertext-body .md ol a[href$='#achieve']:before, .side .usertext-body .md ol a[href$='#sticky']:before {
-  margin: 0 5px 0 0;
-  font-weight: 700;
-  padding: 5px 6px; }
-.side .usertext-body .md ol a[href$='#achieve']:before {
-  background-color: #0d9605;
-  content: "Achievement unlocked";
-  color: #fff; }
-.side .usertext-body .md ol a[href$='#sticky'], .side .usertext-body .md ol a[href$='#stickyg'] {
-  font-weight: 400;
-  padding: 5px 5px 6px 0;
-  margin-bottom: 3px;
-  border: 2px solid #fefefe;
-  display: inline-block;
-  font-size: 12px;
-  transition: opacity .5s;
-  text-decoration: none; }
-.side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #1686f0;
-  opacity: 0.8; }
-  .side .usertext-body .md ol a[href$='#sticky']:hover {
-    opacity: 1; }
-.side .usertext-body .md ol a[href$='#stickyg']:hover {
-  opacity: 1; }
-.side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #0057A6;
-  content: "Sticky";
-  color: #fff; }
-.side .usertext-body .md ol a[href$='#stickyg'] {
-  background-color: #28bc07;
-  opacity: 0.8; }
-.side .md > ol li a[href$='#achieve']:after, .side .md > ol li a[href$='#achieve']:before {
-  margin: 0 5px 0 0;
-  font-weight: 700;
-  padding: 5px 6px; }
-.side .md > ol li a[href$='#update']:after, .side .md > ol li a[href$='#update']:before {
-  margin: 0 5px 0 0;
-  font-weight: 700;
-  padding: 5px 6px; }
-.side .usertext-body .md ol a[href$='#stickyg']:before, .side .usertext-body .md ol a[href$='#update']:before {
-  margin: 0 5px 0 0;
-  font-weight: 700;
-  padding: 5px 6px; }
-.side .usertext-body .md ol a[href$='#stickyg']:before {
-  background-color: #0d9605;
-  content: "Sticky";
-  color: #fff; }
-.side .usertext-body .md ol a[href$='#update'] {
-  border: 2px solid #fefefe;
-  background-color: #1686f0;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 5px 5px 6px 0;
-  text-decoration: none;
-  margin-bottom: 3px;
-  opacity: .8;
-  transition: opacity 0.5s; }
-  .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #0057A6;
-    content: "Update";
-    color: #fff; }
-  .side .usertext-body .md ol a[href$='#update']:hover {
-    opacity: 1; }
-.side .md del {
-  color: #fff;
-  text-decoration: none;
-  font-style: bold; }
+  color: #FFF;
+  clear: left;
+  padding: 6px; }
+  .footer p.bottommenu a {
+    font-weight: 700;
+    color: #FFF; }
 
-.md a:hover {
-  color: #0078D7; }
+.debuginfo {
+  background: #F6F6F6; }
+
+.rounded {
+  border-radius: 0; }
+
+.footer {
+  padding: 0;
+  border-left: 1px solid #0057A6; }
+  .footer .col {
+    border-left: none !important; }
+  .footer::after {
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by /u/Jaskys";
+    font-size: 16px;
+    font-family: "Segoe UI", arial,sans-serif;
+    border-top: 34px solid #0057A6;
+    border-right: 1px solid #0057A6;
+    margin-bottom: -1px;
+    width: 90px; }
 
 /*# sourceMappingURL=main.css.map */
