@@ -4,8 +4,8 @@
     }
     .date {
         color: #ddd !important;
-        &::before {
-            color: #ddd !important;
+        &:before {
+            background: #222 !important;
         }
     }
     .flair {
@@ -20,10 +20,326 @@
     .linkinfo .shortlink {
         color: #ddd !important;
     }
-}
-
-.res-nightmode .date:before {
-    background: #222 !important;
+    .totalvotes {
+        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-left: 5px solid #393939 !important;
+        border-right: 1px solid #393939 !important;
+        background: #222 !important;
+        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+    }
+    .date time,
+    .linkinfo .score {
+        color: #ddd !important;
+    }
+    .arrow {
+        &.upmod {
+            background-position: -63px 0 !important;
+        }
+        &.down {
+            background-position: 0 0 !important;
+        }
+        &.up {
+            background-position: -42px 0 !important;
+        }
+    }
+    #header {
+        background: #222 !important;
+    }
+    .icon-menu li,
+    .reddit-link:hover {
+        background-color: #393939 !important;
+        border-left-color: rgba(6, 102, 178, 0.5) !important;
+    }
+    .sidecontentbox {
+        .content a.author:hover,
+        .more:hover {
+            background-color: #393939 !important;
+            border-left-color: rgba(6, 102, 178, 0.5) !important;
+        }
+    }
+    div.titlebox .md ul li:hover {
+        background-color: #393939 !important;
+        border-left-color: rgba(6, 102, 178, 0.5) !important;
+    }
+    #searchexpando,
+    .icon-menu li {
+        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-left: 5px solid #393939 !important;
+        border-right: 1px solid #393939 !important;
+        background: #222 !important;
+        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+    }
+    .linkinfo {
+        .score,
+        .shortlink {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-left: 5px solid #393939 !important;
+            border-right: 1px solid #393939 !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
+    .reddit-link {
+        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-left: 5px solid #393939 !important;
+        border-right: 1px solid #393939 !important;
+        background: #222 !important;
+        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+    }
+    .side .titlebox {
+        div.subButtons,
+        h1.redditname+div,
+        >.fancy-toggle-button {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-left: 5px solid #393939 !important;
+            border-right: 1px solid #393939 !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
+    .sidecontentbox {
+        .content a.author,
+        .more {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-left: 5px solid #393939 !important;
+            border-right: 1px solid #393939 !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
+    div {
+        &.side {
+            div {
+                &.leavemoderator,
+                &.tagline {
+                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-left: 5px solid #393939 !important;
+                    border-right: 1px solid #393939 !important;
+                    background: #222 !important;
+                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                }
+            }
+            form {
+                &.flairtoggle,
+                &.leavecontributor-button {
+                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-left: 5px solid #393939 !important;
+                    border-right: 1px solid #393939 !important;
+                    background: #222 !important;
+                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                }
+            }
+            p.users-online,
+            span.subscribers {
+                border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+                border-left: 5px solid #393939 !important;
+                border-right: 1px solid #393939 !important;
+                background: #222 !important;
+                border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            }
+        }
+        &.titlebox .md ul li {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-left: 5px solid #393939 !important;
+            border-right: 1px solid #393939 !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
+    .side .titlebox>.fancy-toggle-button {
+        background: #222 !important;
+        color: #ddd !important;
+    }
+    div {
+        &.side {
+            div.tagline,
+            form.flairtoggle,
+            span.subscribers {
+                background: #222 !important;
+                color: #ddd !important;
+            }
+        }
+        &.titlebox .md ul li {
+            background: #222 !important;
+            color: #ddd !important;
+        }
+    }
+    #sr-header-area {
+        background-color: #0C1722;
+    }
+    .nextprev a:hover,
+    .side .morelink a:hover,
+    button:hover {
+        background-color: #393939 !important;
+    }
+    #header,
+    .account-activity-box,
+    .morelink,
+    .nextprev a {
+        background: #222 !important;
+    }
+    .sidecontentbox {
+        .title,
+        a.helplink {
+            background: #222 !important;
+        }
+    }
+    div.titlebox {
+        .md {
+            h2,
+            h3,
+            h4 {
+                background: #222 !important;
+            }
+        }
+        h1 {
+            background: #222 !important;
+        }
+    }
+    #header #header-bottom-right {
+        #mail:hover,
+        #modmail:hover,
+        .choice:hover,
+        .logout:hover,
+        .user:hover {
+            background-color: #393939 !important;
+        }
+        .logout a,
+        .nohavemail#mail {
+            background-color: transparent !important;
+            outline: 0 !important;
+        }
+    }
+    #header-bottom-right {
+        #modmail,
+        .choice,
+        .user {
+            background-color: transparent !important;
+            outline: 0 !important;
+        }
+    }
+    .titlebox form.toggle {
+        border-color: #393939 !important;
+        background: #222 !important;
+    }
+    #header-bottom-left .tabmenu,
+    #header-img {
+        background: 0 0;
+        background-color: transparent !important;
+    }
+    .morelink a {
+        color: #fff !important;
+    }
+    div.titlebox span.fancy-toggle-button a.active.remove {
+        background-color: #393939 !important;
+    }
+    .link {
+        border-left-color: transparent;
+        border-bottom: 1px solid rgba(57, 57, 57, 0.47);
+        .score.likes {
+            color: $color-bg-secondary;
+        }
+    }
+    #siteTable .thing {
+        background: #202020;
+    }
+    .linklisting {
+        border-right: 1px solid rgba(57, 57, 57, 0.47) !important;
+    }
+    .listing-page .link:hover {
+        background: #393939 !important;
+        border-left-color: #a9a9a9 !important;
+    }
+    button {
+        border: none;
+    }
+    input {
+        &[type=button],
+        &[type=reset],
+        &[type=submit] {
+            border: none;
+        }
+    }
+    submit {
+        border: none;
+    }
+    .account-activity-box:hover,
+    .link .usertext-body .md {
+        background-color: #393939 !important;
+    }
+    .sitetable .comment .comment {
+        background-color: #393939 !important;
+        .comment .comment {
+            background-color: #393939 !important;
+            .comment .comment {
+                background-color: #393939 !important;
+                .comment .comment {
+                    background-color: #393939 !important;
+                    .comment .comment {
+                        background-color: #393939 !important;
+                        .comment .comment {
+                            background-color: #393939 !important;
+                            .comment .comment {
+                                background-color: #393939 !important;
+                                .comment .comment {
+                                    background-color: #393939 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .flairselector {
+        background-color: #222 !important;
+    }
+    .sitetable .comment {
+        background-color: #222 !important;
+        .comment .comment {
+            background-color: #222 !important;
+            .comment .comment {
+                background-color: #222 !important;
+                .comment .comment {
+                    background-color: #222 !important;
+                    .comment .comment {
+                        background-color: #222 !important;
+                        .comment .comment {
+                            background-color: #222 !important;
+                            .comment .comment {
+                                background-color: #222 !important;
+                                .comment .comment {
+                                    background-color: #222 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .side .spacer .titlebox .redditname {
+        border-left-color: $color-bg-secondary;
+    }
+    .gold-accent {
+        background: $color-bg-main;
+    }
+    .shortlink input {
+        background: #393939;
+        color: #ddd;
+    }
+    .date {
+        span,
+        time {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
 }
 
 html[lang^=nm] {
@@ -61,9 +377,6 @@ html[lang^=nm] {
             color: #ddd !important;
         }
     }
-}
-
-html[lang^=nm] {
     #header,
     .account-activity-box,
     .date:before,
@@ -121,17 +434,6 @@ html[lang^=nm] {
             border-right: 1px solid rgba(57, 57, 57, 0.47) !important;
         }
     }
-}
-
-.res-nightmode .totalvotes {
-    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-    border-left: 5px solid #393939 !important;
-    border-right: 1px solid #393939 !important;
-    background: #222 !important;
-    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-}
-
-html[lang^=nm] {
     #searchexpando {
         border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
         border-left: 5px solid #393939 !important;
@@ -401,9 +703,6 @@ html[lang^=nm] {
     .infobar {
         border-color: #ff4500 !important;
     }
-}
-
-html[lang^=nm] {
     #eu-cookie-policy .reddit-infobar p {
         color: #222 !important;
     }
@@ -461,16 +760,6 @@ html[lang^=nm] {
             }
         }
     }
-}
-
-.res-nightmode {
-    .date time,
-    .linkinfo .score {
-        color: #ddd !important;
-    }
-}
-
-html[lang^=nm] {
     .commentingAs,
     .date time,
     .edit-stylesheet.choice:after,
@@ -503,58 +792,12 @@ html[lang^=nm] {
             display: inline-block !important;
         }
     }
-}
-
-.res {
-    .message-count,
-    .side .userTagLink {
-        display: none;
-    }
-}
-
-html[lang^=nm] {
     a[href*='#icon-night'] {
         display: none;
     }
     #search input[type=text] {
         background: #222 !important;
     }
-}
-
-.res-nightmode {
-    .arrow {
-        &.upmod {
-            background-position: -63px 0 !important;
-        }
-        &.down {
-            background-position: 0 0 !important;
-        }
-        &.up {
-            background-position: -42px 0 !important;
-        }
-    }
-    #header {
-        background: #222 !important;
-    }
-    .icon-menu li,
-    .reddit-link:hover {
-        background-color: #393939 !important;
-        border-left-color: rgba(6, 102, 178, 0.5) !important;
-    }
-    .sidecontentbox {
-        .content a.author:hover,
-        .more:hover {
-            background-color: #393939 !important;
-            border-left-color: rgba(6, 102, 178, 0.5) !important;
-        }
-    }
-    div.titlebox .md ul li:hover {
-        background-color: #393939 !important;
-        border-left-color: rgba(6, 102, 178, 0.5) !important;
-    }
-}
-
-html[lang^=nm] {
     .icon-menu li:hover,
     .reddit-link:hover {
         background-color: #393939 !important;
@@ -567,97 +810,6 @@ html[lang^=nm] {
             border-left-color: rgba(6, 102, 178, 0.5) !important;
         }
     }
-}
-
-.res-nightmode {
-    #searchexpando,
-    .icon-menu li {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-    }
-    .linkinfo {
-        .score,
-        .shortlink {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-        }
-    }
-    .reddit-link {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-    }
-    .side .titlebox {
-        div.subButtons,
-        h1.redditname+div,
-        >.fancy-toggle-button {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-        }
-    }
-    .sidecontentbox {
-        .content a.author,
-        .more {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-        }
-    }
-    div {
-        &.side {
-            div {
-                &.leavemoderator,
-                &.tagline {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-                }
-            }
-            form {
-                &.flairtoggle,
-                &.leavecontributor-button {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-                }
-            }
-            p.users-online,
-            span.subscribers {
-                border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                border-left: 5px solid #393939 !important;
-                border-right: 1px solid #393939 !important;
-                background: #222 !important;
-                border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-            }
-        }
-        &.titlebox .md ul li {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-        }
-    }
-}
-
-html[lang^=nm] {
     .icon-menu li {
         border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
         border-left: 5px solid #393939 !important;
@@ -695,229 +847,23 @@ html[lang^=nm] {
     textarea {
         color: #000 !important;
     }
-}
-
-.res-nightmode {
-    .side .titlebox>.fancy-toggle-button {
-        background: #222 !important;
-        color: #ddd !important;
-    }
-    div {
-        &.side {
-            div.tagline,
-            form.flairtoggle,
-            span.subscribers {
-                background: #222 !important;
-                color: #ddd !important;
-            }
-        }
-        &.titlebox .md ul li {
-            background: #222 !important;
-            color: #ddd !important;
-        }
-    }
-    #sr-header-area {
-        background-color: #0C1722;
-    }
-    .nextprev a:hover,
-    .side .morelink a:hover,
-    button:hover {
-        background-color: #393939 !important;
-    }
-    #header,
-    .account-activity-box,
-    .morelink,
-    .nextprev a {
-        background: #222 !important;
-    }
-    .sidecontentbox {
-        .title,
-        a.helplink {
-            background: #222 !important;
-        }
-    }
-    div.titlebox {
-        .md {
-            h2,
-            h3,
-            h4 {
-                background: #222 !important;
-            }
-        }
-        h1 {
-            background: #222 !important;
-        }
-    }
-    #header #header-bottom-right {
-        #mail:hover,
-        #modmail:hover,
-        .choice:hover,
-        .logout:hover,
-        .user:hover {
-            background-color: #393939 !important;
-        }
-        .logout a,
-        .nohavemail#mail {
-            background-color: transparent !important;
-            outline: 0 !important;
-        }
-    }
-    #header-bottom-right {
-        #modmail,
-        .choice,
-        .user {
-            background-color: transparent !important;
-            outline: 0 !important;
-        }
-    }
-}
-
-.res-nightmode {
-    .titlebox form.toggle {
-        border-color: #393939 !important;
-        background: #222 !important;
-    }
-    #header-bottom-left .tabmenu,
-    #header-img {
-        background: 0 0;
-        background-color: transparent !important;
-    }
-    .morelink a {
-        color: #fff !important;
-    }
-    div.titlebox span.fancy-toggle-button a.active.remove {
-        background-color: #393939 !important;
-    }
-    .link {
-        border-left-color: transparent;
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47);
-        .score.likes {
-            color: $color-bg-secondary;
-        }
-    }
-    #siteTable .thing {
-        background: #202020;
-    }
-    .linklisting {
-        border-right: 1px solid rgba(57, 57, 57, 0.47) !important;
-    }
-    .listing-page .link:hover {
-        background: #393939 !important;
-        border-left-color: #a9a9a9 !important;
-    }
-    button {
-        border: none;
-    }
-    input {
-        &[type=button],
-        &[type=reset],
-        &[type=submit] {
-            border: none;
-        }
-    }
-    submit {
-        border: none;
-    }
-}
-
-.res-nightmode {
-    .account-activity-box:hover,
-    .link .usertext-body .md {
-        background-color: #393939 !important;
-    }
-    .sitetable .comment .comment {
-        background-color: #393939 !important;
-        .comment .comment {
-            background-color: #393939 !important;
-            .comment .comment {
-                background-color: #393939 !important;
-                .comment .comment {
-                    background-color: #393939 !important;
-                    .comment .comment {
-                        background-color: #393939 !important;
-                        .comment .comment {
-                            background-color: #393939 !important;
-                            .comment .comment {
-                                background-color: #393939 !important;
-                                .comment .comment {
-                                    background-color: #393939 !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .flairselector {
-        background-color: #222 !important;
-    }
-    .sitetable .comment {
-        background-color: #222 !important;
-        .comment .comment {
-            background-color: #222 !important;
-            .comment .comment {
-                background-color: #222 !important;
-                .comment .comment {
-                    background-color: #222 !important;
-                    .comment .comment {
-                        background-color: #222 !important;
-                        .comment .comment {
-                            background-color: #222 !important;
-                            .comment .comment {
-                                background-color: #222 !important;
-                                .comment .comment {
-                                    background-color: #222 !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .content {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    .side .spacer .titlebox .redditname {
-        border-left-color: $color-bg-secondary;
-    }
-    .gold-accent {
-        background: $color-bg-main;
-    }
     .shortlink input {
         background: #393939;
         color: #ddd;
     }
-}
-
-html[lang^=nm] .shortlink input {
-    background: #393939;
-    color: #ddd;
+    .date {
+        span,
+        time {
+            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
+            background: #222 !important;
+            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        }
+    }
 }
 
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
     border-color: transparent #393939 transparent transparent !important;
-}
-
-.res-nightmode .date {
-    span,
-    time {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-    }
-}
-
-html[lang^=nm] .date {
-    span,
-    time {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
-    }
 }
 
 .res-nightmode .date span,

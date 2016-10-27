@@ -1,0 +1,61 @@
+.res {
+    .message-count,
+    .side .userTagLink {
+        display: none;
+    }
+    #sr-header-area #srDropdownContainer a:hover {
+        opacity: 1;
+    }
+    #userbarToggle,
+    .sidebox.create {
+        display: none;
+    }
+    .comment .midcol {
+        margin-left: 20px;
+    }
+    #sr-header-area #srDropdownContainer a {
+        width: 35px;
+        height: 23px;
+        padding: 0;
+        margin: 0;
+        display: block;
+        background: url(%%w-ham%%) 10px 4px no-repeat;
+        line-height: 35px;
+        text-indent: -999em;
+    }
+    .RES-keyNav-activeElement {
+        background: 0 0 !important;
+    }
+    .commentarea {
+        .RES-keyNav-activeElement .md,
+        .noncollapsed .RES-keyNav-activeElement.entry {
+            background: 0 0 !important;
+        }
+    }
+    .RESDashboardToggle,
+    .RESshortcutside {
+        background: 0 0 !important;
+        border: none;
+        color: #000;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .sitetable .sitetable {
+        margin-right: 0;
+    }
+}
+
+.sidecontentbox .content .RESUserTagImage::after {
+    display: none !important;
+}
+
+.RESSubscriptionButton {
+    color: #fff !important;
+    border-radius: 1px !important;
+    background-color: transparent !important;
+}
+
+.RESSubscriptionButton {
+    border: none !important;
+}
