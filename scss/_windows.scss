@@ -595,28 +595,27 @@ a {
   &[href*="#btn"] {
     display: inline-block;
     border: 1px solid #0081ba;
+    color: #fff;
     padding: 10px 13px;
     margin: 5px 0;
     transition: all 0.5s;
     border-radius: 1px;
     &:hover {
       background: $color-bg-secondary;
-      color: #fff;
+      color: #fff!important;
       transform: scale(1.02);
     }
   }
 }
 
 a {
-  &[href*="#Donsiders"]{
-  background: #009e7e;
-  &:hover {
-    background: $color-bg-secondary;
-    color: #fff;
-  }
+  &[href*="#Donsiders"] {
+    background: #009e7e;
+    &:hover {
+      background: $color-bg-secondary;
+    }
   }
   &[href*="#btn"] {
-    color: #fff;
     background: #0057a6;
   }
 }

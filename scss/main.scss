@@ -1,4 +1,5 @@
-    /* O26 */
+    /* main.scss */
+    
     $color-bg-main: #0057A6;
     $color-bg-secondary: #0078D7;
     #header .hover a:hover,
@@ -679,36 +680,35 @@
         margin: 0 5px 0 0;
         border-top: none;
         padding: 7px 10px 10px;
+        display: block !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: none;
+        border-bottom: none;
       }
       div.tagline {
         display: block !important;
       }
       form {
-        &.flairtoggle,
-        &.leavecontributor-button {
+        &.flairtoggle {
           display: block;
         }
       }
-      span.subscribers {
-        display: block !important;
-      }
-            div.leavemoderator {
+      div.leavemoderator {
         padding-top: 5px;
         padding-bottom: 5px;
         border-top: none;
         border-bottom: none;
       }
       form {
-        &.flairtoggle,
-        &.leavecontributor-button {
+        &.flairtoggle {
           padding-top: 5px;
           padding-bottom: 5px;
           border-top: none;
           border-bottom: none;
         }
       }
-      p.users-online,
-      span.subscribers {
+      p.users-online {
         padding-top: 5px;
         padding-bottom: 5px;
         border-top: none;
@@ -830,20 +830,39 @@
       margin-left: -25px;
     }
     
-    div.titlebox {
+    .side {
+      h1:after,
+      h2:after,
+      h3:after,
+      h4:after {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border-color: transparent #d7ecff transparent transparent;
+        border-width: 10px;
+        border-style: solid;
+        content: "";
+        margin-left: -24px;
+      }
       .md {
-        h1:after,
-        h2:after,
-        h3:after,
-        h4:after {
-          display: block;
-          position: absolute;
-          z-index: -1;
-          border-color: transparent #d7ecff transparent transparent;
-          border-width: 10px;
-          border-style: solid;
-          content: "";
-          margin-left: -24px;
+        h1,
+        h2,
+        h3,
+        h4 {
+          color: #fff;
+          font-size: 13px;
+          a {
+            color: #fff;
+            font-size: 13px;
+          }
+        }
+        h1 {
+          color: #fff;
+          font-size: 13px;
+          a {
+            color: #fff;
+            font-size: 13px;
+          }
         }
       }
     }
@@ -864,26 +883,7 @@
     }
     
     div.titlebox {
-      .md {
-        h2,
-        h3,
-        h4 {
-          color: #fff;
-          font-size: 13px;
-          a {
-            color: #fff;
-            font-size: 13px;
-          }
-        }
-      }
-      h1 {
-        color: #fff;
-        font-size: 13px;
-        a {
-          color: #fff;
-          font-size: 13px;
-        }
-      }
+      .md {}
     }
     
     .sidecontentbox a.helplink {
@@ -912,8 +912,8 @@
     #RESShortcutsTrash {
       background-color: transparent !important;
       &:hover {
-      color: #f0f0f0 !important;
-    }
+        color: #f0f0f0 !important;
+      }
     }
     
     .sidecontentbox .content .RESUserTagImage::after {
@@ -1337,6 +1337,7 @@
         width: 30px !important;
       }
     }
+    
     // high dpi spaghetios
     @media only screen and (min-resolution: 2dppx),
     only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -1803,8 +1804,7 @@
     #suggested-reddits,
     .submit-page .content h1,
     a[href*='#icon']+.keyNavAnnotation,
-    a[href*='#/RES_SR_Config/NightModeCompatible']
-     {
+    a[href*='#/RES_SR_Config/NightModeCompatible'] {
       display: none;
     }
     
@@ -1899,7 +1899,7 @@
       border-left: 1px solid #c6c6c6 !important;
     }
     
-    ::selection {
+     ::selection {
       background-color: $color-bg-secondary;
       color: #fff;
     }
@@ -1982,6 +1982,7 @@
         animation-name: pulsate;
       }
     }
+    
     //pulse anim
     @-webkit-keyframes pulsate {
       0%,
@@ -2195,8 +2196,8 @@
       }
     }
     
-    @import 'windows',
+    @import 'profile',
     'stickies',
     'nightmode',
-    'profile',
+    'windows',
     'footer';
