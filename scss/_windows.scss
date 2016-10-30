@@ -61,13 +61,13 @@
 .helplink~.content .author {
   &[href*=Jaskys]::after {
     content: '- Designer';
-    font-size: 8pt;
+    font-size: 0.945em;
     margin-left: 5px;
     color: $color-bg-main;
   }
   &[href*=Izick]::after {
     content: '- Head Moderator';
-    font-size: 8pt;
+    font-size: 0.945em;
     margin-left: 5px;
     color: $color-bg-main;
   }
@@ -80,7 +80,7 @@
   &[href*=siraramis]::after,
   &[href*=xByteZz]::after {
     content: '- Moderator';
-    font-size: 8pt;
+    font-size: 0.945em;
     margin-left: 5px;
     color: $color-bg-main;
   }
@@ -526,7 +526,7 @@ a {
       font-size: 70px;
       font-weight: lighter;
       color: #ECF0F1;
-      font-family: "Segoe UI Light", Roboto, Helvetica, Arial, sans-serif;
+      font-family: $font-light;
       letter-spacing: .05em;
       margin-left: 100px;
       line-height: 100px;

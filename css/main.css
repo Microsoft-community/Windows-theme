@@ -174,7 +174,7 @@ button:active {
 
 .comment {
   position: relative;
-  padding: 0 0 0 30px !important;
+  padding: 4px 0 0 30px;
   z-index: 1; }
   .comment .expand {
     transition: background-color .5s;
@@ -349,7 +349,7 @@ div.titlebox .md ul li {
   background-color: #fff;
   border-bottom: 1px solid #d7ecff;
   border-right: 1px solid #d7ecff;
-  font-size: 8pt;
+  font-size: 0.945em;
   margin-right: 5px !important; }
 
 .sidecontentbox .content a.author,
@@ -361,7 +361,7 @@ div.titlebox .md ul li {
   background-color: #fff;
   border-bottom: 1px solid #d7ecff;
   border-right: 1px solid #d7ecff;
-  font-size: 8pt;
+  font-size: 0.945em;
   margin-right: 5px !important; }
 .sidecontentbox .content {
   border: none;
@@ -2625,17 +2625,17 @@ html[lang^=nm] .link.last-clicked {
 
 .helplink ~ .content .author[href*=Jaskys]::after {
   content: '- Designer';
-  font-size: 8pt;
+  font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
 .helplink ~ .content .author[href*=Izick]::after {
   content: '- Head Moderator';
-  font-size: 8pt;
+  font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
 .helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after {
   content: '- Moderator';
-  font-size: 8pt;
+  font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
 
@@ -2928,7 +2928,7 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before {
   font-size: 70px;
   font-weight: lighter;
   color: #ECF0F1;
-  font-family: "Segoe UI Light", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI Light", LatoLight, serif;
   letter-spacing: .05em;
   margin-left: 100px;
   line-height: 100px;
