@@ -6,8 +6,11 @@ Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.
 Main color: #0057A6
 Secondary: #0078D7
 */
+
 $font-main: Lato;
-$font-light: "Segoe UI Light", LatoLight, serif;
+$font-light: "Segoe UI Light",
+LatoLight,
+serif;
 $color-bg-main: #0057A6;
 $color-bg-secondary: #0078D7;
 $color-bg-light-hover: #f0f8ff;
@@ -323,6 +326,7 @@ button:active {
     color: $color-bg-main;
   }
 }
+
 .entry .flat-list .reply-button a {
   color: $color-bg-main;
 }
@@ -635,14 +639,6 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
-.account-activity-box,
-.sidecontentbox a.helplink {
-  font-size: 16px;
-  padding: 10px;
-  transition: background-color .5s;
-  text-transform: capitalize;
-}
-
 .link .usertext-body .md {
   border-radius: 0 !important;
   border: 1px solid #01b7f1;
@@ -681,34 +677,6 @@ body>.content #siteTable .thing {
   }
   .thumbnail.default {
     background-position: -60px -60px !important;
-  }
-}
-
-.sidecontentbox a.helplink {
-  float: none;
-  margin-top: 4px;
-  clear: both;
-  text-align: center;
-  display: block;
-  color: #fff;
-  background: $color-bg-main;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  &:hover {
-    background: $color-bg-secondary;
-  }
-}
-
-.account-activity-box {
-  display: block !important;
-  background: $color-bg-main;
-  margin-right: 5px;
-  &:hover {
-    background: $color-bg-secondary;
-  }
-  a {
-    color: #fff;
-    padding: 10px 70px;
   }
 }
 
@@ -1058,6 +1026,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 .md a {
   color: $color-bg-main;
 }
+
 .md code {
   white-space: normal;
 }
@@ -1372,6 +1341,7 @@ span.clear-input-button {
 #ad_sponsorship {
   max-width: 295px;
 }
+
 //reported threads highlight
 .linklisting .reported {
   background: rgba(255, 0, 0, 0.1);

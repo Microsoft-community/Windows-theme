@@ -478,13 +478,6 @@ form .spacer + .spacer {
     background-image: url(%%w-threads%%);
     background-position: -5px -5px;
     background-size: 110px; } }
-.account-activity-box,
-.sidecontentbox a.helplink {
-  font-size: 16px;
-  padding: 10px;
-  transition: background-color .5s;
-  text-transform: capitalize; }
-
 .link .usertext-body .md {
   border-radius: 0 !important;
   border: 1px solid #01b7f1;
@@ -515,29 +508,6 @@ body > .content #siteTable .thing.over18 .thumbnail {
   background-position: -5px -60px !important; }
 body > .content #siteTable .thing .thumbnail.default {
   background-position: -60px -60px !important; }
-
-.sidecontentbox a.helplink {
-  float: none;
-  margin-top: 4px;
-  clear: both;
-  text-align: center;
-  display: block;
-  color: #fff;
-  background: #0057A6;
-  box-sizing: border-box;
-  margin-bottom: 10px; }
-  .sidecontentbox a.helplink:hover {
-    background: #0078D7; }
-
-.account-activity-box {
-  display: block !important;
-  background: #0057A6;
-  margin-right: 5px; }
-  .account-activity-box:hover {
-    background: #0078D7; }
-  .account-activity-box a {
-    color: #fff;
-    padding: 10px 70px; }
 
 .link .title,
 .submit-page #newlink.submit.content .btn,
@@ -1466,11 +1436,6 @@ div.titlebox h1 {
 .leavecontributor-button {
   display: none; }
 
-.sidecontentbox .title h1,
-.sidecontentbox a.helplink {
-  color: #fff;
-  font-size: 13px; }
-
 .sidecontentbox a.helplink {
   margin-right: 5px; }
 
@@ -1631,6 +1596,40 @@ div.commentarea .infobar p {
   font-size: large;
   color: #E54661;
   margin-left: 27px; }
+
+.sidecontentbox a.helplink {
+  float: none;
+  margin-top: 4px;
+  clear: both;
+  text-align: center;
+  display: block;
+  color: #fff;
+  background: #0057A6;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+  .sidecontentbox a.helplink:hover {
+    background: #0078D7; }
+
+.account-activity-box,
+.sidecontentbox a.helplink {
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color .5s;
+  text-transform: capitalize; }
+
+.account-activity-box {
+  display: block !important;
+  background: #0057A6;
+  margin-right: 5px; }
+  .account-activity-box:hover {
+    background: #0078D7; }
+  .account-activity-box a {
+    color: #fff;
+    padding: 10px 70px; }
+
+.sidecontentbox .title h1,
+.sidecontentbox a.helplink {
+  color: #fff; }
 
 #header #header-bottom-right {
   background: 0 0;
