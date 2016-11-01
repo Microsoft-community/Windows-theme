@@ -53,13 +53,10 @@
     }
     #modmail {
         position: absolute;
-        right: 323px;
+        margin-left: -267px;
         top: 3px;
         padding-left: 26px;
         padding-top: 5px;
-        font-size: 12px;
-        color: #eaeaea;
-        line-height: 170%;
         background: url(%%profilestuff%%) 0 -42px no-repeat $color-bg-main;
         border: 2px solid #fff;
     }
