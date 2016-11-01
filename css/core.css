@@ -3220,9 +3220,9 @@ a .edit-stylesheet.choice {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", arial,sans-serif;
-    border-top: 35px solid #0057A6;
+    border-top: 34px solid #0057A6;
     border-right: 1px solid #0057A6;
-    margin-bottom: -0.1px;
+    margin-bottom: -1.1px;
     width: 90px; }
 
 /*# sourceMappingURL=core.css.map */
