@@ -2605,6 +2605,10 @@ html[lang^=nm] .link.last-clicked {
 .RESSubscriptionButton {
   border: none !important; }
 
+#RESSettingsButton {
+  right: 20px;
+  top: 3px; }
+
 .flair-mod:before,
 .flair-msftchamp:before {
   content: "- "; }
