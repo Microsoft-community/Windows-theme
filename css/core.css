@@ -387,8 +387,7 @@ form .spacer + .spacer {
   float: left;
   height: 28px;
   width: 30px;
-  background: center center no-repeat #fff;
-  background-size: 171px !important; }
+  background: center center no-repeat #fff; }
   .expando-button.selftext.collapsed, .expando-button.selftext.expanded {
     background-image: url(%%r-askr%%);
     background-repeat: no-repeat; }
