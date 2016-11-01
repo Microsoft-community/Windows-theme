@@ -146,35 +146,6 @@ button {
   }
 }
 
-.side .md {
-  h2 {
-    margin-top: 1.4em;
-    font-size: 1.4em;
-    font-weight: 400;
-  }
-  h3 {
-    font-size: 1.2em;
-    font-weight: 400;
-    color: #555;
-    margin: 2em 0 0.2em;
-  }
-  h4 {
-    font-weight: 400;
-    color: #888;
-    margin-bottom: 1.5em;
-  }
-  p {
-    margin: 0.5em 0;
-    a {
-      margin: 0 .2em;
-      font-size: 1.1em;
-      &:first-child {
-        margin-left: 0;
-      }
-    }
-  }
-}
-
 .next-suggestions a,
 .nextprev a {
   padding: 0 4px;
@@ -1088,6 +1059,9 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 .md a {
   color: $color-bg-main;
 }
+.md code {
+  white-space: normal;
+}
 
 .usertext.border .usertext-body {
   background-color: rgba(0, 120, 213, 0.3);
@@ -1129,10 +1103,6 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 
 ul.tabmenu.formtab {
   padding-left: 0;
-}
-
-.md code {
-  white-space: normal;
 }
 
 .panestack-title {
@@ -1214,17 +1184,6 @@ ul.tabmenu.formtab {
   .subscribe-button .add {
     animation: 1s ease-out 0s normal none infinite running pulsate;
     animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-name: pulsate;
-  }
-  .usertext-body .md ol a[href$="#special"] {
-    animation: 1s ease-out 0s normal none infinite running pulsate;
-    animation-duration: 3s;
     animation-timing-function: ease-out;
     animation-delay: 0s;
     animation-direction: normal;
@@ -1341,16 +1300,6 @@ a[href*="#tech"] {
   background: #222 !important;
 }
 
-.reddit-link {
-  padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
-  background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
-  font-size: 1em;
-  margin-right: 5px;
-}
-
 .gadget {
   .midcol {
     margin-right: 9px;
@@ -1428,20 +1377,6 @@ span.clear-input-button {
 .linklisting .reported {
   background: rgba(255, 0, 0, 0.1);
   border-left: 3px solid red;
-}
-
-.sidecontentbox .title h1 {
-  pointer-events: none;
-}
-
-div.titlebox .md {
-  h2,
-  h4 {
-    pointer-events: none;
-    a {
-      pointer-events: none;
-    }
-  }
 }
 
 @import 'side',

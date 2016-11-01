@@ -105,27 +105,6 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
   background: #d9534f;
   color: #fff; }
 
-.side .md h2 {
-  margin-top: 1.4em;
-  font-size: 1.4em;
-  font-weight: 400; }
-.side .md h3 {
-  font-size: 1.2em;
-  font-weight: 400;
-  color: #555;
-  margin: 2em 0 0.2em; }
-.side .md h4 {
-  font-weight: 400;
-  color: #888;
-  margin-bottom: 1.5em; }
-.side .md p {
-  margin: 0.5em 0; }
-  .side .md p a {
-    margin: 0 .2em;
-    font-size: 1.1em; }
-    .side .md p a:first-child {
-      margin-left: 0; }
-
 .next-suggestions a,
 .nextprev a {
   padding: 0 4px;
@@ -826,6 +805,9 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 .md a {
   color: #0057A6; }
 
+.md code {
+  white-space: normal; }
+
 .usertext.border .usertext-body {
   background-color: rgba(0, 120, 213, 0.3);
   width: 95%; }
@@ -858,9 +840,6 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 
 ul.tabmenu.formtab {
   padding-left: 0; }
-
-.md code {
-  white-space: normal; }
 
 .panestack-title {
   margin: 0 330px 0 -5px !important;
@@ -928,16 +907,6 @@ ul.tabmenu.formtab {
 .side .subscribe-button .add {
   animation: 1s ease-out 0s normal none infinite running pulsate;
   animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-name: pulsate; }
-.side .usertext-body .md ol a[href$="#special"] {
-  animation: 1s ease-out 0s normal none infinite running pulsate;
-  animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 0s;
   animation-direction: normal;
@@ -1021,15 +990,6 @@ a[href*="#tech"] {
   border-color: #393939 !important;
   background: #222 !important; }
 
-.reddit-link {
-  padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
-  background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
-  font-size: 1em;
-  margin-right: 5px; }
-
 .gadget .midcol {
   margin-right: 9px; }
 .gadget .right a {
@@ -1089,15 +1049,26 @@ span.clear-input-button {
   background: rgba(255, 0, 0, 0.1);
   border-left: 3px solid red; }
 
-.sidecontentbox .title h1 {
-  pointer-events: none; }
-
-div.titlebox .md h2,
-div.titlebox .md h4 {
-  pointer-events: none; }
-  div.titlebox .md h2 a,
-  div.titlebox .md h4 a {
-    pointer-events: none; }
+.side .md h2 {
+  margin-top: 1.4em;
+  font-size: 1.4em;
+  font-weight: 400; }
+.side .md h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #555;
+  margin: 2em 0 0.2em; }
+.side .md h4 {
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 1.5em; }
+.side .md p {
+  margin: 0.5em 0; }
+  .side .md p a {
+    margin: 0 .2em;
+    font-size: 1.1em; }
+    .side .md p a:first-child {
+      margin-left: 0; }
 
 .morelink {
   border: 1px solid #0057A6;
@@ -1129,6 +1100,25 @@ div.titlebox .md h4 {
 
 .redditname {
   margin-top: 53px !important; }
+
+.reddit-link {
+  padding: 7px 10px 10px;
+  border-left: 5px solid #d7ecff;
+  background-color: #fff;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
+  font-size: 1em;
+  margin-right: 5px; }
+
+.sidecontentbox .title h1 {
+  pointer-events: none; }
+
+div.titlebox .md h2,
+div.titlebox .md h4 {
+  pointer-events: none; }
+  div.titlebox .md h2 a,
+  div.titlebox .md h4 a {
+    pointer-events: none; }
 
 .search-page .side .spacer {
   margin: 10px 0; }
@@ -1833,6 +1823,16 @@ div.commentarea .infobar p {
 .md-container-small .md th {
   list-style: none; }
 
+.side .usertext-body .md ol a[href$="#special"] {
+  animation: 1s ease-out 0s normal none infinite running pulsate;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: pulsate; }
 .side .md .-text,
 .side .md li,
 .side .md p,

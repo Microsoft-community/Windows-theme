@@ -19,6 +19,17 @@
 }
 
 .side {
+    .usertext-body .md ol a[href$="#special"] {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate;
+  }
     .md {
         .-text,
         li,
