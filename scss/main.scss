@@ -2045,7 +2045,7 @@ a[href*="#tech"] {
   background-color: #fff;
   border-bottom: 1px solid #d7ecff;
   border-right: 1px solid #d7ecff;
-  font-size: 9pt;
+  font-size: 1em;
   margin-right: 5px;
 }
 
@@ -2122,7 +2122,7 @@ span.clear-input-button {
 #ad_sponsorship {
   max-width: 295px;
 }
-
+//reported threads highlight
 .linklisting .reported {
   background: rgba(255, 0, 0, 0.1);
   border-left: 3px solid red;
