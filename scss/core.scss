@@ -1023,12 +1023,17 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   }
 }
 
-.md a {
-  color: $color-bg-main;
-}
-
-.md code {
-  white-space: normal;
+.md {
+  overflow: visible;
+  a {
+    color: $color-bg-main;
+  }
+  code {
+    white-space: normal;
+  }
+  blockquote {
+    border-left: 2px solid $color-bg-secondary;
+  }
 }
 
 .usertext.border .usertext-body {
@@ -1234,10 +1239,6 @@ a[href*="#tech"] {
   &.upmod {
     margin-top: 10px;
   }
-}
-
-.md blockquote {
-  border-left: 2px solid $color-bg-secondary;
 }
 
 .panestack-title {
