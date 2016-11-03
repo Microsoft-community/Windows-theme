@@ -3,7 +3,7 @@
 .flair-msftchamp:before {
   content: "- ";
 }
-
+//microsoft employees
 .author {
   &[href$=Adam-MSFT],
   &[href$=Dave_MSFT],
@@ -57,7 +57,7 @@
     font-weight: 700;
   }
 }
-
+//moderators
 .helplink~.content .author {
   &[href*=Jaskys]::after {
     content: '- Designer';

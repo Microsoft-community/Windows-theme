@@ -382,6 +382,28 @@ form .spacer + .spacer {
   margin-bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0.1) !important; }
 
+.self .expanded ~ .expando .usertext-body {
+  -webkit-animation: 700ms expandy ease-in-out forwards;
+  animation: 700ms expandy ease-in-out forwards; }
+
+@-webkit-keyframes expandy {
+  0% {
+    -webkit-transform: translateY(-100px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1; } }
+@keyframes expandy {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0; }
+  50% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
 .expando-button {
   cursor: pointer;
   float: left;
@@ -667,6 +689,9 @@ body .linklisting {
   border-image-repeat: initial;
   overflow: hidden;
   margin: 0 18px 8px 0; }
+
+a.author {
+  margin-right: 0.3em; }
 
 .panestack-title a.title-button {
   color: #fff !important; }
