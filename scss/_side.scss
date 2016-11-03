@@ -3,7 +3,7 @@
     margin: 0;
     padding-left: 30px;
     background: 0 0;
-     :after {
+     &:after {
         content: "/r/ClearShift theme";
         font-size: large;
         color: $color-bg-main;

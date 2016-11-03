@@ -1047,7 +1047,7 @@ span.clear-input-button {
   margin: 0;
   padding-left: 30px;
   background: 0 0; }
-  .side :after {
+  .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
     color: #0057A6;
