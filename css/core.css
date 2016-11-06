@@ -271,7 +271,7 @@ button:active {
   left: -5px;
   border-left: 3px solid #ff4500;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  border-bottom: none; }
 
 .organic-listing .link.promotedlink {
   margin-left: -1px; }
