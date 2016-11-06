@@ -603,7 +603,11 @@ a {
     &:hover {
       background: $color-bg-secondary;
       color: #fff!important;
-      transform: scale(1.02);
+      -webkit-transform: translateY(-2px);
+      -moz-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      -o-transform: translateY(-2px);
+      transform: translateY(-2px);
     }
   }
 }
@@ -855,4 +859,11 @@ a {
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
   content: " insiders waiting for new bits";
+}
+//disabled voting for non subscribers
+.arrow.down {
+    pointer-events: none;
+}
+.subscriber .arrow.down {
+    pointer-events: initial;
 }

@@ -268,9 +268,9 @@ button:active {
   background: rgba(6, 102, 178, 0.1);
   margin-right: 325px;
   margin-top: -7px;
-  margin-left: -5px !important;
+  left: -5px;
   border-left: 3px solid #ff4500;
-  border-right: 1px solid #C7C7C7;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .organic-listing .link.promotedlink {
@@ -619,6 +619,9 @@ body .linklisting {
 .tagline,
 .search-result-meta {
   font-size: 1.145em; }
+
+.link .flair {
+  font-size: 1em; }
 
 #siteTable .thing {
   margin-left: -5px !important;
@@ -2989,7 +2992,11 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
     background: #0078D7;
     color: #fff !important;
-    transform: scale(1.02); }
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px); }
 
 a[href*="#Donsiders"] {
   background: #009e7e; }
@@ -3164,6 +3171,12 @@ a .edit-stylesheet.choice {
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
   content: " insiders waiting for new bits"; }
+
+.arrow.down {
+  pointer-events: none; }
+
+.subscriber .arrow.down {
+  pointer-events: initial; }
 
 .footer {
   border-bottom: 1px solid #0057A6; }
