@@ -1,0 +1,877 @@
+@import 'core',
+'side',
+'profile',
+'stickies',
+'nightmode',
+'RES',
+'footer';
+
+//flairs
+.flair-mod:before,
+.flair-msftchamp:before {
+  content: "- ";
+}
+//microsoft employees
+.author {
+  &[href$=Adam-MSFT],
+  &[href$=Dave_MSFT],
+  &[href$=DrPreppy],
+  &[href$=EKILBO],
+  &[href$=Giffdev],
+  &[href$=James-MSFT],
+  &[href$=KritiMSFT],
+  &[href$=MailmanOdd],
+  &[href$=MasterDevwi],
+  &[href$=MsftHealthWill],
+  &[href$=NorthFaceHiker],
+  &[href$=Psychlist1972],
+  &[href$=Sawan-Msft],
+  &[href$=Sean_MSFT],
+  &[href$=StephA_MSFT],
+  &[href$=Zev_MSFT],
+  &[href$=adam_msft],
+  &[href$=anaotero-MSFT],
+  &[href$=anbutle],
+  &[href$=anthonykinseymsft],
+  &[href$=bbyboi],
+  &[href$=bitcrazed],
+  &[href$=bloodytemplar],
+  &[href$=devbent],
+  &[href$=donaMSFT],
+  &[href$=instyle7],
+  &[href$=jenmsft],
+  &[href$=jeremy_msft],
+  &[href$=johnwinkmsft],
+  &[href$=josh_msft],
+  &[href$=kylealden],
+  &[href$=maheshrd],
+  &[href$=mike_msft],
+  &[href$=msftbanddev],
+  &[href$=msftbilly],
+  &[href$=mvaneerde],
+  &[href$=ooeygui],
+  &[href$=samersaw],
+  &[href$=sjarawan],
+  &[href$=stefohneee],
+  &[href$=toma_msft],
+  &[href$=vpmsft],
+  &[href$=xander-msft],
+  &[href$=zac_l] {
+    color: $color-bg-secondary;
+    font-weight: 700;
+  }
+  &[href$=ildun] {
+    color: #e67e22;
+    font-weight: 700;
+  }
+}
+//moderators
+.helplink~.content .author {
+  &[href*=Jaskys]::after {
+    content: '- Designer';
+    font-size: 0.945em;
+    margin-left: 5px;
+    color: $color-bg-main;
+  }
+  &[href*=Izick]::after {
+    content: '- Head Moderator';
+    font-size: 0.945em;
+    margin-left: 5px;
+    color: $color-bg-main;
+  }
+  &[href*=AppropriateUzername]::after,
+  &[href*=Swaggy_McSwagSwag]::after,
+  &[href*=astral_lariat]::after,
+  &[href*=dAKirby309]::after,
+  &[href*=etacarinae]::after,
+  &[href*=jeffreymcclain]::after,
+  &[href*=siraramis]::after,
+  &[href*=xByteZz]::after {
+    content: '- Moderator';
+    font-size: 0.945em;
+    margin-left: 5px;
+    color: $color-bg-main;
+  }
+}
+
+.flair-wiki {
+  color: #e67e22;
+  font-weight: 700;
+  height: 16px;
+  line-height: 16px;
+  border: none;
+  background: 0 0;
+  padding: 0;
+  &:before {
+    content: "- ";
+  }
+}
+
+html:lang(nh) {
+  .linkflair-bug,
+  .linkflair-help {
+    display: none !important;
+  }
+}
+
+.linkflairlabel:lang(nf) {
+  display: none;
+}
+
+.flairselector {
+  background-color: #fff;
+}
+
+.linkflairlabel {
+  border-width: 3px;
+  border-radius: 1px;
+}
+
+.linkflair-help .linkflairlabel {
+  background-color: #FF6138;
+  border-color: #FF6138;
+}
+
+.linkflair-solved .linkflairlabel {
+  background-color: #008a00;
+  border-color: #008a00;
+}
+
+.linkflair-unresolved .linkflairlabel {
+  background-color: #FF7D4D;
+  border-color: #FF7D4D;
+}
+
+.linkflair-bug .linkflairlabel {
+  background-color: #ce352c;
+  border-color: #ce352c;
+}
+
+.linkflair-update .linkflairlabel {
+  background-color: $color-bg-secondary;
+  border-color: $color-bg-secondary;
+}
+
+.linkflair-feature .linkflairlabel {
+  background-color: #00aba9;
+  border-color: #00aba9;
+}
+
+.linkflair-discussion .linkflairlabel {
+  background-color: #ff9e00;
+  border-color: #ff9e00;
+}
+
+.linkflair-hardware .linkflairlabel {
+  background-color: #f0a30a;
+  border-color: #f0a30a;
+}
+
+.linkflair-tip .linkflairlabel {
+  background-color: #468966;
+  border-color: #468966;
+}
+
+.linkflair-meta .linkflairlabel {
+  background-color: #4390df;
+  border-color: #4390df;
+}
+
+.linkflair-app .linkflairlabel {
+  background-color: #bf5a15;
+  border-color: #bf5a15;
+}
+
+.linkflair-gaming .linkflairlabel {
+  background-color: #107c10;
+  border-color: #107c10;
+}
+
+.linkflair-question .linkflairlabel {
+  background-color: #008a00;
+  border-color: #008a00;
+}
+
+.linkflair-news .linkflairlabel {
+  background-color: #F2385A;
+  border-color: #F2385A;
+}
+
+.linkflair-official .linkflairlabel {
+  background-color: #2086bf;
+  border-color: #2086bf;
+}
+
+.linkflair-oc .linkflairlabel {
+  background-color: #76608a;
+  border-color: #76608a;
+}
+
+.linkflair-concept .linkflairlabel {
+  background-color: #14B6F5;
+  border-color: #14B6F5;
+}
+
+.linkflair-request .linkflairlabel {
+  background-color: #00aba9;
+  border-color: #00aba9;
+}
+
+.flair-mod,
+.flair-msftchamp {
+  border: none;
+  background: 0 0;
+  font-weight: 700;
+}
+
+.side a {
+  &[href*='#update'],
+  &[href*='#official'],
+  &[href*='#news'],
+  &[href*='#help'],
+  &[href*='#solved'],
+  &[href*='#unresolved'],
+  &[href*='#bug'],
+  &[href*='#feature'],
+  &[href*='#discussion'],
+  &[href*='#hardware'],
+  &[href*='#tip'],
+  &[href*='#meta'],
+  &[href*='#gaming'],
+  &[href*='#app'],
+  &[href*='#original%20content'],
+  &[href*='#concept'],
+  &[href*='#request'],
+  &[href*='#question'],
+  &[href*='#hideflair'],
+  &[href*='#hidehelp'] {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 80%;
+    padding: 3px 10px;
+    color: #fff;
+    margin: 3px;
+  }
+}
+
+.sidecontentbox .flair-mod {
+  display: none;
+}
+
+.flair-mod {
+  margin: 0 0 0 -10px;
+  padding: 0 5px 0 11px;
+  color: #00a64f;
+}
+
+.flair-msftchamp {
+  height: 16px;
+  line-height: 16px;
+  color: $color-bg-secondary;
+  padding: 0;
+}
+
+.flair-special {
+  margin: 0 4px 4px 0;
+  padding: 0 11px 1px;
+  border-width: 1px;
+  border-radius: 1px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #008a00;
+  border-color: #008a00;
+}
+
+.side a {
+  &[href*='#official'] {
+    background: #2086bf;
+  }
+  &[href*='#news'] {
+    background: #F2385A;
+  }
+  &[href*='#help'] {
+    background: #FF6138;
+  }
+  &[href*='#solved'] {
+    background: #008a00;
+  }
+  &[href*='#unresolved'] {
+    background: #FF7D4D;
+  }
+  &[href*='#bug'] {
+    background: #ce352c;
+  }
+  &[href*='#update'] {
+    background: #81003c;
+  }
+  &[href*='#feature'] {
+    background: #00aba9;
+  }
+  &[href*='#discussion'] {
+    background: #bf5a15;
+  }
+  &[href*='#hardware'] {
+    background: #f0a30a;
+  }
+  &[href*='#tip'] {
+    background: #468966;
+  }
+  &[href*='#meta'] {
+    background: #4390df;
+  }
+  &[href*='#gaming'] {
+    background: #76608a;
+  }
+  &[href*='#app'] {
+    background: #bf5a15;
+  }
+  &[href*='#original%20content'] {
+    background: #0B9C67;
+  }
+  &[href*='#concept'] {
+    background: #14B6F5;
+  }
+  &[href*='#request'] {
+    background: #00aba9;
+  }
+  &[href*='#question'] {
+    background: #008a00;
+  }
+  &[href*='#hideflair'],
+  &[href*='#hidehelp'] {
+    background: #E42608;
+  }
+}
+
+.linkflairlabel {
+  margin: 0 4px -2px 0;
+  padding: 0 4px 1px;
+  vertical-align: -2px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 10px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.linkflair-discussion {
+  border-left: 3px solid #ff9e00 !important;
+  background: rgba(255, 158, 0, 0.1);
+}
+
+.linkflair-tip {
+  border-left: 3px solid #468966 !important;
+  background: rgba(70, 137, 102, 0.1);
+}
+
+.linkflair-news {
+  border-left: 3px solid #F2385A !important;
+  background: rgba(242, 56, 90, 0.1);
+}
+
+.comments-page .link.linkflair-solved {
+  display: block;
+}
+
+#header-img.default-header,
+a[href*="#icon-day"] {
+  display: none;
+}
+
+.side a {
+  &[href*='#update']:hover,
+  &[href*='#official']:hover,
+  &[href*='#news']:hover,
+  &[href*='#help']:hover,
+  &[href*='#solved']:hover,
+  &[href*='#unresolved']:hover,
+  &[href*='#bug']:hover,
+  &[href*='#feature']:hover,
+  &[href*='#discussion']:hover,
+  &[href*='#hardware']:hover,
+  &[href*='#tip']:hover,
+  &[href*='#meta']:hover,
+  &[href*='#gaming']:hover,
+  &[href*='#app']:hover,
+  &[href*='#original%20content']:hover,
+  &[href*='#concept']:hover,
+  &[href*='#request']:hover,
+  &[href*='#question']:hover,
+  &[href='']:hover {
+    opacity: 0.8;
+  }
+}
+
+//
+a {
+  &[href*='#square-app']::before {
+    background: -187px -5px #bf5a15;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-tip']::before {
+    background: -187px -5px #555;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-meta']::before {
+    background: -187px -5px #4390df;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-original']::before {
+    background: -187px -5px #76608a;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-concept']::before {
+    background: -187px -5px #14B6F5;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-solved']::before {
+    background: -187px -5px #008a00;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-hflairs']::before {
+    background: -187px -5px $color-bg-main;
+    border: 3px solid #e8e8e8;
+    border-radius: 50%;
+  }
+  &[href*='#square-hhelp']::before {
+    background: -187px -5px $color-bg-secondary;
+    border: 3px solid #e8e8e8;
+    border-radius: 50%;
+  }
+  &[href*='#square']+.keyNavAnnotation {
+    display: none;
+  }
+  &[href*='#square-feature']::before,
+  &[href*='#square-request']::before,
+  &[href*='#square-bug']::before,
+  &[href*='#square-official']::before,
+  &[href*='#square-news']::before,
+  &[href*='#square-help']::before,
+  &[href*='#square-update']::before,
+  &[href*='#square-discussion']::before,
+  &[href*='#square-hardware']::before,
+  &[href*='#square-app']::before,
+  &[href*='#square-tip']::before,
+  &[href*='#square-meta']::before,
+  &[href*='#square-original']::before,
+  &[href*='#square-concept']::before,
+  &[href*='#square-solved']::before,
+  &[href*='#square-hflairs']::before,
+  &[href*='#square-hhelp']::before,
+  &[href*='#square-gaming']::before {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    content: '';
+    margin: 0 5px -4px 0;
+  }
+  &[href*='#square-']:hover::before {
+    text-decoration: none;
+    background: $color-bg-secondary;
+    border-color: #80c2ff;
+    left: 4px;
+    top: 8px;
+    transition: all 0.15s ease;
+  }
+  &[href*='#square-bug']::before {
+    background: -187px -5px #ce352c;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-official']::before {
+    background: -187px -5px #2086bf;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-news']::before {
+    background: -187px -5px #F2385A;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-help']::before {
+    background: -187px -5px #FF6138;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-update']::before {
+    background: -187px -5px #81003c;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-discussion']::before {
+    background: -187px -5px #ff9e00;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-hardware']::before {
+    background: -187px -5px #f0a30a;
+    border: 3px solid #e8e8e8;
+  }
+  &[href*='#square-gaming']::before {
+    background: -187px -5px #107c10;
+    border: 3px solid #e8e8e8;
+  }
+}
+
+a {
+  &[href*='#square-feature']::before,
+  &[href*='#square-request']::before {
+    background: -187px -5px #00aba9;
+    border: 3px solid #e8e8e8;
+  }
+}
+
+//header name
+.titlebox h1.redditname a {
+  font-size: 0;
+  color: #FFF;
+  &:after {
+    content: "Windows 10";
+    color: #fff;
+    font: 400 small verdana, arial, helvetica, sans-serif;
+  }
+}
+
+//sidebar name
+#header {
+  .redditname {
+    a:after {
+      content: "Windows";
+      font-size: 70px;
+      font-weight: lighter;
+      color: #ECF0F1;
+      font-family: $font-light;
+      letter-spacing: .05em;
+      margin-left: 100px;
+      line-height: 100px;
+      font-variant: normal;
+      transition: background-color 0.5s;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+//sidebar content highlighting
+.side .md blockquote {
+  padding: 2px 10px 5px;
+  border-left: 5px solid #f5c684;
+  background-color: #fef8f1;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
+  font-size: 10px;
+  margin: 0 5px 0 0;
+  color: #222;
+  a {
+    font-size: 11px;
+  }
+}
+
+.res-nightmode .side .md blockquote,
+html[lang^=nm] .side .md blockquote {
+  border-left: 5px solid #3B81FB !important;
+  color: #ddd !important;
+}
+
+.side .md blockquote:hover {
+  background-color: #fcecd9;
+  border-left-color: #f0ad4e;
+}
+
+a[href$="WindowsMobile#2"] {
+  position: absolute;
+  top: 135px;
+  left: 48px;
+  color: #fff !important;
+  z-index: 99;
+  border-bottom: 3px solid transparent !important;
+  background: 0 0;
+  text-transform: uppercase;
+  transition: all .15s ease-in-out;
+  line-height: 15px;
+  height: 20px;
+  padding: 8px 9px 0;
+  font-size: 11.4px !important;
+  font-family: Helvetica;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #fff !important;
+  }
+}
+
+//buttons
+//1.Insider thread buttons
+a {
+  &[href*="#Donsiders"],
+  &[href*="#btn"] {
+    display: inline-block;
+    border: 1px solid #0081ba;
+    color: #fff;
+    padding: 10px 13px;
+    margin: 5px 0;
+    transition: all 0.5s;
+    border-radius: 1px;
+    &:hover {
+      background: $color-bg-secondary;
+      color: #fff!important;
+      -webkit-transform: translateY(-2px);
+      -moz-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      -o-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+  }
+}
+
+a {
+  &[href*="#Donsiders"] {
+    background: #009e7e;
+    &:hover {
+      background: $color-bg-secondary;
+    }
+  }
+  &[href*="#btn"] {
+    background: #0057a6;
+  }
+}
+
+//2.sidebar buttons
+.side .md {
+  [href$="#butt"] {
+    display: inline-block !important;
+    font-size: 8pt;
+    border: 2px solid $color-bg-main;
+    padding: 9px 8px;
+    transition: background-color .5s;
+    text-align: center;
+    color: $color-bg-main;
+    &:hover {
+      background: $color-bg-main;
+      color: #fff;
+    }
+  }
+  >p:first-of-type {
+    display: none;
+  }
+}
+
+//3.sidebar flair content toggles
+a {
+  &[href*="#square-showflairs"] {
+    float: right;
+    &::before {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      content: "";
+      background: -187px -5px $color-bg-main;
+      border: 3px solid #e8e8e8;
+      border-radius: 50%;
+      margin-left: 5px;
+    }
+  }
+  &[href*="#square-hflairs"] {
+    &::after {
+      content: "or";
+      margin-left: 50px;
+    }
+    &:hover::after {
+      color: $color-bg-main;
+    }
+  }
+}
+
+//tech support widget
+.post-submitter.post-linkflair-help a[href*="#tech"] {
+  display: block;
+}
+
+a[href*="#tech"] {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  height: 63px;
+  width: 150px;
+  left: 20px;
+  z-index: 9999;
+  font-size: 13px;
+  line-height: 49px;
+  background: url(%%discord%%) 6px 26px no-repeat $color-bg-secondary;
+  color: #fff;
+  padding-left: 24px;
+  border: 2px solid #006cc1;
+  opacity: .8;
+  transition: opacity .5s;
+  -webkit-animation: widget 1s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: widget 1s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 10s;
+  &:hover {
+    color: #fff;
+    opacity: 1;
+  }
+  &:before {
+    background: #006cc1;
+    display: block;
+    height: 20px;
+    width: 174px;
+    position: relative;
+    content: "Voluntary live tech support";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    left: -24px;
+  }
+}
+
+@-webkit-keyframes widget {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
+}
+
+@keyframes widget {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
+}
+
+//solved flairs
+.comments-page .link {
+  &.linkflair-bug .flat-list a.flairselectbtn:after {
+    content: "- flair your thread as Solved once your problem is resolved";
+    margin-left: 6px;
+    color: #008a00;
+  }
+  &.linkflair-help .flat-list a.flairselectbtn {
+    color: $color-bg-main !important;
+    &:after {
+      content: "- flair your thread as Solved once your problem is resolved";
+      margin-left: 6px;
+      color: #008a00;
+    }
+  }
+}
+
+.linkflair-solved.link {
+  display: none;
+}
+
+.search-page .linkflair-solved.link {
+  display: block;
+}
+
+//sidebar icons
+a {
+  &[href*='#icon-chat']::before,
+  &[href*='#icon-feedback']::before,
+  &[href*='#icon-night']::before,
+  &[href*='#icon-feedback2']::before {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+  }
+  &[href*='#icon']:hover {
+    text-decoration: none;
+  }
+  &[href*='#icon-chat']::before {
+    background: url(%%w-icons%%) -5px -5px;
+  }
+  &[href*='#icon-feedback']::before {
+    background: url(%%w-icons%%) -5px -35px;
+  }
+  &[href*='#icon-night']::before {
+    background: url(%%w-newicons%%) -35px -5px;
+  }
+  &[href*='#icon-day']::before {
+    display: none;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+    background: url(%%w-sun%%);
+  }
+  &[href*='#icon-feedback2']::before {
+    background: url(%%w-newicons%%) -5px -5px;
+  }
+  &[href*="#icon-more"] {
+    text-align: center;
+    display: block;
+    color: $color-bg-secondary;
+    font-size: 16px;
+  }
+  &[href*='#iconz']+.keyNavAnnotation {
+    display: none;
+  }
+  &[href*='#iconz-tips']::before,
+  &[href*='#iconz-updates']::before,
+  &[href*='#iconz-faq']::before,
+  &[href*='#iconz-install']::before,
+  &[href*='#iconz-wiki']::before {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+  }
+  &[href*='#iconz']:hover {
+    text-decoration: none;
+  }
+  &[href*='#iconz-tips']::before {
+    background: url(%%r-icons%%) -5px -35px;
+  }
+  &[href*='#iconz-faq']::before {
+    background: url(%%r-icons%%) -5px -5px;
+  }
+  &[href*='#iconz-updates']::before {
+    background: url(%%r-icons%%) -5px -65px;
+  }
+  &[href*='#iconz-install']::before {
+    background: url(%%r-icons%%) -5px -95px;
+  }
+  &[href*='#iconz-wiki']::before {
+    background: url(%%r-icons%%) -5px -125px;
+  }
+  //notice
+  .edit-stylesheet.choice {
+    color: red;
+    font-weight: 700;
+    &:after {
+      content: " - talk with /u/jaskys if you want to change something, thanks";
+      color: #000;
+    }
+  }
+}
+
+//Gabe instead of empty win blog icon
+.link a.thumbnail[href*="blogs.windows.com"] {
+  background: url(%%g-aul%%) 0 no-repeat !important;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  img {
+    display: none;
+  }
+}
+
+//sidebar enrolling
+.res-nightmode .subscribers .number:after,
+.subscribers .number:after {
+  content: " insiders waiting for new bits";
+}
+//disabled voting for non subscribers
+.arrow.down {
+    pointer-events: none;
+}
+.subscriber .arrow.down {
+    pointer-events: initial;
+}

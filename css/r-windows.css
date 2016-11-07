@@ -2614,6 +2614,68 @@ html[lang^=nm] .link.last-clicked {
   right: 20px;
   top: 3px; }
 
+.footer {
+  border-bottom: 1px solid #0057A6; }
+  .footer::after {
+    border-bottom: 1px solid #0057A6; }
+
+.footer div.col {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 176px;
+  height: auto;
+  font-family: "Segoe UI", arial,sans-serif; }
+  .footer div.col .title {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    color: #fff;
+    background: #0057A6;
+    max-height: 18px; }
+  .footer div.col a {
+    display: block;
+    margin: 5px;
+    padding: 3px 4px 3px 7px;
+    color: #000; }
+    .footer div.col a:hover {
+      color: #000;
+      text-decoration: none;
+      background: #fff; }
+.footer p.bottommenu {
+  font-weight: 700;
+  color: #FFF;
+  clear: left;
+  padding: 6px; }
+  .footer p.bottommenu a {
+    font-weight: 700;
+    color: #FFF; }
+
+.debuginfo {
+  background: #F6F6F6; }
+
+.rounded {
+  border-radius: 0; }
+
+.footer {
+  padding: 0;
+  border-left: 1px solid #0057A6; }
+  .footer .col {
+    border-left: none !important; }
+  .footer::after {
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by /u/Jaskys";
+    font-size: 16px;
+    font-family: "Segoe UI", arial,sans-serif;
+    border-top: 34px solid #0057A6;
+    border-right: 1px solid #0057A6;
+    margin-bottom: -1.1px;
+    width: 90px; }
+
 .flair-mod:before,
 .flair-msftchamp:before {
   content: "- "; }
@@ -2630,12 +2692,12 @@ html[lang^=nm] .link.last-clicked {
   font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
-.helplink ~ .content .author[href*=Izick]::after {
+.helplink ~ .content .author[href*=Kylde]::after {
   content: '- Head Moderator';
   font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
-.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after {
+.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after, .helplink ~ .content .author[href*=xvvhiteboy]::after, .helplink ~ .content .author[href*=spinningpissingrabbi]::after, .helplink ~ .content .author[href*=cynycal]::after, .helplink ~ .content .author[href*=panickedthumb]::after {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
@@ -3178,66 +3240,4 @@ a .edit-stylesheet.choice {
 .subscriber .arrow.down {
   pointer-events: initial; }
 
-.footer {
-  border-bottom: 1px solid #0057A6; }
-  .footer::after {
-    border-bottom: 1px solid #0057A6; }
-
-.footer div.col {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 176px;
-  height: auto;
-  font-family: "Segoe UI", arial,sans-serif; }
-  .footer div.col .title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px;
-    color: #fff;
-    background: #0057A6;
-    max-height: 18px; }
-  .footer div.col a {
-    display: block;
-    margin: 5px;
-    padding: 3px 4px 3px 7px;
-    color: #000; }
-    .footer div.col a:hover {
-      color: #000;
-      text-decoration: none;
-      background: #fff; }
-.footer p.bottommenu {
-  font-weight: 700;
-  color: #FFF;
-  clear: left;
-  padding: 6px; }
-  .footer p.bottommenu a {
-    font-weight: 700;
-    color: #FFF; }
-
-.debuginfo {
-  background: #F6F6F6; }
-
-.rounded {
-  border-radius: 0; }
-
-.footer {
-  padding: 0;
-  border-left: 1px solid #0057A6; }
-  .footer .col {
-    border-left: none !important; }
-  .footer::after {
-    display: block;
-    margin-top: 0;
-    padding: 10px;
-    padding-top: 8px !important;
-    color: #000;
-    content: "Designed by /u/Jaskys";
-    font-size: 16px;
-    font-family: "Segoe UI", arial,sans-serif;
-    border-top: 34px solid #0057A6;
-    border-right: 1px solid #0057A6;
-    margin-bottom: -1.1px;
-    width: 90px; }
-
-/*# sourceMappingURL=core.css.map */
+/*# sourceMappingURL=r-windows.css.map */

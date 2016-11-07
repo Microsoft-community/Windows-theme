@@ -1,3 +1,11 @@
+@import 'core',
+'side',
+'profile',
+'stickies',
+'nightmode',
+'RES',
+'footer';
+
 //flairs
 .flair-mod:before,
 .flair-msftchamp:before {
@@ -65,7 +73,7 @@
     margin-left: 5px;
     color: $color-bg-main;
   }
-  &[href*=Izick]::after {
+  &[href*=Kylde]::after {
     content: '- Head Moderator';
     font-size: 0.945em;
     margin-left: 5px;
@@ -78,7 +86,12 @@
   &[href*=etacarinae]::after,
   &[href*=jeffreymcclain]::after,
   &[href*=siraramis]::after,
-  &[href*=xByteZz]::after {
+  &[href*=xByteZz]::after,
+  //non w10
+  &[href*=xvvhiteboy]::after,
+  &[href*=spinningpissingrabbi]::after,
+  &[href*=cynycal]::after,
+  &[href*=panickedthumb]::after {
     content: '- Moderator';
     font-size: 0.945em;
     margin-left: 5px;
