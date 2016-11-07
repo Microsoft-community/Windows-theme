@@ -2614,70 +2614,8 @@ html[lang^=nm] .link.last-clicked {
   right: 20px;
   top: 3px; }
 
-.footer {
-  border-bottom: 1px solid #0057A6; }
-  .footer::after {
-    border-bottom: 1px solid #0057A6; }
-
-.footer div.col {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 176px;
-  height: auto;
-  font-family: "Segoe UI", arial,sans-serif; }
-  .footer div.col .title {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px;
-    color: #fff;
-    background: #0057A6;
-    max-height: 18px; }
-  .footer div.col a {
-    display: block;
-    margin: 5px;
-    padding: 3px 4px 3px 7px;
-    color: #000; }
-    .footer div.col a:hover {
-      color: #000;
-      text-decoration: none;
-      background: #fff; }
-.footer p.bottommenu {
-  font-weight: 700;
-  color: #FFF;
-  clear: left;
-  padding: 6px; }
-  .footer p.bottommenu a {
-    font-weight: 700;
-    color: #FFF; }
-
-.debuginfo {
-  background: #F6F6F6; }
-
-.rounded {
-  border-radius: 0; }
-
-.footer {
-  padding: 0;
-  border-left: 1px solid #0057A6; }
-  .footer .col {
-    border-left: none !important; }
-  .footer::after {
-    display: block;
-    margin-top: 0;
-    padding: 10px;
-    padding-top: 8px !important;
-    color: #000;
-    content: "Designed by /u/Jaskys";
-    font-size: 16px;
-    font-family: "Segoe UI", arial,sans-serif;
-    border-top: 34px solid #0057A6;
-    border-right: 1px solid #0057A6;
-    margin-bottom: -1.1px;
-    width: 90px; }
-
 .flair-mod:before,
-.flair-msftchamp:before {
+.flair-msft:before {
   content: "- "; }
 
 .author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sean_MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=instyle7], .author[href$=jenmsft], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l] {
@@ -2686,22 +2624,6 @@ html[lang^=nm] .link.last-clicked {
 .author[href$=ildun] {
   color: #e67e22;
   font-weight: 700; }
-
-.helplink ~ .content .author[href*=Jaskys]::after {
-  content: '- Designer';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
-.helplink ~ .content .author[href*=Kylde]::after {
-  content: '- Head Moderator';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
-.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after, .helplink ~ .content .author[href*=xvvhiteboy]::after, .helplink ~ .content .author[href*=spinningpissingrabbi]::after, .helplink ~ .content .author[href*=cynycal]::after, .helplink ~ .content .author[href*=panickedthumb]::after {
-  content: '- Moderator';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
 
 .flair-wiki {
   color: #e67e22;
@@ -2801,7 +2723,7 @@ html:lang(nh) .linkflair-help {
   border-color: #00aba9; }
 
 .flair-mod,
-.flair-msftchamp {
+.flair-msft {
   border: none;
   background: 0 0;
   font-weight: 700; }
@@ -2823,7 +2745,7 @@ html:lang(nh) .linkflair-help {
   padding: 0 5px 0 11px;
   color: #00a64f; }
 
-.flair-msftchamp {
+.flair-msft {
   height: 16px;
   line-height: 16px;
   color: #0078D7;
@@ -2978,28 +2900,6 @@ a[href*='#square-gaming']::before {
 a[href*='#square-feature']::before, a[href*='#square-request']::before {
   background: -187px -5px #00aba9;
   border: 3px solid #e8e8e8; }
-
-.titlebox h1.redditname a {
-  font-size: 0;
-  color: #FFF; }
-  .titlebox h1.redditname a:after {
-    content: "Windows 10";
-    color: #fff;
-    font: 400 small verdana, arial, helvetica, sans-serif; }
-
-#header .redditname a:after {
-  content: "Windows";
-  font-size: 70px;
-  font-weight: lighter;
-  color: #ECF0F1;
-  font-family: "Segoe UI Light", LatoLight, serif;
-  letter-spacing: .05em;
-  margin-left: 100px;
-  line-height: 100px;
-  font-variant: normal;
-  transition: background-color 0.5s; }
-#header .redditname:hover {
-  text-decoration: none; }
 
 .side .md blockquote {
   padding: 2px 10px 5px;
@@ -3215,12 +3115,6 @@ a[href*='#iconz-install']::before {
   background: url(%%r-icons%%) -5px -95px; }
 a[href*='#iconz-wiki']::before {
   background: url(%%r-icons%%) -5px -125px; }
-a .edit-stylesheet.choice {
-  color: red;
-  font-weight: 700; }
-  a .edit-stylesheet.choice:after {
-    content: " - talk with /u/jaskys if you want to change something, thanks";
-    color: #000; }
 
 .link a.thumbnail[href*="blogs.windows.com"] {
   background: url(%%g-aul%%) 0 no-repeat !important;
@@ -3239,5 +3133,105 @@ a .edit-stylesheet.choice {
 
 .subscriber .arrow.down {
   pointer-events: initial; }
+
+.footer {
+  border-bottom: 1px solid #0057A6; }
+  .footer::after {
+    border-bottom: 1px solid #0057A6; }
+
+.footer div.col {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 176px;
+  height: auto;
+  font-family: "Segoe UI", arial,sans-serif; }
+  .footer div.col .title {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+    color: #fff;
+    background: #0057A6;
+    max-height: 18px; }
+  .footer div.col a {
+    display: block;
+    margin: 5px;
+    padding: 3px 4px 3px 7px;
+    color: #000; }
+    .footer div.col a:hover {
+      color: #000;
+      text-decoration: none;
+      background: #fff; }
+.footer p.bottommenu {
+  font-weight: 700;
+  color: #FFF;
+  clear: left;
+  padding: 6px; }
+  .footer p.bottommenu a {
+    font-weight: 700;
+    color: #FFF; }
+
+.debuginfo {
+  background: #F6F6F6; }
+
+.rounded {
+  border-radius: 0; }
+
+.footer {
+  padding: 0;
+  border-left: 1px solid #0057A6; }
+  .footer .col {
+    border-left: none !important; }
+  .footer::after {
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by /u/Jaskys";
+    font-size: 16px;
+    font-family: "Segoe UI", arial,sans-serif;
+    border-top: 34px solid #0057A6;
+    border-right: 1px solid #0057A6;
+    margin-bottom: -1.1px;
+    width: 90px; }
+
+.titlebox h1.redditname a {
+  font-size: 0;
+  color: #FFF; }
+  .titlebox h1.redditname a:after {
+    content: "Windows";
+    color: #fff;
+    font: 400 small verdana, arial, helvetica, sans-serif; }
+
+#header .redditname a:after {
+  content: "Windows";
+  font-size: 70px;
+  font-weight: lighter;
+  color: #ECF0F1;
+  font-family: "Segoe UI Light", LatoLight, serif;
+  letter-spacing: .05em;
+  margin-left: 100px;
+  line-height: 100px;
+  font-variant: normal;
+  transition: background-color 0.5s; }
+#header .redditname:hover {
+  text-decoration: none; }
+
+.helplink ~ .content .author[href*=Jaskys]::after {
+  content: '- Designer';
+  font-size: 0.945em;
+  margin-left: 5px;
+  color: #0057A6; }
+.helplink ~ .content .author[href*=Kylde]::after {
+  content: '- Head Moderator';
+  font-size: 0.945em;
+  margin-left: 5px;
+  color: #0057A6; }
+.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after, .helplink ~ .content .author[href*=xvvhiteboy]::after, .helplink ~ .content .author[href*=spinningpissingrabbi]::after, .helplink ~ .content .author[href*=cynycal]::after, .helplink ~ .content .author[href*=panickedthumb]::after {
+  content: '- Moderator';
+  font-size: 0.945em;
+  margin-left: 5px;
+  color: #0057A6; }
 
 /*# sourceMappingURL=r-windows.css.map */
