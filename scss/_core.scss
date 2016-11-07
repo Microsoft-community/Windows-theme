@@ -64,11 +64,6 @@ $color-bg-light-hover: #f0f8ff;
   }
 }
 
-#header .redditname a:hover {
-  background: url(%%w-header%%) -5px -115px !important;
-  text-decoration: none;
-}
-
 #sr-header-area {
   transition: opacity .3s;
   opacity: .4;
@@ -168,13 +163,17 @@ button {
 
 #header .redditname a {
   font-size: 0;
-  background: url(%%w-header%%) -5px -5px !important;
+  background: url(%%w-header%%) -5px -5px no-repeat;
   margin-left: 10px;
-  width: 100px !important;
-  height: 100px !important;
+  width: 500px;
+  height: 100px;
   display: block;
   position: absolute;
-  top: 30px !important;
+  top: 30px;
+  &:hover {
+  background: url(%%w-header%%) -5px -115px no-repeat!important;
+  text-decoration: none;
+}
 }
 
 #header-bottom-right {
