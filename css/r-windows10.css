@@ -1055,15 +1055,12 @@ span.clear-input-button {
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
-    font-size: 1.4em;
-    font-weight: 400; }
+    font-size: 1.4em; }
   .side .md h3 {
     font-size: 1.2em;
-    font-weight: 400;
     color: #555;
     margin: 2em 0 0.2em; }
   .side .md h4 {
-    font-weight: 400;
     color: #888;
     margin-bottom: 1.5em; }
   .side .md p {
@@ -1078,7 +1075,20 @@ span.clear-input-button {
   .side .md h3,
   .side .md h4 {
     color: #fff;
-    font-size: 13px; }
+    font-size: 13px;
+    font-weight: 400; }
+    .side .md h1:after,
+    .side .md h2:after,
+    .side .md h3:after,
+    .side .md h4:after {
+      display: block;
+      position: absolute;
+      z-index: -1;
+      border-color: transparent #d7ecff transparent transparent;
+      border-width: 10px;
+      border-style: solid;
+      content: "";
+      margin-left: -24px; }
     .side .md h1 a,
     .side .md h2 a,
     .side .md h3 a,
@@ -1120,18 +1130,6 @@ span.clear-input-button {
     list-style-type: none;
     margin: 0;
     padding: 0; }
-  .side h1:after,
-  .side h2:after,
-  .side h3:after,
-  .side h4:after {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
-    border-width: 10px;
-    border-style: solid;
-    content: "";
-    margin-left: -24px; }
 
 div.side div.tagline {
   padding: 10px;
@@ -1349,7 +1347,12 @@ div.titlebox span.fancy-toggle-button a.active {
   margin: 0;
   border: none; }
 div.titlebox div.styleToggle {
-  background-color: #0057A6; }
+  background-color: #0057A6;
+  line-height: 20px; }
+  div.titlebox div.styleToggle input,
+  div.titlebox div.styleToggle label {
+    vertical-align: middle;
+    margin: 0; }
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
   background-color: #0057A6; }
 div.titlebox span.fancy-toggle-button a.active.remove:before {
@@ -1363,12 +1366,6 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   content: "+";
   padding-right: 5px;
   color: #fff; }
-div.titlebox div.styleToggle {
-  line-height: 20px; }
-  div.titlebox div.styleToggle input,
-  div.titlebox div.styleToggle label {
-    vertical-align: middle;
-    margin: 0; }
 
 #RESShortcutsAdd,
 #RESShortcutsLeft,
@@ -1394,15 +1391,13 @@ div.titlebox div.styleToggle {
   font-size: 8pt;
   border-radius: 0;
   font-weight: 400;
-  margin: 0 5px 0 0; }
+  margin: 0 5px 0 0;
+  width: 273px !important;
+  border-left: 1px solid #d7ecff; }
 
 #search input[type=text] {
   width: 295px !important;
   border-color: #0057A6; }
-
-#searchexpando {
-  width: 273px !important;
-  border-left: 1px solid #d7ecff; }
 
 .sidecontentbox .title {
   border-left: 5px solid #1992FF;
