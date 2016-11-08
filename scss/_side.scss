@@ -3,7 +3,7 @@
     margin: 0;
     padding-left: 30px;
     background: 0 0;
-     &:after {
+    &:after {
         content: "/r/ClearShift theme";
         font-size: large;
         color: $color-bg-main;
@@ -13,16 +13,13 @@
         h2 {
             margin-top: 1.4em;
             font-size: 1.4em;
-            font-weight: 400;
         }
         h3 {
             font-size: 1.2em;
-            font-weight: 400;
             color: #555;
             margin: 2em 0 0.2em;
         }
         h4 {
-            font-weight: 400;
             color: #888;
             margin-bottom: 1.5em;
         }
@@ -42,6 +39,17 @@
         h4 {
             color: #fff;
             font-size: 13px;
+            font-weight: 400;
+            &:after {
+                display: block;
+                position: absolute;
+                z-index: -1;
+                border-color: transparent #d7ecff transparent transparent;
+                border-width: 10px;
+                border-style: solid;
+                content: "";
+                margin-left: -24px;
+            }
             a {
                 color: #fff;
                 font-size: 13px;
@@ -91,19 +99,6 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-    }
-    h1:after,
-    h2:after,
-    h3:after,
-    h4:after {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        border-color: transparent #d7ecff transparent transparent;
-        border-width: 10px;
-        border-style: solid;
-        content: "";
-        margin-left: -24px;
     }
 }
 
@@ -199,7 +194,7 @@ div.side {
     }
 }
 
-//
+//what
 .morelink {
     border: 1px solid $color-bg-main;
     background: $color-bg-main;
@@ -248,6 +243,7 @@ div.side {
     font-size: 1em;
     margin-right: 5px;
 }
+
 .icon-menu li {
     display: block;
     margin: 0;
@@ -393,6 +389,12 @@ div.titlebox {
     }
     div.styleToggle {
         background-color: $color-bg-main;
+        line-height: 20px;
+        input,
+        label {
+            vertical-align: middle;
+            margin: 0;
+        }
     }
     span.fancy-toggle-button a.active {
         &.add:hover,
@@ -418,14 +420,6 @@ div.titlebox {
             color: #fff;
         }
     }
-    div.styleToggle {
-        line-height: 20px;
-        input,
-        label {
-            vertical-align: middle;
-            margin: 0;
-        }
-    }
 }
 
 #RESShortcutsAdd,
@@ -448,7 +442,7 @@ div.titlebox {
 #searchexpando {
     padding: 10px;
     border: 1px solid #d7ecff;
-    border-left: 5px solid #d7ecff;
+    border-left: 5px solid #d7ecff; //???
     border-right: 1px solid #d7ecff;
     background-color: #fff;
     color: #000;
@@ -456,16 +450,13 @@ div.titlebox {
     border-radius: 0;
     font-weight: 400;
     margin: 0 5px 0 0;
+    width: 273px !important;
+    border-left: 1px solid #d7ecff; //???
 }
 
 #search input[type=text] {
     width: 295px !important;
     border-color: $color-bg-main;
-}
-
-#searchexpando {
-    width: 273px !important;
-    border-left: 1px solid #d7ecff;
 }
 
 .sidecontentbox .title {
@@ -699,7 +690,6 @@ div.commentarea .infobar p {
     color: #E54661;
     margin-left: 27px;
 }
-
 .sidecontentbox {
     a.helplink {
         float: none;

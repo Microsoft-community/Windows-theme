@@ -73,7 +73,7 @@
     content: "- ";
   }
 }
-
+//flairs 
 html:lang(nh) {
   .linkflair-bug,
   .linkflair-help {
@@ -369,7 +369,7 @@ a[href*="#icon-day"] {
   }
 }
 
-//
+//sidebar filters
 a {
   &[href*='#square-app']::before {
     background: -187px -5px #bf5a15;
@@ -507,7 +507,7 @@ html[lang^=nm] .side .md blockquote {
   background-color: #fcecd9;
   border-left-color: #f0ad4e;
 }
-
+//header filters section
 a[href$="WindowsMobile#2"] {
   position: absolute;
   top: 135px;
@@ -613,7 +613,7 @@ a {
     }
   }
 }
-
+//depreciated
 //tech support widget
 .post-submitter.post-linkflair-help a[href*="#tech"] {
   display: block;
