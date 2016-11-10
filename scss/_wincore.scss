@@ -89,11 +89,6 @@ html:lang(nh) {
   background-color: #fff;
 }
 
-.linkflairlabel {
-  border-width: 3px;
-  border-radius: 1px;
-}
-
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
   border-color: #FF6138;
@@ -319,6 +314,12 @@ html:lang(nh) {
   font-weight: 400;
   font-size: 10px;
   font-family: "Segoe UI", Arial, sans-serif;
+  pointer-events: none;
+  border-width: 3px;
+  border-radius: 1px;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .linkflair-discussion {

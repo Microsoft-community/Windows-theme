@@ -12,8 +12,7 @@ Secondary: #0078D7
 
 #header {
   height: 165px;
-  background: #0057A6;
-  border-bottom: none !important; }
+  background: #0057A6; }
   #header #header-bottom-right #mail.havemail:active, #header #header-bottom-right #mail.nohavemail:active {
     background-color: #1686f0 !important; }
   #header #header-bottom-right .choice:active,
@@ -249,18 +248,17 @@ button:active {
 .entry .flat-list .reply-button a {
   color: #0057A6; }
 
-.link .domain a {
-  visibility: visible;
-  position: relative;
-  top: -1px;
-  color: #b1b1b1;
-  transition: all 0.15s ease; }
+.link .domain {
+  visibility: hidden; }
+  .link .domain a {
+    visibility: visible;
+    position: relative;
+    top: -1px;
+    color: #b1b1b1;
+    transition: all 0.15s ease; }
 
 .domain {
   display: inline-block !important; }
-
-.link .domain {
-  visibility: hidden; }
 
 #siteTable_organic {
   background: rgba(6, 102, 178, 0.1);
@@ -292,18 +290,17 @@ button:active {
     text-transform: capitalize;
     padding-bottom: 6px; }
 
-.flairoptionpane li,
-.flairoptionpane ul {
-  min-width: 120px;
-  padding: 3px; }
+.flairoptionpane {
+  max-height: 304px; }
+  .flairoptionpane li,
+  .flairoptionpane ul {
+    min-width: 120px;
+    padding: 3px; }
 
 .flairselector .linkflair {
   border-left: none !important;
   background: 0 0;
   width: 110px; }
-
-.flairoptionpane {
-  max-height: 304px; }
 
 .flairselector form {
   border-top: solid 1px #0057A6;
@@ -333,6 +330,14 @@ button:active {
 .side .usertext-body .md ol a {
   transition: background-color 0.5s; }
 
+.submit-page .roundfield {
+  padding: 16px;
+  width: 524px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  .submit-page .roundfield span.title {
+    color: #4d5763;
+    text-transform: capitalize; }
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
   background-color: #0057A6;
@@ -363,15 +368,6 @@ button:active {
 
 form .spacer + .spacer {
   margin: 0; }
-
-.submit-page .roundfield {
-  padding: 16px;
-  width: 524px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
-  .submit-page .roundfield span.title {
-    color: #4d5763;
-    text-transform: capitalize; }
 
 .content.submit .info-notice {
   background-color: #fff;
@@ -608,7 +604,12 @@ body .linklisting {
 
 .link {
   border-left: 3px solid #fff;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  .link.last-clicked {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  .link .flair {
+    font-size: 1em; }
 
 .entry .buttons li a {
   padding: 0px;
@@ -617,9 +618,6 @@ body .linklisting {
 .tagline,
 .search-result-meta {
   font-size: 1.145em; }
-
-.link .flair {
-  font-size: 1em; }
 
 #siteTable .thing {
   margin-left: -5px !important;
@@ -690,17 +688,15 @@ body .linklisting {
   border-image-repeat: initial;
   overflow: hidden;
   margin: 0 18px 8px 0; }
+  .comment .child,
+  .comment .showreplies {
+    border-left: none; }
 
 a.author {
   margin-right: 0.3em; }
 
 .panestack-title a.title-button {
   color: #fff !important; }
-
-.link {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
-  .link.last-clicked {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
 
 .thing.stickied a.title {
   font-weight: 700 !important;
@@ -720,11 +716,6 @@ a.author {
 
 .entry .flat-list .approve-button a {
   color: #00a64f; }
-
-.comments-page .sitetable.nestedlisting > .thing.stickied {
-  margin-bottom: 30px !important;
-  border-bottom: solid 3px #00a64f !important;
-  background: rgba(0, 166, 79, 0.1) !important; }
 
 .tagline .stickied-tagline {
   color: #00a64f; }
@@ -752,10 +743,6 @@ a.author {
   margin-left: 5px !important;
   display: none; }
 
-.comment .child,
-.comment .showreplies {
-  border-left: none; }
-
 div.commentarea .infobar {
   color: #eee;
   background: #0057A6;
@@ -768,6 +755,22 @@ div.commentarea .infobar {
   background-color: transparent;
   border: none; }
 
+.comments-page .sitetable.nestedlisting > .thing.stickied {
+  margin-bottom: 30px !important;
+  border-bottom: solid 3px #00a64f !important;
+  background: rgba(0, 166, 79, 0.1) !important; }
+
+.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
+  animation: 1s ease-out 0s normal none infinite running pulsate;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: pulsate; }
+
 .comments-page .usertext-edit div textarea {
   background: url(%%w-text%%) center no-repeat #FFF !important;
   border: 1px solid #000 !important;
@@ -777,17 +780,19 @@ div.commentarea .infobar {
   display: block;
   clear: both;
   margin-bottom: 10px; }
+  .comments-page .usertext-edit div textarea:focus {
+    background: #FFF !important;
+    opacity: 1;
+    border-color: #0078D6 !important; }
+
+.comments-page .link {
+  border-left: 1px solid #c6c6c6 !important; }
 
 #suggested-reddits,
 .submit-page .content h1,
 a[href*='#icon'] + .keyNavAnnotation,
 a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none; }
-
-.comments-page .usertext-edit div textarea:focus {
-  background: #FFF !important;
-  opacity: 1;
-  border-color: #0078D6 !important; }
 
 .commentarea .md {
   margin-bottom: 0; }
@@ -849,9 +854,6 @@ ul.tabmenu.formtab {
     font-weight: 400;
     margin: 10px 0 10px 10px; }
 
-.comments-page .link {
-  border-left: 1px solid #c6c6c6 !important; }
-
 ::selection {
   background-color: #0078D7;
   color: #fff; }
@@ -881,17 +883,6 @@ ul.tabmenu.formtab {
 
 #header #header-bottom-right #mail.havemail,
 #modmail.havemail {
-  animation: 1s ease-out 0s normal none infinite running pulsate;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-name: pulsate; }
-
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
   animation: 1s ease-out 0s normal none infinite running pulsate;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -951,9 +942,6 @@ a[href*="#tech"] {
 
 .panestack-title a.title-button.gold {
   color: #6a4d00 !important; }
-
-.linkflairlabel:hover {
-  opacity: 0.7; }
 
 .flairselector li:hover {
   background-color: transparent; }
@@ -2639,10 +2627,6 @@ html:lang(nh) .linkflair-help {
 .flairselector {
   background-color: #fff; }
 
-.linkflairlabel {
-  border-width: 3px;
-  border-radius: 1px; }
-
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
   border-color: #FF6138; }
@@ -2800,7 +2784,12 @@ html:lang(nh) .linkflair-help {
   color: #fff;
   font-weight: 400;
   font-size: 10px;
-  font-family: "Segoe UI", Arial, sans-serif; }
+  font-family: "Segoe UI", Arial, sans-serif;
+  pointer-events: none;
+  border-width: 3px;
+  border-radius: 1px; }
+  .linkflairlabel:hover {
+    opacity: 0.7; }
 
 .linkflair-discussion {
   border-left: 3px solid #ff9e00 !important;

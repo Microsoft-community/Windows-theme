@@ -22,7 +22,6 @@ $color-bg-light-hover: #f0f8ff;
 #header {
   height: 165px;
   background: $color-bg-main;
-  border-bottom: none !important;
   #header-bottom-right {
     #mail {
       &.havemail:active,
@@ -170,9 +169,9 @@ button {
   position: absolute;
   top: 30px;
   &:hover {
-  background: url(%%w-header%%) -5px -115px no-repeat!important;
-  text-decoration: none;
-}
+    background: url(%%w-header%%) -5px -115px no-repeat!important;
+    text-decoration: none;
+  }
 }
 
 #header-bottom-right {
@@ -329,20 +328,19 @@ button:active {
   color: $color-bg-main;
 }
 
-.link .domain a {
-  visibility: visible;
-  position: relative;
-  top: -1px;
-  color: #b1b1b1;
-  transition: all 0.15s ease;
+.link .domain {
+  visibility: hidden;
+  a {
+    visibility: visible;
+    position: relative;
+    top: -1px;
+    color: #b1b1b1;
+    transition: all 0.15s ease;
+  }
 }
 
 .domain {
   display: inline-block !important;
-}
-
-.link .domain {
-  visibility: hidden;
 }
 
 #siteTable_organic {
@@ -351,7 +349,7 @@ button:active {
   margin-top: -7px;
   left: -5px;
   border-left: 3px solid #ff4500;
-  border-right: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: none;
 }
 
@@ -384,6 +382,7 @@ button:active {
 }
 
 .flairoptionpane {
+  max-height: 304px;
   li,
   ul {
     min-width: 120px;
@@ -395,10 +394,6 @@ button:active {
   border-left: none !important;
   background: 0 0;
   width: 110px;
-}
-
-.flairoptionpane {
-  max-height: 304px;
 }
 
 .flairselector {
@@ -435,8 +430,17 @@ button:active {
 .side .usertext-body .md ol a {
   transition: background-color 0.5s;
 }
-
 .submit-page {
+  .roundfield {
+    padding: 16px;
+    width: 524px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    span.title {
+      color: #4d5763;
+      text-transform: capitalize;
+    }
+  }
   .submit.content#newlink .tabmenu.formtab {
     .selected a {
       font-size: 16px;
@@ -478,17 +482,6 @@ form .spacer+.spacer {
   margin: 0;
 }
 
-.submit-page .roundfield {
-  padding: 16px;
-  width: 524px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  span.title {
-    color: #4d5763;
-    text-transform: capitalize;
-  }
-}
-
 .content.submit .info-notice {
   background-color: #fff;
   border-radius: 2px;
@@ -496,22 +489,42 @@ form .spacer+.spacer {
   margin-bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
+
 //text expando animation
-.self .expanded ~ .expando .usertext-body {
-    -webkit-animation: 700ms expandy ease-in-out forwards;
-    animation: 700ms expandy ease-in-out forwards;
+.self .expanded~.expando .usertext-body {
+  -webkit-animation: 700ms expandy ease-in-out forwards;
+  animation: 700ms expandy ease-in-out forwards;
 }
+
 @-webkit-keyframes expandy {
-    0%   { -webkit-transform: translateY(-100px); opacity: 0; }
-    50%  { -webkit-transform: translateY(0); }
-    100% { -webkit-transform: translateY(0); opacity: 1; }
+  0% {
+    -webkit-transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
 }
+
 @keyframes expandy {
-    0%   { transform: translateY(-100px); opacity: 0; }
-    50%  { transform: translateY(0); }
-    100% { transform: translateY(0); opacity: 1; }
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
-//
+
+//expandos
 .expando-button {
   cursor: pointer;
   float: left;
@@ -794,6 +807,13 @@ body .linklisting {
 .link {
   border-left: 3px solid #fff;
   margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  &.last-clicked {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  }
+  .flair {
+    font-size: 1em;
+  }
 }
 
 .entry .buttons li a {
@@ -804,9 +824,6 @@ body .linklisting {
 .tagline,
 .search-result-meta {
   font-size: 1.145em;
-}
-.link .flair {
-    font-size: 1em;
 }
 
 #siteTable .thing {
@@ -901,19 +918,18 @@ body .linklisting {
   border-image-repeat: initial;
   overflow: hidden;
   margin: 0 18px 8px 0;
-}
-a.author {
-    margin-right: 0.3em;
-}
-.panestack-title a.title-button {
-  color: #fff !important;
+  .child,
+  .showreplies {
+    border-left: none;
+  }
 }
 
-.link {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-  &.last-clicked {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-  }
+a.author {
+  margin-right: 0.3em;
+}
+
+.panestack-title a.title-button {
+  color: #fff !important;
 }
 
 .thing.stickied a.title {
@@ -938,12 +954,6 @@ a.author {
 
 .entry .flat-list .approve-button a {
   color: #00a64f;
-}
-
-.comments-page .sitetable.nestedlisting>.thing.stickied {
-  margin-bottom: 30px !important;
-  border-bottom: solid 3px #00a64f !important;
-  background: rgba(0, 166, 79, 0.1) !important;
 }
 
 .tagline {
@@ -982,13 +992,6 @@ a.author {
   display: none;
 }
 
-.comment {
-  .child,
-  .showreplies {
-    border-left: none;
-  }
-}
-
 div.commentarea .infobar {
   color: #eee;
   background: $color-bg-main;
@@ -1003,6 +1006,26 @@ div.commentarea .infobar {
   background-color: transparent;
   border: none;
 }
+//comments page
+.comments-page .sitetable.nestedlisting>.thing.stickied {
+  margin-bottom: 30px !important;
+  border-bottom: solid 3px #00a64f !important;
+  background: rgba(0, 166, 79, 0.1) !important;
+}
+.comments-page .link {
+  &.linkflair-bug .flat-list a.flairselectbtn:after,
+  &.linkflair-help .flat-list a.flairselectbtn:after {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate;
+  }
+}
 
 .comments-page .usertext-edit div textarea {
   background: url(%%w-text%%) center no-repeat #FFF !important;
@@ -1013,6 +1036,14 @@ div.commentarea .infobar {
   display: block;
   clear: both;
   margin-bottom: 10px;
+  &:focus {
+    background: #FFF !important;
+    opacity: 1;
+    border-color: #0078D6 !important;
+  }
+}
+.comments-page .link {
+  border-left: 1px solid #c6c6c6 !important;
 }
 
 #suggested-reddits,
@@ -1020,12 +1051,6 @@ div.commentarea .infobar {
 a[href*='#icon']+.keyNavAnnotation,
 a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none;
-}
-
-.comments-page .usertext-edit div textarea:focus {
-  background: #FFF !important;
-  opacity: 1;
-  border-color: #0078D6 !important;
 }
 
 .commentarea .md {
@@ -1058,7 +1083,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   background-color: rgba(0, 120, 213, 0.3);
   width: 95%;
 }
-
+//wiki page
 .wiki-page .pageactions {
   border-radius: 0;
   border: 1px solid $color-bg-secondary;
@@ -1108,10 +1133,6 @@ ul.tabmenu.formtab {
   }
 }
 
-.comments-page .link {
-  border-left: 1px solid #c6c6c6 !important;
-}
-
  ::selection {
   background-color: $color-bg-secondary;
   color: #fff;
@@ -1154,21 +1175,6 @@ ul.tabmenu.formtab {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pulsate;
-}
-
-.comments-page .link {
-  &.linkflair-bug .flat-list a.flairselectbtn:after,
-  &.linkflair-help .flat-list a.flairselectbtn:after {
-    animation: 1s ease-out 0s normal none infinite running pulsate;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-name: pulsate;
-  }
 }
 
 .side {
@@ -1242,10 +1248,6 @@ a[href*="#tech"] {
 
 .panestack-title a.title-button.gold {
   color: #6a4d00 !important;
-}
-
-.linkflairlabel:hover {
-  opacity: 0.7;
 }
 
 .flairselector li:hover {
