@@ -1637,7 +1637,7 @@ div.commentarea .infobar p {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -115px -294px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #BF0426;
   float: left;
   border: 2px solid #fff; }
 
@@ -1665,11 +1665,11 @@ div.commentarea .infobar p {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -229px -77px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #BF0426;
   border: 2px solid #fff; }
 
 #modmail.havemail {
-  background: url(%%spritesheet%%) -229px -77px #ff4500 !important; }
+  background: url(%%spritesheet%%) -224px -72px #ff4500 !important; }
 
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
@@ -1689,11 +1689,11 @@ div.commentarea .infobar p {
   overflow: hidden;
   transition: background-color 0.5s; }
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) -5px -119px no-repeat #BF0426;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) -5px -119px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500; }
 
 .res #header #header-bottom-right #mail.havemail {
   background: url(%%spritesheet%%) -5px -119px no-repeat #ff4500; }
@@ -1702,7 +1702,7 @@ div.commentarea .infobar p {
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -132px -119px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1735,7 +1735,7 @@ div.commentarea .infobar p {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -132px -47px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
@@ -1758,7 +1758,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
   color: #fff;
-  background: url(%%spritesheet%%) -132px -47px no-repeat #ce352c; }
+  background: url(%%spritesheet%%) -127px -42px no-repeat #ce352c; }
 
 #openRESPrefs {
   position: absolute;
