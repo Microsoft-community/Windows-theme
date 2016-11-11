@@ -2630,6 +2630,9 @@ html:lang(nh) .linkflair-help {
 .flairselector {
   background-color: #fff; }
 
+.linkflairlabel {
+  pointer-events: none; }
+
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
   border-color: #FF6138; }
