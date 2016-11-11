@@ -967,7 +967,8 @@ a[href*="#tech"] {
   border-radius: 0;
   background-color: #30659B;
   border-left: 3px solid #ff4500;
-  margin: -7px 325px 7px -5px; }
+  margin: -7px 325px 7px -5px;
+  left: -5px; }
 
 #eu-cookie-policy .reddit-infobar a {
   color: #222 !important; }
