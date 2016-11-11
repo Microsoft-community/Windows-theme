@@ -1,0 +1,23 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-WindowsX {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+}
+
+.-w-glow {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -115px;
+}
+
+.-w-text {
+    width: 80px;
+    height: 80px;
+    background-position: -5px -225px;
+}

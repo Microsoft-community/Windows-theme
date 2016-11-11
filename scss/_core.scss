@@ -20,6 +20,7 @@ $color-bg-light-hover: #f0f8ff;
 #header {
   height: 165px;
   background: $color-bg-main;
+  border-bottom: none;
   #header-bottom-right {
     #mail {
       &.havemail:active,
@@ -349,6 +350,7 @@ button:active {
   border-left: 3px solid #ff4500;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: none;
+  border-top: none;
 }
 
 .organic-listing .link.promotedlink {

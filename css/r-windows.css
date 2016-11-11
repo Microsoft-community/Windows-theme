@@ -12,7 +12,8 @@ Secondary: #0078D7
 
 #header {
   height: 165px;
-  background: #BF0426; }
+  background: #BF0426;
+  border-bottom: none; }
   #header #header-bottom-right #mail.havemail:active, #header #header-bottom-right #mail.nohavemail:active {
     background-color: #1686f0 !important; }
   #header #header-bottom-right .choice:active,
@@ -267,7 +268,8 @@ button:active {
   left: -5px;
   border-left: 3px solid #ff4500;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: none; }
+  border-bottom: none;
+  border-top: none; }
 
 .organic-listing .link.promotedlink {
   margin-left: -1px; }
