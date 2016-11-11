@@ -991,10 +991,8 @@ a[href*="#tech"] {
     background: #7A0218; }
 
 .arrow.up:hover {
-  background-position: -63px 0;
   opacity: 0.6; }
 .arrow.down:hover {
-  background-position: -21px 0;
   opacity: 0.6; }
 
 .voteWeight {
