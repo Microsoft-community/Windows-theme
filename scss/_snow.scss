@@ -1,0 +1,47 @@
+ //colorscheme
+ $color-bg-main: #BF0426;
+ $color-bg-secondary: #7A0218;
+ //header snow
+ #header {
+     background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
+     -webkit-animation: snow 20s linear infinite;
+     -moz-animation: snow 20s linear infinite;
+     -ms-animation: snow 20s linear infinite;
+     animation: snow 20s linear infinite
+ }
+ 
+ @-webkit-keyframes snow {
+     0% {
+         background-position: 0 0, 0 0, 0 0
+     }
+     100% {
+         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     }
+ }
+ 
+ @-moz-keyframes snow {
+     0% {
+         background-position: 0 0, 0 0, 0 0
+     }
+     100% {
+         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     }
+ }
+ 
+ @-ms-keyframes snow {
+     0% {
+         background-position: 0 0, 0 0, 0 0
+     }
+     100% {
+         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     }
+ }
+ 
+ @keyframes snow {
+     0% {
+         background-position: 0 0, 0 0, 0 0
+     }
+     100% {
+         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     }
+ }
