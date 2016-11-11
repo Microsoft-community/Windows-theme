@@ -5,12 +5,15 @@ Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #0057A6
 Secondary: #0078D7
+Christmas
+Main color: #BF0426
+Secondary: #7A0218
 */
 
 $font-main: Lato;
 $font-light: "Segoe UI Light", sans-serif;
-$color-bg-main: #BF0426;
-$color-bg-secondary: #7A0218;
+$color-bg-main: #0057A6;
+$color-bg-secondary: #0078D7;
 $color-bg-light-hover: #f0f8ff;
 #header .hover a:hover,
 .redditname a:hover:after {
@@ -159,20 +162,7 @@ button {
   outline: 0;
 }
 
-#header .redditname a {
-  font-size: 0;
-  background: url(%%w-header%%) -5px -5px no-repeat;
-  margin-left: 10px;
-  height: 100px;
-  display: block;
-  position: absolute;
-  top: 30px;
-  &:hover {
-    background: url(%%w-header%%) -5px -115px no-repeat!important;
-    text-decoration: none;
-  }
-}
-//wincore?
+
 #header-bottom-right {
   #modmail,
   .user {
@@ -530,7 +520,6 @@ form .spacer+.spacer {
   float: left;
   height: 28px;
   width: 30px;
-  background: center center no-repeat #fff;
   &.selftext {
     &.collapsed,
     &.expanded {
@@ -1029,7 +1018,7 @@ div.commentarea .infobar {
 }
 
 .comments-page .usertext-edit div textarea {
-  background: url(%%w-text%%) center no-repeat #FFF !important;
+  background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
   border: 1px solid #000 !important;
   opacity: .8;
   margin-top: 5px;
@@ -1157,7 +1146,7 @@ ul.tabmenu.formtab {
 #baconBit {
   width: 394px !important;
   height: 304px !important;
-  background-image: url(%%ninjacat%%) !important;
+  background-image: url(%%res-easter-egg%%) no-repeat !important;
   transition: all 10s linear !important;
   -webkit-transition: all 10s linear !important;
   -moz-transition: all 10s linear !important;

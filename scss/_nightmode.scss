@@ -33,13 +33,16 @@
     }
     .arrow {
         &.upmod {
-            background-position: -63px 0 !important;
+            background-position: -296px -60px !important;
         }
         &.down {
-            background-position: 0 0 !important;
+            background-position: -321px -60px !important;
         }
         &.up {
-            background-position: -42px 0 !important;
+            background-position: -289px -194px !important;
+        }
+        &.downmod {
+           background-position: -271px -60px !important;
         }
     }
     #header {
@@ -880,4 +883,76 @@ html[lang^=nm] .date time {
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
     background: #393939 !important;
+}
+//nightmode icons
+//threads
+.res-nightmode, html[lang^=nm] {
+    body>.content #siteTable .thing.self .thumbnail {
+        background-position: -77px -5px;
+    }
+    body>.content #siteTable .thing .thumbnail.default {
+    background-position: -174px -77px;
+}
+//sidebar icons
+div.side span.subscribers span.number:before {
+background-position: -162px -5px;
+}
+a[href*='#icon-day']::before {
+    display: none;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+    background: url(%%spritesheet%%) -85px -294px;
+  }
+a[href*="#icon-chat"]::before {
+        background-image: url(%%wincore-2%%);
+background-position: -5px -405px;
+}
+a[href*="#icon-feedback"]::before {
+background-position: -47px -149px;
+}
+a[href*="#icon-feedback2"]::before {
+background-position: -5px -375px;
+}
+a[href*="#iconz-tips"]::before {
+background-position: -234px -47px;
+}
+a[href*="#iconz-updates"]::before {
+background-position: -259px -119px;
+}
+a[href*="#iconz-faq"]::before {
+background-position: -174px -47px;
+}
+a[href*="#iconz-install"]::before {
+background-position: -259px -119px;
+}
+a[href*="#iconz-wiki"]::before {
+background-position: -204px -149px;
+}
+//res expandos
+.expando-button.selftext.collapsed {
+    background-position: -5px -242px;
+    &:hover {
+background-position: -225px -204px;
+    }
+}
+.expando-button.selftext.expanded {
+     background-position: -65px -204px;
+    &:hover {
+background-position: -105px -204px;
+    }
+}
+.expando-button.video.collapsed {
+    background-position: -85px -242px;
+    &:hover {
+background-position: -45px -242px;
+    }
+}
+.expando-button.video.expanded {
+    background-position: -65px -204px;
+    &:hover {
+background-position: -105px -204px;
+    }
+}
 }
