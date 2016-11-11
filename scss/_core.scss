@@ -8,11 +8,9 @@ Secondary: #0078D7
 */
 
 $font-main: Lato;
-$font-light: "Segoe UI Light",
-LatoLight,
-serif;
-$color-bg-main: #0057A6;
-$color-bg-secondary: #0078D7;
+$font-light: "Segoe UI Light", sans-serif;
+$color-bg-main: #BF0426;
+$color-bg-secondary: #7A0218;
 $color-bg-light-hover: #f0f8ff;
 #header .hover a:hover,
 .redditname a:hover:after {
@@ -244,7 +242,7 @@ button:active {
     padding: 0;
     margin: 0;
     display: block;
-    background: url(%%w-ham%%) 10px 4px no-repeat;
+    background: url(%%spritesheet%%) -225px -252px no-repeat;
     line-height: 35px;
     text-indent: -999em;
   }
@@ -534,48 +532,48 @@ form .spacer+.spacer {
   &.selftext {
     &.collapsed,
     &.expanded {
-      background-image: url(%%r-askr%%);
+      background-image: url(%%spritesheet%%);
       background-repeat: no-repeat;
       &:hover {
-        background-image: url(%%r-askr%%);
+        background-image: url(%%spritesheet%%);
         background-repeat: no-repeat;
       }
     }
     &.collapsed {
-      background-position: -141px -79px;
+      background-position: -195px -256px;
       &:hover {
-        background-position: -139px -107px;
+        background-position: -155px -256px;
       }
     }
     &.expanded {
-      background-position: -98px -26px;
+      background-position: -265px -218px;
       &:hover {
-        background-position: 0 -54px;
+        background-position: -305px -218px;
       }
     }
   }
   &.video {
     &.collapsed {
-      background-image: url(%%r-askr%%) !important;
+      background-image: url(%%spritesheet%%) !important;
       &:hover {
-        background-image: url(%%r-askr%%) !important;
+        background-image: url(%%spritesheet%%) !important;
       }
     }
     &.expanded {
-      background-image: url(%%r-askr%%) !important;
+      background-image: url(%%spritesheet%%) !important;
     }
     &.collapsed {
-      background-position: -16px -135px;
+      background-position: -301px -256px;
       &:hover {
-        background-position: -46px -135px;
+        background-position: -261px -256px;
       }
     }
     &.expanded {
-      background-position: -98px -26px;
+      background-position: -265px -218px;
       &:hover {
-        background-image: url(%%r-askr%%);
+        background-image: url(%%spritesheet%%);
         background-repeat: no-repeat;
-        background-position: 0 -54px;
+        background-position: -305px -218px;
       }
     }
   }
@@ -593,75 +591,75 @@ form .spacer+.spacer {
 // high dpi spaghetios
 @media only screen and (min-resolution: 2dppx),
 only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .expando-button {
-    cursor: pointer;
-    float: left;
-    height: 28px;
-    width: 30px;
-    background: center center no-repeat #fff;
-    background-size: 171px !important;
-    &.selftext {
-      &.collapsed,
-      &.expanded {
-        background-image: url(%%r-askr%%);
+.expando-button {
+  cursor: pointer;
+  float: left;
+  height: 28px;
+  width: 30px;
+  background: center center no-repeat #fff;
+  background-size: 341px 331px!important;
+  &.selftext {
+    &.collapsed,
+    &.expanded {
+      background-image: url(%%spritesheet%%);
+      background-repeat: no-repeat;
+      &:hover {
+        background-image: url(%%spritesheet%%);
         background-repeat: no-repeat;
-        &:hover {
-          background-image: url(%%r-askr%%);
-          background-repeat: no-repeat;
-        }
-      }
-      &.collapsed {
-        background-position: -141px -79px;
-        &:hover {
-          background-position: -139px -107px;
-        }
-      }
-      &.expanded {
-        background-position: -98px -26px;
-        &:hover {
-          background-position: 0 -54px;
-        }
       }
     }
-    &.video {
-      &.collapsed {
-        background-image: url(%%r-askr%%) !important;
-        &:hover {
-          background-image: url(%%r-askr%%) !important;
-        }
-      }
-      &.expanded {
-        background-image: url(%%r-askr%%) !important;
-      }
-      &.collapsed {
-        background-position: -16px -135px;
-        &:hover {
-          background-position: -46px -135px;
-        }
-      }
-      &.expanded {
-        background-position: -98px -26px;
-        &:hover {
-          background-image: url(%%r-askr%%);
-          background-repeat: no-repeat;
-          background-position: 0 -54px;
-        }
+    &.collapsed {
+      background-position: -195px -256px;
+      &:hover {
+        background-position: -155px -256px;
       }
     }
-    &.image {
-      cursor: pointer;
-      display: inline-block;
-      height: 28px !important;
-      margin-right: 11px;
-      padding: 0;
-      vertical-align: top !important;
-      width: 30px !important;
+    &.expanded {
+      background-position: -265px -218px;
+      &:hover {
+        background-position: -305px -218px;
+      }
     }
   }
+  &.video {
+    &.collapsed {
+      background-image: url(%%spritesheet%%) !important;
+      &:hover {
+        background-image: url(%%spritesheet%%) !important;
+      }
+    }
+    &.expanded {
+      background-image: url(%%spritesheet%%) !important;
+    }
+    &.collapsed {
+      background-position: -301px -256px;
+      &:hover {
+        background-position: -261px -256px;
+      }
+    }
+    &.expanded {
+      background-position: -265px -218px;
+      &:hover {
+        background-image: url(%%spritesheet%%);
+        background-repeat: no-repeat;
+        background-position: -305px -218px;
+      }
+    }
+  }
+  &.image {
+    cursor: pointer;
+    display: inline-block;
+    height: 28px !important;
+    margin-right: 11px;
+    padding: 0;
+    vertical-align: top !important;
+    width: 30px !important;
+  }
+}
   body>.content #siteTable .thing.self .thumbnail {
-    background-image: url(%%w-threads%%);
-    background-position: -5px -5px;
-    background-size: 110px;
+    background-image: url(%%spritesheet%%);
+    background-position: -289px -139px;
+    background-size: 341px 331px;
   }
 }
 
@@ -673,22 +671,22 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
 
 body>.content #siteTable .thing {
   &.self .thumbnail {
-    background-image: url(%%w-threads%%);
+    background-image: url(%%spritesheet%%);
     width: 45px;
     height: 45px;
     margin: 10px 15px 10px 10px;
     background-repeat: no-repeat !important;
-    background-position: -5px -5px;
+    background-position: -289px -139px;
   }
   &.stickied .thumbnail {
-    background-image: url(%%w-threads%%);
+    background-image: url(%%spritesheet%%);
     background-repeat: no-repeat !important;
-    background-position: -60px -5px;
+    background-position: -289px -84px;
     margin-right: 15px;
   }
   .thumbnail.default,
   &.over18 .thumbnail {
-    background-image: url(%%w-threads%%) !important;
+    background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     margin: 10px 15px 10px 10px;
     width: 45px;
@@ -699,10 +697,11 @@ body>.content #siteTable .thing {
     font-weight: 400;
   }
   &.over18 .thumbnail {
-    background-position: -5px -60px !important;
+    background-position: -286px -5px !important;
   }
   .thumbnail.default {
-    background-position: -60px -60px !important;
+    background-position: -47px -77px;
+    background-size: 341px 331px;
   }
 }
 
@@ -778,21 +777,21 @@ a[href*="#icon-more"] {
 }
 
 .arrow {
-  background-image: url(%%w-upvotes%%) !important;
+  background-image: url(%%spritesheet%%) !important;
   background-position: center center;
   outline: 0 !important;
   border: none !important;
   &.up {
-    background-position: -42px 0;
+    background-position: -289px -194px;
   }
   &.upmod {
-    background-position: -63px 0;
+    background-position: -296px -60px;
   }
   &.down {
-    background-position: 0 0;
+    background-position: -321px -60px;
   }
   &.downmod {
-    background-position: -21px 0;
+    background-position: -271px -60px;
   }
 }
 

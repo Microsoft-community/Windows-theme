@@ -1,0 +1,347 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-Attention-32 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.-Bright-Moon {
+    width: 20px;
+    height: 20px;
+    background-position: -47px -5px;
+}
+
+.-Chat-45-_1_ {
+    width: 45px;
+    height: 45px;
+    background-position: -77px -5px;
+}
+
+.-Collaboration-20 {
+    width: 20px;
+    height: 20px;
+    background-position: -132px -5px;
+}
+
+.-Conference-Call-20 {
+    width: 20px;
+    height: 20px;
+    background-position: -162px -5px;
+}
+
+.-Conference-Call-20-_1_ {
+    width: 20px;
+    height: 20px;
+    background-position: -192px -5px;
+}
+
+.-Discord-Logo-32 {
+    width: 32px;
+    height: 32px;
+    background-position: -222px -5px;
+}
+
+.-Error-32 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -47px;
+}
+
+.-Exit {
+    width: 32px;
+    height: 32px;
+    background-position: -132px -47px;
+}
+
+.-Help {
+    width: 20px;
+    height: 20px;
+    background-position: -47px -47px;
+}
+
+.-Help-w {
+    width: 20px;
+    height: 20px;
+    background-position: -174px -47px;
+}
+
+.-Info {
+    width: 20px;
+    height: 20px;
+    background-position: -204px -47px;
+}
+
+.-Info-w {
+    width: 20px;
+    height: 20px;
+    background-position: -234px -47px;
+}
+
+.-Link {
+    width: 45px;
+    height: 45px;
+    background-position: -47px -77px;
+}
+
+.-Link-45-_1_ {
+    width: 45px;
+    height: 45px;
+    background-position: -174px -77px;
+}
+
+.-Maintenance {
+    width: 32px;
+    height: 32px;
+    background-position: -229px -77px;
+}
+
+.-Message {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -119px;
+}
+
+.-RES-Arrow-12 {
+    width: 12px;
+    height: 12px;
+    background-position: -264px -5px;
+}
+
+.-Restart {
+    width: 20px;
+    height: 20px;
+    background-position: -102px -77px;
+}
+
+.-Restart-w {
+    width: 20px;
+    height: 20px;
+    background-position: -102px -119px;
+}
+
+.-Settings {
+    width: 32px;
+    height: 32px;
+    background-position: -132px -119px;
+}
+
+.-Software-Installer {
+    width: 20px;
+    height: 20px;
+    background-position: -229px -119px;
+}
+
+.-Software-Installer-w {
+    width: 20px;
+    height: 20px;
+    background-position: -259px -119px;
+}
+
+.-Talk-Male-20 {
+    width: 20px;
+    height: 20px;
+    background-position: -47px -149px;
+}
+
+.-Test-Tube {
+    width: 32px;
+    height: 32px;
+    background-position: -77px -149px;
+}
+
+.-User-Groups {
+    width: 20px;
+    height: 20px;
+    background-position: -174px -149px;
+}
+
+.-User-Groups-w {
+    width: 20px;
+    height: 20px;
+    background-position: -204px -149px;
+}
+
+.-Windows-Insiders {
+    width: 45px;
+    height: 45px;
+    background-position: -234px -149px;
+}
+
+.-chat {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -204px;
+}
+
+.-feedback {
+    width: 20px;
+    height: 20px;
+    background-position: -35px -204px;
+}
+
+.-n-collapse {
+    width: 30px;
+    height: 28px;
+    background-position: -65px -204px;
+}
+
+.-n-expand {
+    width: 30px;
+    height: 28px;
+    background-position: -105px -204px;
+}
+
+.-n-pic {
+    width: 30px;
+    height: 28px;
+    background-position: -145px -204px;
+}
+
+.-n-pic2 {
+    width: 30px;
+    height: 28px;
+    background-position: -185px -204px;
+}
+
+.-n-text {
+    width: 30px;
+    height: 28px;
+    background-position: -225px -204px;
+}
+
+.-n-text2 {
+    width: 30px;
+    height: 28px;
+    background-position: -5px -242px;
+}
+
+.-n-vid {
+    width: 30px;
+    height: 28px;
+    background-position: -45px -242px;
+}
+
+.-n-vid2 {
+    width: 30px;
+    height: 28px;
+    background-position: -85px -242px;
+}
+
+.-nightmode {
+    width: 20px;
+    height: 20px;
+    background-position: -125px -242px;
+}
+
+.-nsfw {
+    width: 45px;
+    height: 45px;
+    background-position: -286px -5px;
+}
+
+.-s-down {
+    width: 15px;
+    height: 14px;
+    background-position: -271px -60px;
+}
+
+.-s-up {
+    width: 15px;
+    height: 14px;
+    background-position: -296px -60px;
+}
+
+.-stickied {
+    width: 45px;
+    height: 45px;
+    background-position: -289px -84px;
+}
+
+.-thread {
+    width: 45px;
+    height: 45px;
+    background-position: -289px -139px;
+}
+
+.-u-down {
+    width: 15px;
+    height: 14px;
+    background-position: -321px -60px;
+}
+
+.-u-up {
+    width: 15px;
+    height: 14px;
+    background-position: -289px -194px;
+}
+
+.-w-collapse {
+    width: 30px;
+    height: 28px;
+    background-position: -265px -218px;
+}
+
+.-w-expand {
+    width: 30px;
+    height: 28px;
+    background-position: -305px -218px;
+}
+
+.-w-expandol {
+    width: 30px;
+    height: 28px;
+    background-position: -155px -256px;
+}
+
+.-w-expandou {
+    width: 30px;
+    height: 28px;
+    background-position: -195px -256px;
+}
+
+.-w-ham {
+    width: 16px;
+    height: 16px;
+    background-position: -235px -256px;
+}
+
+.-w-medial {
+    width: 30px;
+    height: 28px;
+    background-position: -261px -256px;
+}
+
+.-w-mediau {
+    width: 30px;
+    height: 28px;
+    background-position: -301px -256px;
+}
+
+.-w-pic {
+    width: 30px;
+    height: 28px;
+    background-position: -5px -294px;
+}
+
+.-w-pic2 {
+    width: 30px;
+    height: 28px;
+    background-position: -45px -294px;
+}
+
+.-w-sun {
+    width: 20px;
+    height: 20px;
+    background-position: -85px -294px;
+}
+
+.-xontacts {
+    width: 32px;
+    height: 32px;
+    background-position: -115px -294px;
+}

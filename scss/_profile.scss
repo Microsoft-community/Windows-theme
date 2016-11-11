@@ -20,7 +20,7 @@
         font-size: 13px;
         color: #eaeaea;
         line-height: 170%;
-        background: url(%%profilestuff%%) 0 -168px no-repeat $color-bg-main;
+        background: url(%%spritesheet%%) -115px -294px no-repeat $color-bg-main;
         float: left;
         border: 2px solid #fff;
     }
@@ -57,13 +57,13 @@
         top: 3px;
         padding-left: 26px;
         padding-top: 5px;
-        background: url(%%profilestuff%%) 0 -42px no-repeat $color-bg-main;
+        background: url(%%spritesheet%%) -229px -77px no-repeat $color-bg-main;
         border: 2px solid #fff;
     }
 }
 
 #modmail.havemail {
-    background: url(%%profilestuff%%) 0 -42px #ff4500 !important;
+    background: url(%%spritesheet%%) -229px -77px #ff4500 !important;
 }
 
 #header #header-bottom-right {
@@ -89,18 +89,18 @@
     }
     #mail {
         &.nohavemail {
-            background: url(%%profilestuff%%) 0 -84px no-repeat $color-bg-main;
+            background: url(%%spritesheet%%) -5px -119px no-repeat $color-bg-main;
             border-radius: 1px;
             border: 2px solid #fff;
         }
         &.havemail {
-            background: url(%%profilestuff%%) 0 -84px no-repeat #ff4500;
+            background: url(%%spritesheet%%) -5px -119px no-repeat #ff4500;
         }
     }
 }
 
 .res #header #header-bottom-right #mail.havemail {
-    background: url(%%profilestuff%%) 0 -84px no-repeat #ff4500;
+    background: url(%%spritesheet%%) -5px -119px no-repeat #ff4500;
 }
 
 #header #header-bottom-right {
@@ -109,7 +109,7 @@
         border: 2px solid #fff;
     }
     .choice {
-        background: url(%%profilestuff%%) 0 -126px no-repeat $color-bg-main;
+        background: url(%%spritesheet%%) -132px -119px no-repeat $color-bg-main;
         border-radius: 1px;
         border: 2px solid #fff;
     }
@@ -124,9 +124,9 @@
         color: transparent !important;
         background-color: $color-bg-main;
         background-size: 32px !important;
-        background-image: url(%%beta-flask%%) !important;
+        background-image: url(%%spritesheet%%) !important;
         background-repeat: no-repeat !important;
-        background-position: center center;
+        background-position: -77px -149px;
         width: 42px;
         height: 42px;
         border-radius: 1px;
@@ -150,7 +150,7 @@
 
 #header #header-bottom-right {
     .logout a {
-        background: url(%%profilestuff%%) no-repeat $color-bg-main;
+        background: url(%%spritesheet%%) -132px -47px no-repeat $color-bg-main;
         border-radius: 1px;
         border: 2px solid #fff;
     }
@@ -186,7 +186,7 @@
     .logout a:hover {
         text-indent: -99999px;
         color: #fff;
-        background: url(%%profilestuff%%) no-repeat #ce352c;
+        background: url(%%spritesheet%%) -132px -47px no-repeat #ce352c;
     }
 }
 
@@ -224,5 +224,5 @@
     float: right;
     margin-right: 7px;
     margin-top: 0;
-    background: url(%%w-icons%%) -5px -91px no-repeat !important;
+    background: url(%%spritesheet%%) -264px -5px no-repeat !important;
 }

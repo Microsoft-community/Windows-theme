@@ -150,7 +150,7 @@ div.side {
         span {
             vertical-align: middle;
             &.number:before {
-                background: url(%%w-subs%%);
+                background: url(%%spritesheet%%) -192px -5px;
                 display: block;
                 float: left;
                 width: 20px;
@@ -690,6 +690,7 @@ div.commentarea .infobar p {
     color: #E54661;
     margin-left: 27px;
 }
+
 .sidecontentbox {
     a.helplink {
         float: none;

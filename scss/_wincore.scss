@@ -630,7 +630,7 @@ a[href*="#tech"] {
   z-index: 9999;
   font-size: 13px;
   line-height: 49px;
-  background: url(%%discord%%) 6px 26px no-repeat $color-bg-secondary;
+  background: url(%%spritesheet%%) -222px -5px no-repeat $color-bg-secondary;
   color: #fff;
   padding-left: 24px;
   border: 2px solid #006cc1;
@@ -721,13 +721,13 @@ a {
     text-decoration: none;
   }
   &[href*='#icon-chat']::before {
-    background: url(%%w-icons%%) -5px -5px;
+    background: url(%%spritesheet%%) -5px -204px;
   }
   &[href*='#icon-feedback']::before {
-    background: url(%%w-icons%%) -5px -35px;
+    background: url(%%spritesheet%%) -35px -204px;
   }
   &[href*='#icon-night']::before {
-    background: url(%%w-newicons%%) -35px -5px;
+    background: url(%%spritesheet%%) -125px -242px;
   }
   &[href*='#icon-day']::before {
     display: none;
@@ -738,7 +738,7 @@ a {
     background: url(%%w-sun%%);
   }
   &[href*='#icon-feedback2']::before {
-    background: url(%%w-newicons%%) -5px -5px;
+    background: url(%%spritesheet%%) -132px -5px;
   }
   &[href*="#icon-more"] {
     text-align: center;
@@ -764,25 +764,25 @@ a {
     text-decoration: none;
   }
   &[href*='#iconz-tips']::before {
-    background: url(%%r-icons%%) -5px -35px;
+    background: url(%%spritesheet%%) -204px -47px;
   }
   &[href*='#iconz-faq']::before {
-    background: url(%%r-icons%%) -5px -5px;
+    background: url(%%spritesheet%%) -47px -47px;
   }
   &[href*='#iconz-updates']::before {
-    background: url(%%r-icons%%) -5px -65px;
+    background: url(%%spritesheet%%) -102px -77px;
   }
   &[href*='#iconz-install']::before {
-    background: url(%%r-icons%%) -5px -95px;
+    background: url(%%spritesheet%%) -229px -119px;
   }
   &[href*='#iconz-wiki']::before {
-    background: url(%%r-icons%%) -5px -125px;
+    background: url(%%spritesheet%%) -174px -149px;
   }
 }
 
 //Gabe instead of empty win blog icon
 .link a.thumbnail[href*="blogs.windows.com"] {
-  background: url(%%g-aul%%) 0 no-repeat !important;
+  background: url(%%spritesheet%%) -234px -149px no-repeat !important;
   width: 45px;
   height: 45px;
   margin: 10px;
