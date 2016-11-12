@@ -33,6 +33,7 @@
                 }
             }
         }
+        div.titlebox h1,
         h1,
         h2,
         h3,
@@ -255,20 +256,6 @@ div.side {
     margin-right: 5px !important;
 }
 
-.sidecontentbox .title h1 {
-    pointer-events: none;
-}
-
-div.titlebox .md {
-    h2,
-    h4 {
-        pointer-events: none;
-        a {
-            pointer-events: none;
-        }
-    }
-}
-
 .search-page .side .spacer {
     margin: 10px 0;
 }
@@ -442,7 +429,6 @@ div.titlebox {
 #searchexpando {
     padding: 10px;
     border: 1px solid #d7ecff;
-    border-left: 5px solid #d7ecff; //???
     border-right: 1px solid #d7ecff;
     background-color: #fff;
     color: #000;
@@ -451,7 +437,7 @@ div.titlebox {
     font-weight: 400;
     margin: 0 5px 0 0;
     width: 273px !important;
-    border-left: 1px solid #d7ecff; //???
+    border-left: 1px solid #d7ecff;
 }
 
 #search input[type=text] {
@@ -464,7 +450,6 @@ div.titlebox {
     background-color: $color-bg-main;
     padding: 10px;
     font-weight: 400;
-    cursor: pointer;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: -10px;
@@ -494,7 +479,7 @@ div.titlebox {
             background-color: $color-bg-main;
             padding: 10px;
             font-weight: 400;
-            cursor: pointer;
+            cursor: default;
             margin-top: 0;
             margin-bottom: 0;
             margin-left: -10px;
@@ -505,7 +490,6 @@ div.titlebox {
         background-color: $color-bg-main;
         padding: 10px;
         font-weight: 400;
-        cursor: pointer;
         margin-top: 0;
         margin-bottom: 0;
         margin-left: -10px;

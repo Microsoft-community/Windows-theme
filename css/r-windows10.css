@@ -1050,6 +1050,7 @@ span.clear-input-button {
       font-size: 1.1em; }
       .side .md p a:first-child {
         margin-left: 0; }
+  .side .md div.titlebox h1,
   .side .md h1,
   .side .md h2,
   .side .md h3,
@@ -1057,6 +1058,7 @@ span.clear-input-button {
     color: #fff;
     font-size: 13px;
     font-weight: 400; }
+    .side .md div.titlebox h1:after,
     .side .md h1:after,
     .side .md h2:after,
     .side .md h3:after,
@@ -1069,6 +1071,7 @@ span.clear-input-button {
       border-style: solid;
       content: "";
       margin-left: -24px; }
+    .side .md div.titlebox h1 a,
     .side .md h1 a,
     .side .md h2 a,
     .side .md h3 a,
@@ -1231,16 +1234,6 @@ div.side div.tagline {
   border-right: 1px solid #d7ecff;
   margin-right: 5px !important; }
 
-.sidecontentbox .title h1 {
-  pointer-events: none; }
-
-div.titlebox .md h2,
-div.titlebox .md h4 {
-  pointer-events: none; }
-  div.titlebox .md h2 a,
-  div.titlebox .md h4 a {
-    pointer-events: none; }
-
 .search-page .side .spacer {
   margin: 10px 0; }
 
@@ -1364,7 +1357,6 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 #searchexpando {
   padding: 10px;
   border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
   border-right: 1px solid #d7ecff;
   background-color: #fff;
   color: #000;
@@ -1384,7 +1376,6 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   background-color: #0057A6;
   padding: 10px;
   font-weight: 400;
-  cursor: pointer;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
@@ -1409,7 +1400,7 @@ div.titlebox .md h4 {
   background-color: #0057A6;
   padding: 10px;
   font-weight: 400;
-  cursor: pointer;
+  cursor: default;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
@@ -1418,7 +1409,6 @@ div.titlebox h1 {
   background-color: #0057A6;
   padding: 10px;
   font-weight: 400;
-  cursor: pointer;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px;
@@ -1635,9 +1625,7 @@ div.commentarea .infobar p {
 
 #beta-help,
 .beta-hint a {
-  position: absolute !important;
-  background-size: 341px 331px;
-  background-position: -72px -143px; }
+  position: absolute !important; }
 
 #header-bottom-right .user > a {
   text-indent: 4px;
@@ -1708,10 +1696,10 @@ div.commentarea .infobar p {
     left: -78px;
     color: transparent !important;
     background-color: #0057A6;
-    background-size: 32px !important;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
-    background-position: -77px -149px;
+    background-size: 341px 331px !important;
+    background-position: -72px -143px !important;
     width: 42px;
     height: 42px;
     border-radius: 1px;
