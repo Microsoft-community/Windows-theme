@@ -957,7 +957,7 @@ a[href*="#tech"] {
   border-radius: 0;
   background-color: #30659B;
   border-left: 3px solid #ff4500;
-  margin: -7px 325px 7px -5px;
+  margin: -7px 325px 7px 0px;
   left: -5px; }
 
 #eu-cookie-policy .reddit-infobar a {
@@ -1050,7 +1050,6 @@ span.clear-input-button {
       font-size: 1.1em; }
       .side .md p a:first-child {
         margin-left: 0; }
-  .side .md div.titlebox h1,
   .side .md h1,
   .side .md h2,
   .side .md h3,
@@ -1058,7 +1057,6 @@ span.clear-input-button {
     color: #fff;
     font-size: 13px;
     font-weight: 400; }
-    .side .md div.titlebox h1:after,
     .side .md h1:after,
     .side .md h2:after,
     .side .md h3:after,
@@ -1071,7 +1069,6 @@ span.clear-input-button {
       border-style: solid;
       content: "";
       margin-left: -24px; }
-    .side .md div.titlebox h1 a,
     .side .md h1 a,
     .side .md h2 a,
     .side .md h3 a,
@@ -1113,6 +1110,16 @@ span.clear-input-button {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+
+.titlebox h1:after {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-color: transparent #d7ecff transparent transparent;
+  border-width: 10px;
+  border-style: solid;
+  content: "";
+  margin-left: -24px; }
 
 div.side div.tagline {
   padding: 10px;

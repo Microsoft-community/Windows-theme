@@ -33,7 +33,6 @@
                 }
             }
         }
-        div.titlebox h1,
         h1,
         h2,
         h3,
@@ -102,7 +101,16 @@
         padding: 0;
     }
 }
-
+.titlebox h1:after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-color: transparent #d7ecff transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    content: "";
+    margin-left: -24px;
+}
 div.side {
     div {
         &.tagline {
