@@ -1,0 +1,29 @@
+@import 'core',
+'side',
+'profile',
+'stickies',
+'nightmode',
+'RES',
+'footer';
+
+
+.titlebox h1 a, .pagename a {
+    color: #fff;
+}
+#header-bottom-left .tabmenu {
+    padding-left: 52px;
+}
+.pagename {
+    margin: 0 15px 0 0;
+    display: inline-block;
+    font-size: 70px;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-transform: capitalize;
+    font-family: "Segoe UI",sans-serif;
+    bottom: 69px;
+    position: absolute;
+    left: 10px;
+}
