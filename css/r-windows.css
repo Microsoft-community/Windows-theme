@@ -3264,4 +3264,39 @@ a[href*='#iconz-wiki']::before {
   margin-left: 5px;
   color: #0057A6; }
 
+/* mod tools */
+/*
+
+    Mod tools reason leaver
+    ===================
+
+    Valid Tokens:
+    =============
+    {subreddit} - The subreddit the post/comment was posted to.
+    {author} - The author of the link/comment
+    {kind} - The type of post, either 'submission' or 'comment'
+    {mod} - The name of the mod removing the post (you)
+    {title} - The title of the submission
+    {url} - url to the removed post
+
+    * These tokens will be replaced with the relavent info when the message is sent.
+    * When the reason is sent via PM, a link to the removed post is added to the bottom of the message.
+
+<removereasons>
+
+    <reason> Spam - Removed </reason>
+
+</removereasons>
+*/
+.flair-jansmall:before {
+  content: "";
+  width: 17px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(%%jansmall%%);
+  background-position: -0px -0px;
+  vertical-align: middle;
+  margin-right: 2px; }
+
 /*# sourceMappingURL=r-windows.css.map */
