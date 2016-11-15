@@ -94,15 +94,8 @@ html:lang(nh) {
   }
 }
 
-.linkflairlabel:lang(nf) {
-  display: none;
-}
-
 .flairselector {
   background-color: #fff;
-}
-.linkflairlabel {
-    pointer-events: none;
 }
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
@@ -230,37 +223,6 @@ html:lang(nh) {
     color: #fff;
     margin: 3px;
   }
-}
-
-.sidecontentbox .flair-mod {
-  display: none;
-}
-
-.flair-mod {
-  margin: 0 0 0 -10px;
-  padding: 0 5px 0 11px;
-  color: #00a64f;
-}
-
-.flair-msft {
-  height: 16px;
-  line-height: 16px;
-  color: $color-bg-secondary;
-  padding: 0;
-}
-
-.flair-special {
-  margin: 0 4px 4px 0;
-  padding: 0 11px 1px;
-  border-width: 1px;
-  border-radius: 1px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #008a00;
-  border-color: #008a00;
-}
-
-.side a {
   &[href*='#official'] {
     background: #2086bf;
   }
@@ -319,6 +281,55 @@ html:lang(nh) {
   &[href*='#hidehelp'] {
     background: #E42608;
   }
+    &[href*='#update']:hover,
+  &[href*='#official']:hover,
+  &[href*='#news']:hover,
+  &[href*='#help']:hover,
+  &[href*='#solved']:hover,
+  &[href*='#unresolved']:hover,
+  &[href*='#bug']:hover,
+  &[href*='#feature']:hover,
+  &[href*='#discussion']:hover,
+  &[href*='#hardware']:hover,
+  &[href*='#tip']:hover,
+  &[href*='#meta']:hover,
+  &[href*='#gaming']:hover,
+  &[href*='#app']:hover,
+  &[href*='#original%20content']:hover,
+  &[href*='#concept']:hover,
+  &[href*='#request']:hover,
+  &[href*='#question']:hover,
+  &[href='']:hover {
+    opacity: 0.8;
+  }
+}
+
+.sidecontentbox .flair-mod {
+  display: none;
+}
+
+.flair-mod {
+  margin: 0 0 0 -10px;
+  padding: 0 5px 0 11px;
+  color: #00a64f;
+}
+
+.flair-msft {
+  height: 16px;
+  line-height: 16px;
+  color: $color-bg-secondary;
+  padding: 0;
+}
+
+.flair-special {
+  margin: 0 4px 4px 0;
+  padding: 0 11px 1px;
+  border-width: 1px;
+  border-radius: 1px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #008a00;
+  border-color: #008a00;
 }
 
 .linkflairlabel {
@@ -332,9 +343,13 @@ html:lang(nh) {
   pointer-events: none;
   border-width: 3px;
   border-radius: 1px;
+  pointer-events: none;
   &:hover {
     opacity: 0.7;
   }
+  &:lang(nf) {
+  display: none;
+}
 }
 
 .linkflair-discussion {
@@ -359,30 +374,6 @@ html:lang(nh) {
 #header-img.default-header,
 a[href*="#icon-day"] {
   display: none;
-}
-
-.side a {
-  &[href*='#update']:hover,
-  &[href*='#official']:hover,
-  &[href*='#news']:hover,
-  &[href*='#help']:hover,
-  &[href*='#solved']:hover,
-  &[href*='#unresolved']:hover,
-  &[href*='#bug']:hover,
-  &[href*='#feature']:hover,
-  &[href*='#discussion']:hover,
-  &[href*='#hardware']:hover,
-  &[href*='#tip']:hover,
-  &[href*='#meta']:hover,
-  &[href*='#gaming']:hover,
-  &[href*='#app']:hover,
-  &[href*='#original%20content']:hover,
-  &[href*='#concept']:hover,
-  &[href*='#request']:hover,
-  &[href*='#question']:hover,
-  &[href='']:hover {
-    opacity: 0.8;
-  }
 }
 
 //sidebar filters
@@ -570,9 +561,6 @@ a {
       box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
     }
   }
-}
-
-a {
   &[href*="#Donsiders"] {
     background: #009e7e;
     &:hover {
@@ -582,30 +570,7 @@ a {
   &[href*="#btn"] {
     background: #0057a6;
   }
-}
-
-//2.sidebar buttons
-.side .md {
-  [href$="#butt"] {
-    display: inline-block !important;
-    font-size: 8pt;
-    border: 2px solid $color-bg-main;
-    padding: 9px 8px;
-    transition: background-color .5s;
-    text-align: center;
-    color: $color-bg-main;
-    &:hover {
-      background: $color-bg-main;
-      color: #fff;
-    }
-  }
-  >p:first-of-type {
-    display: none;
-  }
-}
-
-//3.sidebar flair content toggles
-a {
+  //3.sidebar flair content toggles
   &[href*="#square-showflairs"] {
     float: right;
     &::before {
@@ -629,69 +594,24 @@ a {
     }
   }
 }
-//depreciated
-//tech support widget
-.post-submitter.post-linkflair-help a[href*="#tech"] {
-  display: block;
-}
 
-a[href*="#tech"] {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  height: 63px;
-  width: 150px;
-  left: 20px;
-  z-index: 9999;
-  font-size: 13px;
-  line-height: 49px;
-  background: url(%%spritesheet%%) -222px -5px no-repeat $color-bg-secondary;
-  color: #fff;
-  padding-left: 24px;
-  border: 2px solid #006cc1;
-  opacity: .8;
-  transition: opacity .5s;
-  -webkit-animation: widget 1s forwards;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-delay: 5s;
-  animation: widget 1s forwards;
-  animation-iteration-count: 1;
-  animation-delay: 10s;
-  &:hover {
-    color: #fff;
-    opacity: 1;
+//2.sidebar buttons
+.side .md {
+  [href$="#butt"] {
+    display: inline-block !important;
+    font-size: 8pt;
+    border: 2px solid $color-bg-main;
+    padding: 9px 8px;
+    transition: background-color .5s;
+    text-align: center;
+    color: $color-bg-main;
+    &:hover {
+      background: $color-bg-main;
+      color: #fff;
+    }
   }
-  &:before {
-    background: #006cc1;
-    display: block;
-    height: 20px;
-    width: 174px;
-    position: relative;
-    content: "Voluntary live tech support";
-    line-height: 18px;
-    text-align: left;
-    text-indent: 10px;
-    left: -24px;
-  }
-}
-
-@-webkit-keyframes widget {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    left: -9999px;
-  }
-}
-
-@keyframes widget {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    left: -9999px;
+  >p:first-of-type {
+    display: none;
   }
 }
 

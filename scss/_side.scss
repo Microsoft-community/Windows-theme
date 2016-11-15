@@ -100,6 +100,47 @@
         margin: 0;
         padding: 0;
     }
+     .subscribe-button .add {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate;
+  }
+}
+//pulse anim
+@-webkit-keyframes pulsate {
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes pulsate {
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulsate {
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 .titlebox h1:after {
     display: block;

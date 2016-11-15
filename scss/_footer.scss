@@ -1,17 +1,29 @@
 .footer {
   border-bottom: 1px solid $color-bg-main;
+  padding: 0;
+  border-left: 1px solid $color-bg-main;
   &::after {
     border-bottom: 1px solid $color-bg-main;
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by /u/Jaskys";
+    font-size: 16px;
+    font-family: "Segoe UI", arial, sans-serif;
+    border-top: 34px solid $color-bg-main; //jumpy
+    border-right: 1px solid $color-bg-main;
+    margin-bottom: -1.1px;
+    width: 90px;
   }
-}
-.footer {
   div.col {
     position: relative;
     margin: 0;
     padding: 0;
     width: 176px;
     height: auto;
-    font-family: "Segoe UI", arial,sans-serif;
+    font-family: "Segoe UI", arial, sans-serif;
     .title {
       font-size: 16px;
       font-weight: 700;
@@ -35,40 +47,22 @@
   p.bottommenu {
     font-weight: 700;
     color: #FFF;
+    clear: left;
+    padding: 6px;
     a {
       font-weight: 700;
       color: #FFF;
     }
-    clear: left;
-    padding: 6px;
+  }
+  .col {
+    border-left: none !important;
   }
 }
 
 .debuginfo {
   background: #F6F6F6;
 }
+
 .rounded {
   border-radius: 0;
-}
-
-.footer {
-  padding: 0;
-  border-left: 1px solid $color-bg-main;
-  .col {
-    border-left: none !important;
-  }
-  &::after {
-    display: block;
-    margin-top: 0;
-    padding: 10px;
-    padding-top: 8px !important;
-    color: #000;
-    content: "Designed by /u/Jaskys";
-    font-size: 16px;
-    font-family: "Segoe UI", arial,sans-serif;
-    border-top: 34px solid $color-bg-main; //jumpy
-    border-right: 1px solid $color-bg-main;
-    margin-bottom: -1.1px;
-    width: 90px;
-  }
 }
