@@ -2502,7 +2502,8 @@ html[lang^=nm] .date:after {
 .res-nightmode .date span,
 html[lang^=nm] .date span {
   border-left: 5px solid #393939 !important;
-  color: #ddd; }
+  color: #ddd;
+  border-right-color: #393939; }
 
 .res-nightmode .date time,
 html[lang^=nm] .date time {
