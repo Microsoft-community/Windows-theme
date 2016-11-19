@@ -11,18 +11,13 @@ Secondary: #7A0218
 */
 
 $font-main: "Segoe UI",
-sans-serif; //???
+sans-serif;
 $font-light: "Segoe UI Light",
 sans-serif;
 $color-bg-main: #0057A6;
 $color-bg-secondary: #0078D7;
 $color-side-accent: #000;
 $color-bg-light-hover: #f0f8ff;
-#header .hover a:hover,
-.redditname a:hover:after {
-  color: #fff !important;
-}
-
 #header {
   height: 165px;
   background: $color-bg-main;
@@ -44,6 +39,23 @@ $color-bg-light-hover: #f0f8ff;
   [href$="/ads/"] {
     display: none !important;
   }
+  #header-bottom-right #mail.havemail,
+  #modmail.havemail {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate;
+  }
+}
+
+#header .hover a:hover,
+.redditname a:hover:after {
+  color: #fff !important;
 }
 
 #header-bottom-left {
@@ -59,7 +71,7 @@ $color-bg-light-hover: #f0f8ff;
     left: 0;
     transition: .2s;
     padding-left: 111px;
-    font-family: "Segoe UI", sans-serif;
+    font-family: $font-main;
     li {
       font-weight: 400;
       margin: 0;
@@ -68,6 +80,7 @@ $color-bg-light-hover: #f0f8ff;
         color: #fff;
         opacity: .7;
         font-size: 11.4px;
+        //odd font???
         font-family: Helvetica;
         line-height: 30px;
         padding: 8px 9px 6px;
@@ -91,6 +104,21 @@ $color-bg-light-hover: #f0f8ff;
         border-bottom: 3px solid #fff !important;
       }
     }
+  }
+}
+
+#header-bottom-right {
+  #modmail,
+  .user {
+    height: 37px;
+    white-space: nowrap;
+    border-radius: 1px;
+    overflow: hidden;
+    transition: background-color 0.5s;
+  }
+  #modmail:active,
+  .user:active {
+    background-color: #1686f0 !important;
   }
 }
 
@@ -130,7 +158,7 @@ $color-bg-light-hover: #f0f8ff;
   }
   a {
     color: #c4c4c4;
-    font-family: Arial, sans-serif;
+    font-family: $font-main;
   }
   .srdrop.dropdown {
     width: 35px;
@@ -184,7 +212,7 @@ $color-bg-light-hover: #f0f8ff;
   background: 0 0;
   transition: background-color .5s;
   text-transform: capitalize;
-  font-family: "Segoe UI", sans-serif;
+  font-family: $font-main;
   border: 1px solid #5cb85c;
   color: #5cb85c;
   padding: 0.25rem 0.75rem;
@@ -201,14 +229,11 @@ button {
     background: 0 0;
     transition: background-color .5s;
     text-transform: capitalize;
-    font-family: "Segoe UI", sans-serif;
+    font-family: $font-main;
     border: 1px solid #5cb85c;
     color: #5cb85c;
     padding: 0.25rem 0.75rem;
   }
-}
-
-button {
   &.save:hover,
   &.submit-action-thing:hover,
   &.submit-report:hover {
@@ -223,7 +248,7 @@ button {
     color: #d9534f;
     padding: .25rem .75rem;
     text-transform: capitalize;
-    font-family: "Segoe UI", sans-serif;
+    font-family: $font-main;
     transition: background-color 0.5s;
   }
   &.cancel-action-thing:hover,
@@ -246,21 +271,6 @@ button {
     border: none;
     color: #fff;
     outline: 0;
-  }
-}
-
-#header-bottom-right {
-  #modmail,
-  .user {
-    height: 37px;
-    white-space: nowrap;
-    border-radius: 1px;
-    overflow: hidden;
-    transition: background-color 0.5s;
-  }
-  #modmail:active,
-  .user:active {
-    background-color: #1686f0 !important;
   }
 }
 
@@ -447,7 +457,7 @@ button:active {
       font-size: 14px;
       content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
       color: #fff;
-      font-family: "Segoe UI", sans-serif;
+      font-family: $font-main;
     }
   }
   #newlink.submit.content .btn {
@@ -701,7 +711,7 @@ body>.content #siteTable .thing {
 .link .title,
 .submit-page #newlink.submit.content .btn,
 a[href*="#icon-more"] {
-  font-family: "Segoe UI", sans-serif;
+  font-family: $font-main;
 }
 
 .link {
@@ -1136,6 +1146,7 @@ ul.tabmenu.formtab {
   border-right: 1px solid #d7ecff;
 }
 
+//verify RES !important usage ???
 #baconBit {
   width: 394px !important;
   height: 304px !important;
@@ -1145,19 +1156,6 @@ ul.tabmenu.formtab {
   -moz-transition: all 10s linear !important;
   -o-transition: all 10s linear !important;
   -ms-transition: all 10s linear !important;
-}
-
-#header #header-bottom-right #mail.havemail,
-#modmail.havemail {
-  animation: 1s ease-out 0s normal none infinite running pulsate;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-name: pulsate;
 }
 
 .sheets .col textarea {
@@ -1170,7 +1168,7 @@ ul.tabmenu.formtab {
 
 .gadget .right a,
 a[href*="#tech"] {
-  font-family: "Segoe UI", sans-serif;
+  font-family: $font-main;
   text-align: center;
 }
 

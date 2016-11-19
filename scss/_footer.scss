@@ -11,7 +11,7 @@
     color: #000;
     content: "Designed by /u/Jaskys";
     font-size: 16px;
-    font-family: "Segoe UI", arial, sans-serif;
+    font-family: $font-main;
     border-top: 34px solid $color-bg-main; //jumpy
     border-right: 1px solid $color-bg-main;
     margin-bottom: -1.1px;
@@ -23,7 +23,7 @@
     padding: 0;
     width: 176px;
     height: auto;
-    font-family: "Segoe UI", arial, sans-serif;
+    font-family: $font-main;
     .title {
       font-size: 16px;
       font-weight: 700;
