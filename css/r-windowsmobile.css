@@ -1501,7 +1501,7 @@ div.commentarea .infobar p {
 .date span,
 .date time {
   color: #494949;
-  font-size: 8pt; }
+  font-size: 9pt; }
 .date:after {
   display: block;
   position: absolute;
@@ -1515,7 +1515,7 @@ div.commentarea .infobar p {
 .date time {
   position: absolute;
   top: 257px;
-  right: 94px; }
+  right: 68px; }
 
 .totalvotes {
   display: block;
