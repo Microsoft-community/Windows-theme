@@ -1065,19 +1065,19 @@ span.clear-input-button {
 
 @-webkit-keyframes pulsate {
   0%,
-  100% {
+    100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
 @-moz-keyframes pulsate {
   0%,
-  100% {
+    100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
 @keyframes pulsate {
   0%,
-  100% {
+    100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
@@ -1431,7 +1431,7 @@ div.titlebox .md h3 + ul {
   overflow: hidden;
   max-height: 0; }
 
-@media (max-width: 720px) {
+@media (max-width: 880px) {
   .side {
     display: none; }
 
@@ -1449,7 +1449,10 @@ div.titlebox .md h3 + ul {
 
   #header-bottom-left .tabmenu {
     width: calc(100% - 50px);
-    padding-left: 50px; } }
+    padding-left: 50px; }
+
+  #siteTable_organic {
+    margin-right: -5px; } }
 div.commentarea .infobar p {
   background: #0078D7;
   padding: 10px;
@@ -2186,6 +2189,8 @@ html[lang^=nm] #siteTable .thing {
 html[lang^=nm] .comments-page .link {
   border-left-color: transparent !important;
   border-bottom: 1px solid rgba(57, 57, 57, 0.47); }
+html[lang^=nm] .comments-page .usertext-edit div textarea {
+  color: #222; }
 html[lang^=nm] .link {
   border-left-color: transparent;
   border-bottom: 1px solid rgba(57, 57, 57, 0.47); }
@@ -2507,51 +2512,71 @@ html[lang^=nm] .date time {
 html[lang^=nm] .link.last-clicked {
   background: #393939 !important; }
 
-.res-nightmode body > .content #siteTable .thing.self .thumbnail, html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
+.res-nightmode body > .content #siteTable .thing.self .thumbnail,
+html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
   background-position: -77px -5px; }
-.res-nightmode body > .content #siteTable .thing .thumbnail.default, html[lang^=nm] body > .content #siteTable .thing .thumbnail.default {
+.res-nightmode body > .content #siteTable .thing .thumbnail.default,
+html[lang^=nm] body > .content #siteTable .thing .thumbnail.default {
   background-position: -174px -77px; }
-.res-nightmode div.side span.subscribers span.number:before, html[lang^=nm] div.side span.subscribers span.number:before {
+.res-nightmode div.side span.subscribers span.number:before,
+html[lang^=nm] div.side span.subscribers span.number:before {
   background-position: -162px -5px; }
-.res-nightmode a[href*='#icon-day']::before, html[lang^=nm] a[href*='#icon-day']::before {
+.res-nightmode a[href*='#icon-day']::before,
+html[lang^=nm] a[href*='#icon-day']::before {
   display: none;
   height: 20px;
   width: 20px;
   content: '';
   margin: 0 7px -4px 0;
   background: url(%%spritesheet%%) -85px -294px; }
-.res-nightmode a[href*="#icon-chat"]::before, html[lang^=nm] a[href*="#icon-chat"]::before {
+.res-nightmode a[href*="#icon-chat"]::before,
+html[lang^=nm] a[href*="#icon-chat"]::before {
   background-image: url(%%wincore-2%%);
   background-position: -5px -405px; }
-.res-nightmode a[href*="#icon-feedback"]::before, html[lang^=nm] a[href*="#icon-feedback"]::before {
+.res-nightmode a[href*="#icon-feedback"]::before,
+html[lang^=nm] a[href*="#icon-feedback"]::before {
   background-position: -47px -149px; }
-.res-nightmode a[href*="#icon-feedback2"]::before, html[lang^=nm] a[href*="#icon-feedback2"]::before {
+.res-nightmode a[href*="#icon-feedback2"]::before,
+html[lang^=nm] a[href*="#icon-feedback2"]::before {
   background-position: -5px -375px; }
-.res-nightmode a[href*="#iconz-tips"]::before, html[lang^=nm] a[href*="#iconz-tips"]::before {
+.res-nightmode a[href*="#iconz-tips"]::before,
+html[lang^=nm] a[href*="#iconz-tips"]::before {
   background-position: -234px -47px; }
-.res-nightmode a[href*="#iconz-updates"]::before, html[lang^=nm] a[href*="#iconz-updates"]::before {
+.res-nightmode a[href*="#iconz-updates"]::before,
+html[lang^=nm] a[href*="#iconz-updates"]::before {
   background-position: -259px -119px; }
-.res-nightmode a[href*="#iconz-faq"]::before, html[lang^=nm] a[href*="#iconz-faq"]::before {
+.res-nightmode a[href*="#iconz-faq"]::before,
+html[lang^=nm] a[href*="#iconz-faq"]::before {
   background-position: -174px -47px; }
-.res-nightmode a[href*="#iconz-install"]::before, html[lang^=nm] a[href*="#iconz-install"]::before {
+.res-nightmode a[href*="#iconz-install"]::before,
+html[lang^=nm] a[href*="#iconz-install"]::before {
   background-position: -259px -119px; }
-.res-nightmode a[href*="#iconz-wiki"]::before, html[lang^=nm] a[href*="#iconz-wiki"]::before {
+.res-nightmode a[href*="#iconz-wiki"]::before,
+html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
-.res-nightmode .expando-button.selftext.collapsed, html[lang^=nm] .expando-button.selftext.collapsed {
+.res-nightmode .expando-button.selftext.collapsed,
+html[lang^=nm] .expando-button.selftext.collapsed {
   background-position: -5px -242px; }
-  .res-nightmode .expando-button.selftext.collapsed:hover, html[lang^=nm] .expando-button.selftext.collapsed:hover {
+  .res-nightmode .expando-button.selftext.collapsed:hover,
+  html[lang^=nm] .expando-button.selftext.collapsed:hover {
     background-position: -225px -204px; }
-.res-nightmode .expando-button.selftext.expanded, html[lang^=nm] .expando-button.selftext.expanded {
+.res-nightmode .expando-button.selftext.expanded,
+html[lang^=nm] .expando-button.selftext.expanded {
   background-position: -65px -204px; }
-  .res-nightmode .expando-button.selftext.expanded:hover, html[lang^=nm] .expando-button.selftext.expanded:hover {
+  .res-nightmode .expando-button.selftext.expanded:hover,
+  html[lang^=nm] .expando-button.selftext.expanded:hover {
     background-position: -105px -204px; }
-.res-nightmode .expando-button.video.collapsed, html[lang^=nm] .expando-button.video.collapsed {
+.res-nightmode .expando-button.video.collapsed,
+html[lang^=nm] .expando-button.video.collapsed {
   background-position: -85px -242px; }
-  .res-nightmode .expando-button.video.collapsed:hover, html[lang^=nm] .expando-button.video.collapsed:hover {
+  .res-nightmode .expando-button.video.collapsed:hover,
+  html[lang^=nm] .expando-button.video.collapsed:hover {
     background-position: -45px -242px; }
-.res-nightmode .expando-button.video.expanded, html[lang^=nm] .expando-button.video.expanded {
+.res-nightmode .expando-button.video.expanded,
+html[lang^=nm] .expando-button.video.expanded {
   background-position: -65px -204px; }
-  .res-nightmode .expando-button.video.expanded:hover, html[lang^=nm] .expando-button.video.expanded:hover {
+  .res-nightmode .expando-button.video.expanded:hover,
+  html[lang^=nm] .expando-button.video.expanded:hover {
     background-position: -105px -204px; }
 
 .res .message-count,
