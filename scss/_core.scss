@@ -80,8 +80,7 @@ $color-bg-light-hover: #f0f8ff;
         color: #fff;
         opacity: .7;
         font-size: 11.4px;
-        //odd font???
-        font-family: Helvetica;
+        font-family: $font-main;
         line-height: 30px;
         padding: 8px 9px 6px;
         text-transform: uppercase;
