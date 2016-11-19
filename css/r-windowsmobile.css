@@ -2490,6 +2490,12 @@ html[lang^=nm] .date time {
   background: #222 !important;
   border-top: 1px solid rgba(57, 57, 57, 0.47) !important; }
 
+.res-nightmode a[href*="#Donsiders"],
+.res-nightmode a[href*="#btn"],
+html[lang^=nm] a[href*="#Donsiders"],
+html[lang^=nm] a[href*="#btn"] {
+  color: #fff; }
+
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
   border-color: transparent #393939 transparent transparent !important; }

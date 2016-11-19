@@ -865,6 +865,14 @@ html[lang^=nm] {
     }
 }
 
+.res-nightmode,
+html[lang^=nm] {
+    a[href*="#Donsiders"],
+    a[href*="#btn"] {
+        color: #fff;
+    }
+}
+
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
     border-color: transparent #393939 transparent transparent !important;
