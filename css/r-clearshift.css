@@ -716,13 +716,12 @@ a.author {
 
 .panestack-title {
   margin: 0 330px 0 -5px !important;
-  padding-bottom: 3px;
+  padding: 4px 0px;
   background: #0057A6;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
-    font-size: 10px;
-    font-weight: 400;
+    font-size: 1.3em;
     margin: 10px 0 10px 10px; }
   .panestack-title a.title-button {
     color: #fff !important; }
