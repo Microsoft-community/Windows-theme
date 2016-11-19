@@ -2364,8 +2364,6 @@ html[lang^=nm] #header #header-bottom-right #mail.havemail {
 html[lang^=nm] .tagline .likes {
   color: #0078D7 !important; }
 html[lang^=nm] ::-webkit-scrollbar {
-  width: 20x;
-  height: 20px;
   background-color: #393939; }
 html[lang^=nm] ::-webkit-scrollbar-thumb {
   background-color: #666;
