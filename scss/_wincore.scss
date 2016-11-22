@@ -11,6 +11,7 @@
     text-decoration: none;
   }
 }
+
 //flairs
 .flair-mod:before,
 .flair-msft:before {
@@ -86,6 +87,7 @@
     content: "- ";
   }
 }
+
 //flairs 
 html:lang(nh) {
   .linkflair-bug,
@@ -97,6 +99,7 @@ html:lang(nh) {
 .flairselector {
   background-color: #fff;
 }
+
 .linkflair-help .linkflairlabel {
   background-color: #FF6138;
   border-color: #FF6138;
@@ -281,7 +284,7 @@ html:lang(nh) {
   &[href*='#hidehelp'] {
     background: #E42608;
   }
-    &[href*='#update']:hover,
+  &[href*='#update']:hover,
   &[href*='#official']:hover,
   &[href*='#news']:hover,
   &[href*='#help']:hover,
@@ -309,7 +312,6 @@ html:lang(nh) {
 }
 
 .flair-mod {
-  margin: 0 0 0 -10px;
   color: #00a64f;
 }
 
@@ -347,8 +349,8 @@ html:lang(nh) {
     opacity: 0.7;
   }
   &:lang(nf) {
-  display: none;
-}
+    display: none;
+  }
 }
 
 .linkflair-discussion {
@@ -502,6 +504,7 @@ a {
     font-size: 11px;
   }
 }
+
 //res nightmode content highlight
 .res-nightmode .side .md blockquote,
 html[lang^=nm] .side .md blockquote {
@@ -513,6 +516,7 @@ html[lang^=nm] .side .md blockquote {
   background-color: #fcecd9;
   border-left-color: #f0ad4e;
 }
+
 //header filters section
 a[href$="WindowsMobile#2"] {
   position: absolute;
@@ -551,7 +555,6 @@ a {
     border-radius: 1px;
     &:hover {
       background: $color-bg-secondary;
-      color: #fff!important;
       -webkit-transform: translateY(-1px);
       -moz-transform: translateY(-1px);
       -ms-transform: translateY(-1px);

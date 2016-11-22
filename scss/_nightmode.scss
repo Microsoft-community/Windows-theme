@@ -1,3 +1,6 @@
+$nm-color-bg-main: #0057A6;
+$nm-color-bg-secondary: #0078D7;
+$nm-color-bg-light-hover: #f0f8ff;
 .res-nightmode {
     .comment .md {
         color: #ddd !important;
@@ -859,14 +862,6 @@ html[lang^=nm] {
     }
 }
 
-.res-nightmode,
-html[lang^=nm] {
-    a[href*="#Donsiders"],
-    a[href*="#btn"] {
-        color: #fff;
-    }
-}
-
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
     border-color: transparent #393939 transparent transparent !important;
@@ -889,6 +884,13 @@ html[lang^=nm] .link.last-clicked {
     background: #393939 !important;
 }
 
+.res-nightmode,
+html[lang^=nm] {
+    a[href*="#Donsiders"],
+    a[href*="#btn"] {
+        color: #fff!important;
+    }
+}
 //nightmode icons
 //threads
 .res-nightmode,

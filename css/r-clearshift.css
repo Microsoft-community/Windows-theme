@@ -1423,10 +1423,12 @@ div.titlebox h1 {
 
 div.titlebox .md h3 + ul {
   display: block;
-  -webkit-transition: .5s max-height ease-out;
-  transition: .8s max-height ease-out;
+  transition: 1.8s max-height ease-out;
   overflow: hidden;
   max-height: 0; }
+
+div.titlebox .md h3:hover + ul {
+  transition: .8s max-height ease-out; }
 
 @media (max-width: 880px) {
   .side {
@@ -2485,12 +2487,6 @@ html[lang^=nm] .date time {
   background: #222 !important;
   border-top: 1px solid rgba(57, 57, 57, 0.47) !important; }
 
-.res-nightmode a[href*="#Donsiders"],
-.res-nightmode a[href*="#btn"],
-html[lang^=nm] a[href*="#Donsiders"],
-html[lang^=nm] a[href*="#btn"] {
-  color: #fff; }
-
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
   border-color: transparent #393939 transparent transparent !important; }
@@ -2508,6 +2504,12 @@ html[lang^=nm] .date time {
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
   background: #393939 !important; }
+
+.res-nightmode a[href*="#Donsiders"],
+.res-nightmode a[href*="#btn"],
+html[lang^=nm] a[href*="#Donsiders"],
+html[lang^=nm] a[href*="#btn"] {
+  color: #fff !important; }
 
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
