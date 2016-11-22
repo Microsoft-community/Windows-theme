@@ -715,7 +715,7 @@ a.author {
   margin-right: 0.3em; }
 
 .panestack-title {
-  margin: 0 330px 0 -5px !important;
+  margin: 0 330px 0 -5px;
   padding: 4px 0px;
   background: #0057A6;
   color: #fff;
@@ -1451,7 +1451,10 @@ div.titlebox .md h3:hover + ul {
     padding-left: 50px; }
 
   #siteTable_organic {
-    margin-right: -5px; } }
+    margin-right: -5px; }
+
+  .panestack-title {
+    margin: 0 0px 0 -5px; } }
 div.commentarea .infobar p {
   background: #0078D7;
   padding: 10px;
