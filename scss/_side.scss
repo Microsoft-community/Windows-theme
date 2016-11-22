@@ -666,7 +666,7 @@ div.commentarea .infobar p {
         display: block;
         color: #fff !important;
         text-transform: none;
-        border-left: 5px solid $color-bg-secondary;
+        border-left: 5px solid #1992FF;
         background-color: $color-bg-main;
         padding: 10px;
         cursor: pointer;
@@ -674,6 +674,17 @@ div.commentarea .infobar p {
         margin-bottom: 6px;
         margin-left: -10px;
         font: 400 small verdana, arial, helvetica, sans-serif;
+    }
+    &:after {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border-color: transparent #d7ecff transparent transparent;
+        border-width: 10px;
+        border-style: solid;
+        content: "";
+        margin-left: -20px;
+        margin-top: -32px;
     }
     span {
         display: block;
@@ -688,17 +699,6 @@ div.commentarea .infobar p {
     time {
         color: #494949;
         font-size: 9pt;
-    }
-    &:after {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        border-color: transparent #d7ecff transparent transparent;
-        border-width: 10px;
-        border-style: solid;
-        content: "";
-        margin-left: -16px;
-        margin-top: -29px;
     }
     time {
         position: absolute;
