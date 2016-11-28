@@ -2513,6 +2513,9 @@ html[lang^=nm] .link.last-clicked {
 html[lang^=nm] a[href*="#Donsiders"],
 html[lang^=nm] a[href*="#btn"] {
   color: #fff !important; }
+.res-nightmode .comment,
+html[lang^=nm] .comment {
+  border: 1px solid #43474F; }
 
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
