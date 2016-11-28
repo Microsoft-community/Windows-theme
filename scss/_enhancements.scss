@@ -1,0 +1,59 @@
+$font-main: "Segoe UI",
+sans-serif;
+body {
+    background: #222;
+}
+
+a[href*="#flairy"] {
+    display: block!important;
+    position: fixed;
+    bottom: 30px;
+    height: 63px;
+    width: 190px;
+    left: 15px;
+    z-index: 9999;
+    font-size: 14px;
+    line-height: 49px;
+    font-family: $font-main;
+    background-image: url("http://b.thumbs.redditmedia.com/NiWu6Jv-SsXAmvYoRFXbIcwMyR92CcrC8fxu-Bon6Pg.png");
+    background-position: 6px 26px;
+    background-repeat: no-repeat;
+    background-color: #00a64f;
+    color: #fff;
+    text-align: center;
+    padding-left: 24px;
+    border: 2px solid #0d9605;
+    transition: opacity .5s;
+    text-decoration: none;
+    animation: toasty 500ms forwards;
+    animation-iteration-count: 1;
+    cursor: default;
+    &:before {
+        background: #0d9605;
+        display: block;
+        height: 20px;
+        width: 214px;
+        position: relative;
+        font-size: 13px;
+        content: "Subreddit notification";
+        line-height: 18px;
+        text-align: left;
+        text-indent: 10px;
+        left: -24px;
+    }
+    &:hover {
+        border-color: #2dad56;
+    }
+}
+
+@keyframes toasty {
+    0% {
+        transform: scale(0.3) rotateY(90deg);
+    }
+    60% {
+        transform: scale(1.4);
+    }
+    90% {
+        transform: scale(0.9);
+    }
+}
