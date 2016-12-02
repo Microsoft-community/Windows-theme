@@ -1756,6 +1756,64 @@ div.commentarea .infobar p {
   margin-top: 0;
   background: url(%%spritesheet%%) -264px -5px no-repeat !important; }
 
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+  display: block !important;
+  position: fixed;
+  bottom: 30px;
+  height: 63px;
+  width: 200px;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  line-height: 49px;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: #00a64f;
+  color: #fff;
+  text-align: center;
+  padding-left: 24px;
+  border: 2px solid #0d9605;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
+    background: #0d9605;
+    display: block;
+    height: 20px;
+    width: 224px;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    left: -24px;
+    color: #fff; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
+    content: "Click here to flair thread" !important;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    position: relative;
+    top: -50px; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
+    border-color: #2dad56; }
+
+.flairselector.drop-choices.active {
+  left: 40% !important;
+  top: 35% !important; }
+
+@keyframes toasty {
+  0% {
+    transform: scale(0.3) rotateY(90deg); }
+  60% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(0.9); } }
 .side .usertext-body .md ol {
   position: absolute;
   top: 30px;

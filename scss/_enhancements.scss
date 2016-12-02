@@ -1,21 +1,17 @@
-$font-main: "Segoe UI",
-sans-serif;
-body {
-    background: #222;
-}
+// for sidebar usage> [Please flair your thread](#flairy)
 
-a[href*="#flairy"] {
+.post-submitter .link:not(.linkflair) .flairselectbtn {
     display: block!important;
     position: fixed;
     bottom: 30px;
     height: 63px;
-    width: 190px;
+    width: 200px;
     left: 15px;
     z-index: 9999;
-    font-size: 14px;
+    font-size: 0px;
     line-height: 49px;
     font-family: $font-main;
-    background-image: url("http://b.thumbs.redditmedia.com/NiWu6Jv-SsXAmvYoRFXbIcwMyR92CcrC8fxu-Bon6Pg.png");
+    background-image: url(%%flairy%%);
     background-position: 6px 26px;
     background-repeat: no-repeat;
     background-color: #00a64f;
@@ -27,12 +23,12 @@ a[href*="#flairy"] {
     text-decoration: none;
     animation: toasty 500ms forwards;
     animation-iteration-count: 1;
-    cursor: default;
+    font-weight: normal;
     &:before {
         background: #0d9605;
         display: block;
         height: 20px;
-        width: 214px;
+        width: 224px;
         position: relative;
         font-size: 13px;
         content: "Subreddit notification";
@@ -40,12 +36,24 @@ a[href*="#flairy"] {
         text-align: left;
         text-indent: 10px;
         left: -24px;
+        color: #fff;
+    }
+    &:after {
+        content: "Click here to flair thread"!important;
+        font-size: 14px;
+        display: block;
+        color: #fff;
+        position: relative;
+        top: -50px;
     }
     &:hover {
         border-color: #2dad56;
     }
 }
-
+.flairselector.drop-choices.active {
+    left: 40%!important;
+    top: 35%!Important;
+ }
 @keyframes toasty {
     0% {
         transform: scale(0.3) rotateY(90deg);
@@ -57,3 +65,65 @@ a[href*="#flairy"] {
         transform: scale(0.9);
     }
 }
+
+//tech support widget
+// .post-submitter.post-linkflair-help a[href*="#tech"] {
+//   display: block;
+// }
+// a[href*="#tech"] {
+//   display: none;
+//   position: fixed;
+//   bottom: 30px;
+//   height: 63px;
+//   width: 150px;
+//   left: 20px;
+//   z-index: 9999;
+//   font-size: 13px;
+//   line-height: 49px;
+//   background: url(%%spritesheet%%) -222px -5px no-repeat $color-bg-secondary;
+//   color: #fff;
+//   padding-left: 24px;
+//   border: 2px solid #006cc1;
+//   opacity: .8;
+//   transition: opacity .5s;
+//   -webkit-animation: widget 1s forwards;
+//   -webkit-animation-iteration-count: 1;
+//   -webkit-animation-delay: 5s;
+//   animation: widget 1s forwards;
+//   animation-iteration-count: 1;
+//   animation-delay: 10s;
+//   &:hover {
+//     color: #fff;
+//     opacity: 1;
+//   }
+//   &:before {
+//     background: #006cc1;
+//     display: block;
+//     height: 20px;
+//     width: 174px;
+//     position: relative;
+//     content: "Voluntary live tech support";
+//     line-height: 18px;
+//     text-align: left;
+//     text-indent: 10px;
+//     left: -24px;
+//   }
+// }
+// @-webkit-keyframes widget {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     left: -9999px;
+//   }
+// }
+// @keyframes widget {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     left: -9999px;
+//   }
+// }
