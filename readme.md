@@ -4,5 +4,5 @@
 
 #Seasonal themes
 ##Christmas
-![Christmas theme](https://cloud.githubusercontent.com/assets/11031051/20227999/dd1b2c48-a857-11e6-9f05-27b214242da5.png)
+![Christmas theme](https://cloud.githubusercontent.com/assets/11031051/20848355/6c904b0a-b8da-11e6-8d2d-9d548698ff1e.png)
 ##April 1st
