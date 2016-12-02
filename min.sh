@@ -1,1 +1,1 @@
-sass --update --watch scss:css/minified --style compressed --scss
+sass --watch scss:css/minified --style compressed --scss

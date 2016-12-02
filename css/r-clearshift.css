@@ -11,7 +11,7 @@ Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #0057A6;
+  background: #BF0426;
   border-bottom: none; }
   #header #header-bottom-right #mail.havemail:active, #header #header-bottom-right #mail.nohavemail:active {
     background-color: #1686f0 !important; }
@@ -46,7 +46,7 @@ Secondary: #7A0218
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - 111px);
     position: absolute;
-    bottom: -1px;
+    bottom: 0;
     left: 0;
     transition: .2s;
     padding-left: 111px;
@@ -71,11 +71,11 @@ Secondary: #7A0218
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
         transition: opacity .3s;
-        background-color: #0078D7;
+        background-color: #7A0218;
         border: 0;
         color: #fff;
         opacity: 1;
-        padding-top: 8.6px;
+        padding-top: 7px;
         font-weight: 700;
         border-bottom: 3px solid #fff !important; }
 
@@ -201,11 +201,11 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #0078D7;
+  color: #7A0218;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #0078D7;
+    background: #7A0218;
     border: none;
     color: #fff;
     outline: 0; }
@@ -229,7 +229,7 @@ button:active {
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #0078D7;
+      background: #7A0218;
       color: #FFF !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -244,10 +244,10 @@ button:active {
 .tagline .score {
   font-weight: 700; }
 .tagline .likes {
-  color: #0057A6; }
+  color: #BF0426; }
 
 .entry .flat-list .reply-button a {
-  color: #0057A6; }
+  color: #BF0426; }
 
 .link .domain {
   visibility: hidden; }
@@ -275,13 +275,13 @@ button:active {
   margin-left: -1px; }
 
 .flairselector {
-  border: 1px solid #0057A6 !important; }
+  border: 1px solid #BF0426 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #0057A6 !important;
+    background: #BF0426 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -289,7 +289,7 @@ button:active {
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #0057A6;
+    border-top: solid 1px #BF0426;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     padding: 0 !important;
@@ -307,7 +307,7 @@ button:active {
     padding: 3px; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #0057A6 !important; }
+  color: #BF0426 !important; }
 
 #siteTable .thing,
 .nextprev a,
@@ -338,16 +338,16 @@ button:active {
     background-color: #e7e9f6; }
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #0057A6;
+  background-color: #BF0426;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #0078D7; }
+    background-color: #7A0218; }
 .submit-page .infobar {
   width: 525px;
   margin: -10px 0 0;
   padding: 16px;
   color: #fff;
-  background-color: #0057A6;
+  background-color: #BF0426;
   border-radius: 0 0 2px 2px;
   font-size: 0;
   border: 1px solid rgba(0, 0, 0, 0.1) !important; }
@@ -543,7 +543,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0 !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
   .link .title {
-    color: #0057A6;
+    color: #BF0426;
     padding: 0 !important; }
     .link .title:visited {
       color: #b1b1b1;
@@ -555,11 +555,11 @@ a[href*="#icon-more"] {
     margin-bottom: 2px;
     padding: 5px 5px 2px 0;
     border: 0;
-    border-left: 3px solid #0078D7 !important;
+    border-left: 3px solid #7A0218 !important;
     background: #f0f8ff !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
   .link .score.likes {
-    color: #0078D7; }
+    color: #7A0218; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -570,7 +570,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #0057A6;
+  background: #BF0426;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -596,7 +596,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #0057A6; }
+  color: #BF0426; }
 
 .rank,
 .titlebox .bottom {
@@ -643,7 +643,7 @@ body .linklisting {
   padding-bottom: 10px; }
 
 .listing-page .link:hover {
-  border-left-color: #0078D7 !important;
+  border-left-color: #7A0218 !important;
   background: #f0f8ff !important; }
 
 .entry .flat-list .report-button a,
@@ -656,11 +656,11 @@ body .linklisting {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #0057A6;
+      background-color: solid #BF0426;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #0057A6;
+  background-color: solid #BF0426;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -717,7 +717,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0px;
-  background: #0057A6;
+  background: #BF0426;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -752,10 +752,10 @@ a.author {
 .tagline .stickied-tagline {
   color: #00a64f; }
 .tagline a:hover {
-  color: #0078D7 !important; }
+  color: #7A0218 !important; }
 
 .gold-accent {
-  background-color: #0057A6;
+  background-color: #BF0426;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -764,13 +764,13 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #0057A6;
+  background: #BF0426;
   margin-left: 5px !important;
   display: none; }
 
 div.commentarea .infobar {
   color: #eee;
-  background: #0057A6;
+  background: #BF0426;
   border: none;
   display: flex; }
   div.commentarea .infobar a {
@@ -818,11 +818,11 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 .md {
   overflow: visible; }
   .md a {
-    color: #0057A6; }
+    color: #BF0426; }
   .md code {
     white-space: normal; }
   .md blockquote {
-    border-left: 2px solid #0078D7; }
+    border-left: 2px solid #7A0218; }
 
 .usertext.border .usertext-body {
   background-color: rgba(0, 120, 213, 0.3);
@@ -830,15 +830,15 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #0078D7; }
+  border: 1px solid #7A0218; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #0078D7 !important;
+      background-color: #7A0218 !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #0057A6; }
+    background-color: #BF0426; }
 
 .wiki-page .wiki-page-content .nextprev a {
   margin-bottom: 12px; }
@@ -847,11 +847,11 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::selection {
-  background-color: #0078D7;
+  background-color: #7A0218;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #0057A6; }
+  color: #BF0426; }
 
 .leavemoderator,
 .titlebox form.toggle {
@@ -919,7 +919,7 @@ a[href*="#tech"] {
 .gadget .midcol {
   margin-right: 9px; }
 .gadget .right a {
-  background: #0057A6;
+  background: #BF0426;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -928,7 +928,7 @@ a[href*="#tech"] {
   transition: background-color .5s;
   text-transform: capitalize; }
   .gadget .right a:hover {
-    background: #0078D7; }
+    background: #7A0218; }
 
 .voteWeight {
   display: none !important; }
@@ -943,22 +943,22 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #0057A6 !important;
+  background: #BF0426 !important;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #0078D7 !important; }
+    background: #7A0218 !important; }
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 #newlink-with-image-upload .file-upload-button {
-  background: #0057A6;
+  background: #BF0426;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
   margin: 6px -17px -17px !important;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #0078D7; }
+    background: #7A0218; }
 
 #ad_sponsorship {
   max-width: 295px; }
@@ -970,7 +970,7 @@ span.clear-input-button {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #0057A6;
+    color: #BF0426;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1159,8 +1159,8 @@ div.side div.tagline {
   border-top: none; }
 
 .morelink {
-  border: 1px solid #0057A6;
-  background: #0057A6;
+  border: 1px solid #BF0426;
+  background: #BF0426;
   width: 143px;
   margin-right: 5px;
   transition: background-color 0.5s; }
@@ -1172,11 +1172,11 @@ div.side div.tagline {
     font-size: 10.5pt; }
   .morelink:hover {
     color: #fff;
-    background: #0078D7;
-    border: 1px solid #0078D7; }
+    background: #7A0218;
+    border: 1px solid #7A0218; }
     .morelink:hover a {
       color: #fff;
-      border-color: #0078D7; }
+      border-color: #7A0218; }
   .morelink .nub {
     display: none; }
 
@@ -1230,7 +1230,7 @@ div.side div.tagline {
     text-transform: capitalize; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #0078D7; }
+  color: #7A0218; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1284,7 +1284,7 @@ div.titlebox .md ul li {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #0078D7;
+  background-color: #7A0218;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1294,14 +1294,14 @@ div.titlebox span.fancy-toggle-button a.active {
   margin: 0;
   border: none; }
 div.titlebox div.styleToggle {
-  background-color: #0057A6;
+  background-color: #BF0426;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #0057A6; }
+  background-color: #BF0426; }
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
@@ -1326,7 +1326,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #0078D7; }
+    color: #7A0218; }
 
 #searchexpando {
   padding: 10px;
@@ -1343,11 +1343,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #0057A6; }
+  border-color: #BF0426; }
 
 .sidecontentbox .title {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #BF0426;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1371,7 +1371,7 @@ div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #BF0426;
   padding: 10px;
   font-weight: 400;
   cursor: default;
@@ -1380,7 +1380,7 @@ div.titlebox .md h4 {
   margin-left: -10px; }
 div.titlebox h1 {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #BF0426;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1444,7 +1444,7 @@ div.titlebox .md h3:hover + ul {
     margin-right: 18px; }
 
   .footer {
-    border-right: 1px solid #0057A6; }
+    border-right: 1px solid #BF0426; }
 
   #header-bottom-left .tabmenu {
     width: calc(100% - 50px);
@@ -1456,7 +1456,7 @@ div.titlebox .md h3:hover + ul {
   .panestack-title {
     margin: 0 0px 0 -5px; } }
 div.commentarea .infobar p {
-  background: #0078D7;
+  background: #7A0218;
   padding: 10px;
   margin: -5px -5px -5px 10px; }
 
@@ -1488,7 +1488,7 @@ div.commentarea .infobar p {
   color: #fff !important;
   text-transform: none;
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #BF0426;
   padding: 10px;
   cursor: pointer;
   margin-top: 0;
@@ -1503,7 +1503,7 @@ div.commentarea .infobar p {
   border-width: 10px;
   border-style: solid;
   content: "";
-  margin-left: -20px;
+  margin-left: -19px;
   margin-top: -32px; }
 .date span {
   display: block;
@@ -1555,11 +1555,11 @@ div.commentarea .infobar p {
   text-align: center;
   display: block;
   color: #fff;
-  background: #0057A6;
+  background: #BF0426;
   box-sizing: border-box;
   margin-bottom: 10px; }
   .sidecontentbox a.helplink:hover {
-    background: #0078D7; }
+    background: #7A0218; }
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
   color: #fff; }
@@ -1573,10 +1573,10 @@ div.commentarea .infobar p {
 
 .account-activity-box {
   display: block !important;
-  background: #0057A6;
+  background: #BF0426;
   margin-right: 5px; }
   .account-activity-box:hover {
-    background: #0078D7; }
+    background: #7A0218; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1600,7 +1600,7 @@ div.commentarea .infobar p {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #BF0426;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1629,7 +1629,7 @@ div.commentarea .infobar p {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #BF0426;
   border: 2px solid #fff; }
 
 #modmail.havemail {
@@ -1638,7 +1638,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #0078D7; }
+  background-color: #7A0218; }
 #header #header-bottom-right .logout {
   display: inline-block; }
 #header #header-bottom-right #mail,
@@ -1653,7 +1653,7 @@ div.commentarea .infobar p {
   overflow: hidden;
   transition: background-color 0.5s; }
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #0057A6;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail {
@@ -1666,7 +1666,7 @@ div.commentarea .infobar p {
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1677,7 +1677,7 @@ div.commentarea .infobar p {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #0057A6;
+    background-color: #BF0426;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1699,7 +1699,7 @@ div.commentarea .infobar p {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
@@ -1718,7 +1718,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #0078D7; }
+  background-color: #7A0218; }
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
   color: #fff;
@@ -1738,7 +1738,7 @@ div.commentarea .infobar p {
   overflow: hidden; }
 
 .message-count {
-  background: #0078D7;
+  background: #7A0218;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -1819,7 +1819,7 @@ div.commentarea .infobar p {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #0057A6;
+    background-color: #BF0426;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -1866,7 +1866,7 @@ div.commentarea .infobar p {
 .side .usertext-body .md ol a[href$='#stickyg']:hover {
   opacity: 1; }
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #0057A6;
+  background-color: #BF0426;
   content: "Sticky";
   color: #fff; }
 .side .usertext-body .md ol a[href$='#stickyg'] {
@@ -1900,7 +1900,7 @@ div.commentarea .infobar p {
   opacity: .8;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #0057A6;
+    background-color: #BF0426;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -1911,7 +1911,7 @@ div.commentarea .infobar p {
   font-style: bold; }
 
 .md a:hover {
-  color: #0078D7; }
+  color: #7A0218; }
 
 .res-nightmode .comment .md {
   color: #ddd !important; }
@@ -2076,7 +2076,7 @@ div.commentarea .infobar p {
   border-left-color: transparent;
   border-bottom: 1px solid rgba(57, 57, 57, 0.47); }
   .res-nightmode .link .score.likes {
-    color: #0078D7; }
+    color: #7A0218; }
 .res-nightmode #siteTable .thing {
   background: #202020; }
 .res-nightmode .linklisting {
@@ -2131,9 +2131,9 @@ div.commentarea .infobar p {
   margin-bottom: 0;
   margin-top: 0; }
 .res-nightmode .side .spacer .titlebox .redditname {
-  border-left-color: #0078D7; }
+  border-left-color: #7A0218; }
 .res-nightmode .gold-accent {
-  background: #0057A6; }
+  background: #BF0426; }
 .res-nightmode .shortlink input {
   background: #393939;
   color: #ddd; }
@@ -2361,7 +2361,7 @@ html[lang^=nm] .sidecontentbox a.helplink:hover {
 html[lang^=nm] #header #header-bottom-right #mail.havemail {
   outline: 0; }
 html[lang^=nm] .tagline .likes {
-  color: #0078D7 !important; }
+  color: #7A0218 !important; }
 html[lang^=nm] ::-webkit-scrollbar {
   background-color: #393939; }
 html[lang^=nm] ::-webkit-scrollbar-thumb {
@@ -2376,7 +2376,7 @@ html[lang^=nm] ::-webkit-scrollbar-thumb {
 html[lang^=nm] ::-webkit-scrollbar-corner {
   color: #555; }
 html[lang^=nm] .tagline .submitter {
-  color: #0078D7 !important; }
+  color: #7A0218 !important; }
 html[lang^=nm] .formtabs-content .infobar {
   border-color: transparent !important; }
 html[lang^=nm] .infobar {
@@ -2393,7 +2393,7 @@ html[lang^=nm] .res .RES-keyNav-activeElement {
 html[lang^=nm] .res .commentarea .RES-keyNav-activeElement .md, html[lang^=nm] .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
   background-color: transparent !important; }
 html[lang^=nm] .md blockquote {
-  border-left: 2px solid #0078D7 !important;
+  border-left: 2px solid #7A0218 !important;
   color: #888 !important; }
 html[lang^=nm] span.score {
   color: #888 !important; }
@@ -2402,12 +2402,12 @@ html[lang^=nm] .buttons .comments.empty,
 html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
 html[lang^=nm] .entry .flat-list .report-button a,
 html[lang^=nm] .helplink ~ .content .author::after {
-  color: #0078D7 !important; }
+  color: #7A0218 !important; }
 html[lang^=nm] .md code {
   border: none !important;
   background-color: #393939 !important;
   border-radius: 0 !important;
-  border-left: 3px solid #0078D7 !important; }
+  border-left: 3px solid #7A0218 !important; }
 html[lang^=nm] .RES-keyNav-activeElement {
   background-color: #292929 !important; }
   html[lang^=nm] .RES-keyNav-activeElement .md-container {
@@ -2635,11 +2635,11 @@ html[lang^=nm] .expando-button.video.expanded {
   top: 3px; }
 
 .footer {
-  border-bottom: 1px solid #0057A6;
+  border-bottom: 1px solid #BF0426;
   padding: 0;
-  border-left: 1px solid #0057A6; }
+  border-left: 1px solid #BF0426; }
   .footer::after {
-    border-bottom: 1px solid #0057A6;
+    border-bottom: 1px solid #BF0426;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -2648,8 +2648,8 @@ html[lang^=nm] .expando-button.video.expanded {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", sans-serif;
-    border-top: 34px solid #0057A6;
-    border-right: 1px solid #0057A6;
+    border-top: 34px solid #BF0426;
+    border-right: 1px solid #BF0426;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -2664,7 +2664,7 @@ html[lang^=nm] .expando-button.video.expanded {
       font-weight: 700;
       padding: 8px;
       color: #fff;
-      background: #0057A6;
+      background: #BF0426;
       max-height: 18px; }
     .footer div.col a {
       display: block;
