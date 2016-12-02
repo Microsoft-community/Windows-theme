@@ -2103,7 +2103,8 @@ div.commentarea .infobar p {
   background-color: #393939 !important; }
 .res-nightmode .link {
   border-left-color: transparent;
-  border-bottom: 1px solid rgba(57, 57, 57, 0.47); }
+  border-bottom: 1px solid #2D2E32;
+  border-right: 1px solid #2D2E32; }
   .res-nightmode .link .score.likes {
     color: #7A0218; }
 .res-nightmode #siteTable .thing {
@@ -2224,7 +2225,8 @@ html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #222; }
 html[lang^=nm] .link {
   border-left-color: transparent;
-  border-bottom: 1px solid rgba(57, 57, 57, 0.47); }
+  border-bottom: 1px solid #2D2E32;
+  border-right: 1px solid #2D2E32; }
 html[lang^=nm] body {
   background: #1a1a1a !important; }
   html[lang^=nm] body:not(.res-nightmode) .linklisting {
