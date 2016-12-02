@@ -1077,8 +1077,13 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none;
 }
 
-.commentarea .md {
-  margin-bottom: 0;
+.commentarea {
+  .menuarea {
+    margin: 5px 310px 5px 5px;
+  }
+  .md {
+    margin-bottom: 0;
+  }
 }
 
 .md {

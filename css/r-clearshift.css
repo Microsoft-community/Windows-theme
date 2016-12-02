@@ -812,6 +812,8 @@ a[href*='#icon'] + .keyNavAnnotation,
 a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none; }
 
+.commentarea .menuarea {
+  margin: 5px 310px 5px 5px; }
 .commentarea .md {
   margin-bottom: 0; }
 
