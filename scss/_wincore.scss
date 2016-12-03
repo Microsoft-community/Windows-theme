@@ -17,19 +17,21 @@
 .flair-msft:before {
   content: "- ";
 }
-// .flair-msft::after {
-//     content: "Microsoft Employee";
-//     position: absolute;
-//     top: -0.7px;
-//     right: -1px;
-//     bottom: -1px;
-//     left: -1px;
-//     text-align: right;
-//     padding: .25em .5em;
-//     border: 3px solid #8bb9e2;
-//     opacity: 0.9;
-//     pointer-events: none;
-// }
+
+.flair-msft::after {
+  content: "Microsoft Employee";
+  position: absolute;
+  top: -0.7px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  text-align: right;
+  padding: .25em .5em;
+  border: 3px solid #8bb9e2;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
 //microsoft employees
 .author {
   &[href$=Adam-MSFT],
@@ -59,6 +61,7 @@
   &[href$=donaMSFT],
   &[href$=instyle7],
   &[href$=jenmsft],
+  &[href$=Sean_MSFT],
   &[href$=jeremy_msft],
   &[href$=johnwinkmsft],
   &[href$=josh_msft],
@@ -746,4 +749,3 @@ a {
 .subscriber .arrow.down {
   pointer-events: initial;
 }
-
