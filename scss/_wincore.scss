@@ -13,26 +13,45 @@
 }
 
 //flairs
-.flair-mod:before,
-.flair-msft:before {
-  content: "- ";
+.flair-mod,
+.flair-msft {
+  border: none;
+  background: 0 0;
+  font-weight: 700;
+  &:before {
+    content: "- ";
+  }
 }
 
-.flair-msft::after {
-  content: "Microsoft Employee";
-  position: absolute;
-  top: -0.7px;
-  right: -1px;
-  bottom: -1px;
-  left: -1px;
-  text-align: right;
-  padding: .25em .5em;
-  border: 3px solid #8bb9e2;
-  opacity: 0.9;
-  pointer-events: none;
+.sidecontentbox .flair-mod {
+  display: none;
+}
+
+.flair-mod {
+  color: #00a64f;
 }
 
 //microsoft employees
+.flair-msft {
+  height: 16px;
+  line-height: 16px;
+  color: $color-bg-secondary;
+  padding: 0;
+  &:after {
+    content: "Microsoft Employee";
+    position: absolute;
+    top: -0.7px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    text-align: right;
+    padding: .25em .5em;
+    border: 3px solid #8bb9e2;
+    opacity: 0.9;
+    pointer-events: none;
+  }
+}
+
 .author {
   &[href$=Adam-MSFT],
   &[href$=Dave_MSFT],
@@ -82,7 +101,7 @@
   &[href$=craigbarkhouse],
   &[href$=elvenharps],
   &[href$=nerdile] {
-    color: $color-bg-secondary;
+    color: $color-win;
     font-weight: 700;
   }
   &[href$=ildun] {
@@ -137,8 +156,8 @@ html:lang(nh) {
 }
 
 .linkflair-update .linkflairlabel {
-  background-color: $color-bg-secondary;
-  border-color: $color-bg-secondary;
+  background-color: $color-win;
+  border-color: $color-win;
 }
 
 .linkflair-feature .linkflairlabel {
@@ -206,13 +225,7 @@ html:lang(nh) {
   border-color: #00aba9;
 }
 
-.flair-mod,
-.flair-msft {
-  border: none;
-  background: 0 0;
-  font-weight: 700;
-}
-
+//sidebar flair filters
 .side a {
   &[href*='#update'],
   &[href*='#official'],
@@ -323,21 +336,6 @@ html:lang(nh) {
   }
 }
 
-.sidecontentbox .flair-mod {
-  display: none;
-}
-
-.flair-mod {
-  color: #00a64f;
-}
-
-.flair-msft {
-  height: 16px;
-  line-height: 16px;
-  color: $color-bg-secondary;
-  padding: 0;
-}
-
 .flair-special {
   margin: 0 4px 4px 0;
   padding: 0 11px 1px;
@@ -361,9 +359,6 @@ html:lang(nh) {
   border-width: 3px;
   border-radius: 1px;
   pointer-events: none;
-  &:hover {
-    opacity: 0.7;
-  }
   &:lang(nf) {
     display: none;
   }
@@ -516,6 +511,10 @@ a {
   font-size: 10px;
   margin: 0 5px 0 0;
   color: #222;
+  &:hover {
+    background-color: #fcecd9;
+    border-left-color: #f0ad4e;
+  }
   a {
     font-size: 11px;
   }
@@ -526,11 +525,6 @@ a {
 html[lang^=nm] .side .md blockquote {
   border-left: 5px solid #3B81FB !important;
   color: #ddd !important;
-}
-
-.side .md blockquote:hover {
-  background-color: #fcecd9;
-  border-left-color: #f0ad4e;
 }
 
 //header filters section
@@ -635,18 +629,15 @@ a {
 
 //solved flairs
 .comments-page .link {
-  &.linkflair-bug .flat-list a.flairselectbtn:after {
-    content: "- flair your thread as Solved once your problem is resolved";
+  &.linkflair-bug .flat-list a.flairselectbtn:after,
+  &.linkflair-help .flat-list a.flairselectbtn:after {
+    content: "- flair your thread as solved once your problem is resolved";
     margin-left: 6px;
     color: #008a00;
   }
+  //???
   &.linkflair-help .flat-list a.flairselectbtn {
-    color: $color-bg-main !important;
-    &:after {
-      content: "- flair your thread as Solved once your problem is resolved";
-      margin-left: 6px;
-      color: #008a00;
-    }
+    color: $color-win !important;
   }
 }
 

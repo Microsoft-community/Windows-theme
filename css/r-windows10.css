@@ -2735,25 +2735,41 @@ html[lang^=nm] .expando-button.video.expanded {
     background: url(%%wincore-2%%) -5px -115px no-repeat !important;
     text-decoration: none; }
 
-.flair-mod:before,
-.flair-msft:before {
-  content: "- "; }
+.flair-mod,
+.flair-msft {
+  border: none;
+  background: 0 0;
+  font-weight: 700; }
+  .flair-mod:before,
+  .flair-msft:before {
+    content: "- "; }
 
-.flair-msft::after {
-  content: "Microsoft Employee";
-  position: absolute;
-  top: -0.7px;
-  right: -1px;
-  bottom: -1px;
-  left: -1px;
-  text-align: right;
-  padding: .25em .5em;
-  border: 3px solid #8bb9e2;
-  opacity: 0.9;
-  pointer-events: none; }
+.sidecontentbox .flair-mod {
+  display: none; }
 
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=instyle7], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=nerdile] {
+.flair-mod {
+  color: #00a64f; }
+
+.flair-msft {
+  height: 16px;
+  line-height: 16px;
   color: #7A0218;
+  padding: 0; }
+  .flair-msft:after {
+    content: "Microsoft Employee";
+    position: absolute;
+    top: -0.7px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    text-align: right;
+    padding: .25em .5em;
+    border: 3px solid #8bb9e2;
+    opacity: 0.9;
+    pointer-events: none; }
+
+.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=instyle7], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile] {
+  color: #0078D7;
   font-weight: 700; }
 .author[href$=ildun] {
   color: #e67e22;
@@ -2794,8 +2810,8 @@ html:lang(nh) .linkflair-help {
   border-color: #ce352c; }
 
 .linkflair-update .linkflairlabel {
-  background-color: #7A0218;
-  border-color: #7A0218; }
+  background-color: #0078D7;
+  border-color: #0078D7; }
 
 .linkflair-feature .linkflairlabel {
   background-color: #00aba9;
@@ -2849,12 +2865,6 @@ html:lang(nh) .linkflair-help {
   background-color: #00aba9;
   border-color: #00aba9; }
 
-.flair-mod,
-.flair-msft {
-  border: none;
-  background: 0 0;
-  font-weight: 700; }
-
 .side a[href*='#update'], .side a[href*='#official'], .side a[href*='#news'], .side a[href*='#help'], .side a[href*='#solved'], .side a[href*='#unresolved'], .side a[href*='#bug'], .side a[href*='#feature'], .side a[href*='#discussion'], .side a[href*='#hardware'], .side a[href*='#tip'], .side a[href*='#meta'], .side a[href*='#gaming'], .side a[href*='#app'], .side a[href*='#original%20content'], .side a[href*='#concept'], .side a[href*='#request'], .side a[href*='#question'], .side a[href*='#hideflair'], .side a[href*='#hidehelp'] {
   display: inline-block;
   position: relative;
@@ -2904,18 +2914,6 @@ html:lang(nh) .linkflair-help {
 .side a[href*='#update']:hover, .side a[href*='#official']:hover, .side a[href*='#news']:hover, .side a[href*='#help']:hover, .side a[href*='#solved']:hover, .side a[href*='#unresolved']:hover, .side a[href*='#bug']:hover, .side a[href*='#feature']:hover, .side a[href*='#discussion']:hover, .side a[href*='#hardware']:hover, .side a[href*='#tip']:hover, .side a[href*='#meta']:hover, .side a[href*='#gaming']:hover, .side a[href*='#app']:hover, .side a[href*='#original%20content']:hover, .side a[href*='#concept']:hover, .side a[href*='#request']:hover, .side a[href*='#question']:hover, .side a[href='']:hover {
   opacity: 0.8; }
 
-.sidecontentbox .flair-mod {
-  display: none; }
-
-.flair-mod {
-  color: #00a64f; }
-
-.flair-msft {
-  height: 16px;
-  line-height: 16px;
-  color: #7A0218;
-  padding: 0; }
-
 .flair-special {
   margin: 0 4px 4px 0;
   padding: 0 11px 1px;
@@ -2938,8 +2936,6 @@ html:lang(nh) .linkflair-help {
   border-width: 3px;
   border-radius: 1px;
   pointer-events: none; }
-  .linkflairlabel:hover {
-    opacity: 0.7; }
   .linkflairlabel:lang(nf) {
     display: none; }
 
@@ -3041,6 +3037,9 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before {
   font-size: 10px;
   margin: 0 5px 0 0;
   color: #222; }
+  .side .md blockquote:hover {
+    background-color: #fcecd9;
+    border-left-color: #f0ad4e; }
   .side .md blockquote a {
     font-size: 11px; }
 
@@ -3048,10 +3047,6 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before {
 html[lang^=nm] .side .md blockquote {
   border-left: 5px solid #3B81FB !important;
   color: #ddd !important; }
-
-.side .md blockquote:hover {
-  background-color: #fcecd9;
-  border-left-color: #f0ad4e; }
 
 a[href$="WindowsMobile#2"] {
   position: absolute;
@@ -3127,16 +3122,12 @@ a[href*="#square-hflairs"]:hover::after {
 .side .md > p:first-of-type {
   display: none; }
 
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after {
-  content: "- flair your thread as Solved once your problem is resolved";
+.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
+  content: "- flair your thread as solved once your problem is resolved";
   margin-left: 6px;
   color: #008a00; }
 .comments-page .link.linkflair-help .flat-list a.flairselectbtn {
-  color: #BF0426 !important; }
-  .comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
-    content: "- flair your thread as Solved once your problem is resolved";
-    margin-left: 6px;
-    color: #008a00; }
+  color: #0078D7 !important; }
 
 .linkflair-solved.link {
   display: none; }
