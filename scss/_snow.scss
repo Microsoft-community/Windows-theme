@@ -4,44 +4,35 @@
  //header snow
  #header {
      background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
+     animation: snow 20s linear infinite;
      -webkit-animation: snow 20s linear infinite;
      -moz-animation: snow 20s linear infinite;
-     -ms-animation: snow 20s linear infinite;
-     animation: snow 20s linear infinite
+ }
+ 
+ @keyframes snow {
+     from {
+         background-position: 0 0, 0 0, 0 0
+     }
+     to {
+         background-position: 500px 1000px, 400px 400px, 300px 300px
+     }
  }
  
  @-webkit-keyframes snow {
-     0% {
+    from {
          background-position: 0 0, 0 0, 0 0
      }
-     100% {
-         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     to {
+         background-position: 500px 1000px, 400px 400px, 300px 300px
      }
  }
  
  @-moz-keyframes snow {
-     0% {
+     from {
          background-position: 0 0, 0 0, 0 0
      }
-     100% {
-         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
+     to {
+         background-position: 500px 1000px, 400px 400px, 300px 300px
      }
  }
  
- @-ms-keyframes snow {
-     0% {
-         background-position: 0 0, 0 0, 0 0
-     }
-     100% {
-         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
-     }
- }
- 
- @keyframes snow {
-     0% {
-         background-position: 0 0, 0 0, 0 0
-     }
-     100% {
-         background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px
-     }
- }
