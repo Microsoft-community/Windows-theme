@@ -1,15 +1,37 @@
  //colorscheme
  $color-bg-main: #BF0426;
  $color-bg-secondary: #7A0218;
- //header snow
+ //header snowfall
  #header {
      background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
-     animation: snow 20s linear infinite;
-     -webkit-animation: snow 20s linear infinite;
-     -moz-animation: snow 20s linear infinite;
+     animation: snowfall 20s linear infinite;
+     -webkit-animation: snowfall 20s linear infinite;
+     -moz-animation: snowfall 20s linear infinite;
  }
  
- @keyframes snow {
+ @mixin keyframes($animation-name) {
+     @-webkit-keyframes #{$animation-name} {
+         @content;
+     }
+     @-moz-keyframes #{$animation-name} {
+         @content;
+     }
+     @-o-keyframes #{$animation-name} {
+         @content;
+     }
+     @keyframes #{$animation-name} {
+         @content;
+     }
+ }
+ 
+ @mixin animation($str) {
+     -webkit-animation: #{$str};
+     -moz-animation: #{$str};
+     -o-animation: #{$str};
+     animation: #{$str};
+ }
+ 
+ @include keyframes(snowfall) {
      from {
          background-position: 0 0, 0 0, 0 0
      }
@@ -17,22 +39,3 @@
          background-position: 500px 1000px, 400px 400px, 300px 300px
      }
  }
- 
- @-webkit-keyframes snow {
-    from {
-         background-position: 0 0, 0 0, 0 0
-     }
-     to {
-         background-position: 500px 1000px, 400px 400px, 300px 300px
-     }
- }
- 
- @-moz-keyframes snow {
-     from {
-         background-position: 0 0, 0 0, 0 0
-     }
-     to {
-         background-position: 500px 1000px, 400px 400px, 300px 300px
-     }
- }
- 
