@@ -1817,7 +1817,7 @@ div.commentarea .infobar p {
   90% {
     transform: scale(0.9); } }
 #header {
-  background-image: url(%%snowfall%%), url(%%snowfall2%%), url(%%snowfall3%%);
+  background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
   animation: snowfall 20s linear infinite;
   -webkit-animation: snowfall 20s linear infinite;
   -moz-animation: snowfall 20s linear infinite; }
