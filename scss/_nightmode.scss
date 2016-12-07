@@ -2,38 +2,40 @@ $nm-color-bg-main: #222;
 $nm-color-bg-secondary: #393939;
 $nm-color-milddark:#202020;
 $nm-color-borders: #2D2E32;
+$nm-color-text: #ddd;
+// rgba(6, 102, 178, 0.5) = #0666b2 ???
 .res-nightmode {
     .comment .md {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .date {
-        color: #ddd !important;
+        color: $nm-color-text !important;
         &:before {
-            background: #222 !important;
+            background: $nm-color-bg-main !important;
         }
     }
     .flair {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .footer {
         div.col a,
         &::after {
-            color: #ddd !important;
+            color: $nm-color-text !important;
         }
     }
     .linkinfo .shortlink {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .totalvotes {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        background: $nm-color-bg-main !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .date time,
     .linkinfo .score {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .arrow {
         &.upmod {
@@ -50,68 +52,68 @@ $nm-color-borders: #2D2E32;
         }
     }
     #header {
-        background: #222 !important;
+        background: $nm-color-bg-main !important;
     }
     .icon-menu li,
     .reddit-link:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         border-left-color: rgba(6, 102, 178, 0.5) !important;
     }
     .sidecontentbox {
         .content a.author:hover,
         .more:hover {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
             border-left-color: rgba(6, 102, 178, 0.5) !important;
         }
     }
     div.titlebox .md ul li:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         border-left-color: rgba(6, 102, 178, 0.5) !important;
     }
     #searchexpando,
     .icon-menu li {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .linkinfo {
         .score,
         .shortlink {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .reddit-link {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .side .titlebox {
         div.subButtons,
         h1.redditname+div,
         >.fancy-toggle-button {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .sidecontentbox {
         .content a.author,
         .more {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     div {
@@ -119,56 +121,56 @@ $nm-color-borders: #2D2E32;
             div {
                 &.leavemoderator,
                 &.tagline {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-bottom: 1px solid $nm-color-bg-secondary !important;
+                    border-left: 5px solid $nm-color-bg-secondary !important;
+                    border-right: 1px solid $nm-color-bg-secondary !important;
+                    background: $nm-color-bg-main !important;
+                    border-top: 1px solid $nm-color-bg-secondary !important;
                 }
             }
             form {
                 &.flairtoggle,
                 &.leavecontributor-button {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-bottom: 1px solid $nm-color-bg-secondary !important;
+                    border-left: 5px solid $nm-color-bg-secondary !important;
+                    border-right: 1px solid $nm-color-bg-secondary !important;
+                    background: $nm-color-bg-main !important;
+                    border-top: 1px solid $nm-color-bg-secondary !important;
                 }
             }
             p.users-online,
             span.subscribers {
-                border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                border-left: 5px solid #393939 !important;
-                border-right: 1px solid #393939 !important;
-                background: #222 !important;
-                border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                border-bottom: 1px solid $nm-color-bg-secondary !important;
+                border-left: 5px solid $nm-color-bg-secondary !important;
+                border-right: 1px solid $nm-color-bg-secondary !important;
+                background: $nm-color-bg-main !important;
+                border-top: 1px solid $nm-color-bg-secondary !important;
             }
         }
         &.titlebox .md ul li {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .side .titlebox>.fancy-toggle-button {
-        background: #222 !important;
-        color: #ddd !important;
+        background: $nm-color-bg-main !important;
+        color: $nm-color-text !important;
     }
     div {
         &.side {
             div.tagline,
             form.flairtoggle,
             span.subscribers {
-                background: #222 !important;
-                color: #ddd !important;
+                background: $nm-color-bg-main !important;
+                color: $nm-color-text !important;
             }
         }
         &.titlebox .md ul li {
-            background: #222 !important;
-            color: #ddd !important;
+            background: $nm-color-bg-main !important;
+            color: $nm-color-text !important;
         }
     }
     #sr-header-area {
@@ -177,18 +179,18 @@ $nm-color-borders: #2D2E32;
     .nextprev a:hover,
     .side .morelink a:hover,
     button:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
     }
     #header,
     .account-activity-box,
     .morelink,
     .nextprev a {
-        background: #222 !important;
+        background: $nm-color-bg-main !important;
     }
     .sidecontentbox {
         .title,
         a.helplink {
-            background: #222 !important;
+            background: $nm-color-bg-main !important;
         }
     }
     div.titlebox {
@@ -196,11 +198,11 @@ $nm-color-borders: #2D2E32;
             h2,
             h3,
             h4 {
-                background: #222 !important;
+                background: $nm-color-bg-main !important;
             }
         }
         h1 {
-            background: #222 !important;
+            background: $nm-color-bg-main !important;
         }
     }
     #header #header-bottom-right {
@@ -209,7 +211,7 @@ $nm-color-borders: #2D2E32;
         .choice:hover,
         .logout:hover,
         .user:hover {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
         }
         .logout a,
         .nohavemail#mail {
@@ -226,11 +228,12 @@ $nm-color-borders: #2D2E32;
         }
     }
     .titlebox form.toggle {
-        border-color: #393939 !important;
-        background: #222 !important;
+        border-color: $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
     }
     #header-bottom-left .tabmenu,
     #header-img {
+        //???
         background: 0 0;
         background-color: transparent !important;
     }
@@ -238,7 +241,7 @@ $nm-color-borders: #2D2E32;
         color: #fff !important;
     }
     div.titlebox span.fancy-toggle-button a.active.remove {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
     }
     .link {
         border-left-color: transparent;
@@ -252,10 +255,10 @@ $nm-color-borders: #2D2E32;
         background: #202020;
     }
     .linklisting {
-        border-right: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
     }
     .listing-page .link:hover {
-        background: #393939 !important;
+        background: $nm-color-bg-secondary !important;
         border-left-color: #a9a9a9 !important;
     }
     button {
@@ -273,24 +276,27 @@ $nm-color-borders: #2D2E32;
     }
     .account-activity-box:hover,
     .link .usertext-body .md {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
+    }
+    .flairselector {
+        background-color: $nm-color-bg-main !important;
     }
     .sitetable .comment .comment {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         .comment .comment {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
             .comment .comment {
-                background-color: #393939 !important;
+                background-color: $nm-color-bg-secondary !important;
                 .comment .comment {
-                    background-color: #393939 !important;
+                    background-color: $nm-color-bg-secondary !important;
                     .comment .comment {
-                        background-color: #393939 !important;
+                        background-color: $nm-color-bg-secondary !important;
                         .comment .comment {
-                            background-color: #393939 !important;
+                            background-color: $nm-color-bg-secondary !important;
                             .comment .comment {
-                                background-color: #393939 !important;
+                                background-color: $nm-color-bg-secondary !important;
                                 .comment .comment {
-                                    background-color: #393939 !important;
+                                    background-color: $nm-color-bg-secondary !important;
                                 }
                             }
                         }
@@ -299,25 +305,22 @@ $nm-color-borders: #2D2E32;
             }
         }
     }
-    .flairselector {
-        background-color: #222 !important;
-    }
     .sitetable .comment {
-        background-color: #222 !important;
+        background-color: $nm-color-bg-main !important;
         .comment .comment {
-            background-color: #222 !important;
+            background-color: $nm-color-bg-main !important;
             .comment .comment {
-                background-color: #222 !important;
+                background-color: $nm-color-bg-main !important;
                 .comment .comment {
-                    background-color: #222 !important;
+                    background-color: $nm-color-bg-main !important;
                     .comment .comment {
-                        background-color: #222 !important;
+                        background-color: $nm-color-bg-main !important;
                         .comment .comment {
-                            background-color: #222 !important;
+                            background-color: $nm-color-bg-main !important;
                             .comment .comment {
-                                background-color: #222 !important;
+                                background-color: $nm-color-bg-main !important;
                                 .comment .comment {
-                                    background-color: #222 !important;
+                                    background-color: $nm-color-bg-main !important;
                                 }
                             }
                         }
@@ -337,52 +340,52 @@ $nm-color-borders: #2D2E32;
         background: $color-bg-main;
     }
     .shortlink input {
-        background: #393939;
-        color: #ddd;
+        background: $nm-color-bg-secondary;
+        color: $nm-color-text;
     }
     .date {
         span,
         time {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
 }
 
 html[lang^=nm] {
     .comment .md {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .date {
-        color: #ddd !important;
+        color: $nm-color-text !important;
         &::before {
-            color: #ddd !important;
+            color: $nm-color-text !important;
         }
     }
     .flair {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .footer {
         div.col a,
         &::after {
-            color: #ddd !important;
+            color: $nm-color-text !important;
         }
     }
     .linkinfo .shortlink,
     .side .titlebox>.fancy-toggle-button {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     div {
         &.side {
             div.tagline,
             form.flairtoggle,
             span.subscribers {
-                color: #ddd !important;
+                color: $nm-color-text !important;
             }
         }
         &.titlebox .md ul li {
-            color: #ddd !important;
+            color: $nm-color-text !important;
         }
     }
     #header,
@@ -390,12 +393,12 @@ html[lang^=nm] {
     .date:before,
     .morelink,
     .nextprev a {
-        background: #222 !important;
+        background: $nm-color-bg-main !important;
     }
     .sidecontentbox {
         .title,
         a.helplink {
-            background: #222 !important;
+            background: $nm-color-bg-main !important;
         }
     }
     div.titlebox {
@@ -403,11 +406,11 @@ html[lang^=nm] {
             h2,
             h3,
             h4 {
-                background: #222 !important;
+                background: $nm-color-bg-main !important;
             }
         }
         h1 {
-            background: #222 !important;
+            background: $nm-color-bg-main !important;
         }
     }
     #header #header-bottom-right {
@@ -430,10 +433,10 @@ html[lang^=nm] {
     }
     .comments-page .link {
         border-left-color: transparent !important;
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47);
+        border-bottom: 1px solid $nm-color-bg-secondary;
     }
     .comments-page .usertext-edit div textarea {
-        color: #222
+        color: $nm-color-bg-main
     }
     .link {
         border-left-color: transparent;
@@ -443,93 +446,96 @@ html[lang^=nm] {
     body {
         background: #1a1a1a !important;
         &:not(.res-nightmode) .linklisting {
-            border-right: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
         }
     }
     #searchexpando {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .side .titlebox {
         div.subButtons,
         h1.redditname+div,
         >.fancy-toggle-button {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .totalvotes {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     div {
         &.side {
             div {
                 &.leavemoderator,
                 &.tagline {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-bottom: 1px solid $nm-color-bg-secondary !important;
+                    border-left: 5px solid $nm-color-bg-secondary !important;
+                    border-right: 1px solid $nm-color-bg-secondary !important;
+                    background: $nm-color-bg-main !important;
+                    border-top: 1px solid $nm-color-bg-secondary !important;
                 }
             }
             form {
                 &.flairtoggle,
                 &.leavecontributor-button {
-                    border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                    border-left: 5px solid #393939 !important;
-                    border-right: 1px solid #393939 !important;
-                    background: #222 !important;
-                    border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                    border-bottom: 1px solid $nm-color-bg-secondary !important;
+                    border-left: 5px solid $nm-color-bg-secondary !important;
+                    border-right: 1px solid $nm-color-bg-secondary !important;
+                    background: $nm-color-bg-main !important;
+                    border-top: 1px solid $nm-color-bg-secondary !important;
                 }
             }
             p.users-online,
             span.subscribers {
-                border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-                border-left: 5px solid #393939 !important;
-                border-right: 1px solid #393939 !important;
-                background: #222 !important;
-                border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+                border-bottom: 1px solid $nm-color-bg-secondary !important;
+                border-left: 5px solid $nm-color-bg-secondary !important;
+                border-right: 1px solid $nm-color-bg-secondary !important;
+                background: $nm-color-bg-main !important;
+                border-top: 1px solid $nm-color-bg-secondary !important;
             }
         }
         &.titlebox .md ul li {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .account-activity-box:hover,
     .link .usertext-body .md {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
+    }
+    .flairselector {
+        background-color: $nm-color-bg-main !important;
     }
     .sitetable .comment .comment {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         .comment .comment {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
             .comment .comment {
-                background-color: #393939 !important;
+                background-color: $nm-color-bg-secondary !important;
                 .comment .comment {
-                    background-color: #393939 !important;
+                    background-color: $nm-color-bg-secondary !important;
                     .comment .comment {
-                        background-color: #393939 !important;
+                        background-color: $nm-color-bg-secondary !important;
                         .comment .comment {
-                            background-color: #393939 !important;
+                            background-color: $nm-color-bg-secondary !important;
                             .comment .comment {
-                                background-color: #393939 !important;
+                                background-color: $nm-color-bg-secondary !important;
                                 .comment .comment {
-                                    background-color: #393939 !important;
+                                    background-color: $nm-color-bg-secondary !important;
                                 }
                             }
                         }
@@ -538,25 +544,22 @@ html[lang^=nm] {
             }
         }
     }
-    .flairselector {
-        background-color: #222 !important;
-    }
     .sitetable .comment {
-        background-color: #222 !important;
+        background-color: $nm-color-bg-main !important;
         .comment .comment {
-            background-color: #222 !important;
+            background-color: $nm-color-bg-main !important;
             .comment .comment {
-                background-color: #222 !important;
+                background-color: $nm-color-bg-main !important;
                 .comment .comment {
-                    background-color: #222 !important;
+                    background-color: $nm-color-bg-main !important;
                     .comment .comment {
-                        background-color: #222 !important;
+                        background-color: $nm-color-bg-main !important;
                         .comment .comment {
-                            background-color: #222 !important;
+                            background-color: $nm-color-bg-main !important;
                             .comment .comment {
-                                background-color: #222 !important;
+                                background-color: $nm-color-bg-main !important;
                                 .comment .comment {
-                                    background-color: #222 !important;
+                                    background-color: $nm-color-bg-main !important;
                                 }
                             }
                         }
@@ -566,7 +569,7 @@ html[lang^=nm] {
         }
     }
     button {
-        background-color: #222 !important;
+        background-color: $nm-color-bg-main !important;
     }
     a {
         color: #f8f8ff;
@@ -583,7 +586,7 @@ html[lang^=nm] {
         display: block;
         position: absolute;
         z-index: -1;
-        border-color: transparent #393939 transparent transparent !important;
+        border-color: transparent $nm-color-bg-secondary transparent transparent !important;
     }
     div.titlebox {
         .md {
@@ -593,14 +596,14 @@ html[lang^=nm] {
                 display: block;
                 position: absolute;
                 z-index: -1;
-                border-color: transparent #393939 transparent transparent !important;
+                border-color: transparent $nm-color-bg-secondary transparent transparent !important;
             }
         }
         h1:after {
             display: block;
             position: absolute;
             z-index: -1;
-            border-color: transparent #393939 transparent transparent !important;
+            border-color: transparent $nm-color-bg-secondary transparent transparent !important;
         }
     }
     #previoussearch #moresearchinfo {
@@ -630,17 +633,17 @@ html[lang^=nm] {
         .choice:hover,
         .logout:hover,
         .user:hover {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
         }
     }
     #header-bottom-left .tabmenu li.selected a,
     .nextprev a:hover,
     .side .morelink a:hover,
     button:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
     }
     .debuginfo {
-        background: #393939 !important;
+        background: $nm-color-bg-secondary !important;
     }
     .thing {
         .title:visited,
@@ -652,11 +655,11 @@ html[lang^=nm] {
         }
     }
     .listing-page .link:hover {
-        background: #393939 !important;
+        background: $nm-color-bg-secondary !important;
         border-left-color: #a9a9a9 !important;
     }
     div.titlebox .md ul li:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         border-left-color: rgba(6, 102, 178, 0.5) !important;
     }
     .footer {
@@ -664,15 +667,15 @@ html[lang^=nm] {
         border-top: none;
     }
     a[href*="#square"]::before {
-        border: 3px solid #393939;
+        border: 3px solid $nm-color-bg-secondary;
     }
     .content.submit .info-notice,
     .submit-page .roundfield {
-        background-color: #222;
+        background-color: $nm-color-bg-main;
         color: #eee;
     }
     .sidecontentbox a.helplink:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
     }
     #header #header-bottom-right #mail.havemail {
         outline: 0;
@@ -681,7 +684,7 @@ html[lang^=nm] {
         color: $color-bg-secondary !important;
     }
      ::-webkit-scrollbar {
-        background-color: #393939;
+        background-color: $nm-color-bg-secondary;
     }
      ::-webkit-scrollbar-thumb {
         background-color: #666;
@@ -708,7 +711,7 @@ html[lang^=nm] {
         border-color: #ff4500 !important;
     }
     #eu-cookie-policy .reddit-infobar p {
-        color: #222 !important;
+        color: $nm-color-bg-main !important;
     }
     .comment .usertext .md p>a:visited,
     .md a,
@@ -743,7 +746,7 @@ html[lang^=nm] {
     }
     .md code {
         border: none !important;
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         border-radius: 0 !important;
         border-left: 3px solid $color-bg-secondary !important;
     }
@@ -769,17 +772,17 @@ html[lang^=nm] {
     .edit-stylesheet.choice:after,
     .linkinfo .score,
     .wiki-page .wiki-page-content {
-        color: #ddd !important;
+        color: $nm-color-text !important;
     }
     .titlebox form.toggle {
-        background: #222;
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
+        background: $nm-color-bg-main;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
         color: #eee;
     }
     div.titlebox span.fancy-toggle-button a.active.remove {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
     }
     .comment.spam>.child,
     .message.spam>.child,
@@ -800,91 +803,91 @@ html[lang^=nm] {
         display: none;
     }
     #search input[type=text] {
-        background: #222 !important;
+        background: $nm-color-bg-main !important;
     }
     .icon-menu li:hover,
     .reddit-link:hover {
-        background-color: #393939 !important;
+        background-color: $nm-color-bg-secondary !important;
         border-left-color: rgba(6, 102, 178, 0.5) !important;
     }
     .sidecontentbox {
         .content a.author:hover,
         .more:hover {
-            background-color: #393939 !important;
+            background-color: $nm-color-bg-secondary !important;
             border-left-color: rgba(6, 102, 178, 0.5) !important;
         }
     }
     .icon-menu li {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .linkinfo {
         .score,
         .shortlink {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     .reddit-link {
-        border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-        border-left: 5px solid #393939 !important;
-        border-right: 1px solid #393939 !important;
-        background: #222 !important;
-        border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
     }
     .sidecontentbox {
         .content a.author,
         .more {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            border-left: 5px solid #393939 !important;
-            border-right: 1px solid #393939 !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
     textarea {
         color: #000 !important;
     }
     .shortlink input {
-        background: #393939;
-        color: #ddd;
+        background: $nm-color-bg-secondary;
+        color: $nm-color-text;
     }
     .date {
         span,
         time {
-            border-bottom: 1px solid rgba(57, 57, 57, 0.47) !important;
-            background: #222 !important;
-            border-top: 1px solid rgba(57, 57, 57, 0.47) !important;
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
 }
 
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
-    border-color: transparent #393939 transparent transparent !important;
+    border-color: transparent $nm-color-bg-secondary transparent transparent !important;
 }
 
 .res-nightmode .date span,
 html[lang^=nm] .date span {
-    border-left: 5px solid #393939 !important;
-    color: #ddd;
-    border-right-color: #393939;
+    border-left: 5px solid $nm-color-bg-secondary !important;
+    color: $nm-color-text;
+    border-right-color: $nm-color-bg-secondary;
 }
 
 .res-nightmode .date time,
 html[lang^=nm] .date time {
-    border-right: 1px solid #393939 !important;
+    border-right: 1px solid $nm-color-bg-secondary !important;
 }
 
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
-    background: #393939 !important;
+    background: $nm-color-bg-secondary !important;
 }
 
 .res-nightmode,
