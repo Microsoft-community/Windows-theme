@@ -1,8 +1,8 @@
 [**Subreddit theme is disabled, let us know why so we can improve it, message us.**](https://www.reddit.com/message/compose?to=%2Fr%2Fwindows10&subject=Design%20feedback)
 
-* [Discord chat room](https://discord.gg/microsoft#icon-chat)
+* [Discord chat server](https://discord.gg/microsoft#icon-chat)
 * [Give Windows feedback](http://aka.ms/StartAndAllApps#icon-feedback)
-* [Give subreddit feedback](https://goo.gl/CbEOBr#icon-feedback2)
+* [Github repository, suggestions board](https://github.com/Jasius/Windows-theme#icon-feedback2)
 * [Night Mode](https://goo.gl/sj9EPd#icon-night) [Light Mode](https://www.reddit.com/r/Windows10#icon-day)
 
 ##Helpful resources
@@ -30,6 +30,8 @@
 ##Promoted Subreddits  
 
 * [Microsoft Teams](/r/MicrosoftTeams/) - Office 365 Team communication service subreddit.
+
+* [Windows](/r/Windows) - Main Windows community for all versions of Windows.
 
 * [Windows Mobile](/r/WindowsMobile) - dedicated to Windows Mobile OS and discussions about it.
 
@@ -75,9 +77,5 @@
 * [Android](/r/Android) - Android Operating system and its peripherals discussions.
 
 * [Apple](/r/Apple) - Apple devices, services discussions.
-
-
-1. [~~Microsoft October Event~~](https://www.reddit.com/r/Windows10/comments/59h8wn/microsoft_october_event_discussion_thread/#special)
-2. [~~Unified Update Platform announcement~~](https://redd.it/5axy78#sticky)
 
 [](#/RES_SR_Config/NightModeCompatible)
