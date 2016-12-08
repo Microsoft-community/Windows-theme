@@ -1,5 +1,4 @@
 // for sidebar usage> [Please flair your thread](#flairy)
-
 .post-submitter .link:not(.linkflair) .flairselectbtn {
     display: block!important;
     position: fixed;
@@ -50,10 +49,12 @@
         border-color: #2dad56;
     }
 }
+
 .flairselector.drop-choices.active {
     left: 40%!important;
     top: 35%!Important;
- }
+}
+
 @keyframes toasty {
     0% {
         transform: scale(0.3) rotateY(90deg);
@@ -64,6 +65,10 @@
     90% {
         transform: scale(0.9);
     }
+}
+
+.linklisting .flair-msft:after {
+    display: none;
 }
 
 //tech support widget
