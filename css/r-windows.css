@@ -345,7 +345,7 @@ button:active {
 .submit-page .infobar {
   width: 525px;
   margin: -10px 0 0;
-  padding: 16px;
+  padding: 10px;
   color: #fff;
   background-color: #BF0426;
   border-radius: 0 0 2px 2px;
@@ -768,12 +768,13 @@ a.author {
   margin-left: 5px !important;
   display: none; }
 
-div.commentarea .infobar {
+.commentarea .infobar {
   color: #eee;
   background: #BF0426;
   border: none;
-  display: flex; }
-  div.commentarea .infobar a {
+  display: flex;
+  margin: -10px -5px -10px 10px; }
+  .commentarea .infobar a {
     color: #eee; }
 
 .comments-page .sitetable.nestedlisting > .thing.stickied {
@@ -2690,6 +2691,9 @@ html[lang^=nm] .expando-button.video.expanded {
 
 .flair-mod {
   color: #00a64f; }
+
+.linklisting .flair-msft:after {
+  display: none; }
 
 .flair-msft {
   height: 16px;

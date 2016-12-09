@@ -67,10 +67,10 @@
     }
 }
 
-.linklisting .flair-msft:after {
-    display: none;
+#new_modmail {
+    position: absolute;
+    top: -21px;
 }
-
 //tech support widget
 // .post-submitter.post-linkflair-help a[href*="#tech"] {
 //   display: block;

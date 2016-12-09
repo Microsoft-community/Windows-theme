@@ -447,7 +447,7 @@ button:active {
   .infobar {
     width: 525px;
     margin: -10px 0 0;
-    padding: 16px;
+    padding: 10px;
     color: #fff;
     background-color: $color-bg-main;
     border-radius: 0 0 2px 2px;
@@ -1022,11 +1022,12 @@ a.author {
   display: none;
 }
 
-div.commentarea .infobar {
+.commentarea .infobar {
   color: #eee;
   background: $color-bg-main;
   border: none;
   display: flex;
+  margin: -10px -5px -10px 10px;
   a {
     color: #eee;
   }
