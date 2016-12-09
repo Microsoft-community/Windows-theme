@@ -772,10 +772,11 @@ a.author {
   color: #eee;
   background: #BF0426;
   border: none;
-  display: flex;
-  margin: -10px -5px -10px 10px; }
+  display: flex; }
   .commentarea .infobar a {
     color: #eee; }
+  .commentarea .infobar p {
+    line-height: 8px; }
 
 .comments-page .sitetable.nestedlisting > .thing.stickied {
   margin-bottom: 30px !important;

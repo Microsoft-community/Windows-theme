@@ -1027,9 +1027,11 @@ a.author {
   background: $color-bg-main;
   border: none;
   display: flex;
-  margin: -10px -5px -10px 10px;
   a {
     color: #eee;
+  }
+  p {
+    line-height: 8px;
   }
 }
 
