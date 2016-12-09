@@ -2992,7 +2992,7 @@ a[href$="WindowsMobile#2"] {
 a[href*="#Donsiders"], a[href*="#btn"] {
   display: inline-block;
   border: 1px solid #0081ba;
-  color: #fff;
+  color: #fff !important;
   padding: 10px 13px;
   margin: 5px 0;
   transition: all 0.5s;
