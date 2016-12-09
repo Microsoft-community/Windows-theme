@@ -2665,6 +2665,9 @@ html[lang^=nm] .expando-button.video.expanded {
 .flair-mod {
   color: #00a64f; }
 
+.linklisting .flair-msft:after {
+  display: none; }
+
 .flair-msft {
   height: 16px;
   line-height: 16px;

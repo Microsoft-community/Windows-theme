@@ -1816,9 +1816,6 @@ div.commentarea .infobar p {
     transform: scale(1.4); }
   90% {
     transform: scale(0.9); } }
-.linklisting .flair-msft:after {
-  display: none; }
-
 #header {
   background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
   animation: snowfall 20s linear infinite;
@@ -2751,6 +2748,9 @@ html[lang^=nm] .expando-button.video.expanded {
 
 .flair-mod {
   color: #00a64f; }
+
+.linklisting .flair-msft:after {
+  display: none; }
 
 .flair-msft {
   height: 16px;

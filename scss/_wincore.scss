@@ -32,6 +32,9 @@
 }
 
 //microsoft employees
+.linklisting .flair-msft:after {
+    display: none;
+}
 .flair-msft {
   height: 16px;
   line-height: 16px;
