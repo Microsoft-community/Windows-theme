@@ -1943,29 +1943,6 @@ div.commentarea .infobar p {
     background-position: 0 0, 0 0, 0 0; }
   to {
     background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-.res-nightmode .res .RES-keyNav-activeElement {
-  background-color: #292929 !important; }
-.res-nightmode .res .commentarea .RES-keyNav-activeElement .md, .res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
-  background-color: #292929 !important; }
-.res-nightmode .RES-keyNav-activeElement {
-  background-color: #292929 !important; }
-  .res-nightmode .RES-keyNav-activeElement .md-container {
-    background-color: #292929 !important; }
-.res-nightmode .arrow.upmod {
-  background-position: -296px -60px !important; }
-.res-nightmode .arrow.down {
-  background-position: -321px -60px !important; }
-.res-nightmode .arrow.up {
-  background-position: -289px -194px !important; }
-.res-nightmode .arrow.downmod {
-  background-position: -271px -60px !important; }
-.res-nightmode .side .titlebox > .fancy-toggle-button {
-  background: #222 !important;
-  color: #ddd !important; }
-
-.res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
-  background-color: transparent !important; }
-
 .res-nightmode body,
 html[lang^=nm] body {
   background: #1a1a1a !important; }
@@ -2119,94 +2096,92 @@ html[lang^=nm] div.titlebox .md ul li {
 html[lang^=nm] .sidecontentbox .title,
 html[lang^=nm] .sidecontentbox a.helplink {
   background: #222 !important; }
+.res-nightmode div.titlebox .md h1,
 .res-nightmode div.titlebox .md h2,
 .res-nightmode div.titlebox .md h3,
 .res-nightmode div.titlebox .md h4,
+html[lang^=nm] div.titlebox .md h1,
 html[lang^=nm] div.titlebox .md h2,
 html[lang^=nm] div.titlebox .md h3,
 html[lang^=nm] div.titlebox .md h4 {
   background: #222 !important; }
-.res-nightmode div.titlebox h1,
-html[lang^=nm] div.titlebox h1 {
-  background: #222 !important; }
 .res-nightmode #searchexpando,
 .res-nightmode .icon-menu li,
 .res-nightmode .totalvotes,
-html[lang^=nm] #searchexpando,
-html[lang^=nm] .icon-menu li,
-html[lang^=nm] .totalvotes {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode .icon-menu li,
 .res-nightmode .reddit-link,
 .res-nightmode .sidecontentbox .content a.author,
 .res-nightmode .sidecontentbox .more,
 .res-nightmode .reddit-link,
 .res-nightmode .linkinfo .score,
 .res-nightmode .linkinfo .shortlink,
+.res-nightmode div.titlebox .md ul li,
+html[lang^=nm] #searchexpando,
 html[lang^=nm] .icon-menu li,
+html[lang^=nm] .totalvotes,
 html[lang^=nm] .reddit-link,
 html[lang^=nm] .sidecontentbox .content a.author,
 html[lang^=nm] .sidecontentbox .more,
 html[lang^=nm] .reddit-link,
 html[lang^=nm] .linkinfo .score,
-html[lang^=nm] .linkinfo .shortlink {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-  .res-nightmode .icon-menu li:hover,
-  .res-nightmode .reddit-link:hover,
-  .res-nightmode .sidecontentbox .content a.author:hover,
-  .res-nightmode .sidecontentbox .more:hover,
-  .res-nightmode .reddit-link:hover,
-  .res-nightmode .linkinfo .score:hover,
-  .res-nightmode .linkinfo .shortlink:hover,
-  html[lang^=nm] .icon-menu li:hover,
-  html[lang^=nm] .reddit-link:hover,
-  html[lang^=nm] .sidecontentbox .content a.author:hover,
-  html[lang^=nm] .sidecontentbox .more:hover,
-  html[lang^=nm] .reddit-link:hover,
-  html[lang^=nm] .linkinfo .score:hover,
-  html[lang^=nm] .linkinfo .shortlink:hover {
-    background-color: #393939 !important;
-    border-left-color: rgba(6, 102, 178, 0.5) !important; }
-.res-nightmode div.side div.leavemoderator, .res-nightmode div.side div.tagline,
-html[lang^=nm] div.side div.leavemoderator,
-html[lang^=nm] div.side div.tagline {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.side form.flairtoggle, .res-nightmode div.side form.leavecontributor-button,
-html[lang^=nm] div.side form.flairtoggle,
-html[lang^=nm] div.side form.leavecontributor-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.side p.users-online,
-.res-nightmode div.side span.subscribers,
-html[lang^=nm] div.side p.users-online,
-html[lang^=nm] div.side span.subscribers {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.titlebox .md ul li,
+html[lang^=nm] .linkinfo .shortlink,
 html[lang^=nm] div.titlebox .md ul li {
   border-bottom: 1px solid #393939 !important;
   border-left: 5px solid #393939 !important;
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
+  .res-nightmode #searchexpando:hover,
+  .res-nightmode .icon-menu li:hover,
+  .res-nightmode .totalvotes:hover,
+  .res-nightmode .reddit-link:hover,
+  .res-nightmode .sidecontentbox .content a.author:hover,
+  .res-nightmode .sidecontentbox .more:hover,
+  .res-nightmode .reddit-link:hover,
+  .res-nightmode .linkinfo .score:hover,
+  .res-nightmode .linkinfo .shortlink:hover,
+  .res-nightmode div.titlebox .md ul li:hover,
+  html[lang^=nm] #searchexpando:hover,
+  html[lang^=nm] .icon-menu li:hover,
+  html[lang^=nm] .totalvotes:hover,
+  html[lang^=nm] .reddit-link:hover,
+  html[lang^=nm] .sidecontentbox .content a.author:hover,
+  html[lang^=nm] .sidecontentbox .more:hover,
+  html[lang^=nm] .reddit-link:hover,
+  html[lang^=nm] .linkinfo .score:hover,
+  html[lang^=nm] .linkinfo .shortlink:hover,
+  html[lang^=nm] div.titlebox .md ul li:hover {
+    background-color: #393939 !important;
+    border-left-color: rgba(6, 102, 178, 0.5) !important; }
+.res-nightmode div.side div.tagline,
+.res-nightmode div.side div.leavemoderator,
+.res-nightmode div.side p.users-online,
+.res-nightmode div.side span.subscribers,
+.res-nightmode div.side form.flairtoggle,
+.res-nightmode div.side form.leavecontributor-button,
+.res-nightmode div.side .titlebox div.subButtons,
+.res-nightmode div.side .titlebox h1.redditname + div,
+.res-nightmode div.side .titlebox > .fancy-toggle-button,
+html[lang^=nm] div.side div.tagline,
+html[lang^=nm] div.side div.leavemoderator,
+html[lang^=nm] div.side p.users-online,
+html[lang^=nm] div.side span.subscribers,
+html[lang^=nm] div.side form.flairtoggle,
+html[lang^=nm] div.side form.leavecontributor-button,
+html[lang^=nm] div.side .titlebox div.subButtons,
+html[lang^=nm] div.side .titlebox h1.redditname + div,
+html[lang^=nm] div.side .titlebox > .fancy-toggle-button {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode .titlebox form.toggle,
+html[lang^=nm] .titlebox form.toggle {
+  background: #222;
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  color: #eee; }
 .res-nightmode .sitetable .comment .comment,
 html[lang^=nm] .sitetable .comment .comment {
   background-color: #393939 !important; }
@@ -2275,24 +2250,6 @@ html[lang^=nm] .listing-page .link:hover {
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
   border-left-color: rgba(6, 102, 178, 0.5) !important; }
-.res-nightmode .side .titlebox div.subButtons,
-.res-nightmode .side .titlebox h1.redditname + div,
-.res-nightmode .side .titlebox > .fancy-toggle-button,
-html[lang^=nm] .side .titlebox div.subButtons,
-html[lang^=nm] .side .titlebox h1.redditname + div,
-html[lang^=nm] .side .titlebox > .fancy-toggle-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode .titlebox form.toggle,
-html[lang^=nm] .titlebox form.toggle {
-  background: #222;
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  color: #eee; }
 .res-nightmode div.titlebox .md h1:after,
 .res-nightmode div.titlebox .md h2:after,
 .res-nightmode div.titlebox .md h3:after,
@@ -2534,6 +2491,29 @@ html[lang^=nm] .date time {
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
   background: #393939 !important; }
+
+.res-nightmode .res .RES-keyNav-activeElement {
+  background-color: #292929 !important; }
+.res-nightmode .res .commentarea .RES-keyNav-activeElement .md, .res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+  background-color: #292929 !important; }
+.res-nightmode .RES-keyNav-activeElement {
+  background-color: #292929 !important; }
+  .res-nightmode .RES-keyNav-activeElement .md-container {
+    background-color: #292929 !important; }
+.res-nightmode .arrow.upmod {
+  background-position: -296px -60px !important; }
+.res-nightmode .arrow.down {
+  background-position: -321px -60px !important; }
+.res-nightmode .arrow.up {
+  background-position: -289px -194px !important; }
+.res-nightmode .arrow.downmod {
+  background-position: -271px -60px !important; }
+.res-nightmode .side .titlebox > .fancy-toggle-button {
+  background: #222 !important;
+  color: #ddd !important; }
+
+.res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
+  background-color: transparent !important; }
 
 .res .message-count,
 .res .side .userTagLink {
