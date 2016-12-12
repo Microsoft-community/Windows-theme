@@ -1943,24 +1943,6 @@ div.commentarea .infobar p {
     background-position: 0 0, 0 0, 0 0; }
   to {
     background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-.res-nightmode .comment .md {
-  color: #ddd !important; }
-.res-nightmode .date {
-  color: #ddd !important; }
-  .res-nightmode .date:before {
-    background: #222 !important; }
-.res-nightmode .flair {
-  color: #ddd !important; }
-.res-nightmode .footer div.col a, .res-nightmode .footer::after {
-  color: #ddd !important; }
-.res-nightmode .linkinfo .shortlink {
-  color: #ddd !important; }
-.res-nightmode .totalvotes {
-  background: #222 !important;
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  border-top: 1px solid #393939 !important; }
 .res-nightmode .date time,
 .res-nightmode .linkinfo .score {
   color: #ddd !important; }
@@ -1972,8 +1954,6 @@ div.commentarea .infobar p {
   background-position: -289px -194px !important; }
 .res-nightmode .arrow.downmod {
   background-position: -271px -60px !important; }
-.res-nightmode #header {
-  background: #222 !important; }
 .res-nightmode .icon-menu li,
 .res-nightmode .reddit-link:hover {
   background-color: #393939 !important;
@@ -1982,16 +1962,6 @@ div.commentarea .infobar p {
 .res-nightmode .sidecontentbox .more:hover {
   background-color: #393939 !important;
   border-left-color: rgba(6, 102, 178, 0.5) !important; }
-.res-nightmode div.titlebox .md ul li:hover {
-  background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
-.res-nightmode #searchexpando,
-.res-nightmode .icon-menu li {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
 .res-nightmode .linkinfo .score,
 .res-nightmode .linkinfo .shortlink {
   border-bottom: 1px solid #393939 !important;
@@ -2005,14 +1975,6 @@ div.commentarea .infobar p {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
-.res-nightmode .side .titlebox div.subButtons,
-.res-nightmode .side .titlebox h1.redditname + div,
-.res-nightmode .side .titlebox > .fancy-toggle-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
 .res-nightmode .sidecontentbox .content a.author,
 .res-nightmode .sidecontentbox .more {
   border-bottom: 1px solid #393939 !important;
@@ -2020,40 +1982,7 @@ div.commentarea .infobar p {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
-.res-nightmode div.side div.leavemoderator, .res-nightmode div.side div.tagline {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.side form.flairtoggle, .res-nightmode div.side form.leavecontributor-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.side p.users-online,
-.res-nightmode div.side span.subscribers {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-.res-nightmode div.titlebox .md ul li {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
 .res-nightmode .side .titlebox > .fancy-toggle-button {
-  background: #222 !important;
-  color: #ddd !important; }
-.res-nightmode div.side div.tagline,
-.res-nightmode div.side form.flairtoggle,
-.res-nightmode div.side span.subscribers {
-  background: #222 !important;
-  color: #ddd !important; }
-.res-nightmode div.titlebox .md ul li {
   background: #222 !important;
   color: #ddd !important; }
 .res-nightmode #sr-header-area {
@@ -2062,102 +1991,26 @@ div.commentarea .infobar p {
 .res-nightmode .side .morelink a:hover,
 .res-nightmode button:hover {
   background-color: #393939 !important; }
-.res-nightmode #header,
-.res-nightmode .account-activity-box,
-.res-nightmode .morelink,
-.res-nightmode .nextprev a {
-  background: #222 !important; }
-.res-nightmode .sidecontentbox .title,
-.res-nightmode .sidecontentbox a.helplink {
-  background: #222 !important; }
-.res-nightmode div.titlebox .md h2,
-.res-nightmode div.titlebox .md h3,
-.res-nightmode div.titlebox .md h4 {
-  background: #222 !important; }
-.res-nightmode div.titlebox h1 {
-  background: #222 !important; }
-.res-nightmode #header #header-bottom-right #mail:hover,
-.res-nightmode #header #header-bottom-right #modmail:hover,
-.res-nightmode #header #header-bottom-right .choice:hover,
-.res-nightmode #header #header-bottom-right .logout:hover,
-.res-nightmode #header #header-bottom-right .user:hover {
-  background-color: #393939 !important; }
-.res-nightmode #header #header-bottom-right .logout a,
-.res-nightmode #header #header-bottom-right .nohavemail#mail {
-  background-color: transparent !important;
-  outline: 0 !important; }
-.res-nightmode #header-bottom-right #modmail,
-.res-nightmode #header-bottom-right .choice,
-.res-nightmode #header-bottom-right .user {
-  background-color: transparent !important;
-  outline: 0 !important; }
 .res-nightmode .titlebox form.toggle {
   border-color: #393939 !important;
   background: #222 !important; }
-.res-nightmode #header-bottom-left .tabmenu,
-.res-nightmode #header-img {
-  background: 0 0;
-  background-color: transparent !important; }
 .res-nightmode .morelink a {
   color: #fff !important; }
-.res-nightmode div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #393939 !important; }
 .res-nightmode .link {
   border-left-color: transparent;
   border-bottom: 1px solid #2D2E32;
   border-right: 1px solid #2D2E32; }
   .res-nightmode .link .score.likes {
     color: #7A0218; }
-.res-nightmode #siteTable .thing {
-  background: #202020; }
 .res-nightmode .linklisting {
   border-right: 1px solid #393939 !important; }
-.res-nightmode .listing-page .link:hover {
-  background: #393939 !important;
-  border-left-color: #a9a9a9 !important; }
-.res-nightmode button {
-  border: none; }
+  .res-nightmode .linklisting .link:hover {
+    background: #393939 !important;
+    border-left-color: #a9a9a9 !important; }
 .res-nightmode input[type=button], .res-nightmode input[type=reset], .res-nightmode input[type=submit] {
   border: none; }
 .res-nightmode submit {
   border: none; }
-.res-nightmode .account-activity-box:hover,
-.res-nightmode .link .usertext-body .md {
-  background-color: #393939 !important; }
-.res-nightmode .flairselector {
-  background-color: #222 !important; }
-.res-nightmode .sitetable .comment .comment {
-  background-color: #393939 !important; }
-  .res-nightmode .sitetable .comment .comment .comment .comment {
-    background-color: #393939 !important; }
-    .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment {
-      background-color: #393939 !important; }
-      .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #393939 !important; }
-        .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-          background-color: #393939 !important; }
-          .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-            background-color: #393939 !important; }
-            .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #393939 !important; }
-              .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                background-color: #393939 !important; }
-.res-nightmode .sitetable .comment {
-  background-color: #222 !important; }
-  .res-nightmode .sitetable .comment .comment .comment {
-    background-color: #222 !important; }
-    .res-nightmode .sitetable .comment .comment .comment .comment .comment {
-      background-color: #222 !important; }
-      .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #222 !important; }
-        .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-          background-color: #222 !important; }
-          .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-            background-color: #222 !important; }
-            .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #222 !important; }
-              .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                background-color: #222 !important; }
 .res-nightmode .content {
   margin-bottom: 0;
   margin-top: 0; }
@@ -2173,295 +2026,41 @@ div.commentarea .infobar p {
   border-bottom: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
-
-html[lang^=nm] .comment .md {
-  color: #ddd !important; }
-html[lang^=nm] .date {
-  color: #ddd !important; }
-  html[lang^=nm] .date::before {
-    color: #ddd !important; }
-html[lang^=nm] .flair {
-  color: #ddd !important; }
-html[lang^=nm] .footer div.col a, html[lang^=nm] .footer::after {
-  color: #ddd !important; }
-html[lang^=nm] .linkinfo .shortlink,
-html[lang^=nm] .side .titlebox > .fancy-toggle-button {
-  color: #ddd !important; }
-html[lang^=nm] div.side div.tagline,
-html[lang^=nm] div.side form.flairtoggle,
-html[lang^=nm] div.side span.subscribers {
-  color: #ddd !important; }
-html[lang^=nm] div.titlebox .md ul li {
-  color: #ddd !important; }
-html[lang^=nm] #header,
-html[lang^=nm] .account-activity-box,
-html[lang^=nm] .date:before,
-html[lang^=nm] .morelink,
-html[lang^=nm] .nextprev a {
-  background: #222 !important; }
-html[lang^=nm] .sidecontentbox .title,
-html[lang^=nm] .sidecontentbox a.helplink {
-  background: #222 !important; }
-html[lang^=nm] div.titlebox .md h2,
-html[lang^=nm] div.titlebox .md h3,
-html[lang^=nm] div.titlebox .md h4 {
-  background: #222 !important; }
-html[lang^=nm] div.titlebox h1 {
-  background: #222 !important; }
-html[lang^=nm] #header #header-bottom-right #mail.nohavemail,
-html[lang^=nm] #header #header-bottom-right .logout a {
-  background-color: transparent !important;
-  outline: 0 !important; }
-html[lang^=nm] #header-bottom-right #modmail,
-html[lang^=nm] #header-bottom-right .choice,
-html[lang^=nm] #header-bottom-right .user {
-  background-color: transparent !important;
-  outline: 0 !important; }
-html[lang^=nm] #siteTable .thing {
-  background: #202020; }
-html[lang^=nm] .comments-page .link {
-  border-left-color: transparent !important;
-  border-bottom: 1px solid #393939; }
-html[lang^=nm] .comments-page .usertext-edit div textarea {
-  color: #222; }
-html[lang^=nm] .link {
-  border-left-color: transparent;
-  border-bottom: 1px solid #2D2E32;
-  border-right: 1px solid #2D2E32; }
-html[lang^=nm] body {
-  background: #1a1a1a !important; }
-  html[lang^=nm] body:not(.res-nightmode) .linklisting {
-    border-right: 1px solid #393939 !important; }
-html[lang^=nm] #searchexpando {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .side .titlebox div.subButtons,
-html[lang^=nm] .side .titlebox h1.redditname + div,
-html[lang^=nm] .side .titlebox > .fancy-toggle-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .totalvotes {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] div.side div.leavemoderator, html[lang^=nm] div.side div.tagline {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] div.side form.flairtoggle, html[lang^=nm] div.side form.leavecontributor-button {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] div.side p.users-online,
-html[lang^=nm] div.side span.subscribers {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] div.titlebox .md ul li {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .account-activity-box:hover,
-html[lang^=nm] .link .usertext-body .md {
-  background-color: #393939 !important; }
-html[lang^=nm] .flairselector {
-  background-color: #222 !important; }
-html[lang^=nm] .sitetable .comment .comment {
-  background-color: #393939 !important; }
-  html[lang^=nm] .sitetable .comment .comment .comment .comment {
-    background-color: #393939 !important; }
-    html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment {
-      background-color: #393939 !important; }
-      html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #393939 !important; }
-        html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-          background-color: #393939 !important; }
-          html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-            background-color: #393939 !important; }
-            html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #393939 !important; }
-              html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                background-color: #393939 !important; }
-html[lang^=nm] .sitetable .comment {
-  background-color: #222 !important; }
-  html[lang^=nm] .sitetable .comment .comment .comment {
-    background-color: #222 !important; }
-    html[lang^=nm] .sitetable .comment .comment .comment .comment .comment {
-      background-color: #222 !important; }
-      html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #222 !important; }
-        html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-          background-color: #222 !important; }
-          html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-            background-color: #222 !important; }
-            html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #222 !important; }
-              html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                background-color: #222 !important; }
-html[lang^=nm] button {
-  background-color: #222 !important; }
-html[lang^=nm] a {
-  color: #f8f8ff; }
-html[lang^=nm] #header-bottom-left .tabmenu,
-html[lang^=nm] .new-comment .usertext-body {
-  background-color: transparent;
-  border: none; }
-html[lang^=nm] #header-img.default-header {
+.res-nightmode .res .RES-keyNav-activeElement {
   background-color: transparent !important; }
-html[lang^=nm] .sidecontentbox .title:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #393939 transparent transparent !important; }
-html[lang^=nm] div.titlebox .md h2:after,
-html[lang^=nm] div.titlebox .md h3:after,
-html[lang^=nm] div.titlebox .md h4:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #393939 transparent transparent !important; }
-html[lang^=nm] div.titlebox h1:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #393939 transparent transparent !important; }
-html[lang^=nm] #previoussearch #moresearchinfo {
-  color: #eee !important; }
-html[lang^=nm] .md {
-  color: #eee !important; }
-  html[lang^=nm] .md blockquote,
-  html[lang^=nm] .md del {
-    color: #eee !important; }
-html[lang^=nm] .roundfield label,
-html[lang^=nm] .search-result-body,
-html[lang^=nm] div.side #searchexpando {
-  color: #eee !important; }
-html[lang^=nm] .submit-page .roundfield .title {
-  color: #eee; }
-html[lang^=nm] .md blockquote {
-  background: rgba(0, 87, 166, 0.24); }
-html[lang^=nm] #header #header-bottom-right #mail:hover,
-html[lang^=nm] #header #header-bottom-right #modmail:hover,
-html[lang^=nm] #header #header-bottom-right .choice:hover,
-html[lang^=nm] #header #header-bottom-right .logout:hover,
-html[lang^=nm] #header #header-bottom-right .user:hover {
-  background-color: #393939 !important; }
-html[lang^=nm] #header-bottom-left .tabmenu li.selected a,
-html[lang^=nm] .nextprev a:hover,
-html[lang^=nm] .side .morelink a:hover,
-html[lang^=nm] button:hover {
-  background-color: #393939 !important; }
-html[lang^=nm] .debuginfo {
-  background: #393939 !important; }
+.res-nightmode .res .commentarea .RES-keyNav-activeElement .md, .res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
+  background-color: transparent !important; }
+
 html[lang^=nm] .thing .title:visited, html[lang^=nm] .thing.visited .title {
   color: #808c94; }
 html[lang^=nm] .thing .title {
   color: #B5C4D0; }
-html[lang^=nm] .listing-page .link:hover {
-  background: #393939 !important;
-  border-left-color: #a9a9a9 !important; }
-html[lang^=nm] div.titlebox .md ul li:hover {
-  background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
-html[lang^=nm] .footer {
-  border-right: none !important;
-  border-top: none; }
-html[lang^=nm] a[href*="#square"]::before {
-  border: 3px solid #393939; }
 html[lang^=nm] .content.submit .info-notice,
 html[lang^=nm] .submit-page .roundfield {
   background-color: #222;
   color: #eee; }
-html[lang^=nm] .sidecontentbox a.helplink:hover {
-  background-color: #393939 !important; }
 html[lang^=nm] #header #header-bottom-right #mail.havemail {
   outline: 0; }
-html[lang^=nm] .tagline .likes {
-  color: #7A0218 !important; }
-html[lang^=nm] ::-webkit-scrollbar {
-  background-color: #393939; }
-html[lang^=nm] ::-webkit-scrollbar-thumb {
-  background-color: #666;
-  border: 2px solid #333;
-  transition: background-color 0.5s; }
-  html[lang^=nm] ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-    transition: background-color 0.5s; }
-  html[lang^=nm] ::-webkit-scrollbar-thumb:active {
-    background-color: #bbb; }
-html[lang^=nm] ::-webkit-scrollbar-corner {
-  color: #555; }
-html[lang^=nm] .tagline .submitter {
-  color: #7A0218 !important; }
 html[lang^=nm] .formtabs-content .infobar {
   border-color: transparent !important; }
 html[lang^=nm] .infobar {
   border-color: #ff4500 !important; }
-html[lang^=nm] #eu-cookie-policy .reddit-infobar p {
-  color: #222 !important; }
-html[lang^=nm] .comment .usertext .md p > a:visited,
-html[lang^=nm] .md a,
-html[lang^=nm] .res.res-nightmode .tagline a,
-html[lang^=nm] h2 a:visited {
-  color: #3498db; }
-html[lang^=nm] .res .RES-keyNav-activeElement {
-  background-color: transparent !important; }
-html[lang^=nm] .res .commentarea .RES-keyNav-activeElement .md, html[lang^=nm] .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
-  background-color: transparent !important; }
-html[lang^=nm] .md blockquote {
-  border-left: 2px solid #7A0218 !important;
-  color: #888 !important; }
 html[lang^=nm] span.score {
   color: #888 !important; }
-html[lang^=nm] .author[href$=jenmsft],
-html[lang^=nm] .buttons .comments.empty,
-html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
-html[lang^=nm] .entry .flat-list .report-button a,
-html[lang^=nm] .helplink ~ .content .author::after {
-  color: #7A0218 !important; }
-html[lang^=nm] .md code {
-  border: none !important;
-  background-color: #393939 !important;
-  border-radius: 0 !important;
-  border-left: 3px solid #7A0218 !important; }
-html[lang^=nm] .RES-keyNav-activeElement {
-  background-color: #292929 !important; }
-  html[lang^=nm] .RES-keyNav-activeElement .md-container {
-    background-color: #292929 !important; }
 html[lang^=nm] .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
 html[lang^=nm] .res .commentarea .RES-keyNav-activeElement .md, html[lang^=nm] .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background-color: #292929 !important; }
-html[lang^=nm] .commentingAs,
-html[lang^=nm] .date time,
-html[lang^=nm] .edit-stylesheet.choice:after,
-html[lang^=nm] .linkinfo .score,
-html[lang^=nm] .wiki-page .wiki-page-content {
-  color: #ddd !important; }
+html[lang^=nm] .RES-keyNav-activeElement {
+  background-color: #292929 !important; }
+  html[lang^=nm] .RES-keyNav-activeElement .md-container {
+    background-color: #292929 !important; }
 html[lang^=nm] .titlebox form.toggle {
   background: #222;
   border-bottom: 1px solid #393939 !important;
   border-left: 5px solid #393939 !important;
   border-right: 1px solid #393939 !important;
   color: #eee; }
-html[lang^=nm] div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #393939 !important; }
 html[lang^=nm] .comment.spam > .child,
 html[lang^=nm] .message.spam > .child,
 html[lang^=nm] .usertext.grayed .usertext-body {
@@ -2469,50 +2068,6 @@ html[lang^=nm] .usertext.grayed .usertext-body {
 html[lang^=nm] div.commentarea .infobar {
   color: #eee;
   border: none; }
-html[lang^=nm] a[href*='#icon-day'] {
-  display: inline-block !important; }
-  html[lang^=nm] a[href*='#icon-day']::before {
-    display: inline-block !important; }
-html[lang^=nm] a[href*='#icon-night'] {
-  display: none; }
-html[lang^=nm] #search input[type=text] {
-  background: #222 !important; }
-html[lang^=nm] .icon-menu li:hover,
-html[lang^=nm] .reddit-link:hover {
-  background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
-html[lang^=nm] .sidecontentbox .content a.author:hover,
-html[lang^=nm] .sidecontentbox .more:hover {
-  background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
-html[lang^=nm] .icon-menu li {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .linkinfo .score,
-html[lang^=nm] .linkinfo .shortlink {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .reddit-link {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] .sidecontentbox .content a.author,
-html[lang^=nm] .sidecontentbox .more {
-  border-bottom: 1px solid #393939 !important;
-  border-left: 5px solid #393939 !important;
-  border-right: 1px solid #393939 !important;
-  background: #222 !important;
-  border-top: 1px solid #393939 !important; }
-html[lang^=nm] textarea {
-  color: #000 !important; }
 html[lang^=nm] .shortlink input {
   background: #393939;
   color: #ddd; }
@@ -2522,50 +2077,422 @@ html[lang^=nm] .date time {
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
 
-.res-nightmode .date:after,
-html[lang^=nm] .date:after {
-  border-color: transparent #393939 transparent transparent !important; }
-
-.res-nightmode .date span,
-html[lang^=nm] .date span {
-  border-left: 5px solid #393939 !important;
-  color: #ddd;
-  border-right-color: #393939; }
-
-.res-nightmode .date time,
-html[lang^=nm] .date time {
-  border-right: 1px solid #393939 !important; }
-
-.res-nightmode .link.last-clicked,
-html[lang^=nm] .link.last-clicked {
-  background: #393939 !important; }
-
-.res-nightmode a[href*="#Donsiders"],
-.res-nightmode a[href*="#btn"],
 html[lang^=nm] a[href*="#Donsiders"],
 html[lang^=nm] a[href*="#btn"] {
   color: #fff !important; }
-.res-nightmode .comment,
 html[lang^=nm] .comment {
   border: 1px solid #43474F; }
 
-.res-nightmode body > .content #siteTable .thing.self .thumbnail,
-html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
-  background-position: -77px -5px; }
-.res-nightmode body > .content #siteTable .thing .thumbnail.default,
-html[lang^=nm] body > .content #siteTable .thing .thumbnail.default {
-  background-position: -174px -77px; }
-.res-nightmode div.side span.subscribers span.number:before,
-html[lang^=nm] div.side span.subscribers span.number:before {
-  background-position: -162px -5px; }
-.res-nightmode a[href*='#icon-day']::before,
-html[lang^=nm] a[href*='#icon-day']::before {
-  display: none;
-  height: 20px;
-  width: 20px;
-  content: '';
-  margin: 0 7px -4px 0;
-  background: url(%%spritesheet%%) -85px -294px; }
+.res-nightmode body,
+html[lang^=nm] body {
+  background: #1a1a1a !important; }
+.res-nightmode a,
+html[lang^=nm] a {
+  color: #f8f8ff; }
+.res-nightmode #previoussearch #moresearchinfo,
+.res-nightmode .roundfield label,
+.res-nightmode .search-result-body,
+.res-nightmode div.side #searchexpando,
+.res-nightmode .submit-page .roundfield .title,
+.res-nightmode .md,
+.res-nightmode .md blockquote,
+.res-nightmode .md del,
+html[lang^=nm] #previoussearch #moresearchinfo,
+html[lang^=nm] .roundfield label,
+html[lang^=nm] .search-result-body,
+html[lang^=nm] div.side #searchexpando,
+html[lang^=nm] .submit-page .roundfield .title,
+html[lang^=nm] .md,
+html[lang^=nm] .md blockquote,
+html[lang^=nm] .md del {
+  color: #eee !important; }
+.res-nightmode .md blockquote,
+html[lang^=nm] .md blockquote {
+  background: rgba(0, 87, 166, 0.24);
+  border-left: 2px solid #7A0218 !important;
+  color: #888 !important; }
+.res-nightmode .md code,
+html[lang^=nm] .md code {
+  border: none !important;
+  background-color: #393939 !important;
+  border-radius: 0 !important;
+  border-left: 3px solid #7A0218 !important; }
+.res-nightmode .commentingAs,
+.res-nightmode .date time,
+.res-nightmode .edit-stylesheet.choice:after,
+.res-nightmode .linkinfo .score,
+.res-nightmode .wiki-page .wiki-page-content,
+html[lang^=nm] .commentingAs,
+html[lang^=nm] .date time,
+html[lang^=nm] .edit-stylesheet.choice:after,
+html[lang^=nm] .linkinfo .score,
+html[lang^=nm] .wiki-page .wiki-page-content {
+  color: #ddd !important; }
+.res-nightmode #header,
+.res-nightmode .account-activity-box,
+.res-nightmode .date:before,
+.res-nightmode .morelink,
+.res-nightmode .nextprev a,
+html[lang^=nm] #header,
+html[lang^=nm] .account-activity-box,
+html[lang^=nm] .date:before,
+html[lang^=nm] .morelink,
+html[lang^=nm] .nextprev a {
+  background: #222 !important; }
+.res-nightmode #header #header-bottom-right #mail:hover,
+.res-nightmode #header #header-bottom-right #modmail:hover,
+.res-nightmode #header #header-bottom-right .choice:hover,
+.res-nightmode #header #header-bottom-right .logout:hover,
+.res-nightmode #header #header-bottom-right .user:hover,
+html[lang^=nm] #header #header-bottom-right #mail:hover,
+html[lang^=nm] #header #header-bottom-right #modmail:hover,
+html[lang^=nm] #header #header-bottom-right .choice:hover,
+html[lang^=nm] #header #header-bottom-right .logout:hover,
+html[lang^=nm] #header #header-bottom-right .user:hover {
+  background-color: #393939 !important; }
+.res-nightmode #header #header-bottom-right .logout a,
+.res-nightmode #header #header-bottom-right .nohavemail#mail,
+html[lang^=nm] #header #header-bottom-right .logout a,
+html[lang^=nm] #header #header-bottom-right .nohavemail#mail {
+  background-color: transparent !important;
+  outline: 0 !important; }
+.res-nightmode #header-bottom-right #modmail,
+.res-nightmode #header-bottom-right .choice,
+.res-nightmode #header-bottom-right .user,
+html[lang^=nm] #header-bottom-right #modmail,
+html[lang^=nm] #header-bottom-right .choice,
+html[lang^=nm] #header-bottom-right .user {
+  background-color: transparent !important;
+  outline: 0 !important; }
+.res-nightmode #header-bottom-left .tabmenu,
+.res-nightmode #header-img,
+.res-nightmode #header-img.default-header,
+html[lang^=nm] #header-bottom-left .tabmenu,
+html[lang^=nm] #header-img,
+html[lang^=nm] #header-img.default-header {
+  background: transparent !important; }
+.res-nightmode #header-bottom-left .tabmenu,
+.res-nightmode .new-comment .usertext-body,
+html[lang^=nm] #header-bottom-left .tabmenu,
+html[lang^=nm] .new-comment .usertext-body {
+  background-color: transparent;
+  border: none; }
+.res-nightmode #siteTable .thing,
+html[lang^=nm] #siteTable .thing {
+  background: #202020; }
+.res-nightmode .date,
+html[lang^=nm] .date {
+  color: #ddd !important; }
+  .res-nightmode .date::before,
+  html[lang^=nm] .date::before {
+    color: #ddd !important; }
+.res-nightmode .flair,
+html[lang^=nm] .flair {
+  color: #ddd !important; }
+.res-nightmode .footer,
+html[lang^=nm] .footer {
+  border-right: none !important;
+  border-top: none; }
+  .res-nightmode .footer div.col a, .res-nightmode .footer::after,
+  html[lang^=nm] .footer div.col a,
+  html[lang^=nm] .footer::after {
+    color: #ddd !important; }
+.res-nightmode .linkinfo .shortlink,
+.res-nightmode .side .titlebox > .fancy-toggle-button,
+html[lang^=nm] .linkinfo .shortlink,
+html[lang^=nm] .side .titlebox > .fancy-toggle-button {
+  color: #ddd !important; }
+.res-nightmode div.side div.tagline,
+.res-nightmode div.side form.flairtoggle,
+.res-nightmode div.side span.subscribers,
+html[lang^=nm] div.side div.tagline,
+html[lang^=nm] div.side form.flairtoggle,
+html[lang^=nm] div.side span.subscribers {
+  background: #222 !important;
+  color: #ddd !important; }
+.res-nightmode div.titlebox .md ul li,
+html[lang^=nm] div.titlebox .md ul li {
+  background: #222 !important;
+  color: #ddd !important; }
+.res-nightmode .sidecontentbox .title,
+.res-nightmode .sidecontentbox a.helplink,
+html[lang^=nm] .sidecontentbox .title,
+html[lang^=nm] .sidecontentbox a.helplink {
+  background: #222 !important; }
+.res-nightmode div.titlebox .md h2,
+.res-nightmode div.titlebox .md h3,
+.res-nightmode div.titlebox .md h4,
+html[lang^=nm] div.titlebox .md h2,
+html[lang^=nm] div.titlebox .md h3,
+html[lang^=nm] div.titlebox .md h4 {
+  background: #222 !important; }
+.res-nightmode div.titlebox h1,
+html[lang^=nm] div.titlebox h1 {
+  background: #222 !important; }
+.res-nightmode #searchexpando,
+.res-nightmode .icon-menu li,
+.res-nightmode .totalvotes,
+html[lang^=nm] #searchexpando,
+html[lang^=nm] .icon-menu li,
+html[lang^=nm] .totalvotes {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode div.side div.leavemoderator, .res-nightmode div.side div.tagline,
+html[lang^=nm] div.side div.leavemoderator,
+html[lang^=nm] div.side div.tagline {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode div.side form.flairtoggle, .res-nightmode div.side form.leavecontributor-button,
+html[lang^=nm] div.side form.flairtoggle,
+html[lang^=nm] div.side form.leavecontributor-button {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode div.side p.users-online,
+.res-nightmode div.side span.subscribers,
+html[lang^=nm] div.side p.users-online,
+html[lang^=nm] div.side span.subscribers {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode div.titlebox .md ul li,
+html[lang^=nm] div.titlebox .md ul li {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode .sitetable .comment .comment,
+html[lang^=nm] .sitetable .comment .comment {
+  background-color: #393939 !important; }
+  .res-nightmode .sitetable .comment .comment .comment .comment,
+  html[lang^=nm] .sitetable .comment .comment .comment .comment {
+    background-color: #393939 !important; }
+    .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment,
+    html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment {
+      background-color: #393939 !important; }
+      .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment,
+      html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment {
+        background-color: #393939 !important; }
+        .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+        html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+          background-color: #393939 !important; }
+          .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+          html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+            background-color: #393939 !important; }
+            .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+            html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+              background-color: #393939 !important; }
+              .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+              html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                background-color: #393939 !important; }
+.res-nightmode .sitetable .comment,
+html[lang^=nm] .sitetable .comment {
+  background-color: #222 !important; }
+  .res-nightmode .sitetable .comment .comment .comment,
+  html[lang^=nm] .sitetable .comment .comment .comment {
+    background-color: #222 !important; }
+    .res-nightmode .sitetable .comment .comment .comment .comment .comment,
+    html[lang^=nm] .sitetable .comment .comment .comment .comment .comment {
+      background-color: #222 !important; }
+      .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment,
+      html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment {
+        background-color: #222 !important; }
+        .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+        html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+          background-color: #222 !important; }
+          .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+          html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+            background-color: #222 !important; }
+            .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+            html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+              background-color: #222 !important; }
+              .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+              html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+                background-color: #222 !important; }
+.res-nightmode button,
+html[lang^=nm] button {
+  border: none;
+  background-color: #222 !important; }
+.res-nightmode a[href*="#square"]::before,
+html[lang^=nm] a[href*="#square"]::before {
+  border: 3px solid #393939; }
+.res-nightmode .link,
+html[lang^=nm] .link {
+  border-left-color: transparent;
+  border-bottom: 1px solid #2D2E32 !important;
+  border-right: 1px solid #2D2E32; }
+.res-nightmode .listing-page .link:hover,
+html[lang^=nm] .listing-page .link:hover {
+  background: #393939 !important;
+  border-left-color: #a9a9a9 !important; }
+.res-nightmode div.titlebox .md ul li:hover,
+html[lang^=nm] div.titlebox .md ul li:hover {
+  background-color: #393939 !important;
+  border-left-color: rgba(6, 102, 178, 0.5) !important; }
+.res-nightmode .side .titlebox div.subButtons,
+.res-nightmode .side .titlebox h1.redditname + div,
+.res-nightmode .side .titlebox > .fancy-toggle-button,
+html[lang^=nm] .side .titlebox div.subButtons,
+html[lang^=nm] .side .titlebox h1.redditname + div,
+html[lang^=nm] .side .titlebox > .fancy-toggle-button {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode div.titlebox .md h1:after,
+.res-nightmode div.titlebox .md h2:after,
+.res-nightmode div.titlebox .md h3:after,
+.res-nightmode div.titlebox .md h4:after,
+html[lang^=nm] div.titlebox .md h1:after,
+html[lang^=nm] div.titlebox .md h2:after,
+html[lang^=nm] div.titlebox .md h3:after,
+html[lang^=nm] div.titlebox .md h4:after {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-color: transparent #393939 transparent transparent !important; }
+.res-nightmode div.titlebox h1:after,
+.res-nightmode div.titlebox .sidecontentbox .title:after,
+html[lang^=nm] div.titlebox h1:after,
+html[lang^=nm] div.titlebox .sidecontentbox .title:after {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-color: transparent #393939 transparent transparent !important; }
+.res-nightmode .flairselector,
+.res-nightmode .comments-page .usertext-edit div textarea,
+.res-nightmode #eu-cookie-policy .reddit-infobar p,
+.res-nightmode #search input[type=text],
+html[lang^=nm] .flairselector,
+html[lang^=nm] .comments-page .usertext-edit div textarea,
+html[lang^=nm] #eu-cookie-policy .reddit-infobar p,
+html[lang^=nm] #search input[type=text] {
+  background-color: #222 !important; }
+.res-nightmode .account-activity-box:hover,
+.res-nightmode .link .usertext-body .md,
+.res-nightmode .debuginfo,
+.res-nightmode #header-bottom-left .tabmenu li.selected a,
+.res-nightmode .nextprev a:hover,
+.res-nightmode .side .morelink a:hover,
+.res-nightmode button:hover,
+.res-nightmode .sidecontentbox a.helplink:hover,
+.res-nightmode .tagline .likes,
+.res-nightmode .tagline .submitter,
+.res-nightmode .buttons .comments.empty,
+.res-nightmode .comments-page .link .flat-list a.flairselectbtn,
+.res-nightmode .entry .flat-list .report-button a,
+.res-nightmode .helplink ~ .content .author::after,
+.res-nightmode div.titlebox span.fancy-toggle-button a.active.remove,
+html[lang^=nm] .account-activity-box:hover,
+html[lang^=nm] .link .usertext-body .md,
+html[lang^=nm] .debuginfo,
+html[lang^=nm] #header-bottom-left .tabmenu li.selected a,
+html[lang^=nm] .nextprev a:hover,
+html[lang^=nm] .side .morelink a:hover,
+html[lang^=nm] button:hover,
+html[lang^=nm] .sidecontentbox a.helplink:hover,
+html[lang^=nm] .tagline .likes,
+html[lang^=nm] .tagline .submitter,
+html[lang^=nm] .buttons .comments.empty,
+html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
+html[lang^=nm] .entry .flat-list .report-button a,
+html[lang^=nm] .helplink ~ .content .author::after,
+html[lang^=nm] div.titlebox span.fancy-toggle-button a.active.remove {
+  background-color: #393939 !important; }
+.res-nightmode .comment .usertext .md p > a:visited,
+.res-nightmode .md a,
+.res-nightmode h2 a:visited,
+html[lang^=nm] .comment .usertext .md p > a:visited,
+html[lang^=nm] .md a,
+html[lang^=nm] h2 a:visited {
+  color: #3498db; }
+.res-nightmode ::-webkit-scrollbar,
+html[lang^=nm] ::-webkit-scrollbar {
+  background-color: #393939; }
+.res-nightmode ::-webkit-scrollbar-thumb,
+html[lang^=nm] ::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border: 2px solid #333;
+  transition: background-color 0.5s; }
+  .res-nightmode ::-webkit-scrollbar-thumb:hover,
+  html[lang^=nm] ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    transition: background-color 0.5s; }
+  .res-nightmode ::-webkit-scrollbar-thumb:active,
+  html[lang^=nm] ::-webkit-scrollbar-thumb:active {
+    background-color: #bbb; }
+.res-nightmode ::-webkit-scrollbar-corner,
+html[lang^=nm] ::-webkit-scrollbar-corner {
+  color: #555; }
+.res-nightmode .icon-menu li,
+.res-nightmode .reddit-link,
+html[lang^=nm] .icon-menu li,
+html[lang^=nm] .reddit-link {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+  .res-nightmode .icon-menu li:hover,
+  .res-nightmode .reddit-link:hover,
+  html[lang^=nm] .icon-menu li:hover,
+  html[lang^=nm] .reddit-link:hover {
+    background-color: #393939 !important;
+    border-left-color: rgba(6, 102, 178, 0.5) !important; }
+.res-nightmode .sidecontentbox .content a.author,
+.res-nightmode .sidecontentbox .more,
+html[lang^=nm] .sidecontentbox .content a.author,
+html[lang^=nm] .sidecontentbox .more {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+  .res-nightmode .sidecontentbox .content a.author:hover,
+  .res-nightmode .sidecontentbox .more:hover,
+  html[lang^=nm] .sidecontentbox .content a.author:hover,
+  html[lang^=nm] .sidecontentbox .more:hover {
+    background-color: #393939 !important;
+    border-left-color: rgba(6, 102, 178, 0.5) !important; }
+.res-nightmode .linkinfo .score,
+.res-nightmode .linkinfo .shortlink,
+html[lang^=nm] .linkinfo .score,
+html[lang^=nm] .linkinfo .shortlink {
+  border-bottom: 1px solid #393939 !important;
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  background: #222 !important;
+  border-top: 1px solid #393939 !important; }
+.res-nightmode textarea,
+html[lang^=nm] textarea {
+  color: #000 !important; }
+.res-nightmode a[href*='#icon-day'],
+html[lang^=nm] a[href*='#icon-day'] {
+  display: inline-block !important; }
+  .res-nightmode a[href*='#icon-day']::before,
+  html[lang^=nm] a[href*='#icon-day']::before {
+    display: inline-block !important;
+    display: none;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+    background: url(%%spritesheet%%) -85px -294px; }
+.res-nightmode a[href*='#icon-night'],
+html[lang^=nm] a[href*='#icon-night'] {
+  display: none; }
 .res-nightmode a[href*="#icon-chat"]::before,
 html[lang^=nm] a[href*="#icon-chat"]::before {
   background-image: url(%%wincore-2%%);
@@ -2591,6 +2518,15 @@ html[lang^=nm] a[href*="#iconz-install"]::before {
 .res-nightmode a[href*="#iconz-wiki"]::before,
 html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
+.res-nightmode body > .content #siteTable .thing.self .thumbnail,
+html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
+  background-position: -77px -5px; }
+.res-nightmode body > .content #siteTable .thing .thumbnail.default,
+html[lang^=nm] body > .content #siteTable .thing .thumbnail.default {
+  background-position: -174px -77px; }
+.res-nightmode div.side span.subscribers span.number:before,
+html[lang^=nm] div.side span.subscribers span.number:before {
+  background-position: -162px -5px; }
 .res-nightmode .expando-button.selftext.collapsed,
 html[lang^=nm] .expando-button.selftext.collapsed {
   background-position: -5px -242px; }
@@ -2615,6 +2551,20 @@ html[lang^=nm] .expando-button.video.expanded {
   .res-nightmode .expando-button.video.expanded:hover,
   html[lang^=nm] .expando-button.video.expanded:hover {
     background-position: -105px -204px; }
+.res-nightmode .date:after,
+html[lang^=nm] .date:after {
+  border-color: transparent #393939 transparent transparent !important; }
+.res-nightmode .date span,
+html[lang^=nm] .date span {
+  border-left: 5px solid #393939 !important;
+  color: #ddd;
+  border-right-color: #393939; }
+.res-nightmode .date time,
+html[lang^=nm] .date time {
+  border-right: 1px solid #393939 !important; }
+.res-nightmode .link.last-clicked,
+html[lang^=nm] .link.last-clicked {
+  background: #393939 !important; }
 
 .res .message-count,
 .res .side .userTagLink {
