@@ -24,7 +24,7 @@
         text-indent: -999em;
     }
     .RES-keyNav-activeElement {
-        background: 0 0 !important;
+        background-color: transparent !important;
     }
     .commentarea {
         .RES-keyNav-activeElement .md,
@@ -59,6 +59,7 @@
 .RESSubscriptionButton {
     border: none !important;
 }
+
 #RESSettingsButton {
     right: 20px;
     top: 3px;

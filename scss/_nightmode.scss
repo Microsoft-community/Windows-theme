@@ -5,172 +5,6 @@ $nm-color-borders: #2D2E32;
 $nm-color-text: #ddd;
 // rgba(6, 102, 178, 0.5) = #0666b2 ???
 .res-nightmode {
-    .date time,
-    .linkinfo .score {
-        color: $nm-color-text !important;
-    }
-    .arrow {
-        &.upmod {
-            background-position: -296px -60px !important;
-        }
-        &.down {
-            background-position: -321px -60px !important;
-        }
-        &.up {
-            background-position: -289px -194px !important;
-        }
-        &.downmod {
-            background-position: -271px -60px !important;
-        }
-    }
-    .icon-menu li,
-    .reddit-link:hover {
-        background-color: $nm-color-bg-secondary !important;
-        border-left-color: rgba(6, 102, 178, 0.5) !important;
-    }
-    .sidecontentbox {
-        .content a.author:hover,
-        .more:hover {
-            background-color: $nm-color-bg-secondary !important;
-            border-left-color: rgba(6, 102, 178, 0.5) !important;
-        }
-    }
-    .linkinfo {
-        .score,
-        .shortlink {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            border-left: 5px solid $nm-color-bg-secondary !important;
-            border-right: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
-        }
-    }
-    .reddit-link {
-        border-bottom: 1px solid $nm-color-bg-secondary !important;
-        border-left: 5px solid $nm-color-bg-secondary !important;
-        border-right: 1px solid $nm-color-bg-secondary !important;
-        background: $nm-color-bg-main !important;
-        border-top: 1px solid $nm-color-bg-secondary !important;
-    }
-    .sidecontentbox {
-        .content a.author,
-        .more {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            border-left: 5px solid $nm-color-bg-secondary !important;
-            border-right: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
-        }
-    }
-    .side .titlebox>.fancy-toggle-button {
-        background: $nm-color-bg-main !important;
-        color: $nm-color-text !important;
-    }
-    #sr-header-area {
-        background-color: #0C1722;
-    }
-    .nextprev a:hover,
-    .side .morelink a:hover,
-    button:hover {
-        background-color: $nm-color-bg-secondary !important;
-    }
-    .titlebox form.toggle {
-        border-color: $nm-color-bg-secondary !important;
-        background: $nm-color-bg-main !important;
-    }
-    .morelink a {
-        color: #fff !important;
-    }
-    .link {
-        border-left-color: transparent;
-        border-bottom: 1px solid $nm-color-borders;
-        border-right: 1px solid $nm-color-borders;
-        .score.likes {
-            color: $color-bg-secondary;
-        }
-    }
-    .linklisting {
-        border-right: 1px solid $nm-color-bg-secondary !important;
-        .link:hover {
-            background: $nm-color-bg-secondary !important;
-            border-left-color: #a9a9a9 !important;
-        }
-    }
-    input {
-        &[type=button],
-        &[type=reset],
-        &[type=submit] {
-            border: none;
-        }
-    }
-    submit {
-        border: none;
-    }
-    .content {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    .side .spacer .titlebox .redditname {
-        border-left-color: $color-bg-secondary;
-    }
-    .gold-accent {
-        background: $color-bg-main;
-    }
-    .shortlink input {
-        background: $nm-color-bg-secondary;
-        color: $nm-color-text;
-    }
-    .date {
-        span,
-        time {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
-        }
-    }
-    .res {
-        .RES-keyNav-activeElement {
-            background-color: transparent !important;
-        }
-        .commentarea .RES-keyNav-activeElement {
-            .md,
-            &.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
-                background-color: transparent !important;
-            }
-        }
-    }
-}
-
-html[lang^=nm] {
-    .thing {
-        .title:visited,
-        &.visited .title {
-            color: #808c94;
-        }
-        .title {
-            color: #B5C4D0;
-        }
-    }
-    .content.submit .info-notice,
-    .submit-page .roundfield {
-        background-color: $nm-color-bg-main;
-        color: #eee;
-    }
-    #header #header-bottom-right #mail.havemail {
-        outline: 0;
-    }
-    .formtabs-content .infobar {
-        border-color: transparent !important;
-    }
-    .infobar {
-        border-color: #ff4500 !important;
-    }
-    span.score {
-        color: #888 !important;
-    }
-    //SEPARATE ME!!!!
-    //SEPARATE ME!!!!
-    //SEPARATE ME!!!!
     .res {
         .RES-keyNav-activeElement {
             background-color: #292929 !important;
@@ -188,46 +22,33 @@ html[lang^=nm] {
             background-color: #292929 !important;
         }
     }
-    //SEPARATE ME!!!!
-    //SEPARATE ME!!!!
-    //SEPARATE ME!!!!
-    .titlebox form.toggle {
-        background: $nm-color-bg-main;
-        border-bottom: 1px solid $nm-color-bg-secondary !important;
-        border-left: 5px solid $nm-color-bg-secondary !important;
-        border-right: 1px solid $nm-color-bg-secondary !important;
-        color: #eee;
-    }
-    .comment.spam>.child,
-    .message.spam>.child,
-    .usertext.grayed .usertext-body {
-        background-color: transparent;
-    }
-    div.commentarea .infobar {
-        color: #eee;
-        border: none;
-    }
-    .shortlink input {
-        background: $nm-color-bg-secondary;
-        color: $nm-color-text;
-    }
-    .date {
-        span,
-        time {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
+    .arrow {
+        &.upmod {
+            background-position: -296px -60px !important;
         }
+        &.down {
+            background-position: -321px -60px !important;
+        }
+        &.up {
+            background-position: -289px -194px !important;
+        }
+        &.downmod {
+            background-position: -271px -60px !important;
+        }
+    }
+    //RES???
+    .side .titlebox>.fancy-toggle-button {
+        background: $nm-color-bg-main !important;
+        color: $nm-color-text !important;
     }
 }
 
-html[lang^=nm] {
-    a[href*="#Donsiders"],
-    a[href*="#btn"] {
-        color: #fff!important;
-    }
-    .comment {
-        border: 1px solid #43474F;
+.res {
+    .commentarea .RES-keyNav-activeElement {
+        .md,
+        &.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
+            background-color: transparent !important;
+        }
     }
 }
 
@@ -237,9 +58,21 @@ html[lang^=nm] {
     body {
         background: #1a1a1a !important;
     }
+    #sr-header-area {
+        background-color: #0C1722;
+    }
     //markdown and its colors
     a {
         color: #f8f8ff;
+    }
+    .morelink a, //buttons
+    a[href*="#Donsiders"],
+    a[href*="#btn"] {
+        color: #fff!important;
+    }
+    .shortlink input {
+        background: $nm-color-bg-secondary;
+        color: $nm-color-text;
     }
     #previoussearch #moresearchinfo,
     .roundfield label,
@@ -266,10 +99,20 @@ html[lang^=nm] {
     }
     .commentingAs,
     .date time,
-    .edit-stylesheet.choice:after,
     .linkinfo .score,
+    .linkinfo .shortlink,
+    .side .titlebox>.fancy-toggle-button,
+    .edit-stylesheet.choice:after,
     .wiki-page .wiki-page-content {
         color: $nm-color-text !important;
+    }
+    .date {
+        span,
+        time {
+            border-bottom: 1px solid $nm-color-bg-secondary !important;
+            background: $nm-color-bg-main !important;
+            border-top: 1px solid $nm-color-bg-secondary !important;
+        }
     }
     #header,
     .account-activity-box,
@@ -310,9 +153,6 @@ html[lang^=nm] {
         background-color: transparent;
         border: none;
     }
-    #siteTable .thing {
-        background: #202020;
-    }
     .date {
         color: $nm-color-text !important;
         &::before {
@@ -329,10 +169,6 @@ html[lang^=nm] {
         &::after {
             color: $nm-color-text !important;
         }
-    }
-    .linkinfo .shortlink,
-    .side .titlebox>.fancy-toggle-button {
-        color: $nm-color-text !important;
     }
     div {
         &.side {
@@ -375,6 +211,23 @@ html[lang^=nm] {
         background: $nm-color-bg-main !important;
         border-top: 1px solid $nm-color-bg-secondary !important;
     }
+    .icon-menu li,
+    .reddit-link,
+    .sidecontentbox .content a.author,
+    .sidecontentbox .more,
+    .reddit-link,
+    .linkinfo .score,
+    .linkinfo .shortlink {
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        background: $nm-color-bg-main !important;
+        border-top: 1px solid $nm-color-bg-secondary !important;
+        &:hover {
+            background-color: $nm-color-bg-secondary !important;
+            border-left-color: rgba(6, 102, 178, 0.5) !important;
+        }
+    }
     //merge with above code
     div {
         &.side {
@@ -415,6 +268,7 @@ html[lang^=nm] {
             border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
+    //parent comments
     .sitetable .comment .comment {
         background-color: $nm-color-bg-secondary !important;
         .comment .comment {
@@ -439,6 +293,7 @@ html[lang^=nm] {
             }
         }
     }
+    //child comments
     .sitetable .comment {
         background-color: $nm-color-bg-main !important;
         .comment .comment {
@@ -494,6 +349,13 @@ html[lang^=nm] {
             border-top: 1px solid $nm-color-bg-secondary !important;
         }
     }
+    .titlebox form.toggle {
+        background: $nm-color-bg-main;
+        border-bottom: 1px solid $nm-color-bg-secondary !important;
+        border-left: 5px solid $nm-color-bg-secondary !important;
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        color: #eee;
+    }
     //sidebar
     div.titlebox {
         .md {
@@ -523,13 +385,9 @@ html[lang^=nm] {
         background-color: $nm-color-bg-main !important;
     }
     //color secondary merge
-    .account-activity-box:hover,
     .link .usertext-body .md,
     .debuginfo,
     #header-bottom-left .tabmenu li.selected a,
-    .nextprev a:hover,
-    .side .morelink a:hover,
-    button:hover,
     .sidecontentbox a.helplink:hover,
     .tagline .likes,
     .tagline .submitter,
@@ -537,7 +395,12 @@ html[lang^=nm] {
     .comments-page .link .flat-list a.flairselectbtn,
     .entry .flat-list .report-button a,
     .helplink~.content .author::after,
-    div.titlebox span.fancy-toggle-button a.active.remove {
+    div.titlebox span.fancy-toggle-button a.active.remove,
+    .link .score .likes, //hover
+    .nextprev a:hover,
+    .side .morelink a:hover,
+    button:hover,
+    .account-activity-box:hover {
         background-color: $nm-color-bg-secondary !important;
     }
     .comment .usertext .md p>a:visited,
@@ -564,44 +427,70 @@ html[lang^=nm] {
      ::-webkit-scrollbar-corner {
         color: #555;
     }
-    .icon-menu li,
-    .reddit-link {
-        border-bottom: 1px solid $nm-color-bg-secondary !important;
-        border-left: 5px solid $nm-color-bg-secondary !important;
-        border-right: 1px solid $nm-color-bg-secondary !important;
-        background: $nm-color-bg-main !important;
-        border-top: 1px solid $nm-color-bg-secondary !important;
-        &:hover {
-            background-color: $nm-color-bg-secondary !important;
-            border-left-color: rgba(6, 102, 178, 0.5) !important;
-        }
-    }
-    .sidecontentbox {
-        .content a.author,
-        .more {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            border-left: 5px solid $nm-color-bg-secondary !important;
-            border-right: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
-            &:hover {
-                background-color: $nm-color-bg-secondary !important;
-                border-left-color: rgba(6, 102, 178, 0.5) !important;
-            }
-        }
-    }
-    .linkinfo {
-        .score,
-        .shortlink {
-            border-bottom: 1px solid $nm-color-bg-secondary !important;
-            border-left: 5px solid $nm-color-bg-secondary !important;
-            border-right: 1px solid $nm-color-bg-secondary !important;
-            background: $nm-color-bg-main !important;
-            border-top: 1px solid $nm-color-bg-secondary !important;
-        }
-    }
     textarea {
         color: #000 !important;
+    }
+    .content {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    input {
+        &[type=button],
+        &[type=reset],
+        &[type=submit] {
+            border: none;
+        }
+    }
+    .side .spacer .titlebox .redditname {
+        border-left-color: $color-bg-secondary;
+    }
+    .gold-accent {
+        background: $color-bg-main;
+    }
+    .linklisting {
+        border-right: 1px solid $nm-color-bg-secondary !important;
+        .link:hover {
+            background: $nm-color-bg-secondary !important;
+            border-left-color: #a9a9a9 !important;
+        }
+    }
+        .thing {
+        .title:visited,
+        &.visited .title {
+            color: #808c94;
+        }
+        .title {
+            color: #B5C4D0;
+        }
+    }
+    .content.submit .info-notice,
+    .submit-page .roundfield {
+        background-color: $nm-color-bg-main;
+        color: #eee;
+    }
+    #header #header-bottom-right #mail.havemail {
+        outline: 0;
+    }
+    .formtabs-content .infobar {
+        border-color: transparent !important;
+    }
+    .infobar {
+        border-color: #ff4500 !important;
+    }
+    span.score {
+        color: #888 !important;
+    }
+    .comment.spam>.child,
+    .message.spam>.child,
+    .usertext.grayed .usertext-body {
+        background-color: transparent;
+    }
+    div.commentarea .infobar {
+        color: #eee;
+        border: none;
+    }
+    .comment {
+        border: 1px solid #43474F;
     }
     //nightmode icons
     a[href*='#icon-day'] {
@@ -645,6 +534,9 @@ html[lang^=nm] {
         background-position: -204px -149px;
     }
     //threads
+    #siteTable .thing {
+        background: #202020;
+    }
     body>.content #siteTable .thing.self .thumbnail {
         background-position: -77px -5px;
     }
