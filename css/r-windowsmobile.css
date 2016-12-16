@@ -162,12 +162,9 @@ Secondary: #7A0218
 #url-field button,
 .submit-page .content button[name=submit] {
   background: 0 0;
-  transition: background-color .5s;
-  text-transform: capitalize;
-  font-family: "Segoe UI", sans-serif;
+  transition: all .5s;
   border: 1px solid #5cb85c;
-  color: #5cb85c;
-  padding: 0.25rem 0.75rem; }
+  color: #5cb85c; }
   #url-field button:hover,
   .submit-page .content button[name=submit]:hover {
     background: #5cb85c;
@@ -237,9 +234,6 @@ button:active {
     line-height: 21px; }
     .comment.collapsed .tagline a {
       line-height: 13px; }
-
-#RESStaticShortcuts {
-  line-height: 25px; }
 
 .tagline .score {
   font-weight: 700; }
@@ -342,20 +336,6 @@ button:active {
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
     background-color: #7A0218; }
-.submit-page .infobar {
-  width: 525px;
-  margin: -10px 0 0;
-  padding: 10px;
-  color: #fff;
-  background-color: #BF0426;
-  border-radius: 0 0 2px 2px;
-  font-size: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important; }
-  .submit-page .infobar::before {
-    font-size: 14px;
-    content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
-    color: #fff;
-    font-family: "Segoe UI", sans-serif; }
 .submit-page #newlink.submit.content .btn {
   width: 558px;
   height: auto;
@@ -370,7 +350,7 @@ button:active {
 .formtabs-content {
   width: 520px;
   border-top: none;
-  padding-top: 10px; }
+  margin-top: -15px; }
 
 form .spacer + .spacer {
   margin: 0; }
@@ -2515,14 +2495,8 @@ html[lang^=nm] .link.last-clicked {
 .res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
   background-color: transparent !important; }
 
-.res .message-count,
-.res .side .userTagLink {
-  display: none; }
 .res #sr-header-area #srDropdownContainer a:hover {
   opacity: 1; }
-.res #userbarToggle,
-.res .sidebox.create {
-  display: none; }
 .res .comment .midcol {
   margin-left: 20px; }
 .res #sr-header-area #srDropdownContainer a {
@@ -2534,11 +2508,10 @@ html[lang^=nm] .link.last-clicked {
   background: url(%%spritesheet%%) -225px -252px no-repeat;
   line-height: 35px;
   text-indent: -999em; }
-.res .RES-keyNav-activeElement {
-  background-color: transparent !important; }
+.res .RES-keyNav-activeElement,
 .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .noncollapsed .RES-keyNav-activeElement.entry {
-  background: 0 0 !important; }
+  background-color: 0 0 !important; }
 .res .RESDashboardToggle,
 .res .RESshortcutside {
   background: 0 0 !important;
@@ -2550,9 +2523,6 @@ html[lang^=nm] .link.last-clicked {
 .res .sitetable .sitetable {
   margin-right: 0; }
 
-.sidecontentbox .content .RESUserTagImage::after {
-  display: none !important; }
-
 .RESSubscriptionButton {
   color: #fff !important;
   border-radius: 1px !important;
@@ -2561,9 +2531,21 @@ html[lang^=nm] .link.last-clicked {
 .RESSubscriptionButton {
   border: none !important; }
 
+#RESAnnouncementAlert,
+#userbarToggle,
+.multi-count,
+.sidecontentbox .content .RESUserTagImage::after,
+.res .sidebox.create,
+.res .message-count,
+.res .side .userTagLink {
+  display: none !important; }
+
 #RESSettingsButton {
   right: 20px;
   top: 3px; }
+
+#RESStaticShortcuts {
+  line-height: 25px; }
 
 #header .redditname a {
   font-size: 0;
@@ -2610,7 +2592,6 @@ html[lang^=nm] .link.last-clicked {
     text-align: right;
     padding: .25em .5em;
     border: 3px solid #8bb9e2;
-    opacity: 0.9;
     pointer-events: none; }
 
 .author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=instyle7], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr] {

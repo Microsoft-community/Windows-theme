@@ -7,7 +7,6 @@
 'RES',
 'wincore',
 'footer';
-
 //wincore
 //sidebar name
 .titlebox h1.redditname a {
@@ -40,6 +39,7 @@
     }
   }
 }
+
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]::after {
@@ -54,8 +54,7 @@
     margin-left: 5px;
     color: $color-bg-main;
   }
-  &[href*=xvvhiteboy]::after,
-  &[href*=spinningpissingrabbi]::after,
+  &[href*=SpinningPissingRabbi]::after,
   &[href*=cynycal]::after,
   &[href*=panickedthumb]::after {
     content: '- Moderator';
@@ -64,6 +63,21 @@
     color: $color-bg-main;
   }
 }
+
+//kylde's flair
+.flair-jansmall:before {
+  content: "";
+  width: 17px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(%%jansmall%%);
+  background-position: -0px -0px;
+  vertical-align: middle;
+  margin-right: 2px
+}
+
+
 /*
 
     Mod tools reason leaver
@@ -87,16 +101,3 @@
 
 </removereasons>
 */
-
-//kylde's flair
-.flair-jansmall:before {
-  content: "";
-  width: 17px;
-  height: 20px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-image: url(%%jansmall%%);
-  background-position: -0px -0px;
-  vertical-align: middle;
-  margin-right: 2px
-}

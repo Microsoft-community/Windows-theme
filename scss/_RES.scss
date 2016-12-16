@@ -1,14 +1,6 @@
 .res {
-    .message-count,
-    .side .userTagLink {
-        display: none;
-    }
     #sr-header-area #srDropdownContainer a:hover {
         opacity: 1;
-    }
-    #userbarToggle,
-    .sidebox.create {
-        display: none;
     }
     .comment .midcol {
         margin-left: 20px;
@@ -23,14 +15,10 @@
         line-height: 35px;
         text-indent: -999em;
     }
-    .RES-keyNav-activeElement {
-        background-color: transparent !important;
-    }
-    .commentarea {
-        .RES-keyNav-activeElement .md,
-        .noncollapsed .RES-keyNav-activeElement.entry {
-            background: 0 0 !important;
-        }
+    .RES-keyNav-activeElement,
+    .commentarea .RES-keyNav-activeElement .md,
+    .commentarea .noncollapsed .RES-keyNav-activeElement.entry {
+        background-color: 0 0 !important;
     }
     .RESDashboardToggle,
     .RESshortcutside {
@@ -46,10 +34,6 @@
     }
 }
 
-.sidecontentbox .content .RESUserTagImage::after {
-    display: none !important;
-}
-
 .RESSubscriptionButton {
     color: #fff !important;
     border-radius: 1px !important;
@@ -60,7 +44,22 @@
     border: none !important;
 }
 
+//display none
+#RESAnnouncementAlert,
+#userbarToggle,
+.multi-count,
+.sidecontentbox .content .RESUserTagImage::after,
+.res .sidebox.create,
+.res .message-count,
+.res .side .userTagLink {
+    display: none !important;
+}
+
 #RESSettingsButton {
     right: 20px;
     top: 3px;
+}
+
+#RESStaticShortcuts {
+    line-height: 25px;
 }

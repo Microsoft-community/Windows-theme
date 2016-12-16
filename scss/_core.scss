@@ -210,12 +210,9 @@ $color-bg-light-hover: #f0f8ff;
 #url-field button,
 .submit-page .content button[name=submit] {
   background: 0 0;
-  transition: background-color .5s;
-  text-transform: capitalize;
-  font-family: $font-main;
+  transition: all .5s;
   border: 1px solid #5cb85c;
   color: #5cb85c;
-  padding: 0.25rem 0.75rem;
   &:hover {
     background: #5cb85c;
     color: #fff;
@@ -306,10 +303,6 @@ button:active {
       line-height: 13px;
     }
   }
-}
-
-#RESStaticShortcuts {
-  line-height: 25px;
 }
 
 .tagline {
@@ -444,22 +437,23 @@ button:active {
       }
     }
   }
-  .infobar {
-    width: 525px;
-    margin: -10px 0 0;
-    padding: 10px;
-    color: #fff;
-    background-color: $color-bg-main;
-    border-radius: 0 0 2px 2px;
-    font-size: 0;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    &::before {
-      font-size: 14px;
-      content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
-      color: #fff;
-      font-family: $font-main;
-    }
-  }
+  //no longer works
+  // .infobar {
+  //   width: 525px;
+  //   margin: -10px 0 0;
+  //   padding: 10px;
+  //   color: #fff;
+  //   background-color: $color-bg-main;
+  //   border-radius: 0 0 2px 2px;
+  //   font-size: 0;
+  //   border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  //   &::before {
+  //     font-size: 14px;
+  //     content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
+  //     color: #fff;
+  //     font-family: $font-main;
+  //   }
+  // }
   #newlink.submit.content .btn {
     width: 558px;
     height: auto;
@@ -477,7 +471,7 @@ button:active {
 .formtabs-content {
   width: 520px;
   border-top: none;
-  padding-top: 10px;
+  margin-top: -15px;
 }
 
 form .spacer+.spacer {
