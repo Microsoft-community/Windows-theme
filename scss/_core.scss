@@ -19,6 +19,9 @@ $color-win: #0078D7;
 $color-bg-secondary: #7A0218;
 $color-side-accent: #000;
 $color-bg-light-hover: #f0f8ff;
+//viewports
+$breakpoint-1: 880px;
+$wide-screen: "(max-width: #{$breakpoint-1})";
 #header {
   height: 165px;
   background: $color-bg-main;
@@ -70,6 +73,7 @@ $color-bg-light-hover: #f0f8ff;
     position: absolute;
     bottom: 0;
     left: 0;
+    //???
     transition: .2s;
     padding-left: 111px;
     font-family: $font-main;
@@ -85,6 +89,7 @@ $color-bg-light-hover: #f0f8ff;
         line-height: 30px;
         padding: 8px 9px 6px;
         text-transform: uppercase;
+        //???
         transition: all .15s ease-in-out;
         border-bottom: 3px solid transparent !important;
         &:hover {
@@ -94,6 +99,7 @@ $color-bg-light-hover: #f0f8ff;
         }
       }
       &.selected a {
+        //???
         transition: opacity .3s;
         background-color: $color-bg-secondary;
         border: 0;

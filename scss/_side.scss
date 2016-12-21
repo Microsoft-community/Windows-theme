@@ -600,7 +600,7 @@ div.titlebox .md h3:hover+ul {
 }
 
 //viewport
-@media (max-width: 880px) {
+@media (max-width: $breakpoint-1) {
     .side {
         display: none;
     }
