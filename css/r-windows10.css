@@ -1800,7 +1800,7 @@ div.commentarea .infobar p {
     transform: scale(0.9); } }
 #new_modmail {
   position: absolute;
-  top: -21px; }
+  left: -75px; }
 
 #header {
   background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
