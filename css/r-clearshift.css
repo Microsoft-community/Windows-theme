@@ -219,11 +219,6 @@ button:active {
   padding: 4px 0 0 30px;
   z-index: 1;
   border: 2px solid #e6e6e6;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
   overflow: hidden;
   margin: 0 18px 8px 0; }
   .comment .expand {
