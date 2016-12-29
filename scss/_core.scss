@@ -289,6 +289,14 @@ button:active {
   position: relative;
   padding: 4px 0 0 30px;
   z-index: 1;
+  border: 2px solid #e6e6e6;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  overflow: hidden;
+  margin: 0 18px 8px 0;
   .expand {
     transition: background-color .5s;
     position: absolute;
@@ -308,6 +316,10 @@ button:active {
     a {
       line-height: 13px;
     }
+  }
+  .child,
+  .showreplies {
+    border-left: none;
   }
 }
 
@@ -931,21 +943,6 @@ body .linklisting {
         }
       }
     }
-  }
-}
-
-.comment {
-  border: 1px solid #e6e6e6;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  overflow: hidden;
-  margin: 0 18px 8px 0;
-  .child,
-  .showreplies {
-    border-left: none;
   }
 }
 
