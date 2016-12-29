@@ -314,7 +314,6 @@ button:active {
 .comments-page .link .flat-list a.flairselectbtn {
   color: #0057A6 !important; }
 
-#siteTable .thing,
 .nextprev a,
 .side .usertext-body .md ol a {
   transition: background-color 0.5s; }
@@ -631,7 +630,8 @@ body .linklisting {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  transition: border-color 0.2s; }
 
 .listing-page .link:hover {
   border-left-color: #0078D7 !important;
