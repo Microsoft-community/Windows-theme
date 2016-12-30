@@ -1,3 +1,5 @@
+//variables
+$sub-name: "Windows Mobile";
 //assets
 @import 'core/core',
 'core/side',
@@ -8,77 +10,46 @@
 'core/footer';
 @import 'windows/wincore';
 @import 'seasonal/snow';
-
-//variables
-$sub-name: Windows Mobile;
-
-//wincore
-//sidebar name
-.titlebox h1.redditname a {
-  font-size: 0;
-  color: #FFF;
-  &:after {
-    content: "Windows Mobile";
-    color: #fff;
-    font: 400 small verdana, arial, helvetica, sans-serif;
-  }
-}
-//header name
-#header {
-  .redditname {
-    a:after {
-      content: "Windows Mobile";
-      font-size: 70px;
-      font-weight: lighter;
-      color: #ECF0F1;
-      font-family: $font-light;
-      letter-spacing: .05em;
-      margin-left: 100px;
-      line-height: 100px;
-      font-variant: normal;
-      transition: background-color 0.5s;
-    }
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
 //moderators
 .helplink~.content .author {
-  &[href*=Jaskys]::after {
-    content: '- Designer';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
-  &[href*=Izick]::after {
-    content: '- Head Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
-  &[href*=AppropriateUzername]::after,
-  &[href*=Swaggy_McSwagSwag]::after,
-  &[href*=astral_lariat]::after,
-  &[href*=dAKirby309]::after,
-  &[href*=etacarinae]::after,
-  &[href*=jeffreymcclain]::after,
-  &[href*=siraramis]::after,
-  &[href*=xByteZz]::after {
-    content: '- Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
+    &[href*=Jaskys]::after {
+        content: '- Designer';
+        font-size: 0.945em;
+        margin-left: 5px;
+        color: $color-bg-main;
+    }
+    &[href*=Izick]::after {
+        content: '- Head Moderator';
+        font-size: 0.945em;
+        margin-left: 5px;
+        color: $color-bg-main;
+    }
+    &[href*=AppropriateUzername]::after,
+    &[href*=Swaggy_McSwagSwag]::after,
+    &[href*=astral_lariat]::after,
+    &[href*=dAKirby309]::after,
+    &[href*=etacarinae]::after,
+    &[href*=jeffreymcclain]::after,
+    &[href*=siraramis]::after,
+    &[href*=xByteZz]::after {
+        content: '- Moderator';
+        font-size: 0.945em;
+        margin-left: 5px;
+        color: $color-bg-main;
+    }
 }
+
 //
+
 /* Icons */
 
-a[href*='#icon-'] + .keyNavAnnotation {
-    display: none;}
+a[href*='#icon-']+.keyNavAnnotation {
+    display: none;
+}
 
 a[href*='#icon-']:hover {
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 a[href*='#icon-']::before {
     display: inline-block;
@@ -86,50 +57,65 @@ a[href*='#icon-']::before {
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%Skype%%) no-repeat top left;}
+    background: url(%%Skype%%) no-repeat top left;
+}
+
 a[href*='#icon2-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%Twitter%%) no-repeat top left;}
+    background: url(%%Twitter%%) no-repeat top left;
+}
+
 a[href*='#icon3-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%WindowsM%%) no-repeat top left;}
+    background: url(%%WindowsM%%) no-repeat top left;
+}
+
 a[href*='#icon4-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%SmartphoneTablet%%) no-repeat top left;}
+    background: url(%%SmartphoneTablet%%) no-repeat top left;
+}
+
 a[href*='#icon5-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%Updates%%) no-repeat top left;}
+    background: url(%%Updates%%) no-repeat top left;
+}
+
 a[href*='#icon6-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%Star%%) no-repeat top left;}
+    background: url(%%Star%%) no-repeat top left;
+}
+
 a[href*='#icon7-']::before {
     display: inline-block;
     height: 16px;
     width: 16px;
     content: '';
     margin: 0 5px -1px 0;
-    background: url(%%AppHighlight%%) no-repeat top left;}
-    /* USERFLAIR */
+    background: url(%%AppHighlight%%) no-repeat top left;
+}
+
+
+/* USERFLAIR */
 
 .flair:before {
     content: "";
@@ -141,64 +127,87 @@ a[href*='#icon7-']::before {
     vertical-align: middle;
     margin-right: 3px;
 }
-.flair { cursor: help; }
+
+.flair {
+    cursor: help;
+}
+
 .flair-userGray:before {
     background-position: 0 0;
 }
+
 .flair-userPink:before {
     background-position: -16px 0;
 }
+
 .flair-userLime:before {
     background-position: -32px 0;
 }
+
 .flair-userOrange:before {
     background-position: -48px 0;
 }
+
 .flair-userBlue:before {
     background-position: -64px 0;
 }
+
 .flair-userTeal:before {
     background-position: -80px 0;
 }
+
 .flair-userYellow:before {
     background-position: -96px 0;
 }
+
 .flair-userPurple:before {
     background-position: -112px 0;
 }
+
 .flair-userGreen:before {
     background-position: -128px 0;
 }
+
 .flair-userRed:before {
     background-position: -144px 0;
 }
+
 .flair-userDarkPink:before {
     background-position: -160px 0;
 }
+
 .flair-userBrown:before {
     background-position: -176px 0;
 }
+
 .flair-userBlack:before {
     background-position: -192px 0;
 }
+
+
 /* Names */
-.helplink ~ .content .author[href*="AutoModerator"] { 
-    font-size: 0; 
+
+.helplink~.content .author[href*="AutoModerator"] {
+    font-size: 0;
     content: '';
 }
-.helplink ~ .content .author[href*="AutoModerator"]::before {
+
+.helplink~.content .author[href*="AutoModerator"]::before {
     content: 'Joe Belfiore';
     font-size: 8pt;
 }
+
 a.author[href$="AutoModerator"]::before {
     content: "Joe Belfiore";
     color: #369;
     font-size: x-small;
 }
+
 a[href$='AutoModerator'].author {
     margin-right: 0.5em;
     font-size: 0pt;
 }
+
 .comment .author[href$="AutoModerator"] {
     font-weight: bold;
     font-size: 0pt;
@@ -236,14 +245,16 @@ a[href$="Windows10#2"] {
     line-height: 14px;
     height: 20px;
     padding: 8px 9px 0px 9px;
-    font-family: "Segoe UI",sans-serif;
+    font-family: "Segoe UI", sans-serif;
     opacity: 0.7;
 }
+
 a[href$="/r/Windows10#2"]:hover {
     opacity: 1;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid white!important;
 }
+
 #header-bottom-left .tabmenu {
     padding-left: 113px;
     width: calc(100% - 113px);

@@ -2581,6 +2581,14 @@ html[lang^=nm] .link.last-clicked {
 .rounded {
   border-radius: 0; }
 
+.titlebox h1.redditname a {
+  font-size: 0;
+  color: #FFF; }
+  .titlebox h1.redditname a:after {
+    content: "Windows 10";
+    color: #fff;
+    font: 400 small verdana, arial, helvetica, sans-serif; }
+
 #header .redditname a {
   font-size: 0;
   background: url(%%wincore-2%%) -5px -5px no-repeat;
@@ -2592,6 +2600,17 @@ html[lang^=nm] .link.last-clicked {
   #header .redditname a:hover {
     background: url(%%wincore-2%%) -5px -115px no-repeat !important;
     text-decoration: none; }
+  #header .redditname a:after {
+    content: "Windows 10";
+    font-size: 70px;
+    font-weight: lighter;
+    color: #ECF0F1;
+    font-family: "Segoe UI Light", sans-serif;
+    letter-spacing: .05em;
+    margin-left: 100px;
+    line-height: 100px;
+    font-variant: normal;
+    transition: background-color 0.5s; }
 
 .flair-mod,
 .flair-msft {
@@ -3143,28 +3162,6 @@ a[href*='#iconz-wiki']::before {
     background-position: 0 0, 0 0, 0 0; }
   to {
     background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-.titlebox h1.redditname a {
-  font-size: 0;
-  color: #FFF; }
-  .titlebox h1.redditname a:after {
-    content: "Windows 10";
-    color: #fff;
-    font: 400 small verdana, arial, helvetica, sans-serif; }
-
-#header .redditname a:after {
-  content: "Windows 10";
-  font-size: 70px;
-  font-weight: lighter;
-  color: #ECF0F1;
-  font-family: "Segoe UI Light", sans-serif;
-  letter-spacing: .05em;
-  margin-left: 100px;
-  line-height: 100px;
-  font-variant: normal;
-  transition: background-color 0.5s; }
-#header .redditname:hover {
-  text-decoration: none; }
-
 .helplink ~ .content .author[href*=Jaskys]::after {
   content: '- Designer';
   font-size: 0.945em;

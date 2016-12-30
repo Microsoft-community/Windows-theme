@@ -1,3 +1,5 @@
+//variables
+$sub-name: "Windows 10";
 //assets
 @import 'core/core',
 'core/side',
@@ -9,43 +11,6 @@
 @import 'windows/wincore',
 'windows/enhancements';
 @import 'seasonal/snow';
-
-//variables
-$sub-name: Windows 10;
-
-//wincore
-//sidebar name
-.titlebox h1.redditname a {
-  font-size: 0;
-  color: #FFF;
-  &:after {
-    content: "Windows 10";
-    color: #fff;
-    font: 400 small verdana, arial, helvetica, sans-serif;
-  }
-}
-
-//header name
-#header {
-  .redditname {
-    a:after {
-      content: "Windows 10";
-      font-size: 70px;
-      font-weight: lighter;
-      color: #ECF0F1;
-      font-family: $font-light;
-      letter-spacing: .05em;
-      margin-left: 100px;
-      line-height: 100px;
-      font-variant: normal;
-      transition: background-color 0.5s;
-    }
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
-
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]::after {

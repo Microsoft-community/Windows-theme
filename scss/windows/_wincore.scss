@@ -1,3 +1,14 @@
+//sidebar name
+.titlebox h1.redditname a {
+  font-size: 0;
+  color: #FFF;
+  &:after {
+    content: $sub-name;
+    color: #fff;
+    font: 400 small verdana, arial, helvetica, sans-serif;
+  }
+}
+
 #header .redditname a {
   font-size: 0;
   background: url(%%wincore-2%%) -5px -5px no-repeat;
@@ -9,6 +20,19 @@
   &:hover {
     background: url(%%wincore-2%%) -5px -115px no-repeat!important;
     text-decoration: none;
+  }
+  //header name
+  &:after {
+    content: $sub-name;
+    font-size: 70px;
+    font-weight: lighter;
+    color: #ECF0F1;
+    font-family: $font-light;
+    letter-spacing: .05em;
+    margin-left: 100px;
+    line-height: 100px;
+    font-variant: normal;
+    transition: background-color 0.5s;
   }
 }
 
@@ -33,8 +57,9 @@
 
 //microsoft employees
 .linklisting .flair-msft:after {
-    display: none;
+  display: none;
 }
+
 .flair-msft {
   height: 16px;
   line-height: 16px;
@@ -105,7 +130,7 @@
   &[href$=nerdile],
   &[href$=einarmsft],
   &[href$=yosefdurr],
-  &[href$=Travis_MSFT] { 
+  &[href$=Travis_MSFT] {
     color: $color-win;
     font-weight: 700;
   }
