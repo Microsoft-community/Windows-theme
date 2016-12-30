@@ -1,1 +1,1 @@
-sass --watch scss:css --style nested --scss
+sass --watch scss:css --style nested --scss 
