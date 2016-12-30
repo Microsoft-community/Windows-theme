@@ -69,45 +69,39 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
   }
   .tabmenu {
     background: rgba(0, 0, 0, 0.2);
-    width: calc(100% - 111px);
+    width: calc(100% - 115px);
     position: absolute;
     bottom: 0;
     left: 0;
-    //???
-    transition: .2s;
-    padding-left: 111px;
+    padding-left: 115px;
     font-family: $font-main;
     li {
       font-weight: 400;
       margin: 0;
       a {
         background: 0 0;
-        color: #fff;
-        opacity: .7;
+        color: #ddd;
         font-size: 11.4px;
         font-family: $font-main;
         line-height: 30px;
         padding: 8px 9px 6px;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        //???
         transition: all .15s ease-in-out;
         border-bottom: 3px solid transparent !important;
         &:hover {
-          opacity: 1;
+          color: #fff;
           background: rgba(0, 0, 0, 0.1);
           border-bottom: 3px solid #fff !important;
         }
       }
       &.selected a {
-        //???
-        transition: opacity .3s;
         background-color: $color-bg-secondary;
         border: 0;
         color: #fff;
-        opacity: 1;
         padding-top: 7px;
         font-weight: 700;
-        border-bottom: 3px solid #fff !important;
+        border-bottom: 3px solid currentColor !important;
       }
     }
   }
