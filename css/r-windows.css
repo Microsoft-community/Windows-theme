@@ -632,7 +632,7 @@ body .linklisting {
 #siteTable .thing {
   margin-left: -5px !important;
   padding-bottom: 10px;
-  transition: border-color 0.2s; }
+  transition: all .2s; }
 
 .listing-page .link:hover {
   border-left-color: #0078D7 !important;
