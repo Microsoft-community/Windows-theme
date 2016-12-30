@@ -2498,6 +2498,9 @@ html[lang^=nm] .link.last-clicked {
   opacity: 1; }
 .res .comment .midcol {
   margin-left: 20px; }
+.res .comment .new-comment {
+  border: 2px solid #FFAB91 !important;
+  border-radius: 0px !important; }
 .res #sr-header-area #srDropdownContainer a {
   width: 35px;
   height: 23px;
