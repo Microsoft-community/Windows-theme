@@ -2523,6 +2523,64 @@ html[lang^=nm] .link.last-clicked {
 #RESStaticShortcuts {
   line-height: 25px; }
 
+.footer {
+  border-bottom: 1px solid #0057A6;
+  padding: 0;
+  border-left: 1px solid #0057A6; }
+  .footer::after {
+    border-bottom: 1px solid #0057A6;
+    display: block;
+    margin-top: 0;
+    padding: 10px;
+    padding-top: 8px !important;
+    color: #000;
+    content: "Designed by /u/Jaskys";
+    font-size: 16px;
+    font-family: "Segoe UI", sans-serif;
+    border-top: 34px solid #0057A6;
+    border-right: 1px solid #0057A6;
+    margin-bottom: -1.1px;
+    width: 90px; }
+  .footer div.col {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 176px;
+    height: auto;
+    font-family: "Segoe UI", sans-serif; }
+    .footer div.col .title {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 8px;
+      color: #fff;
+      background: #0057A6;
+      max-height: 18px; }
+    .footer div.col a {
+      display: block;
+      margin: 5px;
+      padding: 3px 4px 3px 7px;
+      color: #000; }
+      .footer div.col a:hover {
+        color: #000;
+        text-decoration: none;
+        background: #fff; }
+  .footer p.bottommenu {
+    font-weight: 700;
+    color: #FFF;
+    clear: left;
+    padding: 6px; }
+    .footer p.bottommenu a {
+      font-weight: 700;
+      color: #FFF; }
+  .footer .col {
+    border-left: none !important; }
+
+.debuginfo {
+  background: #F6F6F6; }
+
+.rounded {
+  border-radius: 0; }
+
 #header .redditname a {
   font-size: 0;
   background: url(%%wincore-2%%) -5px -5px no-repeat;
@@ -2996,64 +3054,6 @@ a[href*='#iconz-wiki']::before {
 
 .subscriber .arrow.down {
   pointer-events: initial; }
-
-.footer {
-  border-bottom: 1px solid #0057A6;
-  padding: 0;
-  border-left: 1px solid #0057A6; }
-  .footer::after {
-    border-bottom: 1px solid #0057A6;
-    display: block;
-    margin-top: 0;
-    padding: 10px;
-    padding-top: 8px !important;
-    color: #000;
-    content: "Designed by /u/Jaskys";
-    font-size: 16px;
-    font-family: "Segoe UI", sans-serif;
-    border-top: 34px solid #0057A6;
-    border-right: 1px solid #0057A6;
-    margin-bottom: -1.1px;
-    width: 90px; }
-  .footer div.col {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 176px;
-    height: auto;
-    font-family: "Segoe UI", sans-serif; }
-    .footer div.col .title {
-      font-size: 16px;
-      font-weight: 700;
-      padding: 8px;
-      color: #fff;
-      background: #0057A6;
-      max-height: 18px; }
-    .footer div.col a {
-      display: block;
-      margin: 5px;
-      padding: 3px 4px 3px 7px;
-      color: #000; }
-      .footer div.col a:hover {
-        color: #000;
-        text-decoration: none;
-        background: #fff; }
-  .footer p.bottommenu {
-    font-weight: 700;
-    color: #FFF;
-    clear: left;
-    padding: 6px; }
-    .footer p.bottommenu a {
-      font-weight: 700;
-      color: #FFF; }
-  .footer .col {
-    border-left: none !important; }
-
-.debuginfo {
-  background: #F6F6F6; }
-
-.rounded {
-  border-radius: 0; }
 
 .titlebox h1.redditname a {
   font-size: 0;

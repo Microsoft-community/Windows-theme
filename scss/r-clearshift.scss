@@ -1,11 +1,10 @@
-@import 'core',
-'side',
-'profile',
-'stickies',
-'nightmode',
-'RES',
-'footer';
-
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
 
 .titlebox h1 a, .pagename a {
     color: #fff;

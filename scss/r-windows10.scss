@@ -1,13 +1,17 @@
-@import 'core',
-'side',
-'profile',
-'enhancements',
-'snow',
-'stickies',
-'nightmode',
-'RES',
-'wincore',
-'footer';
+//assets
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
+@import 'windows/wincore',
+'windows/enhancements';
+@import 'seasonal/snow';
+
+//variables
+$sub-name: Windows 10;
 
 //wincore
 //sidebar name
@@ -41,6 +45,7 @@
     }
   }
 }
+
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]::after {

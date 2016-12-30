@@ -1,11 +1,15 @@
-@import 'core',
-'side',
-'profile',
-'stickies',
-'nightmode',
-'RES',
-'wincore',
-'footer';
+//assets
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
+@import 'windows/wincore';
+
+//variables
+$sub-name: Windows Insiders;
 
 //wincore
 //sidebar name
