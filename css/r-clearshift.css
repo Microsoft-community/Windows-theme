@@ -241,7 +241,7 @@ button:active {
   .comment .showreplies {
     border-left: none; }
   .comment .new-comment {
-    border-color: #FFAB91; }
+    border-color: #FFAB91 !important; }
 
 .new-comment .usertext-body {
   background-color: transparent;
