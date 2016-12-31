@@ -14,10 +14,11 @@ $font-main: "Segoe UI",
 sans-serif;
 $font-light: "Segoe UI Light",
 sans-serif;
-$color-bg-main: #0057A6;
-$color-bg-secondary: #0078D7;
-$color-win: #0078D7;
-$color-side-accent: #000;
+$color-bg-main: #0057A6 !default;
+$color-bg-secondary: #0078D7 !default;
+$color-bg-active: #1686f0 !default;
+$color-win: #0078D7 !default;
+//$color-side-accent: #000;
 $color-bg-light-hover: #f0f8ff;
 //viewports
 $breakpoint-1: 880px;
