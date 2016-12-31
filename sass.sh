@@ -1,1 +1,1 @@
-sass --watch scss:css --style nested --scss 
+sass --sourcemap=none --watch scss:css --style nested --scss 
