@@ -98,7 +98,7 @@ Secondary: #7A0218
   margin-left: 4px;
   padding-right: 11px;
   padding-left: 8px;
-  opacity: .7;
+  opacity: .8;
   background-repeat: no-repeat !important;
   transition: all .15s ease-in-out;
   border-bottom: 3px solid transparent !important; }
@@ -2597,5 +2597,3 @@ html[lang^=nm] .link.last-clicked {
   bottom: 69px;
   position: absolute;
   left: 10px; }
-
-/*# sourceMappingURL=r-clearshift.css.map */

@@ -98,7 +98,7 @@ Secondary: #7A0218
   margin-left: 4px;
   padding-right: 11px;
   padding-left: 8px;
-  opacity: .7;
+  opacity: .8;
   background-repeat: no-repeat !important;
   transition: all .15s ease-in-out;
   border-bottom: 3px solid transparent !important; }
@@ -2928,7 +2928,7 @@ a[href$="WindowsMobile#2"] {
   position: absolute;
   top: 135px;
   left: 48px;
-  color: #eee !important;
+  color: #ddd !important;
   z-index: 99;
   border-bottom: 3px solid transparent !important;
   text-transform: uppercase;

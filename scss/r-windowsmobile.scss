@@ -1,5 +1,6 @@
 //variables
 $sub-name: "Windows Mobile";
+$tabmenu-offset: 123px;
 //assets
 @import 'core/core',
 'core/side',
@@ -39,10 +40,7 @@ $sub-name: "Windows Mobile";
     }
 }
 
-//
-
-/* Icons */
-
+//mobile icons
 a[href*='#icon-']+.keyNavAnnotation {
     display: none;
 }
@@ -114,9 +112,7 @@ a[href*='#icon7-']::before {
     background: url(%%AppHighlight%%) no-repeat top left;
 }
 
-
-/* USERFLAIR */
-
+//user flairs
 .flair:before {
     content: "";
     width: 10px;
@@ -184,9 +180,7 @@ a[href*='#icon7-']::before {
     background-position: -192px 0;
 }
 
-
-/* Names */
-
+//names
 .helplink~.content .author[href*="AutoModerator"] {
     font-size: 0;
     content: '';
@@ -231,31 +225,30 @@ a[href*='#mb-discordn']::before {
     background: url(%%discord%%) -35px -5px;
 }
 
+//nav promoted subs
 a[href$="Windows10#2"] {
     position: absolute;
     top: 135px;
     left: 48px;
-    color: #fff!important;
+    color: #ddd !important;
     z-index: 99;
-    border-bottom: 3px solid transparent!important;
-    background: none;
-    font-size: 11px!important;
+    border-bottom: 3px solid transparent !important;
     text-transform: uppercase;
     transition: all .15s ease-in-out;
     line-height: 14px;
     height: 20px;
-    padding: 8px 9px 0px 9px;
-    font-family: "Segoe UI", sans-serif;
-    opacity: 0.7;
-}
-
-a[href$="/r/Windows10#2"]:hover {
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid white!important;
+    padding: 8px 9px 0;
+    font-size: 11.4px !important;
+    letter-spacing: 0.1em;
+    font-family: $font-main;
+    &:hover {
+        color: #fff!Important;
+        background: rgba(0, 0, 0, 0.1);
+        border-color: #fff!important;
+    }
 }
 
 #header-bottom-left .tabmenu {
-    padding-left: 113px;
-    width: calc(100% - 113px);
+    padding-left: $tabmenu-offset;
+    width: calc(100% - #{$tabmenu-offset});
 }
