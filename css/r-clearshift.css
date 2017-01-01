@@ -237,14 +237,14 @@ button:active {
   .comment .child,
   .comment .showreplies {
     border-left: none; }
-  .comment .new-comment {
-    border-color: #FFAB91 !important; }
 
-.new-comment .expand:hover {
-  background: #ffab91; }
-.new-comment .usertext-body {
-  background-color: transparent;
-  border: none; }
+.new-comment {
+  border-color: #FFAB91 !important; }
+  .new-comment .expand:hover {
+    background: #ffab91; }
+  .new-comment .usertext-body {
+    background-color: transparent;
+    border: none; }
 
 .tagline .score {
   font-weight: 700; }

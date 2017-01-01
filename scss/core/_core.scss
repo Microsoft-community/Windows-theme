@@ -311,12 +311,10 @@ button:active {
   .showreplies {
     border-left: none;
   }
-  .new-comment {
-    border-color: #FFAB91!important;
-  }
 }
 
 .new-comment {
+  border-color: #FFAB91!important;
   .expand:hover {
     background: #ffab91;
   }
