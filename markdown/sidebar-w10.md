@@ -1,7 +1,7 @@
 [**Subreddit theme is disabled, let us know why so we can improve it, message us.**](https://www.reddit.com/message/compose?to=%2Fr%2Fwindows10&subject=Design%20feedback)
 
-* [Discord chat server](https://discord.gg/microsoft#icon-chat)
-* [Give Windows feedback](http://aka.ms/StartAndAllApps#icon-feedback "Opens Windows 10 feedback application")
+* [Community chat server](https://discord.gg/Microsoft#icon-chat)
+* [Give Windows feedback](https://insider.windows.com/FeedbackHub/fb#icon-feedback "Opens Windows 10 feedback application")
 * [Github repository, suggestions board](https://github.com/Jasius/Windows-theme#icon-feedback2)
 * [Night Mode](https://goo.gl/sj9EPd#icon-night) [Light Mode](https://www.reddit.com/r/Windows10#icon-day)
 
