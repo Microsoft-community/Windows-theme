@@ -316,9 +316,14 @@ button:active {
   }
 }
 
-.new-comment .usertext-body {
-  background-color: transparent;
-  border: none;
+.new-comment {
+  .expand:hover {
+    background: #ffab91;
+  }
+  .usertext-body {
+    background-color: transparent;
+    border: none;
+  }
 }
 
 .tagline {
