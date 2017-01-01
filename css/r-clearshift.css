@@ -528,8 +528,7 @@ a[href*="#icon-more"] {
 
 .link {
   padding: 10px 0;
-  margin: 0 0 0 20px;
-  border-left: 3px solid #fff;
+  border-left: 3px solid transparent;
   margin-bottom: 0 !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
   .link .title {
@@ -554,6 +553,8 @@ a[href*="#icon-more"] {
     color: #7f7f7f; }
   .link .flair {
     font-size: 1em; }
+  .link .midcol {
+    margin: 5px 7px; }
 
 .nextprev a {
   padding: 5px 0 5px 15px;
@@ -608,8 +609,6 @@ a[href*="#icon-more"] {
     background-position: -321px -60px; }
   .arrow.downmod {
     background-position: -271px -60px; }
-  .arrow.up, .arrow.upmod {
-    margin-top: 10px; }
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
 
@@ -629,9 +628,7 @@ body .linklisting {
   font-size: 1.145em; }
 
 #siteTable .thing {
-  margin-left: -5px !important;
-  padding-bottom: 10px;
-  transition: all .2s; }
+  margin-left: -5px !important; }
 
 .listing-page .link:hover {
   border-left-color: #06aeaa !important;

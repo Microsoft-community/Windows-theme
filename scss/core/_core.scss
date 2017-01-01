@@ -728,8 +728,7 @@ a[href*="#icon-more"] {
 
 .link {
   padding: 10px 0;
-  margin: 0 0 0 20px;
-  border-left: 3px solid #fff;
+  border-left: 3px solid transparent;
   margin-bottom: 0 !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
   .title {
@@ -762,6 +761,9 @@ a[href*="#icon-more"] {
   }
   .flair {
     font-size: 1em;
+  }
+  .midcol {
+    margin: 5px 7px;
   }
 }
 
@@ -835,10 +837,6 @@ a[href*="#icon-more"] {
   &.downmod {
     background-position: -271px -60px;
   }
-  &.up,
-  &.upmod {
-    margin-top: 10px;
-  }
   &.up:hover,
   &.down:hover {
     opacity: 0.6;
@@ -865,8 +863,7 @@ body .linklisting {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  padding-bottom: 10px;
-  transition: all .2s;
+  //transition: all .2s;
 }
 
 .listing-page .link:hover {
