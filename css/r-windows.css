@@ -3069,43 +3069,12 @@ a[href*='#iconz-wiki']::before {
 .subscriber .arrow.down {
   pointer-events: initial; }
 
-#header {
-  background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
-  animation: snowfall 20s linear infinite;
-  -webkit-animation: snowfall 20s linear infinite;
-  -moz-animation: snowfall 20s linear infinite; }
-
-@-webkit-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@-moz-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@-o-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
 .helplink ~ .content .author[href*=Jaskys]::after {
   content: '- Designer';
   font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
-.helplink ~ .content .author[href*=Kylde]::after {
-  content: '- Head Moderator';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
-.helplink ~ .content .author[href*=SpinningPissingRabbi]::after, .helplink ~ .content .author[href*=cynycal]::after, .helplink ~ .content .author[href*=panickedthumb]::after {
+.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after, .helplink ~ .content .author[href*=SpinningPissingRabbi]::after, .helplink ~ .content .author[href*=cynycal]::after, .helplink ~ .content .author[href*=panickedthumb]::after {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;

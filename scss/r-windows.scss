@@ -9,7 +9,6 @@ $sub-name: "Windows";
 'core/RES',
 'core/footer';
 @import 'windows/wincore';
-@import 'seasonal/snow';
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]::after {
@@ -18,12 +17,14 @@ $sub-name: "Windows";
     margin-left: 5px;
     color: $color-bg-main;
   }
-  &[href*=Kylde]::after {
-    content: '- Head Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
+  &[href*=AppropriateUzername]::after,
+  &[href*=Swaggy_McSwagSwag]::after,
+  &[href*=astral_lariat]::after,
+  &[href*=dAKirby309]::after,
+  &[href*=etacarinae]::after,
+  &[href*=jeffreymcclain]::after,
+  &[href*=siraramis]::after,
+  &[href*=xByteZz]::after,
   &[href*=SpinningPissingRabbi]::after,
   &[href*=cynycal]::after,
   &[href*=panickedthumb]::after {
@@ -33,6 +34,7 @@ $sub-name: "Windows";
     color: $color-bg-main;
   }
 }
+
 
 //kylde's flair
 .flair-jansmall:before {

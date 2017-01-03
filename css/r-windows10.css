@@ -3131,32 +3131,6 @@ a[href*='#iconz-wiki']::before {
   position: absolute;
   left: -75px; }
 
-#header {
-  background-image: url(%%snow%%), url(%%snow2%%), url(%%snow3%%);
-  animation: snowfall 20s linear infinite;
-  -webkit-animation: snowfall 20s linear infinite;
-  -moz-animation: snowfall 20s linear infinite; }
-
-@-webkit-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@-moz-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@-o-keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
-@keyframes snowfall {
-  from {
-    background-position: 0 0, 0 0, 0 0; }
-  to {
-    background-position: 500px 1000px, 400px 400px, 300px 300px; } }
 .helplink ~ .content .author[href*=Jaskys]::after {
   content: '- Designer';
   font-size: 0.945em;
