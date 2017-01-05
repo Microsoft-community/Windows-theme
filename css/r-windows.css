@@ -168,13 +168,16 @@ Secondary: #7A0218
     color: #fff; }
 
 .submit-page #url-field {
-  margin-top: 79px; }
+  margin-top: 78px; }
 
 .submit_text.roundfield.enabled {
   background: #1992ff;
-  position: relative;
-  top: -549px;
+  position: absolute;
+  top: 223px;
   border-radius: 0px; }
+
+.submit_text p {
+  color: #eee; }
 
 button.save, button.submit-action-thing, button.submit-report {
   background: 0 0;
@@ -331,7 +334,8 @@ button:active {
   padding: 16px;
   width: 524px;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px; }
   .submit-page .roundfield span.title {
     color: #4d5763;
     text-transform: capitalize; }
