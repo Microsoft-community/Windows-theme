@@ -262,9 +262,8 @@ div.side {
         font-size: 10.5pt;
     }
     &:hover {
-        color: #fff;
         background: $color-bg-secondary;
-        border: 1px solid $color-bg-secondary;
+        border-color: $color-bg-secondary;
         a {
             color: #fff;
             border-color: $color-bg-secondary;

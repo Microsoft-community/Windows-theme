@@ -167,6 +167,15 @@ Secondary: #7A0218
     background: #5cb85c;
     color: #fff; }
 
+.submit-page #url-field {
+  margin-top: 79px; }
+
+.submit_text.roundfield.enabled {
+  background: #1992ff;
+  position: relative;
+  top: -549px;
+  border-radius: 0px; }
+
 button.save, button.submit-action-thing, button.submit-report {
   background: 0 0;
   transition: background-color .5s;
@@ -1150,9 +1159,8 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 10.5pt; }
   .morelink:hover {
-    color: #fff;
     background: #06aeaa;
-    border: 1px solid #06aeaa; }
+    border-color: #06aeaa; }
     .morelink:hover a {
       color: #fff;
       border-color: #06aeaa; }

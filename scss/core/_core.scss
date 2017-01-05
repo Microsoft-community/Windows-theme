@@ -219,6 +219,16 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
     color: #fff;
   }
 }
+//submission text
+.submit-page #url-field {
+    margin-top: 79px;
+}
+.submit_text.roundfield.enabled {
+    background: #1992ff;
+    position: relative;
+    top: -549px;
+    border-radius: 0px;
+}
 
 button {
   &.save,

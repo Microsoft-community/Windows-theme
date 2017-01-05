@@ -1,0 +1,14 @@
+//colors
+$color-bg-main: #5133AB;
+$color-bg-secondary: #643EBF;
+//variables
+$sub-name: "Windows 8";
+//assets
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
+@import 'windows/wincore';
