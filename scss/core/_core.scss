@@ -221,8 +221,8 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
 }
 
 //submission text
-.submit-page #url-field {
-  margin-top: 78px;
+.submit-page #title-field {
+    margin-top: 78px;
 }
 
 .submit_text.roundfield.enabled {
@@ -437,7 +437,7 @@ button:active {
 .submit-page {
   .roundfield {
     padding: 16px;
-    width: 524px;
+    width: 525px;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0px;
