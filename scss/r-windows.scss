@@ -8,7 +8,8 @@ $sub-name: "Windows";
 'core/nightmode',
 'core/RES',
 'core/footer';
-@import 'windows/wincore';
+@import 'windows/wincore',
+'windows/enhancements';
 //color #1570A6
 //moderators
 .helplink~.content .author {
@@ -35,7 +36,6 @@ $sub-name: "Windows";
     color: $color-bg-main;
   }
 }
-
 
 //kylde's flair
 .flair-jansmall:before {
