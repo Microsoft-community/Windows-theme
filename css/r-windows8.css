@@ -332,7 +332,7 @@ button:active {
 
 .submit-page .roundfield {
   padding: 16px;
-  width: 525;
+  width: 525px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0px; }
@@ -2199,9 +2199,8 @@ html[lang^=nm] a[href*="#square"]::before {
   border: 3px solid #393939; }
 .res-nightmode .link,
 html[lang^=nm] .link {
-  border-left-color: transparent;
   border-bottom: 1px solid #2D2E32 !important;
-  border-right: 1px solid #2D2E32; }
+  border-right: 1px solid #2D2E32 !important; }
 .res-nightmode .listing-page .link:hover,
 html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
@@ -2315,13 +2314,10 @@ html[lang^=nm] .side .spacer .titlebox .redditname {
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
   background: #5133AB; }
-.res-nightmode .linklisting,
-html[lang^=nm] .linklisting {
-  border-right: 1px solid #393939 !important; }
-  .res-nightmode .linklisting .link:hover,
-  html[lang^=nm] .linklisting .link:hover {
-    background: #393939 !important;
-    border-left-color: #a9a9a9 !important; }
+.res-nightmode .linklisting .link:hover,
+html[lang^=nm] .linklisting .link:hover {
+  background: #393939 !important;
+  border-left-color: #a9a9a9 !important; }
 .res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
