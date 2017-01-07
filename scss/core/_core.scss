@@ -16,6 +16,7 @@ $font-light: "Segoe UI Light",
 sans-serif;
 $color-bg-main: #0057A6 !default;
 $color-bg-secondary: #0078D7 !default;
+$color-bg-alt: #1992FF !default;
 $color-bg-active: #1686f0 !default;
 $color-win: #0078D7 !default;
 //$color-side-accent: #000;
@@ -23,22 +24,11 @@ $color-bg-light-hover: #f0f8ff;
 //viewports
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
+//$tabmenu-offset: 146px !default;
 #header {
   height: 165px;
   background: $color-bg-main;
   border-bottom: none;
-  #header-bottom-right {
-    #mail {
-      &.havemail:active,
-      &.nohavemail:active {
-        background-color: #1686f0 !important;
-      }
-    }
-    .choice:active,
-    .logout a:active {
-      background-color: #1686f0 !important;
-    }
-  }
   [href$="/rising/"],
   [href$="/controversial/"],
   [href$="/ads/"] {
@@ -65,9 +55,6 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
 
 #header-bottom-left {
   height: 140px;
-  .tabmenu li a:active {
-    background-color: #1686f0 !important;
-  }
   .tabmenu {
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - 115px);
@@ -116,10 +103,6 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
     border-radius: 1px;
     overflow: hidden;
     transition: background-color 0.5s;
-  }
-  #modmail:active,
-  .user:active {
-    background-color: #1686f0 !important;
   }
 }
 
@@ -226,7 +209,7 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
 }
 
 .submit_text.roundfield.enabled {
-  background: #1992ff;
+  background: $color-bg-alt;
   position: absolute;
   top: 223px;
 }
@@ -287,11 +270,19 @@ button {
   }
 }
 
+//active elements
 .btn:active,
 .gadget .right a:active,
 .morelink a:active,
 .sidecontentbox a.helplink:active,
-button:active {
+button:active,
+#header #header-bottom-right #mail.havemail:active,
+#header #header-bottom-right #mail.nohavemail:active,
+#header #header-bottom-right .choice:active,
+#header #header-bottom-right .logout a:active,
+#header-bottom-left .tabmenu li a:active,
+#header-bottom-right #modmail:active,
+#header-bottom-right .user:active {
   background-color: #1686f0 !important;
 }
 

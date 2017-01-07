@@ -13,11 +13,6 @@ Secondary: #7A0218
   height: 165px;
   background: #048480;
   border-bottom: none; }
-  #header #header-bottom-right #mail.havemail:active, #header #header-bottom-right #mail.nohavemail:active {
-    background-color: #1686f0 !important; }
-  #header #header-bottom-right .choice:active,
-  #header #header-bottom-right .logout a:active {
-    background-color: #1686f0 !important; }
   #header [href$="/rising/"],
   #header [href$="/controversial/"],
   #header [href$="/ads/"] {
@@ -40,8 +35,6 @@ Secondary: #7A0218
 
 #header-bottom-left {
   height: 140px; }
-  #header-bottom-left .tabmenu li a:active {
-    background-color: #1686f0 !important; }
   #header-bottom-left .tabmenu {
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - 115px);
@@ -83,9 +76,6 @@ Secondary: #7A0218
   border-radius: 1px;
   overflow: hidden;
   transition: background-color 0.5s; }
-#header-bottom-right #modmail:active,
-#header-bottom-right .user:active {
-  background-color: #1686f0 !important; }
 
 #header-img {
   text-indent: -9999px;
@@ -171,7 +161,7 @@ Secondary: #7A0218
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992ff;
+  background: #1992FF;
   position: absolute;
   top: 223px; }
 
@@ -219,7 +209,14 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
 .gadget .right a:active,
 .morelink a:active,
 .sidecontentbox a.helplink:active,
-button:active {
+button:active,
+#header #header-bottom-right #mail.havemail:active,
+#header #header-bottom-right #mail.nohavemail:active,
+#header #header-bottom-right .choice:active,
+#header #header-bottom-right .logout a:active,
+#header-bottom-left .tabmenu li a:active,
+#header-bottom-right #modmail:active,
+#header-bottom-right .user:active {
   background-color: #1686f0 !important; }
 
 .comment {
