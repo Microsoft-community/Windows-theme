@@ -167,14 +167,11 @@ Secondary: #7A0218
     background: #5cb85c;
     color: #fff; }
 
-.submit-page #title-field {
-  margin-top: 78px; }
+.submit-page .tabmenu.formtab {
+  margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992ff;
-  position: absolute;
-  top: 223px;
-  border-radius: 0px; }
+  background: #1992ff; }
 
 .submit_text p {
   color: #eee; }

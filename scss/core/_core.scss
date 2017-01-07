@@ -220,16 +220,13 @@ $wide-screen: "(max-width: #{$breakpoint-1})";
   }
 }
 
-//submission text
-.submit-page #title-field {
-    margin-top: 78px;
+//submission text - 2 lines max
+.submit-page .tabmenu.formtab {
+    margin-bottom: 74px;
 }
 
 .submit_text.roundfield.enabled {
   background: #1992ff;
-  position: absolute;
-  top: 223px;
-  border-radius: 0px;
 }
 
 .submit_text p {
