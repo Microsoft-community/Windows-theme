@@ -254,9 +254,8 @@ html[lang^=nm] {
         border: 3px solid $nm-color-bg-secondary;
     }
     .link {
-        border-left-color: transparent;
         border-bottom: 1px solid $nm-color-borders!important;
-        border-right: 1px solid $nm-color-borders;
+        border-right: 1px solid $nm-color-borders!important;
     }
     .listing-page .link:hover {
         background: $nm-color-bg-secondary !important;
@@ -358,7 +357,6 @@ html[lang^=nm] {
         background: $color-bg-main;
     }
     .linklisting {
-        border-right: 1px solid $nm-color-bg-secondary !important;
         .link:hover {
             background: $nm-color-bg-secondary !important;
             border-left-color: #a9a9a9 !important;
