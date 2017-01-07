@@ -1661,8 +1661,7 @@ div.commentarea .infobar p {
   border: 2px solid #fff; }
 
 .beta-hint {
-  opacity: 1;
-  transition: background-color 0.5s; }
+  opacity: 1; }
   .beta-hint a {
     top: 0;
     left: -78px;
@@ -1675,7 +1674,8 @@ div.commentarea .infobar p {
     width: 42px;
     height: 42px;
     border-radius: 1px;
-    border: 2px solid #fff; }
+    border: 2px solid #fff;
+    transition: background-color 0.5s; }
     .beta-hint a:hover {
       background-color: green !important; }
 

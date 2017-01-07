@@ -118,7 +118,6 @@
 
 .beta-hint {
     opacity: 1;
-    transition: background-color 0.5s;
     a {
         top: 0;
         left: -78px;
@@ -132,6 +131,7 @@
         height: 42px;
         border-radius: 1px;
         border: 2px solid #fff;
+        transition: background-color 0.5s;
         &:hover {
             background-color: green !important;
         }
