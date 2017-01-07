@@ -171,7 +171,9 @@ Secondary: #7A0218
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992ff; }
+  background: #1992ff;
+  position: absolute;
+  top: 223px; }
 
 .submit_text p {
   color: #eee; }
