@@ -3138,18 +3138,12 @@ a[href*='#iconz-wiki']::before {
   position: absolute;
   left: -75px; }
 
-.helplink ~ .content .author[href*=Jaskys]::after {
-  content: '- Designer';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
-.helplink ~ .content .author[href*=Izick]::after {
-  content: '- Head Moderator';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
-.helplink ~ .content .author[href*=AppropriateUzername]::after, .helplink ~ .content .author[href*=Swaggy_McSwagSwag]::after, .helplink ~ .content .author[href*=astral_lariat]::after, .helplink ~ .content .author[href*=dAKirby309]::after, .helplink ~ .content .author[href*=etacarinae]::after, .helplink ~ .content .author[href*=jeffreymcclain]::after, .helplink ~ .content .author[href*=siraramis]::after, .helplink ~ .content .author[href*=xByteZz]::after {
+.helplink ~ .content .author[href*=Izick]:after {
+  content: '- Head Moderator'; }
+.helplink ~ .content .author:after {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
   color: #0057A6; }
+.helplink ~ .content .author[href*=Jaskys]:after {
+  content: '- Designer'; }
