@@ -809,7 +809,8 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   .md code {
     white-space: normal; }
   .md blockquote {
-    border-left: 2px solid #643EBF; }
+    border-left: 2px solid #643EBF;
+    background-color: #efefed; }
 
 .usertext.border .usertext-body {
   background-color: rgba(0, 120, 213, 0.3);
