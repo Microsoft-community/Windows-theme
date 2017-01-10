@@ -1,6 +1,7 @@
 //variables
 $sub-name: "Windows 10";
 $tabmenu-offset: 146px;
+$head-mod: Izick;
 //assets
 @import 'core/core',
 'core/side',
@@ -13,30 +14,17 @@ $tabmenu-offset: 146px;
 'windows/enhancements';
 //moderators
 .helplink~.content .author {
-  &[href*=Jaskys]::after {
-    content: '- Designer';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
-  &[href*=Izick]::after {
+  &[href*=#{$head-mod}]:after {
     content: '- Head Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
   }
-  &[href*=AppropriateUzername]::after,
-  &[href*=Swaggy_McSwagSwag]::after,
-  &[href*=astral_lariat]::after,
-  &[href*=dAKirby309]::after,
-  &[href*=etacarinae]::after,
-  &[href*=jeffreymcclain]::after,
-  &[href*=siraramis]::after,
-  &[href*=xByteZz]::after {
+  &:after {
     content: '- Moderator';
     font-size: 0.945em;
     margin-left: 5px;
     color: $color-bg-main;
+  }
+  &[href*=Jaskys]:after {
+    content: '- Designer';
   }
 }
 

@@ -809,7 +809,8 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   .md code {
     white-space: normal; }
   .md blockquote {
-    border-left: 2px solid #0078D7; }
+    border-left: 2px solid #0078D7;
+    background-color: #efefed; }
 
 .usertext.border .usertext-body {
   background-color: rgba(0, 120, 213, 0.3);
@@ -1649,7 +1650,7 @@ div.commentarea .infobar p {
   background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500; }
 
 .res #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) -5px -119px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0px -115px no-repeat #ff4500; }
 
 #header #header-bottom-right #mail.havemail {
   border-radius: 1px;
