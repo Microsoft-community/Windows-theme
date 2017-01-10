@@ -370,6 +370,10 @@ button:active,
   border-top: none;
 }
 
+#ad_sponsorship {
+  max-width: 295px;
+}
+
 .organic-listing .link.promotedlink {
   margin-left: -1px;
 }
@@ -870,7 +874,7 @@ body .linklisting {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  //transition: all .2s;
+  transition: all .2s;
 }
 
 .listing-page .link:hover {
@@ -1160,10 +1164,6 @@ ul.tabmenu.formtab {
   height: 304px !important;
   background-image: url(%%res-easter-egg%%) no-repeat !important;
   transition: all 10s linear !important;
-  -webkit-transition: all 10s linear !important;
-  -moz-transition: all 10s linear !important;
-  -o-transition: all 10s linear !important;
-  -ms-transition: all 10s linear !important;
 }
 
 .sheets .col textarea {
@@ -1276,8 +1276,4 @@ span.clear-input-button {
       background: $color-bg-secondary;
     }
   }
-}
-
-#ad_sponsorship {
-  max-width: 295px;
 }
