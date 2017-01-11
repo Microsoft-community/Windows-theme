@@ -1739,11 +1739,13 @@ div.commentarea .infobar p {
 .user .userkarma {
   cursor: help; }
 
-#RESAccountSwitcherIcon,
 #RESAccountSwitcherIconOverlay {
+  display: none !important; }
+
+#RESAccountSwitcherIcon {
   float: right;
-  margin-right: 7px;
-  margin-top: 0;
+  margin-right: 5px;
+  margin-top: -10px;
   background: url(%%spritesheet%%) -264px -5px no-repeat !important; }
 
 .side .usertext-body .md ol {
