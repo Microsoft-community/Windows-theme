@@ -1933,6 +1933,7 @@ html[lang^=nm] .shortlink input {
 .res-nightmode .md,
 .res-nightmode .md blockquote,
 .res-nightmode .md del,
+.res-nightmode .comments-page .usertext-edit div textarea,
 html[lang^=nm] #previoussearch #moresearchinfo,
 html[lang^=nm] .roundfield label,
 html[lang^=nm] .search-result-body,
@@ -1940,7 +1941,8 @@ html[lang^=nm] div.side #searchexpando,
 html[lang^=nm] .submit-page .roundfield .title,
 html[lang^=nm] .md,
 html[lang^=nm] .md blockquote,
-html[lang^=nm] .md del {
+html[lang^=nm] .md del,
+html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #eee !important; }
 .res-nightmode .md blockquote,
 html[lang^=nm] .md blockquote {
@@ -2495,12 +2497,10 @@ html[lang^=nm] .link.last-clicked {
   background-color: 0 0 !important; }
 .res .RESDashboardToggle,
 .res .RESshortcutside {
-  background: 0 0 !important;
+  background: 0 0;
   border: none;
-  color: #000;
   font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none; }
+  text-transform: uppercase; }
 .res .sitetable .sitetable {
   margin-right: 0; }
 
