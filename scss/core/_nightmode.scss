@@ -74,6 +74,9 @@ html[lang^=nm] {
     .nextprev a {
         background: $nm-color-bg-main !important;
     }
+    #newlink-with-image-upload #new-link-preview {
+        background: $nm-color-bg-main;
+    }
     #header #header-bottom-right {
         #mail:hover,
         #modmail:hover,

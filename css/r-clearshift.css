@@ -284,6 +284,9 @@ button:active,
   border-bottom: none;
   border-top: none; }
 
+#ad_sponsorship {
+  max-width: 295px; }
+
 .organic-listing .link.promotedlink {
   margin-left: -1px; }
 
@@ -637,7 +640,8 @@ body .linklisting {
   font-size: 1.145em; }
 
 #siteTable .thing {
-  margin-left: -5px !important; }
+  margin-left: -5px !important;
+  transition: all .2s; }
 
 .listing-page .link:hover {
   border-left-color: #06aeaa !important;
@@ -855,11 +859,7 @@ ul.tabmenu.formtab {
   width: 394px !important;
   height: 304px !important;
   background-image: url(%%res-easter-egg%%) no-repeat !important;
-  transition: all 10s linear !important;
-  -webkit-transition: all 10s linear !important;
-  -moz-transition: all 10s linear !important;
-  -o-transition: all 10s linear !important;
-  -ms-transition: all 10s linear !important; }
+  transition: all 10s linear !important; }
 
 .sheets .col textarea {
   width: 98%;
@@ -927,7 +927,7 @@ span.clear-input-button {
 #newlink-with-image-upload .clear-input-button {
   border-radius: 0 !important;
   width: 33px !important;
-  height: 26.5px !important;
+  height: 27px !important;
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
@@ -947,9 +947,6 @@ span.clear-input-button {
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
     background: #06aeaa; }
-
-#ad_sponsorship {
-  max-width: 295px; }
 
 .side {
   margin: 0;
@@ -1988,6 +1985,9 @@ html[lang^=nm] .date:before,
 html[lang^=nm] .morelink,
 html[lang^=nm] .nextprev a {
   background: #222 !important; }
+.res-nightmode #newlink-with-image-upload #new-link-preview,
+html[lang^=nm] #newlink-with-image-upload #new-link-preview {
+  background: #222; }
 .res-nightmode #header #header-bottom-right #mail:hover,
 .res-nightmode #header #header-bottom-right #modmail:hover,
 .res-nightmode #header #header-bottom-right .choice:hover,
