@@ -251,15 +251,16 @@ div.side {
 .morelink {
     border: 1px solid $color-bg-main;
     background: $color-bg-main;
-    width: 143px;
+    width: 145px;
     margin-right: 5px;
-    transition: background-color 0.5s;
+    transition: all 0.5s;
+    box-sizing: border-box;
     a {
         color: #fff;
         font-family: $font-main;
-        font-weight: 400 !important;
+        font-weight: 400;
         letter-spacing: 0;
-        font-size: 10.5pt;
+        font-size: 0.9em;
     }
     &:hover {
         background: $color-bg-secondary;
@@ -568,6 +569,11 @@ div.titlebox {
     border: none;
 }
 
+.titlebox h1 a,
+.pagename a {
+    color: #FFF;
+}
+
 #RESShortcutsAdd,
 #RESShortcutsEditContainer,
 #RESShortcutsLeft,
@@ -614,10 +620,6 @@ div.titlebox .md h3:hover+ul {
     }
     .footer {
         border-right: 1px solid $color-bg-main;
-    }
-    #header-bottom-left .tabmenu {
-        width: calc(100% - 50px);
-        padding-left: 50px;
     }
     #siteTable_organic {
         margin-right: -5px;

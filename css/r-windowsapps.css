@@ -37,11 +37,11 @@ Secondary: #7A0218
   height: 140px; }
   #header-bottom-left .tabmenu {
     background: rgba(0, 0, 0, 0.2);
-    width: calc(100% - 115px);
+    width: calc(100% - 146px);
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-left: 115px;
+    padding-left: 146px;
     font-family: "Segoe UI", sans-serif; }
     #header-bottom-left .tabmenu li {
       font-weight: 400;
@@ -143,8 +143,18 @@ Secondary: #7A0218
   #sr-header-area .drop-choices .choice.bottom-option {
     border-color: #AEAEAE; }
 
-#sr-more-link {
+#sr-more-link,
+.voteWeight {
   display: none !important; }
+
+.rank,
+.titlebox .bottom,
+#suggested-reddits,
+.submit-page .content h1,
+a[href*='#icon'] + .keyNavAnnotation,
+a[href*='#/RES_SR_Config/NightModeCompatible'],
+.formtabs-content .infobar {
+  display: none; }
 
 #url-field button,
 .submit-page .content button[name=submit] {
@@ -268,8 +278,7 @@ button:active,
     visibility: visible;
     position: relative;
     top: -1px;
-    color: #b1b1b1;
-    transition: all 0.15s ease; }
+    color: #b1b1b1; }
 
 .domain {
   display: inline-block !important; }
@@ -541,24 +550,19 @@ a[href*="#icon-more"] {
 .link {
   padding: 10px 0;
   border-left: 3px solid transparent;
-  margin-bottom: 0 !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .link .title {
-    color: #0057A6;
-    padding: 0 !important; }
+    color: #0057A6; }
     .link .title:visited {
-      color: #b1b1b1;
-      padding: 0 !important; }
+      color: #b1b1b1; }
   .link.thing.visited .title {
     color: #b1b1b1;
     padding: 0 !important; }
   .link.last-clicked {
-    margin-bottom: 2px;
-    padding: 5px 5px 2px 0;
     border: 0;
-    border-left: 3px solid #0078D7 !important;
-    background: #f0f8ff !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; }
+    border-left: 3px solid #0078D7;
+    background: #f0f8ff; }
   .link .score.likes {
     color: #0078D7; }
   .link .score.dislikes {
@@ -584,10 +588,10 @@ a[href*="#icon-more"] {
 .linklisting .nextprev {
   font-size: 0; }
 .linklisting .stickied {
-  border-left: 3px solid #00a64f !important;
+  border-left: 3px solid #00a64f;
   background: rgba(0, 166, 79, 0.1); }
 .linklisting .over18 {
-  border-left: 3px solid #e2062c !important;
+  border-left: 3px solid #e2062c;
   background: rgba(225, 6, 44, 0.1); }
 .linklisting .md {
   margin-bottom: 0; }
@@ -595,15 +599,11 @@ a[href*="#icon-more"] {
   margin-left: -10px; }
 .linklisting .reported {
   background: rgba(255, 0, 0, 0.1);
-  border-left: 3px solid red; }
+  border-left: 3px solid #e2062c; }
 
 .newComments {
   display: inline;
   color: #0057A6; }
-
-.rank,
-.titlebox .bottom {
-  display: none; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -644,8 +644,8 @@ body .linklisting {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #0078D7 !important;
-  background: #f0f8ff !important; }
+  border-left-color: #0078D7;
+  background: #f0f8ff; }
 
 .entry .flat-list .report-button a,
 .res-nightmode .entry .flat-list .report-button a {
@@ -719,12 +719,7 @@ a.author {
 
 .thing.stickied a.title {
   font-weight: 700 !important;
-  color: #00a64f !important;
-  font-size: large !important; }
-  .thing.stickied a.title.visited, .thing.stickied a.title:visited {
-    font-weight: 700 !important;
-    color: #00a64f !important;
-    font-size: large !important; }
+  font-size: large; }
 
 .green,
 .tagline .moderator {
@@ -766,8 +761,7 @@ a.author {
     line-height: 8px; }
 
 .comments-page .sitetable.nestedlisting > .thing.stickied {
-  margin-bottom: 30px !important;
-  border-bottom: solid 3px #00a64f !important;
+  border-bottom: solid 3px #00a64f;
   background: rgba(0, 166, 79, 0.1) !important; }
 .comments-page.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page.linkflair-help .flat-list a.flairselectbtn:after {
   animation: 1s ease-out 0s normal none infinite running pulsate;
@@ -794,12 +788,6 @@ a.author {
     border-color: #0078D6 !important; }
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
-
-#suggested-reddits,
-.submit-page .content h1,
-a[href*='#icon'] + .keyNavAnnotation,
-a[href*='#/RES_SR_Config/NightModeCompatible'] {
-  display: none; }
 
 .commentarea .menuarea {
   margin: 5px 310px 5px 5px; }
@@ -917,9 +905,6 @@ a[href*="#tech"] {
   text-transform: capitalize; }
   .gadget .right a:hover {
     background: #0078D7; }
-
-.voteWeight {
-  display: none !important; }
 
 span.clear-input-button {
   color: #fff; }
@@ -1146,15 +1131,16 @@ div.side div.tagline {
 .morelink {
   border: 1px solid #0057A6;
   background: #0057A6;
-  width: 143px;
+  width: 145px;
   margin-right: 5px;
-  transition: background-color 0.5s; }
+  transition: all 0.5s;
+  box-sizing: border-box; }
   .morelink a {
     color: #fff;
     font-family: "Segoe UI", sans-serif;
-    font-weight: 400 !important;
+    font-weight: 400;
     letter-spacing: 0;
-    font-size: 10.5pt; }
+    font-size: 0.9em; }
   .morelink:hover {
     background: #0078D7;
     border-color: #0078D7; }
@@ -1387,6 +1373,10 @@ div.titlebox h1 {
 .titlebox .bottom {
   border: none; }
 
+.titlebox h1 a,
+.pagename a {
+  color: #FFF; }
+
 #RESShortcutsAdd,
 #RESShortcutsEditContainer,
 #RESShortcutsLeft,
@@ -1429,10 +1419,6 @@ div.titlebox .md h3:hover + ul {
 
   .footer {
     border-right: 1px solid #0057A6; }
-
-  #header-bottom-left .tabmenu {
-    width: calc(100% - 50px);
-    padding-left: 50px; }
 
   #siteTable_organic {
     margin-right: -5px; }
@@ -2587,8 +2573,7 @@ html[lang^=nm] .link.last-clicked {
   border-radius: 0; }
 
 .titlebox h1.redditname a {
-  font-size: 0;
-  color: #FFF; }
+  font-size: 0; }
   .titlebox h1.redditname a:after {
     content: "Windows Apps";
     color: #fff;

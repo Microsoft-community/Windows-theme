@@ -1,2 +1,5 @@
 /css/_comments.css
 /.sass-cache
+/scss/r-secret.scss
+/css/r-secret.css
+/css/minified/r-secret.css

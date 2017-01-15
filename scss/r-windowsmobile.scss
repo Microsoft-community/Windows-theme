@@ -246,8 +246,3 @@ a[href$="Windows10#2"] {
         border-color: #fff!important;
     }
 }
-
-#header-bottom-left .tabmenu {
-    padding-left: $tabmenu-offset;
-    width: calc(100% - #{$tabmenu-offset});
-}

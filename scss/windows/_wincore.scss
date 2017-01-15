@@ -1,7 +1,6 @@
 //sidebar name
 .titlebox h1.redditname a {
   font-size: 0;
-  color: #FFF;
   &:after {
     content: $sub-name;
     color: #fff;
@@ -52,7 +51,7 @@
 }
 
 .flair-mod {
-  color: #00a64f;
+  color: $color-mod;
 }
 
 //microsoft employees
