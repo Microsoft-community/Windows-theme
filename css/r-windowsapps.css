@@ -13,10 +13,6 @@ Secondary: #7A0218
   height: 165px;
   background: #0057A6;
   border-bottom: none; }
-  #header [href$="/rising/"],
-  #header [href$="/controversial/"],
-  #header [href$="/ads/"] {
-    display: none !important; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
     animation: 1s ease-out 0s normal none infinite running pulsate;
@@ -144,17 +140,18 @@ Secondary: #7A0218
     border-color: #AEAEAE; }
 
 #sr-more-link,
-.voteWeight {
-  display: none !important; }
-
+#header [href$="/rising/"],
+#header [href$="/controversial/"],
+#header [href$="/ads/"],
+#suggested-reddits,
+.voteWeight,
 .rank,
 .titlebox .bottom,
-#suggested-reddits,
 .submit-page .content h1,
+.formtabs-content .infobar,
 a[href*='#icon'] + .keyNavAnnotation,
-a[href*='#/RES_SR_Config/NightModeCompatible'],
-.formtabs-content .infobar {
-  display: none; }
+a[href*='#/RES_SR_Config/NightModeCompatible'] {
+  display: none !important; }
 
 #url-field button,
 .submit-page .content button[name=submit] {

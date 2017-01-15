@@ -31,11 +31,6 @@ Secondary: #7A0218
   height: 165px;
   background: $color-bg-main;
   border-bottom: none;
-  [href$="/rising/"],
-  [href$="/controversial/"],
-  [href$="/ads/"] {
-    display: none !important;
-  }
   #header-bottom-right #mail.havemail,
   #modmail.havemail {
     animation: 1s ease-out 0s normal none infinite running pulsate;
@@ -190,18 +185,18 @@ Secondary: #7A0218
 }
 
 #sr-more-link,
-.voteWeight {
-  display: none !important;
-}
-
+#header [href$="/rising/"],
+#header [href$="/controversial/"],
+#header [href$="/ads/"],
+#suggested-reddits,
+.voteWeight,
 .rank,
 .titlebox .bottom,
-#suggested-reddits,
 .submit-page .content h1,
+.formtabs-content .infobar, //temporary infobars "fix"
 a[href*='#icon']+.keyNavAnnotation,
-a[href*='#/RES_SR_Config/NightModeCompatible'],
-.formtabs-content .infobar { //temporary infobars "fix"
-  display: none;
+a[href*='#/RES_SR_Config/NightModeCompatible'] {
+  display: none !important;
 }
 
 #url-field button,
