@@ -296,6 +296,7 @@ html[lang^=nm] {
     #eu-cookie-policy .reddit-infobar p,
     #search input[type=text] {
         background-color: $nm-color-bg-main !important;
+		color: $nm-color-text;
     }
     //color secondary merge
     .link .usertext-body .md,
