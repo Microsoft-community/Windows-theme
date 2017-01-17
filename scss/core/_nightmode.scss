@@ -193,6 +193,7 @@ html[lang^=nm] {
 		div.tagline, form.flairtoggle {
             border-left: 5px solid $nm-color-bg-secondary !important;
             border-right: 1px solid $nm-color-bg-secondary !important;
+			border-bottom: none !important;
             background: $nm-color-bg-main !important;
 		}
     }
