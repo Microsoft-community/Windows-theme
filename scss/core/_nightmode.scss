@@ -177,11 +177,9 @@ html[lang^=nm] {
         }
     }
     div.side {
-        div.tagline,
         div.leavemoderator,
         p.users-online,
         span.subscribers,
-        form.flairtoggle,
         form.leavecontributor-button,
         .titlebox div.subButtons,
         .titlebox h1.redditname+div,
@@ -192,6 +190,12 @@ html[lang^=nm] {
             background: $nm-color-bg-main !important;
             border-top: 1px solid $nm-color-bg-secondary !important;
         }
+		div.tagline, form.flairtoggle {
+            border-left: 5px solid $nm-color-bg-secondary !important;
+            border-right: 1px solid $nm-color-bg-secondary !important;
+			border-bottom: none !important;
+            background: $nm-color-bg-main !important;
+		}
     }
     .titlebox form.toggle {
         background: $nm-color-bg-main;
@@ -296,6 +300,7 @@ html[lang^=nm] {
     #eu-cookie-policy .reddit-infobar p,
     #search input[type=text] {
         background-color: $nm-color-bg-main !important;
+		color: $nm-color-text;
     }
     //color secondary merge
     .link .usertext-body .md,
