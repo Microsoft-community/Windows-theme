@@ -452,9 +452,12 @@ html[lang^=nm] {
         background-position: -204px -149px;
     }
     //threads
-    #siteTable .thing {
+    #siteTable .thing, .link.promotedlink {
         background: #202020;
     }
+	.organic-listing {
+		background: none !important;
+	}
     body>.content #siteTable .thing.self .thumbnail {
         background-position: -77px -5px;
     }

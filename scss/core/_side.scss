@@ -656,6 +656,7 @@ div.commentarea .infobar p {
 }
 
 .date {
+	position: relative;
     &:before {
         content: "Date ";
         display: block;
@@ -697,8 +698,9 @@ div.commentarea .infobar p {
     }
     time {
         position: absolute;
-        top: 257px;
-        right: 68px;
+        top: 50%;
+        left: 55%;
+		padding: 9px 0 10px 0;
     }
 }
 
