@@ -297,7 +297,7 @@ html[lang^=nm] {
     //color main merge
     .flairselector,
     .comments-page .usertext-edit div textarea,
-    #eu-cookie-policy .reddit-infobar p,
+    #eu-cookie-policy .reddit-infobar,
     #search input[type=text] {
         background-color: $nm-color-bg-main !important;
 		color: $nm-color-text;
@@ -310,6 +310,7 @@ html[lang^=nm] {
     .tagline .likes,
     .tagline .submitter,
     .buttons .comments.empty,
+    .cookie-infobar.with-icon:before,
     .comments-page .link .flat-list a.flairselectbtn,
     .entry .flat-list .report-button a,
     .helplink~.content .author::after,
