@@ -294,7 +294,8 @@ button:active,
   max-width: 295px; }
 
 .organic-listing .link.promotedlink {
-  margin-left: -1px; }
+  margin-left: -1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .flairselector {
   border: 1px solid #0057A6 !important; }
@@ -1444,45 +1445,48 @@ div.commentarea .infobar p {
     margin-top: 0;
     padding: 7px 10px 10px; }
 
-.date:before {
-  content: "Date ";
-  display: block;
-  color: #fff !important;
-  text-transform: none;
-  border-left: 5px solid #1992FF;
-  background-color: #0057A6;
-  padding: 10px;
-  cursor: pointer;
-  margin-top: 0;
-  margin-bottom: 6px;
-  margin-left: -10px;
-  font: 400 small verdana, arial, helvetica, sans-serif; }
-.date:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
-  border-width: 10px;
-  border-style: solid;
-  content: "";
-  margin-left: -19px;
-  margin-top: -32px; }
-.date span {
-  display: block;
-  background-color: #fff;
-  padding: 7px 0 10px 10px;
-  border-left: 5px solid #d7ecff;
-  border-bottom: 1px solid #d7ecff;
-  margin: -6px 5px -10px 0;
-  border-right: 1px solid #d7ecff; }
-.date span,
-.date time {
-  color: #494949;
-  font-size: 9pt; }
-.date time {
-  position: absolute;
-  top: 257px;
-  right: 68px; }
+.date {
+  position: relative; }
+  .date:before {
+    content: "Date ";
+    display: block;
+    color: #fff !important;
+    text-transform: none;
+    border-left: 5px solid #1992FF;
+    background-color: #0057A6;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 6px;
+    margin-left: -10px;
+    font: 400 small verdana, arial, helvetica, sans-serif; }
+  .date:after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-color: transparent #d7ecff transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    content: "";
+    margin-left: -19px;
+    margin-top: -32px; }
+  .date span {
+    display: block;
+    background-color: #fff;
+    padding: 7px 0 10px 10px;
+    border-left: 5px solid #d7ecff;
+    border-bottom: 1px solid #d7ecff;
+    margin: -6px 5px -10px 0;
+    border-right: 1px solid #d7ecff; }
+  .date span,
+  .date time {
+    color: #494949;
+    font-size: 9pt; }
+  .date time {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    padding: 9px 0 10px 0; }
 
 .totalvotes {
   display: block;
@@ -2110,7 +2114,8 @@ html[lang^=nm] div.side .titlebox > .fancy-toggle-button {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
-.res-nightmode div.side div.tagline, .res-nightmode div.side form.flairtoggle,
+.res-nightmode div.side div.tagline,
+.res-nightmode div.side form.flairtoggle,
 html[lang^=nm] div.side div.tagline,
 html[lang^=nm] div.side form.flairtoggle {
   border-left: 5px solid #393939 !important;
@@ -2221,34 +2226,22 @@ html[lang^=nm] #eu-cookie-policy .reddit-infobar,
 html[lang^=nm] #search input[type=text] {
   background-color: #222 !important;
   color: #ddd; }
+.res-nightmode #header-bottom-left .tabmenu li.selected a,
 .res-nightmode .link .usertext-body .md,
 .res-nightmode .debuginfo,
-.res-nightmode #header-bottom-left .tabmenu li.selected a,
 .res-nightmode .sidecontentbox a.helplink:hover,
-.res-nightmode .tagline .likes,
-.res-nightmode .tagline .submitter,
-.res-nightmode .buttons .comments.empty,
 .res-nightmode .cookie-infobar.with-icon:before,
-.res-nightmode .comments-page .link .flat-list a.flairselectbtn,
-.res-nightmode .entry .flat-list .report-button a,
-.res-nightmode .helplink ~ .content .author::after,
 .res-nightmode div.titlebox span.fancy-toggle-button a.active.remove,
 .res-nightmode .link .score .likes,
 .res-nightmode .nextprev a:hover,
 .res-nightmode .side .morelink a:hover,
 .res-nightmode button:hover,
 .res-nightmode .account-activity-box:hover,
+html[lang^=nm] #header-bottom-left .tabmenu li.selected a,
 html[lang^=nm] .link .usertext-body .md,
 html[lang^=nm] .debuginfo,
-html[lang^=nm] #header-bottom-left .tabmenu li.selected a,
 html[lang^=nm] .sidecontentbox a.helplink:hover,
-html[lang^=nm] .tagline .likes,
-html[lang^=nm] .tagline .submitter,
-html[lang^=nm] .buttons .comments.empty,
 html[lang^=nm] .cookie-infobar.with-icon:before,
-html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
-html[lang^=nm] .entry .flat-list .report-button a,
-html[lang^=nm] .helplink ~ .content .author::after,
 html[lang^=nm] div.titlebox span.fancy-toggle-button a.active.remove,
 html[lang^=nm] .link .score .likes,
 html[lang^=nm] .nextprev a:hover,
@@ -2299,10 +2292,6 @@ html[lang^=nm] .side .spacer .titlebox .redditname {
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
   background: #0057A6; }
-.res-nightmode .linklisting .link:hover,
-html[lang^=nm] .linklisting .link:hover {
-  background: #393939 !important;
-  border-left-color: #a9a9a9 !important; }
 .res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
@@ -2383,8 +2372,13 @@ html[lang^=nm] a[href*="#iconz-install"]::before {
 html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
 .res-nightmode #siteTable .thing,
-html[lang^=nm] #siteTable .thing {
+.res-nightmode .link.promotedlink,
+html[lang^=nm] #siteTable .thing,
+html[lang^=nm] .link.promotedlink {
   background: #202020; }
+.res-nightmode .organic-listing,
+html[lang^=nm] .organic-listing {
+  background: none !important; }
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
   background-position: -77px -5px; }
@@ -2432,6 +2426,9 @@ html[lang^=nm] .date time {
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
   background: #393939 !important; }
+.res-nightmode .comments-page .link,
+html[lang^=nm] .comments-page .link {
+  border-left: 3px solid transparent; }
 
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }

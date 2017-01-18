@@ -190,12 +190,13 @@ html[lang^=nm] {
             background: $nm-color-bg-main !important;
             border-top: 1px solid $nm-color-bg-secondary !important;
         }
-		div.tagline, form.flairtoggle {
+        div.tagline,
+        form.flairtoggle {
             border-left: 5px solid $nm-color-bg-secondary !important;
             border-right: 1px solid $nm-color-bg-secondary !important;
-			border-bottom: none !important;
+            border-bottom: none !important;
             background: $nm-color-bg-main !important;
-		}
+        }
     }
     .titlebox form.toggle {
         background: $nm-color-bg-main;
@@ -265,9 +266,11 @@ html[lang^=nm] {
         border-bottom: 1px solid $nm-color-borders!important;
         border-right: 1px solid $nm-color-borders!important;
     }
-    .listing-page .link:hover {
-        background: $nm-color-bg-secondary !important;
-        border-left-color: #a9a9a9 !important;
+    .listing-page {
+        .link:hover {
+            background: $nm-color-bg-secondary !important;
+            border-left-color: #a9a9a9 !important;
+        }
     }
     div.titlebox .md ul li:hover {
         background-color: $nm-color-bg-secondary !important;
@@ -300,7 +303,7 @@ html[lang^=nm] {
     #eu-cookie-policy .reddit-infobar,
     #search input[type=text] {
         background-color: $nm-color-bg-main !important;
-		color: $nm-color-text;
+        color: $nm-color-text;
     }
     //color secondary merge
     #header-bottom-left .tabmenu li.selected a,
@@ -308,8 +311,6 @@ html[lang^=nm] {
     .debuginfo,
     .sidecontentbox a.helplink:hover,
     .cookie-infobar.with-icon:before,
-    .comments-page .link .flat-list a.flairselectbtn,
-    .entry .flat-list .report-button a,
     div.titlebox span.fancy-toggle-button a.active.remove,
     .link .score .likes, //hover
     .nextprev a:hover,
@@ -361,12 +362,6 @@ html[lang^=nm] {
     }
     .gold-accent {
         background: $color-bg-main;
-    }
-    .linklisting {
-        .link:hover {
-            background: $nm-color-bg-secondary !important;
-            border-left-color: #a9a9a9 !important;
-        }
     }
     .thing {
         .title:visited,
@@ -448,12 +443,13 @@ html[lang^=nm] {
         background-position: -204px -149px;
     }
     //threads
-    #siteTable .thing, .link.promotedlink {
+    #siteTable .thing,
+    .link.promotedlink {
         background: $nm-color-milddark;
     }
-	.organic-listing {
-		background: none !important;
-	}
+    .organic-listing {
+        background: none !important;
+    }
     body>.content #siteTable .thing.self .thumbnail {
         background-position: -77px -5px;
     }
@@ -504,9 +500,12 @@ html[lang^=nm] {
     .link.last-clicked {
         background: $nm-color-bg-secondary !important;
     }
+    .comments-page .link {
+        border-left: 3px solid transparent;
+    }
 }
+//end of merged nightmode 
 
-//individual
 .res-nightmode {
     .res {
         .RES-keyNav-activeElement {
@@ -539,7 +538,6 @@ html[lang^=nm] {
             background-position: -271px -60px !important;
         }
     }
-    //RES???
     .side .titlebox>.fancy-toggle-button {
         background: $nm-color-bg-main !important;
         color: $nm-color-text !important;
