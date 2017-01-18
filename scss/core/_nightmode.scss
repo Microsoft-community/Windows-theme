@@ -303,16 +303,12 @@ html[lang^=nm] {
 		color: $nm-color-text;
     }
     //color secondary merge
+    #header-bottom-left .tabmenu li.selected a,
     .link .usertext-body .md,
     .debuginfo,
-    #header-bottom-left .tabmenu li.selected a,
     .sidecontentbox a.helplink:hover,
-    .tagline .likes,
-    .tagline .submitter,
-    .buttons .comments.empty,
     .comments-page .link .flat-list a.flairselectbtn,
     .entry .flat-list .report-button a,
-    .helplink~.content .author::after,
     div.titlebox span.fancy-toggle-button a.active.remove,
     .link .score .likes, //hover
     .nextprev a:hover,
