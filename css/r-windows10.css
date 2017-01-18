@@ -2536,9 +2536,14 @@ html[lang^=nm] a[href*="#iconz-install"]::before {
 html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
 
-.res-nightmode #siteTable .thing,
-html[lang^=nm] #siteTable .thing {
+.res-nightmode #siteTable .thing, .res-nightmode .link.promotedlink,
+html[lang^=nm] #siteTable .thing,
+html[lang^=nm] .link.promotedlink {
   background: #202020; }
+
+.res-nightmode .organic-listing,
+html[lang^=nm] .organic-listing {
+  background: none !important; }
 
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
