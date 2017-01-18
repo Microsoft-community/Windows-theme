@@ -48,7 +48,7 @@
                 border-width: 10px;
                 border-style: solid;
                 content: "";
-                margin-left: -23px;
+                margin-left: -24px;
             }
             a {
                 color: #fff;
@@ -144,7 +144,8 @@
     }
 }
 
-.titlebox h1:after {
+.titlebox h1:after,
+.sidecontentbox .title:after {
     display: block;
     position: absolute;
     z-index: -1;
@@ -505,16 +506,6 @@ div.titlebox {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: -10px;
-    &:after {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        border-color: transparent #d7ecff transparent transparent;
-        border-width: 10px;
-        border-style: solid;
-        content: "";
-        margin-left: -25px;
-    }
 }
 
 div.titlebox {
@@ -665,6 +656,7 @@ div.commentarea .infobar p {
 }
 
 .date {
+	position: relative;
     &:before {
         content: "Date ";
         display: block;
@@ -706,8 +698,9 @@ div.commentarea .infobar p {
     }
     time {
         position: absolute;
-        top: 257px;
-        right: 68px;
+        top: 50%;
+        left: 55%;
+		padding: 9px 0 10px 0;
     }
 }
 

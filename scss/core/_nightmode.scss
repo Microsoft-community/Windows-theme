@@ -297,7 +297,7 @@ html[lang^=nm] {
     //color main merge
     .flairselector,
     .comments-page .usertext-edit div textarea,
-    #eu-cookie-policy .reddit-infobar p,
+    #eu-cookie-policy .reddit-infobar,
     #search input[type=text] {
         background-color: $nm-color-bg-main !important;
 		color: $nm-color-text;
@@ -307,6 +307,7 @@ html[lang^=nm] {
     .link .usertext-body .md,
     .debuginfo,
     .sidecontentbox a.helplink:hover,
+    .cookie-infobar.with-icon:before,
     .comments-page .link .flat-list a.flairselectbtn,
     .entry .flat-list .report-button a,
     div.titlebox span.fancy-toggle-button a.active.remove,
@@ -447,9 +448,12 @@ html[lang^=nm] {
         background-position: -204px -149px;
     }
     //threads
-    #siteTable .thing {
-        background: #202020;
+    #siteTable .thing, .link.promotedlink {
+        background: $nm-color-milddark;
     }
+	.organic-listing {
+		background: none !important;
+	}
     body>.content #siteTable .thing.self .thumbnail {
         background-position: -77px -5px;
     }

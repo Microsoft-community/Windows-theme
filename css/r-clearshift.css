@@ -298,7 +298,8 @@ button:active,
   max-width: 295px; }
 
 .organic-listing .link.promotedlink {
-  margin-left: -1px; }
+  margin-left: -1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .flairselector {
   border: 1px solid #048480 !important; }
@@ -1004,7 +1005,7 @@ span.clear-input-button {
       border-width: 10px;
       border-style: solid;
       content: "";
-      margin-left: -23px; }
+      margin-left: -24px; }
     .side .md h1 a,
     .side .md h2 a,
     .side .md h3 a,
@@ -1078,7 +1079,8 @@ span.clear-input-button {
   50% {
     opacity: 1; } }
 
-.titlebox h1:after {
+.titlebox h1:after,
+.sidecontentbox .title:after {
   display: block;
   position: absolute;
   z-index: -1;
@@ -1372,15 +1374,6 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
-  .sidecontentbox .title:after {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
-    border-width: 10px;
-    border-style: solid;
-    content: "";
-    margin-left: -25px; }
 
 div.titlebox .md h3:before {
   content: "+";
@@ -1501,49 +1494,48 @@ div.commentarea .infobar p {
     margin-top: 0;
     padding: 7px 10px 10px; }
 
-.date:before {
-  content: "Date ";
-  display: block;
-  color: #fff !important;
-  text-transform: none;
-  border-left: 5px solid #1992FF;
-  background-color: #048480;
-  padding: 10px;
-  cursor: pointer;
-  margin-top: 0;
-  margin-bottom: 6px;
-  margin-left: -10px;
-  font: 400 small verdana, arial, helvetica, sans-serif; }
-
-.date:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
-  border-width: 10px;
-  border-style: solid;
-  content: "";
-  margin-left: -19px;
-  margin-top: -32px; }
-
-.date span {
-  display: block;
-  background-color: #fff;
-  padding: 7px 0 10px 10px;
-  border-left: 5px solid #d7ecff;
-  border-bottom: 1px solid #d7ecff;
-  margin: -6px 5px -10px 0;
-  border-right: 1px solid #d7ecff; }
-
-.date span,
-.date time {
-  color: #494949;
-  font-size: 9pt; }
-
-.date time {
-  position: absolute;
-  top: 257px;
-  right: 68px; }
+.date {
+  position: relative; }
+  .date:before {
+    content: "Date ";
+    display: block;
+    color: #fff !important;
+    text-transform: none;
+    border-left: 5px solid #1992FF;
+    background-color: #048480;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 6px;
+    margin-left: -10px;
+    font: 400 small verdana, arial, helvetica, sans-serif; }
+  .date:after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-color: transparent #d7ecff transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    content: "";
+    margin-left: -19px;
+    margin-top: -32px; }
+  .date span {
+    display: block;
+    background-color: #fff;
+    padding: 7px 0 10px 10px;
+    border-left: 5px solid #d7ecff;
+    border-bottom: 1px solid #d7ecff;
+    margin: -6px 5px -10px 0;
+    border-right: 1px solid #d7ecff; }
+  .date span,
+  .date time {
+    color: #494949;
+    font-size: 9pt; }
+  .date time {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    padding: 9px 0 10px 0; }
 
 .totalvotes {
   display: block;
@@ -2343,11 +2335,11 @@ html[lang^=nm] div.titlebox .sidecontentbox .title:after {
 
 .res-nightmode .flairselector,
 .res-nightmode .comments-page .usertext-edit div textarea,
-.res-nightmode #eu-cookie-policy .reddit-infobar p,
+.res-nightmode #eu-cookie-policy .reddit-infobar,
 .res-nightmode #search input[type=text],
 html[lang^=nm] .flairselector,
 html[lang^=nm] .comments-page .usertext-edit div textarea,
-html[lang^=nm] #eu-cookie-policy .reddit-infobar p,
+html[lang^=nm] #eu-cookie-policy .reddit-infobar,
 html[lang^=nm] #search input[type=text] {
   background-color: #222 !important;
   color: #ddd; }
@@ -2359,6 +2351,7 @@ html[lang^=nm] #search input[type=text] {
 .res-nightmode .tagline .likes,
 .res-nightmode .tagline .submitter,
 .res-nightmode .buttons .comments.empty,
+.res-nightmode .cookie-infobar.with-icon:before,
 .res-nightmode .comments-page .link .flat-list a.flairselectbtn,
 .res-nightmode .entry .flat-list .report-button a,
 .res-nightmode .helplink ~ .content .author::after,
@@ -2375,6 +2368,7 @@ html[lang^=nm] .sidecontentbox a.helplink:hover,
 html[lang^=nm] .tagline .likes,
 html[lang^=nm] .tagline .submitter,
 html[lang^=nm] .buttons .comments.empty,
+html[lang^=nm] .cookie-infobar.with-icon:before,
 html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
 html[lang^=nm] .entry .flat-list .report-button a,
 html[lang^=nm] .helplink ~ .content .author::after,
@@ -2543,9 +2537,14 @@ html[lang^=nm] a[href*="#iconz-install"]::before {
 html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
 
-.res-nightmode #siteTable .thing,
-html[lang^=nm] #siteTable .thing {
+.res-nightmode #siteTable .thing, .res-nightmode .link.promotedlink,
+html[lang^=nm] #siteTable .thing,
+html[lang^=nm] .link.promotedlink {
   background: #202020; }
+
+.res-nightmode .organic-listing,
+html[lang^=nm] .organic-listing {
+  background: none !important; }
 
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {

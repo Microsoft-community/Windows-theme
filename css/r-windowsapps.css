@@ -1045,7 +1045,8 @@ span.clear-input-button {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
-.titlebox h1:after {
+.titlebox h1:after,
+.sidecontentbox .title:after {
   display: block;
   position: absolute;
   z-index: -1;
@@ -1320,15 +1321,6 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
-  .sidecontentbox .title:after {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
-    border-width: 10px;
-    border-style: solid;
-    content: "";
-    margin-left: -25px; }
 
 div.titlebox .md h3:before {
   content: "+";
@@ -2099,20 +2091,16 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] div.titlebox .md ul li:hover {
     background-color: #393939 !important;
     border-left-color: rgba(6, 102, 178, 0.5) !important; }
-.res-nightmode div.side div.tagline,
 .res-nightmode div.side div.leavemoderator,
 .res-nightmode div.side p.users-online,
 .res-nightmode div.side span.subscribers,
-.res-nightmode div.side form.flairtoggle,
 .res-nightmode div.side form.leavecontributor-button,
 .res-nightmode div.side .titlebox div.subButtons,
 .res-nightmode div.side .titlebox h1.redditname + div,
 .res-nightmode div.side .titlebox > .fancy-toggle-button,
-html[lang^=nm] div.side div.tagline,
 html[lang^=nm] div.side div.leavemoderator,
 html[lang^=nm] div.side p.users-online,
 html[lang^=nm] div.side span.subscribers,
-html[lang^=nm] div.side form.flairtoggle,
 html[lang^=nm] div.side form.leavecontributor-button,
 html[lang^=nm] div.side .titlebox div.subButtons,
 html[lang^=nm] div.side .titlebox h1.redditname + div,
@@ -2122,6 +2110,13 @@ html[lang^=nm] div.side .titlebox > .fancy-toggle-button {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
+.res-nightmode div.side div.tagline, .res-nightmode div.side form.flairtoggle,
+html[lang^=nm] div.side div.tagline,
+html[lang^=nm] div.side form.flairtoggle {
+  border-left: 5px solid #393939 !important;
+  border-right: 1px solid #393939 !important;
+  border-bottom: none !important;
+  background: #222 !important; }
 .res-nightmode .titlebox form.toggle,
 html[lang^=nm] .titlebox form.toggle {
   background: #222;
@@ -2218,13 +2213,14 @@ html[lang^=nm] div.titlebox .sidecontentbox .title:after {
   border-color: transparent #393939 transparent transparent !important; }
 .res-nightmode .flairselector,
 .res-nightmode .comments-page .usertext-edit div textarea,
-.res-nightmode #eu-cookie-policy .reddit-infobar p,
+.res-nightmode #eu-cookie-policy .reddit-infobar,
 .res-nightmode #search input[type=text],
 html[lang^=nm] .flairselector,
 html[lang^=nm] .comments-page .usertext-edit div textarea,
-html[lang^=nm] #eu-cookie-policy .reddit-infobar p,
+html[lang^=nm] #eu-cookie-policy .reddit-infobar,
 html[lang^=nm] #search input[type=text] {
-  background-color: #222 !important; }
+  background-color: #222 !important;
+  color: #ddd; }
 .res-nightmode .link .usertext-body .md,
 .res-nightmode .debuginfo,
 .res-nightmode #header-bottom-left .tabmenu li.selected a,
@@ -2232,6 +2228,7 @@ html[lang^=nm] #search input[type=text] {
 .res-nightmode .tagline .likes,
 .res-nightmode .tagline .submitter,
 .res-nightmode .buttons .comments.empty,
+.res-nightmode .cookie-infobar.with-icon:before,
 .res-nightmode .comments-page .link .flat-list a.flairselectbtn,
 .res-nightmode .entry .flat-list .report-button a,
 .res-nightmode .helplink ~ .content .author::after,
@@ -2248,6 +2245,7 @@ html[lang^=nm] .sidecontentbox a.helplink:hover,
 html[lang^=nm] .tagline .likes,
 html[lang^=nm] .tagline .submitter,
 html[lang^=nm] .buttons .comments.empty,
+html[lang^=nm] .cookie-infobar.with-icon:before,
 html[lang^=nm] .comments-page .link .flat-list a.flairselectbtn,
 html[lang^=nm] .entry .flat-list .report-button a,
 html[lang^=nm] .helplink ~ .content .author::after,
