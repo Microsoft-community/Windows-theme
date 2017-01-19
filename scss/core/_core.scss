@@ -6,10 +6,11 @@ $color-bg-main: #0057A6 !default;
 $color-bg-secondary: #0078D7 !default;
 $color-bg-alt: #1992FF !default;
 $color-bg-active: #1686f0 !default;
+$color-bg-light-hover: #f0f8ff !default;
+$color-borders-light: #d7ecff !default;
+$color-border-left-hover: #7cb0d9 !default;
 $color-win: #0078D7 !default;
 $color-mod: #00a64f;
-//$color-side-accent: #1992FF !default;
-$color-bg-light-hover: #f0f8ff;
 //viewports
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
@@ -291,7 +292,7 @@ button:active,
 #header-bottom-left .tabmenu li a:active,
 #header-bottom-right #modmail:active,
 #header-bottom-right .user:active {
-  background-color: #1686f0 !important;
+  background-color: $color-bg-active !important;
 }
 
 .comment {
@@ -383,7 +384,7 @@ button:active,
 
 .organic-listing .link.promotedlink {
   margin-left: -1px;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .flairselector {
@@ -699,7 +700,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
 
 .link .usertext-body .md {
   border-radius: 0 !important;
-  border: 1px solid #01b7f1;
+  border: 1px solid $color-border-left-hover;
   background-color: #fff;
 }
 
@@ -887,7 +888,7 @@ body .linklisting {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #d7ecff;
+  BORDER: 1px solid $color-borders-light;
   &.with-icon {
     margin-left: -4px;
     &:before {
@@ -1135,11 +1136,11 @@ ul.tabmenu.formtab {
 .titlebox form.toggle {
   color: #000;
   background: #fff;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid $color-borders-light;
   padding-left: 10px;
   font-size: 8pt;
   margin-right: 5px;
-  border-right: 1px solid #d7ecff;
+  border-right: 1px solid $color-borders-light;
 }
 
 //verify RES !important usage ???

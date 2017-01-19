@@ -1,7 +1,10 @@
 //colors
-$color-bg-main: #048480;
-$color-bg-secondary: #06aeaa;
-//border-left color #d8f1fc
+$color-bg-main: #2D4059;
+$color-bg-secondary: #47658c;
+$color-bg-alt: #EA5455;
+$color-bg-light-hover: #fffafa;
+$color-borders-light: #fbdcdc;
+$color-border-left-hover: #eea7aa;
 @import 'core/core',
 'core/side',
 'core/profile',
@@ -9,10 +12,6 @@ $color-bg-secondary: #06aeaa;
 'core/nightmode',
 'core/RES',
 'core/footer';
-
-#header-bottom-left .tabmenu {
-    padding-left: 52px;
-}
 .pagename {
     margin: 0 15px 0 0;
     display: inline-block;
@@ -26,4 +25,7 @@ $color-bg-secondary: #06aeaa;
     bottom: 69px;
     position: absolute;
     left: 10px;
+    a:hover {
+        text-decoration: none;
+    }
 }

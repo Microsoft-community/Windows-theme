@@ -3,15 +3,15 @@ Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #048480
-Secondary: #06aeaa
+Main color: #2D4059
+Secondary: #47658c
 Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #048480;
+  background: #2D4059;
   border-bottom: none; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
@@ -58,7 +58,7 @@ Secondary: #7A0218
           background: rgba(0, 0, 0, 0.1);
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
-        background-color: #06aeaa;
+        background-color: #47658c;
         border: 0;
         color: #fff;
         padding-top: 7px;
@@ -168,7 +168,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992FF;
+  background: #EA5455;
   position: absolute;
   top: 223px; }
 
@@ -203,11 +203,11 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #06aeaa;
+  color: #47658c;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #06aeaa;
+    background: #47658c;
     border: none;
     color: #fff;
     outline: 0; }
@@ -241,7 +241,7 @@ button:active,
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #06aeaa;
+      background: #47658c;
       color: #FFF !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -264,10 +264,10 @@ button:active,
 .tagline .score {
   font-weight: 700; }
 .tagline .likes {
-  color: #048480; }
+  color: #2D4059; }
 
 .entry .flat-list .reply-button a {
-  color: #048480; }
+  color: #2D4059; }
 
 .link .domain {
   visibility: hidden; }
@@ -298,13 +298,13 @@ button:active,
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .flairselector {
-  border: 1px solid #048480 !important; }
+  border: 1px solid #2D4059 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #048480 !important;
+    background: #2D4059 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -312,7 +312,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #048480;
+    border-top: solid 1px #2D4059;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     padding: 0 !important;
@@ -330,7 +330,7 @@ button:active,
     padding: 3px; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #048480 !important; }
+  color: #2D4059 !important; }
 
 .nextprev a,
 .side .usertext-body .md ol a {
@@ -361,10 +361,10 @@ button:active,
     background-color: #e7e9f6; }
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #048480;
+  background-color: #2D4059;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #06aeaa; }
+    background-color: #47658c; }
 .submit-page #newlink.submit.content .btn {
   width: 558px;
   height: auto;
@@ -510,7 +510,7 @@ form .spacer + .spacer {
     background-size: 341px 331px; } }
 .link .usertext-body .md {
   border-radius: 0 !important;
-  border: 1px solid #01b7f1;
+  border: 1px solid #eea7aa;
   background-color: #fff; }
 
 body > .content #siteTable .thing.self .thumbnail {
@@ -551,7 +551,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .link .title {
-    color: #048480; }
+    color: #2D4059; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -559,10 +559,10 @@ a[href*="#icon-more"] {
     padding: 0 !important; }
   .link.last-clicked {
     border: 0;
-    border-left: 3px solid #06aeaa;
-    background: #f0f8ff; }
+    border-left: 3px solid #47658c;
+    background: #fffafa; }
   .link .score.likes {
-    color: #06aeaa; }
+    color: #47658c; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -575,7 +575,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #048480;
+  background: #2D4059;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -601,7 +601,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #048480; }
+  color: #2D4059; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -642,8 +642,8 @@ body .linklisting {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #06aeaa;
-  background: #f0f8ff; }
+  border-left-color: #47658c;
+  background: #fffafa; }
 
 .entry .flat-list .report-button a,
 .res-nightmode .entry .flat-list .report-button a {
@@ -651,15 +651,15 @@ body .linklisting {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #d7ecff; }
+  BORDER: 1px solid #fbdcdc; }
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #048480;
+      background-color: solid #2D4059;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #048480;
+  background-color: solid #2D4059;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -703,7 +703,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0px;
-  background: #048480;
+  background: #2D4059;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -732,10 +732,10 @@ a.author {
 .tagline .stickied-tagline {
   color: #00a64f; }
 .tagline a:hover {
-  color: #06aeaa !important; }
+  color: #47658c !important; }
 
 .gold-accent {
-  background-color: #048480;
+  background-color: #2D4059;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -744,13 +744,13 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #048480;
+  background: #2D4059;
   margin-left: 5px !important;
   display: none; }
 
 .commentarea .infobar {
   color: #eee;
-  background: #048480;
+  background: #2D4059;
   border: none;
   display: flex; }
   .commentarea .infobar a {
@@ -795,11 +795,11 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #048480; }
+    color: #2D4059; }
   .md code {
     white-space: normal; }
   .md blockquote {
-    border-left: 2px solid #06aeaa;
+    border-left: 2px solid #47658c;
     background-color: #efefed; }
 
 .usertext.border .usertext-body {
@@ -808,15 +808,15 @@ a.author {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #06aeaa; }
+  border: 1px solid #47658c; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #06aeaa !important;
+      background-color: #47658c !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #048480; }
+    background-color: #2D4059; }
 
 .wiki-page .wiki-page-content .nextprev a {
   margin-bottom: 12px; }
@@ -825,21 +825,21 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::selection {
-  background-color: #06aeaa;
+  background-color: #47658c;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #048480; }
+  color: #2D4059; }
 
 .leavemoderator,
 .titlebox form.toggle {
   color: #000;
   background: #fff;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
   padding-left: 10px;
   font-size: 8pt;
   margin-right: 5px;
-  border-right: 1px solid #d7ecff; }
+  border-right: 1px solid #fbdcdc; }
 
 #baconBit {
   width: 394px !important;
@@ -893,7 +893,7 @@ a[href*="#tech"] {
 .gadget .midcol {
   margin-right: 9px; }
 .gadget .right a {
-  background: #048480;
+  background: #2D4059;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -902,7 +902,7 @@ a[href*="#tech"] {
   transition: background-color .5s;
   text-transform: capitalize; }
   .gadget .right a:hover {
-    background: #06aeaa; }
+    background: #47658c; }
 
 span.clear-input-button {
   color: #fff; }
@@ -914,22 +914,22 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #048480 !important;
+  background: #2D4059 !important;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #06aeaa !important; }
+    background: #47658c !important; }
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 #newlink-with-image-upload .file-upload-button {
-  background: #048480;
+  background: #2D4059;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
   margin: 6px -17px -17px !important;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #06aeaa; }
+    background: #47658c; }
 
 .side {
   margin: 0;
@@ -938,7 +938,7 @@ span.clear-input-button {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #048480;
+    color: #2D4059;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -971,7 +971,7 @@ span.clear-input-button {
       display: block;
       position: absolute;
       z-index: -1;
-      border-color: transparent #d7ecff transparent transparent;
+      border-color: transparent #fbdcdc transparent transparent;
       border-width: 10px;
       border-style: solid;
       content: "";
@@ -992,9 +992,9 @@ span.clear-input-button {
   .side .titlebox h1.redditname + div,
   .side .titlebox > .fancy-toggle-button {
     padding: 10px;
-    border: 1px solid #d7ecff;
-    border-left: 5px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border: 1px solid #fbdcdc;
+    border-left: 5px solid #fbdcdc;
+    border-right: 1px solid #fbdcdc;
     background-color: #fff;
     color: #000;
     font-size: 8pt;
@@ -1051,7 +1051,7 @@ span.clear-input-button {
   display: block;
   position: absolute;
   z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
+  border-color: transparent #fbdcdc transparent transparent;
   border-width: 10px;
   border-style: solid;
   content: "";
@@ -1059,9 +1059,9 @@ span.clear-input-button {
 
 div.side div.tagline {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid #fbdcdc;
+  border-left: 5px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1070,9 +1070,9 @@ div.side div.tagline {
   margin: 0 5px 0 0; }
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid #fbdcdc;
+  border-left: 5px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1080,9 +1080,9 @@ div.side form.flairtoggle, div.side form.leavecontributor-button {
   font-weight: 400;
   margin: 0 5px 0 0; }
 div.side span.subscribers {
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid #fbdcdc;
+  border-left: 5px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1128,8 +1128,8 @@ div.side div.tagline {
   border-top: none; }
 
 .morelink {
-  border: 1px solid #048480;
-  background: #048480;
+  border: 1px solid #2D4059;
+  background: #2D4059;
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
@@ -1141,11 +1141,11 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 0.9em; }
   .morelink:hover {
-    background: #06aeaa;
-    border-color: #06aeaa; }
+    background: #47658c;
+    border-color: #47658c; }
     .morelink:hover a {
       color: #fff;
-      border-color: #06aeaa; }
+      border-color: #47658c; }
   .morelink .nub {
     display: none; }
 
@@ -1160,10 +1160,10 @@ div.side div.tagline {
 
 .reddit-link {
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   font-size: 1em;
   margin-right: 5px; }
 
@@ -1171,10 +1171,10 @@ div.side div.tagline {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   margin-right: 5px !important; }
 
 .search-page .side .spacer {
@@ -1199,7 +1199,7 @@ div.side div.tagline {
     text-transform: capitalize; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #06aeaa; }
+  color: #47658c; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1217,16 +1217,16 @@ div.titlebox .md ul li {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   font-size: 0.945em;
   margin-right: 5px !important; }
   .sidecontentbox .content a.author:hover,
   .sidecontentbox .more:hover {
-    background-color: #f0f8ff;
-    border-left-color: rgba(6, 102, 178, 0.5); }
+    background-color: #fffafa;
+    border-left-color: #eea7aa; }
 .sidecontentbox .content {
   border: none;
   padding: 0; }
@@ -1237,23 +1237,23 @@ div.titlebox .md ul li {
 
 .icon-menu li:hover,
 .reddit-link:hover {
-  background-color: #f0f8ff;
-  border-left-color: rgba(6, 102, 178, 0.5); }
+  background-color: #fffafa;
+  border-left-color: #eea7aa; }
 
 div.titlebox .md ul li {
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   font-size: 0.945em; }
   div.titlebox .md ul li:hover {
-    background-color: #f0f8ff;
-    border-left-color: rgba(6, 102, 178, 0.5); }
+    background-color: #fffafa;
+    border-left-color: #eea7aa; }
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #06aeaa;
+  background-color: #47658c;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1263,14 +1263,14 @@ div.titlebox span.fancy-toggle-button a.active {
   margin: 0;
   border: none; }
 div.titlebox div.styleToggle {
-  background-color: #048480;
+  background-color: #2D4059;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #048480; }
+  background-color: #2D4059; }
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
@@ -1295,12 +1295,12 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #06aeaa; }
+    color: #47658c; }
 
 #searchexpando {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   background-color: #fff;
   color: #000;
   font-size: 8pt;
@@ -1308,15 +1308,15 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   font-weight: 400;
   margin: 0 5px 0 0;
   width: 273px !important;
-  border-left: 1px solid #d7ecff; }
+  border-left: 1px solid #fbdcdc; }
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #048480; }
+  border-color: #2D4059; }
 
 .sidecontentbox .title {
-  border-left: 5px solid #1992FF;
-  background-color: #048480;
+  border-left: 5px solid #EA5455;
+  background-color: #2D4059;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1330,8 +1330,8 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  border-left: 5px solid #1992FF;
-  background-color: #048480;
+  border-left: 5px solid #EA5455;
+  background-color: #2D4059;
   padding: 10px;
   font-weight: 400;
   cursor: default;
@@ -1339,8 +1339,8 @@ div.titlebox .md h4 {
   margin-bottom: 0;
   margin-left: -10px; }
 div.titlebox h1 {
-  border-left: 5px solid #1992FF;
-  background-color: #048480;
+  border-left: 5px solid #EA5455;
+  background-color: #2D4059;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1408,7 +1408,7 @@ div.titlebox .md h3:hover + ul {
     margin-right: 18px; }
 
   .footer {
-    border-right: 1px solid #048480; }
+    border-right: 1px solid #2D4059; }
 
   #siteTable_organic {
     margin-right: -5px; }
@@ -1419,7 +1419,7 @@ div.titlebox .md h3:hover + ul {
   .infobar.newsletterbar {
     margin: -7px -5px 7px 0px; } }
 div.commentarea .infobar p {
-  background: #06aeaa;
+  background: #47658c;
   padding: 10px;
   margin: -5px -5px -5px 10px; }
 
@@ -1429,10 +1429,10 @@ div.commentarea .infobar p {
   .linkinfo .score,
   .linkinfo .shortlink {
     color: #494949;
-    border-left: 5px solid #d7ecff;
+    border-left: 5px solid #fbdcdc;
     background-color: #fff;
-    border-bottom: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border-bottom: 1px solid #fbdcdc;
+    border-right: 1px solid #fbdcdc;
     font-size: 8pt;
     margin-right: 5px; }
   .linkinfo .score {
@@ -1452,8 +1452,8 @@ div.commentarea .infobar p {
     display: block;
     color: #fff !important;
     text-transform: none;
-    border-left: 5px solid #1992FF;
-    background-color: #048480;
+    border-left: 5px solid #EA5455;
+    background-color: #2D4059;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1464,7 +1464,7 @@ div.commentarea .infobar p {
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
+    border-color: transparent #fbdcdc transparent transparent;
     border-width: 10px;
     border-style: solid;
     content: "";
@@ -1474,10 +1474,10 @@ div.commentarea .infobar p {
     display: block;
     background-color: #fff;
     padding: 7px 0 10px 10px;
-    border-left: 5px solid #d7ecff;
-    border-bottom: 1px solid #d7ecff;
+    border-left: 5px solid #fbdcdc;
+    border-bottom: 1px solid #fbdcdc;
     margin: -6px 5px -10px 0;
-    border-right: 1px solid #d7ecff; }
+    border-right: 1px solid #fbdcdc; }
   .date span,
   .date time {
     color: #494949;
@@ -1496,9 +1496,9 @@ div.commentarea .infobar p {
   text-transform: capitalize;
   margin-top: 0;
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-left: 5px solid #fbdcdc;
+  border-bottom: 1px solid #fbdcdc;
+  border-right: 1px solid #fbdcdc;
   font-size: 8pt !important;
   margin-right: 5px; }
 
@@ -1521,11 +1521,11 @@ div.commentarea .infobar p {
   text-align: center;
   display: block;
   color: #fff;
-  background: #048480;
+  background: #2D4059;
   box-sizing: border-box;
   margin-bottom: 10px; }
   .sidecontentbox a.helplink:hover {
-    background: #06aeaa; }
+    background: #47658c; }
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
   color: #fff; }
@@ -1539,10 +1539,10 @@ div.commentarea .infobar p {
 
 .account-activity-box {
   display: block !important;
-  background: #048480;
+  background: #2D4059;
   margin-right: 5px; }
   .account-activity-box:hover {
-    background: #06aeaa; }
+    background: #47658c; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1566,7 +1566,7 @@ div.commentarea .infobar p {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #048480;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #2D4059;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1595,7 +1595,7 @@ div.commentarea .infobar p {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #048480;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #2D4059;
   border: 2px solid #fff; }
 
 #modmail.havemail {
@@ -1604,7 +1604,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #06aeaa; }
+  background-color: #47658c; }
 #header #header-bottom-right .logout {
   display: inline-block; }
 #header #header-bottom-right #mail,
@@ -1619,7 +1619,7 @@ div.commentarea .infobar p {
   overflow: hidden;
   transition: background-color 0.5s; }
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #048480;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #2D4059;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail {
@@ -1632,7 +1632,7 @@ div.commentarea .infobar p {
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #048480;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #2D4059;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1642,7 +1642,7 @@ div.commentarea .infobar p {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #048480;
+    background-color: #2D4059;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1665,7 +1665,7 @@ div.commentarea .infobar p {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #048480;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #2D4059;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
@@ -1684,7 +1684,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #06aeaa; }
+  background-color: #47658c; }
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
   color: #fff;
@@ -1704,7 +1704,7 @@ div.commentarea .infobar p {
   overflow: hidden; }
 
 .message-count {
-  background: #06aeaa;
+  background: #47658c;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -1787,7 +1787,7 @@ div.commentarea .infobar p {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #048480;
+    background-color: #2D4059;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -1834,7 +1834,7 @@ div.commentarea .infobar p {
 .side .usertext-body .md ol a[href$='#stickyg']:hover {
   opacity: 1; }
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #048480;
+  background-color: #2D4059;
   content: "Sticky";
   color: #fff; }
 .side .usertext-body .md ol a[href$='#stickyg'] {
@@ -1868,7 +1868,7 @@ div.commentarea .infobar p {
   opacity: .8;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #048480;
+    background-color: #2D4059;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -1879,7 +1879,7 @@ div.commentarea .infobar p {
   font-style: bold; }
 
 .md a:hover {
-  color: #06aeaa; }
+  color: #47658c; }
 
 .res-nightmode body,
 html[lang^=nm] body {
@@ -1923,14 +1923,14 @@ html[lang^=nm] .comments-page .usertext-edit div textarea {
 .res-nightmode .md blockquote,
 html[lang^=nm] .md blockquote {
   background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #06aeaa !important;
+  border-left: 2px solid #47658c !important;
   color: #888 !important; }
 .res-nightmode .md code,
 html[lang^=nm] .md code {
   border: none !important;
   background-color: #393939 !important;
   border-radius: 0 !important;
-  border-left: 3px solid #06aeaa !important; }
+  border-left: 3px solid #47658c !important; }
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
 .res-nightmode .linkinfo .score,
@@ -2094,7 +2094,7 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] .linkinfo .shortlink:hover,
   html[lang^=nm] div.titlebox .md ul li:hover {
     background-color: #393939 !important;
-    border-left-color: rgba(6, 102, 178, 0.5) !important; }
+    border-left-color: #eea7aa !important; }
 .res-nightmode div.side div.leavemoderator,
 .res-nightmode div.side p.users-online,
 .res-nightmode div.side span.subscribers,
@@ -2195,7 +2195,7 @@ html[lang^=nm] .listing-page .link:hover {
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
+  border-left-color: #eea7aa !important; }
 .res-nightmode div.titlebox .md h1:after,
 .res-nightmode div.titlebox .md h2:after,
 .res-nightmode div.titlebox .md h3:after,
@@ -2288,10 +2288,10 @@ html[lang^=nm] input[type=submit] {
   border: none; }
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
-  border-left-color: #06aeaa; }
+  border-left-color: #47658c; }
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #048480; }
+  background: #2D4059; }
 .res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
@@ -2507,11 +2507,11 @@ html[lang^=nm] .comments-page .link {
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #048480;
+  border-bottom: 1px solid #2D4059;
   padding: 0;
-  border-left: 1px solid #048480; }
+  border-left: 1px solid #2D4059; }
   .footer::after {
-    border-bottom: 1px solid #048480;
+    border-bottom: 1px solid #2D4059;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -2520,8 +2520,8 @@ html[lang^=nm] .comments-page .link {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", sans-serif;
-    border-top: 34px solid #048480;
-    border-right: 1px solid #048480;
+    border-top: 34px solid #2D4059;
+    border-right: 1px solid #2D4059;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -2536,7 +2536,7 @@ html[lang^=nm] .comments-page .link {
       font-weight: 700;
       padding: 8px;
       color: #fff;
-      background: #048480;
+      background: #2D4059;
       max-height: 18px; }
     .footer div.col a {
       display: block;
@@ -2564,9 +2564,6 @@ html[lang^=nm] .comments-page .link {
 .rounded {
   border-radius: 0; }
 
-#header-bottom-left .tabmenu {
-  padding-left: 52px; }
-
 .pagename {
   margin: 0 15px 0 0;
   display: inline-block;
@@ -2580,3 +2577,5 @@ html[lang^=nm] .comments-page .link {
   bottom: 69px;
   position: absolute;
   left: 10px; }
+  .pagename a:hover {
+    text-decoration: none; }

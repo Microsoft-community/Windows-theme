@@ -510,7 +510,7 @@ form .spacer + .spacer {
     background-size: 341px 331px; } }
 .link .usertext-body .md {
   border-radius: 0 !important;
-  border: 1px solid #01b7f1;
+  border: 1px solid #7cb0d9;
   background-color: #fff; }
 
 body > .content #siteTable .thing.self .thumbnail {
@@ -1226,7 +1226,7 @@ div.titlebox .md ul li {
   .sidecontentbox .content a.author:hover,
   .sidecontentbox .more:hover {
     background-color: #f0f8ff;
-    border-left-color: rgba(6, 102, 178, 0.5); }
+    border-left-color: #7cb0d9; }
 .sidecontentbox .content {
   border: none;
   padding: 0; }
@@ -1238,7 +1238,7 @@ div.titlebox .md ul li {
 .icon-menu li:hover,
 .reddit-link:hover {
   background-color: #f0f8ff;
-  border-left-color: rgba(6, 102, 178, 0.5); }
+  border-left-color: #7cb0d9; }
 
 div.titlebox .md ul li {
   padding: 7px 10px 10px;
@@ -1249,7 +1249,7 @@ div.titlebox .md ul li {
   font-size: 0.945em; }
   div.titlebox .md ul li:hover {
     background-color: #f0f8ff;
-    border-left-color: rgba(6, 102, 178, 0.5); }
+    border-left-color: #7cb0d9; }
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
@@ -2094,7 +2094,7 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] .linkinfo .shortlink:hover,
   html[lang^=nm] div.titlebox .md ul li:hover {
     background-color: #393939 !important;
-    border-left-color: rgba(6, 102, 178, 0.5) !important; }
+    border-left-color: #7cb0d9 !important; }
 .res-nightmode div.side div.leavemoderator,
 .res-nightmode div.side p.users-online,
 .res-nightmode div.side span.subscribers,
@@ -2195,7 +2195,7 @@ html[lang^=nm] .listing-page .link:hover {
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
-  border-left-color: rgba(6, 102, 178, 0.5) !important; }
+  border-left-color: #7cb0d9 !important; }
 .res-nightmode div.titlebox .md h1:after,
 .res-nightmode div.titlebox .md h2:after,
 .res-nightmode div.titlebox .md h3:after,

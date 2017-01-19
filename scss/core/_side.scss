@@ -44,7 +44,7 @@
                 display: block;
                 position: absolute;
                 z-index: -1;
-                border-color: transparent #d7ecff transparent transparent;
+                border-color: transparent $color-borders-light transparent transparent;
                 border-width: 10px;
                 border-style: solid;
                 content: "";
@@ -69,9 +69,9 @@
         h1.redditname+div,
         >.fancy-toggle-button {
             padding: 10px;
-            border: 1px solid #d7ecff;
-            border-left: 5px solid #d7ecff;
-            border-right: 1px solid #d7ecff;
+            border: 1px solid $color-borders-light;
+            border-left: 5px solid $color-borders-light;
+            border-right: 1px solid $color-borders-light;
             background-color: #fff;
             color: #000;
             font-size: 8pt;
@@ -149,7 +149,7 @@
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
+    border-color: transparent $color-borders-light transparent transparent;
     border-width: 10px;
     border-style: solid;
     content: "";
@@ -160,9 +160,9 @@ div.side {
     div {
         &.tagline {
             padding: 10px;
-            border: 1px solid #d7ecff;
-            border-left: 5px solid #d7ecff;
-            border-right: 1px solid #d7ecff;
+            border: 1px solid $color-borders-light;
+            border-left: 5px solid $color-borders-light;
+            border-right: 1px solid $color-borders-light;
             background-color: #fff;
             color: #000;
             font-size: 0.945em;
@@ -175,9 +175,9 @@ div.side {
         &.flairtoggle,
         &.leavecontributor-button {
             padding: 10px;
-            border: 1px solid #d7ecff;
-            border-left: 5px solid #d7ecff;
-            border-right: 1px solid #d7ecff;
+            border: 1px solid $color-borders-light;
+            border-left: 5px solid $color-borders-light;
+            border-right: 1px solid $color-borders-light;
             background-color: #fff;
             color: #000;
             font-size: 0.945em;
@@ -187,9 +187,9 @@ div.side {
         }
     }
     span.subscribers {
-        border: 1px solid #d7ecff;
-        border-left: 5px solid #d7ecff;
-        border-right: 1px solid #d7ecff;
+        border: 1px solid $color-borders-light;
+        border-left: 5px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
         background-color: #fff;
         color: #000;
         font-size: 0.945em;
@@ -290,10 +290,10 @@ div.side {
 
 .reddit-link {
     padding: 7px 10px 10px;
-    border-left: 5px solid #d7ecff;
+    border-left: 5px solid $color-borders-light;
     background-color: #fff;
-    border-bottom: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border-bottom: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
     font-size: 1em;
     margin-right: 5px;
 }
@@ -302,10 +302,10 @@ div.side {
     display: block;
     margin: 0;
     padding: 7px 10px 10px !important;
-    border-left: 5px solid #d7ecff;
+    border-left: 5px solid $color-borders-light;
     background-color: #fff;
-    border-bottom: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border-bottom: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
     margin-right: 5px !important;
 }
 
@@ -372,15 +372,15 @@ div.titlebox .md {
         display: block;
         margin: 0;
         padding: 7px 10px 10px !important;
-        border-left: 5px solid #d7ecff;
+        border-left: 5px solid $color-borders-light;
         background-color: #fff;
-        border-bottom: 1px solid #d7ecff;
-        border-right: 1px solid #d7ecff;
+        border-bottom: 1px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
         font-size: 0.945em;
         margin-right: 5px !important;
         &:hover {
             background-color: $color-bg-light-hover;
-            border-left-color: rgba(6, 102, 178, 0.5);
+            border-left-color: $color-border-left-hover;
         }
     }
     .content {
@@ -398,20 +398,20 @@ div.titlebox .md {
 .icon-menu li:hover,
 .reddit-link:hover {
     background-color: $color-bg-light-hover;
-    border-left-color: rgba(6, 102, 178, 0.5);
+    border-left-color: $color-border-left-hover;
 }
 
 div.titlebox {
     .md ul li {
         padding: 7px 10px 10px;
-        border-left: 5px solid #d7ecff;
+        border-left: 5px solid $color-borders-light;
         background-color: #fff;
-        border-bottom: 1px solid #d7ecff;
-        border-right: 1px solid #d7ecff;
+        border-bottom: 1px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
         font-size: 0.945em;
         &:hover {
             background-color: $color-bg-light-hover;
-            border-left-color: rgba(6, 102, 178, 0.5);
+            border-left-color: $color-border-left-hover;
         }
     }
     div.styleToggle,
@@ -481,8 +481,8 @@ div.titlebox {
 
 #searchexpando {
     padding: 10px;
-    border: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
     background-color: #fff;
     color: #000;
     font-size: 8pt;
@@ -490,7 +490,7 @@ div.titlebox {
     font-weight: 400;
     margin: 0 5px 0 0;
     width: 273px !important;
-    border-left: 1px solid #d7ecff;
+    border-left: 1px solid $color-borders-light;
 }
 
 #search input[type=text] {
@@ -635,10 +635,10 @@ div.commentarea .infobar p {
     .score,
     .shortlink {
         color: #494949;
-        border-left: 5px solid #d7ecff;
+        border-left: 5px solid $color-borders-light;
         background-color: #fff;
-        border-bottom: 1px solid #d7ecff;
-        border-right: 1px solid #d7ecff;
+        border-bottom: 1px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
         font-size: 8pt;
         margin-right: 5px;
     }
@@ -675,7 +675,7 @@ div.commentarea .infobar p {
         display: block;
         position: absolute;
         z-index: -1;
-        border-color: transparent #d7ecff transparent transparent;
+        border-color: transparent $color-borders-light transparent transparent;
         border-width: 10px;
         border-style: solid;
         content: "";
@@ -686,10 +686,10 @@ div.commentarea .infobar p {
         display: block;
         background-color: #fff;
         padding: 7px 0 10px 10px;
-        border-left: 5px solid #d7ecff;
-        border-bottom: 1px solid #d7ecff;
+        border-left: 5px solid $color-borders-light;
+        border-bottom: 1px solid $color-borders-light;
         margin: -6px 5px -10px 0;
-        border-right: 1px solid #d7ecff;
+        border-right: 1px solid $color-borders-light;
     }
     span,
     time {
@@ -712,9 +712,9 @@ div.commentarea .infobar p {
     text-transform: capitalize;
     margin-top: 0;
     padding: 7px 10px 10px;
-    border-left: 5px solid #d7ecff;
-    border-bottom: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border-left: 5px solid $color-borders-light;
+    border-bottom: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
     font-size: 8pt !important;
     margin-right: 5px;
 }

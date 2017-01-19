@@ -3,7 +3,6 @@ $nm-color-bg-secondary: #393939; //new color #252829
 $nm-color-milddark:#202020;
 $nm-color-borders: #2D2E32;
 $nm-color-text: #ddd;
-// rgba(6, 102, 178, 0.5) = #0666b2 ???
 //merged code
 .res-nightmode,
 html[lang^=nm] {
@@ -173,7 +172,7 @@ html[lang^=nm] {
         border-top: 1px solid $nm-color-bg-secondary !important;
         &:hover {
             background-color: $nm-color-bg-secondary !important;
-            border-left-color: rgba(6, 102, 178, 0.5) !important;
+            border-left-color: $color-border-left-hover !important;
         }
     }
     div.side {
@@ -274,7 +273,7 @@ html[lang^=nm] {
     }
     div.titlebox .md ul li:hover {
         background-color: $nm-color-bg-secondary !important;
-        border-left-color: rgba(6, 102, 178, 0.5) !important;
+        border-left-color: $color-border-left-hover !important;
     }
     //sidebar
     div.titlebox {
