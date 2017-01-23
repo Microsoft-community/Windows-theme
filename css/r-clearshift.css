@@ -322,6 +322,11 @@ button:active,
     background: 0 0;
     width: 110px; }
 
+.flairselector.drop-choices.active {
+  left: 40% !important;
+  top: 35% !important;
+  position: fixed; }
+
 .flairoptionpane {
   max-height: 304px; }
   .flairoptionpane li,
