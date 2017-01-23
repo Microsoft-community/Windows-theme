@@ -1,76 +1,82 @@
-[**Subreddit theme is disabled, let us know why so we can improve it, message us.**](https://www.reddit.com/message/compose?to=%2Fr%2Fwindows10&subject=Design%20feedback)
+[**Subreddit theme is disabled, let us know why so we can improve it, message us.**](https://www.reddit.com/message/compose?to=%2Fr%2Fwindows&subject=Design%20feedback)
 
-* [Discord chat server](https://discord.gg/microsoft#icon-chat)
-* [Give Windows feedback](http://aka.ms/StartAndAllApps#icon-feedback "Opens Windows 10 feedback application")
-* [Github repository, suggestions board](https://github.com/Jasius/Windows-theme#icon-feedback2)
-* [Night Mode](https://nm.reddit.com/r/windows/#icon-night) [Light Mode](https://www.reddit.com/r/Windows#icon-day)
+* [Community chat server](https://discord.gg/Microsoft#icon-chat)
+* [Give Windows feedback](https://insider.windows.com/FeedbackHub/fb#icon-feedback "Opens Windows 10 feedback application")
+* [Github repository](https://github.com/Jasius/Windows-theme#icon-feedback2) | [Suggestions board](https://github.com/Jasius/w10-refactor/projects/1)
+* [Night Mode](https://nm.reddit.com/r/windows#icon-night) [Light Mode](https://www.reddit.com/r/Windows#icon-day)
 
-##General stuff  
-* [windows10](/r/Windows10)
-* [microsoft](/r/Microsoft)
-* [XboxOne](/r/Xboxone)
-* [360](/r/Xbox360)
-* [surface](/r/surface "a place to discuss the new Microsoft Surface Tablet")
-* [live](/r/XboxLive)
-* [Phone](/r/windowsphone)
-* Please use [/r/techsupport](/r/techsupport), [/r/windows8](/r/windows8) or [/r/windows10](/r/windows10) for general tech-support**
-* [Create Win10 installation media](http://www.microsoft.com/en-us/software-download/windows10)**   
+##Helpful resources
+* [Tips and tricks](https://www.reddit.com/r/Windows10/wiki/tipsandtricks#iconz-tips)
+* [Windows 10 Update history](http://aka.ms/w10updatehistory#iconz-updates)
+* [Frequently asked questions](https://support.microsoft.com/lt-lt/help/12435/windows-10-upgrade-faq#iconz-faq "Read before installing!")  
+* [Clean Windows 10 installation](https://www.microsoft.com/en-us/software-download/windows10#iconz-install)
+* [Windows community wiki](https://www.reddit.com/r/Windows10/wiki/index#iconz-wiki)
 
-* NO WAREZ/CRACKS/SERIALS discussion, thank you...
+###General rules  
+* Follow [Reddiquette.](http://www.reddit.com/wiki/reddiquette)
+* Keep it civil and on topic. Comments or posts that are disrespectful or encourage harassment of others (including witch-hunts of any kind) are not allowed.  
+* Do not post pirated content or promote it in anyway.
+* Blogspam, mobile links and URL shorteners (such as tinyurl or bit.ly) are not allowed.  
+* Do not post any offensive material  
+* Do not post personal information (address, email, phone number, etc.)  
+* Please remain respectful to users at all times.  
+* Do not 'backseat moderate' - Report any rule breakers to [moderators.](https://goo.gl/Qy8xCb)  
+* No spamming, advertising.
+* No referral/affiliate-links.  
+* [Subreddit rules](https://goo.gl/T28P7x#icon-more)
 
-* Please refrain from posting memes and comics. Use [/r/windowsmemes](https://www.reddit.com/r/windowsmemes)
 
 
-* Looking for software for that lovely new install? You want [Ninite Easy PC Setup](http://ninite.com/)
+##Promoted Subreddits  
 
-* New PC full of bloatware? Try [Decrapifier](http://pcdecrapifier.com/) to clean it up
+* [Microsoft Teams](/r/MicrosoftTeams/) - Office 365 Team communication service subreddit.
 
-* [Tom's Guide's Best AntiVirus Apps 2016](http://www.tomsguide.com/us/best-antivirus,review-2588.html)
+* [Windows 10](/r/Windows10) - biggest Windows related subreddit for all things related to Windows 10.
 
-* [Recommended Viewing](https://twit.tv/shows/windows-weekly)
+* [Windows Mobile](/r/WindowsMobile) - dedicated to Windows Mobile OS and discussions about it.
 
-##Related SubReddits
+* [Windows Phone](/r/Windowsphone) - dedicated to Windows Phone OS and discussions about it.
 
-* [Tech Support](http://www.reddit.com/r/techsupport/)
+* [Windows Insiders](/r/WindowsInsiders) - dedicated to Windows Insider program,  WI builds troubleshooting.
 
-* [24 Hour Support](http://www.reddit.com/r/24hoursupport/)
+* [Windows Apps](/r/Windowsapps) - dedicated to Windows10 UWP apps.
 
-* [Build A PC](http://www.reddit.com/r/buildapc/)
+* [Holo Lens](/r/hololens/) -  dedicated to news and discussions about Windows Holographic and HoloLens.
 
-* [Intel](http://www.reddit.com/r/intel)
+* [Xbox One](/r/XboxOne) - dedicated to Xbox One console and its peripherals, news and discussions.
 
-* [Microsoft](http://www.reddit.com/r/microsoft/)
+* [Surface](/r/Surface) - dedicated to Surface powerful laptop/tablet and discussions around it and its peripherals.
 
-* [Customization](http://www.reddit.com/r/customization/ "Share, Compare, & Advise")
+* [Excel](/r/Excel) - dedicated to Excel, powerful program of Office suite. This subreddit is suitable for both Office warriors and newbies.  [Mobile](/r/WindowsMobile#2)
 
-* [Windows Phone](http://www.reddit.com/r/windowsphone "for everything related to Windows Phone!")
+###Filter content by flair
+*  [Hide Flairs](https://nf.reddit.com/r/windows10#butt) [Show Flairs](https://www.reddit.com/r/Windows10#butt) [Hide Help, Bug](https://nh.reddit.com/r/windows10#butt)
+*  [App](https://www.reddit.com/r/Windows10/search?q=flair%3Aapp&restrict_sr=on&sort=new&t=all#square-app)
+*  [Bug](https://www.reddit.com/r/Windows10/search?q=flair%3Abug&restrict_sr=on&sort=new&t=all#square-bug)
+*  [Concept](https://www.reddit.com/r/Windows10/search?q=flair%3Aconcept&restrict_sr=on&sort=new&t=all#square-concept)
+*  [Discussion](https://www.reddit.com/r/Windows10/search?q=flair%3Adiscussion&restrict_sr=on&sort=new&t=all#square-discussion)
+*  [Feature](https://www.reddit.com/r/Windows10/search?q=flair%3Afeature&restrict_sr=on&sort=new&t=all#square-feature)
+*  [Gaming](https://www.reddit.com/r/Windows10/search?q=flair%3Agaming&restrict_sr=on&sort=new&t=all#square-gaming)
+*  [Help](https://www.reddit.com/r/Windows10/search?q=flair%3Ahelp&restrict_sr=on&sort=new&t=all#square-help)
+*  [Meta](https://www.reddit.com/r/Windows10/search?q=flair%3Ameta&restrict_sr=on&sort=new&t=all#square-meta)
+*  [News](https://www.reddit.com/r/Windows10/search?q=flair%3Anews&restrict_sr=on&sort=new&t=all#square-news)
+*  [Official](https://www.reddit.com/r/Windows10/search?q=flair%3Aofficial&restrict_sr=on&sort=new&t=all#square-official)
+*  [Request](https://www.reddit.com/r/Windows10/search?q=flair%3Arequest&restrict_sr=on&sort=new&t=all#square-official#square-request)
+*  [Solved](https://www.reddit.com/r/Windows10/search?q=flair%3Asolved&sort=new&restrict_sr=on#square-solved)
+*  [Tip](https://www.reddit.com/r/Windows10/search?q=flair%3Atip&restrict_sr=on&sort=new&t=all#square-official#square-tip)
+*  [Update](https://www.reddit.com/r/Windows10/search?q=flair%3Aupdate&restrict_sr=on&sort=new&t=all#square-official#square-update)
 
-* [Windows8](http://www.reddit.com/r/windows8/ "A place to discuss all the news for Microsoft's operating system, Windows 8")
+##Related Subreddits
 
-* [Windows10](http://www.reddit.com/r/Windows10/) 
+* [Tech Support](/r/TechSupport) - dedicated to solving problems and helping others out.
 
-* [WindowsApps](http://www.reddit.com/r/windowsapps)
+* [Android](/r/Android) - Android Operating system and its peripherals discussions.
 
-* [RTRequests](http://www.reddit.com/r/rtrequests)
-
-* [Azure](https://www.reddit.com/r/Azure)
-
-* [SysAdmin](/r/sysadmin)
-
-* [FreeWare Index](http://www.reddit.com/r/freewareindex)
-
-* [Scripting](http://www.reddit.com/r/dailyscripts/ "For all those late-night hacks you put together")
-
-* [WinTiles](http://www.reddit.com/r/WinTiles) 
-
-* [PowerShell](http://www.reddit.com/r/PowerShell)
-
-* [Laptops](https://www.reddit.com/r/laptops "anything laptop related from discussions about new laptops to showing off your sweet laptop battlestation")
-
-* [WindowsInsiders](/r/windowsinsiders) **NEW!**
-
-[Mobile](/r/WindowsMobile#2)
-
-1. [~~Moderator application form~~](https://redd.it/5kj6un#stickyg)
+* [Apple](/r/Apple) - Apple devices, services discussions.
 
 [](#/RES_SR_Config/NightModeCompatible)
+
+
+1. [~~January Cumulative Update - KB3213986~~](https://redd.it/5n6qgq#sticky)
+
+2. [~~Insider Preview Build 15007~~](https://redd.it/5nmw71#sticky)
