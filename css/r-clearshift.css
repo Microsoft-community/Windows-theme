@@ -1880,8 +1880,7 @@ div.commentarea .infobar p {
     opacity: 1; }
 .side .md del {
   color: #fff;
-  text-decoration: none;
-  font-style: bold; }
+  text-decoration: none; }
 
 .md a:hover {
   color: #47658c; }
