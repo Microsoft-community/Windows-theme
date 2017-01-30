@@ -1958,19 +1958,20 @@ html[lang^=nm] .date time {
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
 .res-nightmode #header,
+.res-nightmode #newlink-with-image-upload #new-link-preview,
 .res-nightmode .account-activity-box,
 .res-nightmode .date:before,
 .res-nightmode .morelink,
 .res-nightmode .nextprev a,
+.res-nightmode .titlebox h1,
 html[lang^=nm] #header,
+html[lang^=nm] #newlink-with-image-upload #new-link-preview,
 html[lang^=nm] .account-activity-box,
 html[lang^=nm] .date:before,
 html[lang^=nm] .morelink,
-html[lang^=nm] .nextprev a {
+html[lang^=nm] .nextprev a,
+html[lang^=nm] .titlebox h1 {
   background: #222 !important; }
-.res-nightmode #newlink-with-image-upload #new-link-preview,
-html[lang^=nm] #newlink-with-image-upload #new-link-preview {
-  background: #222; }
 .res-nightmode #header #header-bottom-right #mail:hover,
 .res-nightmode #header #header-bottom-right #modmail:hover,
 .res-nightmode #header #header-bottom-right .choice:hover,

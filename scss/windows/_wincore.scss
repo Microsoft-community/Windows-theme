@@ -104,7 +104,6 @@
   &[href$=bloodytemplar],
   &[href$=devbent],
   &[href$=donaMSFT],
-  &[href$=instyle7],
   &[href$=jenmsft],
   &[href$=Sean_MSFT],
   &[href$=jeremy_msft],
@@ -129,7 +128,9 @@
   &[href$=nerdile],
   &[href$=einarmsft],
   &[href$=yosefdurr],
-  &[href$=Travis_MSFT] {
+  &[href$=Travis_MSFT],
+  &[href$=caithartMSFT],
+  &[href$=claymsft] {
     color: $color-win;
     font-weight: 700;
   }
