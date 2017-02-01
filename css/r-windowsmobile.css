@@ -34,11 +34,12 @@ Secondary: #7A0218
   #header-bottom-left .tabmenu {
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - 123px);
+    padding-left: 123px;
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-left: 123px;
-    font-family: "Segoe UI", Helvetica, sans-serif; }
+    font-family: "Segoe UI", Helvetica, sans-serif;
+    transition: .5s; }
     #header-bottom-left .tabmenu li {
       font-weight: 400;
       margin: 0; }
@@ -936,6 +937,34 @@ span.clear-input-button {
   #newlink-with-image-upload .file-upload-button:hover {
     background: #0078D7; }
 
+@media (max-width: 880px) {
+  #siteTable_organic {
+    margin-right: -5px; }
+
+  #header-bottom-left .tabmenu {
+    width: calc(100% - 50px);
+    padding-left: 50px; }
+
+  .side {
+    display: none; }
+
+  body .linklisting {
+    margin-right: 0 !important; }
+
+  .footer::after {
+    display: none !important; }
+
+  .infobar {
+    margin-right: 18px; }
+
+  .footer {
+    border-right: 1px solid #0057A6; }
+
+  .panestack-title {
+    margin: 0 0px 0 -5px; }
+
+  .infobar.newsletterbar {
+    margin: -7px -5px 7px 0px; } }
 .side {
   margin: 0;
   padding-left: 30px;
@@ -1108,7 +1137,8 @@ div.side span.subscribers {
       width: 20px;
       height: 20px;
       content: "";
-      margin-right: 5px; }
+      margin-right: 5px;
+      margin-top: -3px; }
 div.side div.tagline {
   display: block !important; }
 div.side form.flairtoggle {
@@ -1354,7 +1384,6 @@ div.titlebox h1 {
   font-size: 13px; }
 
 .leavemoderator,
-.subscribers .word,
 .users-online,
 .leavecontributor-button {
   display: none; }
@@ -1399,30 +1428,6 @@ div.titlebox .md h3 + ul {
 div.titlebox .md h3:hover + ul {
   transition: .8s max-height ease-out; }
 
-@media (max-width: 880px) {
-  .side {
-    display: none; }
-
-  body .linklisting {
-    margin-right: 0 !important; }
-
-  .footer::after {
-    display: none !important; }
-
-  .infobar {
-    margin-right: 18px; }
-
-  .footer {
-    border-right: 1px solid #0057A6; }
-
-  #siteTable_organic {
-    margin-right: -5px; }
-
-  .panestack-title {
-    margin: 0 0px 0 -5px; }
-
-  .infobar.newsletterbar {
-    margin: -7px -5px 7px 0px; } }
 div.commentarea .infobar p {
   background: #0078D7;
   padding: 10px;
@@ -3053,6 +3058,9 @@ a[href*='#iconz-wiki']::before {
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
   content: " insiders waiting for new bits"; }
+
+.subscribers .word {
+  display: none; }
 
 .arrow.down {
   pointer-events: none; }

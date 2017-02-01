@@ -1,3 +1,4 @@
+$subscribers: " insiders waiting for new bits";
 //sidebar name
 .titlebox h1.redditname a {
   font-size: 0;
@@ -759,9 +760,11 @@ a {
 //sidebar enrolling
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
-  content: " insiders waiting for new bits";
+  content: $subscribers;
 }
-
+.subscribers .word {
+  display: none
+}
 //disabled voting for non subscribers
 .arrow.down {
   pointer-events: none;

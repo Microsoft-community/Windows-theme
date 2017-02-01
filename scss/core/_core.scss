@@ -58,11 +58,12 @@ Secondary: #7A0218
   .tabmenu {
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - #{$tabmenu-offset});
+    padding-left: #{$tabmenu-offset};
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-left: #{$tabmenu-offset};
     font-family: $font-main;
+    transition: .5s;
     li {
       font-weight: 400;
       margin: 0;
@@ -1264,5 +1265,37 @@ span.clear-input-button {
     &:hover {
       background: $color-bg-secondary;
     }
+  }
+}
+
+//viewport
+@media (max-width: $breakpoint-1) {
+  #siteTable_organic {
+    margin-right: -5px;
+  }
+  #header-bottom-left .tabmenu {
+    width: calc(100% - 50px);
+    padding-left: 50px;
+  }
+  .side {
+    display: none;
+  }
+  body .linklisting {
+    margin-right: 0 !important;
+  }
+  .footer::after {
+    display: none !important;
+  }
+  .infobar {
+    margin-right: 18px;
+  }
+  .footer {
+    border-right: 1px solid $color-bg-main;
+  }
+  .panestack-title {
+    margin: 0 0px 0 -5px;
+  }
+  .infobar.newsletterbar {
+    margin: -7px -5px 7px 0px;
   }
 }

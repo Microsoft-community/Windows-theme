@@ -211,6 +211,7 @@ div.side {
                 height: 20px;
                 content: "";
                 margin-right: 5px;
+                margin-top: -3px;
             }
         }
     }
@@ -542,7 +543,6 @@ div.titlebox {
 
 //disabled
 .leavemoderator,
-.subscribers .word,
 .users-online,
 .leavecontributor-button {
     display: none;
@@ -595,34 +595,6 @@ div.titlebox .md h3:hover+ul {
     transition: .8s max-height ease-out;
 }
 
-//viewport
-@media (max-width: $breakpoint-1) {
-    .side {
-        display: none;
-    }
-    body .linklisting {
-        margin-right: 0 !important;
-    }
-    .footer::after {
-        display: none !important;
-    }
-    .infobar {
-        margin-right: 18px;
-    }
-    .footer {
-        border-right: 1px solid $color-bg-main;
-    }
-    #siteTable_organic {
-        margin-right: -5px;
-    }
-    .panestack-title {
-        margin: 0 0px 0 -5px;
-    }
-    .infobar.newsletterbar {
-        margin: -7px -5px 7px 0px;
-    }
-}
-
 div.commentarea .infobar p {
     background: $color-bg-secondary;
     padding: 10px;
@@ -656,7 +628,7 @@ div.commentarea .infobar p {
 }
 
 .date {
-	position: relative;
+    position: relative;
     &:before {
         content: "Date ";
         display: block;
@@ -700,7 +672,7 @@ div.commentarea .infobar p {
         position: absolute;
         top: 50%;
         left: 55%;
-		padding: 9px 0 10px 0;
+        padding: 9px 0 10px 0;
     }
 }
 
