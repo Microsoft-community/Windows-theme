@@ -2639,10 +2639,10 @@ html[lang^=nm] .comments-page .link {
     border: 3px solid #8bb9e2;
     pointer-events: none; }
 
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=claymsft] {
+.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT] {
   color: #0078D7;
   font-weight: 700; }
-.author[href$=ildun] {
+.author[href$=ildun], .author[href$=Katsuga50] {
   color: #e67e22;
   font-weight: 700; }
 
@@ -3251,6 +3251,26 @@ a[href$="Windows10#2"] {
   letter-spacing: 0.1em;
   font-family: "Segoe UI", Helvetica, sans-serif; }
   a[href$="Windows10#2"]:hover {
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.1);
+    border-color: #fff !important; }
+
+a[href$="WindowsApps#2"] {
+  position: absolute;
+  top: 135px;
+  left: 112px;
+  color: #ddd !important;
+  z-index: 99;
+  border-bottom: 3px solid transparent !important;
+  text-transform: uppercase;
+  transition: all .15s ease-in-out;
+  line-height: 14px;
+  height: 20px;
+  padding: 8px 9px 0;
+  font-size: 11.4px !important;
+  letter-spacing: 0.1em;
+  font-family: "Segoe UI", Helvetica, sans-serif; }
+  a[href$="WindowsApps#2"]:hover {
     color: #fff !important;
     background: rgba(0, 0, 0, 0.1);
     border-color: #fff !important; }

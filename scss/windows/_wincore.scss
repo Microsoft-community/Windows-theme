@@ -131,11 +131,12 @@ $subscribers: " insiders waiting for new bits";
   &[href$=yosefdurr],
   &[href$=Travis_MSFT],
   &[href$=caithartMSFT],
-  &[href$=claymsft] {
+  &[href$=ClayMSFT] {
     color: $color-win;
     font-weight: 700;
   }
-  &[href$=ildun] {
+  &[href$=ildun],
+  &[href$=Katsuga50] {
     color: #e67e22;
     font-weight: 700;
   }
@@ -762,9 +763,11 @@ a {
 .subscribers .number:after {
   content: $subscribers;
 }
+
 .subscribers .word {
   display: none
 }
+
 //disabled voting for non subscribers
 .arrow.down {
   pointer-events: none;
