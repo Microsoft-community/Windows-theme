@@ -19,25 +19,6 @@ $subscribers: " insiders waiting for new bits";
         margin-left: 5px;
         color: $color-bg-main;
     }
-    &[href*=Izick]::after {
-        content: '- Head Moderator';
-        font-size: 0.945em;
-        margin-left: 5px;
-        color: $color-bg-main;
-    }
-    &[href*=AppropriateUzername]::after,
-    &[href*=Swaggy_McSwagSwag]::after,
-    &[href*=astral_lariat]::after,
-    &[href*=dAKirby309]::after,
-    &[href*=etacarinae]::after,
-    &[href*=jeffreymcclain]::after,
-    &[href*=siraramis]::after,
-    &[href*=xByteZz]::after {
-        content: '- Moderator';
-        font-size: 0.945em;
-        margin-left: 5px;
-        color: $color-bg-main;
-    }
 }
 
 //mobile icons
@@ -247,25 +228,26 @@ a[href$="Windows10#2"] {
         border-color: #fff!important;
     }
 }
+
 //nav promoted sub
 a[href$="WindowsApps#2"] {
-  position: absolute;
-  top: 135px;
-  left: 112px;
-  color: #ddd !important;
-  z-index: 99;
-  border-bottom: 3px solid transparent !important;
-  text-transform: uppercase;
-  transition: all .15s ease-in-out;
-  line-height: 14px;
-  height: 20px;
-  padding: 8px 9px 0;
-  font-size: 11.4px !important;
-  letter-spacing: 0.1em;
-  font-family: $font-main;
-  &:hover {
-    color: #fff!Important;
-    background: rgba(0, 0, 0, 0.1);
-    border-color: #fff!important;
-  }
+    position: absolute;
+    top: 135px;
+    left: 112px;
+    color: #ddd !important;
+    z-index: 99;
+    border-bottom: 3px solid transparent !important;
+    text-transform: uppercase;
+    transition: all .15s ease-in-out;
+    line-height: 14px;
+    height: 20px;
+    padding: 8px 9px 0;
+    font-size: 11.4px !important;
+    letter-spacing: 0.1em;
+    font-family: $font-main;
+    &:hover {
+        color: #fff!Important;
+        background: rgba(0, 0, 0, 0.1);
+        border-color: #fff!important;
+    }
 }

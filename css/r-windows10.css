@@ -605,6 +605,9 @@ a[href*="#icon-more"] {
   background: rgba(255, 0, 0, 0.1);
   border-left: 3px solid #e2062c; }
 
+.report-reasons.rounded {
+  display: block !important; }
+
 .newComments {
   display: inline;
   color: #0057A6; }
@@ -1220,6 +1223,11 @@ div.side div.tagline {
 
 .helplink ~ .content .author[href*=AutoModerator], .helplink ~ .content .author[href*=flair_your_post_bot] {
   display: none; }
+.helplink ~ .content .author:after {
+  content: '- Moderator';
+  font-size: 0.945em;
+  margin-left: 5px;
+  color: #0057A6; }
 .helplink ~ .content .flair {
   display: none; }
 
@@ -3128,11 +3136,6 @@ a[href*='#iconz-wiki']::before {
 
 .helplink ~ .content .author[href*=Izick]:after {
   content: '- Head Moderator'; }
-.helplink ~ .content .author:after {
-  content: '- Moderator';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0057A6; }
 .helplink ~ .content .author[href*=Jaskys]:after {
   content: '- Designer'; }
 

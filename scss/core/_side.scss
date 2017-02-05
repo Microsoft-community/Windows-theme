@@ -324,6 +324,12 @@ div.side {
         &[href*=flair_your_post_bot] {
             display: none;
         }
+        &:after {
+            content: '- Moderator';
+            font-size: 0.945em;
+            margin-left: 5px;
+            color: $color-bg-main;
+        }
     }
     .flair {
         display: none;

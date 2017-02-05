@@ -18,12 +18,6 @@ $head-mod: Izick;
   &[href*=#{$head-mod}]:after {
     content: '- Head Moderator';
   }
-  &:after {
-    content: '- Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
   &[href*=Jaskys]:after {
     content: '- Designer';
   }

@@ -21,22 +21,6 @@ $tabmenu-offset: 163px;
     margin-left: 5px;
     color: $color-bg-main;
   }
-  &[href*=AppropriateUzername]::after,
-  &[href*=Swaggy_McSwagSwag]::after,
-  &[href*=astral_lariat]::after,
-  &[href*=dAKirby309]::after,
-  &[href*=etacarinae]::after,
-  &[href*=jeffreymcclain]::after,
-  &[href*=siraramis]::after,
-  &[href*=xByteZz]::after,
-  &[href*=SpinningPissingRabbi]::after,
-  &[href*=cynycal]::after,
-  &[href*=panickedthumb]::after {
-    content: '- Moderator';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
-  }
 }
 
 //kylde's flair
