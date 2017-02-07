@@ -306,15 +306,18 @@ button:active,
   overflow: hidden;
   margin: 0 18px 8px 0;
   .expand {
-    transition: background-color .5s;
+    transition: all .5s;
+    padding: 4px 2px;
+    font-size: 0.9em;
+    border-right: 1px solid $color-borders-light;
+    background: $color-bg-light-hover;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 4px;
     &:hover {
-      background: $color-bg-secondary;
-      color: #FFF !important;
+      background: $color-borders-light;
       text-decoration: none;
     }
   }
@@ -918,6 +921,7 @@ body .linklisting {
   border-radius: 0;
 }
 
+//:nth-child(2n)
 .sitetable .comment {
   background-color: #FFF !important;
   .comment {

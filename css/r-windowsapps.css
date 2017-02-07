@@ -235,15 +235,18 @@ button:active,
   overflow: hidden;
   margin: 0 18px 8px 0; }
   .comment .expand {
-    transition: background-color .5s;
+    transition: all .5s;
+    padding: 4px 2px;
+    font-size: 0.9em;
+    border-right: 1px solid #d7ecff;
+    background: #f0f8ff;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #0078D7;
-      color: #FFF !important;
+      background: #d7ecff;
       text-decoration: none; }
   .comment.collapsed .tagline {
     height: 21px;
