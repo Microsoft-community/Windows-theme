@@ -1,3 +1,4 @@
+[![Discord][discord]][discord-url]
 [discord]: https://discordapp.com/api/guilds/150662382874525696/widget.png
 [discord-url]: https://discord.gg/Microsoft
 #Windows theme
