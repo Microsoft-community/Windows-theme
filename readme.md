@@ -1,3 +1,5 @@
+[discord]: https://discordapp.com/api/guilds/150662382874525696/widget.png
+[discord-url]: https://discord.gg/Microsoft
 #Windows theme
 ![Main theme](https://cloud.githubusercontent.com/assets/11031051/22585271/a9b1c0ee-e9ff-11e6-92f1-a93eb5ca6b34.png)
 #Windows night theme
