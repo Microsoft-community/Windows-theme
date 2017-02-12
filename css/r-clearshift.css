@@ -237,16 +237,14 @@ button:active,
   .comment .expand {
     transition: all .5s;
     padding: 4px 2px;
-    font-size: 0.9em;
-    border-right: 1px solid #fbdcdc;
-    background: #fffafa;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #fbdcdc;
+      background: #47658c;
+      color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
     height: 21px;
@@ -2554,7 +2552,7 @@ html[lang^=nm] .comments-page .link {
     font-family: "Segoe UI", Helvetica, sans-serif; }
     .footer div.col .title {
       font-size: 16px;
-      font-weight: 700;
+      text-transform: capitalize;
       padding: 8px;
       color: #fff;
       background: #2D4059;
@@ -2584,6 +2582,9 @@ html[lang^=nm] .comments-page .link {
 
 .rounded {
   border-radius: 0; }
+
+.flat-vert {
+  text-align: center; }
 
 .pagename {
   margin: 0 15px 0 0;

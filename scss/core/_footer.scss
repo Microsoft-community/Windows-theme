@@ -26,7 +26,7 @@
     font-family: $font-main;
     .title {
       font-size: 16px;
-      font-weight: 700;
+      text-transform: capitalize;
       padding: 8px;
       color: #fff;
       background: $color-bg-main;
@@ -65,4 +65,8 @@
 
 .rounded {
   border-radius: 0;
+}
+
+.flat-vert {
+  text-align: center;
 }

@@ -3,7 +3,7 @@ Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #0057A6
+Main color: #1a1a1a
 Secondary: #0078D7
 Christmas
 Main color: #BF0426
@@ -11,7 +11,7 @@ Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #0057A6;
+  background: #1a1a1a;
   border-bottom: none; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
@@ -237,16 +237,14 @@ button:active,
   .comment .expand {
     transition: all .5s;
     padding: 4px 2px;
-    font-size: 0.9em;
-    border-right: 1px solid #d7ecff;
-    background: #f0f8ff;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #d7ecff;
+      background: #0078D7;
+      color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
     height: 21px;
@@ -268,10 +266,10 @@ button:active,
 .tagline .score {
   font-weight: 700; }
 .tagline .likes {
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .entry .flat-list .reply-button a {
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .link .domain {
   visibility: hidden; }
@@ -302,13 +300,13 @@ button:active,
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .flairselector {
-  border: 1px solid #0057A6 !important; }
+  border: 1px solid #1a1a1a !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #0057A6 !important;
+    background: #1a1a1a !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -316,7 +314,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #0057A6;
+    border-top: solid 1px #1a1a1a;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     padding: 0 !important;
@@ -339,7 +337,7 @@ button:active,
     padding: 3px; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #0057A6 !important; }
+  color: #1a1a1a !important; }
 
 .nextprev a,
 .side .usertext-body .md ol a {
@@ -370,7 +368,7 @@ button:active,
     background-color: #e7e9f6; }
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
     background-color: #0078D7; }
@@ -560,7 +558,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .link .title {
-    color: #0057A6; }
+    color: #1a1a1a; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -584,7 +582,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #0057A6;
+  background: #1a1a1a;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -613,7 +611,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -667,11 +665,11 @@ body .linklisting {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #0057A6;
+      background-color: solid #1a1a1a;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #0057A6;
+  background-color: solid #1a1a1a;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -715,7 +713,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0px;
-  background: #0057A6;
+  background: #1a1a1a;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -747,7 +745,7 @@ a.author {
   color: #0078D7 !important; }
 
 .gold-accent {
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -756,13 +754,13 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #0057A6;
+  background: #1a1a1a;
   margin-left: 5px !important;
   display: none; }
 
 .commentarea .infobar {
   color: #eee;
-  background: #0057A6;
+  background: #1a1a1a;
   border: none;
   display: flex; }
   .commentarea .infobar a {
@@ -807,7 +805,7 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #0057A6; }
+    color: #1a1a1a; }
   .md code {
     white-space: normal; }
   .md blockquote {
@@ -828,7 +826,7 @@ a.author {
       background-color: #0078D7 !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #0057A6; }
+    background-color: #1a1a1a; }
 
 .wiki-page .wiki-page-content .nextprev a {
   margin-bottom: 12px; }
@@ -841,7 +839,7 @@ ul.tabmenu.formtab {
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .leavemoderator,
 .titlebox form.toggle {
@@ -905,7 +903,7 @@ a[href*="#tech"] {
 .gadget .midcol {
   margin-right: 9px; }
 .gadget .right a {
-  background: #0057A6;
+  background: #1a1a1a;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -926,7 +924,7 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #0057A6 !important;
+  background: #1a1a1a !important;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
@@ -934,7 +932,7 @@ span.clear-input-button {
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 #newlink-with-image-upload .file-upload-button {
-  background: #0057A6;
+  background: #1a1a1a;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
@@ -964,7 +962,7 @@ span.clear-input-button {
     margin-right: 18px; }
 
   .footer {
-    border-right: 1px solid #0057A6; }
+    border-right: 1px solid #1a1a1a; }
 
   .panestack-title {
     margin: 0 0px 0 -5px; }
@@ -978,7 +976,7 @@ span.clear-input-button {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #0057A6;
+    color: #1a1a1a;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1169,8 +1167,8 @@ div.side div.tagline {
   border-top: none; }
 
 .morelink {
-  border: 1px solid #0057A6;
-  background: #0057A6;
+  border: 1px solid #1a1a1a;
+  background: #1a1a1a;
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
@@ -1230,7 +1228,7 @@ div.side div.tagline {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #0057A6; }
+  color: #1a1a1a; }
 .helplink ~ .content .flair {
   display: none; }
 
@@ -1309,14 +1307,14 @@ div.titlebox span.fancy-toggle-button a.active {
   margin: 0;
   border: none; }
 div.titlebox div.styleToggle {
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #0057A6; }
+  background-color: #1a1a1a; }
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
@@ -1358,11 +1356,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #0057A6; }
+  border-color: #1a1a1a; }
 
 .sidecontentbox .title {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1377,7 +1375,7 @@ div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   padding: 10px;
   font-weight: 400;
   cursor: default;
@@ -1386,7 +1384,7 @@ div.titlebox .md h4 {
   margin-left: -10px; }
 div.titlebox h1 {
   border-left: 5px solid #1992FF;
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1474,7 +1472,7 @@ div.commentarea .infobar p {
     color: #fff !important;
     text-transform: none;
     border-left: 5px solid #1992FF;
-    background-color: #0057A6;
+    background-color: #1a1a1a;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1542,7 +1540,7 @@ div.commentarea .infobar p {
   text-align: center;
   display: block;
   color: #fff;
-  background: #0057A6;
+  background: #1a1a1a;
   box-sizing: border-box;
   margin-bottom: 10px; }
   .sidecontentbox a.helplink:hover {
@@ -1560,7 +1558,7 @@ div.commentarea .infobar p {
 
 .account-activity-box {
   display: block !important;
-  background: #0057A6;
+  background: #1a1a1a;
   margin-right: 5px; }
   .account-activity-box:hover {
     background: #0078D7; }
@@ -1587,7 +1585,7 @@ div.commentarea .infobar p {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #1a1a1a;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1616,7 +1614,7 @@ div.commentarea .infobar p {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #1a1a1a;
   border: 2px solid #fff; }
 
 #modmail.havemail {
@@ -1640,7 +1638,7 @@ div.commentarea .infobar p {
   overflow: hidden;
   transition: background-color 0.5s; }
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #0057A6;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #1a1a1a;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail {
@@ -1653,7 +1651,7 @@ div.commentarea .infobar p {
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #1a1a1a;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1663,7 +1661,7 @@ div.commentarea .infobar p {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #0057A6;
+    background-color: #1a1a1a;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1686,7 +1684,7 @@ div.commentarea .infobar p {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #0057A6;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #1a1a1a;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
@@ -1808,7 +1806,7 @@ div.commentarea .infobar p {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #0057A6;
+    background-color: #1a1a1a;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -1855,7 +1853,7 @@ div.commentarea .infobar p {
 .side .usertext-body .md ol a[href$='#stickyg']:hover {
   opacity: 1; }
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #0057A6;
+  background-color: #1a1a1a;
   content: "Sticky";
   color: #fff; }
 .side .usertext-body .md ol a[href$='#stickyg'] {
@@ -1889,7 +1887,7 @@ div.commentarea .infobar p {
   opacity: .8;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #0057A6;
+    background-color: #1a1a1a;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -2312,7 +2310,7 @@ html[lang^=nm] .side .spacer .titlebox .redditname {
   border-left-color: #0078D7; }
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #0057A6; }
+  background: #1a1a1a; }
 .res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
@@ -2528,11 +2526,11 @@ html[lang^=nm] .comments-page .link {
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #0057A6;
+  border-bottom: 1px solid #1a1a1a;
   padding: 0;
-  border-left: 1px solid #0057A6; }
+  border-left: 1px solid #1a1a1a; }
   .footer::after {
-    border-bottom: 1px solid #0057A6;
+    border-bottom: 1px solid #1a1a1a;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -2541,8 +2539,8 @@ html[lang^=nm] .comments-page .link {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", Helvetica, sans-serif;
-    border-top: 34px solid #0057A6;
-    border-right: 1px solid #0057A6;
+    border-top: 34px solid #1a1a1a;
+    border-right: 1px solid #1a1a1a;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -2554,10 +2552,10 @@ html[lang^=nm] .comments-page .link {
     font-family: "Segoe UI", Helvetica, sans-serif; }
     .footer div.col .title {
       font-size: 16px;
-      font-weight: 700;
+      text-transform: capitalize;
       padding: 8px;
       color: #fff;
-      background: #0057A6;
+      background: #1a1a1a;
       max-height: 18px; }
     .footer div.col a {
       display: block;
@@ -2584,6 +2582,9 @@ html[lang^=nm] .comments-page .link {
 
 .rounded {
   border-radius: 0; }
+
+.flat-vert {
+  text-align: center; }
 
 .titlebox h1.redditname a {
   font-size: 0; }
@@ -2859,7 +2860,7 @@ a[href*='#square-solved']::before {
   background: -187px -5px #008a00;
   border: 3px solid #e8e8e8; }
 a[href*='#square-hflairs']::before {
-  background: -187px -5px #0057A6;
+  background: -187px -5px #1a1a1a;
   border: 3px solid #e8e8e8;
   border-radius: 50%; }
 a[href*='#square-hhelp']::before {
@@ -2979,7 +2980,7 @@ a[href*="#square-showflairs"] {
     height: 10px;
     width: 10px;
     content: "";
-    background: -187px -5px #0057A6;
+    background: -187px -5px #1a1a1a;
     border: 3px solid #e8e8e8;
     border-radius: 50%;
     margin-left: 5px; }
@@ -2987,18 +2988,18 @@ a[href*="#square-hflairs"]::after {
   content: "or";
   margin-left: 50px; }
 a[href*="#square-hflairs"]:hover::after {
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .side .md [href$="#butt"] {
   display: inline-block !important;
   font-size: 8pt;
-  border: 2px solid #0057A6;
+  border: 2px solid #1a1a1a;
   padding: 9px 8px;
   transition: background-color .5s;
   text-align: center;
-  color: #0057A6; }
+  color: #1a1a1a; }
   .side .md [href$="#butt"]:hover {
-    background: #0057A6;
+    background: #1a1a1a;
     color: #fff; }
 .side .md > p:first-of-type {
   display: none; }
@@ -3141,7 +3142,7 @@ a[href*='#iconz-wiki']::before {
   content: '- Designer';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #0057A6; }
+  color: #1a1a1a; }
 
 .flair-jansmall:before {
   content: "";

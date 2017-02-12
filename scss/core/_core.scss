@@ -4,7 +4,7 @@ sans-serif !default;
 $font-light: "Segoe UI Light",
 Helvetica,
 sans-serif !default;
-$color-bg-main: #0057A6 !default;
+$color-bg-main: #1a1a1a !default;
 $color-bg-secondary: #0078D7 !default;
 $color-bg-alt: #1992FF !default;
 $color-bg-active: #1686f0 !default;
@@ -308,16 +308,14 @@ button:active,
   .expand {
     transition: all .5s;
     padding: 4px 2px;
-    font-size: 0.9em;
-    border-right: 1px solid $color-borders-light;
-    background: $color-bg-light-hover;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 4px;
     &:hover {
-      background: $color-borders-light;
+      background: $color-bg-secondary;
+      color: #fff!important;
       text-decoration: none;
     }
   }
