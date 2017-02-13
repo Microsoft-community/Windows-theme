@@ -184,9 +184,11 @@ button.save, button.submit-action-thing, button.submit-report {
   border: 1px solid #5cb85c;
   color: #5cb85c;
   padding: 0.25rem 0.75rem; }
+
 button.save:hover, button.submit-action-thing:hover, button.submit-report:hover {
   background: #5cb85c;
   color: #fff; }
+
 button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   border: 1px solid #d9534f;
   background: 0 0;
@@ -195,6 +197,7 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
   transition: background-color 0.5s; }
+
 button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cancel:hover {
   background: #d9534f;
   color: #fff; }
@@ -265,6 +268,7 @@ button:active,
 
 .tagline .score {
   font-weight: 700; }
+
 .tagline .likes {
   color: #2D4059; }
 
@@ -352,6 +356,7 @@ button:active,
   .submit-page .roundfield span.title {
     color: #4d5763;
     text-transform: capitalize; }
+
 .submit-page .submit.content#newlink .tabmenu.formtab a {
   padding: 16px;
   display: inline-block;
@@ -366,12 +371,14 @@ button:active,
   width: 247.5px; }
   .submit-page .submit.content#newlink .tabmenu.formtab a:hover {
     background-color: #e7e9f6; }
+
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
   background-color: #2D4059;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
     background-color: #47658c; }
+
 .submit-page #newlink.submit.content .btn {
   width: 558px;
   height: auto;
@@ -411,6 +418,7 @@ form .spacer + .spacer {
   100% {
     -webkit-transform: translateY(0);
     opacity: 1; } }
+
 @keyframes expandy {
   0% {
     transform: translateY(-100px);
@@ -420,6 +428,7 @@ form .spacer + .spacer {
   100% {
     transform: translateY(0);
     opacity: 1; } }
+
 .expando-button {
   cursor: pointer;
   float: left;
@@ -510,11 +519,11 @@ form .spacer + .spacer {
       padding: 0;
       vertical-align: top !important;
       width: 30px !important; }
-
   body > .content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
     background-position: -289px -139px;
     background-size: 341px 331px; } }
+
 .link .usertext-body .md {
   border-radius: 0 !important;
   border: 1px solid #eea7aa;
@@ -527,22 +536,28 @@ body > .content #siteTable .thing.self .thumbnail {
   margin: 10px 15px 10px 10px;
   background-repeat: no-repeat !important;
   background-position: -289px -139px; }
+
 body > .content #siteTable .thing.stickied .thumbnail {
   background-image: url(%%spritesheet%%);
   background-repeat: no-repeat !important;
   background-position: -289px -84px;
   margin-right: 15px; }
-body > .content #siteTable .thing .thumbnail.default, body > .content #siteTable .thing.over18 .thumbnail {
+
+body > .content #siteTable .thing .thumbnail.default,
+body > .content #siteTable .thing.over18 .thumbnail {
   background-image: url(%%spritesheet%%) !important;
   background-repeat: no-repeat !important;
   margin: 10px 15px 10px 10px;
   width: 45px;
   height: 45px; }
+
 body > .content #siteTable .thing.stickied .entry > .title .title {
   color: #00a64f;
   font-weight: 400; }
+
 body > .content #siteTable .thing.over18 .thumbnail {
   background-position: -286px -5px !important; }
+
 body > .content #siteTable .thing .thumbnail.default {
   background-position: -47px -77px;
   background-size: 341px 331px; }
@@ -592,16 +607,21 @@ a[href*="#icon-more"] {
 
 .linklisting .nextprev {
   font-size: 0; }
+
 .linklisting .stickied {
   border-left: 3px solid #00a64f;
   background: rgba(0, 166, 79, 0.1); }
+
 .linklisting .over18 {
   border-left: 3px solid #e2062c;
   background: rgba(225, 6, 44, 0.1); }
+
 .linklisting .md {
   margin-bottom: 0; }
+
 .linklisting .usertext-edit div textarea {
   margin-left: -10px; }
+
 .linklisting .reported {
   background: rgba(255, 0, 0, 0.1);
   border-left: 3px solid #e2062c; }
@@ -741,6 +761,7 @@ a.author {
 
 .tagline .stickied-tagline {
   color: #00a64f; }
+
 .tagline a:hover {
   color: #47658c !important; }
 
@@ -771,7 +792,9 @@ a.author {
 .comments-page .sitetable.nestedlisting > .thing.stickied {
   border-bottom: solid 3px #00a64f;
   background: rgba(0, 166, 79, 0.1) !important; }
-.comments-page.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page.linkflair-help .flat-list a.flairselectbtn:after {
+
+.comments-page.linkflair-bug .flat-list a.flairselectbtn:after,
+.comments-page.linkflair-help .flat-list a.flairselectbtn:after {
   animation: 1s ease-out 0s normal none infinite running pulsate;
   animation-duration: 2s;
   animation-timing-function: ease-out;
@@ -781,6 +804,7 @@ a.author {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pulsate; }
+
 .comments-page .usertext-edit div textarea {
   background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
   border: 1px solid #000 !important;
@@ -794,11 +818,13 @@ a.author {
     background: #FFF !important;
     opacity: 1;
     border-color: #0078D6 !important; }
+
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
 
 .commentarea .menuarea {
   margin: 5px 310px 5px 5px; }
+
 .commentarea .md {
   margin-bottom: 0; }
 
@@ -871,6 +897,7 @@ a[href*="#tech"] {
 
 .sheets ::-webkit-scrollbar {
   background-color: #0f0f0f !important; }
+
 .sheets ::-webkit-scrollbar-corner,
 .sheets ::-webkit-scrollbar-thumb {
   background: #313131 !important; }
@@ -902,6 +929,7 @@ a[href*="#tech"] {
 
 .gadget .midcol {
   margin-right: 9px; }
+
 .gadget .right a {
   background: #2D4059;
   padding: 5px 10px;
@@ -929,8 +957,10 @@ span.clear-input-button {
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
     background: #47658c !important; }
+
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
+
 #newlink-with-image-upload .file-upload-button {
   background: #2D4059;
   border: none;
@@ -944,31 +974,24 @@ span.clear-input-button {
 @media (max-width: 880px) {
   #siteTable_organic {
     margin-right: -5px; }
-
   #header-bottom-left .tabmenu {
     width: calc(100% - 50px);
     padding-left: 50px; }
-
   .side {
     display: none; }
-
   body .linklisting {
     margin-right: 0 !important; }
-
   .footer::after {
     display: none !important; }
-
   .infobar {
     margin-right: 18px; }
-
   .footer {
     border-right: 1px solid #2D4059; }
-
   .panestack-title {
     margin: 0 0px 0 -5px; }
-
   .infobar.newsletterbar {
     margin: -7px -5px 7px 0px; } }
+
 .side {
   margin: 0;
   padding-left: 30px;
@@ -1068,22 +1091,25 @@ span.clear-input-button {
 
 @-webkit-keyframes pulsate {
   0%,
-    100% {
+  100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
+
 @-moz-keyframes pulsate {
   0%,
-    100% {
+  100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
+
 @keyframes pulsate {
   0%,
-    100% {
+  100% {
     opacity: 0.7; }
   50% {
     opacity: 1; } }
+
 .titlebox h1:after,
 .sidecontentbox .title:after {
   display: block;
@@ -1106,6 +1132,7 @@ div.side div.tagline {
   border-radius: 0;
   font-weight: 400;
   margin: 0 5px 0 0; }
+
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
   border: 1px solid #fbdcdc;
@@ -1117,6 +1144,7 @@ div.side form.flairtoggle, div.side form.leavecontributor-button {
   border-radius: 0;
   font-weight: 400;
   margin: 0 5px 0 0; }
+
 div.side span.subscribers {
   border: 1px solid #fbdcdc;
   border-left: 5px solid #fbdcdc;
@@ -1143,25 +1171,31 @@ div.side span.subscribers {
       content: "";
       margin-right: 5px;
       margin-top: -3px; }
+
 div.side div.tagline {
   display: block !important; }
+
 div.side form.flairtoggle {
   display: block; }
+
 div.side div.leavemoderator {
   padding-top: 5px;
   padding-bottom: 5px;
   border-top: none;
   border-bottom: none; }
+
 div.side form.flairtoggle {
   padding-top: 5px;
   padding-bottom: 5px;
   border-top: none;
   border-bottom: none; }
+
 div.side p.users-online {
   padding-top: 5px;
   padding-bottom: 5px;
   border-top: none;
   border-bottom: none; }
+
 div.side div.tagline {
   padding-top: 0;
   border-top: none; }
@@ -1224,11 +1258,13 @@ div.side div.tagline {
 
 .helplink ~ .content .author[href*=AutoModerator], .helplink ~ .content .author[href*=flair_your_post_bot] {
   display: none; }
+
 .helplink ~ .content .author:after {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
   color: #2D4059; }
+
 .helplink ~ .content .flair {
   display: none; }
 
@@ -1250,8 +1286,10 @@ div.side div.tagline {
 
 div.titlebox .md h3:hover + ul {
   display: block; }
+
 div.titlebox .md ul li strong:first-child, div.titlebox .md ul:hover {
   display: block; }
+
 div.titlebox .md ul li {
   border: none;
   margin-right: 5px; }
@@ -1271,9 +1309,11 @@ div.titlebox .md ul li {
   .sidecontentbox .more:hover {
     background-color: #fffafa;
     border-left-color: #eea7aa; }
+
 .sidecontentbox .content {
   border: none;
   padding: 0; }
+
 .sidecontentbox .more {
   text-align: center; }
   .sidecontentbox .more a {
@@ -1294,6 +1334,7 @@ div.titlebox .md ul li {
   div.titlebox .md ul li:hover {
     background-color: #fffafa;
     border-left-color: #eea7aa; }
+
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
@@ -1306,6 +1347,7 @@ div.titlebox span.fancy-toggle-button a.active {
   font-weight: 400;
   margin: 0;
   border: none; }
+
 div.titlebox div.styleToggle {
   background-color: #2D4059;
   line-height: 20px; }
@@ -1313,15 +1355,19 @@ div.titlebox div.styleToggle {
   div.titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
+
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
   background-color: #2D4059; }
+
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
+
 div.titlebox span.fancy-toggle-button a.active.remove:hover:after {
   content: "=(";
   font-style: italic;
   padding-left: 5px; }
+
 div.titlebox span.fancy-toggle-button a.active.add:before {
   content: "+";
   padding-right: 5px;
@@ -1371,6 +1417,7 @@ div.titlebox .md h3:before {
   content: "+";
   color: #fff;
   padding-right: 5px; }
+
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
@@ -1382,6 +1429,7 @@ div.titlebox .md h4 {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px; }
+
 div.titlebox h1 {
   border-left: 5px solid #EA5455;
   background-color: #2D4059;
@@ -1425,7 +1473,8 @@ div.titlebox h1 {
   #RESShortcutsTrash:hover {
     color: #f0f0f0 !important; }
 
-.titlebox .md h3 + ul:hover, .titlebox .md h3:hover + ul {
+.titlebox .md h3 + ul:hover,
+.titlebox .md h3:hover + ul {
   max-height: 600px; }
 
 div.titlebox .md h3 + ul {
@@ -1545,6 +1594,7 @@ div.commentarea .infobar p {
   margin-bottom: 10px; }
   .sidecontentbox a.helplink:hover {
     background: #47658c; }
+
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
   color: #fff; }
@@ -1576,6 +1626,7 @@ div.commentarea .infobar p {
 
 #header-bottom-right .separator {
   display: none; }
+
 #header-bottom-right .user {
   position: relative;
   top: 0;
@@ -1600,14 +1651,17 @@ div.commentarea .infobar p {
   display: block;
   line-height: 12px;
   white-space: nowrap; }
+
 #header-bottom-right .user span a {
   color: #fff; }
+
 #header-bottom-right #mail {
   top: 0;
   top: 0 !important;
   width: 42px;
   height: 42px;
   display: inline-block; }
+
 #header-bottom-right #modmail {
   position: absolute;
   margin-left: -267px;
@@ -1624,8 +1678,10 @@ div.commentarea .infobar p {
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
   background-color: #47658c; }
+
 #header #header-bottom-right .logout {
   display: inline-block; }
+
 #header #header-bottom-right #mail,
 #header #header-bottom-right .choice,
 #header #header-bottom-right .logout a {
@@ -1637,10 +1693,12 @@ div.commentarea .infobar p {
   text-indent: 50px;
   overflow: hidden;
   transition: background-color 0.5s; }
+
 #header #header-bottom-right #mail.nohavemail {
   background: url(%%spritesheet%%) 0px -114px no-repeat #2D4059;
   border-radius: 1px;
   border: 2px solid #fff; }
+
 #header #header-bottom-right #mail.havemail {
   background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500; }
 
@@ -1650,6 +1708,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #mail.havemail {
   border-radius: 1px;
   border: 2px solid #fff; }
+
 #header #header-bottom-right .choice {
   background: url(%%spritesheet%%) -127px -114px no-repeat #2D4059;
   border-radius: 1px;
@@ -1687,8 +1746,10 @@ div.commentarea .infobar p {
   background: url(%%spritesheet%%) -127px -42px no-repeat #2D4059;
   border-radius: 1px;
   border: 2px solid #fff; }
+
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
   border-bottom: none; }
+
 #header #header-bottom-right .choice,
 #header #header-bottom-right .logout a {
   border-bottom: none; }
@@ -1704,6 +1765,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
   background-color: #47658c; }
+
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
   color: #fff;
@@ -1769,6 +1831,7 @@ div.commentarea .infobar p {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pulsate; }
+
 .side .md .-text,
 .side .md li,
 .side .md p,
@@ -1776,6 +1839,7 @@ div.commentarea .infobar p {
 .side .md td,
 .side .md th {
   list-style: none; }
+
 .side .usertext-body .md ol a {
   background-color: #57b5ff;
   display: inline-block;
@@ -1787,10 +1851,12 @@ div.commentarea .infobar p {
   opacity: 0.8; }
   .side .usertext-body .md ol a:hover {
     opacity: 1; }
+
 .side .md > ol li a[href$='#special']:after, .side .md > ol li a[href$='#special']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .usertext-body .md ol a[href$='#special'] {
   border: 2px solid #fefefe;
   display: inline-block;
@@ -1811,6 +1877,7 @@ div.commentarea .infobar p {
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
     opacity: 1; }
+
 .side .usertext-body .md ol a[href$='#achieve'] {
   border: 2px solid #fefefe;
   display: inline-block;
@@ -1824,18 +1891,22 @@ div.commentarea .infobar p {
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#achieve']:hover {
     opacity: 1; }
+
 .side .md > ol li a[href$='#sticky']:after, .side .md > ol li a[href$='#sticky']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .usertext-body .md ol a[href$='#achieve']:before, .side .usertext-body .md ol a[href$='#sticky']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .usertext-body .md ol a[href$='#achieve']:before {
   background-color: #0d9605;
   content: "Achievement unlocked";
   color: #fff; }
+
 .side .usertext-body .md ol a[href$='#sticky'], .side .usertext-body .md ol a[href$='#stickyg'] {
   font-weight: 400;
   padding: 5px 5px 5px 0;
@@ -1845,36 +1916,45 @@ div.commentarea .infobar p {
   font-size: 12px;
   transition: opacity .5s;
   text-decoration: none; }
+
 .side .usertext-body .md ol a[href$='#sticky'] {
   background-color: #1686f0;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
+
 .side .usertext-body .md ol a[href$='#stickyg']:hover {
   opacity: 1; }
+
 .side .usertext-body .md ol a[href$='#sticky']:before {
   background-color: #2D4059;
   content: "Sticky";
   color: #fff; }
+
 .side .usertext-body .md ol a[href$='#stickyg'] {
   background-color: #28bc07;
   opacity: 0.8; }
+
 .side .md > ol li a[href$='#achieve']:after, .side .md > ol li a[href$='#achieve']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .md > ol li a[href$='#update']:after, .side .md > ol li a[href$='#update']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .usertext-body .md ol a[href$='#stickyg']:before, .side .usertext-body .md ol a[href$='#update']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
   padding: 5px 6px; }
+
 .side .usertext-body .md ol a[href$='#stickyg']:before {
   background-color: #0d9605;
   content: "Sticky";
   color: #fff; }
+
 .side .usertext-body .md ol a[href$='#update'] {
   border: 2px solid #fefefe;
   background-color: #1686f0;
@@ -1892,6 +1972,7 @@ div.commentarea .infobar p {
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
     opacity: 1; }
+
 .side .md del {
   color: #fff;
   text-decoration: none; }
@@ -1902,12 +1983,15 @@ div.commentarea .infobar p {
 .res-nightmode body,
 html[lang^=nm] body {
   background: #1a1a1a !important; }
+
 .res-nightmode #sr-header-area,
 html[lang^=nm] #sr-header-area {
   background-color: #0C1722; }
+
 .res-nightmode a,
 html[lang^=nm] a {
   color: #f8f8ff; }
+
 .res-nightmode .morelink a,
 .res-nightmode a[href*="#Donsiders"],
 .res-nightmode a[href*="#btn"],
@@ -1915,10 +1999,12 @@ html[lang^=nm] .morelink a,
 html[lang^=nm] a[href*="#Donsiders"],
 html[lang^=nm] a[href*="#btn"] {
   color: #fff !important; }
+
 .res-nightmode .shortlink input,
 html[lang^=nm] .shortlink input {
   background: #393939;
   color: #ddd; }
+
 .res-nightmode #previoussearch #moresearchinfo,
 .res-nightmode .roundfield label,
 .res-nightmode .search-result-body,
@@ -1938,17 +2024,20 @@ html[lang^=nm] .md blockquote,
 html[lang^=nm] .md del,
 html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #eee !important; }
+
 .res-nightmode .md blockquote,
 html[lang^=nm] .md blockquote {
   background: rgba(0, 87, 166, 0.24);
   border-left: 2px solid #47658c !important;
   color: #888 !important; }
+
 .res-nightmode .md code,
 html[lang^=nm] .md code {
   border: none !important;
   background-color: #393939 !important;
   border-radius: 0 !important;
   border-left: 3px solid #47658c !important; }
+
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
 .res-nightmode .linkinfo .score,
@@ -1964,6 +2053,7 @@ html[lang^=nm] .side .titlebox > .fancy-toggle-button,
 html[lang^=nm] .edit-stylesheet.choice:after,
 html[lang^=nm] .wiki-page .wiki-page-content {
   color: #ddd !important; }
+
 .res-nightmode .date span,
 .res-nightmode .date time,
 html[lang^=nm] .date span,
@@ -1971,6 +2061,7 @@ html[lang^=nm] .date time {
   border-bottom: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
+
 .res-nightmode #header,
 .res-nightmode #newlink-with-image-upload #new-link-preview,
 .res-nightmode .account-activity-box,
@@ -1986,6 +2077,7 @@ html[lang^=nm] .morelink,
 html[lang^=nm] .nextprev a,
 html[lang^=nm] .titlebox h1 {
   background: #222 !important; }
+
 .res-nightmode #header #header-bottom-right #mail:hover,
 .res-nightmode #header #header-bottom-right #modmail:hover,
 .res-nightmode #header #header-bottom-right .choice:hover,
@@ -1997,12 +2089,14 @@ html[lang^=nm] #header #header-bottom-right .choice:hover,
 html[lang^=nm] #header #header-bottom-right .logout:hover,
 html[lang^=nm] #header #header-bottom-right .user:hover {
   background-color: #393939 !important; }
+
 .res-nightmode #header #header-bottom-right .logout a,
 .res-nightmode #header #header-bottom-right .nohavemail#mail,
 html[lang^=nm] #header #header-bottom-right .logout a,
 html[lang^=nm] #header #header-bottom-right .nohavemail#mail {
   background-color: transparent !important;
   outline: 0 !important; }
+
 .res-nightmode #header-bottom-right #modmail,
 .res-nightmode #header-bottom-right .choice,
 .res-nightmode #header-bottom-right .user,
@@ -2011,6 +2105,7 @@ html[lang^=nm] #header-bottom-right .choice,
 html[lang^=nm] #header-bottom-right .user {
   background-color: transparent !important;
   outline: 0 !important; }
+
 .res-nightmode #header-bottom-left .tabmenu,
 .res-nightmode #header-img,
 .res-nightmode #header-img.default-header,
@@ -2018,21 +2113,25 @@ html[lang^=nm] #header-bottom-left .tabmenu,
 html[lang^=nm] #header-img,
 html[lang^=nm] #header-img.default-header {
   background: transparent !important; }
+
 .res-nightmode #header-bottom-left .tabmenu,
 .res-nightmode .new-comment .usertext-body,
 html[lang^=nm] #header-bottom-left .tabmenu,
 html[lang^=nm] .new-comment .usertext-body {
   background-color: transparent;
   border: none; }
+
 .res-nightmode .date,
 html[lang^=nm] .date {
   color: #ddd !important; }
   .res-nightmode .date::before,
   html[lang^=nm] .date::before {
     color: #ddd !important; }
+
 .res-nightmode .flair,
 html[lang^=nm] .flair {
   color: #ddd !important; }
+
 .res-nightmode .footer,
 html[lang^=nm] .footer {
   border-right: none !important;
@@ -2041,6 +2140,7 @@ html[lang^=nm] .footer {
   html[lang^=nm] .footer div.col a,
   html[lang^=nm] .footer::after {
     color: #ddd !important; }
+
 .res-nightmode div.side div.tagline,
 .res-nightmode div.side form.flairtoggle,
 .res-nightmode div.side span.subscribers,
@@ -2049,15 +2149,18 @@ html[lang^=nm] div.side form.flairtoggle,
 html[lang^=nm] div.side span.subscribers {
   background: #222 !important;
   color: #ddd !important; }
+
 .res-nightmode div.titlebox .md ul li,
 html[lang^=nm] div.titlebox .md ul li {
   background: #222 !important;
   color: #ddd !important; }
+
 .res-nightmode .sidecontentbox .title,
 .res-nightmode .sidecontentbox a.helplink,
 html[lang^=nm] .sidecontentbox .title,
 html[lang^=nm] .sidecontentbox a.helplink {
   background: #222 !important; }
+
 .res-nightmode div.titlebox .md h1,
 .res-nightmode div.titlebox .md h2,
 .res-nightmode div.titlebox .md h3,
@@ -2067,6 +2170,7 @@ html[lang^=nm] div.titlebox .md h2,
 html[lang^=nm] div.titlebox .md h3,
 html[lang^=nm] div.titlebox .md h4 {
   background: #222 !important; }
+
 .res-nightmode #searchexpando,
 .res-nightmode .icon-menu li,
 .res-nightmode .totalvotes,
@@ -2114,6 +2218,7 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] div.titlebox .md ul li:hover {
     background-color: #393939 !important;
     border-left-color: #eea7aa !important; }
+
 .res-nightmode div.side div.leavemoderator,
 .res-nightmode div.side p.users-online,
 .res-nightmode div.side span.subscribers,
@@ -2133,6 +2238,7 @@ html[lang^=nm] div.side .titlebox > .fancy-toggle-button {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
+
 .res-nightmode div.side div.tagline,
 .res-nightmode div.side form.flairtoggle,
 html[lang^=nm] div.side div.tagline,
@@ -2141,6 +2247,7 @@ html[lang^=nm] div.side form.flairtoggle {
   border-right: 1px solid #393939 !important;
   border-bottom: none !important;
   background: #222 !important; }
+
 .res-nightmode .titlebox form.toggle,
 html[lang^=nm] .titlebox form.toggle {
   background: #222;
@@ -2148,6 +2255,7 @@ html[lang^=nm] .titlebox form.toggle {
   border-left: 5px solid #393939 !important;
   border-right: 1px solid #393939 !important;
   color: #eee; }
+
 .res-nightmode .sitetable .comment .comment,
 html[lang^=nm] .sitetable .comment .comment {
   background-color: #393939 !important; }
@@ -2172,6 +2280,7 @@ html[lang^=nm] .sitetable .comment .comment {
               .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
               html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                 background-color: #393939 !important; }
+
 .res-nightmode .sitetable .comment,
 html[lang^=nm] .sitetable .comment {
   background-color: #222 !important; }
@@ -2196,25 +2305,31 @@ html[lang^=nm] .sitetable .comment {
               .res-nightmode .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
               html[lang^=nm] .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                 background-color: #222 !important; }
+
 .res-nightmode button,
 html[lang^=nm] button {
   border: none;
   background-color: #222 !important; }
+
 .res-nightmode a[href*="#square"]::before,
 html[lang^=nm] a[href*="#square"]::before {
   border: 3px solid #393939; }
+
 .res-nightmode .link,
 html[lang^=nm] .link {
   border-bottom: 1px solid #2D2E32 !important;
   border-right: 1px solid #2D2E32 !important; }
+
 .res-nightmode .listing-page .link:hover,
 html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
   border-left-color: #a9a9a9 !important; }
+
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
   border-left-color: #eea7aa !important; }
+
 .res-nightmode div.titlebox .md h1:after,
 .res-nightmode div.titlebox .md h2:after,
 .res-nightmode div.titlebox .md h3:after,
@@ -2227,6 +2342,7 @@ html[lang^=nm] div.titlebox .md h4:after {
   position: absolute;
   z-index: -1;
   border-color: transparent #393939 transparent transparent !important; }
+
 .res-nightmode div.titlebox h1:after,
 .res-nightmode div.titlebox .sidecontentbox .title:after,
 html[lang^=nm] div.titlebox h1:after,
@@ -2235,6 +2351,7 @@ html[lang^=nm] div.titlebox .sidecontentbox .title:after {
   position: absolute;
   z-index: -1;
   border-color: transparent #393939 transparent transparent !important; }
+
 .res-nightmode .flairselector,
 .res-nightmode .comments-page .usertext-edit div textarea,
 .res-nightmode #eu-cookie-policy .reddit-infobar,
@@ -2245,6 +2362,7 @@ html[lang^=nm] #eu-cookie-policy .reddit-infobar,
 html[lang^=nm] #search input[type=text] {
   background-color: #222 !important;
   color: #ddd; }
+
 .res-nightmode #header-bottom-left .tabmenu li.selected a,
 .res-nightmode .link .usertext-body .md,
 .res-nightmode .debuginfo,
@@ -2268,6 +2386,7 @@ html[lang^=nm] .side .morelink a:hover,
 html[lang^=nm] button:hover,
 html[lang^=nm] .account-activity-box:hover {
   background-color: #393939 !important; }
+
 .res-nightmode .comment .usertext .md p > a:visited,
 .res-nightmode .md a,
 .res-nightmode h2 a:visited,
@@ -2275,9 +2394,11 @@ html[lang^=nm] .comment .usertext .md p > a:visited,
 html[lang^=nm] .md a,
 html[lang^=nm] h2 a:visited {
   color: #3498db; }
+
 .res-nightmode ::-webkit-scrollbar,
 html[lang^=nm] ::-webkit-scrollbar {
   background-color: #393939; }
+
 .res-nightmode ::-webkit-scrollbar-thumb,
 html[lang^=nm] ::-webkit-scrollbar-thumb {
   background-color: #666;
@@ -2290,52 +2411,67 @@ html[lang^=nm] ::-webkit-scrollbar-thumb {
   .res-nightmode ::-webkit-scrollbar-thumb:active,
   html[lang^=nm] ::-webkit-scrollbar-thumb:active {
     background-color: #bbb; }
+
 .res-nightmode ::-webkit-scrollbar-corner,
 html[lang^=nm] ::-webkit-scrollbar-corner {
   color: #555; }
+
 .res-nightmode textarea,
 html[lang^=nm] textarea {
   color: #000 !important; }
+
 .res-nightmode .content,
 html[lang^=nm] .content {
   margin-bottom: 0;
   margin-top: 0; }
+
 .res-nightmode input[type=button], .res-nightmode input[type=reset], .res-nightmode input[type=submit],
 html[lang^=nm] input[type=button],
 html[lang^=nm] input[type=reset],
 html[lang^=nm] input[type=submit] {
   border: none; }
+
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
   border-left-color: #47658c; }
+
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
   background: #2D4059; }
-.res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
+
+.res-nightmode .thing .title:visited,
+.res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
   color: #808c94; }
+
 .res-nightmode .thing .title,
 html[lang^=nm] .thing .title {
   color: #B5C4D0; }
+
 .res-nightmode .content.submit .info-notice,
 .res-nightmode .submit-page .roundfield,
 html[lang^=nm] .content.submit .info-notice,
 html[lang^=nm] .submit-page .roundfield {
   background-color: #222;
   color: #eee; }
+
 .res-nightmode #header #header-bottom-right #mail.havemail,
 html[lang^=nm] #header #header-bottom-right #mail.havemail {
   outline: 0; }
+
 .res-nightmode .formtabs-content .infobar,
 html[lang^=nm] .formtabs-content .infobar {
   border-color: transparent !important; }
+
 .res-nightmode .infobar,
 html[lang^=nm] .infobar {
   border-color: #ff4500 !important; }
+
 .res-nightmode span.score,
 html[lang^=nm] span.score {
   color: #888 !important; }
+
 .res-nightmode .comment.spam > .child,
 .res-nightmode .message.spam > .child,
 .res-nightmode .usertext.grayed .usertext-body,
@@ -2343,13 +2479,16 @@ html[lang^=nm] .comment.spam > .child,
 html[lang^=nm] .message.spam > .child,
 html[lang^=nm] .usertext.grayed .usertext-body {
   background-color: transparent; }
+
 .res-nightmode div.commentarea .infobar,
 html[lang^=nm] div.commentarea .infobar {
   color: #eee;
   border: none; }
+
 .res-nightmode .comment,
 html[lang^=nm] .comment {
   border: 1px solid #43474F; }
+
 .res-nightmode a[href*='#icon-day'],
 html[lang^=nm] a[href*='#icon-day'] {
   display: inline-block !important; }
@@ -2362,123 +2501,158 @@ html[lang^=nm] a[href*='#icon-day'] {
     content: '';
     margin: 0 7px -4px 0;
     background: url(%%spritesheet%%) -85px -294px; }
+
 .res-nightmode a[href*='#icon-night'],
 html[lang^=nm] a[href*='#icon-night'] {
   display: none; }
+
 .res-nightmode a[href*="#icon-chat"]::before,
 html[lang^=nm] a[href*="#icon-chat"]::before {
   background-image: url(%%wincore-2%%);
   background-position: -5px -405px; }
+
 .res-nightmode a[href*="#icon-feedback"]::before,
 html[lang^=nm] a[href*="#icon-feedback"]::before {
   background-position: -47px -149px; }
+
 .res-nightmode a[href*="#icon-feedback2"]::before,
 html[lang^=nm] a[href*="#icon-feedback2"]::before {
   background-position: -5px -375px; }
+
 .res-nightmode a[href*="#iconz-tips"]::before,
 html[lang^=nm] a[href*="#iconz-tips"]::before {
   background-position: -234px -47px; }
+
 .res-nightmode a[href*="#iconz-updates"]::before,
 html[lang^=nm] a[href*="#iconz-updates"]::before {
   background-position: -259px -119px; }
+
 .res-nightmode a[href*="#iconz-faq"]::before,
 html[lang^=nm] a[href*="#iconz-faq"]::before {
   background-position: -174px -47px; }
+
 .res-nightmode a[href*="#iconz-install"]::before,
 html[lang^=nm] a[href*="#iconz-install"]::before {
   background-position: -259px -119px; }
+
 .res-nightmode a[href*="#iconz-wiki"]::before,
 html[lang^=nm] a[href*="#iconz-wiki"]::before {
   background-position: -204px -149px; }
+
 .res-nightmode #siteTable .thing,
 .res-nightmode .link.promotedlink,
 html[lang^=nm] #siteTable .thing,
 html[lang^=nm] .link.promotedlink {
   background: #202020; }
+
 .res-nightmode .organic-listing,
 html[lang^=nm] .organic-listing {
   background: none !important; }
+
 .res-nightmode body > .content #siteTable .thing.self .thumbnail,
 html[lang^=nm] body > .content #siteTable .thing.self .thumbnail {
   background-position: -77px -5px; }
+
 .res-nightmode body > .content #siteTable .thing .thumbnail.default,
 html[lang^=nm] body > .content #siteTable .thing .thumbnail.default {
   background-position: -174px -77px; }
+
 .res-nightmode div.side span.subscribers span.number:before,
 html[lang^=nm] div.side span.subscribers span.number:before {
   background-position: -162px -5px; }
+
 .res-nightmode .expando-button.selftext.collapsed,
 html[lang^=nm] .expando-button.selftext.collapsed {
   background-position: -5px -242px; }
   .res-nightmode .expando-button.selftext.collapsed:hover,
   html[lang^=nm] .expando-button.selftext.collapsed:hover {
     background-position: -225px -204px; }
+
 .res-nightmode .expando-button.selftext.expanded,
 html[lang^=nm] .expando-button.selftext.expanded {
   background-position: -65px -204px; }
   .res-nightmode .expando-button.selftext.expanded:hover,
   html[lang^=nm] .expando-button.selftext.expanded:hover {
     background-position: -105px -204px; }
+
 .res-nightmode .expando-button.video.collapsed,
 html[lang^=nm] .expando-button.video.collapsed {
   background-position: -85px -242px; }
   .res-nightmode .expando-button.video.collapsed:hover,
   html[lang^=nm] .expando-button.video.collapsed:hover {
     background-position: -45px -242px; }
+
 .res-nightmode .expando-button.video.expanded,
 html[lang^=nm] .expando-button.video.expanded {
   background-position: -65px -204px; }
   .res-nightmode .expando-button.video.expanded:hover,
   html[lang^=nm] .expando-button.video.expanded:hover {
     background-position: -105px -204px; }
+
 .res-nightmode .date:after,
 html[lang^=nm] .date:after {
   border-color: transparent #393939 transparent transparent !important; }
+
 .res-nightmode .date span,
 html[lang^=nm] .date span {
   border-left: 5px solid #393939 !important;
   color: #ddd;
   border-right-color: #393939; }
+
 .res-nightmode .date time,
 html[lang^=nm] .date time {
   border-right: 1px solid #393939 !important; }
+
 .res-nightmode .link.last-clicked,
 html[lang^=nm] .link.last-clicked {
   background: #393939 !important; }
+
 .res-nightmode .comments-page .link,
 html[lang^=nm] .comments-page .link {
   border-left: 3px solid transparent; }
 
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
-.res-nightmode .res .commentarea .RES-keyNav-activeElement .md, .res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+
+.res-nightmode .res .commentarea .RES-keyNav-activeElement .md,
+.res-nightmode .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
   background-color: #292929 !important; }
+
 .res-nightmode .RES-keyNav-activeElement {
   background-color: #292929 !important; }
   .res-nightmode .RES-keyNav-activeElement .md-container {
     background-color: #292929 !important; }
+
 .res-nightmode .arrow.upmod {
   background-position: -296px -60px !important; }
+
 .res-nightmode .arrow.down {
   background-position: -321px -60px !important; }
+
 .res-nightmode .arrow.up {
   background-position: -289px -194px !important; }
+
 .res-nightmode .arrow.downmod {
   background-position: -271px -60px !important; }
+
 .res-nightmode .side .titlebox > .fancy-toggle-button {
   background: #222 !important;
   color: #ddd !important; }
 
-.res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
+.res .commentarea .RES-keyNav-activeElement .md,
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
   background-color: transparent !important; }
 
 .res #sr-header-area #srDropdownContainer a:hover {
   opacity: 1; }
+
 .res .comment .midcol {
   margin-left: 20px; }
+
 .res .comment .new-comment {
   border: 2px solid #FFAB91 !important;
   border-radius: 0px !important; }
+
 .res #sr-header-area #srDropdownContainer a {
   width: 35px;
   height: 23px;
@@ -2488,16 +2662,19 @@ html[lang^=nm] .comments-page .link {
   background: url(%%spritesheet%%) -225px -252px no-repeat;
   line-height: 35px;
   text-indent: -999em; }
+
 .res .RES-keyNav-activeElement,
 .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .noncollapsed .RES-keyNav-activeElement.entry {
   background-color: 0 0 !important; }
+
 .res .RESDashboardToggle,
 .res .RESshortcutside {
   background: 0 0;
   border: none;
   font-weight: 400;
   text-transform: uppercase; }
+
 .res .sitetable .sitetable {
   margin-right: 0; }
 
