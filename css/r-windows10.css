@@ -169,7 +169,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #58b5ff;
+  background: #d75f00;
   position: absolute;
   top: 223px; }
 
@@ -661,7 +661,7 @@ body .linklisting {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #d7ecff; }
+  BORDER: 1px solid rgba(215, 95, 0, 0.15); }
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
@@ -845,11 +845,11 @@ ul.tabmenu.formtab {
 .titlebox form.toggle {
   color: #000;
   background: #fff;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
   padding-left: 10px;
   font-size: 8pt;
   margin-right: 5px;
-  border-right: 1px solid #d7ecff; }
+  border-right: 1px solid rgba(215, 95, 0, 0.15); }
 
 #baconBit {
   width: 394px !important;
@@ -1009,7 +1009,7 @@ span.clear-input-button {
       display: block;
       position: absolute;
       z-index: -1;
-      border-color: transparent #d7ecff transparent transparent;
+      border-color: transparent rgba(215, 95, 0, 0.15) transparent transparent;
       border-width: 10px;
       border-style: solid;
       content: "";
@@ -1030,9 +1030,9 @@ span.clear-input-button {
   .side .titlebox h1.redditname + div,
   .side .titlebox > .fancy-toggle-button {
     padding: 10px;
-    border: 1px solid #d7ecff;
-    border-left: 5px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border: 1px solid rgba(215, 95, 0, 0.15);
+    border-left: 5px solid rgba(215, 95, 0, 0.15);
+    border-right: 1px solid rgba(215, 95, 0, 0.15);
     background-color: #fff;
     color: #000;
     font-size: 8pt;
@@ -1089,7 +1089,7 @@ span.clear-input-button {
   display: block;
   position: absolute;
   z-index: -1;
-  border-color: transparent #d7ecff transparent transparent;
+  border-color: transparent rgba(215, 95, 0, 0.15) transparent transparent;
   border-width: 10px;
   border-style: solid;
   content: "";
@@ -1097,9 +1097,9 @@ span.clear-input-button {
 
 div.side div.tagline {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid rgba(215, 95, 0, 0.15);
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1108,9 +1108,9 @@ div.side div.tagline {
   margin: 0 5px 0 0; }
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid rgba(215, 95, 0, 0.15);
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1118,9 +1118,9 @@ div.side form.flairtoggle, div.side form.leavecontributor-button {
   font-weight: 400;
   margin: 0 5px 0 0; }
 div.side span.subscribers {
-  border: 1px solid #d7ecff;
-  border-left: 5px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid rgba(215, 95, 0, 0.15);
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
   color: #000;
   font-size: 0.945em;
@@ -1199,10 +1199,10 @@ div.side div.tagline {
 
 .reddit-link {
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   font-size: 1em;
   margin-right: 5px; }
 
@@ -1210,10 +1210,10 @@ div.side div.tagline {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   margin-right: 5px !important; }
 
 .search-page .side .spacer {
@@ -1261,10 +1261,10 @@ div.titlebox .md ul li {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   font-size: 0.945em;
   margin-right: 5px !important; }
   .sidecontentbox .content a.author:hover,
@@ -1286,10 +1286,10 @@ div.titlebox .md ul li {
 
 div.titlebox .md ul li {
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   font-size: 0.945em; }
   div.titlebox .md ul li:hover {
     background-color: #f0f8ff;
@@ -1343,8 +1343,8 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #searchexpando {
   padding: 10px;
-  border: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   background-color: #fff;
   color: #000;
   font-size: 8pt;
@@ -1352,14 +1352,14 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   font-weight: 400;
   margin: 0 5px 0 0;
   width: 273px !important;
-  border-left: 1px solid #d7ecff; }
+  border-left: 1px solid rgba(215, 95, 0, 0.15); }
 
 #search input[type=text] {
   width: 295px !important;
   border-color: #0078d7; }
 
 .sidecontentbox .title {
-  border-left: 5px solid #58b5ff;
+  border-left: 5px solid #d75f00;
   background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
@@ -1374,7 +1374,7 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  border-left: 5px solid #58b5ff;
+  border-left: 5px solid #d75f00;
   background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
@@ -1383,7 +1383,7 @@ div.titlebox .md h4 {
   margin-bottom: 0;
   margin-left: -10px; }
 div.titlebox h1 {
-  border-left: 5px solid #58b5ff;
+  border-left: 5px solid #d75f00;
   background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
@@ -1448,10 +1448,10 @@ div.commentarea .infobar p {
   .linkinfo .score,
   .linkinfo .shortlink {
     color: #494949;
-    border-left: 5px solid #d7ecff;
+    border-left: 5px solid rgba(215, 95, 0, 0.15);
     background-color: #fff;
-    border-bottom: 1px solid #d7ecff;
-    border-right: 1px solid #d7ecff;
+    border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+    border-right: 1px solid rgba(215, 95, 0, 0.15);
     font-size: 8pt;
     margin-right: 5px; }
   .linkinfo .score {
@@ -1471,7 +1471,7 @@ div.commentarea .infobar p {
     display: block;
     color: #fff !important;
     text-transform: none;
-    border-left: 5px solid #58b5ff;
+    border-left: 5px solid #d75f00;
     background-color: #0078d7;
     padding: 10px;
     cursor: pointer;
@@ -1483,7 +1483,7 @@ div.commentarea .infobar p {
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent #d7ecff transparent transparent;
+    border-color: transparent rgba(215, 95, 0, 0.15) transparent transparent;
     border-width: 10px;
     border-style: solid;
     content: "";
@@ -1493,10 +1493,10 @@ div.commentarea .infobar p {
     display: block;
     background-color: #fff;
     padding: 7px 0 10px 10px;
-    border-left: 5px solid #d7ecff;
-    border-bottom: 1px solid #d7ecff;
+    border-left: 5px solid rgba(215, 95, 0, 0.15);
+    border-bottom: 1px solid rgba(215, 95, 0, 0.15);
     margin: -6px 5px -10px 0;
-    border-right: 1px solid #d7ecff; }
+    border-right: 1px solid rgba(215, 95, 0, 0.15); }
   .date span,
   .date time {
     color: #494949;
@@ -1515,9 +1515,9 @@ div.commentarea .infobar p {
   text-transform: capitalize;
   margin-top: 0;
   padding: 7px 10px 10px;
-  border-left: 5px solid #d7ecff;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-left: 5px solid rgba(215, 95, 0, 0.15);
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   font-size: 8pt !important;
   margin-right: 5px; }
 
@@ -2915,8 +2915,8 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before {
   padding: 2px 10px 5px;
   border-left: 5px solid #f5c684;
   background-color: #fef8f1;
-  border-bottom: 1px solid #d7ecff;
-  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid rgba(215, 95, 0, 0.15);
+  border-right: 1px solid rgba(215, 95, 0, 0.15);
   font-size: 10px;
   margin: 0 5px 0 0;
   color: #222; }
