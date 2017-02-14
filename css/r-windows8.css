@@ -169,7 +169,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992FF;
+  background: #9983da;
   position: absolute;
   top: 223px; }
 
@@ -1359,7 +1359,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   border-color: #5133AB; }
 
 .sidecontentbox .title {
-  border-left: 5px solid #1992FF;
+  border-left: 5px solid #9983da;
   background-color: #5133AB;
   padding: 10px;
   font-weight: 400;
@@ -1374,7 +1374,7 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  border-left: 5px solid #1992FF;
+  border-left: 5px solid #9983da;
   background-color: #5133AB;
   padding: 10px;
   font-weight: 400;
@@ -1383,7 +1383,7 @@ div.titlebox .md h4 {
   margin-bottom: 0;
   margin-left: -10px; }
 div.titlebox h1 {
-  border-left: 5px solid #1992FF;
+  border-left: 5px solid #9983da;
   background-color: #5133AB;
   padding: 10px;
   font-weight: 400;
@@ -1471,7 +1471,7 @@ div.commentarea .infobar p {
     display: block;
     color: #fff !important;
     text-transform: none;
-    border-left: 5px solid #1992FF;
+    border-left: 5px solid #9983da;
     background-color: #5133AB;
     padding: 10px;
     cursor: pointer;

@@ -3,15 +3,15 @@ Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #F54E7A
-Secondary: #f06292
+Main color: #0078d7
+Secondary: #259eff
 Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #F54E7A;
+  background: #0078d7;
   border-bottom: none; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
@@ -59,7 +59,7 @@ Secondary: #7A0218
           background: rgba(0, 0, 0, 0.1);
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
-        background-color: #f06292;
+        background-color: #259eff;
         border: 0;
         color: #fff;
         padding-top: 7px;
@@ -169,7 +169,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   margin-bottom: 74px; }
 
 .submit_text.roundfield.enabled {
-  background: #1992FF;
+  background: #58b5ff;
   position: absolute;
   top: 223px; }
 
@@ -204,11 +204,11 @@ button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cance
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #f06292;
+  color: #259eff;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #f06292;
+    background: #259eff;
     border: none;
     color: #fff;
     outline: 0; }
@@ -243,7 +243,7 @@ button:active,
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #f06292;
+      background: #259eff;
       color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -266,10 +266,10 @@ button:active,
 .tagline .score {
   font-weight: 700; }
 .tagline .likes {
-  color: #F54E7A; }
+  color: #0078d7; }
 
 .entry .flat-list .reply-button a {
-  color: #F54E7A; }
+  color: #0078d7; }
 
 .link .domain {
   visibility: hidden; }
@@ -300,13 +300,13 @@ button:active,
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .flairselector {
-  border: 1px solid #F54E7A !important; }
+  border: 1px solid #0078d7 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #F54E7A !important;
+    background: #0078d7 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -314,7 +314,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #F54E7A;
+    border-top: solid 1px #0078d7;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     padding: 0 !important;
@@ -337,7 +337,7 @@ button:active,
     padding: 3px; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #F54E7A !important; }
+  color: #0078d7 !important; }
 
 .nextprev a,
 .side .usertext-body .md ol a {
@@ -368,10 +368,10 @@ button:active,
     background-color: #e7e9f6; }
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #F54E7A;
+  background-color: #0078d7;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #f06292; }
+    background-color: #259eff; }
 .submit-page #newlink.submit.content .btn {
   width: 558px;
   height: auto;
@@ -558,7 +558,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .link .title {
-    color: #F54E7A; }
+    color: #0078d7; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -566,10 +566,10 @@ a[href*="#icon-more"] {
     padding: 0 !important; }
   .link.last-clicked {
     border: 0;
-    border-left: 3px solid #f06292;
+    border-left: 3px solid #259eff;
     background: #f0f8ff; }
   .link .score.likes {
-    color: #f06292; }
+    color: #259eff; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -582,7 +582,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #F54E7A;
+  background: #0078d7;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -611,7 +611,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #F54E7A; }
+  color: #0078d7; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -652,7 +652,7 @@ body .linklisting {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #f06292;
+  border-left-color: #259eff;
   background: #f0f8ff; }
 
 .entry .flat-list .report-button a,
@@ -665,11 +665,11 @@ body .linklisting {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #F54E7A;
+      background-color: solid #0078d7;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #F54E7A;
+  background-color: solid #0078d7;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -713,7 +713,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0px;
-  background: #F54E7A;
+  background: #0078d7;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -742,10 +742,10 @@ a.author {
 .tagline .stickied-tagline {
   color: #00a64f; }
 .tagline a:hover {
-  color: #f06292 !important; }
+  color: #259eff !important; }
 
 .gold-accent {
-  background-color: #F54E7A;
+  background-color: #0078d7;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -754,13 +754,13 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #F54E7A;
+  background: #0078d7;
   margin-left: 5px !important;
   display: none; }
 
 .commentarea .infobar {
   color: #eee;
-  background: #F54E7A;
+  background: #0078d7;
   border: none;
   display: flex; }
   .commentarea .infobar a {
@@ -805,11 +805,11 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #F54E7A; }
+    color: #0078d7; }
   .md code {
     white-space: normal; }
   .md blockquote {
-    border-left: 2px solid #f06292;
+    border-left: 2px solid #259eff;
     background-color: #efefed; }
 
 .usertext.border .usertext-body {
@@ -818,15 +818,15 @@ a.author {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #f06292; }
+  border: 1px solid #259eff; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #f06292 !important;
+      background-color: #259eff !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #F54E7A; }
+    background-color: #0078d7; }
 
 .wiki-page .wiki-page-content .nextprev a {
   margin-bottom: 12px; }
@@ -835,11 +835,11 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::selection {
-  background-color: #f06292;
+  background-color: #259eff;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #F54E7A; }
+  color: #0078d7; }
 
 .leavemoderator,
 .titlebox form.toggle {
@@ -903,7 +903,7 @@ a[href*="#tech"] {
 .gadget .midcol {
   margin-right: 9px; }
 .gadget .right a {
-  background: #F54E7A;
+  background: #0078d7;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -912,7 +912,7 @@ a[href*="#tech"] {
   transition: background-color .5s;
   text-transform: capitalize; }
   .gadget .right a:hover {
-    background: #f06292; }
+    background: #259eff; }
 
 span.clear-input-button {
   color: #fff; }
@@ -924,22 +924,22 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #F54E7A !important;
+  background: #0078d7 !important;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #f06292 !important; }
+    background: #259eff !important; }
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 #newlink-with-image-upload .file-upload-button {
-  background: #F54E7A;
+  background: #0078d7;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
   margin: 6px -17px -17px !important;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #f06292; }
+    background: #259eff; }
 
 @media (max-width: 880px) {
   #siteTable_organic {
@@ -962,7 +962,7 @@ span.clear-input-button {
     margin-right: 18px; }
 
   .footer {
-    border-right: 1px solid #F54E7A; }
+    border-right: 1px solid #0078d7; }
 
   .panestack-title {
     margin: 0 0px 0 -5px; }
@@ -976,7 +976,7 @@ span.clear-input-button {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #F54E7A;
+    color: #0078d7;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1167,8 +1167,8 @@ div.side div.tagline {
   border-top: none; }
 
 .morelink {
-  border: 1px solid #F54E7A;
-  background: #F54E7A;
+  border: 1px solid #0078d7;
+  background: #0078d7;
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
@@ -1180,11 +1180,11 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 0.9em; }
   .morelink:hover {
-    background: #f06292;
-    border-color: #f06292; }
+    background: #259eff;
+    border-color: #259eff; }
     .morelink:hover a {
       color: #fff;
-      border-color: #f06292; }
+      border-color: #259eff; }
   .morelink .nub {
     display: none; }
 
@@ -1228,7 +1228,7 @@ div.side div.tagline {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #F54E7A; }
+  color: #0078d7; }
 .helplink ~ .content .flair {
   display: none; }
 
@@ -1243,7 +1243,7 @@ div.side div.tagline {
     text-transform: capitalize; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #f06292; }
+  color: #259eff; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1297,7 +1297,7 @@ div.titlebox .md ul li {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #f06292;
+  background-color: #259eff;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1307,14 +1307,14 @@ div.titlebox span.fancy-toggle-button a.active {
   margin: 0;
   border: none; }
 div.titlebox div.styleToggle {
-  background-color: #F54E7A;
+  background-color: #0078d7;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #F54E7A; }
+  background-color: #0078d7; }
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
@@ -1339,7 +1339,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #f06292; }
+    color: #259eff; }
 
 #searchexpando {
   padding: 10px;
@@ -1356,11 +1356,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #F54E7A; }
+  border-color: #0078d7; }
 
 .sidecontentbox .title {
-  border-left: 5px solid #1992FF;
-  background-color: #F54E7A;
+  border-left: 5px solid #58b5ff;
+  background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1374,8 +1374,8 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  border-left: 5px solid #1992FF;
-  background-color: #F54E7A;
+  border-left: 5px solid #58b5ff;
+  background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
   cursor: default;
@@ -1383,8 +1383,8 @@ div.titlebox .md h4 {
   margin-bottom: 0;
   margin-left: -10px; }
 div.titlebox h1 {
-  border-left: 5px solid #1992FF;
-  background-color: #F54E7A;
+  border-left: 5px solid #58b5ff;
+  background-color: #0078d7;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1438,7 +1438,7 @@ div.titlebox .md h3:hover + ul {
   transition: .8s max-height ease-out; }
 
 div.commentarea .infobar p {
-  background: #f06292;
+  background: #259eff;
   padding: 10px;
   margin: -5px -5px -5px 10px; }
 
@@ -1471,8 +1471,8 @@ div.commentarea .infobar p {
     display: block;
     color: #fff !important;
     text-transform: none;
-    border-left: 5px solid #1992FF;
-    background-color: #F54E7A;
+    border-left: 5px solid #58b5ff;
+    background-color: #0078d7;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1540,11 +1540,11 @@ div.commentarea .infobar p {
   text-align: center;
   display: block;
   color: #fff;
-  background: #F54E7A;
+  background: #0078d7;
   box-sizing: border-box;
   margin-bottom: 10px; }
   .sidecontentbox a.helplink:hover {
-    background: #f06292; }
+    background: #259eff; }
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
   color: #fff; }
@@ -1558,10 +1558,10 @@ div.commentarea .infobar p {
 
 .account-activity-box {
   display: block !important;
-  background: #F54E7A;
+  background: #0078d7;
   margin-right: 5px; }
   .account-activity-box:hover {
-    background: #f06292; }
+    background: #259eff; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1585,7 +1585,7 @@ div.commentarea .infobar p {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #F54E7A;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #0078d7;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1614,7 +1614,7 @@ div.commentarea .infobar p {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #F54E7A;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #0078d7;
   border: 2px solid #fff; }
 
 #modmail.havemail {
@@ -1623,7 +1623,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #f06292; }
+  background-color: #259eff; }
 #header #header-bottom-right .logout {
   display: inline-block; }
 #header #header-bottom-right #mail,
@@ -1638,7 +1638,7 @@ div.commentarea .infobar p {
   overflow: hidden;
   transition: background-color 0.5s; }
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #F54E7A;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #0078d7;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail {
@@ -1651,7 +1651,7 @@ div.commentarea .infobar p {
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #F54E7A;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #0078d7;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1661,7 +1661,7 @@ div.commentarea .infobar p {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #F54E7A;
+    background-color: #0078d7;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1684,7 +1684,7 @@ div.commentarea .infobar p {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #F54E7A;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #0078d7;
   border-radius: 1px;
   border: 2px solid #fff; }
 #header #header-bottom-right #mail.havemail, #header #header-bottom-right #mail.nohavemail {
@@ -1703,7 +1703,7 @@ div.commentarea .infobar p {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #f06292; }
+  background-color: #259eff; }
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
   color: #fff;
@@ -1723,7 +1723,7 @@ div.commentarea .infobar p {
   overflow: hidden; }
 
 .message-count {
-  background: #f06292;
+  background: #259eff;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -1806,7 +1806,7 @@ div.commentarea .infobar p {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #F54E7A;
+    background-color: #0078d7;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -1853,7 +1853,7 @@ div.commentarea .infobar p {
 .side .usertext-body .md ol a[href$='#stickyg']:hover {
   opacity: 1; }
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #F54E7A;
+  background-color: #0078d7;
   content: "Sticky";
   color: #fff; }
 .side .usertext-body .md ol a[href$='#stickyg'] {
@@ -1887,7 +1887,7 @@ div.commentarea .infobar p {
   opacity: .8;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #F54E7A;
+    background-color: #0078d7;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -1897,7 +1897,7 @@ div.commentarea .infobar p {
   text-decoration: none; }
 
 .md a:hover {
-  color: #f06292; }
+  color: #259eff; }
 
 .res-nightmode body,
 html[lang^=nm] body {
@@ -1941,14 +1941,14 @@ html[lang^=nm] .comments-page .usertext-edit div textarea {
 .res-nightmode .md blockquote,
 html[lang^=nm] .md blockquote {
   background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #f06292 !important;
+  border-left: 2px solid #259eff !important;
   color: #888 !important; }
 .res-nightmode .md code,
 html[lang^=nm] .md code {
   border: none !important;
   background-color: #393939 !important;
   border-radius: 0 !important;
-  border-left: 3px solid #f06292 !important; }
+  border-left: 3px solid #259eff !important; }
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
 .res-nightmode .linkinfo .score,
@@ -2307,10 +2307,10 @@ html[lang^=nm] input[type=submit] {
   border: none; }
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
-  border-left-color: #f06292; }
+  border-left-color: #259eff; }
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #F54E7A; }
+  background: #0078d7; }
 .res-nightmode .thing .title:visited, .res-nightmode .thing.visited .title,
 html[lang^=nm] .thing .title:visited,
 html[lang^=nm] .thing.visited .title {
@@ -2526,11 +2526,11 @@ html[lang^=nm] .comments-page .link {
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #F54E7A;
+  border-bottom: 1px solid #0078d7;
   padding: 0;
-  border-left: 1px solid #F54E7A; }
+  border-left: 1px solid #0078d7; }
   .footer::after {
-    border-bottom: 1px solid #F54E7A;
+    border-bottom: 1px solid #0078d7;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -2539,8 +2539,8 @@ html[lang^=nm] .comments-page .link {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", Helvetica, sans-serif;
-    border-top: 34px solid #F54E7A;
-    border-right: 1px solid #F54E7A;
+    border-top: 34px solid #0078d7;
+    border-right: 1px solid #0078d7;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -2555,7 +2555,7 @@ html[lang^=nm] .comments-page .link {
       text-transform: capitalize;
       padding: 8px;
       color: #fff;
-      background: #F54E7A;
+      background: #0078d7;
       max-height: 18px; }
     .footer div.col a {
       display: block;
@@ -2860,11 +2860,11 @@ a[href*='#square-solved']::before {
   background: -187px -5px #008a00;
   border: 3px solid #e8e8e8; }
 a[href*='#square-hflairs']::before {
-  background: -187px -5px #F54E7A;
+  background: -187px -5px #0078d7;
   border: 3px solid #e8e8e8;
   border-radius: 50%; }
 a[href*='#square-hhelp']::before {
-  background: -187px -5px #f06292;
+  background: -187px -5px #259eff;
   border: 3px solid #e8e8e8;
   border-radius: 50%; }
 a[href*='#square'] + .keyNavAnnotation {
@@ -2877,7 +2877,7 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before, a[href*=
   margin: 0 5px -4px 0; }
 a[href*='#square-']:hover::before {
   text-decoration: none;
-  background: #f06292;
+  background: #259eff;
   border-color: #80c2ff;
   left: 4px;
   top: 8px;
@@ -2960,7 +2960,7 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   transition: all 0.5s;
   border-radius: 1px; }
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
-    background: #f06292;
+    background: #259eff;
     -webkit-transform: translateY(-1px);
     -moz-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
@@ -2970,7 +2970,7 @@ a[href*="#Donsiders"], a[href*="#btn"] {
 a[href*="#Donsiders"] {
   background: #009e7e; }
   a[href*="#Donsiders"]:hover {
-    background: #f06292; }
+    background: #259eff; }
 a[href*="#btn"] {
   background: #0057a6; }
 a[href*="#square-showflairs"] {
@@ -2980,7 +2980,7 @@ a[href*="#square-showflairs"] {
     height: 10px;
     width: 10px;
     content: "";
-    background: -187px -5px #F54E7A;
+    background: -187px -5px #0078d7;
     border: 3px solid #e8e8e8;
     border-radius: 50%;
     margin-left: 5px; }
@@ -2988,18 +2988,18 @@ a[href*="#square-hflairs"]::after {
   content: "or";
   margin-left: 50px; }
 a[href*="#square-hflairs"]:hover::after {
-  color: #F54E7A; }
+  color: #0078d7; }
 
 .side .md [href$="#butt"] {
   display: inline-block !important;
   font-size: 8pt;
-  border: 2px solid #F54E7A;
+  border: 2px solid #0078d7;
   padding: 9px 8px;
   transition: background-color .5s;
   text-align: center;
-  color: #F54E7A; }
+  color: #0078d7; }
   .side .md [href$="#butt"]:hover {
-    background: #F54E7A;
+    background: #0078d7;
     color: #fff; }
 .side .md > p:first-of-type {
   display: none; }
@@ -3036,7 +3036,7 @@ a[href*='#icon-feedback2']::before {
 a[href*="#icon-more"] {
   text-align: center;
   display: block;
-  color: #f06292;
+  color: #259eff;
   font-size: 16px; }
 a[href*='#iconz'] + .keyNavAnnotation {
   display: none; }
@@ -3084,7 +3084,7 @@ a[href*='#iconz-wiki']::before {
   content: '- Designer';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #F54E7A; }
+  color: #0078d7; }
 
 a[href*='#icon-'] + .keyNavAnnotation {
   display: none; }
