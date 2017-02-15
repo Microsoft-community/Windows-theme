@@ -52,11 +52,10 @@ Secondary: #7A0218
         padding: 8px 9px 6px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        transition: all .15s ease-in-out;
-        border-bottom: 3px solid transparent !important; }
+        transition: all .15s ease-in-out; }
         #header-bottom-left .tabmenu li a:hover {
           color: #fff;
-          background: rgba(0, 0, 0, 0.1);
+          background: #127fd6;
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
         background-color: #259eff;
