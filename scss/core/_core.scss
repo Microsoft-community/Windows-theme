@@ -6,10 +6,10 @@ Helvetica,
 sans-serif !default;
 $color-bg-main: #0078d7 !default;
 $color-bg-secondary: lighten($color-bg-main, 15%) !default;
-$color-bg-alt: complement($color-bg-main) !default;
+$color-bg-alt: #F85F73 !default;
 $color-bg-active: #1686f0 !default;
 $color-bg-light-hover: #f0f8ff !default;
-$color-borders-light: rgba($color-bg-alt, .15) !default;
+$color-borders-light: #fee7ea !default;
 $color-border-left-hover: #7cb0d9 !default;
 $color-win: #0078D7 !default;
 $color-mod: #00a64f;
