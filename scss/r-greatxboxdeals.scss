@@ -1,0 +1,246 @@
+$color-bg-main: #107c10;
+$color-bg-secondary: lighten($color-bg-main, 10%);
+$color-bg-alt: #5dc21e;
+$color-borders-light: #e6f8e0;
+$color-bg-light-hover: lighten($color-bg-main, 70%);
+$color-border-left-hover: lighten($color-bg-main, 55%);
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
+//spoilers
+.spoiler {
+    .link {
+        background: rgba(234, 84, 85, .1);
+        border-left-color: #EA5455;
+        .title {
+            text-decoration: line-through
+        }
+    }
+    &-stamp {
+        color: #EA5455;
+        font-size: 0;
+        line-height: 0;
+        &:after {
+            content: "DEAD DEAL";
+            font-size: 10px;
+            line-height: 15px
+        }
+    }
+    &-button .togglebutton:after {
+        content: "expire";
+        font-size: 11px;
+        color: #EA5455
+    }
+}
+
+.spoiler-button,
+.unspoiler-button {
+    font-size: 0
+}
+
+.thumbnail.spoiler {
+    background: url(%%expired%%) no-repeat!important;
+    width: 45px;
+    height: 45px;
+    margin: 10px 15px 10px 10px
+}
+
+.unspoiler-button .togglebutton:after {
+    content: "unexpire";
+    font-size: 11px;
+    color: #EA5455
+}
+
+.linkflair-expired {
+    background: rgba(242, 56, 90, .1);
+    .linkflairlabel {
+        color: red;
+    }
+    a[href].title:link {
+        text-decoration: line-through;
+        color: #b1b1b1
+    }
+}
+
+//xbox logo
+#header .redditname a {
+    font-size: 0;
+    background: url(%%x-header%%) -5px -5px no-repeat;
+    margin-left: 20px;
+    width: 800px !important;
+    height: 100px !important;
+    display: block;
+    position: absolute;
+    top: 33px!important;
+    &:hover {
+        color: #f1f1f1;
+        text-decoration: none;
+        background: url(%%x-header%%) -5px -115px no-repeat;
+        width: 800px !Important;
+        height: 100px !Important
+    }
+    &:after {
+        content: "Great Xbox Deals";
+        font-size: 70px;
+        font-weight: lighter;
+        color: #ECF0F1;
+        font-family: $font-main;
+        letter-spacing: .05em;
+        margin-left: 100px;
+        line-height: 85px;
+        font-variant: normal;
+        transition: background-color .5s
+    }
+}
+
+//viewport
+@media (max-width:720px) {
+    .side {
+        display: none
+    }
+    body .linklisting {
+        margin-right: 0!important
+    }
+    .footer::after {
+        display: none!important
+    }
+    #header .redditname a {
+        width: 100px!important;
+        &:after {
+            content: "Deals"
+        }
+    }
+}
+
+//sidebar icons
+.titlebox h1.redditname a:before {
+    content: "";
+    background: url(%%x-icons%%) -107px -144px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-bottom: -6px
+}
+
+a[href*='#icon-feedback']::before,
+a[href*='#icon-feedbackn']::before,
+a[href*='#icon-night']::before,
+a[href*='#icon-format']::before,
+a[href*='#icon-links']::before,
+a[href*='#icon-filter']::before,
+a[href*='#icon-rules']::before,
+a[href*='#icon-mods']::before,
+a[href*='#icon-xbox']::before {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0
+}
+
+a[href*='#icon']:hover {
+    text-decoration: none
+}
+
+a[href*='#icon-feedback']::before {
+    background: url(%%x-icons%%) -35px -144px
+}
+
+a[href*='#icon-feedbackn']::before {
+    background: url(%%x-icons%%) -192px -170px
+}
+
+a[href*='#icon-night']::before {
+    background: url(%%x-icons%%) -5px -5px
+}
+
+a[href*='#icon-day']::before {
+    display: none;
+    height: 20px;
+    width: 20px;
+    content: '';
+    margin: 0 7px -4px 0;
+    background: url(%%x-icons%%) -5px -196px
+}
+
+a[href*='#icon-format']::before {
+    background: url(%%x-icons%%) -90px -47px
+}
+
+a[href*='#icon-links']::before {
+    background: url(%%x-icons%%) -120px -47px
+}
+
+a[href*='#icon-filter']::before {
+    background: url(%%x-icons%%) -5px -47px
+}
+
+a[href*='#icon-rules']::before {
+    background: url(%%x-icons%%) -111px -102px
+}
+
+a[href*='#icon-mods']::before {
+    background: url(%%x-icons%%) -5px -144px
+}
+
+a[href*='#icon-xbox']::before {
+    background: url(%%x-icons%%) -107px -144px
+}
+
+#header-img.default-header,
+a[href*="#icon-day"] {
+    display: none
+}
+
+//twiter
+.side .md [href$="#twit"] {
+    display: block!important;
+    font-size: 8pt;
+    background: #00aced;
+    padding: 10px 11px;
+    transition: background-color .5s;
+    text-align: center;
+    color: #fff;
+    margin: 10px 5px;
+    &:hover {
+        background: #2a8bf3;
+    }
+    &:before {
+        background: url(%%twitter%%);
+        content: " ";
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        margin: -1px 10px -6px;
+    }
+}
+
+//sidebar name
+.titlebox h1.redditname a {
+    font-size: 0;
+    &:after {
+        content: "Great Xbox Deals";
+        color: #fff;
+        font: 400 small verdana, arial, helvetica, sans-serif;
+        margin-left: 6px;
+    }
+}
+
+//flairs
+.linkflairlabel {
+    display: inline-block;
+    background: 0 0;
+    border: none;
+    border-bottom: 2px solid #107c10;
+    border-radius: 0;
+    text-align: center;
+    color: #107c10;
+    font-weight: 700;
+    max-width: 137px;
+    font-size: 12px;
+    max-width: 147px;
+}

@@ -29,6 +29,7 @@ Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
+
 #header {
   height: 165px;
   background: $color-bg-main;
@@ -75,11 +76,10 @@ Secondary: #7A0218
         padding: 8px 9px 6px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        transition: all .15s ease-in-out;
-        // border-bottom: 3px solid transparent !important;
+        transition: background .15s ease-in-out;
         &:hover {
           color: #fff;
-          background: #127fd6;
+          background: $color-bg-secondary;
           border-bottom: 3px solid #fff !important;
         }
       }
@@ -1270,6 +1270,20 @@ span.clear-input-button {
     &:hover {
       background: $color-bg-secondary;
     }
+  }
+}
+
+//tables
+.md tr:nth-child(even) {
+  background-color: $color-borders-light;
+}
+
+thead th {
+  background: $color-bg-main;
+  border: none!important;
+  color: #fff;
+  &:nth-child(2n) {
+    background: $color-bg-secondary;
   }
 }
 
