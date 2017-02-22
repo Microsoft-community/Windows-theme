@@ -52,10 +52,10 @@ Secondary: #7A0218
         padding: 8px 9px 6px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        transition: all .15s ease-in-out; }
+        transition: background .15s ease-in-out; }
         #header-bottom-left .tabmenu li a:hover {
           color: #fff;
-          background: #127fd6;
+          background: #643EBF;
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
         background-color: #643EBF;
@@ -940,6 +940,16 @@ span.clear-input-button {
   #newlink-with-image-upload .file-upload-button:hover {
     background: #643EBF; }
 
+.md tr:nth-child(even) {
+  background-color: #fee7ea; }
+
+thead th {
+  background: #5133AB;
+  border: none !important;
+  color: #fff; }
+  thead th:nth-child(2n) {
+    background: #643EBF; }
+
 @media (max-width: 880px) {
   #siteTable_organic {
     margin-right: -5px; }
@@ -1025,6 +1035,8 @@ span.clear-input-button {
     .side .md h1 a {
       color: #fff;
       font-size: 13px; }
+  .side .titlebox h1 a {
+    font-family: verdana, arial, helvetica, sans-serif; }
   .side .titlebox div.subButtons,
   .side .titlebox h1.redditname + div,
   .side .titlebox > .fancy-toggle-button {
@@ -1252,7 +1264,6 @@ div.titlebox .md h3:hover + ul {
 div.titlebox .md ul li strong:first-child, div.titlebox .md ul:hover {
   display: block; }
 div.titlebox .md ul li {
-  border: none;
   margin-right: 5px; }
 
 .sidecontentbox .content a.author,
@@ -1283,18 +1294,18 @@ div.titlebox .md ul li {
   background-color: #f0f8ff;
   border-left-color: #7cb0d9; }
 
-div.titlebox .md ul li {
+.titlebox .md ul li {
   padding: 7px 10px 10px;
   border-left: 5px solid #fee7ea;
   background-color: #fff;
   border-bottom: 1px solid #fee7ea;
   border-right: 1px solid #fee7ea;
   font-size: 0.945em; }
-  div.titlebox .md ul li:hover {
+  .titlebox .md ul li:hover {
     background-color: #f0f8ff;
     border-left-color: #7cb0d9; }
-div.titlebox div.styleToggle,
-div.titlebox span.fancy-toggle-button a.active {
+.titlebox .styleToggle,
+.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
   background-color: #643EBF;
   color: #fff;
@@ -1304,24 +1315,25 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 0;
   font-weight: 400;
   margin: 0;
-  border: none; }
-div.titlebox div.styleToggle {
+  border: none;
+  transition: .25s; }
+.titlebox div.styleToggle {
   background-color: #5133AB;
   line-height: 20px; }
-  div.titlebox div.styleToggle input,
-  div.titlebox div.styleToggle label {
+  .titlebox div.styleToggle input,
+  .titlebox div.styleToggle label {
     vertical-align: middle;
     margin: 0; }
-div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
+.titlebox span.fancy-toggle-button a.active.add:hover, .titlebox span.fancy-toggle-button a.active.remove {
   background-color: #5133AB; }
-div.titlebox span.fancy-toggle-button a.active.remove:before {
+.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
   padding-right: 5px; }
-div.titlebox span.fancy-toggle-button a.active.remove:hover:after {
+.titlebox span.fancy-toggle-button a.active.remove:hover:after {
   content: "=(";
   font-style: italic;
   padding-left: 5px; }
-div.titlebox span.fancy-toggle-button a.active.add:before {
+.titlebox span.fancy-toggle-button a.active.add:before {
   content: "+";
   padding-right: 5px;
   color: #fff; }

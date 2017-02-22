@@ -65,6 +65,9 @@
         }
     }
     .titlebox {
+        h1 a {
+            font-family: verdana, arial, helvetica, sans-serif;
+        }
         div.subButtons,
         h1.redditname+div,
         >.fancy-toggle-button {
@@ -361,7 +364,6 @@ div.titlebox .md {
             display: block;
         }
         li {
-            border: none;
             margin-right: 5px;
         }
     }
@@ -430,6 +432,7 @@ div.titlebox .md {
     border-left-color: $color-border-left-hover;
 }
 
+
 div.titlebox {
     .md {
         h3:before {
@@ -448,6 +451,19 @@ div.titlebox {
             margin-top: 0;
             margin-bottom: 0;
             margin-left: -10px;
+
+.titlebox {
+    .md ul li {
+        padding: 7px 10px 10px;
+        border-left: 5px solid $color-borders-light;
+        background-color: #fff;
+        border-bottom: 1px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
+        font-size: 0.945em;
+        &:hover {
+            background-color: $color-bg-light-hover;
+            border-left-color: $color-border-left-hover;
+
         }
         ul li {
             padding: 7px 10px 10px;
@@ -472,7 +488,7 @@ div.titlebox {
         margin-left: -10px;
         font-size: 13px;
     }
-    div.styleToggle,
+    .styleToggle,
     span.fancy-toggle-button a.active {
         padding: 5px 10px;
         background-color: $color-bg-secondary;
@@ -484,6 +500,7 @@ div.titlebox {
         font-weight: 400;
         margin: 0;
         border: none;
+        transition: .25s;
     }
     div.styleToggle {
         background-color: $color-bg-main;
