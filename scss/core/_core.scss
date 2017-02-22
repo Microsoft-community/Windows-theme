@@ -29,6 +29,7 @@ Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
+
 #header {
   height: 165px;
   background: $color-bg-main;
@@ -147,25 +148,25 @@ Secondary: #7A0218
   .srdrop.dropdown {
     width: 35px;
     padding: 0;
+    .selected {
+      width: 35px;
+      height: 23px;
+      padding: 0;
+      margin: 0;
+      display: block;
+      background: url(%%spritesheet%%) -225px -252px no-repeat;
+      line-height: 35px;
+      text-indent: -999em;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
   .sr-list {
     padding-left: 8px;
     border-left: 2px solid rgba(196, 196, 196, 0.9);
     height: 24px;
     line-height: 25px;
-  }
-  .srdrop.dropdown .selected {
-    width: 35px;
-    height: 23px;
-    padding: 0;
-    margin: 0;
-    display: block;
-    background: url(%%spritesheet%%) -225px -252px no-repeat;
-    line-height: 35px;
-    text-indent: -999em;
-    &:hover {
-      opacity: 1;
-    }
   }
   .drop-choices {
     &.srdrop {
@@ -240,12 +241,10 @@ button {
     border: 1px solid #5cb85c;
     color: #5cb85c;
     padding: 0.25rem 0.75rem;
-  }
-  &.save:hover,
-  &.submit-action-thing:hover,
-  &.submit-report:hover {
-    background: #5cb85c;
-    color: #fff;
+    &:hover {
+      background: #5cb85c;
+      color: #fff;
+    }
   }
   &.cancel,
   &.cancel-action-thing,
@@ -257,12 +256,10 @@ button {
     text-transform: capitalize;
     font-family: $font-main;
     transition: background-color 0.5s;
-  }
-  &.cancel-action-thing:hover,
-  &.cancel-report-thing:hover,
-  &.cancel:hover {
-    background: #d9534f;
-    color: #fff;
+    &:hover {
+      background: #d9534f;
+      color: #fff;
+    }
   }
 }
 
@@ -392,9 +389,6 @@ button:active,
 
 .flairselector {
   border: 1px solid $color-bg-main !important;
-  .title {
-    font-size: 0 !important;
-  }
   h2 {
     color: #fff;
     font-size: 13px;
@@ -411,21 +405,23 @@ button:active,
     border-top: solid 1px $color-bg-main;
     margin-bottom: 10px;
   }
+  .title {
+    font-size: 0 !important;
+  }
   &.drop-choices.active {
     padding: 0 !important;
     box-shadow: none;
+  }
+  &.drop-choices.active {
+    left: 40%!important;
+    top: 35%!important;
+    position: fixed;
   }
   .linkflair {
     border-left: none !important;
     background: 0 0;
     width: 110px;
   }
-}
-
-.flairselector.drop-choices.active {
-  left: 40%!important;
-  top: 35%!important;
-  position: fixed;
 }
 
 .flairoptionpane {
@@ -435,10 +431,6 @@ button:active,
     min-width: 120px;
     padding: 3px;
   }
-}
-
-.comments-page .link .flat-list a.flairselectbtn {
-  color: $color-bg-main !important;
 }
 
 .nextprev a,
@@ -918,7 +910,6 @@ body .linklisting {
   border-radius: 0;
 }
 
-//:nth-child(2n)
 .sitetable .comment {
   background-color: #FFF !important;
   .comment {
@@ -1033,19 +1024,6 @@ a.author {
   display: none;
 }
 
-.commentarea .infobar {
-  color: #eee;
-  background: $color-bg-main;
-  border: none;
-  display: flex;
-  a {
-    color: #eee;
-  }
-  p {
-    line-height: 8px;
-  }
-}
-
 //comments page
 .comments-page {
   .sitetable.nestedlisting>.thing.stickied {
@@ -1063,6 +1041,9 @@ a.author {
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-name: pulsate;
+  }
+  .link .flat-list a.flairselectbtn {
+    color: $color-bg-main !important;
   }
   .usertext-edit div textarea {
     background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
@@ -1090,6 +1071,26 @@ a.author {
   }
   .md {
     margin-bottom: 0;
+  }
+  .infobar {
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+    background: $color-bg-main;
+    border: none;
+    a {
+      color: #eee;
+    }
+    p {
+      background: $color-bg-secondary;
+      padding: 10px;
+      margin: -5px -10px -5px 10px;
+      line-height: 8px;
+      transition: all .25s;
+      &:hover {
+        background: $color-bg-alt;
+      }
+    }
   }
 }
 
@@ -1127,10 +1128,9 @@ a.author {
   .wikiaction-current {
     background-color: $color-bg-main;
   }
-}
-
-.wiki-page .wiki-page-content .nextprev a {
-  margin-bottom: 12px;
+  .wiki-page-content .nextprev a {
+    margin-bottom: 12px;
+  }
 }
 
 ul.tabmenu.formtab {
@@ -1165,14 +1165,6 @@ ul.tabmenu.formtab {
   transition: all 10s linear !important;
 }
 
-.sheets .col textarea {
-  width: 98%;
-  background: #1d1f21;
-  color: #ddd !important;
-  height: 712px !important;
-  font-family: SourceCodePro-Medium, monospace;
-}
-
 .gadget .right a,
 a[href*="#tech"] {
   font-family: $font-main;
@@ -1187,6 +1179,13 @@ a[href*="#tech"] {
    ::-webkit-scrollbar-corner,
    ::-webkit-scrollbar-thumb {
     background: #313131 !important;
+  }
+  .col textarea {
+    width: 98%;
+    background: #1d1f21;
+    color: #ddd !important;
+    height: 712px !important;
+    font-family: SourceCodePro-Medium, monospace;
   }
 }
 

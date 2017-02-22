@@ -133,9 +133,19 @@ html[lang^=nm] {
                 color: $nm-color-text !important;
             }
         }
-        &.titlebox .md ul li {
-            background: $nm-color-bg-main !important;
-            color: $nm-color-text !important;
+        &.titlebox {
+            .md {
+                h1,
+                h2,
+                h3,
+                h4 {
+                    background: $nm-color-bg-main !important;
+                }
+                ul li {
+                    background: $nm-color-bg-main !important;
+                    color: $nm-color-text !important;
+                }
+            }
         }
     }
     .sidecontentbox {
@@ -144,17 +154,7 @@ html[lang^=nm] {
             background: $nm-color-bg-main !important;
         }
     }
-    div.titlebox {
-        .md {
-            h1,
-            h2,
-            h3,
-            h4 {
-                background: $nm-color-bg-main !important;
-            }
-        }
-    }
-    #searchexpando,
+    div #searchexpando,
     .icon-menu li,
     .totalvotes,
     .reddit-link,
@@ -270,10 +270,6 @@ html[lang^=nm] {
             border-left-color: #a9a9a9 !important;
         }
     }
-    div.titlebox .md ul li:hover {
-        background-color: $nm-color-bg-secondary !important;
-        border-left-color: $color-border-left-hover !important;
-    }
     //sidebar
     div.titlebox {
         .md {
@@ -285,6 +281,10 @@ html[lang^=nm] {
                 position: absolute;
                 z-index: -1;
                 border-color: transparent $nm-color-bg-secondary transparent transparent !important;
+            }
+            ul li:hover {
+                background-color: $nm-color-bg-secondary !important;
+                border-left-color: $color-border-left-hover !important;
             }
         }
         h1:after,
@@ -314,7 +314,8 @@ html[lang^=nm] {
     .nextprev a:hover,
     .side .morelink a:hover,
     button:hover,
-    .account-activity-box:hover {
+    .account-activity-box:hover,
+    ::-webkit-scrollbar {
         background-color: $nm-color-bg-secondary !important;
     }
     .comment .usertext .md p>a:visited,
@@ -323,9 +324,6 @@ html[lang^=nm] {
         color: #3498db;
     }
     //scrollbar
-     ::-webkit-scrollbar {
-        background-color: $nm-color-bg-secondary;
-    }
      ::-webkit-scrollbar-thumb {
         background-color: #666;
         border: 2px solid #333;

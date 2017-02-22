@@ -24,16 +24,6 @@
         float: left;
         border: 2px solid #fff;
         cursor: pointer;
-    }
-}
-
-#beta-help,
-.beta-hint a {
-    position: absolute !important;
-}
-
-#header-bottom-right {
-    .user {
         >a {
             text-indent: 4px;
             color: #FFF;
@@ -61,6 +51,11 @@
         background: url(%%spritesheet%%) -224px -72px no-repeat $color-bg-main;
         border: 2px solid #fff;
     }
+}
+
+#beta-help,
+.beta-hint a {
+    position: absolute !important;
 }
 
 #modmail.havemail {

@@ -78,22 +78,18 @@
             border-radius: 0;
             font-weight: 400;
             margin: 0 5px 0 0;
-        }
-        div.subButtons,
-        h1.redditname+div,
-        >.fancy-toggle-button {
             padding-top: 5px;
             padding-bottom: 5px;
             border-top: none;
             border-bottom: none;
         }
+        >.fancy-toggle-button {
+            display: block !important;
+        }
         div.subButtons,
         >.fancy-toggle-button {
             width: 269.3px;
         }
-    }
-    .titlebox>.fancy-toggle-button {
-        display: block !important;
     }
     div.titlebox ul {
         list-style-type: none;
@@ -169,6 +165,7 @@ div.side {
             border-radius: 0;
             font-weight: 400;
             margin: 0 5px 0 0;
+            display: block !important;
         }
     }
     form {
@@ -214,9 +211,6 @@ div.side {
                 margin-top: -3px;
             }
         }
-    }
-    div.tagline {
-        display: block !important;
     }
     form {
         &.flairtoggle {
@@ -400,6 +394,34 @@ div.titlebox .md {
             color: #369;
         }
     }
+    .title {
+        border-left: 5px solid $color-bg-alt;
+        background-color: $color-bg-main;
+        padding: 10px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -10px;
+    }
+    a.helplink {
+        margin-right: 5px;
+        float: none;
+        margin-top: 4px;
+        clear: both;
+        text-align: center;
+        display: block;
+        color: #fff;
+        background: $color-bg-main;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        &:hover {
+            background: $color-bg-secondary;
+        }
+    }
+    .title h1,
+    a.helplink {
+        color: #fff;
+    }
 }
 
 .icon-menu li:hover,
@@ -409,17 +431,46 @@ div.titlebox .md {
 }
 
 div.titlebox {
-    .md ul li {
-        padding: 7px 10px 10px;
-        border-left: 5px solid $color-borders-light;
-        background-color: #fff;
-        border-bottom: 1px solid $color-borders-light;
-        border-right: 1px solid $color-borders-light;
-        font-size: 0.945em;
-        &:hover {
-            background-color: $color-bg-light-hover;
-            border-left-color: $color-border-left-hover;
+    .md {
+        h3:before {
+            content: "+";
+            color: #fff;
+            padding-right: 5px;
         }
+        h2,
+        h3,
+        h4 {
+            border-left: 5px solid $color-bg-alt;
+            background-color: $color-bg-main;
+            padding: 10px;
+            font-weight: 400;
+            cursor: default;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: -10px;
+        }
+        ul li {
+            padding: 7px 10px 10px;
+            border-left: 5px solid $color-borders-light;
+            background-color: #fff;
+            border-bottom: 1px solid $color-borders-light;
+            border-right: 1px solid $color-borders-light;
+            font-size: 0.945em;
+            &:hover {
+                background-color: $color-bg-light-hover;
+                border-left-color: $color-border-left-hover;
+            }
+        }
+    }
+    h1 {
+        border-left: 5px solid $color-bg-alt;
+        background-color: $color-bg-main;
+        padding: 10px;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -10px;
+        font-size: 13px;
     }
     div.styleToggle,
     span.fancy-toggle-button a.active {
@@ -486,64 +537,23 @@ div.titlebox {
     }
 }
 
-#searchexpando {
-    padding: 10px;
-    border: 1px solid $color-borders-light;
-    border-right: 1px solid $color-borders-light;
-    background-color: #fff;
-    color: #000;
-    font-size: 8pt;
-    border-radius: 0;
-    font-weight: 400;
-    margin: 0 5px 0 0;
-    width: 273px !important;
-    border-left: 1px solid $color-borders-light;
-}
-
-#search input[type=text] {
-    width: 295px !important;
-    border-color: $color-bg-main;
-}
-
-.sidecontentbox .title {
-    border-left: 5px solid $color-bg-alt;
-    background-color: $color-bg-main;
-    padding: 10px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: -10px;
-}
-
-div.titlebox {
-    .md {
-        h3:before {
-            content: "+";
-            color: #fff;
-            padding-right: 5px;
-        }
-        h2,
-        h3,
-        h4 {
-            border-left: 5px solid $color-bg-alt;
-            background-color: $color-bg-main;
-            padding: 10px;
-            font-weight: 400;
-            cursor: default;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: -10px;
-        }
+#search {
+    input[type=text] {
+        width: 295px !important;
+        border-color: $color-bg-main;
     }
-    h1 {
-        border-left: 5px solid $color-bg-alt;
-        background-color: $color-bg-main;
+    &expando {
         padding: 10px;
+        border: 1px solid $color-borders-light;
+        border-right: 1px solid $color-borders-light;
+        background-color: #fff;
+        color: #000;
+        font-size: 8pt;
+        border-radius: 0;
         font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: -10px;
-        font-size: 13px;
+        margin: 0 5px 0 0;
+        width: 273px !important;
+        border-left: 1px solid $color-borders-light;
     }
 }
 
@@ -552,10 +562,6 @@ div.titlebox {
 .users-online,
 .leavecontributor-button {
     display: none;
-}
-
-.sidecontentbox a.helplink {
-    margin-right: 5px;
 }
 
 .icon-menu a {
@@ -601,11 +607,7 @@ div.titlebox .md h3:hover+ul {
     transition: .8s max-height ease-out;
 }
 
-div.commentarea .infobar p {
-    background: $color-bg-secondary;
-    padding: 10px;
-    margin: -5px -5px -5px 10px;
-}
+
 
 .linkinfo {
     padding: 0;
@@ -709,27 +711,6 @@ div.commentarea .infobar p {
     font-size: large;
     color: #E54661;
     margin-left: 27px;
-}
-
-.sidecontentbox {
-    a.helplink {
-        float: none;
-        margin-top: 4px;
-        clear: both;
-        text-align: center;
-        display: block;
-        color: #fff;
-        background: $color-bg-main;
-        box-sizing: border-box;
-        margin-bottom: 10px;
-        &:hover {
-            background: $color-bg-secondary;
-        }
-    }
-    .title h1,
-    a.helplink {
-        color: #fff;
-    }
 }
 
 .account-activity-box,
