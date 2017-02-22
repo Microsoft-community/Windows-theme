@@ -52,10 +52,10 @@ Secondary: #7A0218
         padding: 8px 9px 6px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        transition: all .15s ease-in-out; }
+        transition: background .15s ease-in-out; }
         #header-bottom-left .tabmenu li a:hover {
           color: #fff;
-          background: #127fd6;
+          background: #643EBF;
           border-bottom: 3px solid #fff !important; }
       #header-bottom-left .tabmenu li.selected a {
         background-color: #643EBF;
@@ -110,22 +110,22 @@ Secondary: #7A0218
   #sr-header-area .srdrop.dropdown {
     width: 35px;
     padding: 0; }
+    #sr-header-area .srdrop.dropdown .selected {
+      width: 35px;
+      height: 23px;
+      padding: 0;
+      margin: 0;
+      display: block;
+      background: url(%%spritesheet%%) -225px -252px no-repeat;
+      line-height: 35px;
+      text-indent: -999em; }
+      #sr-header-area .srdrop.dropdown .selected:hover {
+        opacity: 1; }
   #sr-header-area .sr-list {
     padding-left: 8px;
     border-left: 2px solid rgba(196, 196, 196, 0.9);
     height: 24px;
     line-height: 25px; }
-  #sr-header-area .srdrop.dropdown .selected {
-    width: 35px;
-    height: 23px;
-    padding: 0;
-    margin: 0;
-    display: block;
-    background: url(%%spritesheet%%) -225px -252px no-repeat;
-    line-height: 35px;
-    text-indent: -999em; }
-    #sr-header-area .srdrop.dropdown .selected:hover {
-      opacity: 1; }
   #sr-header-area .drop-choices.srdrop {
     padding: 5px;
     margin: 1px 0 0;
@@ -183,9 +183,9 @@ button.save, button.submit-action-thing, button.submit-report {
   border: 1px solid #5cb85c;
   color: #5cb85c;
   padding: 0.25rem 0.75rem; }
-button.save:hover, button.submit-action-thing:hover, button.submit-report:hover {
-  background: #5cb85c;
-  color: #fff; }
+  button.save:hover, button.submit-action-thing:hover, button.submit-report:hover {
+    background: #5cb85c;
+    color: #fff; }
 button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   border: 1px solid #d9534f;
   background: 0 0;
@@ -194,9 +194,9 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
   transition: background-color 0.5s; }
-button.cancel-action-thing:hover, button.cancel-report-thing:hover, button.cancel:hover {
-  background: #d9534f;
-  color: #fff; }
+  button.cancel:hover, button.cancel-action-thing:hover, button.cancel-report-thing:hover {
+    background: #d9534f;
+    color: #fff; }
 
 .next-suggestions a,
 .nextprev a {
@@ -300,8 +300,6 @@ button:active,
 
 .flairselector {
   border: 1px solid #5133AB !important; }
-  .flairselector .title {
-    font-size: 0 !important; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
@@ -315,18 +313,19 @@ button:active,
   .flairselector form {
     border-top: solid 1px #5133AB;
     margin-bottom: 10px; }
+  .flairselector .title {
+    font-size: 0 !important; }
   .flairselector.drop-choices.active {
     padding: 0 !important;
     box-shadow: none; }
+  .flairselector.drop-choices.active {
+    left: 40% !important;
+    top: 35% !important;
+    position: fixed; }
   .flairselector .linkflair {
     border-left: none !important;
     background: 0 0;
     width: 110px; }
-
-.flairselector.drop-choices.active {
-  left: 40% !important;
-  top: 35% !important;
-  position: fixed; }
 
 .flairoptionpane {
   max-height: 304px; }
@@ -334,9 +333,6 @@ button:active,
   .flairoptionpane ul {
     min-width: 120px;
     padding: 3px; }
-
-.comments-page .link .flat-list a.flairselectbtn {
-  color: #5133AB !important; }
 
 .nextprev a,
 .side .usertext-body .md ol a {
@@ -757,16 +753,6 @@ a.author {
   margin-left: 5px !important;
   display: none; }
 
-.commentarea .infobar {
-  color: #eee;
-  background: #5133AB;
-  border: none;
-  display: flex; }
-  .commentarea .infobar a {
-    color: #eee; }
-  .commentarea .infobar p {
-    line-height: 8px; }
-
 .comments-page .sitetable.nestedlisting > .thing.stickied {
   border-bottom: solid 3px #00a64f;
   background: rgba(0, 166, 79, 0.1) !important; }
@@ -780,6 +766,8 @@ a.author {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pulsate; }
+.comments-page .link .flat-list a.flairselectbtn {
+  color: #5133AB !important; }
 .comments-page .usertext-edit div textarea {
   background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
   border: 1px solid #000 !important;
@@ -800,6 +788,22 @@ a.author {
   margin: 5px 310px 5px 5px; }
 .commentarea .md {
   margin-bottom: 0; }
+.commentarea .infobar {
+  display: flex;
+  justify-content: space-between;
+  color: #eee;
+  background: #5133AB;
+  border: none; }
+  .commentarea .infobar a {
+    color: #eee; }
+  .commentarea .infobar p {
+    background: #643EBF;
+    padding: 10px;
+    margin: -5px -10px -5px 10px;
+    line-height: 8px;
+    transition: all .25s; }
+    .commentarea .infobar p:hover {
+      background: #F85F73; }
 
 .md {
   overflow: visible; }
@@ -826,9 +830,8 @@ a.author {
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
     background-color: #5133AB; }
-
-.wiki-page .wiki-page-content .nextprev a {
-  margin-bottom: 12px; }
+  .wiki-page .pageactions .wiki-page-content .nextprev a {
+    margin-bottom: 12px; }
 
 ul.tabmenu.formtab {
   padding-left: 0; }
@@ -856,13 +859,6 @@ ul.tabmenu.formtab {
   background-image: url(%%res-easter-egg%%) no-repeat !important;
   transition: all 10s linear !important; }
 
-.sheets .col textarea {
-  width: 98%;
-  background: #1d1f21;
-  color: #ddd !important;
-  height: 712px !important;
-  font-family: SourceCodePro-Medium, monospace; }
-
 .gadget .right a,
 a[href*="#tech"] {
   font-family: "Segoe UI", Helvetica, sans-serif;
@@ -873,6 +869,12 @@ a[href*="#tech"] {
 .sheets ::-webkit-scrollbar-corner,
 .sheets ::-webkit-scrollbar-thumb {
   background: #313131 !important; }
+.sheets .col textarea {
+  width: 98%;
+  background: #1d1f21;
+  color: #ddd !important;
+  height: 712px !important;
+  font-family: SourceCodePro-Medium, monospace; }
 
 .panestack-title {
   border-bottom: transparent; }
@@ -938,6 +940,16 @@ span.clear-input-button {
   margin: 6px -17px -17px !important;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
+    background: #643EBF; }
+
+.md tr:nth-child(even) {
+  background-color: #fee7ea; }
+
+thead th {
+  background: #5133AB;
+  border: none !important;
+  color: #fff; }
+  thead th:nth-child(2n) {
     background: #643EBF; }
 
 @media (max-width: 880px) {
@@ -1037,19 +1049,16 @@ span.clear-input-button {
     font-size: 8pt;
     border-radius: 0;
     font-weight: 400;
-    margin: 0 5px 0 0; }
-  .side .titlebox div.subButtons,
-  .side .titlebox h1.redditname + div,
-  .side .titlebox > .fancy-toggle-button {
+    margin: 0 5px 0 0;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: none;
     border-bottom: none; }
+  .side .titlebox > .fancy-toggle-button {
+    display: block !important; }
   .side .titlebox div.subButtons,
   .side .titlebox > .fancy-toggle-button {
     width: 269.3px; }
-  .side .titlebox > .fancy-toggle-button {
-    display: block !important; }
   .side div.titlebox ul {
     list-style-type: none;
     margin: 0;
@@ -1104,7 +1113,8 @@ div.side div.tagline {
   font-size: 0.945em;
   border-radius: 0;
   font-weight: 400;
-  margin: 0 5px 0 0; }
+  margin: 0 5px 0 0;
+  display: block !important; }
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
   border: 1px solid #fee7ea;
@@ -1142,8 +1152,6 @@ div.side span.subscribers {
       content: "";
       margin-right: 5px;
       margin-top: -3px; }
-div.side div.tagline {
-  display: block !important; }
 div.side form.flairtoggle {
   display: block; }
 div.side div.leavemoderator {
@@ -1277,12 +1285,51 @@ div.titlebox .md ul li {
   text-align: center; }
   .sidecontentbox .more a {
     color: #369; }
+.sidecontentbox .title {
+  border-left: 5px solid #F85F73;
+  background-color: #5133AB;
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px; }
+.sidecontentbox a.helplink {
+  margin-right: 5px;
+  float: none;
+  margin-top: 4px;
+  clear: both;
+  text-align: center;
+  display: block;
+  color: #fff;
+  background: #5133AB;
+  box-sizing: border-box;
+  margin-bottom: 10px; }
+  .sidecontentbox a.helplink:hover {
+    background: #643EBF; }
+.sidecontentbox .title h1,
+.sidecontentbox a.helplink {
+  color: #fff; }
 
 .icon-menu li:hover,
 .reddit-link:hover {
   background-color: #f0f8ff;
   border-left-color: #7cb0d9; }
 
+div.titlebox .md h3:before {
+  content: "+";
+  color: #fff;
+  padding-right: 5px; }
+div.titlebox .md h2,
+div.titlebox .md h3,
+div.titlebox .md h4 {
+  border-left: 5px solid #F85F73;
+  background-color: #5133AB;
+  padding: 10px;
+  font-weight: 400;
+  cursor: default;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px; }
 div.titlebox .md ul li {
   padding: 7px 10px 10px;
   border-left: 5px solid #fee7ea;
@@ -1293,6 +1340,15 @@ div.titlebox .md ul li {
   div.titlebox .md ul li:hover {
     background-color: #f0f8ff;
     border-left-color: #7cb0d9; }
+div.titlebox h1 {
+  border-left: 5px solid #F85F73;
+  background-color: #5133AB;
+  padding: 10px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px;
+  font-size: 13px; }
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
@@ -1340,6 +1396,9 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   .sidecontentbox .content a.author:hover {
     color: #643EBF; }
 
+#search input[type=text] {
+  width: 295px !important;
+  border-color: #5133AB; }
 #searchexpando {
   padding: 10px;
   border: 1px solid #fee7ea;
@@ -1353,51 +1412,10 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   width: 273px !important;
   border-left: 1px solid #fee7ea; }
 
-#search input[type=text] {
-  width: 295px !important;
-  border-color: #5133AB; }
-
-.sidecontentbox .title {
-  border-left: 5px solid #F85F73;
-  background-color: #5133AB;
-  padding: 10px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: -10px; }
-
-div.titlebox .md h3:before {
-  content: "+";
-  color: #fff;
-  padding-right: 5px; }
-div.titlebox .md h2,
-div.titlebox .md h3,
-div.titlebox .md h4 {
-  border-left: 5px solid #F85F73;
-  background-color: #5133AB;
-  padding: 10px;
-  font-weight: 400;
-  cursor: default;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: -10px; }
-div.titlebox h1 {
-  border-left: 5px solid #F85F73;
-  background-color: #5133AB;
-  padding: 10px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: -10px;
-  font-size: 13px; }
-
 .leavemoderator,
 .users-online,
 .leavecontributor-button {
   display: none; }
-
-.sidecontentbox a.helplink {
-  margin-right: 5px; }
 
 .icon-menu a {
   background: 0 0; }
@@ -1435,11 +1453,6 @@ div.titlebox .md h3 + ul {
 
 div.titlebox .md h3:hover + ul {
   transition: .8s max-height ease-out; }
-
-div.commentarea .infobar p {
-  background: #643EBF;
-  padding: 10px;
-  margin: -5px -5px -5px 10px; }
 
 .linkinfo {
   padding: 0;
@@ -1532,22 +1545,6 @@ div.commentarea .infobar p {
   color: #E54661;
   margin-left: 27px; }
 
-.sidecontentbox a.helplink {
-  float: none;
-  margin-top: 4px;
-  clear: both;
-  text-align: center;
-  display: block;
-  color: #fff;
-  background: #5133AB;
-  box-sizing: border-box;
-  margin-bottom: 10px; }
-  .sidecontentbox a.helplink:hover {
-    background: #643EBF; }
-.sidecontentbox .title h1,
-.sidecontentbox a.helplink {
-  color: #fff; }
-
 .account-activity-box,
 .sidecontentbox a.helplink {
   font-size: 16px;
@@ -1588,19 +1585,14 @@ div.commentarea .infobar p {
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
-
-#beta-help,
-.beta-hint a {
-  position: absolute !important; }
-
-#header-bottom-right .user > a {
-  text-indent: 4px;
-  color: #FFF;
-  display: block;
-  line-height: 12px;
-  white-space: nowrap; }
-#header-bottom-right .user span a {
-  color: #fff; }
+  #header-bottom-right .user > a {
+    text-indent: 4px;
+    color: #FFF;
+    display: block;
+    line-height: 12px;
+    white-space: nowrap; }
+  #header-bottom-right .user span a {
+    color: #fff; }
 #header-bottom-right #mail {
   top: 0;
   top: 0 !important;
@@ -1615,6 +1607,10 @@ div.commentarea .infobar p {
   padding-top: 5px;
   background: url(%%spritesheet%%) -224px -72px no-repeat #5133AB;
   border: 2px solid #fff; }
+
+#beta-help,
+.beta-hint a {
+  position: absolute !important; }
 
 #modmail.havemail {
   background: url(%%spritesheet%%) -224px -72px #ff4500 !important; }
@@ -1742,14 +1738,6 @@ div.commentarea .infobar p {
   margin-top: -10px;
   background: url(%%spritesheet%%) -264px -5px no-repeat !important; }
 
-.side .usertext-body .md ol {
-  position: absolute;
-  top: 30px;
-  right: 0;
-  margin: 0 30px 0 0;
-  padding: 0;
-  z-index: 99; }
-
 .md-container-small .md .-text,
 .md-container-small .md li,
 .md-container-small .md p,
@@ -1758,16 +1746,34 @@ div.commentarea .infobar p {
 .md-container-small .md th {
   list-style: none; }
 
-.side .usertext-body .md ol a[href$="#special"] {
-  animation: 1s ease-out 0s normal none infinite running pulsate;
-  animation-duration: 3s;
-  animation-timing-function: ease-out;
-  animation-delay: 0s;
-  animation-direction: normal;
-  animation-fill-mode: none;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-name: pulsate; }
+.side .usertext-body .md ol {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  margin: 0 30px 0 0;
+  padding: 0;
+  z-index: 99; }
+  .side .usertext-body .md ol a {
+    background-color: #57b5ff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 5px 5px 0;
+    text-decoration: none;
+    margin-bottom: 3px;
+    opacity: 0.8; }
+    .side .usertext-body .md ol a:hover {
+      opacity: 1; }
+  .side .usertext-body .md ol a[href$="#special"] {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate; }
 .side .md .-text,
 .side .md li,
 .side .md p,
@@ -1775,17 +1781,6 @@ div.commentarea .infobar p {
 .side .md td,
 .side .md th {
   list-style: none; }
-.side .usertext-body .md ol a {
-  background-color: #57b5ff;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 5px 5px 5px 0;
-  text-decoration: none;
-  margin-bottom: 3px;
-  opacity: 0.8; }
-  .side .usertext-body .md ol a:hover {
-    opacity: 1; }
 .side .md > ol li a[href$='#special']:after, .side .md > ol li a[href$='#special']:before {
   margin: 0 5px 0 0;
   font-weight: 700;
@@ -2048,15 +2043,6 @@ html[lang^=nm] div.side form.flairtoggle,
 html[lang^=nm] div.side span.subscribers {
   background: #222 !important;
   color: #ddd !important; }
-.res-nightmode div.titlebox .md ul li,
-html[lang^=nm] div.titlebox .md ul li {
-  background: #222 !important;
-  color: #ddd !important; }
-.res-nightmode .sidecontentbox .title,
-.res-nightmode .sidecontentbox a.helplink,
-html[lang^=nm] .sidecontentbox .title,
-html[lang^=nm] .sidecontentbox a.helplink {
-  background: #222 !important; }
 .res-nightmode div.titlebox .md h1,
 .res-nightmode div.titlebox .md h2,
 .res-nightmode div.titlebox .md h3,
@@ -2066,7 +2052,16 @@ html[lang^=nm] div.titlebox .md h2,
 html[lang^=nm] div.titlebox .md h3,
 html[lang^=nm] div.titlebox .md h4 {
   background: #222 !important; }
-.res-nightmode #searchexpando,
+.res-nightmode div.titlebox .md ul li,
+html[lang^=nm] div.titlebox .md ul li {
+  background: #222 !important;
+  color: #ddd !important; }
+.res-nightmode .sidecontentbox .title,
+.res-nightmode .sidecontentbox a.helplink,
+html[lang^=nm] .sidecontentbox .title,
+html[lang^=nm] .sidecontentbox a.helplink {
+  background: #222 !important; }
+.res-nightmode div #searchexpando,
 .res-nightmode .icon-menu li,
 .res-nightmode .totalvotes,
 .res-nightmode .reddit-link,
@@ -2076,7 +2071,7 @@ html[lang^=nm] div.titlebox .md h4 {
 .res-nightmode .linkinfo .score,
 .res-nightmode .linkinfo .shortlink,
 .res-nightmode div.titlebox .md ul li,
-html[lang^=nm] #searchexpando,
+html[lang^=nm] div #searchexpando,
 html[lang^=nm] .icon-menu li,
 html[lang^=nm] .totalvotes,
 html[lang^=nm] .reddit-link,
@@ -2091,7 +2086,7 @@ html[lang^=nm] div.titlebox .md ul li {
   border-right: 1px solid #393939 !important;
   background: #222 !important;
   border-top: 1px solid #393939 !important; }
-  .res-nightmode #searchexpando:hover,
+  .res-nightmode div #searchexpando:hover,
   .res-nightmode .icon-menu li:hover,
   .res-nightmode .totalvotes:hover,
   .res-nightmode .reddit-link:hover,
@@ -2101,7 +2096,7 @@ html[lang^=nm] div.titlebox .md ul li {
   .res-nightmode .linkinfo .score:hover,
   .res-nightmode .linkinfo .shortlink:hover,
   .res-nightmode div.titlebox .md ul li:hover,
-  html[lang^=nm] #searchexpando:hover,
+  html[lang^=nm] div #searchexpando:hover,
   html[lang^=nm] .icon-menu li:hover,
   html[lang^=nm] .totalvotes:hover,
   html[lang^=nm] .reddit-link:hover,
@@ -2210,10 +2205,6 @@ html[lang^=nm] .link {
 html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
   border-left-color: #a9a9a9 !important; }
-.res-nightmode div.titlebox .md ul li:hover,
-html[lang^=nm] div.titlebox .md ul li:hover {
-  background-color: #393939 !important;
-  border-left-color: #7cb0d9 !important; }
 .res-nightmode div.titlebox .md h1:after,
 .res-nightmode div.titlebox .md h2:after,
 .res-nightmode div.titlebox .md h3:after,
@@ -2226,6 +2217,10 @@ html[lang^=nm] div.titlebox .md h4:after {
   position: absolute;
   z-index: -1;
   border-color: transparent #393939 transparent transparent !important; }
+.res-nightmode div.titlebox .md ul li:hover,
+html[lang^=nm] div.titlebox .md ul li:hover {
+  background-color: #393939 !important;
+  border-left-color: #7cb0d9 !important; }
 .res-nightmode div.titlebox h1:after,
 .res-nightmode div.titlebox .sidecontentbox .title:after,
 html[lang^=nm] div.titlebox h1:after,
@@ -2255,6 +2250,7 @@ html[lang^=nm] #search input[type=text] {
 .res-nightmode .side .morelink a:hover,
 .res-nightmode button:hover,
 .res-nightmode .account-activity-box:hover,
+.res-nightmode ::-webkit-scrollbar,
 html[lang^=nm] #header-bottom-left .tabmenu li.selected a,
 html[lang^=nm] .link .usertext-body .md,
 html[lang^=nm] .debuginfo,
@@ -2265,7 +2261,8 @@ html[lang^=nm] .link .score .likes,
 html[lang^=nm] .nextprev a:hover,
 html[lang^=nm] .side .morelink a:hover,
 html[lang^=nm] button:hover,
-html[lang^=nm] .account-activity-box:hover {
+html[lang^=nm] .account-activity-box:hover,
+html[lang^=nm] ::-webkit-scrollbar {
   background-color: #393939 !important; }
 .res-nightmode .comment .usertext .md p > a:visited,
 .res-nightmode .md a,
@@ -2274,9 +2271,6 @@ html[lang^=nm] .comment .usertext .md p > a:visited,
 html[lang^=nm] .md a,
 html[lang^=nm] h2 a:visited {
   color: #3498db; }
-.res-nightmode ::-webkit-scrollbar,
-html[lang^=nm] ::-webkit-scrollbar {
-  background-color: #393939; }
 .res-nightmode ::-webkit-scrollbar-thumb,
 html[lang^=nm] ::-webkit-scrollbar-thumb {
   background-color: #666;
