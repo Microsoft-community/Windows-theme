@@ -2,7 +2,7 @@ $color-bg-main: #107c10;
 $color-bg-secondary: lighten($color-bg-main, 10%);
 $color-bg-alt: #5dc21e;
 $color-borders-light: #e6f8e0;
-$color-bg-light-hover: lighten($color-bg-main, 70%);
+$color-bg-light-hover: lighten($color-bg-main, 71%);
 $color-border-left-hover: lighten($color-bg-main, 55%);
 @import 'core/core',
 'core/side',
@@ -13,8 +13,8 @@ $color-border-left-hover: lighten($color-bg-main, 55%);
 'core/footer';
 //spoilers
 .spoiler {
-    .link {
-        background: rgba(234, 84, 85, .1);
+    &.link {
+        background: rgba(234, 84, 85, .05);
         border-left-color: #EA5455;
         .title {
             text-decoration: line-through
@@ -56,7 +56,7 @@ $color-border-left-hover: lighten($color-bg-main, 55%);
 }
 
 .linkflair-expired {
-    background: rgba(242, 56, 90, .1);
+    background: rgba(242, 56, 90, .05);
     .linkflairlabel {
         color: red;
     }
@@ -240,7 +240,71 @@ a[href*="#icon-day"] {
     text-align: center;
     color: #107c10;
     font-weight: 700;
-    max-width: 137px;
     font-size: 12px;
     max-width: 147px;
+    margin-bottom: -2px;
+}
+
+//new modmail
+#header-bottom-right #new_modmail {
+    position: absolute;
+    margin-left: -315px;
+    top: 3px;
+    padding-left: 26px;
+    padding-top: 5px;
+    background: url(%%modmail%%) 4px no-repeat #107c10;
+    border: 2px solid #fff;
+    height: 37px;
+    transition: background-color 0.5s;
+    &:hover {
+        background-color: #16a916;
+    }
+}
+
+//mod colors
+a.author[href$=DreadMcLaren] {
+    color: #107c10;
+}
+
+.flair-mod {
+    color: #107c10;
+    border: none;
+    background: 0 0;
+    font-weight: 700;
+    &:before {
+        content: "- ";
+    }
+}
+
+//legacy dead deals
+.linkflair-closed {
+    background: rgba(242, 56, 90, .02);
+    .linkflairlabel {
+        border-bottom: 2px solid red;
+        color: red;
+    }
+}
+
+//requests
+.link .title,
+.thing.stickied.link a.title,
+.md td a {
+    color: #222!important;
+}
+
+.linklisting .stickied {
+    background: rgba(0, 166, 79, 0.05);
+}
+
+//res admin
+#RESSettingsButton {
+    right: 65px;
+}
+
+.res-nightmode,
+html[lang^=nm] {
+    .link .title,
+    .thing.stickied.link a.title {
+        color: #eee !important;
+    }
 }

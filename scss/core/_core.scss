@@ -87,7 +87,6 @@ Secondary: #7A0218
         background-color: $color-bg-secondary;
         border: 0;
         color: #fff;
-        padding-top: 7px;
         font-weight: 700;
         border-bottom: 3px solid currentColor !important;
       }
@@ -1045,7 +1044,6 @@ a.author {
     color: $color-bg-main !important;
   }
   .usertext-edit div textarea {
-    background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
     border: 1px solid #000 !important;
     opacity: .8;
     margin-top: 5px;
@@ -1056,7 +1054,7 @@ a.author {
     &:focus {
       background: #FFF !important;
       opacity: 1;
-      border-color: #0078D6 !important;
+      border-color: $color-bg-secondary !important;
     }
   }
   .link {
@@ -1154,14 +1152,6 @@ ul.tabmenu.formtab {
   font-size: 8pt;
   margin-right: 5px;
   border-right: 1px solid $color-borders-light;
-}
-
-//verify RES !important usage ???
-#baconBit {
-  width: 394px !important;
-  height: 304px !important;
-  background-image: url(%%res-easter-egg%%) no-repeat !important;
-  transition: all 10s linear !important;
 }
 
 .gadget .right a,

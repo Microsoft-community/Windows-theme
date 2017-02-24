@@ -61,7 +61,6 @@ Secondary: #7A0218
         background-color: #16a916;
         border: 0;
         color: #fff;
-        padding-top: 7px;
         font-weight: 700;
         border-bottom: 3px solid currentColor !important; }
 
@@ -562,7 +561,7 @@ a[href*="#icon-more"] {
   .link.last-clicked {
     border: 0;
     border-left: 3px solid #16a916;
-    background: #f3fef3; }
+    background: #f8fef8; }
   .link .score.likes {
     color: #16a916; }
   .link .score.dislikes {
@@ -648,7 +647,7 @@ body .linklisting {
 
 .listing-page .link:hover {
   border-left-color: #16a916;
-  background: #f3fef3; }
+  background: #f8fef8; }
 
 .entry .flat-list .report-button a,
 .res-nightmode .entry .flat-list .report-button a {
@@ -769,7 +768,6 @@ a.author {
 .comments-page .link .flat-list a.flairselectbtn {
   color: #107c10 !important; }
 .comments-page .usertext-edit div textarea {
-  background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
   border: 1px solid #000 !important;
   opacity: .8;
   margin-top: 5px;
@@ -780,7 +778,7 @@ a.author {
   .comments-page .usertext-edit div textarea:focus {
     background: #FFF !important;
     opacity: 1;
-    border-color: #0078D6 !important; }
+    border-color: #16a916 !important; }
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
 
@@ -852,12 +850,6 @@ ul.tabmenu.formtab {
   font-size: 8pt;
   margin-right: 5px;
   border-right: 1px solid #e6f8e0; }
-
-#baconBit {
-  width: 394px !important;
-  height: 304px !important;
-  background-image: url(%%res-easter-egg%%) no-repeat !important;
-  transition: all 10s linear !important; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -1276,7 +1268,7 @@ div.titlebox .md ul li {
   margin-right: 5px !important; }
   .sidecontentbox .content a.author:hover,
   .sidecontentbox .more:hover {
-    background-color: #f3fef3;
+    background-color: #f8fef8;
     border-left-color: #b0f5b0; }
 .sidecontentbox .content {
   border: none;
@@ -1312,7 +1304,7 @@ div.titlebox .md ul li {
 
 .icon-menu li:hover,
 .reddit-link:hover {
-  background-color: #f3fef3;
+  background-color: #f8fef8;
   border-left-color: #b0f5b0; }
 
 div.titlebox .md h3:before {
@@ -1338,7 +1330,7 @@ div.titlebox .md ul li {
   border-right: 1px solid #e6f8e0;
   font-size: 0.945em; }
   div.titlebox .md ul li:hover {
-    background-color: #f3fef3;
+    background-color: #f8fef8;
     border-left-color: #b0f5b0; }
 div.titlebox h1 {
   border-left: 5px solid #5dc21e;
@@ -1625,7 +1617,6 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right .choice,
 #header #header-bottom-right .logout a {
   margin-left: 5px;
-  width: 42px;
   width: 42px !important;
   height: 42px;
   display: inline-block;
@@ -1794,7 +1785,7 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none;
   margin-bottom: 3px;
   transition: opacity .5s;
-  background-color: #1686f0;
+  background-color: #16a916;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#special']:before {
     margin: 0 5px 0 0;
@@ -1840,7 +1831,7 @@ div.titlebox .md h3:hover + ul {
   transition: opacity .5s;
   text-decoration: none; }
 .side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #1686f0;
+  background-color: #16a916;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
@@ -1972,14 +1963,23 @@ html[lang^=nm] .date time {
 .res-nightmode .morelink,
 .res-nightmode .nextprev a,
 .res-nightmode .titlebox h1,
+.res-nightmode .res .RESDashboardToggle,
+.res-nightmode .res .RESshortcutside,
 html[lang^=nm] #header,
 html[lang^=nm] #newlink-with-image-upload #new-link-preview,
 html[lang^=nm] .account-activity-box,
 html[lang^=nm] .date:before,
 html[lang^=nm] .morelink,
 html[lang^=nm] .nextprev a,
-html[lang^=nm] .titlebox h1 {
+html[lang^=nm] .titlebox h1,
+html[lang^=nm] .res .RESDashboardToggle,
+html[lang^=nm] .res .RESshortcutside {
   background: #222 !important; }
+.res-nightmode .res .RESDashboardToggle,
+.res-nightmode .res .RESshortcutside,
+html[lang^=nm] .res .RESDashboardToggle,
+html[lang^=nm] .res .RESshortcutside {
+  color: #eee; }
 .res-nightmode #header #header-bottom-right #mail:hover,
 .res-nightmode #header #header-bottom-right #modmail:hover,
 .res-nightmode #header #header-bottom-right .choice:hover,
@@ -2358,10 +2358,6 @@ html[lang^=nm] a[href*='#icon-day'] {
 .res-nightmode a[href*='#icon-night'],
 html[lang^=nm] a[href*='#icon-night'] {
   display: none; }
-.res-nightmode a[href*="#icon-chat"]::before,
-html[lang^=nm] a[href*="#icon-chat"]::before {
-  background-image: url(%%wincore-2%%);
-  background-position: -5px -405px; }
 .res-nightmode a[href*="#icon-feedback"]::before,
 html[lang^=nm] a[href*="#icon-feedback"]::before {
   background-position: -47px -149px; }
@@ -2490,7 +2486,8 @@ html[lang^=nm] .comments-page .link {
   background: 0 0;
   border: none;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #222; }
 .res .sitetable .sitetable {
   margin-right: 0; }
 
@@ -2579,10 +2576,10 @@ html[lang^=nm] .comments-page .link {
 .flat-vert {
   text-align: center; }
 
-.spoiler .link {
-  background: rgba(234, 84, 85, 0.1);
+.spoiler.link {
+  background: rgba(234, 84, 85, 0.05);
   border-left-color: #EA5455; }
-  .spoiler .link .title {
+  .spoiler.link .title {
     text-decoration: line-through; }
 .spoiler-stamp {
   color: #EA5455;
@@ -2613,7 +2610,7 @@ html[lang^=nm] .comments-page .link {
   color: #EA5455; }
 
 .linkflair-expired {
-  background: rgba(242, 56, 90, 0.1); }
+  background: rgba(242, 56, 90, 0.05); }
   .linkflair-expired .linkflairlabel {
     color: red; }
   .linkflair-expired a[href].title:link {
@@ -2762,6 +2759,53 @@ a[href*="#icon-day"] {
   text-align: center;
   color: #107c10;
   font-weight: 700;
-  max-width: 137px;
   font-size: 12px;
-  max-width: 147px; }
+  max-width: 147px;
+  margin-bottom: -2px; }
+
+#header-bottom-right #new_modmail {
+  position: absolute;
+  margin-left: -315px;
+  top: 3px;
+  padding-left: 26px;
+  padding-top: 5px;
+  background: url(%%modmail%%) 4px no-repeat #107c10;
+  border: 2px solid #fff;
+  height: 37px;
+  transition: background-color 0.5s; }
+  #header-bottom-right #new_modmail:hover {
+    background-color: #16a916; }
+
+a.author[href$=DreadMcLaren] {
+  color: #107c10; }
+
+.flair-mod {
+  color: #107c10;
+  border: none;
+  background: 0 0;
+  font-weight: 700; }
+  .flair-mod:before {
+    content: "- "; }
+
+.linkflair-closed {
+  background: rgba(242, 56, 90, 0.02); }
+  .linkflair-closed .linkflairlabel {
+    border-bottom: 2px solid red;
+    color: red; }
+
+.link .title,
+.thing.stickied.link a.title,
+.md td a {
+  color: #222 !important; }
+
+.linklisting .stickied {
+  background: rgba(0, 166, 79, 0.05); }
+
+#RESSettingsButton {
+  right: 65px; }
+
+.res-nightmode .link .title,
+.res-nightmode .thing.stickied.link a.title,
+html[lang^=nm] .link .title,
+html[lang^=nm] .thing.stickied.link a.title {
+  color: #eee !important; }

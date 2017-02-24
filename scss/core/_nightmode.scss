@@ -72,8 +72,14 @@ html[lang^=nm] {
     .date:before,
     .morelink,
     .nextprev a,
-    .titlebox h1 {
+    .titlebox h1,
+    .res .RESDashboardToggle,
+    .res .RESshortcutside {
         background: $nm-color-bg-main !important;
+    }
+    .res .RESDashboardToggle,
+    .res .RESshortcutside {
+        color: #eee;
     }
     #header #header-bottom-right {
         #mail:hover,
@@ -315,7 +321,7 @@ html[lang^=nm] {
     .side .morelink a:hover,
     button:hover,
     .account-activity-box:hover,
-    ::-webkit-scrollbar {
+     ::-webkit-scrollbar {
         background-color: $nm-color-bg-secondary !important;
     }
     .comment .usertext .md p>a:visited,
@@ -412,10 +418,6 @@ html[lang^=nm] {
     }
     a[href*='#icon-night'] {
         display: none;
-    }
-    a[href*="#icon-chat"]::before {
-        background-image: url(%%wincore-2%%);
-        background-position: -5px -405px;
     }
     a[href*="#icon-feedback"]::before {
         background-position: -47px -149px;

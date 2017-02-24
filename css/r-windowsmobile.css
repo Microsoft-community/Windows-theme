@@ -61,7 +61,6 @@ Secondary: #7A0218
         background-color: #259eff;
         border: 0;
         color: #fff;
-        padding-top: 7px;
         font-weight: 700;
         border-bottom: 3px solid currentColor !important; }
 
@@ -769,7 +768,6 @@ a.author {
 .comments-page .link .flat-list a.flairselectbtn {
   color: #0078d7 !important; }
 .comments-page .usertext-edit div textarea {
-  background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important;
   border: 1px solid #000 !important;
   opacity: .8;
   margin-top: 5px;
@@ -780,7 +778,7 @@ a.author {
   .comments-page .usertext-edit div textarea:focus {
     background: #FFF !important;
     opacity: 1;
-    border-color: #0078D6 !important; }
+    border-color: #259eff !important; }
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
 
@@ -852,12 +850,6 @@ ul.tabmenu.formtab {
   font-size: 8pt;
   margin-right: 5px;
   border-right: 1px solid #fee7ea; }
-
-#baconBit {
-  width: 394px !important;
-  height: 304px !important;
-  background-image: url(%%res-easter-egg%%) no-repeat !important;
-  transition: all 10s linear !important; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -1625,7 +1617,6 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right .choice,
 #header #header-bottom-right .logout a {
   margin-left: 5px;
-  width: 42px;
   width: 42px !important;
   height: 42px;
   display: inline-block;
@@ -1794,7 +1785,7 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none;
   margin-bottom: 3px;
   transition: opacity .5s;
-  background-color: #1686f0;
+  background-color: #259eff;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#special']:before {
     margin: 0 5px 0 0;
@@ -1840,7 +1831,7 @@ div.titlebox .md h3:hover + ul {
   transition: opacity .5s;
   text-decoration: none; }
 .side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #1686f0;
+  background-color: #259eff;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
@@ -1972,14 +1963,23 @@ html[lang^=nm] .date time {
 .res-nightmode .morelink,
 .res-nightmode .nextprev a,
 .res-nightmode .titlebox h1,
+.res-nightmode .res .RESDashboardToggle,
+.res-nightmode .res .RESshortcutside,
 html[lang^=nm] #header,
 html[lang^=nm] #newlink-with-image-upload #new-link-preview,
 html[lang^=nm] .account-activity-box,
 html[lang^=nm] .date:before,
 html[lang^=nm] .morelink,
 html[lang^=nm] .nextprev a,
-html[lang^=nm] .titlebox h1 {
+html[lang^=nm] .titlebox h1,
+html[lang^=nm] .res .RESDashboardToggle,
+html[lang^=nm] .res .RESshortcutside {
   background: #222 !important; }
+.res-nightmode .res .RESDashboardToggle,
+.res-nightmode .res .RESshortcutside,
+html[lang^=nm] .res .RESDashboardToggle,
+html[lang^=nm] .res .RESshortcutside {
+  color: #eee; }
 .res-nightmode #header #header-bottom-right #mail:hover,
 .res-nightmode #header #header-bottom-right #modmail:hover,
 .res-nightmode #header #header-bottom-right .choice:hover,
@@ -2358,10 +2358,6 @@ html[lang^=nm] a[href*='#icon-day'] {
 .res-nightmode a[href*='#icon-night'],
 html[lang^=nm] a[href*='#icon-night'] {
   display: none; }
-.res-nightmode a[href*="#icon-chat"]::before,
-html[lang^=nm] a[href*="#icon-chat"]::before {
-  background-image: url(%%wincore-2%%);
-  background-position: -5px -405px; }
 .res-nightmode a[href*="#icon-feedback"]::before,
 html[lang^=nm] a[href*="#icon-feedback"]::before {
   background-position: -47px -149px; }
@@ -2490,7 +2486,8 @@ html[lang^=nm] .comments-page .link {
   background: 0 0;
   border: none;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #222; }
 .res .sitetable .sitetable {
   margin-right: 0; }
 
@@ -3072,6 +3069,20 @@ a[href*='#iconz-wiki']::before {
 
 .subscriber .arrow.down {
   pointer-events: initial; }
+
+#baconBit {
+  width: 394px !important;
+  height: 304px !important;
+  background-image: url(%%res-easter-egg%%) no-repeat !important;
+  transition: all 10s linear !important; }
+
+.comments-page .usertext-edit div textarea {
+  background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important; }
+
+.res-nightmode a[href*="#icon-chat"]::before,
+html[lang^=nm] a[href*="#icon-chat"]::before {
+  background-image: url(%%wincore-2%%);
+  background-position: -5px -405px; }
 
 .helplink ~ .content .author[href*=Jaskys]::after {
   content: '- Designer';
