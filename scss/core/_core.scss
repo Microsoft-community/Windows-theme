@@ -8,11 +8,14 @@ $color-bg-main: #0078d7 !default;
 $color-bg-secondary: lighten($color-bg-main, 15%) !default;
 $color-bg-alt: #F85F73 !default;
 $color-bg-active: #1686f0 !default;
-$color-bg-light-hover: #f0f8ff !default;
+$color-bg-light-hover: lighten($color-bg-alt, 31%) !default;
 $color-borders-light: #fee7ea !default;
-$color-border-left-hover: #7cb0d9 !default;
+$color-border-left-hover: lighten($color-bg-alt, 20%) !default;
 $color-win: #0078D7 !default;
 $color-mod: #00a64f;
+//transitions
+// $transition-5: .5s;
+// $transition-2: .2s;
 //viewports
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
@@ -47,7 +50,7 @@ Secondary: #7A0218
     animation-name: pulsate;
   }
 }
- 
+
 #header .hover a:hover,
 .redditname a:hover:after {
   color: #fff !important;
@@ -68,19 +71,20 @@ Secondary: #7A0218
       font-weight: 400;
       margin: 0;
       a {
-        background: 0 0;
+        background: 0;
         color: #ddd;
+        border-bottom: 2px solid transparent;
         font-size: 11.4px;
         font-family: $font-main;
         line-height: 30px;
         padding: 8px 9px 6px;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        transition: background .15s ease-in-out;
+        transition: .15s ease-in-out;
         &:hover {
           color: #fff;
           background: $color-bg-secondary;
-          border-bottom: 3px solid #fff !important;
+          border-bottom: 2px solid #fff !important;
         }
       }
       &.selected a {
@@ -88,7 +92,7 @@ Secondary: #7A0218
         border: 0;
         color: #fff;
         font-weight: 700;
-        border-bottom: 3px solid currentColor !important;
+        border-bottom: 2px solid currentColor !important;
       }
     }
   }
@@ -101,7 +105,7 @@ Secondary: #7A0218
     white-space: nowrap;
     border-radius: 1px;
     overflow: hidden;
-    transition: background-color 0.5s;
+    transition: .5s;
   }
 }
 
@@ -118,11 +122,11 @@ Secondary: #7A0218
   padding-left: 8px;
   opacity: .8;
   background-repeat: no-repeat !important;
-  transition: all .15s ease-in-out;
+  transition: .15s ease-in-out;
   border-bottom: 3px solid transparent !important;
   &:hover {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.1);
+    background: $color-bg-secondary;
     font-weight: 500;
     border-bottom: 3px solid #fff !important;
   }
@@ -195,7 +199,6 @@ Secondary: #7A0218
 .rank,
 .titlebox .bottom,
 .submit-page .content h1,
-.formtabs-content .infobar, //temporary infobars "fix"
 a[href*='#icon']+.keyNavAnnotation,
 a[href*='#/RES_SR_Config/NightModeCompatible'] {
   display: none !important;
@@ -218,14 +221,13 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   margin-bottom: 74px;
 }
 
-.submit_text.roundfield.enabled {
-  background: $color-bg-alt;
-  position: absolute;
-  top: 223px;
-}
-
-.submit_text p {
-  color: #eee;
+.submit_text {
+  p {
+    color: #eee;
+  }
+  &.roundfield.enabled {
+    background: $color-bg-alt;
+  }
 }
 
 button {
@@ -233,7 +235,7 @@ button {
   &.submit-action-thing,
   &.submit-report {
     background: 0 0;
-    transition: background-color .5s;
+    transition: .5s;
     text-transform: capitalize;
     font-family: $font-main;
     border: 1px solid #5cb85c;
@@ -253,7 +255,7 @@ button {
     padding: .25rem .75rem;
     text-transform: capitalize;
     font-family: $font-main;
-    transition: background-color 0.5s;
+    transition: .5s;
     &:hover {
       background: #d9534f;
       color: #fff;
@@ -371,7 +373,7 @@ button:active,
   margin-top: -7px;
   left: -5px;
   border-left: 3px solid #ff4500;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #e5e5e5;
   border-bottom: none;
   border-top: none;
 }
@@ -382,7 +384,7 @@ button:active,
 
 .organic-listing .link.promotedlink {
   margin-left: -1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .flairselector {
@@ -441,7 +443,7 @@ button:active,
     padding: 16px;
     width: 525px;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e5e5;
     border-radius: 0px;
     span.title {
       color: #4d5763;
@@ -474,23 +476,6 @@ button:active,
       }
     }
   }
-  //no longer works
-  // .infobar {
-  //   width: 525px;
-  //   margin: -10px 0 0;
-  //   padding: 10px;
-  //   color: #fff;
-  //   background-color: $color-bg-main;
-  //   border-radius: 0 0 2px 2px;
-  //   font-size: 0;
-  //   border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  //   &::before {
-  //     font-size: 14px;
-  //     content: "The key to a successful submission is interesting content and a descriptive title. Make sure your thread doesn't break any rules by glancing at them on the sidebar.";
-  //     color: #fff;
-  //     font-family: $font-main;
-  //   }
-  // }
   #newlink.submit.content .btn {
     width: 558px;
     height: auto;
@@ -509,6 +494,15 @@ button:active,
   width: 520px;
   border-top: none;
   margin-top: -15px;
+  .infobar {
+    background-color: $color-bg-alt;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    margin: -69px 0px -5px;
+    font-size: 14px;
+    width: 529px;
+  }
 }
 
 form .spacer+.spacer {
@@ -520,7 +514,7 @@ form .spacer+.spacer {
   border-radius: 2px;
   padding: 16px;
   margin-bottom: 0;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e5e5e5 !important;
 }
 
 //text expando animation
@@ -749,7 +743,7 @@ a[href*="#icon-more"] {
   padding: 10px 0;
   border-left: 3px solid #cec0c0;
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e5e5e5;
   .title {
     color: $color-bg-main;
     &:visited {
@@ -801,22 +795,22 @@ a[href*="#icon-more"] {
   }
   .stickied {
     border-left: 3px solid $color-mod;
-    background: rgba(0, 166, 79, 0.1);
+    background: lighten($color-mod, 63%);
   }
   .over18 {
+    background: rgba(#e2062c, 0.1);
     border-left: 3px solid #e2062c;
-    background: rgba(225, 6, 44, 0.1);
+  }
+  //reported threads highlighting
+  .reported {
+    background: rgba(#e2062c, 0.1);
+    border-left: 3px solid #e2062c;
   }
   .md {
     margin-bottom: 0;
   }
   .usertext-edit div textarea {
     margin-left: -10px;
-  }
-  //reported threads highlight
-  .reported {
-    background: rgba(255, 0, 0, 0.1);
-    border-left: 3px solid #e2062c;
   }
 }
 
@@ -856,12 +850,12 @@ a[href*="#icon-more"] {
   }
 }
 
-body .linklisting {
+.linklisting {
   margin-right: 330px;
   bottom: 0;
   margin-top: -7px;
   padding: 0;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #e5e5e5;
 }
 
 .entry .buttons li a {
@@ -881,7 +875,7 @@ body .linklisting {
 
 .listing-page .link:hover {
   border-left-color: $color-bg-secondary;
-  background: $color-bg-light-hover;
+  background: lighten($color-bg-secondary, 40%);
 }
 
 .entry .flat-list .report-button a,

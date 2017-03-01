@@ -41,7 +41,7 @@ a[href$="WindowsApps#2"] {
   font-family: $font-main;
   &:hover {
     color: #fff!important;
-    background: rgba(0, 0, 0, 0.1);
+    background: $color-bg-secondary;
     border-color: #fff!important;
   }
 }

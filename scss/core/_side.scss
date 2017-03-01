@@ -44,9 +44,11 @@
                 display: block;
                 position: absolute;
                 z-index: -1;
-                border-color: transparent $color-borders-light transparent transparent;
-                border-width: 10px;
-                border-style: solid;
+                border: {
+                    color: transparent $color-borders-light transparent transparent;
+                    width: 10px;
+                    style: solid;
+                }
                 content: "";
                 margin-left: -24px;
             }
@@ -68,20 +70,22 @@
         div.subButtons,
         h1.redditname+div,
         >.fancy-toggle-button {
-            padding: 10px;
-            border: 1px solid $color-borders-light;
-            border-left: 5px solid $color-borders-light;
-            border-right: 1px solid $color-borders-light;
+            padding: 10px {
+                top: 5px;
+                bottom: 5px;
+            }
+            border: 1px solid $color-borders-light {
+                left: 5px solid $color-borders-light;
+                right: 1px solid $color-borders-light;
+                top: none;
+                bottom: none;
+                radius: 0;
+            }
             background-color: #fff;
             color: #000;
             font-size: 8pt;
-            border-radius: 0;
             font-weight: 400;
             margin: 0 5px 0 0;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            border-top: none;
-            border-bottom: none;
         }
         >.fancy-toggle-button {
             display: block !important;
@@ -145,9 +149,11 @@
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent $color-borders-light transparent transparent;
-    border-width: 10px;
-    border-style: solid;
+    border: {
+        color: transparent $color-borders-light transparent transparent;
+        width: 10px;
+        style: solid;
+    }
     content: "";
     margin-left: -24px;
 }
@@ -156,13 +162,14 @@ div.side {
     div {
         &.tagline {
             padding: 10px;
-            border: 1px solid $color-borders-light;
-            border-left: 5px solid $color-borders-light;
-            border-right: 1px solid $color-borders-light;
+            border: 1px solid $color-borders-light {
+                left: 5px solid $color-borders-light;
+                right: 1px solid $color-borders-light;
+                radius: 0;
+            }
             background-color: #fff;
             color: #000;
             font-size: 0.945em;
-            border-radius: 0;
             font-weight: 400;
             margin: 0 5px 0 0;
             display: block !important;
@@ -172,32 +179,35 @@ div.side {
         &.flairtoggle,
         &.leavecontributor-button {
             padding: 10px;
-            border: 1px solid $color-borders-light;
-            border-left: 5px solid $color-borders-light;
-            border-right: 1px solid $color-borders-light;
+            border: 1px solid $color-borders-light {
+                left: 5px solid $color-borders-light;
+                right: 1px solid $color-borders-light;
+                radius: 0;
+            }
             background-color: #fff;
             color: #000;
             font-size: 0.945em;
-            border-radius: 0;
             font-weight: 400;
             margin: 0 5px 0 0;
         }
     }
     span.subscribers {
-        border: 1px solid $color-borders-light;
-        border-left: 5px solid $color-borders-light;
-        border-right: 1px solid $color-borders-light;
+        padding: 10px {
+            top: 5px;
+            bottom: 10px;
+        }
+        border: 1px solid $color-borders-light {
+            left: 5px solid $color-borders-light;
+            right: 1px solid $color-borders-light;
+            radius: 0;
+            top: none;
+        }
+        margin: 0 5px 0 0;
         background-color: #fff;
         color: #000;
         font-size: 0.945em;
-        border-radius: 0;
         font-weight: 400;
-        margin: 0 5px 0 0;
-        padding: 7px 10px 10px;
-        display: block !important;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        border-top: none;
+        display: block;
         span {
             vertical-align: middle;
             &.number:before {
@@ -286,11 +296,11 @@ div.side {
 .reddit-link {
     padding: 7px 10px 10px;
     border-left: 5px solid $color-borders-light;
-    background-color: #fff;
     border-bottom: 1px solid $color-borders-light;
     border-right: 1px solid $color-borders-light;
-    font-size: 1em;
     margin-right: 5px;
+    background-color: #fff;
+    font-size: 1em;
 }
 
 .icon-menu li {
@@ -371,14 +381,17 @@ div.titlebox .md {
     .content a.author,
     .more {
         display: block;
-        margin: 0;
-        padding: 7px 10px 10px !important;
-        border-left: 5px solid $color-borders-light;
         background-color: #fff;
-        border-bottom: 1px solid $color-borders-light;
-        border-right: 1px solid $color-borders-light;
+        padding: 7px 10px 10px !important;
+        border: {
+            left: 5px solid $color-borders-light;
+            bottom: 1px solid $color-borders-light;
+            right: 1px solid $color-borders-light;
+        }
+        margin: 0 {
+            right: 5px !important;
+        }
         font-size: 0.945em;
-        margin-right: 5px !important;
         &:hover {
             background-color: $color-bg-light-hover;
             border-left-color: $color-border-left-hover;
@@ -395,25 +408,25 @@ div.titlebox .md {
         }
     }
     .title {
-        border-left: 5px solid $color-bg-alt;
         background-color: $color-bg-main;
         padding: 10px;
-        font-weight: 400;
+        border-left: 5px solid $color-bg-alt;
         margin-top: 0;
         margin-bottom: 0;
         margin-left: -10px;
+        font-weight: 400;
     }
     a.helplink {
+        display: block;
+        background: $color-bg-main;
+        color: #fff;
         margin-right: 5px;
+        margin-bottom: 10px;
         float: none;
         margin-top: 4px;
         clear: both;
         text-align: center;
-        display: block;
-        color: #fff;
-        background: $color-bg-main;
         box-sizing: border-box;
-        margin-bottom: 10px;
         &:hover {
             background: $color-bg-secondary;
         }
@@ -440,22 +453,25 @@ div.titlebox {
         h2,
         h3,
         h4 {
-            border-left: 5px solid $color-bg-alt;
             background-color: $color-bg-main;
             padding: 10px;
-            font-weight: 400;
-            cursor: default;
+            border-left: 5px solid $color-bg-alt;
             margin-top: 0;
             margin-bottom: 0;
             margin-left: -10px;
+            font-weight: 400;
+            cursor: default;
         }
         ul li {
-            padding: 7px 10px 10px;
-            border-left: 5px solid $color-borders-light;
             background-color: #fff;
-            border-bottom: 1px solid $color-borders-light;
-            border-right: 1px solid $color-borders-light;
+            padding: 7px 10px 10px;
+            border: {
+                bottom: 1px solid $color-borders-light;
+                left: 5px solid $color-borders-light;
+                right: 1px solid $color-borders-light;
+            }
             font-size: 0.945em;
+            transition: .2s;
             &:hover {
                 background-color: $color-bg-light-hover;
                 border-left-color: $color-border-left-hover;
@@ -528,6 +544,18 @@ div.titlebox {
     width: 17px !important;
 }
 
+#RESShortcutsAdd,
+#RESShortcutsEditContainer,
+#RESShortcutsLeft,
+#RESShortcutsRight,
+#RESShortcutsSort,
+#RESShortcutsTrash {
+    background-color: transparent !important;
+    &:hover {
+        color: #f0f0f0 !important;
+    }
+}
+
 .sidecontentbox .content a.author {
     display: block;
     margin: 0;
@@ -575,18 +603,6 @@ div.titlebox {
 .titlebox h1 a,
 .pagename a {
     color: #FFF;
-}
-
-#RESShortcutsAdd,
-#RESShortcutsEditContainer,
-#RESShortcutsLeft,
-#RESShortcutsRight,
-#RESShortcutsSort,
-#RESShortcutsTrash {
-    background-color: transparent !important;
-    &:hover {
-        color: #f0f0f0 !important;
-    }
 }
 
 .titlebox .md h3 {
@@ -653,9 +669,11 @@ div.titlebox .md h3:hover+ul {
         display: block;
         position: absolute;
         z-index: -1;
-        border-color: transparent $color-borders-light transparent transparent;
-        border-width: 10px;
-        border-style: solid;
+        border: {
+            color: transparent $color-borders-light transparent transparent;
+            width: 10px;
+            style: solid;
+        }
         content: "";
         margin-left: -19px;
         margin-top: -32px;
