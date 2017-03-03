@@ -800,3 +800,12 @@ html[lang^=nm] {
     background-position: -5px -405px;
   }
 }
+
+.submit-page .side:before {
+  content: "Use search before posting";
+  font-size: large;
+  color: $color-bg-alt;
+  margin-left: 27px;
+  top: 2px;
+  position: relative;
+}

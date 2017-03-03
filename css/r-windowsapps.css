@@ -1537,12 +1537,6 @@ div.titlebox .md h3:hover + ul {
   width: 181px;
   font-size: 13px; }
 
-.submit-page .side:before {
-  content: "Use search before posting";
-  font-size: large;
-  color: #E54661;
-  margin-left: 27px; }
-
 .account-activity-box,
 .sidecontentbox a.helplink {
   font-size: 16px;
@@ -3089,6 +3083,14 @@ a[href*='#iconz-wiki']::before {
 html[lang^=nm] a[href*="#icon-chat"]::before {
   background-image: url(%%wincore-2%%);
   background-position: -5px -405px; }
+
+.submit-page .side:before {
+  content: "Use search before posting";
+  font-size: large;
+  color: #F85F73;
+  margin-left: 27px;
+  top: 2px;
+  position: relative; }
 
 a[href$="Windows10#2"] {
   position: absolute;

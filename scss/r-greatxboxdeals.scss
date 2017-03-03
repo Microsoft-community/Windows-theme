@@ -254,6 +254,7 @@ a[href*="#icon-day"] {
     padding-top: 5px;
     background: url(%%modmail%%) 4px no-repeat #107c10;
     border: 2px solid #fff;
+    border-bottom: 0;
     height: 37px;
     transition: background-color 0.5s;
     &:hover {
@@ -306,5 +307,8 @@ html[lang^=nm] {
     .link .title,
     .thing.stickied.link a.title {
         color: #eee !important;
+    }
+    #header-bottom-right #new_modmail {
+        background-color: transparent;
     }
 }
