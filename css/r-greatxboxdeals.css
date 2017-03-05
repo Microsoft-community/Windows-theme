@@ -758,8 +758,9 @@ a.author {
   display: none; }
 
 .comments-page .sitetable.nestedlisting > .thing.stickied {
-  border-bottom: solid 3px #00a64f;
-  background: rgba(0, 166, 79, 0.1) !important; }
+  background: rgba(0, 166, 79, 0.07) !important;
+  border-color: rgba(0, 166, 79, 0.1);
+  border-bottom: solid 3px #00a64f; }
 .comments-page.linkflair-bug .flat-list a.flairselectbtn:after, .comments-page.linkflair-help .flat-list a.flairselectbtn:after {
   animation: 1s ease-out 0s normal none infinite running pulsate;
   animation-duration: 2s;
@@ -815,6 +816,7 @@ a.author {
   .md code {
     white-space: normal; }
   .md blockquote {
+    border: 1px solid rgba(36, 156, 255, 0.1);
     border-left: 2px solid #16a916;
     background-color: #efefed; }
 

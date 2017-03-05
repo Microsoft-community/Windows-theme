@@ -1019,8 +1019,9 @@ a.author {
 //comments page
 .comments-page {
   .sitetable.nestedlisting>.thing.stickied {
+    background: rgba(0, 166, 79, 0.07)!important;
+    border-color: rgba(0, 166, 79, 0.1);
     border-bottom: solid 3px $color-mod;
-    background: rgba(0, 166, 79, 0.1) !important;
   }
   &.linkflair-bug .flat-list a.flairselectbtn:after,
   &.linkflair-help .flat-list a.flairselectbtn:after {
@@ -1094,6 +1095,7 @@ a.author {
     white-space: normal;
   }
   blockquote {
+    border: 1px solid hsla(207, 100%, 57%, 0.1);
     border-left: 2px solid $color-bg-secondary;
     background-color: #efefed;
   }
