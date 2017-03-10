@@ -2804,6 +2804,9 @@ a.author[href$=DreadMcLaren] {
 .linklisting .stickied {
   background: rgba(0, 166, 79, 0.05); }
 
+.listing-page .link:hover {
+  background: rgba(153, 242, 153, 0.1); }
+
 #RESSettingsButton {
   right: 65px; }
 
@@ -2815,3 +2818,9 @@ html[lang^=nm] .thing.stickied.link a.title {
 .res-nightmode #header-bottom-right #new_modmail,
 html[lang^=nm] #header-bottom-right #new_modmail {
   background-color: transparent; }
+.res-nightmode .md tr:nth-child(even),
+html[lang^=nm] .md tr:nth-child(even) {
+  background-color: #222222; }
+.res-nightmode .md td a,
+html[lang^=nm] .md td a {
+  color: white !important; }

@@ -297,6 +297,10 @@ a.author[href$=DreadMcLaren] {
     background: rgba(0, 166, 79, 0.05);
 }
 
+.listing-page .link:hover {
+    background: rgba(153, 242, 153, 0.1);
+}
+
 //res admin
 #RESSettingsButton {
     right: 65px;
@@ -310,5 +314,11 @@ html[lang^=nm] {
     }
     #header-bottom-right #new_modmail {
         background-color: transparent;
+    }
+    .md tr:nth-child(even) {
+        background-color: #222222;
+    }
+    .md td a {
+        color: white!important;
     }
 }
