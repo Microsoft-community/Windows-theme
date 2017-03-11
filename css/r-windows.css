@@ -941,15 +941,15 @@ span.clear-input-button {
   #newlink-with-image-upload .file-upload-button:hover {
     background: #259eff; }
 
-.md tr:nth-child(even) {
-  background-color: #fee7ea; }
-
 thead th {
   background: #0078d7;
   border: none !important;
   color: #fff; }
   thead th:nth-child(2n) {
     background: #259eff; }
+
+tr:nth-child(even) {
+  background-color: #F5F5F5; }
 
 @media (max-width: 880px) {
   #siteTable_organic {

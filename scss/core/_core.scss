@@ -1258,10 +1258,6 @@ span.clear-input-button {
 }
 
 //tables
-.md tr:nth-child(even) {
-  background-color: $color-borders-light;
-}
-
 thead th {
   background: $color-bg-main;
   border: none!important;
@@ -1269,6 +1265,10 @@ thead th {
   &:nth-child(2n) {
     background: $color-bg-secondary;
   }
+}
+
+tr:nth-child(even) {
+  background-color: #F5F5F5;
 }
 
 //viewport
