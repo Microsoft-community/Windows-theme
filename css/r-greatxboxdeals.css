@@ -951,6 +951,12 @@ thead th {
 tr:nth-child(even) {
   background-color: #F5F5F5; }
 
+.drop-choices {
+  border-color: #e8e8e8; }
+  .drop-choices a.choice {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 3px 6px; }
+
 @media (max-width: 880px) {
   #siteTable_organic {
     margin-right: -5px; }
@@ -2805,7 +2811,7 @@ a.author[href$=DreadMcLaren] {
   background: rgba(0, 166, 79, 0.05); }
 
 .listing-page .link:hover {
-  background: rgba(153, 242, 153, 0.1); }
+  background: 0; }
 
 #RESSettingsButton {
   right: 65px; }

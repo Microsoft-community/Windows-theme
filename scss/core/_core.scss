@@ -1271,6 +1271,14 @@ tr:nth-child(even) {
   background-color: #F5F5F5;
 }
 
+.drop-choices {
+  border-color: #e8e8e8;
+  a.choice {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 3px 6px;
+  }
+}
+
 //viewport
 @media (max-width: $breakpoint-1) {
   #siteTable_organic {
