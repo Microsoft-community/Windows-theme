@@ -25,6 +25,9 @@ html[lang^=nm] {
         background: $nm-color-bg-secondary;
         color: $nm-color-text;
     }
+    .linklisting {
+        border-color: #252527;
+    }
     #previoussearch #moresearchinfo,
     .roundfield label,
     .search-result-body,
@@ -268,7 +271,7 @@ html[lang^=nm] {
     }
     .link {
         border-bottom: 1px solid $nm-color-borders!important;
-        border-right: 1px solid $nm-color-borders!important;
+        // border-right: 1px solid $nm-color-borders!important;
     }
     .listing-page {
         .link:hover {
