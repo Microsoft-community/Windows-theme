@@ -1959,7 +1959,7 @@ html[lang^=nm] .shortlink input {
   color: #ddd; }
 .res-nightmode .linklisting,
 html[lang^=nm] .linklisting {
-  border-color: #252527; }
+  border-color: #2D2E32 !important; }
 .res-nightmode #previoussearch #moresearchinfo,
 .res-nightmode .roundfield label,
 .res-nightmode .search-result-body,
@@ -2260,26 +2260,24 @@ html[lang^=nm] .link {
 html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
   border-left-color: #a9a9a9 !important; }
-.res-nightmode div.titlebox .md h1:after,
-.res-nightmode div.titlebox .md h2:after,
-.res-nightmode div.titlebox .md h3:after,
-.res-nightmode div.titlebox .md h4:after,
-html[lang^=nm] div.titlebox .md h1:after,
-html[lang^=nm] div.titlebox .md h2:after,
-html[lang^=nm] div.titlebox .md h3:after,
-html[lang^=nm] div.titlebox .md h4:after {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  border-color: transparent #393939 transparent transparent !important; }
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
   border-left-color: #b0f5b0 !important; }
-.res-nightmode div.titlebox h1:after,
+.res-nightmode .titlebox h1:after,
 .res-nightmode div.titlebox .sidecontentbox .title:after,
+.res-nightmode div.titlebox h1:after,
+.res-nightmode div.titlebox .md h1:after,
+.res-nightmode div.titlebox .md h2:after,
+.res-nightmode div.titlebox .md h3:after,
+.res-nightmode div.titlebox .md h4:after,
+html[lang^=nm] .titlebox h1:after,
+html[lang^=nm] div.titlebox .sidecontentbox .title:after,
 html[lang^=nm] div.titlebox h1:after,
-html[lang^=nm] div.titlebox .sidecontentbox .title:after {
+html[lang^=nm] div.titlebox .md h1:after,
+html[lang^=nm] div.titlebox .md h2:after,
+html[lang^=nm] div.titlebox .md h3:after,
+html[lang^=nm] div.titlebox .md h4:after {
   display: block;
   position: absolute;
   z-index: -1;

@@ -26,7 +26,7 @@ html[lang^=nm] {
         color: $nm-color-text;
     }
     .linklisting {
-        border-color: #252527;
+        border-color: #2D2E32!important;
     }
     #previoussearch #moresearchinfo,
     .roundfield label,
@@ -282,27 +282,23 @@ html[lang^=nm] {
     //sidebar
     div.titlebox {
         .md {
-            h1:after,
-            h2:after,
-            h3:after,
-            h4:after {
-                display: block;
-                position: absolute;
-                z-index: -1;
-                border-color: transparent $nm-color-bg-secondary transparent transparent !important;
-            }
             ul li:hover {
                 background-color: $nm-color-bg-secondary !important;
                 border-left-color: $color-border-left-hover !important;
             }
         }
-        h1:after,
-        .sidecontentbox .title:after {
-            display: block;
-            position: absolute;
-            z-index: -1;
-            border-color: transparent $nm-color-bg-secondary transparent transparent !important;
-        }
+    }
+    .titlebox h1:after,
+    div.titlebox .sidecontentbox .title:after,
+    div.titlebox h1:after,
+    div.titlebox .md h1:after,
+    div.titlebox .md h2:after,
+    div.titlebox .md h3:after,
+    div.titlebox .md h4:after {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border-color: transparent $nm-color-bg-secondary transparent transparent !important;
     }
     //color main merge
     .flairselector,
