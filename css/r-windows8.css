@@ -296,6 +296,12 @@ button:active,
 
 .flairselector {
   border: 1px solid #5133AB !important; }
+  .flairselector .title {
+    font-size: 0 !important; }
+  .flairselector .linkflair {
+    border-left: none !important;
+    background: 0 0;
+    width: 110px; }
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
@@ -309,19 +315,12 @@ button:active,
   .flairselector form {
     border-top: solid 1px #5133AB;
     margin-bottom: 10px; }
-  .flairselector .title {
-    font-size: 0 !important; }
   .flairselector.drop-choices.active {
+    left: 45% !important;
+    margin-top: -172px;
+    position: fixed;
     padding: 0 !important;
     box-shadow: none; }
-  .flairselector.drop-choices.active {
-    left: 40% !important;
-    top: 35% !important;
-    position: fixed; }
-  .flairselector .linkflair {
-    border-left: none !important;
-    background: 0 0;
-    width: 110px; }
 
 .flairoptionpane {
   max-height: 304px; }
@@ -653,6 +652,10 @@ a[href*="#icon-more"] {
     background-position: -271px -60px; }
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
+  .arrow.up:active, .arrow.upmod:active {
+    background-position: -289px -195px; }
+  .arrow.down:active, .arrow.downmod:active {
+    background-position: -321px -59px; }
 
 .linklisting {
   margin-right: 330px;
@@ -993,6 +996,8 @@ thead th {
   background: #5133AB;
   border: none !important;
   color: #fff; }
+  thead th a {
+    color: #fff !important; }
   thead th:nth-child(2n) {
     background: #643EBF; }
 

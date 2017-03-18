@@ -389,6 +389,14 @@ button:active,
 
 .flairselector {
   border: 1px solid $color-bg-main !important;
+  .title {
+    font-size: 0 !important;
+  }
+  .linkflair {
+    border-left: none !important;
+    background: 0 0;
+    width: 110px;
+  }
   h2 {
     color: #fff;
     font-size: 13px;
@@ -405,22 +413,12 @@ button:active,
     border-top: solid 1px $color-bg-main;
     margin-bottom: 10px;
   }
-  .title {
-    font-size: 0 !important;
-  }
   &.drop-choices.active {
+    left: 45%!important;
+    margin-top: -172px;
+    position: fixed;
     padding: 0 !important;
     box-shadow: none;
-  }
-  &.drop-choices.active {
-    left: 40%!important;
-    top: 35%!important;
-    position: fixed;
-  }
-  .linkflair {
-    border-left: none !important;
-    background: 0 0;
-    width: 110px;
   }
 }
 
@@ -880,6 +878,15 @@ a[href*="#icon-more"] {
   &.down:hover {
     opacity: 0.6;
   }
+  //animations
+  &.up:active,
+  &.upmod:active {
+    background-position: -289px -195px;
+  }
+  &.down:active,
+  &.downmod:active {
+    background-position: -321px -59px;
+  }
 }
 
 .linklisting {
@@ -1329,6 +1336,9 @@ thead th {
   background: $color-bg-main;
   border: none!important;
   color: #fff;
+  a {
+    color: #fff!important;
+  }
   &:nth-child(2n) {
     background: $color-bg-secondary;
   }

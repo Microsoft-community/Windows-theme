@@ -3,12 +3,12 @@
 * [Community chat server](https://discord.gg/Microsoft#icon-chat)
 * [Give Windows feedback](https://insider.windows.com/FeedbackHub/fb#icon-feedback "Opens Windows 10 feedback application")
 * [Github repository](https://github.com/Jasius/Windows-theme#icon-feedback2) | [Suggestions board](https://github.com/Jasius/w10-refactor/projects/1)
-* [Night Mode](https://goo.gl/sj9EPd#icon-night) [Light Mode](https://www.reddit.com/r/Windows10#icon-day)
+* [Night Light](https://goo.gl/sj9EPd#icon-night) [Light Mode](https://www.reddit.com/r/Windows10#icon-day)
 
 ##Helpful resources
 * [Tips and tricks](https://www.reddit.com/r/Windows10/wiki/tipsandtricks#iconz-tips)
 * [Windows 10 Update history](http://aka.ms/w10updatehistory#iconz-updates)
-* [Frequently asked questions](https://support.microsoft.com/lt-lt/help/12435/windows-10-upgrade-faq#iconz-faq "Read before installing!")  
+* [Frequently asked questions](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq "Read before installing!")  
 * [Clean Windows 10 installation](https://www.microsoft.com/en-us/software-download/windows10#iconz-install)
 * [Windows community wiki](https://www.reddit.com/r/Windows10/wiki/index#iconz-wiki)
 
@@ -47,7 +47,7 @@
 
 * [Surface](/r/Surface) - dedicated to Surface powerful laptop/tablet and discussions around it and its peripherals.
 
-* [Excel](/r/Excel) - dedicated to Excel, powerful program of Office suite. This subreddit is suitable for both Office warriors and newbies.  [Mobile](/r/WindowsMobile#2)
+* [Excel](/r/Excel) - dedicated to Excel, powerful program of Office suite. This subreddit is suitable for both Office warriors and newbies.  [Mobile](/r/WindowsMobile#2) [Apps](/r/WindowsApps#2)
 
 ###Filter content by flair
 *  [Hide Flairs](https://nf.reddit.com/r/windows10#butt) [Show Flairs](https://www.reddit.com/r/Windows10#butt) [Hide Help, Bug](https://nh.reddit.com/r/windows10#butt)
@@ -77,6 +77,6 @@
 [](#/RES_SR_Config/NightModeCompatible)
 
 
-1. [~~January Cumulative Update - KB3213986~~](https://redd.it/5n6qgq#sticky)
+1. [~~Community Redstone 3 wishlist~~](https://redd.it/5y989k#sticky)
 
-2. [~~New community moderators~~](https://redd.it/5o3ixz#stickyg)
+2. [~~ShareX Developer AMA~~](https://redd.it/5yxzlw#stickyg)

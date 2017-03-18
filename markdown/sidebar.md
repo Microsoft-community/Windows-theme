@@ -3,7 +3,7 @@
 * [Community chat server](https://discord.gg/Microsoft#icon-chat)
 * [Give Windows feedback](https://insider.windows.com/FeedbackHub/fb#icon-feedback "Opens Windows 10 feedback application")
 * [Github repository](https://github.com/Jasius/Windows-theme#icon-feedback2) | [Suggestions board](https://github.com/Jasius/w10-refactor/projects/1)
-* [Night Mode](https://nm.reddit.com/r/windows#icon-night) [Light Mode](https://www.reddit.com/r/Windows#icon-day)
+* [Night Light](https://nm.reddit.com/r/windows#icon-night) [Light Mode](https://www.reddit.com/r/Windows#icon-day)
 
 ##Helpful resources
 * [Tips and tricks](https://www.reddit.com/r/Windows10/wiki/tipsandtricks#iconz-tips)
@@ -23,7 +23,7 @@
 * Do not 'backseat moderate' - Report any rule breakers to [moderators.](https://goo.gl/Qy8xCb)  
 * No spamming, advertising.
 * No referral/affiliate-links.  
-* [Subreddit rules](https://goo.gl/T28P7x#icon-more)
+* [Subreddit rules](https://www.reddit.com/r/windows/wiki/rules)
 
 
 
@@ -47,7 +47,7 @@
 
 * [Surface](/r/Surface) - dedicated to Surface powerful laptop/tablet and discussions around it and its peripherals.
 
-* [Excel](/r/Excel) - dedicated to Excel, powerful program of Office suite. This subreddit is suitable for both Office warriors and newbies.  [Mobile](/r/WindowsMobile#2)
+* [Excel](/r/Excel) - dedicated to Excel, powerful program of Office suite. This subreddit is suitable for both Office warriors and newbies.  [Mobile](/r/WindowsMobile#2) [Apps](/r/WindowsApps#2)
 
 ###Filter content by flair
 *  [Hide Flairs](https://nf.reddit.com/r/windows10#butt) [Show Flairs](https://www.reddit.com/r/Windows10#butt) [Hide Help, Bug](https://nh.reddit.com/r/windows10#butt)
@@ -77,6 +77,6 @@
 [](#/RES_SR_Config/NightModeCompatible)
 
 
-1. [~~January Cumulative Update - KB3213986~~](https://redd.it/5n6qgq#sticky)
+1. [~~Community Redstone 3 wishlist~~](https://redd.it/5y989k#sticky)
 
-2. [~~Insider Preview Build 15007~~](https://redd.it/5nmw71#sticky)
+2. [~~ShareX Developer AMA~~](https://redd.it/5yxzlw#stickyg)
