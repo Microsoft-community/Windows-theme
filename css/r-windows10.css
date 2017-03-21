@@ -76,18 +76,17 @@ Secondary: #7A0218
 #header-img {
   text-indent: -9999px;
   display: inline-block;
-  margin-top: 112px;
+  margin-top: 110px;
   position: absolute;
   z-index: 99;
   height: 27px;
   width: 27px;
   margin-left: 4px;
-  padding-right: 11px;
-  padding-left: 8px;
+  padding: 2px 11px 1px 8px;
   opacity: .8;
   background-repeat: no-repeat !important;
   transition: .15s ease-in-out;
-  border-bottom: 3px solid transparent !important; }
+  border-bottom: 2px solid transparent !important; }
   #header-img:hover {
     opacity: 1;
     background: #259eff;
@@ -321,6 +320,11 @@ button:active,
     position: fixed;
     padding: 0 !important;
     box-shadow: none; }
+
+.comments-page .flairselector.drop-choices.active {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%); }
 
 .flairoptionpane {
   max-height: 304px; }
@@ -653,9 +657,9 @@ a[href*="#icon-more"] {
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
   .arrow.up:active, .arrow.upmod:active {
-    background-position: -289px -195px; }
+    transform: translate(0px, -1px); }
   .arrow.down:active, .arrow.downmod:active {
-    background-position: -321px -59px; }
+    transform: translate(0px, 1px); }
 
 .linklisting {
   margin-right: 330px;
@@ -760,6 +764,17 @@ a.author {
   font-weight: 700;
   padding-left: 0;
   padding-right: 1px; }
+
+.comment .moderator ~ .userattrs:after {
+  position: absolute;
+  border: 3px solid #00a64f;
+  top: -0.7px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  content: '';
+  opacity: 0.5;
+  z-index: -1; }
 
 .entry .flat-list .approve-button a {
   color: #00a64f; }
@@ -2870,15 +2885,13 @@ html:lang(nh) .linkflair-help {
   .linkflairlabel:lang(nf) {
     display: none; }
 
-.linkflair-discussion {
+.listing-page .linkflair-discussion {
   border-left: 3px solid #ff9e00 !important;
   background: rgba(255, 158, 0, 0.1); }
-
-.linkflair-tip {
+.listing-page .linkflair-tip {
   border-left: 3px solid #468966 !important;
   background: rgba(70, 137, 102, 0.1); }
-
-.linkflair-news {
+.listing-page .linkflair-news {
   border-left: 3px solid #F2385A !important;
   background: rgba(242, 56, 90, 0.1); }
 
@@ -2981,15 +2994,15 @@ html[lang^=nm] .side .md blockquote {
 
 a[href$="WindowsMobile#2"] {
   position: absolute;
-  top: 135px;
+  top: 134px;
   left: 48px;
   color: #ddd !important;
   z-index: 99;
-  border-bottom: 3px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
   text-transform: uppercase;
   transition: .15s ease-in-out;
   line-height: 14px;
-  height: 20px;
+  height: 22px;
   padding: 8px 9px 0;
   font-size: 11.4px !important;
   letter-spacing: 0.1em;
@@ -3215,15 +3228,15 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
 
 a[href$="WindowsApps#2"] {
   position: absolute;
-  top: 135px;
+  top: 134px;
   left: 112px;
   color: #ddd !important;
   z-index: 99;
-  border-bottom: 3px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
   text-transform: uppercase;
   transition: all .15s ease-in-out;
   line-height: 14px;
-  height: 20px;
+  height: 22px;
   padding: 8px 9px 0;
   font-size: 11.4px !important;
   letter-spacing: 0.1em;

@@ -76,18 +76,17 @@ Secondary: #7A0218
 #header-img {
   text-indent: -9999px;
   display: inline-block;
-  margin-top: 112px;
+  margin-top: 110px;
   position: absolute;
   z-index: 99;
   height: 27px;
   width: 27px;
   margin-left: 4px;
-  padding-right: 11px;
-  padding-left: 8px;
+  padding: 2px 11px 1px 8px;
   opacity: .8;
   background-repeat: no-repeat !important;
   transition: .15s ease-in-out;
-  border-bottom: 3px solid transparent !important; }
+  border-bottom: 2px solid transparent !important; }
   #header-img:hover {
     opacity: 1;
     background: #47658c;
@@ -321,6 +320,11 @@ button:active,
     position: fixed;
     padding: 0 !important;
     box-shadow: none; }
+
+.comments-page .flairselector.drop-choices.active {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%); }
 
 .flairoptionpane {
   max-height: 304px; }
@@ -653,9 +657,9 @@ a[href*="#icon-more"] {
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
   .arrow.up:active, .arrow.upmod:active {
-    background-position: -289px -195px; }
+    transform: translate(0px, -1px); }
   .arrow.down:active, .arrow.downmod:active {
-    background-position: -321px -59px; }
+    transform: translate(0px, 1px); }
 
 .linklisting {
   margin-right: 330px;
@@ -760,6 +764,17 @@ a.author {
   font-weight: 700;
   padding-left: 0;
   padding-right: 1px; }
+
+.comment .moderator ~ .userattrs:after {
+  position: absolute;
+  border: 3px solid #00a64f;
+  top: -0.7px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  content: '';
+  opacity: 0.5;
+  z-index: -1; }
 
 .entry .flat-list .approve-button a {
   color: #00a64f; }

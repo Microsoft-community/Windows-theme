@@ -6,3 +6,6 @@
 /css/r-secret2.css
 /css/minified/r-secret2.css
 /scss/r-secret2.scss
+/node_modules/
+/.vscode
+/gulpfile.js

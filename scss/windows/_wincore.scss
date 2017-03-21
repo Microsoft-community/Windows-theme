@@ -20,8 +20,7 @@ $subscribers: " insiders waiting for new bits";
   &:hover {
     background: url(%%wincore-2%%) -5px -115px no-repeat!important;
     text-decoration: none;
-  }
-  //header name
+  } //header name
   &:after {
     content: $sub-name;
     font-size: 70px;
@@ -396,19 +395,19 @@ html:lang(nh) {
   }
 }
 
-.linkflair-discussion {
-  border-left: 3px solid #ff9e00 !important;
-  background: rgba(255, 158, 0, 0.1);
-}
-
-.linkflair-tip {
-  border-left: 3px solid #468966 !important;
-  background: rgba(70, 137, 102, 0.1);
-}
-
-.linkflair-news {
-  border-left: 3px solid #F2385A !important;
-  background: rgba(242, 56, 90, 0.1);
+.listing-page {
+  .linkflair-discussion {
+    border-left: 3px solid #ff9e00 !important;
+    background: rgba(255, 158, 0, 0.1);
+  }
+  .linkflair-tip {
+    border-left: 3px solid #468966 !important;
+    background: rgba(70, 137, 102, 0.1);
+  }
+  .linkflair-news {
+    border-left: 3px solid #F2385A !important;
+    background: rgba(242, 56, 90, 0.1);
+  }
 }
 
 .comments-page .link.linkflair-solved {
@@ -562,15 +561,15 @@ html[lang^=nm] .side .md blockquote {
 //nav promoted subs
 a[href$="WindowsMobile#2"] {
   position: absolute;
-  top: 135px;
+  top: 134px;
   left: 48px;
   color: #ddd !important;
   z-index: 99;
-  border-bottom: 3px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
   text-transform: uppercase;
   transition: .15s ease-in-out;
   line-height: 14px;
-  height: 20px;
+  height: 22px;
   padding: 8px 9px 0;
   font-size: 11.4px !important;
   letter-spacing: 0.1em;
@@ -612,8 +611,7 @@ a {
   }
   &[href*="#btn"] {
     background: #0057a6;
-  }
-  //3.sidebar flair content toggles
+  } //3.sidebar flair content toggles
   &[href*="#square-showflairs"] {
     float: right;
     &::before {
@@ -665,8 +663,7 @@ a {
     content: "- flair your thread as solved once your problem is resolved";
     margin-left: 6px;
     color: #008a00;
-  }
-  //???
+  } //???
   &.linkflair-help .flat-list a.flairselectbtn {
     color: $color-win !important;
   }
