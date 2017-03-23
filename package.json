@@ -1,0 +1,20 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasius/w10-refactor.git"
+  },
+  "author": "Jaska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasius/w10-refactor/issues"
+  },
+  "homepage": "https://github.com/Jasius/w10-refactor#readme"
+}

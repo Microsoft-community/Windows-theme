@@ -1405,3 +1405,17 @@ tr:nth-child(even) {
     margin: -7px -5px 7px 0px;
   }
 }
+
+//OP comments highlighting
+.submitter:after {
+  content: "";
+  position: absolute;
+  top: -0.7px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  text-align: right;
+  padding: .25em .5em;
+  border: 3px solid #8bb9e2;
+  pointer-events: none
+}

@@ -11,26 +11,26 @@ $tabmenu-offset: 146px;
 'core/footer';
 @import 'windows/wincore';
 //nav promoted sub
-a[href$="Windows10#2"] {
-    position: absolute;
-    top: 135px;
-    left: 112px;
-    color: #ddd !important;
-    z-index: 99;
-    border-bottom: 3px solid transparent !important;
-    text-transform: uppercase;
-    transition: all .15s ease-in-out;
-    line-height: 14px;
-    height: 20px;
-    padding: 8px 9px 0;
-    font-size: 11.4px !important;
-    letter-spacing: 0.1em;
-    font-family: $font-main;
-    &:hover {
-        color: #fff!important;
-        background: rgba(0, 0, 0, 0.1);
-        border-color: #fff!important;
-    }
+a[href$="WindowsApps#2"] {
+  position: absolute;
+  top: 134px;
+  left: 112px;
+  color: #ddd !important;
+  z-index: 99;
+  border-bottom: 2px solid transparent !important;
+  text-transform: uppercase;
+  transition: all .15s ease-in-out;
+  line-height: 14px;
+  height: 22px;
+  padding: 8px 9px 0;
+  font-size: 11.4px !important;
+  letter-spacing: 0.1em;
+  font-family: $font-main;
+  &:hover {
+    color: #fff!important;
+    background: $color-bg-secondary;
+    border-color: #fff!important;
+  }
 }
 
 #header-bottom-left .tabmenu {

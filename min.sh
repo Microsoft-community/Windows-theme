@@ -1,1 +1,0 @@
-sass --sourcemap=none --watch scss:css/minified --style compressed --scss 

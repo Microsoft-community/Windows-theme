@@ -80,8 +80,8 @@ $color-border-left-hover: lighten($color-bg-main, 55%);
         color: #f1f1f1;
         text-decoration: none;
         background: url(%%x-header%%) -5px -115px no-repeat;
-        width: 800px !Important;
-        height: 100px !Important
+        width: 800px !important;
+        height: 100px !important
     }
     &:after {
         content: "Great Xbox Deals";
