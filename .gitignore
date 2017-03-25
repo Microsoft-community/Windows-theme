@@ -1,9 +1,8 @@
-/css/_comments.css
-/.sass-cache
+/dist/css/r-secret.css
+/dist/css/minified/r-secret.css
+/dist/css/r-secret2.css
+/dist/css/minified/r-secret2.css
 /scss/r-secret.scss
-/css/r-secret.css
-/css/minified/r-secret.css
-/css/r-secret2.css
-/css/minified/r-secret2.css
 /scss/r-secret2.scss
 /node_modules/
+/.sass-cache

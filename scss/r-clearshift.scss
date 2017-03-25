@@ -3,7 +3,7 @@ $color-bg-main: #2D4059;
 $color-bg-secondary: #47658c;
 $color-bg-alt: #EA5455;
 $color-bg-light-hover: #fffafa;
-$color-borders-light: #fbdcdc;
+$color-borders-light: #d7ecff;
 $color-border-left-hover: #eea7aa;
 @import 'core/core',
 'core/side',
@@ -27,5 +27,10 @@ $color-border-left-hover: #eea7aa;
     left: 10px;
     a:hover {
         text-decoration: none;
+    }
+    a:before {
+        content: "/r/";
+        color: #ddd;
+        text-transform: lowercase;
     }
 }

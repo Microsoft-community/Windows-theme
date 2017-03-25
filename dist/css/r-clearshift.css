@@ -711,7 +711,7 @@ a[href*="#icon-more"] {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #fbdcdc; }
+  BORDER: 1px solid #d7ecff; }
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
@@ -949,11 +949,11 @@ ul.tabmenu.formtab {
 .titlebox form.toggle {
   color: #000;
   background: #fff;
-  border-left: 5px solid #fbdcdc;
+  border-left: 5px solid #d7ecff;
   padding-left: 10px;
   font-size: 8pt;
   margin-right: 5px;
-  border-right: 1px solid #fbdcdc; }
+  border-right: 1px solid #d7ecff; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -1134,7 +1134,7 @@ tr:nth-child(even) {
       display: block;
       position: absolute;
       z-index: -1;
-      border-color: transparent #fbdcdc transparent transparent;
+      border-color: transparent #d7ecff transparent transparent;
       border-width: 10px;
       border-style: solid;
       content: "";
@@ -1157,9 +1157,9 @@ tr:nth-child(even) {
     padding: 10px;
       padding-top: 5px;
       padding-bottom: 5px;
-    border: 1px solid #fbdcdc;
-      border-left: 5px solid #fbdcdc;
-      border-right: 1px solid #fbdcdc;
+    border: 1px solid #d7ecff;
+      border-left: 5px solid #d7ecff;
+      border-right: 1px solid #d7ecff;
       border-top: none;
       border-bottom: none;
       border-radius: 0;
@@ -1214,7 +1214,7 @@ tr:nth-child(even) {
   display: block;
   position: absolute;
   z-index: -1;
-  border-color: transparent #fbdcdc transparent transparent;
+  border-color: transparent #d7ecff transparent transparent;
   border-width: 10px;
   border-style: solid;
   content: "";
@@ -1222,9 +1222,9 @@ tr:nth-child(even) {
 
 div.side div.tagline {
   padding: 10px;
-  border: 1px solid #fbdcdc;
-    border-left: 5px solid #fbdcdc;
-    border-right: 1px solid #fbdcdc;
+  border: 1px solid #d7ecff;
+    border-left: 5px solid #d7ecff;
+    border-right: 1px solid #d7ecff;
     border-radius: 0;
   background-color: #fff;
   color: #000;
@@ -1235,9 +1235,9 @@ div.side div.tagline {
 
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
-  border: 1px solid #fbdcdc;
-    border-left: 5px solid #fbdcdc;
-    border-right: 1px solid #fbdcdc;
+  border: 1px solid #d7ecff;
+    border-left: 5px solid #d7ecff;
+    border-right: 1px solid #d7ecff;
     border-radius: 0;
   background-color: #fff;
   color: #000;
@@ -1249,9 +1249,9 @@ div.side span.subscribers {
   padding: 10px;
     padding-top: 5px;
     padding-bottom: 10px;
-  border: 1px solid #fbdcdc;
-    border-left: 5px solid #fbdcdc;
-    border-right: 1px solid #fbdcdc;
+  border: 1px solid #d7ecff;
+    border-left: 5px solid #d7ecff;
+    border-right: 1px solid #d7ecff;
     border-radius: 0;
     border-top: none;
   margin: 0 5px 0 0;
@@ -1330,9 +1330,9 @@ div.side div.tagline {
 
 .reddit-link {
   padding: 7px 10px 10px;
-  border-left: 5px solid #fbdcdc;
-  border-bottom: 1px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border-left: 5px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   margin-right: 5px;
   background-color: #fff;
   font-size: 1em; }
@@ -1341,10 +1341,10 @@ div.side div.tagline {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #fbdcdc;
+  border-left: 5px solid #d7ecff;
   background-color: #fff;
-  border-bottom: 1px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   margin-right: 5px !important; }
 
 .search-page .side .spacer {
@@ -1395,9 +1395,9 @@ div.titlebox .md ul li {
   display: block;
   background-color: #fff;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #fbdcdc;
-  border-bottom: 1px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border-left: 5px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   margin: 0;
     margin-right: 5px !important;
   font-size: 0.945em; }
@@ -1467,9 +1467,9 @@ div.titlebox .md h4 {
 div.titlebox .md ul li {
   background-color: #fff;
   padding: 7px 10px 10px;
-  border-bottom: 1px solid #fbdcdc;
-  border-left: 5px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border-bottom: 1px solid #d7ecff;
+  border-left: 5px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   font-size: 0.945em;
   transition: .2s; }
   div.titlebox .md ul li:hover {
@@ -1559,8 +1559,8 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #searchexpando {
   padding: 10px;
-  border: 1px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   background-color: #fff;
   color: #000;
   font-size: 8pt;
@@ -1568,7 +1568,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   font-weight: 400;
   margin: 0 5px 0 0;
   width: 273px !important;
-  border-left: 1px solid #fbdcdc; }
+  border-left: 1px solid #d7ecff; }
 
 .leavemoderator,
 .users-online,
@@ -1604,10 +1604,10 @@ div.titlebox .md h3:hover + ul {
   .linkinfo .score,
   .linkinfo .shortlink {
     color: #494949;
-    border-left: 5px solid #fbdcdc;
+    border-left: 5px solid #d7ecff;
     background-color: #fff;
-    border-bottom: 1px solid #fbdcdc;
-    border-right: 1px solid #fbdcdc;
+    border-bottom: 1px solid #d7ecff;
+    border-right: 1px solid #d7ecff;
     font-size: 8pt;
     margin-right: 5px; }
   .linkinfo .score {
@@ -1639,7 +1639,7 @@ div.titlebox .md h3:hover + ul {
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent #fbdcdc transparent transparent;
+    border-color: transparent #d7ecff transparent transparent;
     border-width: 10px;
     border-style: solid;
     content: "";
@@ -1649,10 +1649,10 @@ div.titlebox .md h3:hover + ul {
     display: block;
     background-color: #fff;
     padding: 7px 0 10px 10px;
-    border-left: 5px solid #fbdcdc;
-    border-bottom: 1px solid #fbdcdc;
+    border-left: 5px solid #d7ecff;
+    border-bottom: 1px solid #d7ecff;
     margin: -6px 5px -10px 0;
-    border-right: 1px solid #fbdcdc; }
+    border-right: 1px solid #d7ecff; }
   .date span,
   .date time {
     color: #494949;
@@ -1671,9 +1671,9 @@ div.titlebox .md h3:hover + ul {
   text-transform: capitalize;
   margin-top: 0;
   padding: 7px 10px 10px;
-  border-left: 5px solid #fbdcdc;
-  border-bottom: 1px solid #fbdcdc;
-  border-right: 1px solid #fbdcdc;
+  border-left: 5px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
   font-size: 8pt !important;
   margin-right: 5px; }
 
@@ -2858,3 +2858,7 @@ html[lang^=nm] .comments-page .link {
   left: 10px; }
   .pagename a:hover {
     text-decoration: none; }
+  .pagename a:before {
+    content: "/r/";
+    color: #ddd;
+    text-transform: lowercase; }

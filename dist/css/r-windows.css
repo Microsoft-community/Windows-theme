@@ -3387,7 +3387,7 @@ a[href*='#iconz-wiki']::before {
 
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
-  content: " insiders waiting for new bits"; }
+  content: " waiting for creators update"; }
 
 .subscribers .word {
   display: none; }
