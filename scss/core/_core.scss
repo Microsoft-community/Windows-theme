@@ -1419,3 +1419,8 @@ tr:nth-child(even) {
   border: 3px solid #8bb9e2;
   pointer-events: none
 }
+
+//no participation
+body:lang(np):not(.subscriber) .arrow {
+  pointer-events: none;
+}
