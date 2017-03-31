@@ -1,4 +1,10 @@
 $subscribers: " waiting for creators update";
+//4-01 reddit doesn't support filter, sigh
+// body>.content #siteTable .thing.self .thumbnail,
+// a::before {
+//   filter: hue-rotate(150deg);
+// }
+
 //sidebar name
 .titlebox h1.redditname a {
   font-size: 0;

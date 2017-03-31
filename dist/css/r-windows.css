@@ -3,15 +3,15 @@ Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #0078d7
-Secondary: #259eff
+Main color: #E95420
+Secondary: #77216F
 Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #0078d7;
+  background: #E95420;
   border-bottom: none; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
@@ -45,16 +45,16 @@ Secondary: #7A0218
           font-size: 11.4px;
           font-family: "Segoe UI", Helvetica, sans-serif;
           line-height: 30px;
-          padding: 8px 9px 5px;
+          padding: 8px 9px 6px;
           letter-spacing: 0.1em;
           text-transform: uppercase;
           transition: .15s ease-in-out; }
           #header-bottom-left .tabmenu li a:hover {
             color: #fff;
-            background: #259eff;
+            background: #77216F;
             border-bottom: 2px solid #fff !important; }
         #header-bottom-left .tabmenu li.selected a {
-          background-color: #259eff;
+          background-color: #77216F;
           border: 0;
           color: #fff;
           font-weight: 700;
@@ -75,7 +75,7 @@ Secondary: #7A0218
     border-bottom: 2px solid transparent !important; }
     #header-img:hover {
       opacity: 1;
-      background: #259eff;
+      background: #77216F;
       font-weight: 500;
       border-bottom: 2px solid #fff !important; }
 
@@ -198,11 +198,11 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #259eff;
+  color: #77216F;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #259eff;
+    background: #77216F;
     border: none;
     color: #fff;
     outline: 0; }
@@ -237,7 +237,7 @@ button:active,
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #259eff;
+      background: #77216F;
       color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -261,10 +261,10 @@ button:active,
   font-weight: 700; }
 
 .tagline .likes {
-  color: #0078d7; }
+  color: #E95420; }
 
 .entry .flat-list .reply-button a {
-  color: #0078d7; }
+  color: #E95420; }
 
 .link .domain {
   visibility: hidden; }
@@ -295,7 +295,7 @@ button:active,
   border-bottom: 1px solid #e5e5e5; }
 
 .flairselector {
-  border: 1px solid #0078d7 !important; }
+  border: 1px solid #E95420 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector .linkflair {
@@ -305,7 +305,7 @@ button:active,
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #0078d7 !important;
+    background: #E95420 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -313,7 +313,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #0078d7;
+    border-top: solid 1px #E95420;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     left: 45% !important;
@@ -365,10 +365,10 @@ button:active,
 
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #0078d7;
+  background-color: #E95420;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #259eff; }
+    background-color: #77216F; }
 
 .submit-page #newlink.submit.content .btn {
   width: 558px;
@@ -572,7 +572,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid #e5e5e5; }
   .link .title {
-    color: #0078d7; }
+    color: #E95420; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -580,10 +580,10 @@ a[href*="#icon-more"] {
     padding: 0 !important; }
   .link.last-clicked {
     border: 0;
-    border-left: 3px solid #259eff;
+    border-left: 3px solid #77216F;
     background: #fff6f8; }
   .link .score.likes {
-    color: #259eff; }
+    color: #77216F; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -596,7 +596,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #0078d7;
+  background: #E95420;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -655,7 +655,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #0078d7; }
+  color: #E95420; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -700,7 +700,7 @@ a[href*="#icon-more"] {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #259eff;
+  border-left-color: #77216F;
   background: #f9fafc; }
 
 .entry .flat-list .report-button a,
@@ -713,11 +713,11 @@ a[href*="#icon-more"] {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #0078d7;
+      background-color: solid #E95420;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #0078d7;
+  background-color: solid #E95420;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -761,7 +761,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0px;
-  background: #0078d7;
+  background: #E95420;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -802,10 +802,10 @@ a.author {
   color: #00a64f; }
 
 .tagline a:hover {
-  color: #259eff !important; }
+  color: #77216F !important; }
 
 .gold-accent {
-  background-color: #0078d7;
+  background-color: #E95420;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -814,7 +814,7 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #0078d7;
+  background: #E95420;
   margin-left: 5px !important;
   display: none; }
 
@@ -836,7 +836,7 @@ a.author {
   animation-name: pulsate; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #0078d7 !important; }
+  color: #E95420 !important; }
 
 .comments-page .usertext-edit div textarea {
   border: 1px solid #000 !important;
@@ -849,7 +849,7 @@ a.author {
   .comments-page .usertext-edit div textarea:focus {
     background: #FFF !important;
     opacity: 1;
-    border-color: #259eff !important; }
+    border-color: #77216F !important; }
 
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
@@ -889,12 +889,12 @@ a.author {
   display: flex;
   justify-content: space-between;
   color: #eee;
-  background: #0078d7;
+  background: #E95420;
   border: none; }
   .commentarea .infobar a {
     color: #eee; }
   .commentarea .infobar p {
-    background: #259eff;
+    background: #77216F;
     padding: 10px;
     margin: -5px -10px -5px 10px;
     line-height: 8px;
@@ -905,14 +905,14 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #0078d7; }
+    color: #E95420; }
     .md a:hover {
-      color: #259eff; }
+      color: #77216F; }
   .md code {
     white-space: normal; }
   .md blockquote {
     border: 1px solid rgba(36, 156, 255, 0.1);
-    border-left: 2px solid #259eff;
+    border-left: 2px solid #77216F;
     background-color: #efefed; }
 
 .usertext.border .usertext-body {
@@ -921,15 +921,15 @@ a.author {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #259eff; }
+  border: 1px solid #77216F; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #259eff !important;
+      background-color: #77216F !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #0078d7; }
+    background-color: #E95420; }
   .wiki-page .pageactions .wiki-page-content .nextprev a {
     margin-bottom: 12px; }
 
@@ -937,11 +937,11 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::selection {
-  background-color: #259eff;
+  background-color: #77216F;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #0078d7; }
+  color: #E95420; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -985,7 +985,7 @@ a[href*="#tech"] {
   margin-right: 9px; }
 
 .gadget .right a {
-  background: #0078d7;
+  background: #E95420;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -994,7 +994,7 @@ a[href*="#tech"] {
   transition: background-color .5s;
   text-transform: capitalize; }
   .gadget .right a:hover {
-    background: #259eff; }
+    background: #77216F; }
 
 span.clear-input-button {
   color: #fff; }
@@ -1006,33 +1006,33 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #0078d7 !important;
+  background: #E95420 !important;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #259eff !important; }
+    background: #77216F !important; }
 
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 
 #newlink-with-image-upload .file-upload-button {
-  background: #0078d7;
+  background: #E95420;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
   margin: 6px -17px -17px !important;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #259eff; }
+    background: #77216F; }
 
 thead th {
-  background: #0078d7;
+  background: #E95420;
   border: none !important;
   color: #fff; }
   thead th a {
     color: #fff !important; }
   thead th:nth-child(2n) {
-    background: #259eff; }
+    background: #77216F; }
 
 tr:nth-child(even) {
   background-color: #F5F5F5; }
@@ -1058,7 +1058,7 @@ tr:nth-child(even) {
   .infobar {
     margin-right: 18px; }
   .footer {
-    border-right: 1px solid #0078d7; }
+    border-right: 1px solid #E95420; }
   .panestack-title {
     margin: 0 0px 0 -5px; }
   .infobar.newsletterbar {
@@ -1086,7 +1086,7 @@ body:lang(np):not(.subscriber) .arrow {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #0078d7;
+    color: #E95420;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1277,8 +1277,8 @@ div.side div.tagline {
   border-top: none; }
 
 .morelink {
-  border: 1px solid #0078d7;
-  background: #0078d7;
+  border: 1px solid #E95420;
+  background: #E95420;
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
@@ -1290,11 +1290,11 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 0.9em; }
   .morelink:hover {
-    background: #259eff;
-    border-color: #259eff; }
+    background: #77216F;
+    border-color: #77216F; }
     .morelink:hover a {
       color: #fff;
-      border-color: #259eff; }
+      border-color: #77216F; }
   .morelink .nub {
     display: none; }
 
@@ -1339,7 +1339,7 @@ div.side div.tagline {
   content: '- Moderator';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #0078d7; }
+  color: #E95420; }
 
 .helplink ~ .content .flair {
   display: none; }
@@ -1355,7 +1355,7 @@ div.side div.tagline {
     text-transform: capitalize; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #259eff; }
+  color: #77216F; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1395,7 +1395,7 @@ div.titlebox .md ul li {
     color: #369; }
 
 .sidecontentbox .title {
-  background-color: #0078d7;
+  background-color: #E95420;
   padding: 10px;
   border-left: 5px solid #F85F73;
   margin-top: 0;
@@ -1405,7 +1405,7 @@ div.titlebox .md ul li {
 
 .sidecontentbox a.helplink {
   display: block;
-  background: #0078d7;
+  background: #E95420;
   color: #fff;
   margin-right: 5px;
   margin-bottom: 10px;
@@ -1415,7 +1415,7 @@ div.titlebox .md ul li {
   text-align: center;
   box-sizing: border-box; }
   .sidecontentbox a.helplink:hover {
-    background: #259eff; }
+    background: #77216F; }
 
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
@@ -1434,7 +1434,7 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  background-color: #0078d7;
+  background-color: #E95420;
   padding: 10px;
   border-left: 5px solid #F85F73;
   margin-top: 0;
@@ -1457,7 +1457,7 @@ div.titlebox .md ul li {
 
 div.titlebox h1 {
   border-left: 5px solid #F85F73;
-  background-color: #0078d7;
+  background-color: #E95420;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1468,7 +1468,7 @@ div.titlebox h1 {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #259eff;
+  background-color: #77216F;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1479,7 +1479,7 @@ div.titlebox span.fancy-toggle-button a.active {
   border: none; }
 
 div.titlebox div.styleToggle {
-  background-color: #0078d7;
+  background-color: #E95420;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
@@ -1487,7 +1487,7 @@ div.titlebox div.styleToggle {
     margin: 0; }
 
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #0078d7; }
+  background-color: #E95420; }
 
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
@@ -1530,11 +1530,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #259eff; }
+    color: #77216F; }
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #0078d7; }
+  border-color: #E95420; }
 
 #searchexpando {
   padding: 10px;
@@ -1607,7 +1607,7 @@ div.titlebox .md h3:hover + ul {
     color: #fff !important;
     text-transform: none;
     border-left: 5px solid #F85F73;
-    background-color: #0078d7;
+    background-color: #E95420;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1671,10 +1671,10 @@ div.titlebox .md h3:hover + ul {
 
 .account-activity-box {
   display: block !important;
-  background: #0078d7;
+  background: #E95420;
   margin-right: 5px; }
   .account-activity-box:hover {
-    background: #259eff; }
+    background: #77216F; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1699,7 +1699,7 @@ div.titlebox .md h3:hover + ul {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #0078d7;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #E95420;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1725,7 +1725,7 @@ div.titlebox .md h3:hover + ul {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #0078d7;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #E95420;
   border: 2px solid #fff; }
 
 #beta-help,
@@ -1738,7 +1738,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #259eff; }
+  background-color: #77216F; }
 
 #header #header-bottom-right .logout {
   display: inline-block; }
@@ -1755,7 +1755,7 @@ div.titlebox .md h3:hover + ul {
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #0078d7;
+  background: url(%%spritesheet%%) 0px -114px no-repeat #E95420;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1770,7 +1770,7 @@ div.titlebox .md h3:hover + ul {
   border: 2px solid #fff; }
 
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #0078d7;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #E95420;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1780,7 +1780,7 @@ div.titlebox .md h3:hover + ul {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #0078d7;
+    background-color: #E95420;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1803,7 +1803,7 @@ div.titlebox .md h3:hover + ul {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #0078d7;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #E95420;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1824,7 +1824,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #259eff; }
+  background-color: #77216F; }
 
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
@@ -1845,7 +1845,7 @@ div.titlebox .md h3:hover + ul {
   overflow: hidden; }
 
 .message-count {
-  background: #259eff;
+  background: #77216F;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -1928,13 +1928,13 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none;
   margin-bottom: 3px;
   transition: opacity .5s;
-  background-color: #259eff;
+  background-color: #77216F;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#special']:before {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #0078d7;
+    background-color: #E95420;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -1980,7 +1980,7 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none; }
 
 .side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #259eff;
+  background-color: #77216F;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
@@ -1989,7 +1989,7 @@ div.titlebox .md h3:hover + ul {
   opacity: 1; }
 
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #0078d7;
+  background-color: #E95420;
   content: "Sticky";
   color: #fff; }
 
@@ -2029,7 +2029,7 @@ div.titlebox .md h3:hover + ul {
   opacity: .8;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #0078d7;
+    background-color: #E95420;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -2091,7 +2091,7 @@ html[lang^=nm] .comments-page .usertext-edit div textarea {
 .res-nightmode .md blockquote,
 html[lang^=nm] .md blockquote {
   background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #259eff !important;
+  border-left: 2px solid #77216F !important;
   color: #888 !important; }
 
 .res-nightmode .md code,
@@ -2099,7 +2099,7 @@ html[lang^=nm] .md code {
   border: none !important;
   background-color: #393939 !important;
   border-radius: 0 !important;
-  border-left: 3px solid #259eff !important; }
+  border-left: 3px solid #77216F !important; }
 
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
@@ -2500,11 +2500,11 @@ html[lang^=nm] input[type=submit] {
 
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
-  border-left-color: #259eff; }
+  border-left-color: #77216F; }
 
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #0078d7; }
+  background: #E95420; }
 
 .res-nightmode .thing .title:visited,
 .res-nightmode .thing.visited .title,
@@ -2766,11 +2766,11 @@ html[lang^=nm] .comments-page .link {
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #0078d7;
+  border-bottom: 1px solid #E95420;
   padding: 0;
-  border-left: 1px solid #0078d7; }
+  border-left: 1px solid #E95420; }
   .footer::after {
-    border-bottom: 1px solid #0078d7;
+    border-bottom: 1px solid #E95420;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -2779,8 +2779,8 @@ html[lang^=nm] .comments-page .link {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", Helvetica, sans-serif;
-    border-top: 34px solid #0078d7;
-    border-right: 1px solid #0078d7;
+    border-top: 34px solid #E95420;
+    border-right: 1px solid #E95420;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -2795,7 +2795,7 @@ html[lang^=nm] .comments-page .link {
       text-transform: capitalize;
       padding: 8px;
       color: #fff;
-      background: #0078d7;
+      background: #E95420;
       max-height: 18px; }
     .footer div.col a {
       display: block;
@@ -2829,7 +2829,7 @@ html[lang^=nm] .comments-page .link {
 .titlebox h1.redditname a {
   font-size: 0; }
   .titlebox h1.redditname a:after {
-    content: "Windows";
+    content: "Ubuntu";
     color: #fff;
     font: 400 small verdana, arial, helvetica, sans-serif; }
 
@@ -2845,7 +2845,7 @@ html[lang^=nm] .comments-page .link {
     background: url(%%wincore-2%%) -5px -115px no-repeat !important;
     text-decoration: none; }
   #header .redditname a:after {
-    content: "Windows";
+    content: "Ubuntu";
     font-size: 70px;
     font-weight: lighter;
     color: #ECF0F1;
@@ -3127,12 +3127,12 @@ a[href*='#square-solved']::before {
   border: 3px solid #e8e8e8; }
 
 a[href*='#square-hflairs']::before {
-  background: -187px -5px #0078d7;
+  background: -187px -5px #E95420;
   border: 3px solid #e8e8e8;
   border-radius: 50%; }
 
 a[href*='#square-hhelp']::before {
-  background: -187px -5px #259eff;
+  background: -187px -5px #77216F;
   border: 3px solid #e8e8e8;
   border-radius: 50%; }
 
@@ -3148,7 +3148,7 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before, a[href*=
 
 a[href*='#square-']:hover::before {
   text-decoration: none;
-  background: #259eff;
+  background: #77216F;
   border-color: #80c2ff;
   left: 4px;
   top: 8px;
@@ -3227,7 +3227,7 @@ a[href$="WindowsMobile#2"] {
   font-family: "Segoe UI", Helvetica, sans-serif; }
   a[href$="WindowsMobile#2"]:hover {
     color: #fff !important;
-    background: #259eff;
+    background: #77216F;
     border-color: #fff !important; }
 
 a[href*="#Donsiders"], a[href*="#btn"] {
@@ -3239,7 +3239,7 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   transition: all 0.5s;
   border-radius: 1px; }
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
-    background: #259eff;
+    background: #77216F;
     -webkit-transform: translateY(-1px);
     -moz-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
@@ -3250,7 +3250,7 @@ a[href*="#Donsiders"], a[href*="#btn"] {
 a[href*="#Donsiders"] {
   background: #009e7e; }
   a[href*="#Donsiders"]:hover {
-    background: #259eff; }
+    background: #77216F; }
 
 a[href*="#btn"] {
   background: #0057a6; }
@@ -3262,7 +3262,7 @@ a[href*="#square-showflairs"] {
     height: 10px;
     width: 10px;
     content: "";
-    background: -187px -5px #0078d7;
+    background: -187px -5px #E95420;
     border: 3px solid #e8e8e8;
     border-radius: 50%;
     margin-left: 5px; }
@@ -3272,18 +3272,18 @@ a[href*="#square-hflairs"]::after {
   margin-left: 50px; }
 
 a[href*="#square-hflairs"]:hover::after {
-  color: #0078d7; }
+  color: #E95420; }
 
 .side .md [href$="#butt"] {
   display: inline-block !important;
   font-size: 8pt;
-  border: 2px solid #0078d7;
+  border: 2px solid #E95420;
   padding: 9px 8px;
   transition: background-color .5s;
   text-align: center;
-  color: #0078d7; }
+  color: #E95420; }
   .side .md [href$="#butt"]:hover {
-    background: #0078d7;
+    background: #E95420;
     color: #fff; }
 
 .side .md > p:first-of-type {
@@ -3329,7 +3329,7 @@ a[href*='#icon-feedback2']::before {
 a[href*="#icon-more"] {
   text-align: center;
   display: block;
-  color: #259eff;
+  color: #77216F;
   font-size: 16px; }
 
 a[href*='#iconz'] + .keyNavAnnotation {
@@ -3462,7 +3462,7 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   content: '- Designer';
   font-size: 0.945em;
   margin-left: 5px;
-  color: #0078d7; }
+  color: #E95420; }
 
 .flair-jansmall:before {
   content: "";
@@ -3492,7 +3492,7 @@ a[href$="WindowsApps#2"] {
   font-family: "Segoe UI", Helvetica, sans-serif; }
   a[href$="WindowsApps#2"]:hover {
     color: #fff !important;
-    background: #259eff;
+    background: #77216F;
     border-color: #fff !important; }
 
 /*
