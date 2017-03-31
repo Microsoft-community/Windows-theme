@@ -24,46 +24,64 @@ Secondary: #7A0218
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-name: pulsate; }
+  #header-bottom-left {
+    height: 140px; }
+    #header-bottom-left .tabmenu {
+      background: rgba(0, 0, 0, 0.2);
+      width: calc(100% - 114px);
+      padding-left: 114px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-family: "Segoe UI", Helvetica, sans-serif;
+      transition: .5s; }
+      #header-bottom-left .tabmenu li {
+        font-weight: 400;
+        margin: 0; }
+        #header-bottom-left .tabmenu li a {
+          background: 0;
+          color: #ddd;
+          border-bottom: 2px solid transparent;
+          font-size: 11.4px;
+          font-family: "Segoe UI", Helvetica, sans-serif;
+          line-height: 30px;
+          padding: 8px 9px 5px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          transition: .15s ease-in-out; }
+          #header-bottom-left .tabmenu li a:hover {
+            color: #fff;
+            background: #643EBF;
+            border-bottom: 2px solid #fff !important; }
+        #header-bottom-left .tabmenu li.selected a {
+          background-color: #643EBF;
+          border: 0;
+          color: #fff;
+          font-weight: 700;
+          border-bottom: 2px solid currentColor !important; }
+  #header-img {
+    text-indent: -9999px;
+    display: inline-block;
+    margin-top: 110px;
+    position: absolute;
+    z-index: 99;
+    height: 27px;
+    width: 27px;
+    margin-left: 4px;
+    padding: 2px 11px 0px 8px;
+    opacity: .8;
+    background-repeat: no-repeat !important;
+    transition: .15s ease-in-out;
+    border-bottom: 2px solid transparent !important; }
+    #header-img:hover {
+      opacity: 1;
+      background: #643EBF;
+      font-weight: 500;
+      border-bottom: 2px solid #fff !important; }
 
 #header .hover a:hover,
 .redditname a:hover:after {
   color: #fff !important; }
-
-#header-bottom-left {
-  height: 140px; }
-  #header-bottom-left .tabmenu {
-    background: rgba(0, 0, 0, 0.2);
-    width: calc(100% - 114px);
-    padding-left: 114px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-family: "Segoe UI", Helvetica, sans-serif;
-    transition: .5s; }
-    #header-bottom-left .tabmenu li {
-      font-weight: 400;
-      margin: 0; }
-      #header-bottom-left .tabmenu li a {
-        background: 0;
-        color: #ddd;
-        border-bottom: 2px solid transparent;
-        font-size: 11.4px;
-        font-family: "Segoe UI", Helvetica, sans-serif;
-        line-height: 30px;
-        padding: 8px 9px 6px;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        transition: .15s ease-in-out; }
-        #header-bottom-left .tabmenu li a:hover {
-          color: #fff;
-          background: #643EBF;
-          border-bottom: 2px solid #fff !important; }
-      #header-bottom-left .tabmenu li.selected a {
-        background-color: #643EBF;
-        border: 0;
-        color: #fff;
-        font-weight: 700;
-        border-bottom: 2px solid currentColor !important; }
 
 #header-bottom-right #modmail,
 #header-bottom-right .user {
@@ -72,26 +90,6 @@ Secondary: #7A0218
   border-radius: 1px;
   overflow: hidden;
   transition: .5s; }
-
-#header-img {
-  text-indent: -9999px;
-  display: inline-block;
-  margin-top: 110px;
-  position: absolute;
-  z-index: 99;
-  height: 27px;
-  width: 27px;
-  margin-left: 4px;
-  padding: 2px 11px 1px 8px;
-  opacity: .8;
-  background-repeat: no-repeat !important;
-  transition: .15s ease-in-out;
-  border-bottom: 2px solid transparent !important; }
-  #header-img:hover {
-    opacity: 1;
-    background: #643EBF;
-    font-weight: 500;
-    border-bottom: 3px solid #fff !important; }
 
 #sr-header-area {
   transition: opacity .3s;
@@ -703,7 +701,7 @@ a[href*="#icon-more"] {
 
 .listing-page .link:hover {
   border-left-color: #643EBF;
-  background: #dfd7f2; }
+  background: #f9fafc; }
 
 .entry .flat-list .report-button a,
 .res-nightmode .entry .flat-list .report-button a {
@@ -945,16 +943,6 @@ ul.tabmenu.formtab {
 .buttons .comments.empty {
   color: #5133AB; }
 
-.leavemoderator,
-.titlebox form.toggle {
-  color: #000;
-  background: #fff;
-  border-left: 5px solid #fee7ea;
-  padding-left: 10px;
-  font-size: 8pt;
-  margin-right: 5px;
-  border-right: 1px solid #fee7ea; }
-
 .gadget .right a,
 a[href*="#tech"] {
   font-family: "Segoe UI", Helvetica, sans-serif;
@@ -962,10 +950,8 @@ a[href*="#tech"] {
 
 .sheets ::-webkit-scrollbar {
   background-color: #0f0f0f !important; }
-
-.sheets ::-webkit-scrollbar-corner,
-.sheets ::-webkit-scrollbar-thumb {
-  background: #313131 !important; }
+  .sheets ::-webkit-scrollbar-corner, .sheets ::-webkit-scrollbar-thumb {
+    background: #313131 !important; }
 
 .sheets .col textarea {
   width: 98%;
@@ -994,10 +980,6 @@ a[href*="#tech"] {
 
 #eu-cookie-policy .reddit-infobar a {
   color: #222 !important; }
-
-.leavemoderator {
-  border-color: #393939 !important;
-  background: #222 !important; }
 
 .gadget .midcol {
   margin-right: 9px; }
@@ -1277,12 +1259,6 @@ div.side span.subscribers {
 
 div.side form.flairtoggle {
   display: block; }
-
-div.side div.leavemoderator {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: none;
-  border-bottom: none; }
 
 div.side form.flairtoggle {
   padding-top: 5px;
@@ -1888,6 +1864,10 @@ div.titlebox .md h3:hover + ul {
   margin-right: 5px;
   margin-top: -10px;
   background: url(%%spritesheet%%) -264px -5px no-repeat !important; }
+
+#new_modmail {
+  position: absolute;
+  left: -75px; }
 
 .md-container-small .md .-text,
 .md-container-small .md li,
@@ -3241,7 +3221,7 @@ a[href$="WindowsMobile#2"] {
   transition: .15s ease-in-out;
   line-height: 14px;
   height: 22px;
-  padding: 8px 9px 0;
+  padding: 7px 9px 0;
   font-size: 11.4px !important;
   letter-spacing: 0.1em;
   font-family: "Segoe UI", Helvetica, sans-serif; }

@@ -14,9 +14,9 @@ $head-mod: Izick;
 'windows/enhancements';
 //moderators
 .helplink~.content .author {
-  &[href*=#{$head-mod}]:after {
-    content: '- Head Moderator';
-  }
+  // &[href*=#{$head-mod}]:after {
+  //   content: '- Head Moderator';
+  // }
   &[href*=Jaskys]:after {
     content: '- Designer';
   }
@@ -34,7 +34,7 @@ a[href$="WindowsApps#2"] {
   transition: all .15s ease-in-out;
   line-height: 14px;
   height: 22px;
-  padding: 8px 9px 0;
+  padding: 7px 9px 0;
   font-size: 11.4px !important;
   letter-spacing: 0.1em;
   font-family: $font-main;
