@@ -1079,6 +1079,9 @@ tr:nth-child(even) {
 body:lang(np):not(.subscriber) .arrow {
   pointer-events: none; }
 
+a[href*="#icon-day"] {
+  display: none; }
+
 .side {
   margin: 0;
   padding-left: 30px;
@@ -1274,7 +1277,7 @@ div.side p.users-online {
 
 div.side div.tagline {
   padding-top: 0;
-  border-top: none; }
+  border-top: none !important; }
 
 .morelink {
   border: 1px solid #2D4059;
@@ -2845,3 +2848,33 @@ html[lang^=nm] .comments-page .link {
     content: "/r/";
     color: #ddd;
     text-transform: lowercase; }
+
+.side .md blockquote {
+  padding: 4px 10px 4px;
+  border-left: 5px solid #f5c684;
+  background-color: #fef8f1;
+  border-bottom: 1px solid #d7ecff;
+  border-right: 1px solid #d7ecff;
+  font-size: 11px;
+  margin-right: 5px;
+  margin-left: 0px;
+  margin: 0px 5px 0px 0px;
+  color: #222222; }
+  .side .md blockquote:hover {
+    background-color: #fcecd9;
+    border-left-color: #f0ad4e; }
+
+.side .md [href$="#btn-y"] {
+  display: block !important;
+  font-size: 16px;
+  border: 1px solid #f0ad4e;
+  font-family: "Segoe UI", sans-serif;
+  padding: 9px 12px;
+  margin-right: 5px;
+  transition: background-color .5s;
+  text-align: center;
+  margin-top: 10px;
+  color: #f0ad4e; }
+  .side .md [href$="#btn-y"]:hover {
+    background: #f0ad4e;
+    color: #fff; }

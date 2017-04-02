@@ -1236,7 +1236,7 @@ a[href*="#tech"] {
 
 //ide scrollbar
 .sheets {
-  ::-webkit-scrollbar {
+   ::-webkit-scrollbar {
     background-color: #0f0f0f !important;
     &-corner,
     &-thumb {
@@ -1404,4 +1404,9 @@ tr:nth-child(even) {
 //no participation
 body:lang(np):not(.subscriber) .arrow {
   pointer-events: none;
+}
+
+//light mode hiding
+a[href*="#icon-day"] {
+  display: none;
 }

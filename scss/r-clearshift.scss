@@ -34,3 +34,38 @@ $color-border-left-hover: #eea7aa;
         text-transform: lowercase;
     }
 }
+
+//legacy unchecked
+.side .md blockquote {
+    padding: 4px 10px 4px;
+    border-left: 5px solid #f5c684;
+    background-color: #fef8f1;
+    border-bottom: 1px solid #d7ecff;
+    border-right: 1px solid #d7ecff;
+    font-size: 11px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin: 0px 5px 0px 0px;
+    color: #222222;
+    &:hover {
+        background-color: #fcecd9;
+        border-left-color: #f0ad4e;
+    }
+}
+
+.side .md [href$="#btn-y"] {
+    display: block!important;
+    font-size: 16px;
+    border: 1px solid #f0ad4e;
+    font-family: "Segoe UI", sans-serif;
+    padding: 9px 12px;
+    margin-right: 5px;
+    transition: background-color .5s;
+    text-align: center;
+    margin-top: 10px;
+    color: #f0ad4e;
+    &:hover {
+        background: #f0ad4e;
+        color: #fff;
+    }
+}
