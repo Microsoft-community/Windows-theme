@@ -2384,8 +2384,15 @@ html[lang^=nm] .sitetable .comment {
 
 .res-nightmode button,
 html[lang^=nm] button {
-  border: none;
   background-color: #222 !important; }
+
+.res-nightmode button.save:hover,
+html[lang^=nm] button.save:hover {
+  border-color: #7cd87c; }
+
+.res-nightmode button.cancel:hover,
+html[lang^=nm] button.cancel:hover {
+  border-color: #f9736f; }
 
 .res-nightmode a[href*="#square"]::before,
 html[lang^=nm] a[href*="#square"]::before {
