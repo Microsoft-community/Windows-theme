@@ -2683,6 +2683,11 @@ html[lang^=nm] .link.last-clicked {
 html[lang^=nm] .comments-page .link {
   border-left: 3px solid transparent; }
 
+.res-nightmode .sitetable.nestedlisting > .thing.stickied,
+html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
+  background: #202020 !important;
+  border-bottom: none; }
+
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
 

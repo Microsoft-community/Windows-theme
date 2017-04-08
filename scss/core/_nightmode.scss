@@ -506,6 +506,10 @@ html[lang^=nm] {
     .comments-page .link {
         border-left: 3px solid transparent;
     }
+	.sitetable.nestedlisting>.thing.stickied {
+		background: $nm-color-milddark!important;
+		border-bottom: none;
+	}
 }
 
 //end of merged nightmode 
