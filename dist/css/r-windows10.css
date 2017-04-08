@@ -2442,6 +2442,14 @@ html[lang^=nm] #search input[type=text] {
   background-color: #222 !important;
   color: #ddd; }
 
+.res-nightmode .reddit-infobar,
+html[lang^=nm] .reddit-infobar {
+  background: #202020;
+  BORDER: 1px solid #2D2E32; }
+  .res-nightmode .reddit-infobar.with-icon:before,
+  html[lang^=nm] .reddit-infobar.with-icon:before {
+    background-color: solid #202020; }
+
 .res-nightmode #header-bottom-left .tabmenu li.selected a,
 .res-nightmode .link .usertext-body .md,
 .res-nightmode .debuginfo,

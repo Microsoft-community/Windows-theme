@@ -314,6 +314,16 @@ html[lang^=nm] {
         background-color: $nm-color-bg-main !important;
         color: $nm-color-text;
     }
+	.reddit-infobar {
+		background: $nm-color-milddark;
+		BORDER: 1px solid $nm-color-borders;
+		&.with-icon {
+			&:before {
+				background-color: solid $nm-color-milddark;
+			}
+		}
+	}
+	
     //color secondary merge
     #header-bottom-left .tabmenu li.selected a,
     .link .usertext-body .md,
