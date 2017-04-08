@@ -2384,8 +2384,15 @@ html[lang^=nm] .sitetable .comment {
 
 .res-nightmode button,
 html[lang^=nm] button {
-  border: none;
   background-color: #222 !important; }
+
+.res-nightmode button.save:hover,
+html[lang^=nm] button.save:hover {
+  border-color: #7cd87c; }
+
+.res-nightmode button.cancel:hover,
+html[lang^=nm] button.cancel:hover {
+  border-color: #f9736f; }
 
 .res-nightmode a[href*="#square"]::before,
 html[lang^=nm] a[href*="#square"]::before {
@@ -2434,6 +2441,14 @@ html[lang^=nm] #eu-cookie-policy .reddit-infobar,
 html[lang^=nm] #search input[type=text] {
   background-color: #222 !important;
   color: #ddd; }
+
+.res-nightmode .reddit-infobar,
+html[lang^=nm] .reddit-infobar {
+  background: #202020;
+  BORDER: 1px solid #2D2E32; }
+  .res-nightmode .reddit-infobar.with-icon:before,
+  html[lang^=nm] .reddit-infobar.with-icon:before {
+    background-color: solid #202020; }
 
 .res-nightmode #header-bottom-left .tabmenu li.selected a,
 .res-nightmode .link .usertext-body .md,
@@ -2675,6 +2690,11 @@ html[lang^=nm] .link.last-clicked {
 .res-nightmode .comments-page .link,
 html[lang^=nm] .comments-page .link {
   border-left: 3px solid transparent; }
+
+.res-nightmode .sitetable.nestedlisting > .thing.stickied,
+html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
+  background: #202020 !important;
+  border-bottom: none; }
 
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }

@@ -263,9 +263,15 @@ html[lang^=nm] {
         }
     }
     button {
-        border: none;
+        //border: none;
         background-color: $nm-color-bg-main !important;
     }
+	button.save:hover {
+		border-color: #7cd87c;
+	}
+	button.cancel:hover {
+		border-color: #f9736f;
+	}
     a[href*="#square"]::before {
         border: 3px solid $nm-color-bg-secondary;
     }
@@ -308,6 +314,16 @@ html[lang^=nm] {
         background-color: $nm-color-bg-main !important;
         color: $nm-color-text;
     }
+	.reddit-infobar {
+		background: $nm-color-milddark;
+		BORDER: 1px solid $nm-color-borders;
+		&.with-icon {
+			&:before {
+				background-color: solid $nm-color-milddark;
+			}
+		}
+	}
+	
     //color secondary merge
     #header-bottom-left .tabmenu li.selected a,
     .link .usertext-body .md,
@@ -500,6 +516,10 @@ html[lang^=nm] {
     .comments-page .link {
         border-left: 3px solid transparent;
     }
+	.sitetable.nestedlisting>.thing.stickied {
+		background: $nm-color-milddark!important;
+		border-bottom: none;
+	}
 }
 
 //end of merged nightmode 
