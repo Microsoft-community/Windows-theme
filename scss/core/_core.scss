@@ -1050,6 +1050,14 @@ a.author {
   z-index: -1;
 }
 
+.stickied.comment .moderator~.userattrs:after {
+  border: 0;
+}
+
+.stickied.comment .expand:hover {
+  background: #01a64f;
+}
+
 .entry .flat-list .approve-button a {
   color: $color-mod;
 }
