@@ -257,6 +257,13 @@ button:active,
     background-color: transparent;
     border: none; }
 
+.comment.gilded,
+.res-commentBoxes .commentarea .comment.gilded {
+  border-color: #e2c737; }
+
+.comment.gilded > .entry .expand:hover {
+  background-color: #e2c737; }
+
 .tagline .score {
   font-weight: 700; }
 
