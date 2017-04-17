@@ -4,7 +4,6 @@ $subscribers: " enjoying creators update";
 // a::before {
 //   filter: hue-rotate(150deg);
 // }
-
 //sidebar name
 .titlebox h1.redditname a {
   font-size: 0;
@@ -137,7 +136,8 @@ $subscribers: " enjoying creators update";
   &[href$=Travis_MSFT],
   &[href$=caithartMSFT],
   &[href$=ClayMSFT],
-  &[href$=another_mike_msft] {
+  &[href$=another_mike_msft],
+  &[href$=JonTyrrell] {
     color: $color-win;
     font-weight: 700;
   }

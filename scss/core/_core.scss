@@ -8,10 +8,10 @@ $color-bg-main: #0078d7 !default;
 $color-bg-secondary: lighten($color-bg-main, 15%) !default;
 $color-bg-alt: #F85F73 !default;
 $color-bg-active: #1686f0 !default;
-$color-bg-light-hover: lighten($color-bg-alt, 31%) !default;
-$color-borders-light: #fee7ea !default;
+$color-bg-light-hover: #f8fcff !default;
+$color-borders-light: #e6edf6 !default;
 $color-borders-hover: #f9fafc !default;
-$color-border-left-hover: lighten($color-bg-alt, 20%) !default;
+$color-border-left-hover: #ccd4e8 !default;
 $color-win: #0078D7 !default;
 $color-mod: #00a64f;
 //transitions

@@ -536,7 +536,7 @@ form .spacer + .spacer {
 
 .link .usertext-body .md {
   border-radius: 0 !important;
-  border: 1px solid #fcc1c9;
+  border: 1px solid #ccd4e8;
   background-color: #fff; }
 
 body > .content #siteTable .thing.self .thumbnail {
@@ -592,7 +592,7 @@ a[href*="#icon-more"] {
   .link.last-clicked {
     border: 0;
     border-left: 3px solid #259eff;
-    background: #fff6f8; }
+    background: #f8fcff; }
   .link .score.likes {
     color: #259eff; }
   .link .score.dislikes {
@@ -720,7 +720,7 @@ a[href*="#icon-more"] {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #fee7ea; }
+  BORDER: 1px solid #e6edf6; }
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
@@ -1139,7 +1139,7 @@ a[href*="#icon-day"] {
       display: block;
       position: absolute;
       z-index: -1;
-      border-color: transparent #fee7ea transparent transparent;
+      border-color: transparent #e6edf6 transparent transparent;
       border-width: 10px;
       border-style: solid;
       content: "";
@@ -1162,9 +1162,9 @@ a[href*="#icon-day"] {
     padding: 10px;
       padding-top: 5px;
       padding-bottom: 5px;
-    border: 1px solid #fee7ea;
-      border-left: 5px solid #fee7ea;
-      border-right: 1px solid #fee7ea;
+    border: 1px solid #e6edf6;
+      border-left: 5px solid #e6edf6;
+      border-right: 1px solid #e6edf6;
       border-top: none;
       border-bottom: none;
       border-radius: 0;
@@ -1219,7 +1219,7 @@ a[href*="#icon-day"] {
   display: block;
   position: absolute;
   z-index: -1;
-  border-color: transparent #fee7ea transparent transparent;
+  border-color: transparent #e6edf6 transparent transparent;
   border-width: 10px;
   border-style: solid;
   content: "";
@@ -1227,9 +1227,9 @@ a[href*="#icon-day"] {
 
 div.side div.tagline {
   padding: 10px;
-  border: 1px solid #fee7ea;
-    border-left: 5px solid #fee7ea;
-    border-right: 1px solid #fee7ea;
+  border: 1px solid #e6edf6;
+    border-left: 5px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
     border-radius: 0;
   background-color: #fff;
   color: #000;
@@ -1240,9 +1240,9 @@ div.side div.tagline {
 
 div.side form.flairtoggle, div.side form.leavecontributor-button {
   padding: 10px;
-  border: 1px solid #fee7ea;
-    border-left: 5px solid #fee7ea;
-    border-right: 1px solid #fee7ea;
+  border: 1px solid #e6edf6;
+    border-left: 5px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
     border-radius: 0;
   background-color: #fff;
   color: #000;
@@ -1254,9 +1254,9 @@ div.side span.subscribers {
   padding: 10px;
     padding-top: 5px;
     padding-bottom: 10px;
-  border: 1px solid #fee7ea;
-    border-left: 5px solid #fee7ea;
-    border-right: 1px solid #fee7ea;
+  border: 1px solid #e6edf6;
+    border-left: 5px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
     border-radius: 0;
     border-top: none;
   margin: 0 5px 0 0;
@@ -1329,9 +1329,9 @@ div.side div.tagline {
 
 .reddit-link {
   padding: 7px 10px 10px;
-  border-left: 5px solid #fee7ea;
-  border-bottom: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-left: 5px solid #e6edf6;
+  border-bottom: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   margin-right: 5px;
   background-color: #fff;
   font-size: 1em; }
@@ -1340,10 +1340,10 @@ div.side div.tagline {
   display: block;
   margin: 0;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #fee7ea;
+  border-left: 5px solid #e6edf6;
   background-color: #fff;
-  border-bottom: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-bottom: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   margin-right: 5px !important; }
 
 .search-page .side .spacer {
@@ -1394,16 +1394,16 @@ div.titlebox .md ul li {
   display: block;
   background-color: #fff;
   padding: 7px 10px 10px !important;
-  border-left: 5px solid #fee7ea;
-  border-bottom: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-left: 5px solid #e6edf6;
+  border-bottom: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   margin: 0;
     margin-right: 5px !important;
   font-size: 0.945em; }
   .sidecontentbox .content a.author:hover,
   .sidecontentbox .more:hover {
-    background-color: #fff6f8;
-    border-left-color: #fcc1c9; }
+    background-color: #f8fcff;
+    border-left-color: #ccd4e8; }
 
 .sidecontentbox .content {
   border: none;
@@ -1443,8 +1443,8 @@ div.titlebox .md ul li {
 
 .icon-menu li:hover,
 .reddit-link:hover {
-  background-color: #fff6f8;
-  border-left-color: #fcc1c9; }
+  background-color: #f8fcff;
+  border-left-color: #ccd4e8; }
 
 div.titlebox .md h3:before {
   content: "+";
@@ -1466,14 +1466,14 @@ div.titlebox .md h4 {
 div.titlebox .md ul li {
   background-color: #fff;
   padding: 7px 10px 10px;
-  border-bottom: 1px solid #fee7ea;
-  border-left: 5px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-bottom: 1px solid #e6edf6;
+  border-left: 5px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   font-size: 0.945em;
   transition: .2s; }
   div.titlebox .md ul li:hover {
-    background-color: #fff6f8;
-    border-left-color: #fcc1c9; }
+    background-color: #f8fcff;
+    border-left-color: #ccd4e8; }
 
 div.titlebox h1 {
   border-left: 5px solid #F85F73;
@@ -1558,8 +1558,8 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 #searchexpando {
   padding: 10px;
-  border: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   background-color: #fff;
   color: #000;
   font-size: 8pt;
@@ -1567,7 +1567,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   font-weight: 400;
   margin: 0 5px 0 0;
   width: 273px !important;
-  border-left: 1px solid #fee7ea; }
+  border-left: 1px solid #e6edf6; }
 
 .leavemoderator,
 .users-online,
@@ -1605,10 +1605,10 @@ div.titlebox .md h3:hover + ul {
   .linkinfo .score,
   .linkinfo .shortlink {
     color: #494949;
-    border-left: 5px solid #fee7ea;
+    border-left: 5px solid #e6edf6;
     background-color: #fff;
-    border-bottom: 1px solid #fee7ea;
-    border-right: 1px solid #fee7ea;
+    border-bottom: 1px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
     font-size: 8pt;
     margin-right: 5px; }
   .linkinfo .score {
@@ -1640,7 +1640,7 @@ div.titlebox .md h3:hover + ul {
     display: block;
     position: absolute;
     z-index: -1;
-    border-color: transparent #fee7ea transparent transparent;
+    border-color: transparent #e6edf6 transparent transparent;
     border-width: 10px;
     border-style: solid;
     content: "";
@@ -1650,10 +1650,10 @@ div.titlebox .md h3:hover + ul {
     display: block;
     background-color: #fff;
     padding: 7px 0 10px 10px;
-    border-left: 5px solid #fee7ea;
-    border-bottom: 1px solid #fee7ea;
+    border-left: 5px solid #e6edf6;
+    border-bottom: 1px solid #e6edf6;
     margin: -6px 5px -10px 0;
-    border-right: 1px solid #fee7ea; }
+    border-right: 1px solid #e6edf6; }
   .date span,
   .date time {
     color: #494949;
@@ -1672,9 +1672,9 @@ div.titlebox .md h3:hover + ul {
   text-transform: capitalize;
   margin-top: 0;
   padding: 7px 10px 10px;
-  border-left: 5px solid #fee7ea;
-  border-bottom: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-left: 5px solid #e6edf6;
+  border-bottom: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   font-size: 8pt !important;
   margin-right: 5px; }
 
@@ -2312,7 +2312,7 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] .linkinfo .shortlink:hover,
   html[lang^=nm] div.titlebox .md ul li:hover {
     background-color: #393939 !important;
-    border-left-color: #fcc1c9 !important; }
+    border-left-color: #ccd4e8 !important; }
 
 .res-nightmode div.side div.leavemoderator,
 .res-nightmode div.side p.users-online,
@@ -2429,7 +2429,7 @@ html[lang^=nm] .listing-page .link:hover {
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
-  border-left-color: #fcc1c9 !important; }
+  border-left-color: #ccd4e8 !important; }
 
 .res-nightmode .titlebox h1:after,
 .res-nightmode div.titlebox .sidecontentbox .title:after,
@@ -2933,7 +2933,7 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
     border: 3px solid #8bb9e2;
     pointer-events: none; }
 
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft] {
+.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell] {
   color: #0078D7;
   font-weight: 700; }
 
@@ -3236,8 +3236,8 @@ a[href*='#square-feature']::before, a[href*='#square-request']::before {
   padding: 2px 10px 5px;
   border-left: 5px solid #f5c684;
   background-color: #fef8f1;
-  border-bottom: 1px solid #fee7ea;
-  border-right: 1px solid #fee7ea;
+  border-bottom: 1px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
   font-size: 10px;
   margin: 0 5px 0 0;
   color: #222; }
