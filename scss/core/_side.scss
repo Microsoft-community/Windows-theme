@@ -324,9 +324,7 @@ div.side {
         }
         &:after {
             content: '- Moderator';
-            font-size: 0.945em;
             margin-left: 5px;
-            color: $color-bg-main;
         }
     }
     .flair {
@@ -611,7 +609,7 @@ div.titlebox .md h3+ul {
     transition: 1.8s max-height ease-out;
     overflow: hidden;
     max-height: 0;
-    transition-delay: 5s;
+    transition-delay: 2s;
 }
 
 div.titlebox .md h3:hover+ul {

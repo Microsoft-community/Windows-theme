@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        ".vscode": true,
+        ".sass-cache": true,
+        "node_modules": true
+    }
+}

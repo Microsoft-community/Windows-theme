@@ -1,0 +1,47 @@
+//colors
+$color-bg-main: #3f487f;
+$color-bg-secondary: #29384f;
+// $color-bg-alt: #EA5455;
+// $color-bg-light-hover: #fffafa;
+// $color-borders-light: #d7ecff;
+// $color-border-left-hover: #eea7aa;
+@import 'core/core',
+'core/side',
+'core/profile',
+'core/stickies',
+'core/nightmode',
+'core/RES',
+'core/footer';
+// @import 'windows/wincore';
+//moderators
+.helplink~.content .author {
+  // &[href*=#{$head-mod}]:after {
+  //   content: '- Head Moderator';
+  // }
+  &[href*=Jaskys]:after {
+    content: '- Designer';
+  }
+}
+
+.pagename {
+    margin: 0 15px 0 0;
+    display: inline-block;
+    font-size: 70px;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 46px;
+    text-transform: capitalize;
+    font-family: $font-main;
+    bottom: 69px;
+    position: absolute;
+    left: 10px;
+    a:hover {
+        text-decoration: none;
+    }
+    a:before {
+        content: "/r/";
+        color: #ddd;
+        text-transform: lowercase;
+    }
+}
