@@ -1,6 +1,6 @@
 [![Discord][discord]][discord-url]
 
-[discord]: https://discordapp.com/api/guilds/150662382874525696/widget.png
+[discord]: https://discordapp.com/api/guilds/150662382874525696/embed.png?style=banner3&t=201705120029
 
 [discord-url]: https://discord.gg/Microsoft
 
