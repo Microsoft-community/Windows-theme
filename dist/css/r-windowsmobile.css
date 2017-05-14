@@ -2040,7 +2040,7 @@ html[lang^=nm] body {
 
 .res-nightmode #sr-header-area,
 html[lang^=nm] #sr-header-area {
-  background-color: #0C1722; }
+  background-color: #0C1722 !important; }
 
 .res-nightmode a,
 html[lang^=nm] a {
