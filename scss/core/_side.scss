@@ -735,3 +735,15 @@ div.titlebox .md h3:hover+ul {
         padding: 10px 70px;
     }
 }
+
+//viewership module
+.side .views {
+    color: #494949;
+    border: {
+        left: 5px solid $color-borders-light;
+        bottom: 1px solid $color-borders-light;
+        right: 1px solid $color-borders-light;
+    }
+    margin-right: 5px;
+    padding: 7px 10px;
+}

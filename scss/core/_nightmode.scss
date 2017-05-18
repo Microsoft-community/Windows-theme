@@ -58,7 +58,8 @@ html[lang^=nm] {
     .linkinfo .shortlink,
     .side .titlebox>.fancy-toggle-button,
     .edit-stylesheet.choice:after,
-    .wiki-page .wiki-page-content {
+    .wiki-page .wiki-page-content,
+    .side .views {
         color: $nm-color-text !important;
     }
     .date {
@@ -172,7 +173,8 @@ html[lang^=nm] {
     .reddit-link,
     .linkinfo .score,
     .linkinfo .shortlink,
-    div.titlebox .md ul li {
+    div.titlebox .md ul li,
+    .side .views {
         border-bottom: 1px solid $nm-color-bg-secondary !important;
         border-left: 5px solid $nm-color-bg-secondary !important;
         border-right: 1px solid $nm-color-bg-secondary !important;

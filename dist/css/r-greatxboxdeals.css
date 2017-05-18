@@ -1674,6 +1674,14 @@ div.titlebox .md h3:hover + ul {
     color: #fff;
     padding: 10px 70px; }
 
+.side .views {
+  color: #494949;
+  border-left: 5px solid #e6f8e0;
+  border-bottom: 1px solid #e6f8e0;
+  border-right: 1px solid #e6f8e0;
+  margin-right: 5px;
+  padding: 7px 10px; }
+
 #header #header-bottom-right {
   background: 0 0;
   bottom: -18px;
@@ -2103,13 +2111,15 @@ html[lang^=nm] .md code {
 .res-nightmode .side .titlebox > .fancy-toggle-button,
 .res-nightmode .edit-stylesheet.choice:after,
 .res-nightmode .wiki-page .wiki-page-content,
+.res-nightmode .side .views,
 html[lang^=nm] .commentingAs,
 html[lang^=nm] .date time,
 html[lang^=nm] .linkinfo .score,
 html[lang^=nm] .linkinfo .shortlink,
 html[lang^=nm] .side .titlebox > .fancy-toggle-button,
 html[lang^=nm] .edit-stylesheet.choice:after,
-html[lang^=nm] .wiki-page .wiki-page-content {
+html[lang^=nm] .wiki-page .wiki-page-content,
+html[lang^=nm] .side .views {
   color: #ddd !important; }
 
 .res-nightmode .date span,
@@ -2249,6 +2259,7 @@ html[lang^=nm] .sidecontentbox a.helplink {
 .res-nightmode .linkinfo .score,
 .res-nightmode .linkinfo .shortlink,
 .res-nightmode div.titlebox .md ul li,
+.res-nightmode .side .views,
 html[lang^=nm] div #searchexpando,
 html[lang^=nm] .icon-menu li,
 html[lang^=nm] .totalvotes,
@@ -2258,7 +2269,8 @@ html[lang^=nm] .sidecontentbox .more,
 html[lang^=nm] .reddit-link,
 html[lang^=nm] .linkinfo .score,
 html[lang^=nm] .linkinfo .shortlink,
-html[lang^=nm] div.titlebox .md ul li {
+html[lang^=nm] div.titlebox .md ul li,
+html[lang^=nm] .side .views {
   border-bottom: 1px solid #393939 !important;
   border-left: 5px solid #393939 !important;
   border-right: 1px solid #393939 !important;
@@ -2274,6 +2286,7 @@ html[lang^=nm] div.titlebox .md ul li {
   .res-nightmode .linkinfo .score:hover,
   .res-nightmode .linkinfo .shortlink:hover,
   .res-nightmode div.titlebox .md ul li:hover,
+  .res-nightmode .side .views:hover,
   html[lang^=nm] div #searchexpando:hover,
   html[lang^=nm] .icon-menu li:hover,
   html[lang^=nm] .totalvotes:hover,
@@ -2283,7 +2296,8 @@ html[lang^=nm] div.titlebox .md ul li {
   html[lang^=nm] .reddit-link:hover,
   html[lang^=nm] .linkinfo .score:hover,
   html[lang^=nm] .linkinfo .shortlink:hover,
-  html[lang^=nm] div.titlebox .md ul li:hover {
+  html[lang^=nm] div.titlebox .md ul li:hover,
+  html[lang^=nm] .side .views:hover {
     background-color: #393939 !important;
     border-left-color: #b0f5b0 !important; }
 
