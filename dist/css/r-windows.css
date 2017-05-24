@@ -3473,11 +3473,8 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   90% {
     transform: scale(0.9); } }
 
-.helplink ~ .content .author[href*=Jaskys]::after {
-  content: '- Designer';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #0078d7; }
+.helplink ~ .content .author[href*=Jaskys]:after {
+  content: '- Designer'; }
 
 .flair-jansmall:before {
   content: "";

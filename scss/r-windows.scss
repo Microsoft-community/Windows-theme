@@ -15,11 +15,11 @@ $tabmenu-offset: 163px;
 //color #1570A6
 //moderators
 .helplink~.content .author {
-  &[href*=Jaskys]::after {
+  // &[href*=#{$head-mod}]:after {
+  //   content: '- Head Moderator';
+  // }
+  &[href*=Jaskys]:after {
     content: '- Designer';
-    font-size: 0.945em;
-    margin-left: 5px;
-    color: $color-bg-main;
   }
 }
 
