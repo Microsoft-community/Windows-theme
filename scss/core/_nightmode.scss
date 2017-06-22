@@ -287,6 +287,13 @@ html[lang^=nm] {
             border-left-color: #a9a9a9 !important;
         }
     }
+	//tables
+	tr:nth-child(even) {
+		background-color: #050505;
+	}
+	.md th, .md td {
+		border-color: #2D2E32!important;
+	}
     //sidebar
     div.titlebox {
         .md {
