@@ -2413,6 +2413,15 @@ html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
   border-left-color: #a9a9a9 !important; }
 
+.res-nightmode tr:nth-child(even),
+html[lang^=nm] tr:nth-child(even) {
+  background-color: #050505; }
+
+.res-nightmode .md th, .res-nightmode .md td,
+html[lang^=nm] .md th,
+html[lang^=nm] .md td {
+  border-color: #2D2E32 !important; }
+
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
