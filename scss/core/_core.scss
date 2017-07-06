@@ -358,6 +358,15 @@ button:active,
   .likes {
     color: $color-bg-main;
   }
+  .submitter {
+    color: $color-bg-alt;
+  }
+  .stickied-tagline {
+    color: $color-mod;
+  }
+  a:hover {
+    color: $color-bg-secondary;
+  }
 }
 
 .entry .flat-list .reply-button a {
@@ -828,13 +837,13 @@ a[href*="#icon-more"] {
     margin-left: -10px;
   }
 }
+
 // 05-12 causes fullscreen bug for videos and RES content
 // .listing-page .linklisting {
 //   -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 //   -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 //   animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 // }
-
 // @-webkit-keyframes fade-in-fwd {
 //   0% {
 //     -webkit-transform: translateZ(-80px);
@@ -847,7 +856,6 @@ a[href*="#icon-more"] {
 //     opacity: 1
 //   }
 // }
-
 // @keyframes fade-in-fwd {
 //   0% {
 //     -webkit-transform: translateZ(-80px);
@@ -860,7 +868,6 @@ a[href*="#icon-more"] {
 //     opacity: 1
 //   }
 // }
-
 .report-reasons.rounded {
   display: block!important;
 }
@@ -1065,15 +1072,6 @@ a.author {
 
 .entry .flat-list .approve-button a {
   color: $color-mod;
-}
-
-.tagline {
-  .stickied-tagline {
-    color: $color-mod;
-  }
-  a:hover {
-    color: $color-bg-secondary !important;
-  }
 }
 
 .gold-accent {

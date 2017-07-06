@@ -274,6 +274,15 @@ button:active,
 .tagline .likes {
   color: #0078d7; }
 
+.tagline .submitter {
+  color: #F85F73; }
+
+.tagline .stickied-tagline {
+  color: #00a64f; }
+
+.tagline a:hover {
+  color: #259eff; }
+
 .entry .flat-list .reply-button a {
   color: #0078d7; }
 
@@ -789,12 +798,6 @@ a.author {
 
 .entry .flat-list .approve-button a {
   color: #00a64f; }
-
-.tagline .stickied-tagline {
-  color: #00a64f; }
-
-.tagline a:hover {
-  color: #259eff !important; }
 
 .gold-accent {
   background-color: #0078d7;
