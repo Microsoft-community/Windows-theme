@@ -624,27 +624,6 @@ a[href*="#icon-more"] {
   margin-left: -5px;
   text-transform: capitalize; }
 
-.linklisting .nextprev {
-  font-size: 0; }
-
-.linklisting .stickied {
-  border-left: 3px solid #00a64f;
-  background: #f8fffb; }
-
-.linklisting .over18 {
-  background: rgba(226, 6, 44, 0.1);
-  border-left: 3px solid #e2062c; }
-
-.linklisting .reported {
-  background: rgba(226, 6, 44, 0.1);
-  border-left: 3px solid #e2062c; }
-
-.linklisting .md {
-  margin-bottom: 0; }
-
-.linklisting .usertext-edit div textarea {
-  margin-left: -10px; }
-
 .report-reasons.rounded {
   display: block !important; }
 
@@ -681,6 +660,19 @@ a[href*="#icon-more"] {
   margin-top: -7px;
   padding: 0;
   border-right: 1px solid #e5e5e5; }
+  .linklisting .nextprev {
+    font-size: 0; }
+  .linklisting .stickied {
+    border-left: 3px solid #00a64f !important;
+    background: #f8fffb !important; }
+  .linklisting .over18,
+  .linklisting .reported {
+    background: rgba(226, 6, 44, 0.1);
+    border-left: 3px solid #e2062c; }
+  .linklisting .md {
+    margin-bottom: 0; }
+  .linklisting .usertext-edit div textarea {
+    margin-left: -10px; }
 
 .entry .buttons li a {
   padding: 0px;
@@ -3125,15 +3117,15 @@ html:lang(nh) .linkflair-help {
     display: none; }
 
 .listing-page .linkflair-discussion {
-  border-left: 3px solid #ff9e00 !important;
+  border-left: 3px solid #ff9e00;
   background: rgba(255, 158, 0, 0.1); }
 
 .listing-page .linkflair-tip {
-  border-left: 3px solid #468966 !important;
+  border-left: 3px solid #468966;
   background: rgba(70, 137, 102, 0.1); }
 
 .listing-page .linkflair-news {
-  border-left: 3px solid #F2385A !important;
+  border-left: 3px solid #F2385A;
   background: rgba(242, 56, 90, 0.1); }
 
 .comments-page .link.linkflair-solved {
