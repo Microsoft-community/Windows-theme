@@ -189,23 +189,23 @@ a[href$='AutoModerator'].author {
     font-size: 0pt;
 }
 
-a[href*='#mb-discord']::before {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    content: '';
-    margin: 0 7px -4px 0;
-    background: url(%%discord%%) -5px -5px;
-}
+// a[href*='#mb-discord']::before {
+//     display: inline-block;
+//     height: 20px;
+//     width: 20px;
+//     content: '';
+//     margin: 0 7px -4px 0;
+//     background: url(%%discord%%) -5px -5px;
+// }
 
-a[href*='#mb-discordn']::before {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    content: '';
-    margin: 0 7px -4px 0;
-    background: url(%%discord%%) -35px -5px;
-}
+// a[href*='#mb-discordn']::before {
+//     display: inline-block;
+//     height: 20px;
+//     width: 20px;
+//     content: '';
+//     margin: 0 7px -4px 0;
+//     background: url(%%discord%%) -35px -5px;
+// }
 
 //nav promoted subs
 a[href$="Windows10#2"] {

@@ -467,7 +467,7 @@ html[lang^=nm] {
     //threads
     #siteTable .thing,
     .link.promotedlink {
-        background: $nm-color-milddark;
+        background: $nm-color-milddark !important;
     }
     .organic-listing {
         background: none !important;

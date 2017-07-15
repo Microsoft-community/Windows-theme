@@ -2633,7 +2633,7 @@ html[lang^=nm] a[href*="#iconz-wiki"]::before {
 .res-nightmode .link.promotedlink,
 html[lang^=nm] #siteTable .thing,
 html[lang^=nm] .link.promotedlink {
-  background: #202020; }
+  background: #202020 !important; }
 
 .res-nightmode .organic-listing,
 html[lang^=nm] .organic-listing {
