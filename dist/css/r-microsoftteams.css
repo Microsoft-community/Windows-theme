@@ -979,7 +979,8 @@ a[href*="#tech"] {
   color: #fff;
   font-size: 16px;
   transition: background-color .5s;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
     background: #29384f; }
 
@@ -1272,7 +1273,8 @@ div.side div.tagline {
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .morelink a {
     color: #fff;
     font-family: "Segoe UI", Helvetica, sans-serif;
@@ -1401,7 +1403,8 @@ div.titlebox .md ul li {
   margin-top: 4px;
   clear: both;
   text-align: center;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
     background: #29384f; }
 
@@ -1464,7 +1467,8 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 0;
   font-weight: 400;
   margin: 0;
-  border: none; }
+  border: none;
+  border-radius: 2px; }
 
 div.titlebox div.styleToggle {
   background-color: #3f487f;
@@ -1662,7 +1666,8 @@ div.titlebox .md h3:hover + ul {
 .account-activity-box {
   display: block !important;
   background: #3f487f;
-  margin-right: 5px; }
+  margin-right: 5px;
+  border-radius: 2px; }
   .account-activity-box:hover {
     background: #29384f; }
   .account-activity-box a {

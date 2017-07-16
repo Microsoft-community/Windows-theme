@@ -979,7 +979,8 @@ a[href*="#tech"] {
   color: #fff;
   font-size: 16px;
   transition: background-color .5s;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
     background: #259eff; }
 
@@ -1272,7 +1273,8 @@ div.side div.tagline {
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .morelink a {
     color: #fff;
     font-family: "Segoe UI", Helvetica, sans-serif;
@@ -1401,7 +1403,8 @@ div.titlebox .md ul li {
   margin-top: 4px;
   clear: both;
   text-align: center;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
     background: #259eff; }
 
@@ -1464,7 +1467,8 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 0;
   font-weight: 400;
   margin: 0;
-  border: none; }
+  border: none;
+  border-radius: 2px; }
 
 div.titlebox div.styleToggle {
   background-color: #0078d7;
@@ -1662,7 +1666,8 @@ div.titlebox .md h3:hover + ul {
 .account-activity-box {
   display: block !important;
   background: #0078d7;
-  margin-right: 5px; }
+  margin-right: 5px;
+  border-radius: 2px; }
   .account-activity-box:hover {
     background: #259eff; }
   .account-activity-box a {
@@ -3302,28 +3307,27 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   z-index: 1;
   text-indent: -9999px;
   background-image: url(%%discord%%);
+  background-position: -5px -5px;
   position: relative;
   height: 90px;
   width: 295px;
   display: block;
-  margin: 15px 0px;
-  border-radius: 1px;
-  background-position: -5px -5px; }
-
-.side .md a[href="https://discord.gg/microsoft"]:after {
-  content: "";
-  background-image: url(%%discord%%);
-  background-position: -5px -105px;
-  transition: ease-out opacity 0.7s;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
-
-.side .md a[href="https://discord.gg/microsoft"]:hover::after {
-  opacity: 1; }
+  margin: 10px 0px;
+  border-radius: 3px; }
+  .side .md a[href="https://discord.gg/microsoft"]:after {
+    content: "";
+    background-image: url(%%discord%%);
+    background-position: -5px -105px;
+    transition: ease-out opacity 0.7s;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px; }
+  .side .md a[href="https://discord.gg/microsoft"]:hover::after {
+    opacity: 1; }
 
 .post-submitter .link:not(.linkflair) .flairselectbtn {
   display: block !important;
