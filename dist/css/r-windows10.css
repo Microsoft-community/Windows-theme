@@ -1459,7 +1459,8 @@ div.titlebox h1 {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #259eff;
+  background-color: #F85F73;
+  transition: background-color .5s;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -3065,23 +3066,23 @@ html:lang(nh) .linkflair-help {
 
 .listing-page .linkflair-discussion {
   border-left: 3px solid #ff9e00;
-  background: rgba(255, 158, 0, 0.1); }
+  background: rgba(255, 158, 0, 0.05); }
 
 .listing-page .linkflair-tip {
   border-left: 3px solid #468966;
-  background: rgba(70, 137, 102, 0.1); }
+  background: rgba(70, 137, 102, 0.05); }
 
 .listing-page .linkflair-news {
   border-left: 3px solid #F2385A;
-  background: rgba(242, 56, 90, 0.1); }
+  background: rgba(242, 56, 90, 0.05); }
 
 .listing-page .linkflair-official {
   border-left: 3px solid #2086bf;
-  background: rgba(32, 134, 191, 0.1); }
+  background: rgba(32, 134, 191, 0.05); }
 
 .listing-page .linkflair-update {
   border-left: 3px solid #0078d7;
-  background: rgba(0, 120, 215, 0.1); }
+  background: rgba(0, 120, 215, 0.05); }
 
 .res-nightmode .side .md blockquote,
 html[lang^=nm] .side .md blockquote {

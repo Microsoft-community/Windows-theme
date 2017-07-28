@@ -484,7 +484,8 @@ div.titlebox {
     div.styleToggle,
     span.fancy-toggle-button a.active {
         padding: 5px 10px;
-        background-color: $color-bg-secondary;
+        background-color: $color-bg-alt;
+        transition: background-color .5s;
         color: #fff;
         font-size: 8pt;
         display: block !important;

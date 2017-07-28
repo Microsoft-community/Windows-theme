@@ -241,7 +241,7 @@ html:lang(nh) {
     .listing-page {
       .#{$prefix}#{nth($i, 1)} {
         border-left: 3px solid nth($i, 2);
-        background: rgba(nth($i, 2), .1);
+        background: rgba(nth($i, 2), .05);
       }
     }
   }
