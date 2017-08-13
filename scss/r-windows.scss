@@ -1,7 +1,6 @@
 //variables
 $sub-name: "Windows";
 $tabmenu-offset: 163px;
-
 //assets
 @import 'core/core',
 'core/side',
@@ -15,11 +14,17 @@ $tabmenu-offset: 163px;
 //color #1570A6
 //moderators
 .helplink~.content .author {
-  // &[href*=#{$head-mod}]:after {
-  //   content: '- Head Moderator';
-  // }
   &[href*=Jaskys]:after {
-    content: '- Designer';
+    content: '- Developer & designer';
+  }
+  &[href*=dAKirby309]:after {
+    content: '- Graphic designer';
+  }
+  &[href*=TheTimeWalker]:after {
+    content: '- Assisting developer';
+  }
+  &[href*=tinytaco8]:after {
+    content: '- Discord moderator';
   }
 }
 
@@ -58,6 +63,8 @@ a[href$="WindowsApps#2"] {
     border-color: #fff!important;
   }
 }
+
+
 /*
 
     Mod tools reason leaver

@@ -813,6 +813,7 @@ a[href*="#icon-more"] {
   margin-left: -5px;
   text-transform: capitalize;
 }
+
 // FIXME: 05-12 causes fullscreen bug for videos and RES content
 // .listing-page .linklisting {
 //   -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -1423,4 +1424,14 @@ body:lang(np):not(.subscriber) .arrow {
 //light mode hiding
 a[href*="#icon-day"] {
   display: none;
+}
+
+//video uploads support
+.pinnable-content {
+  .thing {
+    border-bottom: 0px;
+  }
+  &.pinned {
+    background-color: rgba(248, 248, 248, 0.95)!important;
+  }
 }

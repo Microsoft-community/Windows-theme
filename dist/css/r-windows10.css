@@ -1070,6 +1070,12 @@ body:lang(np):not(.subscriber) .arrow {
 a[href*="#icon-day"] {
   display: none; }
 
+.pinnable-content .thing {
+  border-bottom: 0px; }
+
+.pinnable-content.pinned {
+  background-color: rgba(248, 248, 248, 0.95) !important; }
+
 .side {
   margin: 0;
   padding-left: 30px;
@@ -3386,7 +3392,16 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     transform: scale(0.9); } }
 
 .helplink ~ .content .author[href*=Jaskys]:after {
-  content: '- Designer'; }
+  content: '- Developer & designer'; }
+
+.helplink ~ .content .author[href*=dAKirby309]:after {
+  content: '- Graphic designer'; }
+
+.helplink ~ .content .author[href*=TheTimeWalker]:after {
+  content: '- Assisting developer'; }
+
+.helplink ~ .content .author[href*=tinytaco8]:after {
+  content: '- Discord moderator'; }
 
 a[href$="WindowsApps#2"] {
   position: absolute;

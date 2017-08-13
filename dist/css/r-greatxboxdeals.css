@@ -1070,6 +1070,12 @@ body:lang(np):not(.subscriber) .arrow {
 a[href*="#icon-day"] {
   display: none; }
 
+.pinnable-content .thing {
+  border-bottom: 0px; }
+
+.pinnable-content.pinned {
+  background-color: rgba(248, 248, 248, 0.95) !important; }
+
 .side {
   margin: 0;
   padding-left: 30px;
