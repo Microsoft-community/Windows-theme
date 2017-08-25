@@ -1,9 +1,10 @@
 [**Subreddit theme is disabled, let us know why so we can improve it, message us.**](https://www.reddit.com/message/compose?to=%2Fr%2Fwindows10&subject=Design%20feedback)
 
-* [Community chat server](https://discord.gg/Microsoft#icon-chat)
 * [Give Windows feedback](https://insider.windows.com/FeedbackHub/fb#icon-feedback "Opens Windows 10 feedback application")
-* [Github repository](https://github.com/Jasius/Windows-theme#icon-feedback2) | [Suggestions board](https://github.com/Jasius/w10-refactor/projects/1)
+* [GitHub repository](https://github.com/Jasius/Windows-theme#icon-feedback2) 
 * [Night Light](https://goo.gl/sj9EPd#icon-night) [Light Mode](https://www.reddit.com/r/Windows10#icon-day)
+
+[Microsoft Community Chat](https://discord.gg/microsoft)
 
 ##Helpful resources
 * [Tips and tricks](https://www.reddit.com/r/Windows10/wiki/tipsandtricks#iconz-tips)
@@ -35,13 +36,9 @@
 
 * [Windows Mobile](/r/WindowsMobile) - dedicated to Windows Mobile OS and discussions about it.
 
-* [Windows Phone](/r/Windowsphone) - dedicated to Windows Phone OS and discussions about it.
-
 * [Windows Insiders](/r/WindowsInsiders) - dedicated to Windows Insider program,  WI builds troubleshooting.
 
 * [Windows Apps](/r/Windowsapps) - dedicated to Windows10 UWP apps.
-
-* [Holo Lens](/r/hololens/) -  dedicated to news and discussions about Windows Holographic and HoloLens.
 
 * [Xbox One](/r/XboxOne) - dedicated to Xbox One console and its peripherals, news and discussions.
 
@@ -74,9 +71,8 @@
 
 * [Apple](/r/Apple) - Apple devices, services discussions.
 
+* [WindowsUI](/r/Win10_UI)
+
 [](#/RES_SR_Config/NightModeCompatible)
 
-
-1. [~~Community Redstone 3 wishlist~~](https://redd.it/5y989k#sticky)
-
-2. [~~ShareX Developer AMA~~](https://redd.it/5yxzlw#stickyg)
+1. [~~Creators Update megathread~~](https://redd.it/64q90z#sticky)

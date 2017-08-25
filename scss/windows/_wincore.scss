@@ -144,7 +144,9 @@ $subscribers: " enjoying creators update";
   &[href$=MSFTJesse],
   &[href$=paulcam],
   &[href$=shanselman],
-  &[href$=ryanb_msft] {
+  &[href$=ryanb_msft],
+  &[href$=zadjii],
+  &[href$=WindowsDocs_Quinn] {
     color: $color-win;
     font-weight: 700;
   }
@@ -168,333 +170,30 @@ $subscribers: " enjoying creators update";
   }
 }
 
-//flairs 
-html:lang(nh) {
-  .linkflair-bug,
-  .linkflair-help {
-    display: none !important;
-  }
-}
-
 .flairselector {
   background-color: #fff;
 }
 
-.linkflair-help .linkflairlabel {
-  background-color: #FF6138;
-  border-color: #FF6138;
-}
-
-.linkflair-solved .linkflairlabel {
-  background-color: #008a00;
-  border-color: #008a00;
-}
-
-.linkflair-unresolved .linkflairlabel {
-  background-color: #FF7D4D;
-  border-color: #FF7D4D;
-}
-
-.linkflair-bug .linkflairlabel {
-  background-color: #ce352c;
-  border-color: #ce352c;
-}
-
-.linkflair-update .linkflairlabel {
-  background-color: $color-win;
-  border-color: $color-win;
-}
-
-.linkflair-feature .linkflairlabel {
-  background-color: #00aba9;
-  border-color: #00aba9;
-}
-
-.linkflair-discussion .linkflairlabel {
-  background-color: #ff9e00;
-  border-color: #ff9e00;
-}
-
-.linkflair-hardware .linkflairlabel {
-  background-color: #f0a30a;
-  border-color: #f0a30a;
-}
-
-.linkflair-tip .linkflairlabel {
-  background-color: #468966;
-  border-color: #468966;
-}
-
-.linkflair-meta .linkflairlabel {
-  background-color: #4390df;
-  border-color: #4390df;
-}
-
-.linkflair-app .linkflairlabel {
-  background-color: #bf5a15;
-  border-color: #bf5a15;
-}
-
-.linkflair-gaming .linkflairlabel {
-  background-color: #107c10;
-  border-color: #107c10;
-}
-
-.linkflair-question .linkflairlabel {
-  background-color: #008a00;
-  border-color: #008a00;
-}
-
-.linkflair-news .linkflairlabel {
-  background-color: #F2385A;
-  border-color: #F2385A;
-}
-
-.linkflair-official .linkflairlabel {
-  background-color: #2086bf;
-  border-color: #2086bf;
-}
-
-.linkflair-oc .linkflairlabel {
-  background-color: #76608a;
-  border-color: #76608a;
-}
-
-.linkflair-concept .linkflairlabel {
-  background-color: #14B6F5;
-  border-color: #14B6F5;
-}
-
-.linkflair-request .linkflairlabel {
-  background-color: #00aba9;
-  border-color: #00aba9;
-}
-
-//sidebar flair filters
-.side a {
-  &[href*='#update'],
-  &[href*='#official'],
-  &[href*='#news'],
-  &[href*='#help'],
-  &[href*='#solved'],
-  &[href*='#unresolved'],
-  &[href*='#bug'],
-  &[href*='#feature'],
-  &[href*='#discussion'],
-  &[href*='#hardware'],
-  &[href*='#tip'],
-  &[href*='#meta'],
-  &[href*='#gaming'],
-  &[href*='#app'],
-  &[href*='#original%20content'],
-  &[href*='#concept'],
-  &[href*='#request'],
-  &[href*='#question'],
-  &[href*='#hideflair'],
-  &[href*='#hidehelp'] {
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    font-size: 80%;
-    padding: 3px 10px;
-    color: #fff;
-    margin: 3px;
-  }
-  &[href*='#official'] {
-    background: #2086bf;
-  }
-  &[href*='#news'] {
-    background: #F2385A;
-  }
-  &[href*='#help'] {
-    background: #FF6138;
-  }
-  &[href*='#solved'] {
-    background: #008a00;
-  }
-  &[href*='#unresolved'] {
-    background: #FF7D4D;
-  }
-  &[href*='#bug'] {
-    background: #ce352c;
-  }
-  &[href*='#update'] {
-    background: #81003c;
-  }
-  &[href*='#feature'] {
-    background: #00aba9;
-  }
-  &[href*='#discussion'] {
-    background: #bf5a15;
-  }
-  &[href*='#hardware'] {
-    background: #f0a30a;
-  }
-  &[href*='#tip'] {
-    background: #468966;
-  }
-  &[href*='#meta'] {
-    background: #4390df;
-  }
-  &[href*='#gaming'] {
-    background: #76608a;
-  }
-  &[href*='#app'] {
-    background: #bf5a15;
-  }
-  &[href*='#original%20content'] {
-    background: #0B9C67;
-  }
-  &[href*='#concept'] {
-    background: #14B6F5;
-  }
-  &[href*='#request'] {
-    background: #00aba9;
-  }
-  &[href*='#question'] {
-    background: #008a00;
-  }
-  &[href*='#hideflair'],
-  &[href*='#hidehelp'] {
-    background: #E42608;
-  }
-  &[href*='#update']:hover,
-  &[href*='#official']:hover,
-  &[href*='#news']:hover,
-  &[href*='#help']:hover,
-  &[href*='#solved']:hover,
-  &[href*='#unresolved']:hover,
-  &[href*='#bug']:hover,
-  &[href*='#feature']:hover,
-  &[href*='#discussion']:hover,
-  &[href*='#hardware']:hover,
-  &[href*='#tip']:hover,
-  &[href*='#meta']:hover,
-  &[href*='#gaming']:hover,
-  &[href*='#app']:hover,
-  &[href*='#original%20content']:hover,
-  &[href*='#concept']:hover,
-  &[href*='#request']:hover,
-  &[href*='#question']:hover,
-  &[href='']:hover {
-    opacity: 0.8;
+//sidebar flair filters and listing link flairs
+@mixin flairs($colors...) {
+  @each $i in $colors {
+    .side a[href*='#square-#{nth($i, 1)}']:before,
+    .linkflair-#{nth($i, 1)} .linkflairlabel {
+      background: nth($i, 2);
+    }
   }
 }
 
-.flair-special {
-  margin: 0 4px 4px 0;
-  padding: 0 11px 1px;
-  border-width: 1px;
-  border-radius: 1px;
-  color: #fff;
-  font-weight: 700;
-  background-color: #008a00;
-  border-color: #008a00;
-}
-
-.linkflairlabel {
-  margin: 0 4px -2px 0;
-  padding: 0 4px 1px;
-  vertical-align: -2px;
-  color: #fff;
-  font-weight: 400;
-  font-size: 10px;
-  font-family: $font-main;
-  pointer-events: none;
-  border-width: 3px;
-  border-radius: 1px;
-  pointer-events: none;
-  &:lang(nf) {
-    display: none;
-  }
-}
-
-.listing-page {
-  .linkflair-discussion {
-    border-left: 3px solid #ff9e00 !important;
-    background: rgba(255, 158, 0, 0.1);
-  }
-  .linkflair-tip {
-    border-left: 3px solid #468966 !important;
-    background: rgba(70, 137, 102, 0.1);
-  }
-  .linkflair-news {
-    border-left: 3px solid #F2385A !important;
-    background: rgba(242, 56, 90, 0.1);
-  }
-}
-
-.comments-page .link.linkflair-solved {
-  display: block;
-}
-
-#header-img.default-header,
-a[href*="#icon-day"] {
-  display: none;
-}
-
-//sidebar filters
+@include flairs( 'discussion' #ff9e00, 'tip' #468966, 'news' #F2385A, 'official' #2086bf, 'update' #0078d7, 'help' #FF6138, 'solved' #008A00, //'unresolved' #FF7D4D
+'bug' #ce352c, 'update' #0078d7, 'feature' #00aba9, //'hardware' #f0a30a
+'meta' #4390df, 'app' #bf5a15, // 'original%20content' #0B9C67,
+'concept' #14B6F5, 'request' #00aba9, //subject to be removed
+// 'question' #008a00,
+'hflairs' #E42608, 'hhelp' #E42608, 'gaming' #107c10, //new
+'development' #0078d7, 'insider-bug' #ce352c);
 a {
-  &[href*='#square-app']::before {
-    background: -187px -5px #bf5a15;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-tip']::before {
-    background: -187px -5px #555;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-meta']::before {
-    background: -187px -5px #4390df;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-original']::before {
-    background: -187px -5px #76608a;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-concept']::before {
-    background: -187px -5px #14B6F5;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-solved']::before {
-    background: -187px -5px #008a00;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-hflairs']::before {
-    background: -187px -5px $color-bg-main;
-    border: 3px solid #e8e8e8;
-    border-radius: 50%;
-  }
-  &[href*='#square-hhelp']::before {
-    background: -187px -5px $color-bg-secondary;
-    border: 3px solid #e8e8e8;
-    border-radius: 50%;
-  }
   &[href*='#square']+.keyNavAnnotation {
     display: none;
-  }
-  &[href*='#square-feature']::before,
-  &[href*='#square-request']::before,
-  &[href*='#square-bug']::before,
-  &[href*='#square-official']::before,
-  &[href*='#square-news']::before,
-  &[href*='#square-help']::before,
-  &[href*='#square-update']::before,
-  &[href*='#square-discussion']::before,
-  &[href*='#square-hardware']::before,
-  &[href*='#square-app']::before,
-  &[href*='#square-tip']::before,
-  &[href*='#square-meta']::before,
-  &[href*='#square-original']::before,
-  &[href*='#square-concept']::before,
-  &[href*='#square-solved']::before,
-  &[href*='#square-hflairs']::before,
-  &[href*='#square-hhelp']::before,
-  &[href*='#square-gaming']::before {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    content: '';
-    margin: 0 5px -4px 0;
   }
   &[href*='#square-']:hover::before {
     text-decoration: none;
@@ -504,46 +203,66 @@ a {
     top: 8px;
     transition: all 0.15s ease;
   }
-  &[href*='#square-bug']::before {
-    background: -187px -5px #ce352c;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-official']::before {
-    background: -187px -5px #2086bf;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-news']::before {
-    background: -187px -5px #F2385A;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-help']::before {
-    background: -187px -5px #FF6138;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-update']::before {
-    background: -187px -5px #81003c;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-discussion']::before {
-    background: -187px -5px #ff9e00;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-hardware']::before {
-    background: -187px -5px #f0a30a;
-    border: 3px solid #e8e8e8;
-  }
-  &[href*='#square-gaming']::before {
-    background: -187px -5px #107c10;
+  &[href*='#square-']:before {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    content: '';
+    margin: 0 5px -4px 0;
     border: 3px solid #e8e8e8;
   }
 }
 
-a {
-  &[href*='#square-feature']::before,
-  &[href*='#square-request']::before {
-    background: -187px -5px #00aba9;
-    border: 3px solid #e8e8e8;
+.linkflairlabel {
+  margin: 0 4px -4px 0;
+  padding: 3px 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 10px;
+  font-family: $font-main;
+  pointer-events: none;
+  border-radius: 0;
+  border: 0;
+  &:lang(nf) {
+    display: none;
   }
+}
+
+html:lang(nh) {
+  .linkflair-bug,
+  .linkflair-help {
+    display: none !important;
+  }
+}
+
+//listing content highlighting
+@mixin listing-highlight($prefix, $colors...) {
+  @each $i in $colors {
+    .listing-page {
+      .#{$prefix}#{nth($i, 1)} {
+        border-left: 3px solid nth($i, 2);
+        background: rgba(nth($i, 2), .05);
+      }
+    }
+  }
+}
+
+@include listing-highlight('linkflair-', 'discussion' #ff9e00, 'tip' #468966, 'news' #F2385A, 'official' #2086bf, 'update' #0078d7);
+//
+//res nightmode content highlight
+.res-nightmode .side .md blockquote,
+html[lang^=nm] .side .md blockquote {
+  border-left: 5px solid #3B81FB !important;
+  color: #ddd !important;
+}
+
+.comments-page .link.linkflair-solved {
+  display: block;
+}
+
+#header-img.default-header,
+a[href*="#icon-day"] {
+  display: none;
 }
 
 //sidebar content highlighting
@@ -563,13 +282,6 @@ a {
   a {
     font-size: 11px;
   }
-}
-
-//res nightmode content highlight
-.res-nightmode .side .md blockquote,
-html[lang^=nm] .side .md blockquote {
-  border-left: 5px solid #3B81FB !important;
-  color: #ddd !important;
 }
 
 //nav promoted subs
@@ -819,4 +531,34 @@ html[lang^=nm] {
   margin-left: 27px;
   top: 2px;
   position: relative;
+}
+
+//Microsoft community button
+.side .md a[href="https://discord.gg/microsoft"] {
+  z-index: 1;
+  text-indent: -9999px;
+  background-image: url(%%discord%%);
+  background-position: -5px -5px;
+  position: relative;
+  height: 90px;
+  width: 295px;
+  display: block;
+  margin: 10px 0px;
+  border-radius: 3px;
+  &:after {
+    content: "";
+    background-image: url(%%discord%%);
+    background-position: -5px -105px;
+    transition: ease-out opacity 0.7s;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+  }
+  &:hover::after {
+    opacity: 1;
+  }
 }

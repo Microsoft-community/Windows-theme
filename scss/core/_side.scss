@@ -255,6 +255,7 @@ div.side {
     margin-right: 5px;
     transition: all 0.5s;
     box-sizing: border-box;
+    border-radius: 2px;
     a {
         color: #fff;
         font-family: $font-main;
@@ -418,6 +419,7 @@ div.titlebox .md {
         clear: both;
         text-align: center;
         box-sizing: border-box;
+        border-radius: 2px;
         &:hover {
             background: $color-bg-secondary;
         }
@@ -482,7 +484,8 @@ div.titlebox {
     div.styleToggle,
     span.fancy-toggle-button a.active {
         padding: 5px 10px;
-        background-color: $color-bg-secondary;
+        background-color: $color-bg-alt;
+        transition: background-color .5s;
         color: #fff;
         font-size: 8pt;
         display: block !important;
@@ -491,6 +494,7 @@ div.titlebox {
         font-weight: 400;
         margin: 0;
         border: none;
+        border-radius: 2px;
     }
     div.styleToggle {
         background-color: $color-bg-main;
@@ -727,6 +731,7 @@ div.titlebox .md h3:hover+ul {
     display: block !important;
     background: $color-bg-main;
     margin-right: 5px;
+    border-radius: 2px;
     &:hover {
         background: $color-bg-secondary;
     }

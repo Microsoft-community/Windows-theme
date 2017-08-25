@@ -1,9 +1,4 @@
-[![Discord][discord]][discord-url]
-
-[discord]: https://discordapp.com/api/guilds/150662382874525696/embed.png?style=banner3&t=201705120029
-
-[discord-url]: https://discord.gg/Microsoft
-
+[![GitHub tag](https://img.shields.io/github/tag/Jasius/Windows-theme.svg?style=flat-square)](https://github.com/Jasius/Windows-theme/tags) [![GitHub issues](https://img.shields.io/github/issues/Jasius/Windows-theme.svg?style=flat-square)](https://github.com/Jasius/Windows-theme/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed/Jasius/Windows-theme.svg?style=flat-square)](https://github.com/Jasius/Windows-theme/issues?q=is%3Aissue+is%3Aclosed) [![Discord](https://img.shields.io/discord/150662382874525696.svg?style=flat-square)](https://discord.gg/Microsoft) [![license](https://img.shields.io/github/license/Jasius/Windows-theme.svg?style=flat-square)](https://github.com/Jasius/Windows-theme/blob/master/LICENSE)
 ## Windows theme
 ![Main theme](https://cloud.githubusercontent.com/assets/11031051/22585271/a9b1c0ee-e9ff-11e6-92f1-a93eb5ca6b34.png)
 

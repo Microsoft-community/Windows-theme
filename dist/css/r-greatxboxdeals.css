@@ -1,7 +1,7 @@
 /* 
 Designed by /u/Jaskys
 /r/ClearShift theme base
-Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker
+Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #107c10
 Secondary: #16a916
@@ -273,6 +273,15 @@ button:active,
 
 .tagline .likes {
   color: #107c10; }
+
+.tagline .submitter {
+  color: #5dc21e; }
+
+.tagline .stickied-tagline {
+  color: #00a64f; }
+
+.tagline a:hover {
+  color: #16a916; }
 
 .entry .flat-list .reply-button a {
   color: #107c10; }
@@ -615,27 +624,6 @@ a[href*="#icon-more"] {
   margin-left: -5px;
   text-transform: capitalize; }
 
-.linklisting .nextprev {
-  font-size: 0; }
-
-.linklisting .stickied {
-  border-left: 3px solid #00a64f;
-  background: #f8fffb; }
-
-.linklisting .over18 {
-  background: rgba(226, 6, 44, 0.1);
-  border-left: 3px solid #e2062c; }
-
-.linklisting .reported {
-  background: rgba(226, 6, 44, 0.1);
-  border-left: 3px solid #e2062c; }
-
-.linklisting .md {
-  margin-bottom: 0; }
-
-.linklisting .usertext-edit div textarea {
-  margin-left: -10px; }
-
 .report-reasons.rounded {
   display: block !important; }
 
@@ -672,6 +660,19 @@ a[href*="#icon-more"] {
   margin-top: -7px;
   padding: 0;
   border-right: 1px solid #e5e5e5; }
+  .linklisting .nextprev {
+    font-size: 0; }
+  .linklisting .stickied {
+    border-left: 3px solid #00a64f !important;
+    background: #f8fffb !important; }
+  .linklisting .over18,
+  .linklisting .reported {
+    background: rgba(226, 6, 44, 0.1);
+    border-left: 3px solid #e2062c; }
+  .linklisting .md {
+    margin-bottom: 0; }
+  .linklisting .usertext-edit div textarea {
+    margin-left: -10px; }
 
 .entry .buttons li a {
   padding: 0px;
@@ -789,12 +790,6 @@ a.author {
 
 .entry .flat-list .approve-button a {
   color: #00a64f; }
-
-.tagline .stickied-tagline {
-  color: #00a64f; }
-
-.tagline a:hover {
-  color: #16a916 !important; }
 
 .gold-accent {
   background-color: #107c10;
@@ -984,7 +979,8 @@ a[href*="#tech"] {
   color: #fff;
   font-size: 16px;
   transition: background-color .5s;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
     background: #16a916; }
 
@@ -1073,6 +1069,12 @@ body:lang(np):not(.subscriber) .arrow {
 
 a[href*="#icon-day"] {
   display: none; }
+
+.pinnable-content .thing {
+  border-bottom: 0px; }
+
+.pinnable-content.pinned {
+  background-color: rgba(248, 248, 248, 0.95) !important; }
 
 .side {
   margin: 0;
@@ -1277,7 +1279,8 @@ div.side div.tagline {
   width: 145px;
   margin-right: 5px;
   transition: all 0.5s;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .morelink a {
     color: #fff;
     font-family: "Segoe UI", Helvetica, sans-serif;
@@ -1406,7 +1409,8 @@ div.titlebox .md ul li {
   margin-top: 4px;
   clear: both;
   text-align: center;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
     background: #16a916; }
 
@@ -1461,7 +1465,8 @@ div.titlebox h1 {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #16a916;
+  background-color: #5dc21e;
+  transition: background-color .5s;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1469,7 +1474,8 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 0;
   font-weight: 400;
   margin: 0;
-  border: none; }
+  border: none;
+  border-radius: 2px; }
 
 div.titlebox div.styleToggle {
   background-color: #107c10;
@@ -1667,7 +1673,8 @@ div.titlebox .md h3:hover + ul {
 .account-activity-box {
   display: block !important;
   background: #107c10;
-  margin-right: 5px; }
+  margin-right: 5px;
+  border-radius: 2px; }
   .account-activity-box:hover {
     background: #16a916; }
   .account-activity-box a {
@@ -2413,6 +2420,15 @@ html[lang^=nm] .listing-page .link:hover {
   background: #393939 !important;
   border-left-color: #a9a9a9 !important; }
 
+.res-nightmode tr:nth-child(even),
+html[lang^=nm] tr:nth-child(even) {
+  background-color: #050505; }
+
+.res-nightmode .md th, .res-nightmode .md td,
+html[lang^=nm] .md th,
+html[lang^=nm] .md td {
+  border-color: #2D2E32 !important; }
+
 .res-nightmode div.titlebox .md ul li:hover,
 html[lang^=nm] div.titlebox .md ul li:hover {
   background-color: #393939 !important;
@@ -2629,7 +2645,7 @@ html[lang^=nm] a[href*="#iconz-wiki"]::before {
 .res-nightmode .link.promotedlink,
 html[lang^=nm] #siteTable .thing,
 html[lang^=nm] .link.promotedlink {
-  background: #202020; }
+  background: #202020 !important; }
 
 .res-nightmode .organic-listing,
 html[lang^=nm] .organic-listing {
