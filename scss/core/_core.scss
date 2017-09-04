@@ -640,7 +640,7 @@ form .spacer+.spacer {
     width: 30px !important;
   }
 }
-
+// REFACTOR: ????
 //high dpi spaghetios
 @media only screen and (min-resolution: 2dppx),
 only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -846,6 +846,7 @@ a[href*="#icon-more"] {
 // }
 .report-reasons.rounded {
   display: block!important;
+  width: 99%;
 }
 
 .newComments {

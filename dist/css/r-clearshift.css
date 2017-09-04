@@ -625,7 +625,8 @@ a[href*="#icon-more"] {
   text-transform: capitalize; }
 
 .report-reasons.rounded {
-  display: block !important; }
+  display: block !important;
+  width: 99%; }
 
 .newComments {
   display: inline;
