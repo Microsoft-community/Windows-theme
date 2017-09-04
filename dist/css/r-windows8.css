@@ -1351,6 +1351,9 @@ div.side div.tagline {
     content: "Moderators team";
     text-transform: capitalize; }
 
+#moderation_tools .title {
+  background-color: #00a64f; }
+
 .helplink ~ .content .author .helplink ~ .content .author:hover {
   color: #643EBF; }
 
