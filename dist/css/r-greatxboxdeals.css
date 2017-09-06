@@ -554,6 +554,22 @@ form .spacer + .spacer {
       padding: 0;
       vertical-align: top !important;
       width: 30px !important; }
+      .expando-button.image.collapsed {
+        background-image: url(%%spritesheet%%) !important; }
+        .expando-button.image.collapsed:hover {
+          background-image: url(%%spritesheet%%) !important; }
+      .expando-button.image.expanded {
+        background-image: url(%%spritesheet%%) !important; }
+      .expando-button.image.collapsed {
+        background-position: -5px -294px; }
+        .expando-button.image.collapsed:hover {
+          background-position: -45px -294px; }
+      .expando-button.image.expanded {
+        background-position: -45px -294px; }
+        .expando-button.image.expanded:hover {
+          background-image: url(%%spritesheet%%);
+          background-repeat: no-repeat;
+          background-position: -5px -294px; }
   body > .content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
     background-position: -289px -139px;
@@ -2709,6 +2725,20 @@ html[lang^=nm] .expando-button.video.expanded {
   background-position: -65px -204px; }
   .res-nightmode .expando-button.video.expanded:hover,
   html[lang^=nm] .expando-button.video.expanded:hover {
+    background-position: -105px -204px; }
+
+.res-nightmode expando-button.image.collapsed,
+html[lang^=nm] expando-button.image.collapsed {
+  background-position: -145px -204px; }
+  .res-nightmode expando-button.image.collapsed:hover,
+  html[lang^=nm] expando-button.image.collapsed:hover {
+    background-position: -185px -204px; }
+
+.res-nightmode .expando-button.image.expanded,
+html[lang^=nm] .expando-button.image.expanded {
+  background-position: -65px -204px; }
+  .res-nightmode .expando-button.image.expanded:hover,
+  html[lang^=nm] .expando-button.image.expanded:hover {
     background-position: -105px -204px; }
 
 .res-nightmode .date:after,

@@ -507,6 +507,18 @@ html[lang^=nm] {
             background-position: -105px -204px;
         }
     }
+	expando-button.image.collapsed {
+        background-position: -145px -204px;
+        &:hover {
+            background-position: -185px -204px;
+        }
+    }
+    .expando-button.image.expanded {
+        background-position: -65px -204px;
+        &:hover {
+            background-position: -105px -204px;
+        }
+    }
     //nm icons end
     .date:after {
         border-color: transparent $nm-color-bg-secondary transparent transparent !important;
