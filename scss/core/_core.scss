@@ -631,6 +631,29 @@ form .spacer+.spacer {
     }
   }
   &.image {
+	&.collapsed {
+      background-image: url(%%spritesheet%%) !important;
+      &:hover {
+        background-image: url(%%spritesheet%%) !important;
+      }
+    }
+    &.expanded {
+      background-image: url(%%spritesheet%%) !important;
+    }
+    &.collapsed {
+      background-position: -5px -294px;
+      &:hover {
+        background-position: -45px -294px;
+      }
+    }
+    &.expanded {
+      background-position: -45px -294px;
+      &:hover {
+        background-image: url(%%spritesheet%%);
+        background-repeat: no-repeat;
+        background-position: -5px -294px;
+      }
+    }
     cursor: pointer;
     display: inline-block;
     height: 28px !important;
