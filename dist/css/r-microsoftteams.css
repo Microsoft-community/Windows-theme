@@ -625,7 +625,8 @@ a[href*="#icon-more"] {
   text-transform: capitalize; }
 
 .report-reasons.rounded {
-  display: block !important; }
+  display: block !important;
+  width: 99%; }
 
 .newComments {
   display: inline;
@@ -1349,6 +1350,9 @@ div.side div.tagline {
     font-size: 13px !important;
     content: "Moderators team";
     text-transform: capitalize; }
+
+#moderation_tools .title {
+  background-color: #00a64f; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
   color: #29384f; }
