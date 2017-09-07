@@ -508,15 +508,15 @@ html[lang^=nm] {
         }
     }
 	expando-button.image.collapsed {
-        background-position: -145px -204px;
+        background-position: -145px -204px !important;
         &:hover {
-            background-position: -185px -204px;
+            background-position: -185px -204px !important;
         }
     }
     .expando-button.image.expanded {
-        background-position: -65px -204px;
+        background-position: -65px -204px !important;
         &:hover {
-            background-position: -105px -204px;
+            background-position: -105px -204px !important;
         }
     }
     //nm icons end
