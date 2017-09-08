@@ -641,7 +641,7 @@ form .spacer+.spacer {
       background-image: url(%%spritesheet%%) !important;
     }
     &.collapsed {
-      background-position: -4px -294px !important;
+      background-position: -5px -294px !important;
       &:hover {
         background-position: -45px -294px !important;
       }
@@ -651,7 +651,7 @@ form .spacer+.spacer {
       &:hover {
         background-image: url(%%spritesheet%%);
         background-repeat: no-repeat;
-        background-position: -4px -294px !important;
+        background-position: -5px -294px !important;
       }
     }
 	height: 28px !important;
