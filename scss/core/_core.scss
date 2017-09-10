@@ -631,13 +631,33 @@ form .spacer+.spacer {
     }
   }
   &.image {
-    cursor: pointer;
-    display: inline-block;
-    height: 28px !important;
-    margin-right: 11px;
-    padding: 0;
-    vertical-align: top !important;
+	&.collapsed {
+      background-image: url(%%spritesheet%%) !important;
+      &:hover {
+        background-image: url(%%spritesheet%%) !important;
+      }
+    }
+    &.expanded {
+      background-image: url(%%spritesheet%%) !important;
+    }
+    &.collapsed {
+      background-position: -5px -294px !important;
+      &:hover {
+        background-position: -45px -294px !important;
+      }
+    }
+    &.expanded {
+      background-position: -45px -294px !important;
+      &:hover {
+        background-image: url(%%spritesheet%%);
+        background-repeat: no-repeat;
+        background-position: -5px -294px !important;
+      }
+    }
+	height: 28px !important;
     width: 30px !important;
+    max-height: 28px !important;
+    max-width: 30px !important;
   }
 }
 // REFACTOR: ????
@@ -700,6 +720,29 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
       }
     }
     &.image {
+	  &.collapsed {
+      background-image: url(%%spritesheet%%) !important;
+        &:hover {
+          background-image: url(%%spritesheet%%) !important;
+        }
+      }
+      &.expanded {
+        background-image: url(%%spritesheet%%) !important;
+      }
+      &.collapsed {
+        background-position: -4px -294px;
+        &:hover {
+          background-position: -45px -294px;
+        }
+      }
+      &.expanded {
+        background-position: -45px -294px;
+        &:hover {
+          background-image: url(%%spritesheet%%);
+          background-repeat: no-repeat;
+          background-position: -4px -294px;
+        }
+      }
       cursor: pointer;
       display: inline-block;
       height: 28px !important;
