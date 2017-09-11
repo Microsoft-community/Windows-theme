@@ -3243,14 +3243,11 @@ a[href*="#square-hflairs"]:hover::after {
 .side .md > p:first-of-type {
   display: none; }
 
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after,
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
-  content: "- flair your thread as solved once your problem is resolved";
-  margin-left: 6px;
-  color: #008a00; }
-
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn {
-  color: #0078D7 !important; }
+@keyframes widget {
+  from {
+    bottom: 0em; }
+  to {
+    bottom: 3em; } }
 
 .linkflair-solved.link {
   display: none; }
@@ -3383,16 +3380,17 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   .side .md a[href="https://discord.gg/microsoft"]:hover::after {
     opacity: 1; }
 
-.post-submitter .link:not(.linkflair) .flairselectbtn {
+.flairy, .comments-page .link.linkflair-bug .flat-list .flairselectbtn,
+.comments-page .link.linkflair-help .flat-list .flairselectbtn, .post-submitter .link:not(.linkflair) .flairselectbtn {
   display: block !important;
   position: fixed;
   bottom: 30px;
-  height: 63px;
-  width: 200px;
+  height: auto;
+  min-height: 63px;
+  width: 280px;
   left: 15px;
   z-index: 9999;
   font-size: 0px;
-  line-height: 49px;
   font-family: "Segoe UI", Helvetica, sans-serif;
   background-image: url(%%flairy%%);
   background-position: 6px 26px;
@@ -3400,35 +3398,46 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   background-color: #00a64f;
   color: #fff;
   text-align: center;
-  padding-left: 24px;
   border: 2px solid #0d9605;
   transition: opacity .5s;
   text-decoration: none;
   animation: toasty 500ms forwards;
   animation-iteration-count: 1;
   font-weight: normal; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
+  .flairy:before, .comments-page .link.linkflair-bug .flat-list .flairselectbtn:before,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:before, .post-submitter .link:not(.linkflair) .flairselectbtn:before {
     background: #0d9605;
     display: block;
     height: 20px;
-    width: 224px;
+    width: 100%;
     position: relative;
     font-size: 13px;
     content: "Subreddit notification";
     line-height: 18px;
     text-align: left;
     text-indent: 10px;
-    left: -24px;
     color: #fff; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
-    content: "Click here to flair thread" !important;
+  .flairy:after, .comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:after, .post-submitter .link:not(.linkflair) .flairselectbtn:after {
+    content: "Notification" !important;
+    text-align: left;
     font-size: 14px;
     display: block;
-    color: #fff;
+    color: #fff !important;
     position: relative;
-    top: -50px; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
+    top: -0.2em;
+    padding: 0 12px 12px 42px;
+    white-space: normal; }
+  .flairy:hover, .comments-page .link.linkflair-bug .flat-list .flairselectbtn:hover,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:hover, .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
     border-color: #2dad56; }
+
+.comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
+.comments-page .link.linkflair-help .flat-list .flairselectbtn:after {
+  content: "Flair your thread as solved once your problem is resolved" !important; }
+
+.post-submitter .link:not(.linkflair) .flairselectbtn:after {
+  content: "Click here to flair thread" !important; }
 
 @keyframes toasty {
   0% {

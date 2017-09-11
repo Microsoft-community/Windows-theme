@@ -1,14 +1,15 @@
 // for sidebar usage> [Please flair your thread](#flairy)
-.post-submitter .link:not(.linkflair) .flairselectbtn {
+
+.flairy {
     display: block!important;
     position: fixed;
     bottom: 30px;
-    height: 63px;
-    width: 200px;
+    height: auto;
+    min-height: 63px;
+    width: 280px;
     left: 15px;
     z-index: 9999;
     font-size: 0px;
-    line-height: 49px;
     font-family: $font-main;
     background-image: url(%%flairy%%);
     background-position: 6px 26px;
@@ -16,7 +17,6 @@
     background-color: $color-mod;
     color: #fff;
     text-align: center;
-    padding-left: 24px;
     border: 2px solid #0d9605;
     transition: opacity .5s;
     text-decoration: none;
@@ -27,26 +27,46 @@
         background: #0d9605;
         display: block;
         height: 20px;
-        width: 224px;
+        width: 100%;
         position: relative;
         font-size: 13px;
         content: "Subreddit notification";
         line-height: 18px;
         text-align: left;
         text-indent: 10px;
-        left: -24px;
         color: #fff;
     }
     &:after {
-        content: "Click here to flair thread"!important;
+        content: "Notification"!important;
+        text-align: left;
         font-size: 14px;
         display: block;
-        color: #fff;
+        color: #fff !important;
         position: relative;
-        top: -50px;
+        top: -0.2em;
+        padding: 0 12px 12px 42px;
+        white-space: normal;
     }
     &:hover {
         border-color: #2dad56;
+    }
+}
+
+//solved flairs
+.comments-page .link {
+  &.linkflair-bug .flat-list .flairselectbtn,
+  &.linkflair-help .flat-list .flairselectbtn {
+    @extend .flairy;
+    &:after {
+        content: "Flair your thread as solved once your problem is resolved" !important;
+    }
+  }
+}
+
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+    @extend .flairy;
+    &:after {
+        content: "Click here to flair thread" !important;
     }
 }
 
