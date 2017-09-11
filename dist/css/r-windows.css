@@ -3434,7 +3434,7 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
 
 .comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
 .comments-page .link.linkflair-help .flat-list .flairselectbtn:after {
-  content: "Flair your thread as solved once your problem is resolved" !important; }
+  content: "Click here to flair your thread as solved once your problem is resolved" !important; }
 
 .post-submitter .link:not(.linkflair) .flairselectbtn:after {
   content: "Click here to flair thread" !important; }
