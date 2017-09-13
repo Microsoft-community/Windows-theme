@@ -3243,12 +3243,6 @@ a[href*="#square-hflairs"]:hover::after {
 .side .md > p:first-of-type {
   display: none; }
 
-@keyframes widget {
-  from {
-    bottom: 0em; }
-  to {
-    bottom: 3em; } }
-
 .linkflair-solved.link {
   display: none; }
 

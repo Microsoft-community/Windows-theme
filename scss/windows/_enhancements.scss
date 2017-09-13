@@ -1,6 +1,6 @@
 // for sidebar usage> [Please flair your thread](#flairy)
 
-@mixin flairy {
+@mixin flairy($description) {
     display: block!important;
     position: fixed;
     bottom: 30px;
@@ -37,6 +37,7 @@
         color: #fff;
     }
     &:after {
+        content: $description !important;
         text-align: left;
         font-size: 14px;
         display: block;
@@ -55,18 +56,12 @@
 .comments-page .link {
   &.linkflair-bug .flat-list .flairselectbtn,
   &.linkflair-help .flat-list .flairselectbtn {
-    @include flairy;
-    &:after {
-        content: "Click here to flair your thread as solved once your problem is resolved" !important;
-    }
+    @include flairy("Click here to flair your thread as solved once your problem is resolved");
   }
 }
 
 .post-submitter .link:not(.linkflair) .flairselectbtn {
-    @include flairy;
-    &:after {
-        content: "Click here to flair thread" !important;
-    }
+    @include flairy("Click here to flair thread");
 }
 
 @keyframes toasty {
