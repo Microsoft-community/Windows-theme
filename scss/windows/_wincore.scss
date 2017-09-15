@@ -382,19 +382,6 @@ a {
   }
 }
 
-//solved flairs
-.comments-page .link {
-  &.linkflair-bug .flat-list a.flairselectbtn:after,
-  &.linkflair-help .flat-list a.flairselectbtn:after {
-    content: "- flair your thread as solved once your problem is resolved";
-    margin-left: 6px;
-    color: #008a00;
-  } //???
-  &.linkflair-help .flat-list a.flairselectbtn {
-    color: $color-win !important;
-  }
-}
-
 .linkflair-solved.link {
   display: none;
 }

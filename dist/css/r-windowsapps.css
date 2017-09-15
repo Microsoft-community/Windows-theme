@@ -2131,18 +2131,24 @@ html[lang^=nm] .md del,
 html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #eee !important; }
 
-.res-nightmode .md blockquote,
-html[lang^=nm] .md blockquote {
-  background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #259eff !important;
-  color: #888 !important; }
-
-.res-nightmode .md code,
-html[lang^=nm] .md code {
-  border: none !important;
-  background-color: #393939 !important;
-  border-radius: 0 !important;
-  border-left: 3px solid #259eff !important; }
+.res-nightmode .md,
+html[lang^=nm] .md {
+  border: 1px solid #43474F !important;
+  background-color: #222 !important; }
+  .res-nightmode .md blockquote,
+  html[lang^=nm] .md blockquote {
+    background: rgba(0, 87, 166, 0.24);
+    border-left: 2px solid #259eff !important;
+    color: #888 !important; }
+  .res-nightmode .md code,
+  html[lang^=nm] .md code {
+    border: none !important;
+    background-color: #393939 !important;
+    border-radius: 0 !important;
+    border-left: 3px solid #259eff !important; }
+  .res-nightmode .md pre,
+  html[lang^=nm] .md pre {
+    background-color: #393939 !important; }
 
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
@@ -3242,15 +3248,6 @@ a[href*="#square-hflairs"]:hover::after {
 
 .side .md > p:first-of-type {
   display: none; }
-
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after,
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
-  content: "- flair your thread as solved once your problem is resolved";
-  margin-left: 6px;
-  color: #008a00; }
-
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn {
-  color: #0078D7 !important; }
 
 .linkflair-solved.link {
   display: none; }
