@@ -581,3 +581,9 @@ html[lang^=nm] {
         }
     }
 }
+
+// REVIEW: hotfix 9-15
+.usertext-body.may-blank-within.md-container .md {
+    background: transparent !important;
+    border: 0 !important;
+}
