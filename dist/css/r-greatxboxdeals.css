@@ -2804,7 +2804,7 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
 .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
   background-color: transparent !important; }
 
-.usertext-body.may-blank-within.md-container .md {
+.sitetable .listing .usertext-body.may-blank-within.md-container .md {
   background: transparent !important;
   border: 0 !important; }
 
