@@ -40,6 +40,9 @@ html[lang^=nm] {
         color: #eee !important;
     }
     .md {
+        border: 1px solid #43474F !important;
+        background-color: $nm-color-bg-main !important;
+
         blockquote {
             background: rgba(0, 87, 166, 0.24);
             border-left: 2px solid $color-bg-secondary !important;
@@ -50,6 +53,9 @@ html[lang^=nm] {
             background-color: $nm-color-bg-secondary !important;
             border-radius: 0 !important;
             border-left: 3px solid $color-bg-secondary !important;
+        }
+        pre {
+            background-color: $nm-color-bg-secondary !important;
         }
     }
     .commentingAs,
