@@ -2131,18 +2131,24 @@ html[lang^=nm] .md del,
 html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #eee !important; }
 
-.res-nightmode .md blockquote,
-html[lang^=nm] .md blockquote {
-  background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #29384f !important;
-  color: #888 !important; }
-
-.res-nightmode .md code,
-html[lang^=nm] .md code {
-  border: none !important;
-  background-color: #393939 !important;
-  border-radius: 0 !important;
-  border-left: 3px solid #29384f !important; }
+.res-nightmode .md,
+html[lang^=nm] .md {
+  border: 1px solid #43474F !important;
+  background-color: #222 !important; }
+  .res-nightmode .md blockquote,
+  html[lang^=nm] .md blockquote {
+    background: rgba(0, 87, 166, 0.24);
+    border-left: 2px solid #29384f !important;
+    color: #888 !important; }
+  .res-nightmode .md code,
+  html[lang^=nm] .md code {
+    border: none !important;
+    background-color: #393939 !important;
+    border-radius: 0 !important;
+    border-left: 3px solid #29384f !important; }
+  .res-nightmode .md pre,
+  html[lang^=nm] .md pre {
+    background-color: #393939 !important; }
 
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
@@ -2457,7 +2463,8 @@ html[lang^=nm] .listing-page .link:hover {
 html[lang^=nm] tr:nth-child(even) {
   background-color: #050505; }
 
-.res-nightmode .md th, .res-nightmode .md td,
+.res-nightmode .md th,
+.res-nightmode .md td,
 html[lang^=nm] .md th,
 html[lang^=nm] .md td {
   border-color: #2D2E32 !important; }
