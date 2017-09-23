@@ -3392,7 +3392,7 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   bottom: 30px;
   height: auto;
   min-height: 63px;
-  width: 280px;
+  max-width: 230px;
   left: 15px;
   z-index: 9999;
   font-size: 0px;
@@ -3430,8 +3430,8 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     display: block;
     color: #fff !important;
     position: relative;
-    top: -0.2em;
-    padding: 0 12px 12px 42px;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
     white-space: normal; }
   .comments-page .link.linkflair-bug .flat-list .flairselectbtn:hover,
   .comments-page .link.linkflair-help .flat-list .flairselectbtn:hover {
@@ -3443,7 +3443,7 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   bottom: 30px;
   height: auto;
   min-height: 63px;
-  width: 280px;
+  max-width: 230px;
   left: 15px;
   z-index: 9999;
   font-size: 0px;
@@ -3479,8 +3479,8 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     display: block;
     color: #fff !important;
     position: relative;
-    top: -0.2em;
-    padding: 0 12px 12px 42px;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
     white-space: normal; }
   .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
     border-color: #2dad56; }

@@ -6,7 +6,7 @@
     bottom: 30px;
     height: auto;
     min-height: 63px;
-    width: 280px;
+    max-width: 230px;
     left: 15px;
     z-index: 9999;
     font-size: 0px;
@@ -43,8 +43,8 @@
         display: block;
         color: #fff !important;
         position: relative;
-        top: -0.2em;
-        padding: 0 12px 12px 42px;
+        top: -0.1em;
+        padding: 0 12px 12px 48px;
         white-space: normal;
     }
     &:hover {
