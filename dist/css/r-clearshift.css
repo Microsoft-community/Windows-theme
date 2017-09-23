@@ -2133,7 +2133,7 @@ html[lang^=nm] .comments-page .usertext-edit div textarea {
 
 .res-nightmode .md,
 html[lang^=nm] .md {
-  border: 1px solid #43474F !important;
+  border: 1px solid #43474F;
   background-color: #222 !important; }
   .res-nightmode .md blockquote,
   html[lang^=nm] .md blockquote {
@@ -2772,6 +2772,11 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
   background: #202020 !important;
   border-bottom: none; }
 
+.res-nightmode .sitetable .listing .usertext-body.may-blank-within.md-container .md,
+html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container .md {
+  background: transparent !important;
+  border: 0 !important; }
+
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
 
@@ -2803,10 +2808,6 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
 .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed html[lang^=nm] .RES-keyNav-activeElement .md-container {
   background-color: transparent !important; }
-
-.sitetable .listing .usertext-body.may-blank-within.md-container .md {
-  background: transparent !important;
-  border: 0 !important; }
 
 .res #sr-header-area #srDropdownContainer a:hover {
   opacity: 1; }
