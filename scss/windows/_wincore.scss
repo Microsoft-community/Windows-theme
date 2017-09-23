@@ -228,6 +228,85 @@ a {
   }
 }
 
+// for sidebar usage> [Please flair your thread](#flairy)
+@mixin flairy($description) {
+    display: block!important;
+    position: fixed;
+    bottom: 30px;
+    height: auto;
+    min-height: 63px;
+    max-width: 230px;
+    left: 15px;
+    z-index: 9999;
+    font-size: 0px;
+    font-family: $font-main;
+    background-image: url(%%flairy%%);
+    background-position: 6px 26px;
+    background-repeat: no-repeat;
+    background-color: $color-mod;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #0d9605;
+    transition: opacity .5s;
+    text-decoration: none;
+    animation: toasty 500ms forwards;
+    animation-iteration-count: 1;
+    font-weight: normal;
+    &:before {
+        background: #0d9605;
+        display: block;
+        height: 20px;
+        width: 100%;
+        position: relative;
+        font-size: 13px;
+        content: "Subreddit notification";
+        line-height: 18px;
+        text-align: left;
+        text-indent: 10px;
+        color: #fff;
+    }
+    &:after {
+        content: $description !important;
+        text-align: left;
+        font-size: 14px;
+        display: block;
+        color: #fff !important;
+        position: relative;
+        top: -0.1em;
+        padding: 0 12px 12px 48px;
+        white-space: normal;
+    }
+    &:hover {
+        border-color: #2dad56;
+    }
+}
+
+//solved flairy
+.comments-page .link {
+  &.linkflair-bug .flat-list .flairselectbtn,
+  &.linkflair-help .flat-list .flairselectbtn {
+    @include flairy("Click here to flair your thread as solved once your problem is resolved");
+  }
+}
+
+//call to flair post
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+    @include flairy("Click here to flair thread");
+}
+
+//flairy animation
+@keyframes toasty {
+    0% {
+        transform: scale(0.3) rotateY(90deg);
+    }
+    60% {
+        transform: scale(1.4);
+    }
+    90% {
+        transform: scale(0.9);
+    }
+}
+
 html:lang(nh) {
   .linkflair-bug,
   .linkflair-help {
@@ -379,19 +458,6 @@ a {
   }
   >p:first-of-type {
     display: none;
-  }
-}
-
-//solved flairs
-.comments-page .link {
-  &.linkflair-bug .flat-list a.flairselectbtn:after,
-  &.linkflair-help .flat-list a.flairselectbtn:after {
-    content: "- flair your thread as solved once your problem is resolved";
-    margin-left: 6px;
-    color: #008a00;
-  } //???
-  &.linkflair-help .flat-list a.flairselectbtn {
-    color: $color-win !important;
   }
 }
 
