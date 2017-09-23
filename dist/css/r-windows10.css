@@ -3124,6 +3124,114 @@ a[href*='#square-']:before {
   .linkflairlabel:lang(nf) {
     display: none; }
 
+.comments-page .link.linkflair-bug .flat-list .flairselectbtn,
+.comments-page .link.linkflair-help .flat-list .flairselectbtn {
+  display: block !important;
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  min-height: 63px;
+  max-width: 230px;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: #00a64f;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #0d9605;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:before,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:before {
+    background: #0d9605;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    color: #fff; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:after {
+    content: "Click here to flair your thread as solved once your problem is resolved" !important;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    position: relative;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
+    white-space: normal; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:hover,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:hover {
+    border-color: #2dad56; }
+
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+  display: block !important;
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  min-height: 63px;
+  max-width: 230px;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: #00a64f;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #0d9605;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
+    background: #0d9605;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    color: #fff; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
+    content: "Click here to flair thread" !important;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    position: relative;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
+    white-space: normal; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
+    border-color: #2dad56; }
+
+@keyframes toasty {
+  0% {
+    transform: scale(0.3) rotateY(90deg); }
+  60% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(0.9); } }
+
 html:lang(nh) .linkflair-bug,
 html:lang(nh) .linkflair-help {
   display: none !important; }
@@ -3253,15 +3361,6 @@ a[href*="#square-hflairs"]:hover::after {
 
 .side .md > p:first-of-type {
   display: none; }
-
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after,
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
-  content: "- flair your thread as solved once your problem is resolved";
-  margin-left: 6px;
-  color: #008a00; }
-
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn {
-  color: #0078D7 !important; }
 
 .linkflair-solved.link {
   display: none; }
@@ -3393,61 +3492,6 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     border-radius: 3px; }
   .side .md a[href="https://discord.gg/microsoft"]:hover::after {
     opacity: 1; }
-
-.post-submitter .link:not(.linkflair) .flairselectbtn {
-  display: block !important;
-  position: fixed;
-  bottom: 30px;
-  height: 63px;
-  width: 200px;
-  left: 15px;
-  z-index: 9999;
-  font-size: 0px;
-  line-height: 49px;
-  font-family: "Segoe UI", Helvetica, sans-serif;
-  background-image: url(%%flairy%%);
-  background-position: 6px 26px;
-  background-repeat: no-repeat;
-  background-color: #00a64f;
-  color: #fff;
-  text-align: center;
-  padding-left: 24px;
-  border: 2px solid #0d9605;
-  transition: opacity .5s;
-  text-decoration: none;
-  animation: toasty 500ms forwards;
-  animation-iteration-count: 1;
-  font-weight: normal; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
-    background: #0d9605;
-    display: block;
-    height: 20px;
-    width: 224px;
-    position: relative;
-    font-size: 13px;
-    content: "Subreddit notification";
-    line-height: 18px;
-    text-align: left;
-    text-indent: 10px;
-    left: -24px;
-    color: #fff; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
-    content: "Click here to flair thread" !important;
-    font-size: 14px;
-    display: block;
-    color: #fff;
-    position: relative;
-    top: -50px; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
-    border-color: #2dad56; }
-
-@keyframes toasty {
-  0% {
-    transform: scale(0.3) rotateY(90deg); }
-  60% {
-    transform: scale(1.4); }
-  90% {
-    transform: scale(0.9); } }
 
 .helplink ~ .content .author[href*=Jaskys]:after {
   content: '- Developer & designer'; }
