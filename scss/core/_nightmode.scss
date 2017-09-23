@@ -39,7 +39,7 @@ html[lang^=nm] {
         color: #eee !important;
     }
     .md {
-        border: 1px solid #43474F !important;
+        border: 1px solid #43474F;
         background-color: $nm-color-bg-main !important;
         blockquote {
             background: rgba(0, 87, 166, 0.24);
@@ -532,6 +532,11 @@ html[lang^=nm] {
         background: $nm-color-milddark!important;
         border-bottom: none;
     }
+    // REVIEW: hotfix 9-15
+    .sitetable .listing .usertext-body.may-blank-within.md-container .md {
+        background: transparent !important;
+        border: 0 !important;
+    }
 }
 
 //end of merged nightmode 
@@ -581,9 +586,3 @@ html[lang^=nm] {
         }
     }
 }
-
-// REVIEW: hotfix 9-15
-.sitetable .listing .usertext-body.may-blank-within.md-container .md {
-    background: transparent !important;
-    border: 0 !important;
-} 
