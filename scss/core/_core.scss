@@ -100,7 +100,7 @@ Secondary: #7A0218
     height: 27px;
     width: 27px;
     margin-left: 4px;
-    padding: 2px 11px 0px 8px;
+    padding: 2px 11px 0 8px;
     opacity: .8;
     background-repeat: no-repeat !important;
     transition: .15s ease-in-out;
@@ -301,7 +301,6 @@ button:active,
   margin: 0 18px 8px 0;
   .expand {
     transition: all .5s;
-    padding: 4px 2px;
     position: absolute;
     top: 0;
     left: 0;
@@ -469,7 +468,7 @@ button:active,
     width: 525px;
     background-color: #fff;
     border: 1px solid #e5e5e5;
-    border-radius: 0px;
+    border-radius: 0;
     span.title {
       color: #4d5763;
       text-transform: capitalize;
@@ -524,7 +523,7 @@ button:active,
     color: #fff;
     padding: 15px;
     border: none;
-    margin: -69px 0px -5px;
+    margin: -69px 0 -5px;
     font-size: 14px;
     width: 529px;
   }
@@ -924,11 +923,11 @@ a[href*="#icon-more"] {
   } //animations
   &.up:active,
   &.upmod:active {
-    transform: translate(0px, -1px);
+    transform: translate(0, -1px);
   }
   &.down:active,
   &.downmod:active {
-    transform: translate(0px, 1px);
+    transform: translate(0, 1px);
   }
 }
 
@@ -959,7 +958,7 @@ a[href*="#icon-more"] {
 }
 
 .entry .buttons li a {
-  padding: 0px;
+  padding: 0;
   font-size: 1.145em;
 }
 
@@ -1057,7 +1056,7 @@ a.author {
 
 .panestack-title {
   margin: 0 330px 0 -5px;
-  padding: 4px 0px;
+  padding: 4px 0;
   background: $color-bg-main;
   color: #fff;
   border-bottom: transparent;
@@ -1326,7 +1325,7 @@ a[href*="#tech"] {
   border-radius: 0;
   background-color: #30659B;
   border-left: 3px solid #ff4500;
-  margin: -7px 325px 7px 0px;
+  margin: -7px 325px 7px 0;
   left: -5px;
 }
 
@@ -1439,10 +1438,10 @@ tr:nth-child(even) {
     border-right: 1px solid $color-bg-main;
   }
   .panestack-title {
-    margin: 0 0px 0 -5px;
+    margin: 0 0 0 -5px;
   }
   .infobar.newsletterbar {
-    margin: -7px -5px 7px 0px;
+    margin: -7px -5px 7px 0;
   }
 }
 
@@ -1473,7 +1472,7 @@ a[href*="#icon-day"] {
 //video uploads support
 .pinnable-content {
   .thing {
-    border-bottom: 0px;
+    border-bottom: 0;
   }
   &.pinned {
     background-color: rgba(248, 248, 248, 0.95)!important;

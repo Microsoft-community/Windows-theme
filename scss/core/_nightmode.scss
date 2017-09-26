@@ -11,8 +11,7 @@ html[lang^=nm] {
     }
     #sr-header-area {
         background-color: #0C1722 !important;
-    }
-    //markdown and its colors
+    } //markdown and its colors
     a {
         color: #f8f8ff;
     }
@@ -40,6 +39,8 @@ html[lang^=nm] {
         color: #eee !important;
     }
     .md {
+        border: 1px solid #43474F;
+        background-color: $nm-color-bg-main !important;
         blockquote {
             background: rgba(0, 87, 166, 0.24);
             border-left: 2px solid $color-bg-secondary !important;
@@ -50,6 +51,9 @@ html[lang^=nm] {
             background-color: $nm-color-bg-secondary !important;
             border-radius: 0 !important;
             border-left: 3px solid $color-bg-secondary !important;
+        }
+        pre {
+            background-color: $nm-color-bg-secondary !important;
         }
     }
     .commentingAs,
@@ -213,8 +217,7 @@ html[lang^=nm] {
         border-left: 5px solid $nm-color-bg-secondary !important;
         border-right: 1px solid $nm-color-bg-secondary !important;
         color: #eee;
-    }
-    //parent comments
+    } //parent comments
     .sitetable .comment .comment {
         background-color: $nm-color-bg-secondary !important;
         .comment .comment {
@@ -238,8 +241,7 @@ html[lang^=nm] {
                 }
             }
         }
-    }
-    //child comments
+    } //child comments
     .sitetable .comment {
         background-color: $nm-color-bg-main !important;
         .comment .comment {
@@ -268,33 +270,31 @@ html[lang^=nm] {
         //border: none;
         background-color: $nm-color-bg-main !important;
     }
-	button.save:hover {
-		border-color: #7cd87c;
-	}
-	button.cancel:hover {
-		border-color: #f9736f;
-	}
+    button.save:hover {
+        border-color: #7cd87c;
+    }
+    button.cancel:hover {
+        border-color: #f9736f;
+    }
     a[href*="#square"]::before {
         border: 3px solid $nm-color-bg-secondary;
     }
     .link {
-        border-bottom: 1px solid $nm-color-borders!important;
-        // border-right: 1px solid $nm-color-borders!important;
+        border-bottom: 1px solid $nm-color-borders!important; // border-right: 1px solid $nm-color-borders!important;
     }
     .listing-page {
         .link:hover {
             background: $nm-color-bg-secondary !important;
             border-left-color: #a9a9a9 !important;
         }
+    } //tables
+    tr:nth-child(even) {
+        background-color: #050505;
     }
-	//tables
-	tr:nth-child(even) {
-		background-color: #050505;
-	}
-	.md th, .md td {
-		border-color: #2D2E32!important;
-	}
-    //sidebar
+    .md th,
+    .md td {
+        border-color: #2D2E32!important;
+    } //sidebar
     div.titlebox {
         .md {
             ul li:hover {
@@ -314,8 +314,7 @@ html[lang^=nm] {
         position: absolute;
         z-index: -1;
         border-color: transparent $nm-color-bg-secondary transparent transparent !important;
-    }
-    //color main merge
+    } //color main merge
     .flairselector,
     .comments-page .usertext-edit div textarea,
     #eu-cookie-policy .reddit-infobar,
@@ -323,17 +322,15 @@ html[lang^=nm] {
         background-color: $nm-color-bg-main !important;
         color: $nm-color-text;
     }
-	.reddit-infobar {
-		background: $nm-color-milddark;
-		BORDER: 1px solid $nm-color-borders;
-		&.with-icon {
-			&:before {
-				background-color: solid $nm-color-milddark;
-			}
-		}
-	}
-	
-    //color secondary merge
+    .reddit-infobar {
+        background: $nm-color-milddark;
+        BORDER: 1px solid $nm-color-borders;
+        &.with-icon {
+            &:before {
+                background-color: solid $nm-color-milddark;
+            }
+        }
+    } //color secondary merge
     #header-bottom-left .tabmenu li.selected a,
     .link .usertext-body .md,
     .debuginfo,
@@ -352,8 +349,7 @@ html[lang^=nm] {
     .md a,
     h2 a:visited {
         color: #3498db;
-    }
-    //scrollbar
+    } //scrollbar
      ::-webkit-scrollbar-thumb {
         background-color: #666;
         border: 2px solid #333;
@@ -426,8 +422,7 @@ html[lang^=nm] {
     }
     .comment {
         border: 1px solid #43474F;
-    }
-    //nightmode icons
+    } //nightmode icons
     a[href*='#icon-day'] {
         display: inline-block !important;
         &::before {
@@ -463,8 +458,7 @@ html[lang^=nm] {
     }
     a[href*="#iconz-wiki"]::before {
         background-position: -204px -149px;
-    }
-    //threads
+    } //threads
     #siteTable .thing,
     .link.promotedlink {
         background: $nm-color-milddark !important;
@@ -477,12 +471,10 @@ html[lang^=nm] {
     }
     body>.content #siteTable .thing .thumbnail.default {
         background-position: -174px -77px;
-    }
-    //sidebar icons
+    } //sidebar icons
     div.side span.subscribers span.number:before {
         background-position: -162px -5px;
-    }
-    //res expandos
+    } //res expandos
     .expando-button.selftext.collapsed {
         background-position: -5px -242px;
         &:hover {
@@ -507,7 +499,7 @@ html[lang^=nm] {
             background-position: -105px -204px;
         }
     }
-	.expando-button.image.collapsed {
+    .expando-button.image.collapsed {
         background-position: -145px -204px !important;
         &:hover {
             background-position: -185px -204px !important;
@@ -518,8 +510,7 @@ html[lang^=nm] {
         &:hover {
             background-position: -105px -204px !important;
         }
-    }
-    //nm icons end
+    } //nm icons end
     .date:after {
         border-color: transparent $nm-color-bg-secondary transparent transparent !important;
     }
@@ -537,10 +528,15 @@ html[lang^=nm] {
     .comments-page .link {
         border-left: 3px solid transparent;
     }
-	.sitetable.nestedlisting>.thing.stickied {
-		background: $nm-color-milddark!important;
-		border-bottom: none;
-	}
+    .sitetable.nestedlisting>.thing.stickied {
+        background: $nm-color-milddark!important;
+        border-bottom: none;
+    }
+    // REVIEW: hotfix 9-15
+    .sitetable .listing .usertext-body.may-blank-within.md-container .md {
+        background: transparent !important;
+        border: 0 !important;
+    }
 }
 
 //end of merged nightmode 

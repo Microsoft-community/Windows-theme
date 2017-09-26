@@ -146,7 +146,9 @@ $subscribers: " enjoying creators update";
   &[href$=shanselman],
   &[href$=ryanb_msft],
   &[href$=zadjii],
-  &[href$=WindowsDocs_Quinn] {
+  &[href$=WindowsDocs_Quinn],
+  &[href$=andybeach],
+  &[href$=pfeplatforms_msft] {
     color: $color-win;
     font-weight: 700;
   }
@@ -225,6 +227,85 @@ a {
   border: 0;
   &:lang(nf) {
     display: none;
+  }
+}
+
+// for sidebar usage> [Please flair your thread](#flairy)
+@mixin flairy($description, $width: 230px, $color-background: $color-mod, $color-top-background: #0d9605, $color-border: #0d9605, $color-border-hover: #2dad56) {
+  display: block!important;
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  min-height: 63px;
+  max-width: $width;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  font-family: $font-main;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: $color-background;
+  color: #fff;
+  text-align: center;
+  border: 2px solid $color-border;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal;
+  &:before {
+    background: $color-top-background;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    color: #fff;
+  }
+  &:after {
+    content: $description !important;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    position: relative;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
+    white-space: normal;
+  }
+  &:hover {
+    border-color: $color-border-hover;
+  }
+}
+
+//solved flairy
+.comments-page .link {
+  &.linkflair-bug .flat-list .flairselectbtn,
+  &.linkflair-help .flat-list .flairselectbtn {
+    @include flairy("Click here to flair your thread as solved once your problem is resolved", 390px, #E74C3C, #ff6138, #ff6138, #F44336);
+  }
+}
+
+//call to flair post
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+  @include flairy("Click here to flair thread");
+}
+
+//flairy animation
+@keyframes toasty {
+  0% {
+    transform: scale(0.3) rotateY(90deg);
+  }
+  60% {
+    transform: scale(1.4);
+  }
+  90% {
+    transform: scale(0.9);
   }
 }
 
@@ -382,19 +463,6 @@ a {
   }
 }
 
-//solved flairs
-.comments-page .link {
-  &.linkflair-bug .flat-list a.flairselectbtn:after,
-  &.linkflair-help .flat-list a.flairselectbtn:after {
-    content: "- flair your thread as solved once your problem is resolved";
-    margin-left: 6px;
-    color: #008a00;
-  } //???
-  &.linkflair-help .flat-list a.flairselectbtn {
-    color: $color-win !important;
-  }
-}
-
 .linkflair-solved.link {
   display: none;
 }
@@ -543,7 +611,7 @@ html[lang^=nm] {
   height: 90px;
   width: 295px;
   display: block;
-  margin: 10px 0px;
+  margin: 10px 0;
   border-radius: 3px;
   &:after {
     content: "";

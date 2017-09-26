@@ -68,7 +68,7 @@ Secondary: #7A0218
     height: 27px;
     width: 27px;
     margin-left: 4px;
-    padding: 2px 11px 0px 8px;
+    padding: 2px 11px 0 8px;
     opacity: .8;
     background-repeat: no-repeat !important;
     transition: .15s ease-in-out;
@@ -230,7 +230,6 @@ button:active,
   margin: 0 18px 8px 0; }
   .comment .expand {
     transition: all .5s;
-    padding: 4px 2px;
     position: absolute;
     top: 0;
     left: 0;
@@ -363,7 +362,7 @@ button:active,
   width: 525px;
   background-color: #fff;
   border: 1px solid #e5e5e5;
-  border-radius: 0px; }
+  border-radius: 0; }
   .submit-page .roundfield span.title {
     color: #4d5763;
     text-transform: capitalize; }
@@ -410,7 +409,7 @@ button:active,
     color: #fff;
     padding: 15px;
     border: none;
-    margin: -69px 0px -5px;
+    margin: -69px 0 -5px;
     font-size: 14px;
     width: 529px; }
 
@@ -680,9 +679,9 @@ a[href*="#icon-more"] {
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
   .arrow.up:active, .arrow.upmod:active {
-    transform: translate(0px, -1px); }
+    transform: translate(0, -1px); }
   .arrow.down:active, .arrow.downmod:active {
-    transform: translate(0px, 1px); }
+    transform: translate(0, 1px); }
 
 .linklisting {
   margin-right: 330px;
@@ -705,7 +704,7 @@ a[href*="#icon-more"] {
     margin-left: -10px; }
 
 .entry .buttons li a {
-  padding: 0px;
+  padding: 0;
   font-size: 1.145em; }
 
 .tagline,
@@ -777,7 +776,7 @@ a.author {
 
 .panestack-title {
   margin: 0 330px 0 -5px;
-  padding: 4px 0px;
+  padding: 4px 0;
   background: #5133AB;
   color: #fff;
   border-bottom: transparent; }
@@ -992,7 +991,7 @@ a[href*="#tech"] {
   border-radius: 0;
   background-color: #30659B;
   border-left: 3px solid #ff4500;
-  margin: -7px 325px 7px 0px;
+  margin: -7px 325px 7px 0;
   left: -5px; }
 
 #eu-cookie-policy .reddit-infobar a {
@@ -1078,9 +1077,9 @@ tr:nth-child(even) {
   .footer {
     border-right: 1px solid #5133AB; }
   .panestack-title {
-    margin: 0 0px 0 -5px; }
+    margin: 0 0 0 -5px; }
   .infobar.newsletterbar {
-    margin: -7px -5px 7px 0px; } }
+    margin: -7px -5px 7px 0; } }
 
 .submitter:after {
   content: "";
@@ -1101,7 +1100,7 @@ a[href*="#icon-day"] {
   display: none; }
 
 .pinnable-content .thing {
-  border-bottom: 0px; }
+  border-bottom: 0; }
 
 .pinnable-content.pinned {
   background-color: rgba(248, 248, 248, 0.95) !important; }
@@ -2131,18 +2130,24 @@ html[lang^=nm] .md del,
 html[lang^=nm] .comments-page .usertext-edit div textarea {
   color: #eee !important; }
 
-.res-nightmode .md blockquote,
-html[lang^=nm] .md blockquote {
-  background: rgba(0, 87, 166, 0.24);
-  border-left: 2px solid #643EBF !important;
-  color: #888 !important; }
-
-.res-nightmode .md code,
-html[lang^=nm] .md code {
-  border: none !important;
-  background-color: #393939 !important;
-  border-radius: 0 !important;
-  border-left: 3px solid #643EBF !important; }
+.res-nightmode .md,
+html[lang^=nm] .md {
+  border: 1px solid #43474F;
+  background-color: #222 !important; }
+  .res-nightmode .md blockquote,
+  html[lang^=nm] .md blockquote {
+    background: rgba(0, 87, 166, 0.24);
+    border-left: 2px solid #643EBF !important;
+    color: #888 !important; }
+  .res-nightmode .md code,
+  html[lang^=nm] .md code {
+    border: none !important;
+    background-color: #393939 !important;
+    border-radius: 0 !important;
+    border-left: 3px solid #643EBF !important; }
+  .res-nightmode .md pre,
+  html[lang^=nm] .md pre {
+    background-color: #393939 !important; }
 
 .res-nightmode .commentingAs,
 .res-nightmode .date time,
@@ -2457,7 +2462,8 @@ html[lang^=nm] .listing-page .link:hover {
 html[lang^=nm] tr:nth-child(even) {
   background-color: #050505; }
 
-.res-nightmode .md th, .res-nightmode .md td,
+.res-nightmode .md th,
+.res-nightmode .md td,
 html[lang^=nm] .md th,
 html[lang^=nm] .md td {
   border-color: #2D2E32 !important; }
@@ -2765,6 +2771,11 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
   background: #202020 !important;
   border-bottom: none; }
 
+.res-nightmode .sitetable .listing .usertext-body.may-blank-within.md-container .md,
+html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container .md {
+  background: transparent !important;
+  border: 0 !important; }
+
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
 
@@ -2983,7 +2994,7 @@ html[lang^=nm] .sitetable.nestedlisting > .thing.stickied {
     border: 3px solid #8bb9e2;
     pointer-events: none; }
 
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell], .author[href$=JohnMSFT], .author[href$=ctrl_alt_steph], .author[href$=sedmison], .author[href$=MSFTJesse], .author[href$=paulcam], .author[href$=shanselman], .author[href$=ryanb_msft], .author[href$=zadjii], .author[href$=WindowsDocs_Quinn] {
+.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell], .author[href$=JohnMSFT], .author[href$=ctrl_alt_steph], .author[href$=sedmison], .author[href$=MSFTJesse], .author[href$=paulcam], .author[href$=shanselman], .author[href$=ryanb_msft], .author[href$=zadjii], .author[href$=WindowsDocs_Quinn], .author[href$=andybeach], .author[href$=pfeplatforms_msft] {
   color: #0078D7;
   font-weight: 700; }
 
@@ -3112,6 +3123,114 @@ a[href*='#square-']:before {
   border: 0; }
   .linkflairlabel:lang(nf) {
     display: none; }
+
+.comments-page .link.linkflair-bug .flat-list .flairselectbtn,
+.comments-page .link.linkflair-help .flat-list .flairselectbtn {
+  display: block !important;
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  min-height: 63px;
+  max-width: 390px;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: #E74C3C;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #ff6138;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:before,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:before {
+    background: #ff6138;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    color: #fff; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:after {
+    content: "Click here to flair your thread as solved once your problem is resolved" !important;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    position: relative;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
+    white-space: normal; }
+  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:hover,
+  .comments-page .link.linkflair-help .flat-list .flairselectbtn:hover {
+    border-color: #F44336; }
+
+.post-submitter .link:not(.linkflair) .flairselectbtn {
+  display: block !important;
+  position: fixed;
+  bottom: 30px;
+  height: auto;
+  min-height: 63px;
+  max-width: 230px;
+  left: 15px;
+  z-index: 9999;
+  font-size: 0px;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  background-image: url(%%flairy%%);
+  background-position: 6px 26px;
+  background-repeat: no-repeat;
+  background-color: #00a64f;
+  color: #fff;
+  text-align: center;
+  border: 2px solid #0d9605;
+  transition: opacity .5s;
+  text-decoration: none;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
+  font-weight: normal; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
+    background: #0d9605;
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    content: "Subreddit notification";
+    line-height: 18px;
+    text-align: left;
+    text-indent: 10px;
+    color: #fff; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
+    content: "Click here to flair thread" !important;
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    color: #fff !important;
+    position: relative;
+    top: -0.1em;
+    padding: 0 12px 12px 48px;
+    white-space: normal; }
+  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
+    border-color: #2dad56; }
+
+@keyframes toasty {
+  0% {
+    transform: scale(0.3) rotateY(90deg); }
+  60% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(0.9); } }
 
 html:lang(nh) .linkflair-bug,
 html:lang(nh) .linkflair-help {
@@ -3243,15 +3362,6 @@ a[href*="#square-hflairs"]:hover::after {
 .side .md > p:first-of-type {
   display: none; }
 
-.comments-page .link.linkflair-bug .flat-list a.flairselectbtn:after,
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn:after {
-  content: "- flair your thread as solved once your problem is resolved";
-  margin-left: 6px;
-  color: #008a00; }
-
-.comments-page .link.linkflair-help .flat-list a.flairselectbtn {
-  color: #0078D7 !important; }
-
 .linkflair-solved.link {
   display: none; }
 
@@ -3366,7 +3476,7 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
   height: 90px;
   width: 295px;
   display: block;
-  margin: 10px 0px;
+  margin: 10px 0;
   border-radius: 3px; }
   .side .md a[href="https://discord.gg/microsoft"]:after {
     content: "";
