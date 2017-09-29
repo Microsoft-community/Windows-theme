@@ -6,4 +6,4 @@
 5. Commit stylesheet changes to `/scss/`
 6. Once you're done with the changes open project through **CMD or Bash** and compile sass files via `gulp compile`
 7. Commit and push changes to the repository
-8. **Submit a pull request** which explains the changes that you've made or refferences issue(s)
+8. **Submit a pull request** which explains the changes that you've made or references issue(s)
