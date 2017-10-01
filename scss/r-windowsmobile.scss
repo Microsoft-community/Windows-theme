@@ -181,12 +181,12 @@ a.author[href$="AutoModerator"]::before {
 
 a[href$='AutoModerator'].author {
     margin-right: 0.5em;
-    font-size: 0pt;
+    font-size: 0;
 }
 
 .comment .author[href$="AutoModerator"] {
     font-weight: bold;
-    font-size: 0pt;
+    font-size: 0;
 }
 
 // a[href*='#mb-discord']::before {

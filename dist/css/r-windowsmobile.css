@@ -1755,7 +1755,6 @@ div.titlebox .md h3:hover + ul {
     color: #fff; }
 
 #header-bottom-right #mail {
-  top: 0;
   top: 0 !important;
   width: 42px;
   height: 42px;
@@ -1797,15 +1796,15 @@ div.titlebox .md h3:hover + ul {
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #0078d7;
+  background: url(%%spritesheet%%) 0 -114px no-repeat #0078d7;
   border-radius: 1px;
   border: 2px solid #fff; }
 
 #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0 -114px no-repeat #ff4500; }
 
 .res #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) 0px -115px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0 -115px no-repeat #ff4500; }
 
 #header #header-bottom-right #mail.havemail {
   border-radius: 1px;
@@ -2641,7 +2640,6 @@ html[lang^=nm] a[href*='#icon-day'] {
   .res-nightmode a[href*='#icon-day']::before,
   html[lang^=nm] a[href*='#icon-day']::before {
     display: inline-block !important;
-    display: none;
     height: 20px;
     width: 20px;
     content: '';
@@ -2816,7 +2814,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
 
 .res .comment .new-comment {
   border: 2px solid #FFAB91 !important;
-  border-radius: 0px !important; }
+  border-radius: 0 !important; }
 
 .res #sr-header-area #srDropdownContainer a {
   width: 35px;
@@ -3134,7 +3132,7 @@ a[href*='#square-']:before {
   max-width: 390px;
   left: 15px;
   z-index: 9999;
-  font-size: 0px;
+  font-size: 0;
   font-family: "Segoe UI", Helvetica, sans-serif;
   background-image: url(%%flairy%%);
   background-position: 6px 26px;
@@ -3185,7 +3183,7 @@ a[href*='#square-']:before {
   max-width: 230px;
   left: 15px;
   z-index: 9999;
-  font-size: 0px;
+  font-size: 0;
   font-family: "Segoe UI", Helvetica, sans-serif;
   background-image: url(%%flairy%%);
   background-position: 6px 26px;
@@ -3631,11 +3629,11 @@ a.author[href$="AutoModerator"]::before {
 
 a[href$='AutoModerator'].author {
   margin-right: 0.5em;
-  font-size: 0pt; }
+  font-size: 0; }
 
 .comment .author[href$="AutoModerator"] {
   font-weight: bold;
-  font-size: 0pt; }
+  font-size: 0; }
 
 a[href$="Windows10#2"] {
   position: absolute;

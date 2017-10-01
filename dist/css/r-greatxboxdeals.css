@@ -1755,7 +1755,6 @@ div.titlebox .md h3:hover + ul {
     color: #fff; }
 
 #header-bottom-right #mail {
-  top: 0;
   top: 0 !important;
   width: 42px;
   height: 42px;
@@ -1797,15 +1796,15 @@ div.titlebox .md h3:hover + ul {
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #107c10;
+  background: url(%%spritesheet%%) 0 -114px no-repeat #107c10;
   border-radius: 1px;
   border: 2px solid #fff; }
 
 #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0 -114px no-repeat #ff4500; }
 
 .res #header #header-bottom-right #mail.havemail {
-  background: url(%%spritesheet%%) 0px -115px no-repeat #ff4500; }
+  background: url(%%spritesheet%%) 0 -115px no-repeat #ff4500; }
 
 #header #header-bottom-right #mail.havemail {
   border-radius: 1px;
@@ -2641,7 +2640,6 @@ html[lang^=nm] a[href*='#icon-day'] {
   .res-nightmode a[href*='#icon-day']::before,
   html[lang^=nm] a[href*='#icon-day']::before {
     display: inline-block !important;
-    display: none;
     height: 20px;
     width: 20px;
     content: '';
@@ -2816,7 +2814,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
 
 .res .comment .new-comment {
   border: 2px solid #FFAB91 !important;
-  border-radius: 0px !important; }
+  border-radius: 0 !important; }
 
 .res #sr-header-area #srDropdownContainer a {
   width: 35px;

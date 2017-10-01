@@ -36,7 +36,6 @@
         }
     }
     #mail {
-        top: 0;
         top: 0 !important;
         width: 42px;
         height: 42px;
@@ -84,18 +83,18 @@
     }
     #mail {
         &.nohavemail {
-            background: url(%%spritesheet%%) 0px -114px no-repeat $color-bg-main;
+            background: url(%%spritesheet%%) 0 -114px no-repeat $color-bg-main;
             border-radius: 1px;
             border: 2px solid #fff;
         }
         &.havemail {
-            background: url(%%spritesheet%%) 0px -114px no-repeat #ff4500;
+            background: url(%%spritesheet%%) 0 -114px no-repeat #ff4500;
         }
     }
 }
 
 .res #header #header-bottom-right #mail.havemail {
-    background: url(%%spritesheet%%) 0px -115px no-repeat #ff4500;
+    background: url(%%spritesheet%%) 0 -115px no-repeat #ff4500;
 }
 
 #header #header-bottom-right {
