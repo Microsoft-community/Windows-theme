@@ -820,6 +820,19 @@ a.author {
 .entry .flat-list .approve-button a {
   color: #00a64f; }
 
+.pretty-button {
+  border-radius: 3px;
+  border: 0;
+  padding: 4px;
+  color: #333; }
+
+.reported-stamp {
+  background-color: #f85f73;
+  border-radius: 3px;
+  border: 0 !important;
+  padding: 2px 4px;
+  color: #333; }
+
 .gold-accent {
   background-color: #2D4059;
   border: none;
