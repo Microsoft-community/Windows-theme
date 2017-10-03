@@ -1111,6 +1111,20 @@ a.author {
   color: $color-mod;
 }
 
+.pretty-button {
+  border-radius: 3px;
+  border: 0;
+  padding: 4px;
+  color: #333;
+}
+
+.reported-stamp {
+  background-color: #f85f73;
+  border: 0!important;
+  padding: 2px 4px;
+  color: #333;
+}
+
 .gold-accent {
   background-color: $color-bg-main;
   border: none;
