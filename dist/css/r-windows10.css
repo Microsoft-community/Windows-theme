@@ -3122,8 +3122,8 @@ a[href*='#square-']:before {
   .linkflairlabel:lang(nf) {
     display: none; }
 
-.comments-page .link.linkflair-bug .flat-list .flairselectbtn,
-.comments-page .link.linkflair-help .flat-list .flairselectbtn {
+.comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn,
+.comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn {
   display: block !important;
   position: fixed;
   bottom: 30px;
@@ -3146,8 +3146,8 @@ a[href*='#square-']:before {
   animation: toasty 500ms forwards;
   animation-iteration-count: 1;
   font-weight: normal; }
-  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:before,
-  .comments-page .link.linkflair-help .flat-list .flairselectbtn:before {
+  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:before,
+  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:before {
     background: #ff6138;
     display: block;
     height: 20px;
@@ -3159,8 +3159,8 @@ a[href*='#square-']:before {
     text-align: left;
     text-indent: 10px;
     color: #fff; }
-  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:after,
-  .comments-page .link.linkflair-help .flat-list .flairselectbtn:after {
+  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:after,
+  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:after {
     content: "Click here to flair your thread as solved once your problem is resolved" !important;
     text-align: left;
     font-size: 14px;
@@ -3170,8 +3170,8 @@ a[href*='#square-']:before {
     top: -0.1em;
     padding: 0 12px 12px 48px;
     white-space: normal; }
-  .comments-page .link.linkflair-bug .flat-list .flairselectbtn:hover,
-  .comments-page .link.linkflair-help .flat-list .flairselectbtn:hover {
+  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:hover,
+  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:hover {
     border-color: #F44336; }
 
 .post-submitter .link:not(.linkflair) .flairselectbtn {

@@ -283,8 +283,8 @@ a {
   }
 }
 
-//solved flairy
-.comments-page .link {
+//resolved flairy
+.comments-page.post-submitter  .link {
   &.linkflair-bug .flat-list .flairselectbtn,
   &.linkflair-help .flat-list .flairselectbtn {
     @include flairy("Click here to flair your thread as solved once your problem is resolved", 390px, #E74C3C, #ff6138, #ff6138, #F44336);
