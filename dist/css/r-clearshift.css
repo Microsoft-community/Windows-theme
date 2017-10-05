@@ -705,7 +705,7 @@ a[href*="#icon-more"] {
 
 .entry .buttons li a {
   padding: 0;
-  font-size: 1.145em; }
+  font-size: 1.145em !important; }
 
 .tagline,
 .search-result-meta {
@@ -828,7 +828,6 @@ a.author {
 
 .reported-stamp {
   background-color: #f85f73;
-  border-radius: 3px;
   border: 0 !important;
   padding: 2px 4px;
   color: #333; }
