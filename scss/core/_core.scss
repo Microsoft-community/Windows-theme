@@ -959,7 +959,7 @@ a[href*="#icon-more"] {
 
 .entry .buttons li a {
   padding: 0;
-  font-size: 1.145em;
+  font-size: 1.145em !important;
 }
 
 .tagline,
@@ -1492,9 +1492,3 @@ a[href*="#icon-day"] {
     background-color: rgba(248, 248, 248, 0.95)!important;
   }
 }
-
-//keybase stuff
-li.keybase-reply {
-  font-size: 1.1em;
-}
-//
