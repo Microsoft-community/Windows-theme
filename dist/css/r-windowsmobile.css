@@ -25,7 +25,9 @@ Secondary: #7A0218
     animation-play-state: running;
     animation-name: pulsate; }
   #header-bottom-left {
-    height: 140px; }
+    height: 140px;
+    position: relative;
+    z-index: -1; }
     #header-bottom-left .tabmenu {
       background: rgba(0, 0, 0, 0.2);
       width: calc(100% - 123px);
@@ -2953,7 +2955,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
   height: 100px;
   display: block;
   position: absolute;
-  top: 30px; }
+  top: 5px; }
   #header .redditname a:hover {
     background: url(%%wincore-2%%) -5px -115px no-repeat !important;
     text-decoration: none; }
@@ -3004,7 +3006,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
     border: 3px solid #8bb9e2;
     pointer-events: none; }
 
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell], .author[href$=JohnMSFT], .author[href$=ctrl_alt_steph], .author[href$=sedmison], .author[href$=MSFTJesse], .author[href$=paulcam], .author[href$=shanselman], .author[href$=ryanb_msft], .author[href$=zadjii], .author[href$=WindowsDocs_Quinn], .author[href$=andybeach], .author[href$=pfeplatforms_msft], .author[href$=ezpark] {
+.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell], .author[href$=JohnMSFT], .author[href$=ctrl_alt_steph], .author[href$=sedmison], .author[href$=MSFTJesse], .author[href$=paulcam], .author[href$=shanselman], .author[href$=ryanb_msft], .author[href$=zadjii], .author[href$=WindowsDocs_Quinn], .author[href$=andybeach], .author[href$=pfeplatforms_msft], .author[href$=ezpark], .author[href$=tomasmsft] {
   color: #0078D7;
   font-weight: 700; }
 

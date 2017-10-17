@@ -25,7 +25,9 @@ Secondary: #7A0218
     animation-play-state: running;
     animation-name: pulsate; }
   #header-bottom-left {
-    height: 140px; }
+    height: 140px;
+    position: relative;
+    z-index: -1; }
     #header-bottom-left .tabmenu {
       background: rgba(0, 0, 0, 0.2);
       width: calc(100% - 50px);

@@ -52,6 +52,8 @@ Secondary: #7A0218
   } //
   &-bottom-left {
     height: 140px;
+    position: relative;
+    z-index: -1;
     .tabmenu {
       background: rgba(0, 0, 0, 0.2);
       width: calc(100% - #{$tabmenu-offset});
