@@ -38,6 +38,7 @@ Secondary: #7A0218
   height: 165px;
   background: $color-bg-main;
   border-bottom: none;
+  z-index: auto;
   #header-bottom-right #mail.havemail,
   #modmail.havemail {
     animation: 1s ease-out 0s normal none infinite running pulsate;
@@ -52,8 +53,6 @@ Secondary: #7A0218
   } //
   &-bottom-left {
     height: 140px;
-    position: relative;
-    z-index: -1;
     .tabmenu {
       background: rgba(0, 0, 0, 0.2);
       width: calc(100% - #{$tabmenu-offset});
@@ -140,6 +139,8 @@ Secondary: #7A0218
   border-bottom: 0;
   letter-spacing: 1px;
   line-height: 22px;
+  position: relative;
+  z-index: 100;
   &:hover {
     opacity: 1;
   }

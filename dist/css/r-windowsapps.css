@@ -12,7 +12,8 @@ Secondary: #7A0218
 #header {
   height: 165px;
   background: #0078d7;
-  border-bottom: none; }
+  border-bottom: none;
+  z-index: auto; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
     animation: 1s ease-out 0s normal none infinite running pulsate;
@@ -25,9 +26,7 @@ Secondary: #7A0218
     animation-play-state: running;
     animation-name: pulsate; }
   #header-bottom-left {
-    height: 140px;
-    position: relative;
-    z-index: -1; }
+    height: 140px; }
     #header-bottom-left .tabmenu {
       background: rgba(0, 0, 0, 0.2);
       width: calc(100% - 146px);
@@ -100,7 +99,9 @@ Secondary: #7A0218
   background-color: #0C1722;
   border-bottom: 0;
   letter-spacing: 1px;
-  line-height: 22px; }
+  line-height: 22px;
+  position: relative;
+  z-index: 100; }
   #sr-header-area:hover {
     opacity: 1; }
   #sr-header-area a {
@@ -2955,7 +2956,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
   height: 100px;
   display: block;
   position: absolute;
-  top: 5px; }
+  top: 30px; }
   #header .redditname a:hover {
     background: url(%%wincore-2%%) -5px -115px no-repeat !important;
     text-decoration: none; }
