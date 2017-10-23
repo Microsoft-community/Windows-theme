@@ -1494,7 +1494,9 @@ a[href*="#icon-day"] {
 }
 
 //fix cross post hover
-.expando-button.collapsed.crosspost:hover {
+ .expando-button.collapsed.crosspost {
     width: 20px !important;
-    margin-right: 10px !important;
-}
+    &:hover {
+         width: 20px !important;
+ }
+ }
