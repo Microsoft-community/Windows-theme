@@ -22,7 +22,7 @@ $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
 $tabmenu-offset: 50px !default; //114px - mobile; 163px mobile+apps;
 
-/* 
+/*
 Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
@@ -1495,3 +1495,11 @@ a[href*="#icon-day"] {
     background-color: rgba(248, 248, 248, 0.95)!important;
   }
 }
+
+//fix cross post hover
+ .expando-button.collapsed.crosspost {
+    width: 20px !important;
+    &:hover {
+         width: 20px !important;
+ }
+ }
