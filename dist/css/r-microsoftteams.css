@@ -1,4 +1,4 @@
-/* 
+/*
 Designed by /u/Jaskys
 /r/ClearShift theme base
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
@@ -1119,6 +1119,11 @@ a[href*="#icon-day"] {
 
 .pinnable-content.pinned {
   background-color: rgba(248, 248, 248, 0.95) !important; }
+
+.expando-button.collapsed.crosspost {
+  width: 20px !important; }
+  .expando-button.collapsed.crosspost:hover {
+    width: 20px !important; }
 
 .side {
   margin: 0;
