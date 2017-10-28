@@ -6,6 +6,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
     gulp.src('./scss/*.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({ browsers: ['last 3 versions'] }))
         .pipe(gulp.dest('./dist/css'))
