@@ -16,24 +16,15 @@ Secondary: #7A0218
   z-index: auto; }
   #header #header-bottom-right #mail.havemail,
   #header #modmail.havemail {
-    -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
-            animation: 1s ease-out 0s normal none infinite running pulsate;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-    -webkit-animation-fill-mode: none;
-            animation-fill-mode: none;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-    -webkit-animation-name: pulsate;
-            animation-name: pulsate; }
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate; }
   #header-bottom-left {
     height: 140px; }
     #header-bottom-left .tabmenu {
@@ -44,8 +35,6 @@ Secondary: #7A0218
       bottom: 0;
       left: 0;
       font-family: "Segoe UI", Helvetica, sans-serif;
-      -webkit-transition: .5s;
-      -o-transition: .5s;
       transition: .5s; }
       #header-bottom-left .tabmenu li {
         font-weight: 400;
@@ -60,8 +49,6 @@ Secondary: #7A0218
           padding: 8px 9px 6px;
           letter-spacing: 0.1em;
           text-transform: uppercase;
-          -webkit-transition: .15s ease-in-out;
-          -o-transition: .15s ease-in-out;
           transition: .15s ease-in-out; }
           #header-bottom-left .tabmenu li a:hover {
             color: #fff;
@@ -85,8 +72,6 @@ Secondary: #7A0218
     padding: 2px 11px 0 8px;
     opacity: .8;
     background-repeat: no-repeat !important;
-    -webkit-transition: .15s ease-in-out;
-    -o-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
     border-bottom: 2px solid transparent !important; }
     #header-img:hover {
@@ -105,13 +90,9 @@ Secondary: #7A0218
   white-space: nowrap;
   border-radius: 1px;
   overflow: hidden;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
   transition: .5s; }
 
 #sr-header-area {
-  -webkit-transition: opacity .3s;
-  -o-transition: opacity .3s;
   transition: opacity .3s;
   opacity: .4;
   height: 24px;
@@ -174,8 +155,6 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 #url-field button,
 .submit-page .content button[name=submit] {
   background: 0 0;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
   transition: all .5s;
   border: 1px solid #5cb85c;
   color: #5cb85c; }
@@ -195,8 +174,6 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 
 button.save, button.submit-action-thing, button.submit-report {
   background: 0 0;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
   transition: .5s;
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
@@ -214,8 +191,6 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   padding: .25rem .75rem;
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
   transition: .5s; }
   button.cancel:hover, button.cancel-action-thing:hover, button.cancel-report-thing:hover {
     background: #d9534f;
@@ -257,8 +232,6 @@ button:active,
   overflow: hidden;
   margin: 0 18px 8px 0; }
   .comment .expand {
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
     transition: all .5s;
     position: absolute;
     top: 0;
@@ -369,15 +342,12 @@ button:active,
     margin-top: -172px;
     position: fixed;
     padding: 0 !important;
-    -webkit-box-shadow: none;
-            box-shadow: none; }
+    box-shadow: none; }
 
 .comments-page .flairselector.drop-choices.active {
   top: 50% !important;
   left: 50% !important;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%); }
 
 .flairoptionpane {
   max-height: 304px; }
@@ -388,8 +358,6 @@ button:active,
 
 .nextprev a,
 .side .usertext-body .md ol a {
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
 
 .submit-page .roundfield {
@@ -410,8 +378,6 @@ button:active,
   color: #4d5763;
   text-transform: uppercase;
   font-weight: 700;
-  -webkit-transition: all .25s ease;
-  -o-transition: all .25s ease;
   transition: all .25s ease;
   font-size: 16px;
   border: none;
@@ -476,15 +442,12 @@ form .spacer + .spacer {
 
 @keyframes expandy {
   0% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    transform: translateY(-100px);
     opacity: 0; }
   50% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); }
+    transform: translateY(0); }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1; } }
 
 .expando-button {
@@ -544,7 +507,7 @@ form .spacer + .spacer {
         background-repeat: no-repeat;
         background-position: -5px -294px !important; }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 2dppx) {
+@media only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2) {
   .expando-button {
     cursor: pointer;
     float: left;
@@ -719,13 +682,9 @@ a[href*="#icon-more"] {
   .arrow.up:hover, .arrow.down:hover {
     opacity: 0.6; }
   .arrow.up:active, .arrow.upmod:active {
-    -webkit-transform: translate(0, -1px);
-        -ms-transform: translate(0, -1px);
-            transform: translate(0, -1px); }
+    transform: translate(0, -1px); }
   .arrow.down:active, .arrow.downmod:active {
-    -webkit-transform: translate(0, 1px);
-        -ms-transform: translate(0, 1px);
-            transform: translate(0, 1px); }
+    transform: translate(0, 1px); }
 
 .linklisting {
   margin-right: 330px;
@@ -757,8 +716,6 @@ a[href*="#icon-more"] {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  -webkit-transition: all .2s;
-  -o-transition: all .2s;
   transition: all .2s; }
 
 .listing-page .link:hover {
@@ -899,24 +856,15 @@ a.author {
 
 .comments-page.linkflair-bug .flat-list a.flairselectbtn:after,
 .comments-page.linkflair-help .flat-list a.flairselectbtn:after {
-  -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
-          animation: 1s ease-out 0s normal none infinite running pulsate;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-  -webkit-animation-name: pulsate;
-          animation-name: pulsate; }
+  animation: 1s ease-out 0s normal none infinite running pulsate;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: pulsate; }
 
 .comments-page .link .flat-list a.flairselectbtn {
   color: #0078d7 !important; }
@@ -939,6 +887,7 @@ a.author {
 
 .comments-page:not(.comment-permalink-page) .sitetable .comment {
   -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
 
 @-webkit-keyframes fade-in-bottom {
@@ -968,12 +917,8 @@ a.author {
   margin-bottom: 0; }
 
 .commentarea .infobar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   color: #eee;
   background: #0078d7;
   border: none; }
@@ -984,8 +929,6 @@ a.author {
     padding: 10px;
     margin: -5px -10px -5px 10px;
     line-height: 8px;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
     transition: all .25s; }
     .commentarea .infobar p:hover {
       background: #F85F73; }
@@ -1023,10 +966,6 @@ a.author {
 
 ul.tabmenu.formtab {
   padding-left: 0; }
-
-::-moz-selection {
-  background-color: #259eff;
-  color: #fff; }
 
 ::selection {
   background-color: #259eff;
@@ -1083,8 +1022,6 @@ a[href*="#tech"] {
   display: block;
   color: #fff;
   font-size: 16px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
   transition: background-color .5s;
   text-transform: capitalize;
   border-radius: 0 0 2px 2px; }
@@ -1102,8 +1039,6 @@ span.clear-input-button {
   line-height: 26px !important;
   border: 1px solid grey;
   background: #0078d7 !important;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
@@ -1118,8 +1053,6 @@ span.clear-input-button {
   padding: 7px 20px !important;
   display: block !important;
   margin: 6px -17px -17px !important;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
     background: #259eff; }
@@ -1276,26 +1209,24 @@ a[href*="#icon-day"] {
     margin: 0;
     padding: 0; }
   .side .subscribe-button .add {
-    -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
-            animation: 1s ease-out 0s normal none infinite running pulsate;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-    -webkit-animation-fill-mode: none;
-            animation-fill-mode: none;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-    -webkit-animation-name: pulsate;
-            animation-name: pulsate; }
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate; }
 
 @-webkit-keyframes pulsate {
+  0%,
+  100% {
+    opacity: 0.7; }
+  50% {
+    opacity: 1; } }
+
+@-moz-keyframes pulsate {
   0%,
   100% {
     opacity: 0.7; }
@@ -1396,11 +1327,8 @@ div.side div.tagline {
   background: #0078d7;
   width: 145px;
   margin-right: 5px;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 2px; }
   .morelink a {
     color: #fff;
@@ -1533,8 +1461,7 @@ div.titlebox .md ul li {
   margin-top: 4px;
   clear: both;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
     background: #259eff; }
@@ -1572,8 +1499,6 @@ div.titlebox .md ul li {
   border-left: 5px solid #e6edf6;
   border-right: 1px solid #e6edf6;
   font-size: 0.945em;
-  -webkit-transition: .2s;
-  -o-transition: .2s;
   transition: .2s; }
   div.titlebox .md ul li:hover {
     background-color: #f8fcff;
@@ -1593,8 +1518,6 @@ div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
   background-color: #F85F73;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
   transition: background-color .5s;
   color: #fff;
   font-size: 8pt;
@@ -1695,24 +1618,16 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 .titlebox .md h3 + ul:hover,
 .titlebox .md h3:hover + ul {
   max-height: 600px;
-  -webkit-transition-delay: 0s;
-       -o-transition-delay: 0s;
-          transition-delay: 0s; }
+  transition-delay: 0s; }
 
 div.titlebox .md h3 + ul {
   display: block;
-  -webkit-transition: 1.8s max-height ease-out;
-  -o-transition: 1.8s max-height ease-out;
   transition: 1.8s max-height ease-out;
   overflow: hidden;
   max-height: 0;
-  -webkit-transition-delay: 2s;
-       -o-transition-delay: 2s;
-          transition-delay: 2s; }
+  transition-delay: 2s; }
 
 div.titlebox .md h3:hover + ul {
-  -webkit-transition: .8s max-height ease-out;
-  -o-transition: .8s max-height ease-out;
   transition: .8s max-height ease-out; }
 
 .linkinfo {
@@ -1804,8 +1719,6 @@ div.titlebox .md h3:hover + ul {
 .sidecontentbox a.helplink {
   font-size: 16px;
   padding: 10px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
   transition: background-color .5s;
   text-transform: capitalize; }
 
@@ -1900,8 +1813,6 @@ div.titlebox .md h3:hover + ul {
   display: inline-block;
   text-indent: 50px;
   overflow: hidden;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
@@ -1939,8 +1850,6 @@ div.titlebox .md h3:hover + ul {
     height: 42px;
     border-radius: 1px;
     border: 2px solid #fff;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
     transition: background-color 0.5s; }
     .beta-hint a:hover {
       background-color: green !important; }
@@ -2048,24 +1957,15 @@ div.titlebox .md h3:hover + ul {
     .side .usertext-body .md ol a:hover {
       opacity: 1; }
   .side .usertext-body .md ol a[href$="#special"] {
-    -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
-            animation: 1s ease-out 0s normal none infinite running pulsate;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-    -webkit-animation-fill-mode: none;
-            animation-fill-mode: none;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-    -webkit-animation-name: pulsate;
-            animation-name: pulsate; }
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate; }
 
 .side .md .-text,
 .side .md li,
@@ -2088,8 +1988,6 @@ div.titlebox .md h3:hover + ul {
   padding: 5px 5px 5px 0;
   text-decoration: none;
   margin-bottom: 3px;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
   transition: opacity .5s;
   background-color: #259eff;
   opacity: 0.8; }
@@ -2111,8 +2009,6 @@ div.titlebox .md h3:hover + ul {
   padding: 5px 5px 5px 0;
   text-decoration: none;
   margin-bottom: 3px;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
   transition: opacity .5s;
   background-color: #28bc07;
   opacity: 0.8; }
@@ -2141,8 +2037,6 @@ div.titlebox .md h3:hover + ul {
   border: 2px solid #fefefe;
   display: inline-block;
   font-size: 12px;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
   transition: opacity .5s;
   text-decoration: none; }
 
@@ -2194,8 +2088,6 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none;
   margin-bottom: 3px;
   opacity: .8;
-  -webkit-transition: opacity 0.5s;
-  -o-transition: opacity 0.5s;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
     background-color: #0078d7;
@@ -2676,14 +2568,10 @@ html[lang^=nm] h2 a:visited {
 html[lang^=nm] ::-webkit-scrollbar-thumb {
   background-color: #666;
   border: 2px solid #333;
-  -webkit-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
   .res-nightmode ::-webkit-scrollbar-thumb:hover,
   html[lang^=nm] ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
     transition: background-color 0.5s; }
   .res-nightmode ::-webkit-scrollbar-thumb:active,
   html[lang^=nm] ::-webkit-scrollbar-thumb:active {
@@ -3087,8 +2975,6 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
     margin-left: 100px;
     line-height: 100px;
     font-variant: normal;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
     transition: background-color 0.5s; }
 
 .flair-mod,
@@ -3233,8 +3119,6 @@ a[href*='#square-']:hover::before {
   border-color: #80c2ff;
   left: 4px;
   top: 8px;
-  -webkit-transition: all 0.15s ease;
-  -o-transition: all 0.15s ease;
   transition: all 0.15s ease; }
 
 a[href*='#square-']:before {
@@ -3268,7 +3152,7 @@ a[href*='#square-']:before {
   max-width: 390px;
   left: 15px;
   z-index: 9999;
-  font-size: 0;
+  font-size: 0 !important;
   font-family: "Segoe UI", Helvetica, sans-serif;
   background-image: url(%%flairy%%);
   background-position: 6px 26px;
@@ -3277,14 +3161,10 @@ a[href*='#square-']:before {
   color: #fff;
   text-align: center;
   border: 2px solid #ff6138;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
   transition: opacity .5s;
   text-decoration: none;
-  -webkit-animation: toasty 500ms forwards;
-          animation: toasty 500ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
   font-weight: normal; }
   .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:before,
   .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:before {
@@ -3323,7 +3203,7 @@ a[href*='#square-']:before {
   max-width: 230px;
   left: 15px;
   z-index: 9999;
-  font-size: 0;
+  font-size: 0 !important;
   font-family: "Segoe UI", Helvetica, sans-serif;
   background-image: url(%%flairy%%);
   background-position: 6px 26px;
@@ -3332,14 +3212,10 @@ a[href*='#square-']:before {
   color: #fff;
   text-align: center;
   border: 2px solid #0d9605;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
   transition: opacity .5s;
   text-decoration: none;
-  -webkit-animation: toasty 500ms forwards;
-          animation: toasty 500ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation: toasty 500ms forwards;
+  animation-iteration-count: 1;
   font-weight: normal; }
   .post-submitter .link:not(.linkflair) .flairselectbtn:before {
     background: #0d9605;
@@ -3366,27 +3242,13 @@ a[href*='#square-']:before {
   .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
     border-color: #2dad56; }
 
-@-webkit-keyframes toasty {
-  0% {
-    -webkit-transform: scale(0.3) rotateY(90deg);
-            transform: scale(0.3) rotateY(90deg); }
-  60% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4); }
-  90% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9); } }
-
 @keyframes toasty {
   0% {
-    -webkit-transform: scale(0.3) rotateY(90deg);
-            transform: scale(0.3) rotateY(90deg); }
+    transform: scale(0.3) rotateY(90deg); }
   60% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4); }
+    transform: scale(1.4); }
   90% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9); } }
+    transform: scale(0.9); } }
 
 html:lang(nh) .linkflair-bug,
 html:lang(nh) .linkflair-help {
@@ -3447,8 +3309,6 @@ a[href$="WindowsMobile#2"] {
   z-index: 99;
   border-bottom: 2px solid transparent !important;
   text-transform: uppercase;
-  -webkit-transition: .15s ease-in-out;
-  -o-transition: .15s ease-in-out;
   transition: .15s ease-in-out;
   line-height: 14px;
   height: 22px;
@@ -3467,17 +3327,16 @@ a[href*="#Donsiders"], a[href*="#btn"] {
   color: #fff !important;
   padding: 10px 13px;
   margin: 5px 0;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   border-radius: 1px; }
   a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
     background: #259eff;
     -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
     -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
     transform: translateY(-1px);
-    -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
 
 a[href*="#Donsiders"] {
   background: #009e7e; }
@@ -3511,8 +3370,6 @@ a[href*="#square-hflairs"]:hover::after {
   font-size: 8pt;
   border: 2px solid #0078d7;
   padding: 9px 8px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
   transition: background-color .5s;
   text-align: center;
   color: #0078d7; }
@@ -3610,8 +3467,6 @@ a[href*='#iconz-wiki']::before {
   width: 394px !important;
   height: 304px !important;
   background-image: url(%%res-easter-egg%%) no-repeat !important;
-  -webkit-transition: all 10s linear !important;
-  -o-transition: all 10s linear !important;
   transition: all 10s linear !important; }
 
 .comments-page .usertext-edit div textarea {
@@ -3645,8 +3500,6 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     content: "";
     background-image: url(%%discord%%);
     background-position: -5px -105px;
-    -webkit-transition: ease-out opacity 0.7s;
-    -o-transition: ease-out opacity 0.7s;
     transition: ease-out opacity 0.7s;
     opacity: 0;
     position: absolute;
@@ -3666,8 +3519,6 @@ a[href$="WindowsApps#2"] {
   z-index: 99;
   border-bottom: 2px solid transparent !important;
   text-transform: uppercase;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
   line-height: 14px;
   height: 22px;
