@@ -5,8 +5,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-csso": "^3.0.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-autoprefixer": "^4.0.0"
+    "gulp-sass": "^3.1.0"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jasius/w10-refactor/issues"
   },
-  "homepage": "https://github.com/Jasius/w10-refactor#readme"
+  "homepage": "https://github.com/Jasius/w10-refactor#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "4.0.0"
+  }
 }

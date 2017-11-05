@@ -9,10 +9,10 @@ gulp.task('sass', function () {
         .pipe(autoprefixer({ browsers: ['last 3 versions'] }))
         .pipe(gulp.dest('./dist/css'))
         .pipe(minifyCSS())
-        .pipe(gulp.dest('./dist/css/minified'))
+        .pipe(gulp.dest('./dist/css/minified'));
 });
 
 gulp.task('compile', ['sass'], function () {
     gulp.watch('./scss/*.scss', ['sass']);
     gulp.watch('./scss/**/*.scss', ['sass']);
-})
+});

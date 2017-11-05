@@ -633,7 +633,7 @@ form .spacer+.spacer {
     }
   }
   &.image {
-	&.collapsed {
+    &.collapsed {
       background-image: url(%%spritesheet%%) !important;
       &:hover {
         background-image: url(%%spritesheet%%) !important;
@@ -656,12 +656,13 @@ form .spacer+.spacer {
         background-position: -5px -294px !important;
       }
     }
-	height: 28px !important;
+    height: 28px !important;
     width: 30px !important;
     max-height: 28px !important;
     max-width: 30px !important;
   }
 }
+
 // REFACTOR: ????
 //high dpi spaghetios
 @media only screen and (min-resolution: 2dppx),
@@ -722,8 +723,8 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
       }
     }
     &.image {
-	  &.collapsed {
-      background-image: url(%%spritesheet%%) !important;
+      &.collapsed {
+        background-image: url(%%spritesheet%%) !important;
         &:hover {
           background-image: url(%%spritesheet%%) !important;
         }
@@ -1225,6 +1226,7 @@ a.author {
     margin-bottom: 0;
   }
   .infobar {
+    /* autoprefixer: off */
     display: flex;
     justify-content: space-between;
     color: #eee;
@@ -1241,6 +1243,13 @@ a.author {
       transition: all .25s;
       &:hover {
         background: $color-bg-alt;
+      }
+    }
+    &.infobar.commentsignupbar {
+      display: block;
+      background: transparent;
+      .commentsignupbar__desc {
+        background: transparent;
       }
     }
   }
@@ -1497,9 +1506,9 @@ a[href*="#icon-day"] {
 }
 
 //fix cross post hover
- .expando-button.collapsed.crosspost {
+.expando-button.collapsed.crosspost {
+  width: 20px !important;
+  &:hover {
     width: 20px !important;
-    &:hover {
-         width: 20px !important;
- }
- }
+  }
+}
