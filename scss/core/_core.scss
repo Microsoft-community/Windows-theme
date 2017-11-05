@@ -754,6 +754,9 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
       vertical-align: top !important;
       width: 30px !important;
     }
+    &.collapsed.crosspost {
+      
+    }
   }
   body>.content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
