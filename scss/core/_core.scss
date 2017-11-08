@@ -21,10 +21,12 @@ $color-mod: #00a64f;
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
 $tabmenu-offset: 50px !default; //114px - mobile; 163px mobile+apps;
+$version: "v4.0.3";
 
 /*
 Designed by /u/Jaskys
 /r/ClearShift theme base
+Version: #{$version}
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #{$color-bg-main}
