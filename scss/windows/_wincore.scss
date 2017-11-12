@@ -141,11 +141,11 @@ $subscribers: " enjoying creators update";
   &[href$=JohnMSFT],
   &[href$=ctrl_alt_steph],
   &[href$=sedmison],
-  &[href$=MSFTJesse], 
+  &[href$=MSFTJesse],
   &[href$=paulcam],
   &[href$=shanselman],
   &[href$=ryanb_msft],
-  &[href$=zadjii], 
+  &[href$=zadjii],
   &[href$=WindowsDocs_Quinn],
   &[href$=andybeach],
   &[href$=pfeplatforms_msft],
@@ -154,7 +154,8 @@ $subscribers: " enjoying creators update";
   &[href$=sushMSFT],
   &[href$=tdashroy],
   &[href$=TheoMSFT],
-  &[href$=Dan-PFE] {
+  &[href$=Dan-PFE],
+  &[href$=gustavo_ms] {
     color: $color-win;
     font-weight: 700;
   }
@@ -290,7 +291,7 @@ a {
 }
 
 //resolved flairy
-.comments-page.post-submitter  .link {
+.comments-page.post-submitter .link {
   &.linkflair-bug .flat-list .flairselectbtn,
   &.linkflair-help .flat-list .flairselectbtn {
     @include flairy("Click here to flair your thread as solved once your problem is resolved", 390px, #E74C3C, #ff6138, #ff6138, #F44336);

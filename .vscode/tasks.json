@@ -1,13 +1,18 @@
 {
-    "version": "0.1.0",
-    "command": "gulp",
-    "isShellCommand": true,
-    "showOutput": "silent",
-    "tasks": [
-        {
-        "taskName": "compile",
-        "isBuildCommand": true,
-        "isBackground": true
-    }
-    ]
+    "version": "2.0.0",
+    "tasks": [{
+        "type": "gulp",
+        "task": "compile",
+        "isBackground": true,
+        "presentation": {
+            "echo": true,
+            "reveal": "silent",
+            "focus": false,
+            "panel": "shared"
+        },
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        }
+    }]
 }
