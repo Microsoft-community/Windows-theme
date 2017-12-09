@@ -4,15 +4,15 @@ Designed by /u/Jaskys
 Version: v4.0.3
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #3f487f
-Secondary: #29384f
+Main color: #BF0426
+Secondary: #7A0218
 Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #3f487f;
+  background: #BF0426;
   border-bottom: none;
   z-index: auto; }
   #header #header-bottom-right #mail.havemail,
@@ -66,10 +66,10 @@ Secondary: #7A0218
           transition: .15s ease-in-out; }
           #header-bottom-left .tabmenu li a:hover {
             color: #fff;
-            background: #29384f;
+            background: #7A0218;
             border-bottom: 2px solid #fff !important; }
         #header-bottom-left .tabmenu li.selected a {
-          background-color: #29384f;
+          background-color: #7A0218;
           border: 0;
           color: #fff;
           font-weight: 700;
@@ -92,7 +92,7 @@ Secondary: #7A0218
     border-bottom: 2px solid transparent !important; }
     #header-img:hover {
       opacity: 1;
-      background: #29384f;
+      background: #7A0218;
       font-weight: 500;
       border-bottom: 2px solid #fff !important; }
 
@@ -227,11 +227,11 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #29384f;
+  color: #7A0218;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #29384f;
+    background: #7A0218;
     border: none;
     color: #fff;
     outline: 0; }
@@ -267,7 +267,7 @@ button:active,
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #29384f;
+      background: #7A0218;
       color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -302,7 +302,7 @@ button:active,
   font-weight: 700; }
 
 .tagline .likes {
-  color: #3f487f; }
+  color: #BF0426; }
 
 .tagline .submitter {
   color: #F85F73; }
@@ -311,10 +311,10 @@ button:active,
   color: #00a64f; }
 
 .tagline a:hover {
-  color: #29384f; }
+  color: #7A0218; }
 
 .entry .flat-list .reply-button a {
-  color: #3f487f; }
+  color: #BF0426; }
 
 .link .domain {
   visibility: hidden; }
@@ -345,7 +345,7 @@ button:active,
   border-bottom: 1px solid #e5e5e5; }
 
 .flairselector {
-  border: 1px solid #3f487f !important; }
+  border: 1px solid #BF0426 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector .linkflair {
@@ -355,7 +355,7 @@ button:active,
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #3f487f !important;
+    background: #BF0426 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -363,7 +363,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #3f487f;
+    border-top: solid 1px #BF0426;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     left: 45% !important;
@@ -422,10 +422,10 @@ button:active,
 
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #3f487f;
+  background-color: #BF0426;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #29384f; }
+    background-color: #7A0218; }
 
 .submit-page #newlink.submit.content .btn {
   width: 558px;
@@ -661,7 +661,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid #e5e5e5; }
   .link .title {
-    color: #3f487f; }
+    color: #BF0426; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -669,10 +669,10 @@ a[href*="#icon-more"] {
     padding: 0 !important; }
   .link.last-clicked {
     border: 0;
-    border-left: 3px solid #29384f;
+    border-left: 3px solid #7A0218;
     background: #f8fcff; }
   .link .score.likes {
-    color: #29384f; }
+    color: #7A0218; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -685,7 +685,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #3f487f;
+  background: #BF0426;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -699,7 +699,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #3f487f; }
+  color: #BF0426; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -763,7 +763,7 @@ a[href*="#icon-more"] {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #29384f;
+  border-left-color: #7A0218;
   background: #f9fafc; }
 
 .entry .flat-list .report-button a,
@@ -776,11 +776,11 @@ a[href*="#icon-more"] {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #3f487f;
+      background-color: solid #BF0426;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #3f487f;
+  background-color: solid #BF0426;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -824,7 +824,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0;
-  background: #3f487f;
+  background: #BF0426;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -880,7 +880,7 @@ a.author {
   color: #333; }
 
 .gold-accent {
-  background-color: #3f487f;
+  background-color: #BF0426;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -889,7 +889,7 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #3f487f;
+  background: #BF0426;
   margin-left: 5px !important;
   display: none; }
 
@@ -920,7 +920,7 @@ a.author {
           animation-name: pulsate; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #3f487f !important; }
+  color: #BF0426 !important; }
 
 .comments-page .usertext-edit div textarea {
   border: 1px solid #000 !important;
@@ -933,7 +933,7 @@ a.author {
   .comments-page .usertext-edit div textarea:focus {
     background: #FFF !important;
     opacity: 1;
-    border-color: #29384f !important; }
+    border-color: #7A0218 !important; }
 
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
@@ -973,12 +973,12 @@ a.author {
   display: flex;
   justify-content: space-between;
   color: #eee;
-  background: #3f487f;
+  background: #BF0426;
   border: none; }
   .commentarea .infobar a {
     color: #eee; }
   .commentarea .infobar p {
-    background: #29384f;
+    background: #7A0218;
     padding: 10px;
     margin: -5px -10px -5px 10px;
     line-height: 8px;
@@ -996,14 +996,14 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #3f487f; }
+    color: #BF0426; }
     .md a:hover {
-      color: #29384f; }
+      color: #7A0218; }
   .md code {
     white-space: normal; }
   .md blockquote {
     border: 1px solid rgba(36, 156, 255, 0.1);
-    border-left: 2px solid #29384f;
+    border-left: 2px solid #7A0218;
     background-color: #efefed; }
 
 .usertext.border .usertext-body {
@@ -1012,15 +1012,15 @@ a.author {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #29384f; }
+  border: 1px solid #7A0218; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #29384f !important;
+      background-color: #7A0218 !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #3f487f; }
+    background-color: #BF0426; }
   .wiki-page .pageactions .wiki-page-content .nextprev a {
     margin-bottom: 12px; }
 
@@ -1028,15 +1028,15 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::-moz-selection {
-  background-color: #29384f;
+  background-color: #7A0218;
   color: #fff; }
 
 ::selection {
-  background-color: #29384f;
+  background-color: #7A0218;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #3f487f; }
+  color: #BF0426; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -1080,7 +1080,7 @@ a[href*="#tech"] {
   margin-right: 9px; }
 
 .gadget .right a {
-  background: #3f487f;
+  background: #BF0426;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -1092,7 +1092,7 @@ a[href*="#tech"] {
   text-transform: capitalize;
   border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
-    background: #29384f; }
+    background: #7A0218; }
 
 span.clear-input-button {
   color: #fff; }
@@ -1104,19 +1104,19 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #3f487f !important;
+  background: #BF0426 !important;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #29384f !important; }
+    background: #7A0218 !important; }
 
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 
 #newlink-with-image-upload .file-upload-button {
-  background: #3f487f;
+  background: #BF0426;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
@@ -1125,16 +1125,16 @@ span.clear-input-button {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #29384f; }
+    background: #7A0218; }
 
 thead th {
-  background: #3f487f;
+  background: #BF0426;
   border: none !important;
   color: #fff; }
   thead th a {
     color: #fff !important; }
   thead th:nth-child(2n) {
-    background: #29384f; }
+    background: #7A0218; }
 
 tr:nth-child(even) {
   background-color: #F5F5F5; }
@@ -1160,7 +1160,7 @@ tr:nth-child(even) {
   .infobar {
     margin-right: 18px; }
   .footer {
-    border-right: 1px solid #3f487f; }
+    border-right: 1px solid #BF0426; }
   .panestack-title {
     margin: 0 0 0 -5px; }
   .infobar.newsletterbar {
@@ -1195,6 +1195,23 @@ a[href*="#icon-day"] {
   .expando-button.collapsed.crosspost:hover {
     width: 20px !important; }
 
+#header-bottom-right #modmail {
+  display: none; }
+
+#chat {
+  position: absolute;
+  margin-left: -26.650em;
+  top: 0.8em;
+  padding: 1.34em;
+  background: url(%%redditchat%%) 5px no-repeat #BF0426;
+  border: 0.2em solid #fff;
+  border-bottom: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+  #chat:hover {
+    background-color: #7A0218; }
+
 .side {
   margin: 0;
   padding-left: 30px;
@@ -1202,7 +1219,7 @@ a[href*="#icon-day"] {
   .side:after {
     content: "/r/ClearShift theme";
     font-size: large;
-    color: #3f487f;
+    color: #BF0426;
     margin-left: 50px; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1395,8 +1412,8 @@ div.side div.tagline {
   border-top: none !important; }
 
 .morelink {
-  border: 1px solid #3f487f;
-  background: #3f487f;
+  border: 1px solid #BF0426;
+  background: #BF0426;
   width: 145px;
   margin-right: 5px;
   -webkit-transition: all 0.5s;
@@ -1412,11 +1429,11 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 0.9em; }
   .morelink:hover {
-    background: #29384f;
-    border-color: #29384f; }
+    background: #7A0218;
+    border-color: #7A0218; }
     .morelink:hover a {
       color: #fff;
-      border-color: #29384f; }
+      border-color: #7A0218; }
   .morelink .nub {
     display: none; }
 
@@ -1478,7 +1495,7 @@ div.side div.tagline {
   background-color: #00a64f; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #29384f; }
+  color: #7A0218; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1518,7 +1535,7 @@ div.titlebox .md ul li {
     color: #369; }
 
 .sidecontentbox .title {
-  background-color: #3f487f;
+  background-color: #BF0426;
   padding: 10px;
   border-left: 5px solid #F85F73;
   margin-top: 0;
@@ -1528,7 +1545,7 @@ div.titlebox .md ul li {
 
 .sidecontentbox a.helplink {
   display: block;
-  background: #3f487f;
+  background: #BF0426;
   color: #fff;
   margin-right: 5px;
   margin-bottom: 10px;
@@ -1540,7 +1557,7 @@ div.titlebox .md ul li {
           box-sizing: border-box;
   border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
-    background: #29384f; }
+    background: #7A0218; }
 
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
@@ -1559,7 +1576,7 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  background-color: #3f487f;
+  background-color: #BF0426;
   padding: 10px;
   border-left: 5px solid #F85F73;
   margin-top: 0;
@@ -1584,7 +1601,7 @@ div.titlebox .md ul li {
 
 div.titlebox h1 {
   border-left: 5px solid #F85F73;
-  background-color: #3f487f;
+  background-color: #BF0426;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1610,7 +1627,7 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 2px; }
 
 div.titlebox div.styleToggle {
-  background-color: #3f487f;
+  background-color: #BF0426;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
@@ -1618,7 +1635,7 @@ div.titlebox div.styleToggle {
     margin: 0; }
 
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #3f487f; }
+  background-color: #BF0426; }
 
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
@@ -1661,11 +1678,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #29384f; }
+    color: #7A0218; }
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #3f487f; }
+  border-color: #BF0426; }
 
 #searchexpando {
   padding: 10px;
@@ -1748,7 +1765,7 @@ div.titlebox .md h3:hover + ul {
     color: #fff !important;
     text-transform: none;
     border-left: 5px solid #F85F73;
-    background-color: #3f487f;
+    background-color: #BF0426;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1814,11 +1831,11 @@ div.titlebox .md h3:hover + ul {
 
 .account-activity-box {
   display: block !important;
-  background: #3f487f;
+  background: #BF0426;
   margin-right: 5px;
   border-radius: 2px; }
   .account-activity-box:hover {
-    background: #29384f; }
+    background: #7A0218; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1851,7 +1868,7 @@ div.titlebox .md h3:hover + ul {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #3f487f;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #BF0426;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1876,7 +1893,7 @@ div.titlebox .md h3:hover + ul {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #3f487f;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #BF0426;
   border: 2px solid #fff; }
 
 #beta-help,
@@ -1889,7 +1906,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #29384f; }
+  background-color: #7A0218; }
 
 #header #header-bottom-right .logout {
   display: inline-block; }
@@ -1908,7 +1925,7 @@ div.titlebox .md h3:hover + ul {
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0 -114px no-repeat #3f487f;
+  background: url(%%spritesheet%%) 0 -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1923,7 +1940,7 @@ div.titlebox .md h3:hover + ul {
   border: 2px solid #fff; }
 
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #3f487f;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1933,7 +1950,7 @@ div.titlebox .md h3:hover + ul {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #3f487f;
+    background-color: #BF0426;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1958,7 +1975,7 @@ div.titlebox .md h3:hover + ul {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #3f487f;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #BF0426;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1979,7 +1996,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #29384f; }
+  background-color: #7A0218; }
 
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
@@ -2000,7 +2017,7 @@ div.titlebox .md h3:hover + ul {
   overflow: hidden; }
 
 .message-count {
-  background: #29384f;
+  background: #7A0218;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -2094,13 +2111,13 @@ div.titlebox .md h3:hover + ul {
   -webkit-transition: opacity .5s;
   -o-transition: opacity .5s;
   transition: opacity .5s;
-  background-color: #29384f;
+  background-color: #7A0218;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#special']:before {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #3f487f;
+    background-color: #BF0426;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -2150,7 +2167,7 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none; }
 
 .side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #29384f;
+  background-color: #7A0218;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
@@ -2159,7 +2176,7 @@ div.titlebox .md h3:hover + ul {
   opacity: 1; }
 
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #3f487f;
+  background-color: #BF0426;
   content: "Sticky";
   color: #fff; }
 
@@ -2201,7 +2218,7 @@ div.titlebox .md h3:hover + ul {
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #3f487f;
+    background-color: #BF0426;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -2267,14 +2284,14 @@ html[lang^=nm] .md {
   .res-nightmode .md blockquote,
   html[lang^=nm] .md blockquote {
     background: rgba(0, 87, 166, 0.24);
-    border-left: 2px solid #29384f !important;
+    border-left: 2px solid #7A0218 !important;
     color: #888 !important; }
   .res-nightmode .md code,
   html[lang^=nm] .md code {
     border: none !important;
     background-color: #393939 !important;
     border-radius: 0 !important;
-    border-left: 3px solid #29384f !important; }
+    border-left: 3px solid #7A0218 !important; }
   .res-nightmode .md pre,
   html[lang^=nm] .md pre {
     background-color: #393939 !important; }
@@ -2713,11 +2730,11 @@ html[lang^=nm] input[type=submit] {
 
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
-  border-left-color: #29384f; }
+  border-left-color: #7A0218; }
 
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #3f487f; }
+  background: #BF0426; }
 
 .res-nightmode .thing .title:visited,
 .res-nightmode .thing.visited .title,
@@ -3002,11 +3019,11 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #3f487f;
+  border-bottom: 1px solid #BF0426;
   padding: 0;
-  border-left: 1px solid #3f487f; }
+  border-left: 1px solid #BF0426; }
   .footer::after {
-    border-bottom: 1px solid #3f487f;
+    border-bottom: 1px solid #BF0426;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -3015,8 +3032,8 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", Helvetica, sans-serif;
-    border-top: 34px solid #3f487f;
-    border-right: 1px solid #3f487f;
+    border-top: 34px solid #BF0426;
+    border-right: 1px solid #BF0426;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -3031,7 +3048,7 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
       text-transform: capitalize;
       padding: 8px;
       color: #fff;
-      background: #3f487f;
+      background: #BF0426;
       max-height: 18px; }
     .footer div.col a {
       display: block;
