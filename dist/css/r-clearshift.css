@@ -2926,6 +2926,14 @@ html[lang^=nm] .sitetable .listing .usertext-body.may-blank-within.md-container 
   background: transparent !important;
   border: 0 !important; }
 
+.res-nightmode #chat,
+html[lang^=nm] #chat {
+  background-color: #222;
+  border-bottom: 0; }
+  .res-nightmode #chat:hover,
+  html[lang^=nm] #chat:hover {
+    background-color: #393939; }
+
 .res-nightmode .res .RES-keyNav-activeElement {
   background-color: #292929 !important; }
 

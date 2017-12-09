@@ -530,11 +530,17 @@ html[lang^=nm] {
     .sitetable.nestedlisting>.thing.stickied {
         background: $nm-color-milddark!important;
         border-bottom: none;
-    }
-    // REVIEW: hotfix 9-15
+    } // REVIEW: hotfix 9-15
     .sitetable .listing .usertext-body.may-blank-within.md-container .md {
         background: transparent !important;
         border: 0 !important;
+    }
+    #chat {
+        background-color: $nm-color-bg-main;
+        border-bottom: 0;
+        &:hover {
+            background-color: $nm-color-bg-secondary;
+        }
     }
 }
 
