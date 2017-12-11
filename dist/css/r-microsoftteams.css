@@ -1211,6 +1211,8 @@ a[href*="#icon-day"] {
   transition: .5s; }
   #chat:hover {
     background-color: #29384f; }
+  #chat:active {
+    background: url(%%redditchat%%) 5px no-repeat #F85F73; }
 
 .side {
   margin: 0;

@@ -1534,4 +1534,7 @@ a[href*="#icon-day"] {
   &:hover {
     background-color: $color-bg-secondary;
   }
+  &:active {
+    background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
+  }
 }
