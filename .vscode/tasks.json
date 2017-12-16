@@ -1,18 +1,22 @@
 {
     "version": "2.0.0",
-    "tasks": [{
-        "type": "gulp",
-        "task": "compile",
-        "isBackground": true,
-        "presentation": {
-            "echo": true,
-            "reveal": "silent",
-            "focus": false,
-            "panel": "shared"
-        },
-        "group": {
-            "kind": "build",
-            "isDefault": true
+    "tasks": [
+        {
+            "type": "gulp",
+            "task": "compile",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$node-sass"
+            ]
         }
-    }]
+    ]
 }

@@ -1,7 +1,7 @@
 /*
 Designed by /u/Jaskys
 /r/ClearShift theme base
-Version: v4.0.3
+Version: v4.0.4
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #5133AB
@@ -1221,10 +1221,10 @@ a[href*="#icon-day"] {
   padding-left: 30px;
   background: 0 0; }
   .side:after {
-    content: "/r/ClearShift theme";
+    content: "/r/ClearShift theme v4.0.4";
     font-size: large;
     color: #5133AB;
-    margin-left: 50px; }
+    margin-left: 1.5em; }
   .side .md h2 {
     margin-top: 1.4em;
     font-size: 1.4em; }
@@ -1624,7 +1624,6 @@ div.titlebox span.fancy-toggle-button a.active {
   font-size: 8pt;
   display: block !important;
   background-image: none;
-  border-radius: 0;
   font-weight: 400;
   margin: 0;
   border: none;

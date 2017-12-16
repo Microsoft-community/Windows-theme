@@ -4,10 +4,10 @@
     padding-left: 30px;
     background: 0 0;
     &:after {
-        content: "/r/ClearShift theme";
+        content: "/r/ClearShift theme #{$version}";
         font-size: large;
         color: $color-bg-main;
-        margin-left: 50px;
+        margin-left: 1.5em;
     }
     .md {
         h2 {
@@ -494,7 +494,6 @@ div.titlebox {
         font-size: 8pt;
         display: block !important;
         background-image: none;
-        border-radius: 0;
         font-weight: 400;
         margin: 0;
         border: none;
