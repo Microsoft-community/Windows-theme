@@ -1184,6 +1184,7 @@ body:lang(np):not(.subscriber) .arrow {
 a[href*="#icon-day"] {
   display: none; }
 
+/* #region temp fixes */
 .pinnable-content .thing {
   border-bottom: 0; }
 
@@ -1214,6 +1215,7 @@ a[href*="#icon-day"] {
   #chat:active {
     background: url(%%redditchat%%) 5px no-repeat #5dc21e; }
 
+/* #endregion */
 .side {
   margin: 0;
   padding-left: 30px;

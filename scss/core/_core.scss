@@ -1497,7 +1497,7 @@ body:lang(np):not(.subscriber) .arrow {
 a[href*="#icon-day"] {
   display: none;
 }
-
+/* #region temp fixes */
 //video uploads support
 .pinnable-content {
   .thing {
@@ -1538,3 +1538,4 @@ a[href*="#icon-day"] {
     background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
   }
 }
+/* #endregion */
