@@ -756,7 +756,12 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
       vertical-align: top !important;
       width: 30px !important;
     }
-    &.collapsed.crosspost {}
+    &.collapsed.crosspost {
+      background-repeat: no-repeat;
+      &:hover {
+        background-repeat: no-repeat;
+      }
+    }
   }
   body>.content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
@@ -1497,7 +1502,10 @@ body:lang(np):not(.subscriber) .arrow {
 a[href*="#icon-day"] {
   display: none;
 }
+
+
 /* #region temp fixes */
+
 //video uploads support
 .pinnable-content {
   .thing {
@@ -1508,11 +1516,19 @@ a[href*="#icon-day"] {
   }
 }
 
-//fix cross post hover
-.expando-button.collapsed.crosspost {
-  width: 20px !important;
-  &:hover {
+
+.expando-button {
+  &.collapsed.crosspost { 
     width: 20px !important;
+    background-size: 23px 302px!important;
+    height: 20px;
+    &:hover {
+      width: 20px !important;
+    }
+  }
+  &.expanded.crosspost {
+    background-size: 23px 302px!important;
+    height: 25px;
   }
 }
 
@@ -1538,4 +1554,6 @@ a[href*="#icon-day"] {
     background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
   }
 }
+
+
 /* #endregion */

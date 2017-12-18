@@ -607,6 +607,10 @@ form .spacer + .spacer {
           background-image: url(%%spritesheet%%);
           background-repeat: no-repeat;
           background-position: -4px -294px; }
+    .expando-button.collapsed.crosspost {
+      background-repeat: no-repeat; }
+      .expando-button.collapsed.crosspost:hover {
+        background-repeat: no-repeat; }
   body > .content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
     background-position: -289px -139px;
@@ -1192,9 +1196,15 @@ a[href*="#icon-day"] {
   background-color: rgba(248, 248, 248, 0.95) !important; }
 
 .expando-button.collapsed.crosspost {
-  width: 20px !important; }
+  width: 20px !important;
+  background-size: 23px 302px !important;
+  height: 20px; }
   .expando-button.collapsed.crosspost:hover {
     width: 20px !important; }
+
+.expando-button.expanded.crosspost {
+  background-size: 23px 302px !important;
+  height: 25px; }
 
 #header-bottom-right #modmail {
   display: none; }
