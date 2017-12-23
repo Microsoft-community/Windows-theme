@@ -1,7 +1,7 @@
 /*
 Designed by /u/Jaskys
 /r/ClearShift theme base
-Version: v4.0.4
+Version: v4.0.5
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #107c10
@@ -660,6 +660,31 @@ a[href*="#icon-more"] {
   margin-left: -5px;
   text-transform: capitalize; }
 
+.listing-page .linklisting {
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none;
+  -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none; }
+
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
 .report-reasons.rounded {
   display: block !important;
   width: 99%; }
@@ -891,9 +916,10 @@ a.author {
   border-left: 1px solid #c6c6c6 !important; }
 
 .comments-page:not(.comment-permalink-page) .sitetable .comment {
-  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
 
 @-webkit-keyframes fade-in-bottom {
   0% {
@@ -1166,7 +1192,7 @@ a[href*="#icon-day"] {
   padding-left: 30px;
   background: 0 0; }
   .side:after {
-    content: "/r/ClearShift theme v4.0.4";
+    content: "/r/ClearShift theme v4.0.5";
     font-size: large;
     color: #107c10;
     margin-left: 1.5em; }

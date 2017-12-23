@@ -6,7 +6,7 @@
             "task": "compile",
             "isBackground": true,
             "presentation": {
-                "reveal": "silent",
+                "reveal": "always",
                 "focus": false,
                 "panel": "shared"
             },
