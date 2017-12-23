@@ -3495,7 +3495,7 @@ a[href*='#iconz-wiki']::before {
 
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
-  content: " enjoying the Fall Creators Update"; }
+  content: " subscribers"; }
 
 .subscribers .word {
   display: none; }
