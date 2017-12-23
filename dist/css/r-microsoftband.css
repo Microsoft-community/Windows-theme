@@ -4,15 +4,15 @@ Designed by /u/Jaskys
 Version: v4.0.4
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
-Main color: #BF0426
-Secondary: #7A0218
+Main color: #0666B2
+Secondary: #01B7F1
 Christmas
 Main color: #BF0426
 Secondary: #7A0218
 */
 #header {
   height: 165px;
-  background: #BF0426;
+  background: #0666B2;
   border-bottom: none;
   z-index: auto; }
   #header #header-bottom-right #mail.havemail,
@@ -39,8 +39,8 @@ Secondary: #7A0218
     height: 140px; }
     #header-bottom-left .tabmenu {
       background: rgba(0, 0, 0, 0.2);
-      width: calc(100% - 123px);
-      padding-left: 123px;
+      width: calc(100% - 50px);
+      padding-left: 50px;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -66,10 +66,10 @@ Secondary: #7A0218
           transition: .15s ease-in-out; }
           #header-bottom-left .tabmenu li a:hover {
             color: #fff;
-            background: #7A0218;
+            background: #01B7F1;
             border-bottom: 2px solid #fff !important; }
         #header-bottom-left .tabmenu li.selected a {
-          background-color: #7A0218;
+          background-color: #01B7F1;
           border: 0;
           color: #fff;
           font-weight: 700;
@@ -92,7 +92,7 @@ Secondary: #7A0218
     border-bottom: 2px solid transparent !important; }
     #header-img:hover {
       opacity: 1;
-      background: #7A0218;
+      background: #01B7F1;
       font-weight: 500;
       border-bottom: 2px solid #fff !important; }
 
@@ -192,7 +192,7 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
   color: #eee; }
 
 .submit_text.roundfield.enabled {
-  background: #F85F73; }
+  background: #01B7F1; }
 
 button.save, button.submit-action-thing, button.submit-report {
   background: 0 0;
@@ -227,11 +227,11 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   padding: 0 4px;
   background: 0 0;
   border: none;
-  color: #7A0218;
+  color: #01B7F1;
   text-align: center; }
   .next-suggestions a:hover,
   .nextprev a:hover {
-    background: #7A0218;
+    background: #01B7F1;
     border: none;
     color: #fff;
     outline: 0; }
@@ -267,7 +267,7 @@ button:active,
     bottom: 0;
     padding: 4px; }
     .comment .expand:hover {
-      background: #7A0218;
+      background: #01B7F1;
       color: #fff !important;
       text-decoration: none; }
   .comment.collapsed .tagline {
@@ -302,19 +302,19 @@ button:active,
   font-weight: 700; }
 
 .tagline .likes {
-  color: #BF0426; }
+  color: #0666B2; }
 
 .tagline .submitter {
-  color: #F85F73; }
+  color: #01B7F1; }
 
 .tagline .stickied-tagline {
   color: #00a64f; }
 
 .tagline a:hover {
-  color: #7A0218; }
+  color: #01B7F1; }
 
 .entry .flat-list .reply-button a {
-  color: #BF0426; }
+  color: #0666B2; }
 
 .link .domain {
   visibility: hidden; }
@@ -345,7 +345,7 @@ button:active,
   border-bottom: 1px solid #e5e5e5; }
 
 .flairselector {
-  border: 1px solid #BF0426 !important; }
+  border: 1px solid #0666B2 !important; }
   .flairselector .title {
     font-size: 0 !important; }
   .flairselector .linkflair {
@@ -355,7 +355,7 @@ button:active,
   .flairselector h2 {
     color: #fff;
     font-size: 13px;
-    background: #BF0426 !important;
+    background: #0666B2 !important;
     padding-top: 6px;
     font-weight: lighter !important;
     text-transform: capitalize;
@@ -363,7 +363,7 @@ button:active,
   .flairselector li:hover {
     background-color: transparent; }
   .flairselector form {
-    border-top: solid 1px #BF0426;
+    border-top: solid 1px #0666B2;
     margin-bottom: 10px; }
   .flairselector.drop-choices.active {
     left: 45% !important;
@@ -422,10 +422,10 @@ button:active,
 
 .submit-page .submit.content#newlink .tabmenu.formtab .selected a {
   font-size: 16px;
-  background-color: #BF0426;
+  background-color: #0666B2;
   color: #fff; }
   .submit-page .submit.content#newlink .tabmenu.formtab .selected a:hover {
-    background-color: #7A0218; }
+    background-color: #01B7F1; }
 
 .submit-page #newlink.submit.content .btn {
   width: 558px;
@@ -443,7 +443,7 @@ button:active,
   border-top: none;
   margin-top: -15px; }
   .formtabs-content .infobar {
-    background-color: #F85F73;
+    background-color: #01B7F1;
     color: #fff;
     padding: 15px;
     border: none;
@@ -665,7 +665,7 @@ a[href*="#icon-more"] {
   margin-bottom: 0;
   border-bottom: 1px solid #e5e5e5; }
   .link .title {
-    color: #BF0426; }
+    color: #0666B2; }
     .link .title:visited {
       color: #b1b1b1; }
   .link.thing.visited .title {
@@ -673,10 +673,10 @@ a[href*="#icon-more"] {
     padding: 0 !important; }
   .link.last-clicked {
     border: 0;
-    border-left: 3px solid #7A0218;
+    border-left: 3px solid #01B7F1;
     background: #f8fcff; }
   .link .score.likes {
-    color: #7A0218; }
+    color: #01B7F1; }
   .link .score.dislikes {
     color: #7f7f7f; }
   .link .flair {
@@ -689,7 +689,7 @@ a[href*="#icon-more"] {
   color: #fff;
   width: auto;
   display: block;
-  background: #BF0426;
+  background: #0666B2;
   border-radius: 0;
   font-size: small;
   margin-top: -12px;
@@ -703,7 +703,7 @@ a[href*="#icon-more"] {
 
 .newComments {
   display: inline;
-  color: #BF0426; }
+  color: #0666B2; }
 
 .linkinfo .totalvotes {
   color: #494949 !important; }
@@ -767,7 +767,7 @@ a[href*="#icon-more"] {
   transition: all .2s; }
 
 .listing-page .link:hover {
-  border-left-color: #7A0218;
+  border-left-color: #01B7F1;
   background: #f9fafc; }
 
 .entry .flat-list .report-button a,
@@ -780,11 +780,11 @@ a[href*="#icon-more"] {
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
-      background-color: solid #BF0426;
+      background-color: solid #0666B2;
       background-repeat: no-repeat; }
 
 .c-btn-primary {
-  background-color: solid #BF0426;
+  background-color: solid #0666B2;
   border-bottom: 2px solid #4270a2;
   color: #fff;
   border-radius: 0; }
@@ -828,7 +828,7 @@ a.author {
 .panestack-title {
   margin: 0 330px 0 -5px;
   padding: 4px 0;
-  background: #BF0426;
+  background: #0666B2;
   color: #fff;
   border-bottom: transparent; }
   .panestack-title .title {
@@ -884,7 +884,7 @@ a.author {
   color: #333; }
 
 .gold-accent {
-  background-color: #BF0426;
+  background-color: #0666B2;
   border: none;
   display: inline-block;
   color: #fff !important; }
@@ -893,7 +893,7 @@ a.author {
   padding: 10px;
   margin-right: 310px !important;
   color: #fff;
-  background: #BF0426;
+  background: #0666B2;
   margin-left: 5px !important;
   display: none; }
 
@@ -924,7 +924,7 @@ a.author {
           animation-name: pulsate; }
 
 .comments-page .link .flat-list a.flairselectbtn {
-  color: #BF0426 !important; }
+  color: #0666B2 !important; }
 
 .comments-page .usertext-edit div textarea {
   border: 1px solid #000 !important;
@@ -937,7 +937,7 @@ a.author {
   .comments-page .usertext-edit div textarea:focus {
     background: #FFF !important;
     opacity: 1;
-    border-color: #7A0218 !important; }
+    border-color: #01B7F1 !important; }
 
 .comments-page .link {
   border-left: 1px solid #c6c6c6 !important; }
@@ -977,12 +977,12 @@ a.author {
   display: flex;
   justify-content: space-between;
   color: #eee;
-  background: #BF0426;
+  background: #0666B2;
   border: none; }
   .commentarea .infobar a {
     color: #eee; }
   .commentarea .infobar p {
-    background: #7A0218;
+    background: #01B7F1;
     padding: 10px;
     margin: -5px -10px -5px 10px;
     line-height: 8px;
@@ -990,7 +990,7 @@ a.author {
     -o-transition: all .25s;
     transition: all .25s; }
     .commentarea .infobar p:hover {
-      background: #F85F73; }
+      background: #01B7F1; }
   .commentarea .infobar.infobar.commentsignupbar {
     display: block;
     background: transparent; }
@@ -1000,14 +1000,14 @@ a.author {
 .md {
   overflow: visible; }
   .md a {
-    color: #BF0426; }
+    color: #0666B2; }
     .md a:hover {
-      color: #7A0218; }
+      color: #01B7F1; }
   .md code {
     white-space: normal; }
   .md blockquote {
     border: 1px solid rgba(36, 156, 255, 0.1);
-    border-left: 2px solid #7A0218;
+    border-left: 2px solid #01B7F1;
     background-color: #efefed; }
 
 .usertext.border .usertext-body {
@@ -1016,15 +1016,15 @@ a.author {
 
 .wiki-page .pageactions {
   border-radius: 0;
-  border: 1px solid #7A0218; }
+  border: 1px solid #01B7F1; }
   .wiki-page .pageactions .wikiaction {
     margin: 0 !important;
     border-radius: 0 !important; }
     .wiki-page .pageactions .wikiaction:hover {
-      background-color: #7A0218 !important;
+      background-color: #01B7F1 !important;
       color: #fff !important; }
   .wiki-page .pageactions .wikiaction-current {
-    background-color: #BF0426; }
+    background-color: #0666B2; }
   .wiki-page .pageactions .wiki-page-content .nextprev a {
     margin-bottom: 12px; }
 
@@ -1032,15 +1032,15 @@ ul.tabmenu.formtab {
   padding-left: 0; }
 
 ::-moz-selection {
-  background-color: #7A0218;
+  background-color: #01B7F1;
   color: #fff; }
 
 ::selection {
-  background-color: #7A0218;
+  background-color: #01B7F1;
   color: #fff; }
 
 .buttons .comments.empty {
-  color: #BF0426; }
+  color: #0666B2; }
 
 .gadget .right a,
 a[href*="#tech"] {
@@ -1084,7 +1084,7 @@ a[href*="#tech"] {
   margin-right: 9px; }
 
 .gadget .right a {
-  background: #BF0426;
+  background: #0666B2;
   padding: 5px 10px;
   margin-right: 5px;
   display: block;
@@ -1096,7 +1096,7 @@ a[href*="#tech"] {
   text-transform: capitalize;
   border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
-    background: #7A0218; }
+    background: #01B7F1; }
 
 span.clear-input-button {
   color: #fff; }
@@ -1108,19 +1108,19 @@ span.clear-input-button {
   top: 0 !important;
   line-height: 26px !important;
   border: 1px solid grey;
-  background: #BF0426 !important;
+  background: #0666B2 !important;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
   transition: background-color .5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
-    background: #7A0218 !important; }
+    background: #01B7F1 !important; }
 
 #newlink-with-image-upload .image-upload-drop-target {
   padding: 15px !important; }
 
 #newlink-with-image-upload .file-upload-button {
-  background: #BF0426;
+  background: #0666B2;
   border: none;
   padding: 7px 20px !important;
   display: block !important;
@@ -1129,16 +1129,16 @@ span.clear-input-button {
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s; }
   #newlink-with-image-upload .file-upload-button:hover {
-    background: #7A0218; }
+    background: #01B7F1; }
 
 thead th {
-  background: #BF0426;
+  background: #0666B2;
   border: none !important;
   color: #fff; }
   thead th a {
     color: #fff !important; }
   thead th:nth-child(2n) {
-    background: #7A0218; }
+    background: #01B7F1; }
 
 tr:nth-child(even) {
   background-color: #F5F5F5; }
@@ -1164,7 +1164,7 @@ tr:nth-child(even) {
   .infobar {
     margin-right: 18px; }
   .footer {
-    border-right: 1px solid #BF0426; }
+    border-right: 1px solid #0666B2; }
   .panestack-title {
     margin: 0 0 0 -5px; }
   .infobar.newsletterbar {
@@ -1214,16 +1214,16 @@ a[href*="#icon-day"] {
   margin-left: -26.650em;
   top: 0.8em;
   padding: 1.34em;
-  background: url(%%redditchat%%) 5px no-repeat #BF0426;
+  background: url(%%redditchat%%) 5px no-repeat #0666B2;
   border: 0.2em solid #fff;
   border-bottom: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s; }
   #chat:hover {
-    background-color: #7A0218; }
+    background-color: #01B7F1; }
   #chat:active {
-    background: url(%%redditchat%%) 5px no-repeat #F85F73; }
+    background: url(%%redditchat%%) 5px no-repeat #01B7F1; }
 
 /* #endregion */
 .side {
@@ -1233,7 +1233,7 @@ a[href*="#icon-day"] {
   .side:after {
     content: "/r/ClearShift theme v4.0.4";
     font-size: large;
-    color: #BF0426;
+    color: #0666B2;
     margin-left: 1.5em; }
   .side .md h2 {
     margin-top: 1.4em;
@@ -1426,8 +1426,8 @@ div.side div.tagline {
   border-top: none !important; }
 
 .morelink {
-  border: 1px solid #BF0426;
-  background: #BF0426;
+  border: 1px solid #0666B2;
+  background: #0666B2;
   width: 145px;
   margin-right: 5px;
   -webkit-transition: all 0.5s;
@@ -1443,11 +1443,11 @@ div.side div.tagline {
     letter-spacing: 0;
     font-size: 0.9em; }
   .morelink:hover {
-    background: #7A0218;
-    border-color: #7A0218; }
+    background: #01B7F1;
+    border-color: #01B7F1; }
     .morelink:hover a {
       color: #fff;
-      border-color: #7A0218; }
+      border-color: #01B7F1; }
   .morelink .nub {
     display: none; }
 
@@ -1509,7 +1509,7 @@ div.side div.tagline {
   background-color: #00a64f; }
 
 .helplink ~ .content .author .helplink ~ .content .author:hover {
-  color: #7A0218; }
+  color: #01B7F1; }
 
 .sidecontentbox .content .linkflairlabel {
   display: none; }
@@ -1549,9 +1549,9 @@ div.titlebox .md ul li {
     color: #369; }
 
 .sidecontentbox .title {
-  background-color: #BF0426;
+  background-color: #0666B2;
   padding: 10px;
-  border-left: 5px solid #F85F73;
+  border-left: 5px solid #01B7F1;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px;
@@ -1559,7 +1559,7 @@ div.titlebox .md ul li {
 
 .sidecontentbox a.helplink {
   display: block;
-  background: #BF0426;
+  background: #0666B2;
   color: #fff;
   margin-right: 5px;
   margin-bottom: 10px;
@@ -1571,7 +1571,7 @@ div.titlebox .md ul li {
           box-sizing: border-box;
   border-radius: 2px; }
   .sidecontentbox a.helplink:hover {
-    background: #7A0218; }
+    background: #01B7F1; }
 
 .sidecontentbox .title h1,
 .sidecontentbox a.helplink {
@@ -1590,9 +1590,9 @@ div.titlebox .md h3:before {
 div.titlebox .md h2,
 div.titlebox .md h3,
 div.titlebox .md h4 {
-  background-color: #BF0426;
+  background-color: #0666B2;
   padding: 10px;
-  border-left: 5px solid #F85F73;
+  border-left: 5px solid #01B7F1;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: -10px;
@@ -1614,8 +1614,8 @@ div.titlebox .md ul li {
     border-left-color: #ccd4e8; }
 
 div.titlebox h1 {
-  border-left: 5px solid #F85F73;
-  background-color: #BF0426;
+  border-left: 5px solid #01B7F1;
+  background-color: #0666B2;
   padding: 10px;
   font-weight: 400;
   margin-top: 0;
@@ -1626,7 +1626,7 @@ div.titlebox h1 {
 div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
-  background-color: #F85F73;
+  background-color: #01B7F1;
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
   transition: background-color .5s;
@@ -1640,7 +1640,7 @@ div.titlebox span.fancy-toggle-button a.active {
   border-radius: 2px; }
 
 div.titlebox div.styleToggle {
-  background-color: #BF0426;
+  background-color: #0666B2;
   line-height: 20px; }
   div.titlebox div.styleToggle input,
   div.titlebox div.styleToggle label {
@@ -1648,7 +1648,7 @@ div.titlebox div.styleToggle {
     margin: 0; }
 
 div.titlebox span.fancy-toggle-button a.active.add:hover, div.titlebox span.fancy-toggle-button a.active.remove {
-  background-color: #BF0426; }
+  background-color: #0666B2; }
 
 div.titlebox span.fancy-toggle-button a.active.remove:before {
   content: "";
@@ -1691,11 +1691,11 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   margin: 0;
   padding: 3px 0; }
   .sidecontentbox .content a.author:hover {
-    color: #7A0218; }
+    color: #01B7F1; }
 
 #search input[type=text] {
   width: 295px !important;
-  border-color: #BF0426; }
+  border-color: #0666B2; }
 
 #searchexpando {
   padding: 10px;
@@ -1777,8 +1777,8 @@ div.titlebox .md h3:hover + ul {
     display: block;
     color: #fff !important;
     text-transform: none;
-    border-left: 5px solid #F85F73;
-    background-color: #BF0426;
+    border-left: 5px solid #01B7F1;
+    background-color: #0666B2;
     padding: 10px;
     cursor: pointer;
     margin-top: 0;
@@ -1844,11 +1844,11 @@ div.titlebox .md h3:hover + ul {
 
 .account-activity-box {
   display: block !important;
-  background: #BF0426;
+  background: #0666B2;
   margin-right: 5px;
   border-radius: 2px; }
   .account-activity-box:hover {
-    background: #7A0218; }
+    background: #01B7F1; }
   .account-activity-box a {
     color: #fff;
     padding: 10px 70px; }
@@ -1881,7 +1881,7 @@ div.titlebox .md h3:hover + ul {
   font-size: 13px;
   color: #eaeaea;
   line-height: 170%;
-  background: url(%%spritesheet%%) -110px -289px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -110px -289px no-repeat #0666B2;
   float: left;
   border: 2px solid #fff;
   cursor: pointer; }
@@ -1906,7 +1906,7 @@ div.titlebox .md h3:hover + ul {
   top: 3px;
   padding-left: 26px;
   padding-top: 5px;
-  background: url(%%spritesheet%%) -224px -72px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -224px -72px no-repeat #0666B2;
   border: 2px solid #fff; }
 
 #beta-help,
@@ -1919,7 +1919,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #modmail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #7A0218; }
+  background-color: #01B7F1; }
 
 #header #header-bottom-right .logout {
   display: inline-block; }
@@ -1938,7 +1938,7 @@ div.titlebox .md h3:hover + ul {
   transition: background-color 0.5s; }
 
 #header #header-bottom-right #mail.nohavemail {
-  background: url(%%spritesheet%%) 0 -114px no-repeat #BF0426;
+  background: url(%%spritesheet%%) 0 -114px no-repeat #0666B2;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1953,7 +1953,7 @@ div.titlebox .md h3:hover + ul {
   border: 2px solid #fff; }
 
 #header #header-bottom-right .choice {
-  background: url(%%spritesheet%%) -127px -114px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -127px -114px no-repeat #0666B2;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -1963,7 +1963,7 @@ div.titlebox .md h3:hover + ul {
     top: 0;
     left: -78px;
     color: transparent !important;
-    background-color: #BF0426;
+    background-color: #0666B2;
     background-image: url(%%spritesheet%%) !important;
     background-repeat: no-repeat !important;
     background-size: 341px 331px !important;
@@ -1988,7 +1988,7 @@ div.titlebox .md h3:hover + ul {
   display: none; }
 
 #header #header-bottom-right .logout a {
-  background: url(%%spritesheet%%) -127px -42px no-repeat #BF0426;
+  background: url(%%spritesheet%%) -127px -42px no-repeat #0666B2;
   border-radius: 1px;
   border: 2px solid #fff; }
 
@@ -2009,7 +2009,7 @@ div.titlebox .md h3:hover + ul {
 #header #header-bottom-right #mail:hover,
 #header #header-bottom-right .choice:hover,
 #header #header-bottom-right .user:hover {
-  background-color: #7A0218; }
+  background-color: #01B7F1; }
 
 #header #header-bottom-right .logout a:hover {
   text-indent: -99999px;
@@ -2030,7 +2030,7 @@ div.titlebox .md h3:hover + ul {
   overflow: hidden; }
 
 .message-count {
-  background: #7A0218;
+  background: #01B7F1;
   height: 42px;
   font-size: medium;
   line-height: 42px !important;
@@ -2124,13 +2124,13 @@ div.titlebox .md h3:hover + ul {
   -webkit-transition: opacity .5s;
   -o-transition: opacity .5s;
   transition: opacity .5s;
-  background-color: #7A0218;
+  background-color: #01B7F1;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#special']:before {
     margin: 0 5px 0 0;
     font-weight: 700;
     padding: 5px 6px;
-    background-color: #BF0426;
+    background-color: #0666B2;
     content: "Event";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#special']:hover {
@@ -2180,7 +2180,7 @@ div.titlebox .md h3:hover + ul {
   text-decoration: none; }
 
 .side .usertext-body .md ol a[href$='#sticky'] {
-  background-color: #7A0218;
+  background-color: #01B7F1;
   opacity: 0.8; }
   .side .usertext-body .md ol a[href$='#sticky']:hover {
     opacity: 1; }
@@ -2189,7 +2189,7 @@ div.titlebox .md h3:hover + ul {
   opacity: 1; }
 
 .side .usertext-body .md ol a[href$='#sticky']:before {
-  background-color: #BF0426;
+  background-color: #0666B2;
   content: "Sticky";
   color: #fff; }
 
@@ -2231,7 +2231,7 @@ div.titlebox .md h3:hover + ul {
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s; }
   .side .usertext-body .md ol a[href$='#update']:before {
-    background-color: #BF0426;
+    background-color: #0666B2;
     content: "Update";
     color: #fff; }
   .side .usertext-body .md ol a[href$='#update']:hover {
@@ -2297,14 +2297,14 @@ html[lang^=nm] .md {
   .res-nightmode .md blockquote,
   html[lang^=nm] .md blockquote {
     background: rgba(0, 87, 166, 0.24);
-    border-left: 2px solid #7A0218 !important;
+    border-left: 2px solid #01B7F1 !important;
     color: #888 !important; }
   .res-nightmode .md code,
   html[lang^=nm] .md code {
     border: none !important;
     background-color: #393939 !important;
     border-radius: 0 !important;
-    border-left: 3px solid #7A0218 !important; }
+    border-left: 3px solid #01B7F1 !important; }
   .res-nightmode .md pre,
   html[lang^=nm] .md pre {
     background-color: #393939 !important; }
@@ -2743,11 +2743,11 @@ html[lang^=nm] input[type=submit] {
 
 .res-nightmode .side .spacer .titlebox .redditname,
 html[lang^=nm] .side .spacer .titlebox .redditname {
-  border-left-color: #7A0218; }
+  border-left-color: #01B7F1; }
 
 .res-nightmode .gold-accent,
 html[lang^=nm] .gold-accent {
-  background: #BF0426; }
+  background: #0666B2; }
 
 .res-nightmode .thing .title:visited,
 .res-nightmode .thing.visited .title,
@@ -3040,11 +3040,11 @@ html[lang^=nm] #chat {
   line-height: 25px; }
 
 .footer {
-  border-bottom: 1px solid #BF0426;
+  border-bottom: 1px solid #0666B2;
   padding: 0;
-  border-left: 1px solid #BF0426; }
+  border-left: 1px solid #0666B2; }
   .footer::after {
-    border-bottom: 1px solid #BF0426;
+    border-bottom: 1px solid #0666B2;
     display: block;
     margin-top: 0;
     padding: 10px;
@@ -3053,8 +3053,8 @@ html[lang^=nm] #chat {
     content: "Designed by /u/Jaskys";
     font-size: 16px;
     font-family: "Segoe UI", Helvetica, sans-serif;
-    border-top: 34px solid #BF0426;
-    border-right: 1px solid #BF0426;
+    border-top: 34px solid #0666B2;
+    border-right: 1px solid #0666B2;
     margin-bottom: -1.1px;
     width: 90px; }
   .footer div.col {
@@ -3069,7 +3069,7 @@ html[lang^=nm] #chat {
       text-transform: capitalize;
       padding: 8px;
       color: #fff;
-      background: #BF0426;
+      background: #0666B2;
       max-height: 18px; }
     .footer div.col a {
       display: block;
@@ -3100,576 +3100,20 @@ html[lang^=nm] #chat {
 .flat-vert {
   text-align: center; }
 
-.titlebox h1.redditname a {
-  font-size: 0; }
-  .titlebox h1.redditname a:after {
-    content: "Windows Mobile";
-    color: #fff;
-    font: 400 small verdana, arial, helvetica, sans-serif; }
+.helplink ~ .content .author[href*=Jaskys]:after {
+  content: '- Designer'; }
 
-#header .redditname a {
-  font-size: 0;
-  background: url(%%wincore-2%%) -5px -5px no-repeat;
-  margin-left: 10px;
-  height: 100px;
-  display: block;
+.pagename a {
   position: absolute;
-  top: 30px; }
-  #header .redditname a:hover {
-    background: url(%%wincore-2%%) -5px -115px no-repeat !important;
-    text-decoration: none; }
-  #header .redditname a:after {
-    content: "Windows Mobile";
-    font-size: 70px;
-    font-weight: lighter;
-    color: #ECF0F1;
-    font-family: "Segoe UI Light", Helvetica, sans-serif;
-    letter-spacing: .05em;
-    margin-left: 100px;
-    line-height: 100px;
-    font-variant: normal;
-    -webkit-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    transition: background-color 0.5s; }
-
-.flair-mod,
-.flair-msft {
-  border: none;
-  background: 0 0;
-  font-weight: 700; }
-  .flair-mod:before,
-  .flair-msft:before {
-    content: "- "; }
-
-.sidecontentbox .flair-mod {
-  display: none; }
-
-.flair-mod {
-  color: #00a64f; }
-
-.linklisting .flair-msft:after {
-  display: none; }
-
-.flair-msft {
-  height: 16px;
-  line-height: 16px;
-  color: #0078D7;
-  padding: 0; }
-  .flair-msft:after {
-    content: "Microsoft Employee";
-    position: absolute;
-    top: -0.7px;
-    right: -1px;
-    bottom: -1px;
-    left: -1px;
-    text-align: right;
-    padding: .25em .5em;
-    border: 3px solid #8bb9e2;
-    pointer-events: none; }
-
-.author[href$=Adam-MSFT], .author[href$=Dave_MSFT], .author[href$=DrPreppy], .author[href$=EKILBO], .author[href$=Giffdev], .author[href$=James-MSFT], .author[href$=KritiMSFT], .author[href$=MailmanOdd], .author[href$=MasterDevwi], .author[href$=MsftHealthWill], .author[href$=NorthFaceHiker], .author[href$=Psychlist1972], .author[href$=Sawan-Msft], .author[href$=Sawan-MSFT], .author[href$=StephA_MSFT], .author[href$=Zev_MSFT], .author[href$=adam_msft], .author[href$=anaotero-MSFT], .author[href$=anbutle], .author[href$=anthonykinseymsft], .author[href$=bbyboi], .author[href$=bitcrazed], .author[href$=bloodytemplar], .author[href$=devbent], .author[href$=donaMSFT], .author[href$=jenmsft], .author[href$=Sean_MSFT], .author[href$=jeremy_msft], .author[href$=johnwinkmsft], .author[href$=josh_msft], .author[href$=kylealden], .author[href$=maheshrd], .author[href$=mike_msft], .author[href$=msftbanddev], .author[href$=msftbilly], .author[href$=mvaneerde], .author[href$=ooeygui], .author[href$=samersaw], .author[href$=sjarawan], .author[href$=stefohneee], .author[href$=toma_msft], .author[href$=vpmsft], .author[href$=xander-msft], .author[href$=zac_l], .author[href$=craigbarkhouse], .author[href$=elvenharps], .author[href$=nerdile], .author[href$=einarmsft], .author[href$=yosefdurr], .author[href$=Travis_MSFT], .author[href$=caithartMSFT], .author[href$=ClayMSFT], .author[href$=another_mike_msft], .author[href$=JonTyrrell], .author[href$=JohnMSFT], .author[href$=ctrl_alt_steph], .author[href$=sedmison], .author[href$=MSFTJesse], .author[href$=paulcam], .author[href$=shanselman], .author[href$=ryanb_msft], .author[href$=zadjii], .author[href$=WindowsDocs_Quinn], .author[href$=andybeach], .author[href$=pfeplatforms_msft], .author[href$=ezpark], .author[href$=tomasmsft], .author[href$=sushMSFT], .author[href$=tdashroy], .author[href$=TheoMSFT], .author[href$=Dan-PFE], .author[href$=gustavo_ms], .author[href$=UltimateRetroGamer] {
-  color: #0078D7;
-  font-weight: 700; }
-
-.author[href$=ildun], .author[href$=Katsuga50] {
-  color: #e67e22;
-  font-weight: 700; }
-
-.flair-wiki {
-  color: #e67e22;
-  font-weight: 700;
-  height: 16px;
-  line-height: 16px;
-  border: none;
-  background: 0 0;
-  padding: 0; }
-  .flair-wiki:before {
-    content: "- "; }
-
-.flairselector {
-  background-color: #fff; }
-
-.side a[href*='#square-discussion']:before,
-.linkflair-discussion .linkflairlabel {
-  background: #ff9e00; }
-
-.side a[href*='#square-tip']:before,
-.linkflair-tip .linkflairlabel {
-  background: #468966; }
-
-.side a[href*='#square-news']:before,
-.linkflair-news .linkflairlabel {
-  background: #F2385A; }
-
-.side a[href*='#square-official']:before,
-.linkflair-official .linkflairlabel {
-  background: #2086bf; }
-
-.side a[href*='#square-update']:before,
-.linkflair-update .linkflairlabel {
-  background: #0078d7; }
-
-.side a[href*='#square-help']:before,
-.linkflair-help .linkflairlabel {
-  background: #FF6138; }
-
-.side a[href*='#square-solved']:before,
-.linkflair-solved .linkflairlabel {
-  background: #008A00; }
-
-.side a[href*='#square-bug']:before,
-.linkflair-bug .linkflairlabel {
-  background: #ce352c; }
-
-.side a[href*='#square-update']:before,
-.linkflair-update .linkflairlabel {
-  background: #0078d7; }
-
-.side a[href*='#square-feature']:before,
-.linkflair-feature .linkflairlabel {
-  background: #00aba9; }
-
-.side a[href*='#square-meta']:before,
-.linkflair-meta .linkflairlabel {
-  background: #4390df; }
-
-.side a[href*='#square-app']:before,
-.linkflair-app .linkflairlabel {
-  background: #bf5a15; }
-
-.side a[href*='#square-concept']:before,
-.linkflair-concept .linkflairlabel {
-  background: #14B6F5; }
-
-.side a[href*='#square-request']:before,
-.linkflair-request .linkflairlabel {
-  background: #00aba9; }
-
-.side a[href*='#square-hflairs']:before,
-.linkflair-hflairs .linkflairlabel {
-  background: #E42608; }
-
-.side a[href*='#square-hhelp']:before,
-.linkflair-hhelp .linkflairlabel {
-  background: #E42608; }
-
-.side a[href*='#square-gaming']:before,
-.linkflair-gaming .linkflairlabel {
-  background: #107c10; }
-
-.side a[href*='#square-development']:before,
-.linkflair-development .linkflairlabel {
-  background: #0078d7; }
-
-.side a[href*='#square-insider-bug']:before,
-.linkflair-insider-bug .linkflairlabel {
-  background: #ce352c; }
-
-a[href*='#square'] + .keyNavAnnotation {
-  display: none; }
-
-a[href*='#square-']:hover::before {
-  text-decoration: none;
-  background: #7A0218;
-  border-color: #80c2ff;
-  left: 4px;
-  top: 8px;
-  -webkit-transition: all 0.15s ease;
-  -o-transition: all 0.15s ease;
-  transition: all 0.15s ease; }
-
-a[href*='#square-']:before {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  content: '';
-  margin: 0 5px -4px 0;
-  border: 3px solid #e8e8e8; }
-
-.linkflairlabel {
-  margin: 0 4px -4px 0;
-  padding: 3px 7px;
-  color: #fff;
-  font-weight: 400;
-  font-size: 10px;
-  font-family: "Segoe UI", Helvetica, sans-serif;
-  pointer-events: none;
-  border-radius: 0;
-  border: 0; }
-  .linkflairlabel:lang(nf) {
-    display: none; }
-
-.comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn,
-.comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn {
-  display: block !important;
-  position: fixed;
-  bottom: 30px;
-  height: auto;
-  min-height: 63px;
-  max-width: 390px;
-  left: 15px;
-  z-index: 9999;
-  font-size: 0 !important;
-  font-family: "Segoe UI", Helvetica, sans-serif;
-  background-image: url(%%flairy%%);
-  background-position: 6px 26px;
-  background-repeat: no-repeat;
-  background-color: #E74C3C;
-  color: #fff;
-  text-align: center;
-  border: 2px solid #ff6138;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s;
-  text-decoration: none;
-  -webkit-animation: toasty 500ms forwards;
-          animation: toasty 500ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  font-weight: normal; }
-  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:before,
-  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:before {
-    background: #ff6138;
-    display: block;
-    height: 20px;
-    width: 100%;
-    position: relative;
-    font-size: 13px;
-    content: "Subreddit notification";
-    line-height: 18px;
-    text-align: left;
-    text-indent: 10px;
-    color: #fff; }
-  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:after,
-  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:after {
-    content: "Click here to flair your thread as solved once your problem is resolved" !important;
-    text-align: left;
-    font-size: 14px;
-    display: block;
-    color: #fff !important;
-    position: relative;
-    top: -0.1em;
-    padding: 0 12px 12px 48px;
-    white-space: normal; }
-  .comments-page.post-submitter .link.linkflair-bug .flat-list .flairselectbtn:hover,
-  .comments-page.post-submitter .link.linkflair-help .flat-list .flairselectbtn:hover {
-    border-color: #F44336; }
-
-.post-submitter .link:not(.linkflair) .flairselectbtn {
-  display: block !important;
-  position: fixed;
-  bottom: 30px;
-  height: auto;
-  min-height: 63px;
-  max-width: 230px;
-  left: 15px;
-  z-index: 9999;
-  font-size: 0 !important;
-  font-family: "Segoe UI", Helvetica, sans-serif;
-  background-image: url(%%flairy%%);
-  background-position: 6px 26px;
-  background-repeat: no-repeat;
-  background-color: #00a64f;
-  color: #fff;
-  text-align: center;
-  border: 2px solid #0d9605;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s;
-  text-decoration: none;
-  -webkit-animation: toasty 500ms forwards;
-          animation: toasty 500ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  font-weight: normal; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:before {
-    background: #0d9605;
-    display: block;
-    height: 20px;
-    width: 100%;
-    position: relative;
-    font-size: 13px;
-    content: "Subreddit notification";
-    line-height: 18px;
-    text-align: left;
-    text-indent: 10px;
-    color: #fff; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:after {
-    content: "Click here to flair thread" !important;
-    text-align: left;
-    font-size: 14px;
-    display: block;
-    color: #fff !important;
-    position: relative;
-    top: -0.1em;
-    padding: 0 12px 12px 48px;
-    white-space: normal; }
-  .post-submitter .link:not(.linkflair) .flairselectbtn:hover {
-    border-color: #2dad56; }
-
-@-webkit-keyframes toasty {
-  0% {
-    -webkit-transform: scale(0.3) rotateY(90deg);
-            transform: scale(0.3) rotateY(90deg); }
-  60% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4); }
-  90% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9); } }
-
-@keyframes toasty {
-  0% {
-    -webkit-transform: scale(0.3) rotateY(90deg);
-            transform: scale(0.3) rotateY(90deg); }
-  60% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4); }
-  90% {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9); } }
-
-html:lang(nh) .linkflair-bug,
-html:lang(nh) .linkflair-help {
-  display: none !important; }
-
-.listing-page .linkflair-discussion {
-  border-left: 3px solid #ff9e00;
-  background: rgba(255, 158, 0, 0.05); }
-
-.listing-page .linkflair-tip {
-  border-left: 3px solid #468966;
-  background: rgba(70, 137, 102, 0.05); }
-
-.listing-page .linkflair-news {
-  border-left: 3px solid #F2385A;
-  background: rgba(242, 56, 90, 0.05); }
-
-.listing-page .linkflair-official {
-  border-left: 3px solid #2086bf;
-  background: rgba(32, 134, 191, 0.05); }
-
-.listing-page .linkflair-update {
-  border-left: 3px solid #0078d7;
-  background: rgba(0, 120, 215, 0.05); }
-
-.res-nightmode .side .md blockquote,
-html[lang^=nm] .side .md blockquote {
-  border-left: 5px solid #3B81FB !important;
-  color: #ddd !important; }
-
-.comments-page .link.linkflair-solved {
-  display: block; }
-
-#header-img.default-header,
-a[href*="#icon-day"] {
-  display: none; }
-
-.side .md blockquote {
-  padding: 2px 10px 5px;
-  border-left: 5px solid #f5c684;
-  background-color: #fef8f1;
-  border-bottom: 1px solid #e6edf6;
-  border-right: 1px solid #e6edf6;
-  font-size: 10px;
-  margin: 0 5px 0 0;
-  color: #222; }
-  .side .md blockquote:hover {
-    background-color: #fcecd9;
-    border-left-color: #f0ad4e; }
-  .side .md blockquote a {
-    font-size: 11px; }
-
-a[href$="WindowsMobile#2"] {
-  position: absolute;
-  top: 134px;
-  left: 48px;
-  color: #ddd !important;
-  z-index: 99;
-  border-bottom: 2px solid transparent !important;
-  text-transform: uppercase;
-  -webkit-transition: .15s ease-in-out;
-  -o-transition: .15s ease-in-out;
-  transition: .15s ease-in-out;
-  line-height: 14px;
-  height: 22px;
-  padding: 7px 9px 0;
-  font-size: 11.4px !important;
-  letter-spacing: 0.1em;
-  font-family: "Segoe UI", Helvetica, sans-serif; }
-  a[href$="WindowsMobile#2"]:hover {
-    color: #fff !important;
-    background: #7A0218;
-    border-color: #fff !important; }
-
-a[href*="#Donsiders"], a[href*="#btn"] {
-  display: inline-block;
-  border: 1px solid #0081ba;
-  color: #fff !important;
-  padding: 10px 13px;
-  margin: 5px 0;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-  border-radius: 1px; }
-  a[href*="#Donsiders"]:hover, a[href*="#btn"]:hover {
-    background: #7A0218;
-    -webkit-transform: translateY(-1px);
-    -ms-transform: translateY(-1px);
-    transform: translateY(-1px);
-    -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
-
-a[href*="#Donsiders"] {
-  background: #009e7e; }
-  a[href*="#Donsiders"]:hover {
-    background: #7A0218; }
-
-a[href*="#btn"] {
-  background: #0057a6; }
-
-a[href*="#square-showflairs"] {
-  float: right; }
-  a[href*="#square-showflairs"]::before {
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    content: "";
-    background: -187px -5px #BF0426;
-    border: 3px solid #e8e8e8;
-    border-radius: 50%;
-    margin-left: 5px; }
-
-a[href*="#square-hflairs"]::after {
-  content: "or";
-  margin-left: 50px; }
-
-a[href*="#square-hflairs"]:hover::after {
-  color: #BF0426; }
-
-.side .md [href$="#butt"] {
-  display: inline-block !important;
-  font-size: 8pt;
-  border: 2px solid #BF0426;
-  padding: 9px 8px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
-  text-align: center;
-  color: #BF0426; }
-  .side .md [href$="#butt"]:hover {
-    background: #BF0426;
-    color: #fff; }
-
-.side .md > p:first-of-type {
-  display: none; }
-
-.linkflair-solved.link {
-  display: none; }
-
-.search-page .linkflair-solved.link {
-  display: block; }
-
-a[href*='#icon-chat']::before, a[href*='#icon-feedback']::before, a[href*='#icon-night']::before, a[href*='#icon-feedback2']::before {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  content: '';
-  margin: 0 7px -4px 0; }
-
-a[href*='#icon']:hover {
-  text-decoration: none; }
-
-a[href*='#icon-chat']::before {
-  background: url(%%spritesheet%%) -5px -204px; }
-
-a[href*='#icon-feedback']::before {
-  background: url(%%spritesheet%%) -35px -204px; }
-
-a[href*='#icon-night']::before {
-  background: url(%%spritesheet%%) -125px -242px; }
-
-a[href*='#icon-feedback2']::before {
-  background: url(%%wincore-2%%) -5px -345px; }
-
-a[href*="#icon-more"] {
-  text-align: center;
-  display: block;
-  color: #7A0218;
-  font-size: 16px; }
-
-a[href*='#iconz'] + .keyNavAnnotation {
-  display: none; }
-
-a[href*='#iconz-tips']::before, a[href*='#iconz-updates']::before, a[href*='#iconz-faq']::before, a[href*='#iconz-install']::before, a[href*='#iconz-wiki']::before {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  content: '';
-  margin: 0 7px -4px 0; }
-
-a[href*='#iconz']:hover {
-  text-decoration: none; }
-
-a[href*='#iconz-tips']::before {
-  background: url(%%spritesheet%%) -204px -47px; }
-
-a[href*='#iconz-faq']::before {
-  background: url(%%spritesheet%%) -47px -47px; }
-
-a[href*='#iconz-updates']::before {
-  background: url(%%spritesheet%%) -102px -77px; }
-
-a[href*='#iconz-install']::before {
-  background: url(%%spritesheet%%) -229px -119px; }
-
-a[href*='#iconz-wiki']::before {
-  background: url(%%spritesheet%%) -174px -149px; }
-
-.link a.thumbnail[href*="blogs.windows.com"] {
-  background: url(%%spritesheet%%) -234px -149px no-repeat !important;
-  width: 45px;
-  height: 45px;
-  margin: 10px; }
-  .link a.thumbnail[href*="blogs.windows.com"] img {
-    display: none; }
-
-.res-nightmode .subscribers .number:after,
-.subscribers .number:after {
-  content: " enjoying creators update"; }
-
-.subscribers .word {
-  display: none; }
-
-.arrow.down {
-  pointer-events: none; }
-
-.subscriber .arrow.down {
-  pointer-events: initial; }
-
-#baconBit {
-  width: 394px !important;
-  height: 304px !important;
-  background-image: url(%%res-easter-egg%%) no-repeat !important;
-  -webkit-transition: all 10s linear !important;
-  -o-transition: all 10s linear !important;
-  transition: all 10s linear !important; }
-
-.comments-page .usertext-edit div textarea {
-  background: url(%%wincore-2%%) 206px -213px no-repeat #FFF !important; }
-
-.res-nightmode a[href*="#icon-chat"]::before,
-html[lang^=nm] a[href*="#icon-chat"]::before {
-  background-image: url(%%wincore-2%%);
-  background-position: -5px -405px; }
-
-.submit-page .side:before {
-  content: "Use search before posting";
-  font-size: large;
-  color: #F85F73;
-  margin-left: 27px;
-  top: 2px;
-  position: relative; }
+  top: 19px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-indent: -9999em; }
+
+#header-bottom-left {
+  background: url(%%mb-header%%) no-repeat 0% 70%;
+  height: 140px; }
 
 .side .md a[href="https://discord.gg/microsoft"] {
   z-index: 1;
@@ -3698,191 +3142,3 @@ html[lang^=nm] a[href*="#icon-chat"]::before {
     border-radius: 3px; }
   .side .md a[href="https://discord.gg/microsoft"]:hover::after {
     opacity: 1; }
-
-.helplink ~ .content .author[href*=Jaskys]::after {
-  content: '- Designer';
-  font-size: 0.945em;
-  margin-left: 5px;
-  color: #BF0426; }
-
-a[href*='#icon-'] + .keyNavAnnotation {
-  display: none; }
-
-a[href*='#icon-']:hover {
-  text-decoration: none; }
-
-a[href*='#icon-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%Skype%%) no-repeat top left; }
-
-a[href*='#icon2-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%Twitter%%) no-repeat top left; }
-
-a[href*='#icon3-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%WindowsM%%) no-repeat top left; }
-
-a[href*='#icon4-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%SmartphoneTablet%%) no-repeat top left; }
-
-a[href*='#icon5-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%Updates%%) no-repeat top left; }
-
-a[href*='#icon6-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%Star%%) no-repeat top left; }
-
-a[href*='#icon7-']::before {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  content: '';
-  margin: 0 5px -1px 0;
-  background: url(%%AppHighlight%%) no-repeat top left; }
-
-.flair:before {
-  content: "";
-  width: 10px;
-  height: 16px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-image: url(%%flair-phones%%);
-  vertical-align: middle;
-  margin-right: 3px; }
-
-.flair {
-  cursor: help; }
-
-.flair-userGray:before {
-  background-position: 0 0; }
-
-.flair-userPink:before {
-  background-position: -16px 0; }
-
-.flair-userLime:before {
-  background-position: -32px 0; }
-
-.flair-userOrange:before {
-  background-position: -48px 0; }
-
-.test {
-  color: red; }
-
-.flair-userBlue:before {
-  background-position: -64px 0; }
-
-.flair-userTeal:before {
-  background-position: -80px 0; }
-
-.flair-userYellow:before {
-  background-position: -96px 0; }
-
-.flair-userPurple:before {
-  background-position: -112px 0; }
-
-.flair-userGreen:before {
-  background-position: -128px 0; }
-
-.flair-userRed:before {
-  background-position: -144px 0; }
-
-.flair-userDarkPink:before {
-  background-position: -160px 0; }
-
-.flair-userBrown:before {
-  background-position: -176px 0; }
-
-.flair-userBlack:before {
-  background-position: -192px 0; }
-
-.helplink ~ .content .author[href*="AutoModerator"] {
-  font-size: 0;
-  content: ''; }
-
-.helplink ~ .content .author[href*="AutoModerator"]::before {
-  content: 'Joe Belfiore';
-  font-size: 8pt; }
-
-a.author[href$="AutoModerator"]::before {
-  content: "Joe Belfiore";
-  color: #369;
-  font-size: x-small; }
-
-a[href$='AutoModerator'].author {
-  margin-right: 0.5em;
-  font-size: 0; }
-
-.comment .author[href$="AutoModerator"] {
-  font-weight: bold;
-  font-size: 0; }
-
-a[href$="Windows10#2"] {
-  position: absolute;
-  top: 135px;
-  left: 48px;
-  color: #ddd !important;
-  z-index: 99;
-  border-bottom: 3px solid transparent !important;
-  text-transform: uppercase;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  line-height: 14px;
-  height: 20px;
-  padding: 8px 9px 0;
-  font-size: 11.4px !important;
-  letter-spacing: 0.1em;
-  font-family: "Segoe UI", Helvetica, sans-serif; }
-  a[href$="Windows10#2"]:hover {
-    color: #fff !important;
-    background: rgba(0, 0, 0, 0.1);
-    border-color: #fff !important; }
-
-a[href$="WindowsApps#2"] {
-  position: absolute;
-  top: 134px;
-  left: 112px;
-  color: #ddd !important;
-  z-index: 99;
-  border-bottom: 2px solid transparent !important;
-  text-transform: uppercase;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  line-height: 14px;
-  height: 22px;
-  padding: 8px 9px 0;
-  font-size: 11.4px !important;
-  letter-spacing: 0.1em;
-  font-family: "Segoe UI", Helvetica, sans-serif; }
-  a[href$="WindowsApps#2"]:hover {
-    color: #fff !important;
-    background: #7A0218;
-    border-color: #fff !important; }

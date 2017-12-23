@@ -12,12 +12,8 @@ $color-bg-secondary: #29384f;
 'core/nightmode',
 'core/RES',
 'core/footer';
-// @import 'windows/wincore';
 //moderators
 .helplink~.content .author {
-  // &[href*=#{$head-mod}]:after {
-  //   content: '- Head Moderator';
-  // }
   &[href*=Jaskys]:after {
     content: '- Designer';
   }
