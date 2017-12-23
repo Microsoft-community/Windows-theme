@@ -21,7 +21,7 @@ $color-mod: #00a64f;
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
 $tabmenu-offset: 50px !default; //114px - mobile; 163px mobile+apps;
-$version: "v4.0.4";
+$version: "v4.0.5";
 
 /*
 Designed by /u/Jaskys
@@ -868,36 +868,35 @@ a[href*="#icon-more"] {
   text-transform: capitalize;
 }
 
-// FIXME: 05-12 causes fullscreen bug for videos and RES content
-// .listing-page .linklisting {
-//   -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-//   -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-//   animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-// }
-// @-webkit-keyframes fade-in-fwd {
-//   0% {
-//     -webkit-transform: translateZ(-80px);
-//     transform: translateZ(-80px);
-//     opacity: 0
-//   }
-//   to {
-//     -webkit-transform: translateZ(0);
-//     transform: translateZ(0);
-//     opacity: 1
-//   }
-// }
-// @keyframes fade-in-fwd {
-//   0% {
-//     -webkit-transform: translateZ(-80px);
-//     transform: translateZ(-80px);
-//     opacity: 0
-//   }
-//   to {
-//     -webkit-transform: translateZ(0);
-//     transform: translateZ(0);
-//     opacity: 1
-//   }
-// }
+.listing-page .linklisting {
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
+  -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
+}
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+    transform: translateZ(-80px);
+    opacity: 0
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1
+  }
+}
 .report-reasons.rounded {
   display: block!important;
   width: 99%;
