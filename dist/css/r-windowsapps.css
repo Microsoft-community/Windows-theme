@@ -920,6 +920,7 @@ a.author {
   -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
   animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
+
 @-webkit-keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
@@ -3520,7 +3521,7 @@ a[href*='#iconz-wiki']::before {
 
 .res-nightmode .subscribers .number:after,
 .subscribers .number:after {
-  content: " enjoying creators update"; }
+  content: " subscribers"; }
 
 .subscribers .word {
   display: none; }
