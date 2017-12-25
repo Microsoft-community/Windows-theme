@@ -331,18 +331,19 @@ html[lang^=nm] {
             }
         }
     } //color secondary merge
+     //.link .score .likes for hover
     #header-bottom-left .tabmenu li.selected a,
     .link .usertext-body .md,
     .debuginfo,
     .sidecontentbox a.helplink:hover,
     .cookie-infobar.with-icon:before,
     div.titlebox span.fancy-toggle-button a.active.remove,
-    .link .score .likes, //hover
+    .link .score .likes,
     .nextprev a:hover,
     .side .morelink a:hover,
     button:hover,
     .account-activity-box:hover,
-     ::-webkit-scrollbar {
+     :-webkit-scrollbar {
         background-color: $nm-color-bg-secondary !important;
     }
     .comment .usertext .md p>a:visited,
