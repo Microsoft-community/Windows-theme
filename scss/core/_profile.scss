@@ -24,6 +24,12 @@
         float: left;
         border: 2px solid #fff;
         cursor: pointer;
+        a {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 17ch;
+        }
         >a {
             text-indent: 4px;
             color: #FFF;
@@ -34,6 +40,13 @@
         span a {
             color: #fff;
         }
+    }
+    .userkarma {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 15ch;
+        display: block;
     }
     #mail {
         top: 0 !important;
