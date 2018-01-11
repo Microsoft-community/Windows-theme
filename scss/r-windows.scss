@@ -10,31 +10,18 @@ $tabmenu-offset: 114px;
 'core/RES',
 'core/footer';
 @import 'windows/wincore',
-'windows/enhancements',
-'seasonal/snow';
+'windows/enhancements';
+// 'seasonal/snow'; 
 //color #1570A6
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]:after {
-    content: '- Developer & designer';
+    content: '- Head Developer';
   }
   &[href*=dAKirby309]:after {
-    content: '- Graphic designer';
+    content: '- Graphic Designer';
   }
   &[href*=TheTimeWalker]:after {
-    content: '- Assisting developer';
+    content: '- Supporting Developer';
   }
-}
-
-//kylde's flair
-.flair-jansmall:before {
-  content: "";
-  width: 17px;
-  height: 20px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-image: url(%%jansmall%%);
-  background-position: 0 0;
-  vertical-align: middle;
-  margin-right: 2px
 }

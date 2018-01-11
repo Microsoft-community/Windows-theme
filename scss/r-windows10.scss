@@ -10,17 +10,18 @@ $tabmenu-offset: 114px;
 'core/RES',
 'core/footer';
 @import 'windows/wincore',
-'windows/enhancements',
-'seasonal/snow';
+'windows/enhancements';
+// 'seasonal/snow';
+
 //moderators
 .helplink~.content .author {
   &[href*=Jaskys]:after {
-    content: '- Developer & designer';
+    content: '- Head Developer';
   }
   &[href*=dAKirby309]:after {
-    content: '- Graphic designer';
+    content: '- Graphic Designer';
   }
   &[href*=TheTimeWalker]:after {
-    content: '- Assisting developer';
+    content: '- Supporting Developer';
   }
 }

@@ -46,7 +46,8 @@
         overflow: hidden;
         text-overflow: ellipsis;
         width: 15ch;
-        display: block;
+        color: #fff;
+        margin-left: -3px;
     }
     #mail {
         top: 0 !important;
@@ -64,7 +65,9 @@
         border: 2px solid #fff;
     }
 }
-
+span.user {
+    color: transparent!important;
+}
 #beta-help,
 .beta-hint a {
     position: absolute !important;

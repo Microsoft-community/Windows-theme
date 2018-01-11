@@ -1930,7 +1930,8 @@ div.titlebox .md h3:hover + ul {
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
   width: 15ch;
-  display: block; }
+  color: #fff;
+  margin-left: -3px; }
 
 #header-bottom-right #mail {
   top: 0 !important;
@@ -1946,6 +1947,9 @@ div.titlebox .md h3:hover + ul {
   padding-top: 5px;
   background: url(%%spritesheet%%) -224px -72px no-repeat #2D4059;
   border: 2px solid #fff; }
+
+span.user {
+  color: transparent !important; }
 
 #beta-help,
 .beta-hint a {

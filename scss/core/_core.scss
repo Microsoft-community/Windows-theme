@@ -4,8 +4,8 @@ sans-serif !default;
 $font-light: "Segoe UI Light",
 Helvetica,
 sans-serif !default;
-$color-bg-main: #BF0426 !default;
-$color-bg-secondary: #7A0218 !default;
+$color-bg-main: #0078d7 !default;
+$color-bg-secondary: lighten($color-bg-main, 15%) !default;
 $color-bg-alt: #F85F73 !default;
 $color-bg-active: #1686f0 !default;
 $color-bg-light-hover: #f8fcff !default;
