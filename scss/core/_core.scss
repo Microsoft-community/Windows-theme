@@ -21,8 +21,7 @@ $color-mod: #00a64f;
 $breakpoint-1: 880px;
 $wide-screen: "(max-width: #{$breakpoint-1})";
 $tabmenu-offset: 50px !default; //114px - mobile; 163px mobile+apps;
-$version: "v4.0.5";
-
+$version: "v4.0.6";
 /*
 Designed by /u/Jaskys
 /r/ClearShift theme base
@@ -191,6 +190,9 @@ Secondary: #7A0218
       border-color: #AEAEAE;
     }
   }
+  .redesign-beta-optin {
+    display: none;
+  }
 }
 
 #sr-more-link,
@@ -313,7 +315,7 @@ button:active,
     padding: 4px;
     &:hover {
       background: $color-bg-secondary;
-      color: #fff!important;
+      color: #fff !important;
       text-decoration: none;
     }
   }
@@ -331,7 +333,7 @@ button:active,
 }
 
 .new-comment {
-  border-color: #FFAB91!important;
+  border-color: #FFAB91 !important;
   .expand:hover {
     background: #ffab91;
   }
@@ -351,7 +353,7 @@ button:active,
 }
 
 .gilded.link {
-  border-left-color: gold!important;
+  border-left-color: gold !important;
   background: #fffdf3;
 }
 
@@ -439,7 +441,7 @@ button:active,
     margin-bottom: 10px;
   }
   &.drop-choices.active {
-    left: 45%!important;
+    left: 45% !important;
     margin-top: -172px;
     position: fixed;
     padding: 0 !important;
@@ -448,8 +450,8 @@ button:active,
 }
 
 .comments-page .flairselector.drop-choices.active {
-  top: 50%!important;
-  left: 50%!important;
+  top: 50% !important;
+  left: 50% !important;
   transform: translate(-50%, -50%);
 }
 
@@ -675,7 +677,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
     height: 28px;
     width: 30px;
     background: center center no-repeat #fff;
-    background-size: 341px 331px!important;
+    background-size: 341px 331px !important;
     &.selftext {
       &.collapsed,
       &.expanded {
@@ -873,6 +875,7 @@ a[href*="#icon-more"] {
   -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
   animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
 }
+
 @-webkit-keyframes fade-in-fwd {
   0% {
     -webkit-transform: translateZ(-80px);
@@ -885,6 +888,7 @@ a[href*="#icon-more"] {
     opacity: 1
   }
 }
+
 @keyframes fade-in-fwd {
   0% {
     -webkit-transform: translateZ(-80px);
@@ -897,8 +901,9 @@ a[href*="#icon-more"] {
     opacity: 1
   }
 }
+
 .report-reasons.rounded {
-  display: block!important;
+  display: block !important;
   width: 99%;
 }
 
@@ -1131,7 +1136,7 @@ a.author {
 
 .reported-stamp {
   background-color: #f85f73;
-  border: 0!important;
+  border: 0 !important;
   padding: 2px 4px;
   color: #333;
 }
@@ -1155,7 +1160,7 @@ a.author {
 //comments page
 .comments-page {
   .sitetable.nestedlisting>.thing.stickied {
-    background: lighten($color-mod, 66%)!important;
+    background: lighten($color-mod, 66%) !important;
     border-color: rgba(0, 166, 79, 0.1);
     border-bottom: solid 3px $color-mod;
   }
@@ -1309,7 +1314,7 @@ ul.tabmenu.formtab {
   padding-left: 0;
 }
 
- ::selection {
+::selection {
   background-color: $color-bg-secondary;
   color: #fff;
 }
@@ -1326,7 +1331,7 @@ a[href*="#tech"] {
 
 //ide scrollbar
 .sheets {
-   ::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     background-color: #0f0f0f !important;
     &-corner,
     &-thumb {
@@ -1424,10 +1429,10 @@ span.clear-input-button {
 //tables
 thead th {
   background: $color-bg-main;
-  border: none!important;
+  border: none !important;
   color: #fff;
   a {
-    color: #fff!important;
+    color: #fff !important;
   }
   &:nth-child(2n) {
     background: $color-bg-secondary;
@@ -1502,7 +1507,6 @@ a[href*="#icon-day"] {
   display: none;
 }
 
-
 /* #region temp fixes */
 
 //video uploads support
@@ -1511,22 +1515,21 @@ a[href*="#icon-day"] {
     border-bottom: 0;
   }
   &.pinned {
-    background-color: rgba(248, 248, 248, 0.95)!important;
+    background-color: rgba(248, 248, 248, 0.95) !important;
   }
 }
 
-
 .expando-button {
-  &.collapsed.crosspost { 
+  &.collapsed.crosspost {
     width: 20px !important;
-    background-size: 23px 302px!important;
+    background-size: 23px 302px !important;
     height: 20px;
     &:hover {
       width: 20px !important;
     }
   }
   &.expanded.crosspost {
-    background-size: 23px 302px!important;
+    background-size: 23px 302px !important;
     height: 25px;
   }
 }
@@ -1553,6 +1556,5 @@ a[href*="#icon-day"] {
     background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
   }
 }
-
 
 /* #endregion */
