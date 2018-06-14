@@ -1,7 +1,7 @@
 /*
 Designed by /u/Jaskys
 /r/ClearShift theme base
-Version: v4.0.6
+Version: v4.0.7
 Contributors: /u/supersmilers, /u/mtvee, /u/BatDogOnBatMobile, /u/MrLawbreaker, /u/TheTimeWalker
 Icons provided by www.icons8.com under "Creative Commons Attribution-NoDerivs 3.0 Unported" license
 Main color: #5133AB
@@ -1257,7 +1257,7 @@ a[href*="#icon-day"] {
   padding-left: 30px;
   background: 0 0; }
   .side:after {
-    content: "/r/ClearShift theme v4.0.6";
+    content: "/r/ClearShift theme v4.0.7";
     font-size: large;
     color: #5133AB;
     margin-left: 1.5em; }
@@ -1354,6 +1354,17 @@ a[href*="#icon-day"] {
             animation-play-state: running;
     -webkit-animation-name: pulsate;
             animation-name: pulsate; }
+  .side form.toggle.sr_style_toggle {
+    border-bottom: 1px solid #e6edf6;
+    border-left: 5px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
+    padding: 7px 10px 10px;
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: .945em;
+    font-weight: 400;
+    margin: 0 5px 0 0; }
 
 @-webkit-keyframes pulsate {
   0%,
