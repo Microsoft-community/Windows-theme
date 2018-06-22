@@ -45,9 +45,9 @@ Secondary: #7A0218
       bottom: 0;
       left: 0;
       font-family: "Segoe UI", Helvetica, sans-serif;
-      -webkit-transition: .5s;
-      -o-transition: .5s;
-      transition: .5s; }
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
       #header-bottom-left .tabmenu li {
         font-weight: 400;
         margin: 0; }
@@ -61,9 +61,9 @@ Secondary: #7A0218
           padding: 8px 9px 6px;
           letter-spacing: 0.1em;
           text-transform: uppercase;
-          -webkit-transition: .15s ease-in-out;
-          -o-transition: .15s ease-in-out;
-          transition: .15s ease-in-out; }
+          -webkit-transition: 0.15s ease-in-out;
+          -o-transition: 0.15s ease-in-out;
+          transition: 0.15s ease-in-out; }
           #header-bottom-left .tabmenu li a:hover {
             color: #fff;
             background: #01B7F1;
@@ -84,11 +84,11 @@ Secondary: #7A0218
     width: 27px;
     margin-left: 4px;
     padding: 2px 11px 0 8px;
-    opacity: .8;
+    opacity: 0.8;
     background-repeat: no-repeat !important;
-    -webkit-transition: .15s ease-in-out;
-    -o-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
+    -webkit-transition: 0.15s ease-in-out;
+    -o-transition: 0.15s ease-in-out;
+    transition: 0.15s ease-in-out;
     border-bottom: 2px solid transparent !important; }
     #header-img:hover {
       opacity: 1;
@@ -106,17 +106,17 @@ Secondary: #7A0218
   white-space: nowrap;
   border-radius: 1px;
   overflow: hidden;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; }
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 #sr-header-area {
-  -webkit-transition: opacity .3s;
-  -o-transition: opacity .3s;
-  transition: opacity .3s;
-  opacity: .4;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0.4;
   height: 24px;
-  background-color: #0C1722;
+  background-color: #0c1722;
   border-bottom: 0;
   letter-spacing: 1px;
   line-height: 22px;
@@ -152,12 +152,12 @@ Secondary: #7A0218
     background: #222;
     border: none; }
   #sr-header-area .drop-choices a.choice {
-    color: #AEAEAE; }
+    color: #aeaeae; }
     #sr-header-area .drop-choices a.choice:hover {
       background-color: #333;
-      color: #EEE; }
+      color: #eee; }
   #sr-header-area .drop-choices .choice.bottom-option {
-    border-color: #AEAEAE; }
+    border-color: #aeaeae; }
   #sr-header-area .redesign-beta-optin {
     display: none; }
 
@@ -170,20 +170,20 @@ Secondary: #7A0218
 .rank,
 .titlebox .bottom,
 .submit-page .content h1,
-a[href*='#icon'] + .keyNavAnnotation,
-a[href*='#/RES_SR_Config/NightModeCompatible'] {
+a[href*="#icon"] + .keyNavAnnotation,
+a[href*="#/RES_SR_Config/NightModeCompatible"] {
   display: none !important; }
 
 #url-field button,
-.submit-page .content button[name=submit] {
+.submit-page .content button[name="submit"] {
   background: 0 0;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   border: 1px solid #5cb85c;
   color: #5cb85c; }
   #url-field button:hover,
-  .submit-page .content button[name=submit]:hover {
+  .submit-page .content button[name="submit"]:hover {
     background: #5cb85c;
     color: #fff; }
 
@@ -198,9 +198,9 @@ a[href*='#/RES_SR_Config/NightModeCompatible'] {
 
 button.save, button.submit-action-thing, button.submit-report {
   background: 0 0;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
   border: 1px solid #5cb85c;
@@ -214,12 +214,12 @@ button.cancel, button.cancel-action-thing, button.cancel-report-thing {
   border: 1px solid #d9534f;
   background: 0 0;
   color: #d9534f;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   text-transform: capitalize;
   font-family: "Segoe UI", Helvetica, sans-serif;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; }
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
   button.cancel:hover, button.cancel-action-thing:hover, button.cancel-report-thing:hover {
     background: #d9534f;
     color: #fff; }
@@ -260,9 +260,9 @@ button:active,
   overflow: hidden;
   margin: 0 18px 8px 0; }
   .comment .expand {
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
     position: absolute;
     top: 0;
     left: 0;
@@ -282,7 +282,7 @@ button:active,
     border-left: none; }
 
 .new-comment {
-  border-color: #FFAB91 !important; }
+  border-color: #ffab91 !important; }
   .new-comment .expand:hover {
     background: #ffab91; }
   .new-comment .usertext-body {
@@ -413,9 +413,9 @@ button:active,
   color: #4d5763;
   text-transform: uppercase;
   font-weight: 700;
-  -webkit-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
   font-size: 16px;
   border: none;
   width: 247.5px; }
@@ -788,9 +788,9 @@ a[href*="#icon-more"] {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  -webkit-transition: all .2s;
-  -o-transition: all .2s;
-  transition: all .2s; }
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
 
 .listing-page .link:hover {
   border-left-color: #01B7F1;
@@ -802,7 +802,7 @@ a[href*="#icon-more"] {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid #e6edf6; }
+  border: 1px solid #e6edf6; }
   .reddit-infobar.with-icon {
     margin-left: -4px; }
     .reddit-infobar.with-icon:before {
@@ -816,35 +816,35 @@ a[href*="#icon-more"] {
   border-radius: 0; }
 
 .sitetable .comment {
-  background-color: #FFF !important; }
+  background-color: #fff !important; }
   .sitetable .comment .comment {
     background-color: #f5f5f5 !important; }
     .sitetable .comment .comment .comment {
-      background-color: #FFF !important; }
+      background-color: #fff !important; }
       .sitetable .comment .comment .comment .comment {
         background-color: #f5f5f5 !important; }
         .sitetable .comment .comment .comment .comment .comment {
-          background-color: #FFF !important; }
+          background-color: #fff !important; }
           .sitetable .comment .comment .comment .comment .comment .comment {
             background-color: #f5f5f5 !important; }
             .sitetable .comment .comment .comment .comment .comment .comment .comment {
-              background-color: #FFF !important; }
+              background-color: #fff !important; }
               .sitetable .comment .comment .comment .comment .comment .comment .comment .comment {
                 background-color: #f5f5f5 !important; }
                 .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                  background-color: #FFF !important; }
+                  background-color: #fff !important; }
                   .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                     background-color: #f5f5f5 !important; }
                     .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                      background-color: #FFF !important; }
+                      background-color: #fff !important; }
                       .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                         background-color: #f5f5f5 !important; }
                         .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                          background-color: #FFF !important; }
+                          background-color: #fff !important; }
                           .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                             background-color: #f5f5f5 !important; }
                             .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-                              background-color: #FFF !important; }
+                              background-color: #fff !important; }
                               .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
                                 background-color: #f5f5f5 !important; }
 
@@ -884,7 +884,7 @@ a.author {
   right: -1px;
   bottom: -1px;
   left: -1px;
-  content: '';
+  content: "";
   opacity: 0.5;
   z-index: -1; }
 
@@ -954,14 +954,14 @@ a.author {
 
 .comments-page .usertext-edit div textarea {
   border: 1px solid #000 !important;
-  opacity: .8;
+  opacity: 0.8;
   margin-top: 5px;
   outline: 0;
   display: block;
   clear: both;
   margin-bottom: 10px; }
   .comments-page .usertext-edit div textarea:focus {
-    background: #FFF !important;
+    background: #fff !important;
     opacity: 1;
     border-color: #01B7F1 !important; }
 
@@ -1012,9 +1012,9 @@ a.author {
     padding: 10px;
     margin: -5px -10px -5px 10px;
     line-height: 8px;
-    -webkit-transition: all .25s;
-    -o-transition: all .25s;
-    transition: all .25s; }
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s; }
     .commentarea .infobar p:hover {
       background: #01B7F1; }
   .commentarea .infobar.infobar.commentsignupbar {
@@ -1098,7 +1098,7 @@ a[href*="#tech"] {
   padding: 15px 20px 20px 25px;
   border: none;
   border-radius: 0;
-  background-color: #30659B;
+  background-color: #30659b;
   border-left: 3px solid #ff4500;
   margin: -7px 325px 7px 0;
   left: -5px; }
@@ -1116,9 +1116,9 @@ a[href*="#tech"] {
   display: block;
   color: #fff;
   font-size: 16px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   text-transform: capitalize;
   border-radius: 0 0 2px 2px; }
   .gadget .right a:hover {
@@ -1135,9 +1135,9 @@ span.clear-input-button {
   line-height: 26px !important;
   border: 1px solid grey;
   background: #0666B2 !important;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   right: -10px !important; }
   #newlink-with-image-upload .clear-input-button:hover {
     background: #01B7F1 !important; }
@@ -1167,7 +1167,7 @@ thead th {
     background: #01B7F1; }
 
 tr:nth-child(even) {
-  background-color: #F5F5F5; }
+  background-color: #f5f5f5; }
 
 .drop-choices {
   border-color: #e8e8e8; }
@@ -1204,7 +1204,7 @@ tr:nth-child(even) {
   bottom: -1px;
   left: -1px;
   text-align: right;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   border: 3px solid #8bb9e2;
   pointer-events: none; }
 
@@ -1237,18 +1237,20 @@ a[href*="#icon-day"] {
 
 #chat {
   position: absolute;
-  margin-left: -26.650em;
+  margin-left: -26.65em;
   top: 0.8em;
   padding: 1.34em;
   background: url(%%redditchat%%) 5px no-repeat #0666B2;
   border: 0.2em solid #fff;
   border-bottom: 0;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s; }
+  -webkit-transition: background 0.5s, background-color 0.5s;
+  -o-transition: background 0.5s, background-color 0.5s;
+  transition: background 0.5s, background-color 0.5s; }
   #chat:hover {
     background-color: #01B7F1; }
   #chat:active {
+    background: url(%%redditchat%%) 5px no-repeat #01B7F1; }
+  #chat.active {
     background: url(%%redditchat%%) 5px no-repeat #01B7F1; }
 
 /* #endregion */
@@ -1274,7 +1276,7 @@ a[href*="#icon-day"] {
   .side .md p {
     margin: 0.5em 0; }
     .side .md p a {
-      margin: 0 .2em;
+      margin: 0 0.2em;
       font-size: 1.1em; }
       .side .md p a:first-child {
         margin-left: 0; }
@@ -1362,7 +1364,7 @@ a[href*="#icon-day"] {
     border-radius: 0;
     background-color: #fff;
     color: #000;
-    font-size: .945em;
+    font-size: 0.945em;
     font-weight: 400;
     margin: 0 5px 0 0; }
 
@@ -1420,11 +1422,10 @@ div.side span.subscribers {
   padding: 10px;
     padding-top: 5px;
     padding-bottom: 10px;
-  border: 1px solid #e6edf6;
-    border-left: 5px solid #e6edf6;
-    border-right: 1px solid #e6edf6;
-    border-radius: 0;
-    border-top: none;
+  border-left: 5px solid #e6edf6;
+  border-right: 1px solid #e6edf6;
+  border-radius: 0;
+  border-top: 1px solid #e6edf6;
   margin: 0 5px 0 0;
   background-color: #fff;
   color: #000;
@@ -1522,11 +1523,11 @@ div.side div.tagline {
 .sidebox.create {
   display: none !important; }
 
-.helplink ~ .content .author[href*=AutoModerator], .helplink ~ .content .author[href*=flair_your_post_bot] {
+.helplink ~ .content .author[href*="AutoModerator"], .helplink ~ .content .author[href*="flair_your_post_bot"] {
   display: none; }
 
 .helplink ~ .content .author:after {
-  content: '- Moderator';
+  content: "- Moderator";
   margin-left: 5px; }
 
 .helplink ~ .content .flair {
@@ -1643,9 +1644,9 @@ div.titlebox .md ul li {
   border-left: 5px solid #e6edf6;
   border-right: 1px solid #e6edf6;
   font-size: 0.945em;
-  -webkit-transition: .2s;
-  -o-transition: .2s;
-  transition: .2s; }
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
   div.titlebox .md ul li:hover {
     background-color: #f8fcff;
     border-left-color: #ccd4e8; }
@@ -1664,9 +1665,9 @@ div.titlebox div.styleToggle,
 div.titlebox span.fancy-toggle-button a.active {
   padding: 5px 10px;
   background-color: #01B7F1;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   color: #fff;
   font-size: 8pt;
   display: block !important;
@@ -1730,7 +1731,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
   .sidecontentbox .content a.author:hover {
     color: #01B7F1; }
 
-#search input[type=text] {
+#search input[type="text"] {
   width: 295px !important;
   border-color: #0666B2; }
 
@@ -1760,7 +1761,7 @@ div.titlebox span.fancy-toggle-button a.active.add:before {
 
 .titlebox h1 a,
 .pagename a {
-  color: #FFF; }
+  color: #fff; }
 
 .titlebox .md h3 + ul:hover,
 .titlebox .md h3:hover + ul {
@@ -1781,9 +1782,9 @@ div.titlebox .md h3 + ul {
           transition-delay: 2s; }
 
 div.titlebox .md h3:hover + ul {
-  -webkit-transition: .8s max-height ease-out;
-  -o-transition: .8s max-height ease-out;
-  transition: .8s max-height ease-out; }
+  -webkit-transition: 0.8s max-height ease-out;
+  -o-transition: 0.8s max-height ease-out;
+  transition: 0.8s max-height ease-out; }
 
 .linkinfo {
   padding: 0;
@@ -1874,9 +1875,9 @@ div.titlebox .md h3:hover + ul {
 .sidecontentbox a.helplink {
   font-size: 16px;
   padding: 10px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   text-transform: capitalize; }
 
 .account-activity-box {

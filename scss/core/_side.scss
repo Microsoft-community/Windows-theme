@@ -1,549 +1,549 @@
 //markdown
 .side {
+  margin: 0;
+  padding-left: 30px;
+  background: 0 0;
+  &:after {
+    content: "/r/ClearShift theme #{$version}";
+    font-size: large;
+    color: $color-bg-main;
+    margin-left: 1.5em;
+  }
+  .md {
+    h2 {
+      margin-top: 1.4em;
+      font-size: 1.4em;
+    }
+    h3 {
+      font-size: 1.2em;
+      color: #555;
+      margin: 2em 0 0.2em;
+    }
+    h4 {
+      color: #888;
+      margin-bottom: 1.5em;
+    }
+    p {
+      margin: 0.5em 0;
+      a {
+        margin: 0 0.2em;
+        font-size: 1.1em;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      &:after {
+        display: block;
+        position: absolute;
+        z-index: -1;
+        border: {
+          color: transparent $color-borders-light transparent transparent;
+          width: 10px;
+          style: solid;
+        }
+        content: "";
+        margin-left: -24px;
+      }
+      a {
+        color: #fff;
+        font-size: 13px;
+      }
+    }
+    h1 {
+      color: #fff;
+      font-size: 13px;
+      a {
+        color: #fff;
+        font-size: 13px;
+      }
+    }
+  }
+  .titlebox {
+    div.subButtons,
+    h1.redditname + div,
+    > .fancy-toggle-button {
+      padding: 10px {
+        top: 5px;
+        bottom: 5px;
+      }
+      border: 1px solid $color-borders-light {
+        left: 5px solid $color-borders-light;
+        right: 1px solid $color-borders-light;
+        top: none;
+        bottom: none;
+        radius: 0;
+      }
+      background-color: #fff;
+      color: #000;
+      font-size: 8pt;
+      font-weight: 400;
+      margin: 0 5px 0 0;
+    }
+    > .fancy-toggle-button {
+      display: block !important;
+    }
+    div.subButtons,
+    > .fancy-toggle-button {
+      width: 269.3px;
+    }
+  }
+  div.titlebox ul {
+    list-style-type: none;
     margin: 0;
-    padding-left: 30px;
-    background: 0 0;
-    &:after {
-        content: "/r/ClearShift theme #{$version}";
-        font-size: large;
-        color: $color-bg-main;
-        margin-left: 1.5em;
-    }
-    .md {
-        h2 {
-            margin-top: 1.4em;
-            font-size: 1.4em;
-        }
-        h3 {
-            font-size: 1.2em;
-            color: #555;
-            margin: 2em 0 0.2em;
-        }
-        h4 {
-            color: #888;
-            margin-bottom: 1.5em;
-        }
-        p {
-            margin: 0.5em 0;
-            a {
-                margin: 0 .2em;
-                font-size: 1.1em;
-                &:first-child {
-                    margin-left: 0;
-                }
-            }
-        }
-        h1,
-        h2,
-        h3,
-        h4 {
-            color: #fff;
-            font-size: 13px;
-            font-weight: 400;
-            &:after {
-                display: block;
-                position: absolute;
-                z-index: -1;
-                border: {
-                    color: transparent $color-borders-light transparent transparent;
-                    width: 10px;
-                    style: solid;
-                }
-                content: "";
-                margin-left: -24px;
-            }
-            a {
-                color: #fff;
-                font-size: 13px;
-            }
-        }
-        h1 {
-            color: #fff;
-            font-size: 13px;
-            a {
-                color: #fff;
-                font-size: 13px;
-            }
-        }
-    }
-    .titlebox {
-        div.subButtons,
-        h1.redditname+div,
-        >.fancy-toggle-button {
-            padding: 10px {
-                top: 5px;
-                bottom: 5px;
-            }
-            border: 1px solid $color-borders-light {
-                left: 5px solid $color-borders-light;
-                right: 1px solid $color-borders-light;
-                top: none;
-                bottom: none;
-                radius: 0;
-            }
-            background-color: #fff;
-            color: #000;
-            font-size: 8pt;
-            font-weight: 400;
-            margin: 0 5px 0 0;
-        }
-        >.fancy-toggle-button {
-            display: block !important;
-        }
-        div.subButtons,
-        >.fancy-toggle-button {
-            width: 269.3px;
-        }
-    }
-    div.titlebox ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    .subscribe-button .add {
-        animation: 1s ease-out 0s normal none infinite running pulsate;
-        animation-duration: 2s;
-        animation-timing-function: ease-out;
-        animation-delay: 0s;
-        animation-direction: normal;
-        animation-fill-mode: none;
-        animation-iteration-count: infinite;
-        animation-play-state: running;
-        animation-name: pulsate;
-    }
-    form.toggle.sr_style_toggle {
-        border-bottom: 1px solid #e6edf6;
-        border-left: 5px solid #e6edf6;
-        border-right: 1px solid #e6edf6;
-        padding: 7px 10px 10px;
-        border-radius: 0;
-        background-color: #fff;
-        color: #000;
-        font-size: .945em;
-        font-weight: 400;
-        margin: 0 5px 0 0;
-    }
+    padding: 0;
+  }
+  .subscribe-button .add {
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: pulsate;
+  }
+  form.toggle.sr_style_toggle {
+    border-bottom: 1px solid #e6edf6;
+    border-left: 5px solid #e6edf6;
+    border-right: 1px solid #e6edf6;
+    padding: 7px 10px 10px;
+    border-radius: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 0.945em;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+  }
 }
 
 //pulse anim
 @-webkit-keyframes pulsate {
-    0%,
-    100% {
-        opacity: 0.7;
-    }
-    50% {
-        opacity: 1;
-    }
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes pulsate {
-    0%,
-    100% {
-        opacity: 0.7;
-    }
-    50% {
-        opacity: 1;
-    }
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 @keyframes pulsate {
-    0%,
-    100% {
-        opacity: 0.7;
-    }
-    50% {
-        opacity: 1;
-    }
+  0%,
+  100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .titlebox h1:after,
 .sidecontentbox .title:after {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border: {
-        color: transparent $color-borders-light transparent transparent;
-        width: 10px;
-        style: solid;
-    }
-    content: "";
-    margin-left: -24px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border: {
+    color: transparent $color-borders-light transparent transparent;
+    width: 10px;
+    style: solid;
+  }
+  content: "";
+  margin-left: -24px;
 }
 
 div.side {
-    div {
-        &.tagline {
-            padding: 10px;
-            border: 1px solid $color-borders-light {
-                left: 5px solid $color-borders-light;
-                right: 1px solid $color-borders-light;
-                radius: 0;
-            }
-            background-color: #fff;
-            color: #000;
-            font-size: 0.945em;
-            font-weight: 400;
-            margin: 0 5px 0 0;
-            display: block !important;
-        }
+  div {
+    &.tagline {
+      padding: 10px;
+      border: 1px solid $color-borders-light {
+        left: 5px solid $color-borders-light;
+        right: 1px solid $color-borders-light;
+        radius: 0;
+      }
+      background-color: #fff;
+      color: #000;
+      font-size: 0.945em;
+      font-weight: 400;
+      margin: 0 5px 0 0;
+      display: block !important;
     }
-    form {
-        &.flairtoggle,
-        &.leavecontributor-button {
-            padding: 10px;
-            border: 1px solid $color-borders-light {
-                left: 5px solid $color-borders-light;
-                right: 1px solid $color-borders-light;
-                radius: 0;
-            }
-            background-color: #fff;
-            color: #000;
-            font-size: 0.945em;
-            font-weight: 400;
-            margin: 0 5px 0 0;
-        }
+  }
+  form {
+    &.flairtoggle,
+    &.leavecontributor-button {
+      padding: 10px;
+      border: 1px solid $color-borders-light {
+        left: 5px solid $color-borders-light;
+        right: 1px solid $color-borders-light;
+        radius: 0;
+      }
+      background-color: #fff;
+      color: #000;
+      font-size: 0.945em;
+      font-weight: 400;
+      margin: 0 5px 0 0;
     }
-    span.subscribers {
-        padding: 10px {
-            top: 5px;
-            bottom: 10px;
-        }
-        border: 1px solid $color-borders-light {
-            left: 5px solid $color-borders-light;
-            right: 1px solid $color-borders-light;
-            radius: 0;
-            top: none;
-        }
-        margin: 0 5px 0 0;
-        background-color: #fff;
-        color: #000;
-        font-size: 0.945em;
-        font-weight: 400;
+  }
+  span.subscribers {
+    padding: 10px {
+      top: 5px;
+      bottom: 10px;
+    }
+    border: {
+      left: 5px solid $color-borders-light;
+      right: 1px solid $color-borders-light;
+      radius: 0;
+      top: 1px solid $color-borders-light;
+    }
+    margin: 0 5px 0 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 0.945em;
+    font-weight: 400;
+    display: block;
+    span {
+      vertical-align: middle;
+      &.number:before {
+        background: url(%%spritesheet%%) -192px -5px;
         display: block;
-        span {
-            vertical-align: middle;
-            &.number:before {
-                background: url(%%spritesheet%%) -192px -5px;
-                display: block;
-                float: left;
-                width: 20px;
-                height: 20px;
-                content: "";
-                margin-right: 5px;
-                margin-top: -3px;
-            }
-        }
+        float: left;
+        width: 20px;
+        height: 20px;
+        content: "";
+        margin-right: 5px;
+        margin-top: -3px;
+      }
     }
-    form {
-        &.flairtoggle {
-            display: block;
-        }
+  }
+  form {
+    &.flairtoggle {
+      display: block;
     }
-    form {
-        &.flairtoggle {
-            padding-top: 5px;
-            padding-bottom: 5px;
-            border-top: none;
-            border-bottom: none;
-        }
+  }
+  form {
+    &.flairtoggle {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-top: none;
+      border-bottom: none;
     }
-    p.users-online {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-top: none;
-        border-bottom: none;
-    }
-    div.tagline {
-        padding-top: 0;
-        border-top: none !important;
-    }
+  }
+  p.users-online {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+    border-bottom: none;
+  }
+  div.tagline {
+    padding-top: 0;
+    border-top: none !important;
+  }
 }
 
 //what
 .morelink {
-    border: 1px solid $color-bg-main;
-    background: $color-bg-main;
-    width: 145px;
-    margin-right: 5px;
-    transition: all 0.5s;
-    box-sizing: border-box;
-    border-radius: 2px;
+  border: 1px solid $color-bg-main;
+  background: $color-bg-main;
+  width: 145px;
+  margin-right: 5px;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  border-radius: 2px;
+  a {
+    color: #fff;
+    font-family: $font-main;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 0.9em;
+  }
+  &:hover {
+    background: $color-bg-secondary;
+    border-color: $color-bg-secondary;
     a {
-        color: #fff;
-        font-family: $font-main;
-        font-weight: 400;
-        letter-spacing: 0;
-        font-size: 0.9em;
+      color: #fff;
+      border-color: $color-bg-secondary;
     }
-    &:hover {
-        background: $color-bg-secondary;
-        border-color: $color-bg-secondary;
-        a {
-            color: #fff;
-            border-color: $color-bg-secondary;
-        }
-    }
-    .nub {
-        display: none;
-    }
+  }
+  .nub {
+    display: none;
+  }
 }
 
 .submit .morelink {
-    float: left;
+  float: left;
 }
 
 .submit-page .titlebox h1 {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .redditname {
-    margin-top: 53px !important;
+  margin-top: 53px !important;
 }
 
 .reddit-link {
-    padding: 7px 10px 10px;
-    border-left: 5px solid $color-borders-light;
-    border-bottom: 1px solid $color-borders-light;
-    border-right: 1px solid $color-borders-light;
-    margin-right: 5px;
-    background-color: #fff;
-    font-size: 1em;
+  padding: 7px 10px 10px;
+  border-left: 5px solid $color-borders-light;
+  border-bottom: 1px solid $color-borders-light;
+  border-right: 1px solid $color-borders-light;
+  margin-right: 5px;
+  background-color: #fff;
+  font-size: 1em;
 }
 
 .icon-menu li {
-    display: block;
-    margin: 0;
-    padding: 7px 10px 10px !important;
-    border-left: 5px solid $color-borders-light;
-    background-color: #fff;
-    border-bottom: 1px solid $color-borders-light;
-    border-right: 1px solid $color-borders-light;
-    margin-right: 5px !important;
+  display: block;
+  margin: 0;
+  padding: 7px 10px 10px !important;
+  border-left: 5px solid $color-borders-light;
+  background-color: #fff;
+  border-bottom: 1px solid $color-borders-light;
+  border-right: 1px solid $color-borders-light;
+  margin-right: 5px !important;
 }
 
 .search-page .side .spacer {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .sidebox.create {
-    display: none !important;
+  display: none !important;
 }
 
-.helplink~.content {
-    .author {
-        &[href*=AutoModerator],
-        &[href*=flair_your_post_bot] {
-            display: none;
-        }
-        &:after {
-            content: '- Moderator';
-            margin-left: 5px;
-        }
+.helplink ~ .content {
+  .author {
+    &[href*="AutoModerator"],
+    &[href*="flair_your_post_bot"] {
+      display: none;
     }
-    .flair {
-        display: none;
+    &:after {
+      content: "- Moderator";
+      margin-left: 5px;
     }
+  }
+  .flair {
+    display: none;
+  }
 }
 
 .linkinfo {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-.sidecontentbox .helplink+.title h1 {
-    font-size: 0;
-    &:before {
-        font-size: 13px !important;
-        content: "Moderators team";
-        text-transform: capitalize;
-    }
+.sidecontentbox .helplink + .title h1 {
+  font-size: 0;
+  &:before {
+    font-size: 13px !important;
+    content: "Moderators team";
+    text-transform: capitalize;
+  }
 }
 
 #moderation_tools .title {
-    background-color: #00a64f;
+  background-color: #00a64f;
 }
 
-.helplink~.content .author .helplink~.content .author:hover {
-    color: $color-bg-secondary;
+.helplink ~ .content .author .helplink ~ .content .author:hover {
+  color: $color-bg-secondary;
 }
 
 .sidecontentbox .content .linkflairlabel {
-    display: none;
+  display: none;
 }
 
 div.titlebox .md {
-    h3:hover+ul {
-        display: block;
+  h3:hover + ul {
+    display: block;
+  }
+  ul {
+    li strong:first-child,
+    &:hover {
+      display: block;
     }
-    ul {
-        li strong:first-child,
-        &:hover {
-            display: block;
-        }
-        li {
-            margin-right: 5px;
-        }
+    li {
+      margin-right: 5px;
     }
+  }
 }
 
 .sidecontentbox {
-    .content a.author,
-    .more {
-        display: block;
-        background-color: #fff;
-        padding: 7px 10px 10px !important;
-        border: {
-            left: 5px solid $color-borders-light;
-            bottom: 1px solid $color-borders-light;
-            right: 1px solid $color-borders-light;
-        }
-        margin: 0 {
-            right: 5px !important;
-        }
-        font-size: 0.945em;
-        &:hover {
-            background-color: $color-bg-light-hover;
-            border-left-color: $color-border-left-hover;
-        }
+  .content a.author,
+  .more {
+    display: block;
+    background-color: #fff;
+    padding: 7px 10px 10px !important;
+    border: {
+      left: 5px solid $color-borders-light;
+      bottom: 1px solid $color-borders-light;
+      right: 1px solid $color-borders-light;
     }
-    .content {
-        border: none;
-        padding: 0;
+    margin: 0 {
+      right: 5px !important;
     }
-    .more {
-        text-align: center;
-        a {
-            color: #369;
-        }
+    font-size: 0.945em;
+    &:hover {
+      background-color: $color-bg-light-hover;
+      border-left-color: $color-border-left-hover;
     }
-    .title {
-        background-color: $color-bg-main;
-        padding: 10px;
-        border-left: 5px solid $color-bg-alt;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: -10px;
-        font-weight: 400;
+  }
+  .content {
+    border: none;
+    padding: 0;
+  }
+  .more {
+    text-align: center;
+    a {
+      color: #369;
     }
-    a.helplink {
-        display: block;
-        background: $color-bg-main;
-        color: #fff;
-        margin-right: 5px;
-        margin-bottom: 10px;
-        float: none;
-        margin-top: 4px;
-        clear: both;
-        text-align: center;
-        box-sizing: border-box;
-        border-radius: 2px;
-        &:hover {
-            background: $color-bg-secondary;
-        }
+  }
+  .title {
+    background-color: $color-bg-main;
+    padding: 10px;
+    border-left: 5px solid $color-bg-alt;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+    font-weight: 400;
+  }
+  a.helplink {
+    display: block;
+    background: $color-bg-main;
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    float: none;
+    margin-top: 4px;
+    clear: both;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2px;
+    &:hover {
+      background: $color-bg-secondary;
     }
-    .title h1,
-    a.helplink {
-        color: #fff;
-    }
+  }
+  .title h1,
+  a.helplink {
+    color: #fff;
+  }
 }
 
 .icon-menu li:hover,
 .reddit-link:hover {
-    background-color: $color-bg-light-hover;
-    border-left-color: $color-border-left-hover;
+  background-color: $color-bg-light-hover;
+  border-left-color: $color-border-left-hover;
 }
 
 div.titlebox {
-    .md {
-        h3:before {
-            content: "+";
-            color: #fff;
-            padding-right: 5px;
-        }
-        h2,
-        h3,
-        h4 {
-            background-color: $color-bg-main;
-            padding: 10px;
-            border-left: 5px solid $color-bg-alt;
-            margin-top: 0;
-            margin-bottom: 0;
-            margin-left: -10px;
-            font-weight: 400;
-            cursor: default;
-        }
-        ul li {
-            background-color: #fff;
-            padding: 7px 10px 10px;
-            border: {
-                bottom: 1px solid $color-borders-light;
-                left: 5px solid $color-borders-light;
-                right: 1px solid $color-borders-light;
-            }
-            font-size: 0.945em;
-            transition: .2s;
-            &:hover {
-                background-color: $color-bg-light-hover;
-                border-left-color: $color-border-left-hover;
-            }
-        }
+  .md {
+    h3:before {
+      content: "+";
+      color: #fff;
+      padding-right: 5px;
     }
-    h1 {
-        border-left: 5px solid $color-bg-alt;
-        background-color: $color-bg-main;
-        padding: 10px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: -10px;
-        font-size: 13px;
+    h2,
+    h3,
+    h4 {
+      background-color: $color-bg-main;
+      padding: 10px;
+      border-left: 5px solid $color-bg-alt;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: -10px;
+      font-weight: 400;
+      cursor: default;
     }
-    div.styleToggle,
-    span.fancy-toggle-button a.active {
-        padding: 5px 10px;
-        background-color: $color-bg-alt;
-        transition: background-color .5s;
-        color: #fff;
-        font-size: 8pt;
-        display: block !important;
-        background-image: none;
-        font-weight: 400;
-        margin: 0;
-        border: none;
-        border-radius: 2px;
+    ul li {
+      background-color: #fff;
+      padding: 7px 10px 10px;
+      border: {
+        bottom: 1px solid $color-borders-light;
+        left: 5px solid $color-borders-light;
+        right: 1px solid $color-borders-light;
+      }
+      font-size: 0.945em;
+      transition: 0.2s;
+      &:hover {
+        background-color: $color-bg-light-hover;
+        border-left-color: $color-border-left-hover;
+      }
     }
-    div.styleToggle {
-        background-color: $color-bg-main;
-        line-height: 20px;
-        input,
-        label {
-            vertical-align: middle;
-            margin: 0;
-        }
+  }
+  h1 {
+    border-left: 5px solid $color-bg-alt;
+    background-color: $color-bg-main;
+    padding: 10px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+    font-size: 13px;
+  }
+  div.styleToggle,
+  span.fancy-toggle-button a.active {
+    padding: 5px 10px;
+    background-color: $color-bg-alt;
+    transition: background-color 0.5s;
+    color: #fff;
+    font-size: 8pt;
+    display: block !important;
+    background-image: none;
+    font-weight: 400;
+    margin: 0;
+    border: none;
+    border-radius: 2px;
+  }
+  div.styleToggle {
+    background-color: $color-bg-main;
+    line-height: 20px;
+    input,
+    label {
+      vertical-align: middle;
+      margin: 0;
     }
-    span.fancy-toggle-button a.active {
-        &.add:hover,
-        &.remove {
-            background-color: $color-bg-main;
-        }
+  }
+  span.fancy-toggle-button a.active {
+    &.add:hover,
+    &.remove {
+      background-color: $color-bg-main;
     }
-    span.fancy-toggle-button a.active {
-        &.remove {
-            &:before {
-                content: "";
-                padding-right: 5px;
-            }
-            &:hover:after {
-                content: "=(";
-                font-style: italic;
-                padding-left: 5px;
-            }
-        }
-        &.add:before {
-            content: "+";
-            padding-right: 5px;
-            color: #fff;
-        }
+  }
+  span.fancy-toggle-button a.active {
+    &.remove {
+      &:before {
+        content: "";
+        padding-right: 5px;
+      }
+      &:hover:after {
+        content: "=(";
+        font-style: italic;
+        padding-left: 5px;
+      }
     }
+    &.add:before {
+      content: "+";
+      padding-right: 5px;
+      color: #fff;
+    }
+  }
 }
 
 #RESShortcutsAdd,
@@ -551,7 +551,7 @@ div.titlebox {
 #RESShortcutsRight,
 #RESShortcutsSort,
 #RESShortcutsTrash {
-    width: 17px !important;
+  width: 17px !important;
 }
 
 #RESShortcutsAdd,
@@ -560,210 +560,210 @@ div.titlebox {
 #RESShortcutsRight,
 #RESShortcutsSort,
 #RESShortcutsTrash {
-    background-color: transparent !important;
-    &:hover {
-        color: #f0f0f0 !important;
-    }
+  background-color: transparent !important;
+  &:hover {
+    color: #f0f0f0 !important;
+  }
 }
 
 .sidecontentbox .content a.author {
-    display: block;
-    margin: 0;
-    padding: 3px 0;
-    &:hover {
-        color: $color-bg-secondary;
-    }
+  display: block;
+  margin: 0;
+  padding: 3px 0;
+  &:hover {
+    color: $color-bg-secondary;
+  }
 }
 
 #search {
-    input[type=text] {
-        width: 295px !important;
-        border-color: $color-bg-main;
-    }
-    &expando {
-        padding: 10px;
-        border: 1px solid $color-borders-light;
-        border-right: 1px solid $color-borders-light;
-        background-color: #fff;
-        color: #000;
-        font-size: 8pt;
-        border-radius: 0;
-        font-weight: 400;
-        margin: 0 5px 0 0;
-        width: 273px !important;
-        border-left: 1px solid $color-borders-light;
-    }
+  input[type="text"] {
+    width: 295px !important;
+    border-color: $color-bg-main;
+  }
+  &expando {
+    padding: 10px;
+    border: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
+    background-color: #fff;
+    color: #000;
+    font-size: 8pt;
+    border-radius: 0;
+    font-weight: 400;
+    margin: 0 5px 0 0;
+    width: 273px !important;
+    border-left: 1px solid $color-borders-light;
+  }
 }
 
 //disabled
 .leavemoderator,
 .users-online,
 .leavecontributor-button {
-    display: none;
+  display: none;
 }
 
 .icon-menu a {
-    background: 0 0;
+  background: 0 0;
 }
 
 .titlebox .bottom {
-    border: none;
+  border: none;
 }
 
 .titlebox h1 a,
 .pagename a {
-    color: #FFF;
+  color: #fff;
 }
 
 .titlebox .md h3 {
-    +ul:hover,
-    &:hover+ul {
-        max-height: 600px;
-        transition-delay: 0s;
-    }
+  + ul:hover,
+  &:hover + ul {
+    max-height: 600px;
+    transition-delay: 0s;
+  }
 }
 
-div.titlebox .md h3+ul {
-    display: block;
-    transition: 1.8s max-height ease-out;
-    overflow: hidden;
-    max-height: 0;
-    transition-delay: 2s;
+div.titlebox .md h3 + ul {
+  display: block;
+  transition: 1.8s max-height ease-out;
+  overflow: hidden;
+  max-height: 0;
+  transition-delay: 2s;
 }
 
-div.titlebox .md h3:hover+ul {
-    transition: .8s max-height ease-out;
+div.titlebox .md h3:hover + ul {
+  transition: 0.8s max-height ease-out;
 }
 
 .linkinfo {
-    padding: 0;
-    border: none;
-    .score,
-    .shortlink {
-        color: #494949;
-        border-left: 5px solid $color-borders-light;
-        background-color: #fff;
-        border-bottom: 1px solid $color-borders-light;
-        border-right: 1px solid $color-borders-light;
-        font-size: 8pt;
-        margin-right: 5px;
-    }
-    .score {
-        padding: 7px 10px;
-        margin-top: 10px;
-    }
-    .shortlink {
-        display: block;
-        font-weight: 600;
-        text-transform: capitalize;
-        margin-top: 0;
-        padding: 7px 10px 10px;
-    }
-}
-
-.date {
-    position: relative;
-    &:before {
-        content: "Date ";
-        display: block;
-        color: #fff !important;
-        text-transform: none;
-        border-left: 5px solid $color-bg-alt;
-        background-color: $color-bg-main;
-        padding: 10px;
-        cursor: pointer;
-        margin-top: 0;
-        margin-bottom: 6px;
-        margin-left: -10px;
-        font: 400 small verdana, arial, helvetica, sans-serif;
-    }
-    &:after {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        border: {
-            color: transparent $color-borders-light transparent transparent;
-            width: 10px;
-            style: solid;
-        }
-        content: "";
-        margin-left: -19px;
-        margin-top: -32px;
-    }
-    span {
-        display: block;
-        background-color: #fff;
-        padding: 7px 0 10px 10px;
-        border-left: 5px solid $color-borders-light;
-        border-bottom: 1px solid $color-borders-light;
-        margin: -6px 5px -10px 0;
-        border-right: 1px solid $color-borders-light;
-    }
-    span,
-    time {
-        color: #494949;
-        font-size: 9pt;
-    }
-    time {
-        position: absolute;
-        top: 50%;
-        left: 55%;
-        padding: 9px 0 10px 0;
-    }
-}
-
-.totalvotes {
-    display: block;
+  padding: 0;
+  border: none;
+  .score,
+  .shortlink {
+    color: #494949;
+    border-left: 5px solid $color-borders-light;
     background-color: #fff;
-    color: #494949 !important;
+    border-bottom: 1px solid $color-borders-light;
+    border-right: 1px solid $color-borders-light;
+    font-size: 8pt;
+    margin-right: 5px;
+  }
+  .score {
+    padding: 7px 10px;
+    margin-top: 10px;
+  }
+  .shortlink {
+    display: block;
     font-weight: 600;
     text-transform: capitalize;
     margin-top: 0;
     padding: 7px 10px 10px;
+  }
+}
+
+.date {
+  position: relative;
+  &:before {
+    content: "Date ";
+    display: block;
+    color: #fff !important;
+    text-transform: none;
+    border-left: 5px solid $color-bg-alt;
+    background-color: $color-bg-main;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 6px;
+    margin-left: -10px;
+    font: 400 small verdana, arial, helvetica, sans-serif;
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border: {
+      color: transparent $color-borders-light transparent transparent;
+      width: 10px;
+      style: solid;
+    }
+    content: "";
+    margin-left: -19px;
+    margin-top: -32px;
+  }
+  span {
+    display: block;
+    background-color: #fff;
+    padding: 7px 0 10px 10px;
     border-left: 5px solid $color-borders-light;
     border-bottom: 1px solid $color-borders-light;
+    margin: -6px 5px -10px 0;
     border-right: 1px solid $color-borders-light;
-    font-size: 8pt !important;
-    margin-right: 5px;
+  }
+  span,
+  time {
+    color: #494949;
+    font-size: 9pt;
+  }
+  time {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    padding: 9px 0 10px 0;
+  }
+}
+
+.totalvotes {
+  display: block;
+  background-color: #fff;
+  color: #494949 !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 0;
+  padding: 7px 10px 10px;
+  border-left: 5px solid $color-borders-light;
+  border-bottom: 1px solid $color-borders-light;
+  border-right: 1px solid $color-borders-light;
+  font-size: 8pt !important;
+  margin-right: 5px;
 }
 
 .linkinfo .shortlink input {
-    height: 10px;
-    border: none;
-    width: 181px;
-    font-size: 13px;
+  height: 10px;
+  border: none;
+  width: 181px;
+  font-size: 13px;
 }
 
 .account-activity-box,
 .sidecontentbox a.helplink {
-    font-size: 16px;
-    padding: 10px;
-    transition: background-color .5s;
-    text-transform: capitalize;
+  font-size: 16px;
+  padding: 10px;
+  transition: background-color 0.5s;
+  text-transform: capitalize;
 }
 
 .account-activity-box {
-    display: block !important;
-    background: $color-bg-main;
-    margin-right: 5px;
-    border-radius: 2px;
-    &:hover {
-        background: $color-bg-secondary;
-    }
-    a {
-        color: #fff;
-        padding: 10px 70px;
-    }
+  display: block !important;
+  background: $color-bg-main;
+  margin-right: 5px;
+  border-radius: 2px;
+  &:hover {
+    background: $color-bg-secondary;
+  }
+  a {
+    color: #fff;
+    padding: 10px 70px;
+  }
 }
 
 //viewership module
 .side .views {
-    color: #494949;
-    border: {
-        left: 5px solid $color-borders-light;
-        bottom: 1px solid $color-borders-light;
-        right: 1px solid $color-borders-light;
-    }
-    margin-right: 5px;
-    padding: 7px 10px;
+  color: #494949;
+  border: {
+    left: 5px solid $color-borders-light;
+    bottom: 1px solid $color-borders-light;
+    right: 1px solid $color-borders-light;
+  }
+  margin-right: 5px;
+  padding: 7px 10px;
 }

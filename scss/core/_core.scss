@@ -1,18 +1,14 @@
-$font-main: "Segoe UI",
-Helvetica,
-sans-serif !default;
-$font-light: "Segoe UI Light",
-Helvetica,
-sans-serif !default;
+$font-main: "Segoe UI", Helvetica, sans-serif !default;
+$font-light: "Segoe UI Light", Helvetica, sans-serif !default;
 $color-bg-main: #0078d7 !default;
 $color-bg-secondary: lighten($color-bg-main, 15%) !default;
-$color-bg-alt: #F85F73 !default;
+$color-bg-alt: #f85f73 !default;
 $color-bg-active: #1686f0 !default;
 $color-bg-light-hover: #f8fcff !default;
 $color-borders-light: #e6edf6 !default;
 $color-borders-hover: #f9fafc !default;
 $color-border-left-hover: #ccd4e8 !default;
-$color-win: #0078D7 !default;
+$color-win: #0078d7 !default;
 $color-mod: #00a64f;
 //transitions
 // $transition-5: .5s;
@@ -62,7 +58,7 @@ Secondary: #7A0218
       bottom: 0;
       left: 0;
       font-family: $font-main;
-      transition: .5s;
+      transition: 0.5s;
       li {
         font-weight: 400;
         margin: 0;
@@ -76,7 +72,7 @@ Secondary: #7A0218
           padding: 8px 9px 6px;
           letter-spacing: 0.1em;
           text-transform: uppercase;
-          transition: .15s ease-in-out;
+          transition: 0.15s ease-in-out;
           &:hover {
             color: #fff;
             background: $color-bg-secondary;
@@ -103,9 +99,9 @@ Secondary: #7A0218
     width: 27px;
     margin-left: 4px;
     padding: 2px 11px 0 8px;
-    opacity: .8;
+    opacity: 0.8;
     background-repeat: no-repeat !important;
-    transition: .15s ease-in-out;
+    transition: 0.15s ease-in-out;
     border-bottom: 2px solid transparent !important;
     &:hover {
       opacity: 1;
@@ -128,15 +124,15 @@ Secondary: #7A0218
     white-space: nowrap;
     border-radius: 1px;
     overflow: hidden;
-    transition: .5s;
+    transition: 0.5s;
   }
 }
 
 #sr-header-area {
-  transition: opacity .3s;
-  opacity: .4;
+  transition: opacity 0.3s;
+  opacity: 0.4;
   height: 24px;
-  background-color: #0C1722;
+  background-color: #0c1722;
   border-bottom: 0;
   letter-spacing: 1px;
   line-height: 22px;
@@ -180,14 +176,14 @@ Secondary: #7A0218
       border: none;
     }
     a.choice {
-      color: #AEAEAE;
+      color: #aeaeae;
       &:hover {
         background-color: #333;
-        color: #EEE;
+        color: #eee;
       }
     }
     .choice.bottom-option {
-      border-color: #AEAEAE;
+      border-color: #aeaeae;
     }
   }
   .redesign-beta-optin {
@@ -204,15 +200,15 @@ Secondary: #7A0218
 .rank,
 .titlebox .bottom,
 .submit-page .content h1,
-a[href*='#icon']+.keyNavAnnotation,
-a[href*='#/RES_SR_Config/NightModeCompatible'] {
+a[href*="#icon"] + .keyNavAnnotation,
+a[href*="#/RES_SR_Config/NightModeCompatible"] {
   display: none !important;
 }
 
 #url-field button,
-.submit-page .content button[name=submit] {
+.submit-page .content button[name="submit"] {
   background: 0 0;
-  transition: all .5s;
+  transition: all 0.5s;
   border: 1px solid #5cb85c;
   color: #5cb85c;
   &:hover {
@@ -240,7 +236,7 @@ button {
   &.submit-action-thing,
   &.submit-report {
     background: 0 0;
-    transition: .5s;
+    transition: 0.5s;
     text-transform: capitalize;
     font-family: $font-main;
     border: 1px solid #5cb85c;
@@ -257,10 +253,10 @@ button {
     border: 1px solid #d9534f;
     background: 0 0;
     color: #d9534f;
-    padding: .25rem .75rem;
+    padding: 0.25rem 0.75rem;
     text-transform: capitalize;
     font-family: $font-main;
-    transition: .5s;
+    transition: 0.5s;
     &:hover {
       background: #d9534f;
       color: #fff;
@@ -307,7 +303,7 @@ button:active,
   overflow: hidden;
   margin: 0 18px 8px 0;
   .expand {
-    transition: all .5s;
+    transition: all 0.5s;
     position: absolute;
     top: 0;
     left: 0;
@@ -333,7 +329,7 @@ button:active,
 }
 
 .new-comment {
-  border-color: #FFAB91 !important;
+  border-color: #ffab91 !important;
   .expand:hover {
     background: #ffab91;
   }
@@ -348,7 +344,7 @@ button:active,
   border-color: #e2c737;
 }
 
-.comment.gilded>.entry .expand:hover {
+.comment.gilded > .entry .expand:hover {
   background-color: #e2c737;
 }
 
@@ -490,7 +486,7 @@ button:active,
       color: #4d5763;
       text-transform: uppercase;
       font-weight: 700;
-      transition: all .25s ease;
+      transition: all 0.25s ease;
       font-size: 16px;
       border: none;
       width: 247.5px;
@@ -536,7 +532,7 @@ button:active,
   }
 }
 
-form .spacer+.spacer {
+form .spacer + .spacer {
   margin: 0;
 }
 
@@ -549,7 +545,7 @@ form .spacer+.spacer {
 }
 
 //text expando animation
-.self .expanded~.expando .usertext-body {
+.self .expanded ~ .expando .usertext-body {
   -webkit-animation: 700ms expandy ease-in-out forwards;
   animation: 700ms expandy ease-in-out forwards;
 }
@@ -670,7 +666,7 @@ form .spacer+.spacer {
 // REFACTOR: ????
 //high dpi spaghetios
 @media only screen and (min-resolution: 2dppx),
-only screen and (-webkit-min-device-pixel-ratio: 2) {
+  only screen and (-webkit-min-device-pixel-ratio: 2) {
   .expando-button {
     cursor: pointer;
     float: left;
@@ -765,7 +761,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
       }
     }
   }
-  body>.content #siteTable .thing.self .thumbnail {
+  body > .content #siteTable .thing.self .thumbnail {
     background-image: url(%%spritesheet%%);
     background-position: -289px -139px;
     background-size: 341px 331px;
@@ -778,7 +774,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
   background-color: #fff;
 }
 
-body>.content #siteTable .thing {
+body > .content #siteTable .thing {
   &.self .thumbnail {
     background-image: url(%%spritesheet%%);
     width: 45px;
@@ -801,7 +797,7 @@ body>.content #siteTable .thing {
     width: 45px;
     height: 45px;
   }
-  &.stickied .entry>.title .title {
+  &.stickied .entry > .title .title {
     color: $color-mod;
     font-weight: 400;
   }
@@ -871,21 +867,21 @@ a[href*="#icon-more"] {
 }
 
 .listing-page .linklisting {
-  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
-  -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
-  animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) none;
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none;
+  -moz-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) none;
 }
 
 @-webkit-keyframes fade-in-fwd {
   0% {
     -webkit-transform: translateZ(-80px);
     transform: translateZ(-80px);
-    opacity: 0
+    opacity: 0;
   }
   to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -893,12 +889,12 @@ a[href*="#icon-more"] {
   0% {
     -webkit-transform: translateZ(-80px);
     transform: translateZ(-80px);
-    opacity: 0
+    opacity: 0;
   }
   to {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -985,7 +981,7 @@ a[href*="#icon-more"] {
 
 #siteTable .thing {
   margin-left: -5px !important;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .listing-page .link:hover {
@@ -1000,7 +996,7 @@ a[href*="#icon-more"] {
 
 .reddit-infobar {
   background: #fff;
-  BORDER: 1px solid $color-borders-light;
+  border: 1px solid $color-borders-light;
   &.with-icon {
     margin-left: -4px;
     &:before {
@@ -1018,35 +1014,35 @@ a[href*="#icon-more"] {
 }
 
 .sitetable .comment {
-  background-color: #FFF !important;
+  background-color: #fff !important;
   .comment {
     background-color: #f5f5f5 !important;
     .comment {
-      background-color: #FFF !important;
+      background-color: #fff !important;
       .comment {
         background-color: #f5f5f5 !important;
         .comment {
-          background-color: #FFF !important;
+          background-color: #fff !important;
           .comment {
             background-color: #f5f5f5 !important;
             .comment {
-              background-color: #FFF !important;
+              background-color: #fff !important;
               .comment {
                 background-color: #f5f5f5 !important;
                 .comment {
-                  background-color: #FFF !important;
+                  background-color: #fff !important;
                   .comment {
                     background-color: #f5f5f5 !important;
                     .comment {
-                      background-color: #FFF !important;
+                      background-color: #fff !important;
                       .comment {
                         background-color: #f5f5f5 !important;
                         .comment {
-                          background-color: #FFF !important;
+                          background-color: #fff !important;
                           .comment {
                             background-color: #f5f5f5 !important;
                             .comment {
-                              background-color: #FFF !important;
+                              background-color: #fff !important;
                               .comment {
                                 background-color: #f5f5f5 !important;
                               }
@@ -1103,19 +1099,19 @@ a.author {
   padding-right: 1px;
 }
 
-.comment .moderator~.userattrs:after {
+.comment .moderator ~ .userattrs:after {
   position: absolute;
   border: 3px solid #00a64f;
   top: -0.7px;
   right: -1px;
   bottom: -1px;
   left: -1px;
-  content: '';
+  content: "";
   opacity: 0.5;
   z-index: -1;
 }
 
-.stickied.comment .moderator~.userattrs:after {
+.stickied.comment .moderator ~ .userattrs:after {
   border: 0;
 }
 
@@ -1159,7 +1155,7 @@ a.author {
 
 //comments page
 .comments-page {
-  .sitetable.nestedlisting>.thing.stickied {
+  .sitetable.nestedlisting > .thing.stickied {
     background: lighten($color-mod, 66%) !important;
     border-color: rgba(0, 166, 79, 0.1);
     border-bottom: solid 3px $color-mod;
@@ -1181,14 +1177,14 @@ a.author {
   }
   .usertext-edit div textarea {
     border: 1px solid #000 !important;
-    opacity: .8;
+    opacity: 0.8;
     margin-top: 5px;
     outline: 0;
     display: block;
     clear: both;
     margin-bottom: 10px;
     &:focus {
-      background: #FFF !important;
+      background: #fff !important;
       opacity: 1;
       border-color: $color-bg-secondary !important;
     }
@@ -1199,21 +1195,21 @@ a.author {
 }
 
 .comments-page:not(.comment-permalink-page) .sitetable .comment {
-  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000);
-  -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000);
-  animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -moz-animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 @-webkit-keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
-    opacity: 0
+    opacity: 0;
   }
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -1221,12 +1217,12 @@ a.author {
   0% {
     -webkit-transform: translateY(50px);
     transform: translateY(50px);
-    opacity: 0
+    opacity: 0;
   }
   to {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -1252,7 +1248,7 @@ a.author {
       padding: 10px;
       margin: -5px -10px -5px 10px;
       line-height: 8px;
-      transition: all .25s;
+      transition: all 0.25s;
       &:hover {
         background: $color-bg-alt;
       }
@@ -1361,7 +1357,7 @@ a[href*="#tech"] {
   padding: 15px 20px 20px 25px;
   border: none;
   border-radius: 0;
-  background-color: #30659B;
+  background-color: #30659b;
   border-left: 3px solid #ff4500;
   margin: -7px 325px 7px 0;
   left: -5px;
@@ -1382,7 +1378,7 @@ a[href*="#tech"] {
     display: block;
     color: #fff;
     font-size: 16px;
-    transition: background-color .5s;
+    transition: background-color 0.5s;
     text-transform: capitalize;
     border-radius: 0 0 2px 2px;
     &:hover {
@@ -1404,7 +1400,7 @@ span.clear-input-button {
     line-height: 26px !important;
     border: 1px solid grey;
     background: $color-bg-main !important;
-    transition: background-color .5s;
+    transition: background-color 0.5s;
     right: -10px !important;
     &:hover {
       background: $color-bg-secondary !important;
@@ -1440,7 +1436,7 @@ thead th {
 }
 
 tr:nth-child(even) {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .drop-choices {
@@ -1492,9 +1488,9 @@ tr:nth-child(even) {
   bottom: -1px;
   left: -1px;
   text-align: right;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   border: 3px solid #8bb9e2;
-  pointer-events: none
+  pointer-events: none;
 }
 
 //no participation
@@ -1542,17 +1538,20 @@ a[href*="#icon-day"] {
 //chat support
 #chat {
   position: absolute;
-  margin-left: -26.650em;
+  margin-left: -26.65em;
   top: 0.8em;
   padding: 1.34em;
   background: url(%%redditchat%%) 5px no-repeat $color-bg-main;
   border: 0.2em solid #fff;
   border-bottom: 0;
-  transition: .5s;
+  transition: background 0.5s, background-color 0.5s;
   &:hover {
     background-color: $color-bg-secondary;
   }
   &:active {
+    background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
+  }
+  &.active {
     background: url(%%redditchat%%) 5px no-repeat $color-bg-alt;
   }
 }
