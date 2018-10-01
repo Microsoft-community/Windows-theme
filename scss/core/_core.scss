@@ -1347,20 +1347,25 @@ a[href*="#tech"] {
   border-bottom: transparent;
 }
 
-.infobar.newsletterbar {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
-  min-height: 80px;
-  padding: 15px 20px 20px 25px;
-  border: none;
-  border-radius: 0;
-  background-color: #30659b;
-  border-left: 3px solid #ff4500;
-  margin: -7px 325px 7px 0;
-  left: -5px;
+.infobar {
+  &.listingsignupbar {
+    margin: -7px 0 7px -5px !important;
+  }
+  &.newsletterbar {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    min-height: 80px;
+    padding: 15px 20px 20px 25px;
+    border: none;
+    border-radius: 0;
+    background-color: #30659b;
+    border-left: 3px solid #ff4500;
+    margin: -7px 325px 7px 0;
+    left: -5px;
+  }
 }
 
 #eu-cookie-policy .reddit-infobar a {
@@ -1560,3 +1565,10 @@ a[href*="#icon-day"] {
 }
 
 /* #endregion */
+
+.login-form-side {
+  margin-right: 5px;
+  input[type="password"] {
+    width: 137px;
+  }
+}

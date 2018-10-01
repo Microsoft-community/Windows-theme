@@ -1088,6 +1088,9 @@ a[href*="#tech"] {
 .panestack-title {
   border-bottom: transparent; }
 
+.infobar.listingsignupbar {
+  margin: -7px 0 7px -5px !important; }
+
 .infobar.newsletterbar {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1252,8 +1255,15 @@ a[href*="#icon-day"] {
     background: url(%%redditchat%%) 5px no-repeat #01B7F1; }
   #chat.active {
     background: url(%%redditchat%%) 5px no-repeat #01B7F1; }
+    #chat.active:hover {
+      background-color: #01B7F1; }
 
 /* #endregion */
+.login-form-side {
+  margin-right: 5px; }
+  .login-form-side input[type="password"] {
+    width: 137px; }
+
 .side {
   margin: 0;
   padding-left: 30px;
