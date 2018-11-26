@@ -3168,12 +3168,12 @@ html[lang^=nm] #chat {
 
 .spoiler.link {
   background: rgba(234, 84, 85, 0.05);
-  border-left-color: #EA5455; }
+  border-left-color: #ea5455; }
   .spoiler.link .title {
     text-decoration: line-through; }
 
 .spoiler-stamp {
-  color: #EA5455;
+  color: #ea5455;
   font-size: 0;
   line-height: 0; }
   .spoiler-stamp:after {
@@ -3184,7 +3184,7 @@ html[lang^=nm] #chat {
 .spoiler-button .togglebutton:after {
   content: "expire";
   font-size: 11px;
-  color: #EA5455; }
+  color: #ea5455; }
 
 .spoiler-button,
 .unspoiler-button {
@@ -3199,7 +3199,7 @@ html[lang^=nm] #chat {
 .unspoiler-button .togglebutton:after {
   content: "unexpire";
   font-size: 11px;
-  color: #EA5455; }
+  color: #ea5455; }
 
 .linkflair-expired {
   background: rgba(242, 56, 90, 0.05); }
@@ -3210,33 +3210,29 @@ html[lang^=nm] #chat {
     color: #b1b1b1; }
 
 #header .redditname a {
-  font-size: 0;
   background: url(%%x-header%%) -5px -5px no-repeat;
-  margin-left: 20px;
   width: 800px !important;
   height: 100px !important;
   display: block;
   position: absolute;
-  top: 33px !important; }
+  top: 33px !important;
+  font-size: 70px;
+  font-weight: lighter;
+  color: #ecf0f1;
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  margin-left: 100px;
+  line-height: 85px;
+  font-variant: normal;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s; }
   #header .redditname a:hover {
     color: #f1f1f1;
     text-decoration: none;
     background: url(%%x-header%%) -5px -115px no-repeat;
     width: 800px !important;
     height: 100px !important; }
-  #header .redditname a:after {
-    content: "Great Xbox Deals";
-    font-size: 70px;
-    font-weight: lighter;
-    color: #ECF0F1;
-    font-family: "Segoe UI", Helvetica, sans-serif;
-    letter-spacing: .05em;
-    margin-left: 100px;
-    line-height: 85px;
-    font-variant: normal;
-    -webkit-transition: background-color .5s;
-    -o-transition: background-color .5s;
-    transition: background-color .5s; }
 
 @media (max-width: 720px) {
   .side {
@@ -3258,57 +3254,57 @@ html[lang^=nm] #chat {
   display: inline-block;
   margin-bottom: -6px; }
 
-a[href*='#icon-feedback']::before,
-a[href*='#icon-feedbackn']::before,
-a[href*='#icon-night']::before,
-a[href*='#icon-format']::before,
-a[href*='#icon-links']::before,
-a[href*='#icon-filter']::before,
-a[href*='#icon-rules']::before,
-a[href*='#icon-mods']::before,
-a[href*='#icon-xbox']::before {
+a[href*="#icon-feedback"]::before,
+a[href*="#icon-feedbackn"]::before,
+a[href*="#icon-night"]::before,
+a[href*="#icon-format"]::before,
+a[href*="#icon-links"]::before,
+a[href*="#icon-filter"]::before,
+a[href*="#icon-rules"]::before,
+a[href*="#icon-mods"]::before,
+a[href*="#icon-xbox"]::before {
   display: inline-block;
   height: 20px;
   width: 20px;
-  content: '';
+  content: "";
   margin: 0 7px -4px 0; }
 
-a[href*='#icon']:hover {
+a[href*="#icon"]:hover {
   text-decoration: none; }
 
-a[href*='#icon-feedback']::before {
+a[href*="#icon-feedback"]::before {
   background: url(%%x-icons%%) -35px -144px; }
 
-a[href*='#icon-feedbackn']::before {
+a[href*="#icon-feedbackn"]::before {
   background: url(%%x-icons%%) -192px -170px; }
 
-a[href*='#icon-night']::before {
+a[href*="#icon-night"]::before {
   background: url(%%x-icons%%) -5px -5px; }
 
-a[href*='#icon-day']::before {
+a[href*="#icon-day"]::before {
   display: none;
   height: 20px;
   width: 20px;
-  content: '';
+  content: "";
   margin: 0 7px -4px 0;
   background: url(%%x-icons%%) -5px -196px; }
 
-a[href*='#icon-format']::before {
+a[href*="#icon-format"]::before {
   background: url(%%x-icons%%) -90px -47px; }
 
-a[href*='#icon-links']::before {
+a[href*="#icon-links"]::before {
   background: url(%%x-icons%%) -120px -47px; }
 
-a[href*='#icon-filter']::before {
+a[href*="#icon-filter"]::before {
   background: url(%%x-icons%%) -5px -47px; }
 
-a[href*='#icon-rules']::before {
+a[href*="#icon-rules"]::before {
   background: url(%%x-icons%%) -111px -102px; }
 
-a[href*='#icon-mods']::before {
+a[href*="#icon-mods"]::before {
   background: url(%%x-icons%%) -5px -144px; }
 
-a[href*='#icon-xbox']::before {
+a[href*="#icon-xbox"]::before {
   background: url(%%x-icons%%) -107px -144px; }
 
 #header-img.default-header,
@@ -3320,9 +3316,9 @@ a[href*="#icon-day"] {
   font-size: 8pt;
   background: #00aced;
   padding: 10px 11px;
-  -webkit-transition: background-color .5s;
-  -o-transition: background-color .5s;
-  transition: background-color .5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   text-align: center;
   color: #fff;
   margin: 10px 5px; }
@@ -3373,7 +3369,7 @@ a[href*="#icon-day"] {
   #header-bottom-right #new_modmail:hover {
     background-color: #16a916; }
 
-a.author[href$=DreadMcLaren] {
+a.author[href$="DreadMcLaren"] {
   color: #107c10; }
 
 .flair-mod {
@@ -3406,18 +3402,18 @@ a.author[href$=DreadMcLaren] {
 
 .res-nightmode .link .title,
 .res-nightmode .thing.stickied.link a.title,
-html[lang^=nm] .link .title,
-html[lang^=nm] .thing.stickied.link a.title {
+html[lang^="nm"] .link .title,
+html[lang^="nm"] .thing.stickied.link a.title {
   color: #eee !important; }
 
 .res-nightmode #header-bottom-right #new_modmail,
-html[lang^=nm] #header-bottom-right #new_modmail {
+html[lang^="nm"] #header-bottom-right #new_modmail {
   background-color: transparent; }
 
 .res-nightmode .md tr:nth-child(even),
-html[lang^=nm] .md tr:nth-child(even) {
+html[lang^="nm"] .md tr:nth-child(even) {
   background-color: #222222; }
 
 .res-nightmode .md td a,
-html[lang^=nm] .md td a {
+html[lang^="nm"] .md td a {
   color: white !important; }
